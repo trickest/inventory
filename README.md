@@ -1,4 +1,4 @@
-<h1 align="center">Inventory <a href="#"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
+<h1 align="center">Inventory <a href="https://twitter.com/intent/tweet?text=Trickest%20Inventory%20-%20asset%20Inventory%20of%20public%20bug%20bounty%20programs.%0ACollected%20data%20includes%20subdomains%2C%20URLs%2C%20web%20servers%2C%20and%20cloud%20assets.%0Ahttps%3A%2F%2Fgithub.com%2Ftrickest%2Finventory%0A%23bugbounty%20%23infosec%20%23bugbountytips"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
 <h3 align="center">Asset Inventory of public bug bounty programs</h3>
 
 The data we collect here includes subdomains, URLs, web servers, cloud assets, and a lot more data on public bug bounty programs. Our aim with this project is to:
