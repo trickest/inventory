@@ -109,9 +109,11 @@ We have selected a few popular, public bug bounty programs as a start (open to [
         - Wasabi buckets
     - Save each type of resource to its own file for easier navigation.
 
+---
+
 #### Collect and store
+In the end, we deduplicate and merge the results of this workflow execution with the previous executions and push them to this repository.
 ![Trickest Workflow - Collect](screenshots/collect.png "Trickest Workflow - Collect")
-In the end, we merge and deduplicate the results of this workflow execution with the previous executions and push them to this repository.
 
 
 > **As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.**
