@@ -109,12 +109,20 @@ We have selected a few popular, public bug bounty programs as a start (open to [
         - Wasabi buckets
     - Save each type of resource to its own file for easier navigation.
 
+---
+
 #### Collect and store
+In the end, we deduplicate and merge the results of this workflow execution with the previous executions and push them to this repository.
 ![Trickest Workflow - Collect](screenshots/collect.png "Trickest Workflow - Collect")
-In the end, we merge and deduplicate the results of this workflow execution with the previous executions and push them to this repository.
 
 
 > **As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.**
+
+## Custom Usage
+You can use `trickest-cli` (public release soon!) to run this workflow on a custom target(s) using the following command
+```
+trickest execute Inventory --targets targets.json
+```
 
 ## Contribution
 All contribtutions/ideas/suggestions are welcome! If you want to add/edit a target/workflow, feel free to create a new ticket via [GitHub issues](https://github.com/trickest/cve/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](#).
