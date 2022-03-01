@@ -9,8 +9,8 @@ The data we collect here includes subdomains, URLs, web servers, cloud assets, a
 ## Statistics
 ```mermaid
 graph LR
-title{Number of<br>Subdomains} --> Date1[[On 1 February 2022]] --> Num1{{12482}}
-title --> Date2[[Today]] --> Num2{{32983219}}
+title{Number of<br>Subdomains} --> subdomainsDate1[[On 1 February 2022]] --> subdomainsNum1{{12482}}
+title --> subdomainsDate2[[Today]] --> subdomainsNum2{{32983219}}
 ```
 
 ---
@@ -18,21 +18,21 @@ title --> Date2[[Today]] --> Num2{{32983219}}
 ```mermaid
 graph TD
 title{Web Server Root<br>Status Codes} --> 10x[[10x]] --> Num10x{{0}}
-title --> 20x[[20x]] --> Num20x{{921283}}
-title --> 30x[[30x]] --> Num30x{{12123}}
-title --> 40x[[20x]] --> Num40x{{23131}}
-title --> 50x[[50x]] --> Num50x{{92139}}
+title --> 20x[[20x]] --> status20xNum{{921283}}
+title --> 30x[[30x]] --> status30xNum{{12123}}
+title --> 40x[[20x]] --> status40xNum{{23131}}
+title --> 50x[[50x]] --> status50xNum{{92139}}
 ```
 
 ---
 
 ```mermaid
 graph LR
-title{5 Most Used<br>Technologies} --> Tech1{{Apache}}
-title --> Tech2{{Tomcat}}
-title --> Tech3{{Jenkins}}
-title --> Tech4{{Jira}}
-title --> Tech5{{Confluence}}
+title{5 Most Used<br>Technologies} --> tech1{{Apache}}
+title --> tech2{{Tomcat}}
+title --> tech3{{Jenkins}}
+title --> tech4{{Jira}}
+title --> tech5{{Confluence}}
 ```
 
 ---
