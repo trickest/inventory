@@ -17,7 +17,7 @@ title --> subdomainsDate2[[Today]] --> subdomainsNum2{{32983219}}
 
 ```mermaid
 graph TD
-title{Web Server Root<br>Status Codes} --> 10x[[10x]] --> Num10x{{0}}
+title{URL Status Codes} --> 10x[[10x]] --> Num10x{{0}}
 title --> 20x[[20x]] --> status20xNum{{921283}}
 title --> 30x[[30x]] --> status30xNum{{12123}}
 title --> 40x[[20x]] --> status40xNum{{23131}}
