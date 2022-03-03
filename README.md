@@ -62,13 +62,14 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
     - Resolve DNS names using [puredns](https://github.com/d3mondev/puredns) (Thanks [d3mondev](https://github.com/d3mondev)!).
     - Generate permutations using [gotator](https://github.com/Josue87/gotator) (Thanks [Josue87](https://github.com/Josue87)!).
     - Resolve permutated DNS names using [puredns](https://github.com/d3mondev/puredns).
+    - Use [anew](https://github.com/tomnomnom/anew) to pass new results to next steps (Thanks [tomnomnom](https://github.com/tomnomnom)!)
 
 ---
 
 #### Web Servers
 ![Trickest Workflow - Web](screenshots/web.png "Trickest Workflow - Web")
 - For each target:
-    - Probe previously found [hostnames](#Hostnames) using [httpx](https://github.com/projectdiscovery/httpx) to find live web servers and collect their:
+    - Probe previously found [hostnames](#Hostnames) using [httpx](https://github.com/projectdiscovery/httpx) to find live web servers on specific ports (`80,443,8080,5000,3000,8443,8000,4080,8888`) and collect their:
         - HTTP Titles
         - Status Codes
         - Content Length
@@ -81,6 +82,8 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
         - CNAMEs
     - Parse httpx's output and organize it into files for easier navigation.
     - Crawl the found websites using [gospider](https://github.com/jaeles-project/gospider) (Thanks [jaeles-project](https://github.com/jaeles-project/gospider)!)
+    - Use [LinkFinder](https://github.com/GerbenJavado/LinkFinder) for previously found `js` files to get their external links and paths. (Thanks [GerbenJavado](https://github.com/GerbenJavado)!)
+    - Generate files and wordlists by their type
 
 ---
 
@@ -88,7 +91,8 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 ![Trickest Workflow - URLs](screenshots/urls.png "Trickest Workflow - URLs")
 - For each target:
     - Collect URLs using previously found [hostnames](#Hostnames) with [gauplus](https://github.com/bp0lr/gauplus) (Thanks [bp0lr](https://github.com/bp0lr/gauplus)!)
-    - Use [gf](https://github.com/tomnomnom/gf) and [gf-patterns](https://github.com/1ndianl33t/Gf-Patterns) to categorize newly found URLs.
+    - Deduplicate them using [uro](https://github.com/s0md3v/uro) (Thanks [s0md3v](https://github.com/s0md3v)!)
+    - Use [gf](https://github.com/tomnomnom/gf) and [gf-patterns](https://github.com/1ndianl33t/Gf-Patterns) to categorize newly found URLs. (Thanks [tomnomnom](https://github.com/tomnomnom),[1ndianl33t](https://github.com/1ndianl33t)!)
     - Save each pattern's URLs to its own file for easier navigation.
 ---
 
@@ -134,7 +138,7 @@ trickest execute Inventory --targets targets.json
 ```
 
 ## Contribution
-All contributions/ideas/suggestions are welcome! If you want to add/edit a target/workflow, feel free to create a new ticket via [GitHub issues](https://github.com/trickest/cve/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](#).
+All contributions/ideas/suggestions are welcome! If you want to add/edit a target/workflow, feel free to create a new ticket via [GitHub issues](https://github.com/trickest/inventory/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
 
 ## Build your own workflows
 We believe in the value of tinkering. Sign up for a demo on [trickest.com](https://trickest.com) to customize this workflow to your use case, get access to many more workflows, or build your own from scratch!
