@@ -53,10 +53,10 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 - Get the list of targets from [targets.json](https://raw.githubusercontent.com/trickest/inventory/main/targets.json)
 - For each target:
     - Use [subfinder](https://github.com/projectdiscovery/subfinder) and [amass](https://github.com/OWASP/Amass) to collect subdomains from passive OSINT sources (Thanks [ProjectDiscovery](https://github.com/projectdiscovery), [hakluke](https://github.com/hakluke), [OWASP](https://github.com/OWASP), and [Jeff Foley](https://github.com/caffix)!)
-    - Pass the fonud passive subdomains to [dsieve](https://github.com/trickest/dsieve) to collect their `main environments` (e.g. foo.admin.example.com -> admin.example.com). This will be used for:
-      - brute-forcing per environment
-      - more permutations later
     - Use [CeWL](https://github.com/digininja/CeWL) to crawl the main domain and generate a custom wordlist per target (Thanks [digininja](https://github.com/digininja)!).
+    - Pass the found passive subdomains to [dsieve](https://github.com/trickest/dsieve) to collect their `main environments` (e.g. foo.admin.example.com -> admin.example.com). This will be used for:
+      - brute-forcing per environment using wordlist from previous step
+      - more permutations later
     - Combine everything found so far into one `wordlist`.
     - Use [mksub](https://github.com/trickest/mksub) to merge the `wordlist` and the `main environments` along with `root-domains` and generate DNS names.
     - Resolve DNS names using [puredns](https://github.com/d3mondev/puredns) (Thanks [d3mondev](https://github.com/d3mondev)!).
