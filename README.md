@@ -45,11 +45,10 @@ We have selected a few popular, public bug bounty programs as a start, and we ar
 
 A [Trickest](https://trickest.com) workflow picks up these targets, collects data on them, enriches it, cleans it up, and pushes it to this repository.
 
-![Trickest Workflow - Hostnames](screenshots/main.png "Trickest Workflow - Main")
+![Trickest Workflow - Hostnames](inventory.png "Trickest Workflow - Inventory")
 
 ### TB; DZ (Too big; didn't zoom)
 #### Hostnames
-![Trickest Workflow - Hostnames](screenshots/hostnames.png "Trickest Workflow - Hostnames")
 - Get the list of targets from [targets.json](https://raw.githubusercontent.com/trickest/inventory/main/targets.json)
 - For each target:
     - Use [subfinder](https://github.com/projectdiscovery/subfinder) and [amass](https://github.com/OWASP/Amass) to collect subdomains from passive OSINT sources (Thanks [ProjectDiscovery](https://github.com/projectdiscovery), [hakluke](https://github.com/hakluke), [OWASP](https://github.com/OWASP), and [Jeff Foley](https://github.com/caffix)!)
@@ -67,7 +66,6 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 ---
 
 #### Web Servers
-![Trickest Workflow - Web](screenshots/web.png "Trickest Workflow - Web")
 - For each target:
     - Probe previously found [hostnames](#Hostnames) using [httpx](https://github.com/projectdiscovery/httpx) to find live web servers on specific ports (`80,443,8080,5000,3000,8443,8000,4080,8888`) and collect their:
         - HTTP Titles
@@ -88,7 +86,6 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 ---
 
 #### URLs
-![Trickest Workflow - URLs](screenshots/urls.png "Trickest Workflow - URLs")
 - For each target:
     - Collect URLs using previously found [hostnames](#Hostnames) with [gauplus](https://github.com/bp0lr/gauplus) (Thanks [bp0lr](https://github.com/bp0lr/gauplus)!)
     - Deduplicate them using [uro](https://github.com/s0md3v/uro) (Thanks [s0md3v](https://github.com/s0md3v)!)
@@ -97,7 +94,6 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 ---
 
 #### Cloud Resources
-![Trickest Workflow - Cloud](screenshots/cloud.png "Trickest Workflow - Cloud")
 - For each target:
     - Collect cloud resources using [cloud_enum](https://github.com/initstring/cloud_enum) (Thanks [initstring](https://github.com/initstring/cloud_enum)!)
     - Collected resources include
@@ -123,9 +119,7 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 
 ---
 
-#### Collect and store
-![Trickest Workflow - Collect](screenshots/collect.png "Trickest Workflow - Collect")
-
+#### Collection & Storage
 In the end, we deduplicate and merge the results of this workflow execution with the previous executions and push them to this repository.
 
 
