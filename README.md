@@ -31,7 +31,7 @@ Our aim with this project is to:
 │   │   └── wasabi-buckets.txt                   # Wasabi Buckets
 │   ├── network
 │   │   ├── hostnames.txt                        # Hostnames
-│   │   └── ips.txt                              # IP Adresses 
+│   │   └── ips.txt                              # IP Addresses 
 │   ├── org
 │   │   └── email.txt                            # Spidered emails
 │   ├── technologies.txt                         # Technologies
@@ -56,8 +56,8 @@ Our aim with this project is to:
 │   │       ├── rce.txt                          # URLs targeting Remote Code Execution vulnerabilities
 │   │       ├── redirect.txt                     # URLs targeting Redirection vulnerabilities
 │   │       ├── sqli.txt                         # URLs targeting SQL Injection vulnerabilities
-│   │       ├── ssrf.txt                         # URLs targeting Server Side Request Forgery Injection vulnerabilities
-│   │       ├── ssti.txt                         # URLs targeting Server Side Template Injection vulnerabilities
+│   │       ├── ssrf.txt                         # URLs targeting Server-Side Request Forgery vulnerabilities
+│   │       ├── ssti.txt                         # URLs targeting Server-Side Template Injection vulnerabilities
 │   │       └── xss.txt                          # URLs targeting Cross-Site Scripting vulnerabilities
 │   └── wordlists
 │       ├── paths.txt                            # Paths found in javascript files
