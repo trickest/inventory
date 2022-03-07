@@ -2118,6 +2118,7 @@
 ./job-input
 ./jobs
 ./js/frontify-styleguide/colorswatch.2ae859e8063ffb513130.js
+./js/frontify-styleguide/colorswatch.ace3a864797a9910b18e.js
 ./jv
 ./jv.js
 ./jw
@@ -3280,6 +3281,7 @@
 /..
 /../../../img/creditcard/
 /./
+/.source+
 //ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
 //ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js
 //api.tiles.mapbox.com/mapbox.js/v
@@ -3822,6 +3824,7 @@
 /api/group
 /api/group/
 /api/group/brandupdate/
+/api/group/cross-account-permission?account_id=
 /api/group?project_id=
 /api/groups
 /api/groups/
@@ -3830,6 +3833,7 @@
 /api/guidelines/
 /api/hub/create/
 /api/hub/delete/
+/api/hub/delete/{it.hub.id}
 /api/hub/documents/
 /api/hub/domain
 /api/hub/domain/
@@ -3943,6 +3947,7 @@
 /api/project/templates/
 /api/project/timeline?brand_id=
 /api/project/update/
+/api/project/update/{it.project.id}
 /api/project/watch
 /api/projectfontfamily/brandupdate/
 /api/prototype/setting/
@@ -6196,6 +6201,7 @@
 192/png
 240/png
 29/02/
+305/120
 72/png
 A/B-Tests
 AW-856613572/QCuICOqsqXEQxMW7mAM
@@ -7510,6 +7516,7 @@ application/x-powershell
 application/x-sh
 application/x-shar
 application/x-shockwave-flash
+application/x-slate-fragment
 application/x-slim
 application/x-stuffit
 application/x-sv4cpio
@@ -7766,6 +7773,16 @@ dd/mm/yyyy
 delivery-details/instructions
 deps.js
 dev/null
+dnd-core/ADD_SOURCE
+dnd-core/ADD_TARGET
+dnd-core/BEGIN_DRAG
+dnd-core/DROP
+dnd-core/END_DRAG
+dnd-core/HOVER
+dnd-core/INIT_COORDS
+dnd-core/PUBLISH_DRAG_SOURCE
+dnd-core/REMOVE_SOURCE
+dnd-core/REMOVE_TARGET
 dojo/dojo.js
 dom-helpers/class/addClass
 dom-helpers/class/removeClass
@@ -8698,6 +8715,7 @@ style/text_transform
 style/text_underline_offset
 style/text_underline_position
 style/whitespace
+styled-components/native
 stylematic/css
 styletron-legacy/constants
 styletron-react/lib/provider
