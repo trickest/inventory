@@ -12,30 +12,30 @@ Our aim with this project is to:
 ## Statistics
 ```mermaid
 graph LR
-title{Number of<br>Subdomains} --> subdomainsDate1[[On 1 February 2022]] --> subdomainsNum1{{0}}
-title --> subdomainsDate2[[Today]] --> subdomainsNum2{{0}}
+title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{0}}
+title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{0}}
 ```
 
 ---
 
 ```mermaid
 graph TD
-title{URL Status Codes} --> 10x[[10x]] --> Num10x{{0}}
-title --> 20x[[20x]] --> status20xNum{{0}}
-title --> 30x[[30x]] --> status30xNum{{0}}
-title --> 40x[[20x]] --> status40xNum{{0}}
-title --> 50x[[50x]] --> status50xNum{{0}}
+title{URL Status Codes} --> 1xx[[1xx]] --> status1xxNum{{0}}
+title --> 2xx[[2xx]] --> status2xxNum{{0}}
+title --> 3xx[[3xx]] --> status3xxNum{{0}}
+title --> 4xx[[4xx]] --> status4xxNum{{0}}
+title --> 5xx[[5xx]] --> status5xxNum{{0}}
 ```
 
 ---
 
 ```mermaid
 graph LR
-title{5 Most Used<br>Technologies} --> tech1{{Apache}}
-title --> tech2{{Tomcat}}
-title --> tech3{{Jenkins}}
-title --> tech4{{Jira}}
-title --> tech5{{Confluence}}
+title{5 Most Used<br>Technologies} --> tech1{{Tech1}}
+title --> tech2{{Tech2}}
+title --> tech3{{Tech3}}
+title --> tech4{{Tech4}}
+title --> tech5{{Tech5}}
 ```
 
 ---
