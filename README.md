@@ -123,8 +123,59 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 In the end, we deduplicate and merge the results of this workflow execution with the previous executions and push them to this repository.
 
 
-> **As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.**
+**Note**: As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.
 
+## Directory Structure
+```
+├── Target-name
+│   ├── cloud
+│   │   ├── all.txt
+│   │   ├── aws-apps.txt
+│   │   ├── aws-s3-buckets.txt
+│   │   ├── azure-containers.txt
+│   │   ├── azure-databases.txt
+│   │   ├── azure-vms.txt
+│   │   ├── azure-websites.txt
+│   │   ├── digitalocean-spaces.txt
+│   │   ├── dreamhost-buckets.txt
+│   │   ├── gcp-app-engine-apps.txt
+│   │   ├── gcp-buckets.txt
+│   │   ├── gcp-cloud-functions.txt
+│   │   ├── gcp-firebase-databases.txt
+│   │   ├── linode-buckets.txt
+│   │   ├── scaleway-buckets.txt
+│   │   └── wasabi-buckets.txt
+│   ├── network
+│   │   ├── hostnames.txt
+│   │   └── ips.txt
+│   ├── org
+│   │   └── email.txt
+│   ├── requests
+│   │   ├── 20x.txt
+│   │   ├── 30x.txt
+│   │   ├── 40x.txt
+│   │   └── 50x.txt
+│   ├── technologies.txt
+│   ├── web
+│   │   ├── servers.txt
+│   │   ├── spider.txt
+│   │   ├── js.txt
+│   │   ├── links.txt
+│   │   ├── csp.txt
+│   │   ├── servers-extended.txt
+│   │   └── urls
+│   │       ├── all.txt
+│   │       ├── idor.txt
+│   │       ├── lfi.txt
+│   │       ├── rce.txt
+│   │       ├── redirect.txt
+│   │       ├── sqli.txt
+│   │       ├── ssrf.txt
+│   │       ├── ssti.txt
+│   │       └── xss.txt
+│   └── wordlists
+│       └── subdomain.txt
+```
 ## Custom Usage
 You can use `trickest-cli` (public release soon!) to run this workflow on a custom target(s) using the following command:
 ```
