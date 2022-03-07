@@ -9,12 +9,12 @@ http://akamai-apigateway-einvoicing.tesla.com:80 ["Access Denied"] [403] [296] [
 http://akamai-apigateway-finplat-prd.tesla.com:80 ["Access Denied"] [403] [301] ["text/html"] ["104.125.18.99"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-fta.tesla.com:80 ["Access Denied"] [403] [288] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-inventorytxnextapi.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
-http://akamai-apigateway-logisticsratesapi.tesla.com:80 ["Access Denied"] [403] [302] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
+http://akamai-apigateway-logisticsratesapi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.125.18.99"] ["https://akamai-apigateway-logisticsratesapi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://akamai-apigateway-materials.tesla.com:80 ["Access Denied"] [403] [295] ["text/html"] ["104.125.18.99"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-mfs-supplier-uat.tesla.com:80 ["Access Denied"] [403] [309] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-mfs-supplier.tesla.com:80 ["Access Denied"] [403] [302] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-payment.tesla.com:80 ["Access Denied"] [403] [292] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
-http://akamai-apigateway-procuretopayapi.tesla.com:80 ["Access Denied"] [403] [300] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
+http://akamai-apigateway-procuretopayapi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.125.18.99"] ["https://akamai-apigateway-procuretopayapi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://akamai-apigateway-profileapi.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-qa-captiveunderwriting.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-scraprecycle.tesla.com:80 ["Access Denied"] [403] [297] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
@@ -28,7 +28,7 @@ http://akamai-apigateway-stg-inventorytxnextapi.tesla.com:80 [null] [401] [75] [
 http://akamai-apigateway-stg-packaging2.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["2.20.40.131"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg-payment.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.111.226.14"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg-procuretopayapi.tesla.com:80 ["Access Denied"] [403] [308] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
-http://akamai-apigateway-stg-sandbox-automation.tesla.com:80 ["Access Denied"] [403] [315] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
+http://akamai-apigateway-stg-sandbox-automation.tesla.com:80 ["404 Not Found"] [404] [548] ["text/html"] ["104.125.18.99"] ["https://akamai-apigateway-stg-sandbox-automation.tesla.com/"] [null] [null] [];
 http://akamai-apigateway-stg-shipmentplanningapi.tesla.com:80 ["Access Denied"] [403] [312] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg-teslarpsapi.tesla.com:80 ["Access Denied"] [403] [305] ["text/html"] ["104.125.18.99"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg-translationpipeline.tesla.com:80 ["Access Denied"] [403] [313] ["text/html"] ["104.125.18.99"] [null] ["AkamaiGHost"] [null] [];
@@ -84,7 +84,7 @@ http://ehs.tesla.com:80 ["MyEHS"] [200] [4182] ["text/html"] ["104.92.71.218"] [
 http://einvoicing.tesla.com:80 ["Access Denied"] [403] [270] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 http://employeefeedback.tesla.com:80 [null] [200] [4964] ["text/html"] ["104.111.232.47"] ["https://employeefeedback.tesla.com/login?path=%2FQ%2FIdentitySection%2FFinishSSO&product=ControlPanel"] [null] [["Envoy"]] [];
 http://energydesk.tesla.com:80 ["400 Bad Request"] [400] [524] ["text/html"] ["136.143.182.74"] ["https://energydesk.tesla.com/"] ["ZGS"] [null] [];
-http://energysupport.tesla.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [220] ["text/html"] ["136.143.190.74"] [null] ["ZGS"] [null] [];
+http://energysupport.tesla.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [622] ["text/html"] ["136.143.190.74"] [null] ["ZGS"] [null] [];
 http://engage.tesla.com:443 ["ERROR: The request could not be satisfied"] [400] [915] ["text/html"] ["143.204.98.41"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
 http://engage.tesla.com:80 ["Engage Tesla"] [200] [489818] ["text/html"] ["108.157.4.112"] ["https://engage.tesla.com/"] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 http://envoy-finplat-stg.tesla.com:80 [null] [401] [14] ["text/plain"] ["2.20.40.131"] ["https://envoy-finplat-stg.tesla.com/"] [null] [null] [];
@@ -139,7 +139,7 @@ http://partners.tesla.com:80 ["Partner Portal"] [200] [4283] ["text/html"] ["104
 http://pay.tesla.com:80 ["Tesla - Payment"] [200] [4335] ["text/html"] ["104.92.71.218"] ["https://pay.tesla.com/"] [null] [["Akamai","Express","Node.js"]] [];
 http://pm-bounces.tesla.com:80 ["Postmark — Email delivery for web apps"] [200] [4424] ["text/html"] ["138.197.30.54"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
 http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["173.223.170.73"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
-http://profile.tesla.com:80 ["Access Denied"] [403] [266] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
+http://profile.tesla.com:80 ["Connect"] [200] [6528] ["text/html"] ["104.92.71.218"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 http://pub.email.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 http://ranger.tesla.com:80 ["RangerWeb"] [200] [4282] ["text/html"] ["2.20.40.131"] ["https://ranger.tesla.com/"] [null] [["Akamai","Google Font API"]] [];
 http://reassignment-ui.tesla.com:80 ["Contract Reassignment UI"] [200] [3679] ["text/html"] ["104.89.18.184"] ["https://reassignment-ui.tesla.com/"] [null] [["Akamai"]] [];
@@ -159,7 +159,7 @@ http://sspr.tesla.com:80 ["Tesla – Self Service Password Reset"] [200] [156002
 http://stage-traffic-flow-test.tesla.com:80 [null] [403] [null] [null] ["104.89.18.184"] ["https://stage-traffic-flow-test.tesla.com/"] ["Varnish"] [["Varnish"]] [];
 http://static-assets-pay.tesla.com:80 ["Error"] [404] [139] ["text/html"] ["2.20.40.131"] ["https://static-assets-pay.tesla.com/"] [null] [["Express","Node.js"]] [];
 http://static-assets-profile-settings.tesla.com:80 ["Profile Settings"] [200] [3978] ["text/html"] ["104.90.109.222"] ["https://static-assets-profile-settings.tesla.com/"] [null] [["Akamai"]] [];
-http://static-assets-teslaaccount.tesla.com:80 ["Teslaaccount"] [200] [3968] ["text/html"] ["104.90.109.222"] ["https://static-assets-teslaaccount.tesla.com/"] [null] [["Akamai"]] [];
+http://static-assets-teslaaccount.tesla.com:80 ["Teslaaccount"] [200] [3970] ["text/html"] ["104.125.18.99"] ["https://static-assets-teslaaccount.tesla.com/"] [null] [["Akamai"]] [];
 http://static-assets.tesla.com:80 ["404 Not Found"] [404] [571] ["text/html"] ["104.111.226.14"] ["https://static-assets.tesla.com/"] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
 http://static-map.tesla.com:80 [null] [404] [null] [null] ["2.20.40.131"] ["https://static-map.tesla.com/"] [null] [["Varnish"]] [];
 http://suppliers-stg.tesla.com:80 ["Supplier Relationship Management"] [200] [736] ["text/html"] ["104.89.18.184"] ["https://suppliers-stg.tesla.com/"] [null] [null] [];
@@ -209,7 +209,7 @@ https://akamai-apigateway-procuretopayapi.tesla.com:443 ["Access Denied"] [403] 
 https://akamai-apigateway-profileapi.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-qa-captiveunderwriting.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-scraprecycle.tesla.com:443 ["Access Denied"] [403] [297] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
-https://akamai-apigateway-shipmentplanningapi.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["23.210.252.68"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
+https://akamai-apigateway-shipmentplanningapi.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.125.18.99"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 https://akamai-apigateway-stg-bender.tesla.com:443 ["404 Not Found"] [404] [548] ["text/html"] ["104.90.109.222"] [null] [null] [null] [];
 https://akamai-apigateway-stg-captiveunderwriting.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg-deliveryopsapi.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
@@ -219,7 +219,7 @@ https://akamai-apigateway-stg-inventorytxnextapi.tesla.com:443 [null] [401] [75]
 https://akamai-apigateway-stg-packaging2.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["2.20.40.131"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg-payment.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.111.226.14"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg-procuretopayapi.tesla.com:443 ["Access Denied"] [403] [308] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
-https://akamai-apigateway-stg-sandbox-automation.tesla.com:443 ["Access Denied"] [403] [315] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
+https://akamai-apigateway-stg-sandbox-automation.tesla.com:443 ["404 Not Found"] [404] [146] ["text/html"] ["104.125.18.99"] [null] [null] [null] [];
 https://akamai-apigateway-stg-shipmentplanningapi.tesla.com:443 ["Access Denied"] [403] [312] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg-teslarpsapi.tesla.com:443 ["Access Denied"] [403] [305] ["text/html"] ["104.125.18.99"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg-translationpipeline.tesla.com:443 ["Access Denied"] [403] [313] ["text/html"] ["104.125.18.99"] [null] ["AkamaiGHost"] [null] [];
@@ -278,7 +278,7 @@ https://einvoicing.tesla.com:443 ["Access Denied"] [403] [270] ["text/html"] ["1
 https://employeefeedback.tesla.com:443 [null] [302] [51] ["text/html"] ["104.92.110.204"] [null] [null] [["Envoy"]] [];
 https://energydesk.tesla.com:443 ["400 Bad Request"] [400] [524] ["text/html"] ["136.143.182.74"] [null] ["ZGS"] [null] [];
 https://energysupport.tesla.com:443 [null] [200] [15499] ["text/html"] ["136.143.182.74"] ["https://energysupport.tesla.com/portal/en/home"] ["ZGS"] [null] [];
-https://engage.tesla.com:443 ["Engage Tesla"] [200] [490111] ["text/html"] ["143.204.98.41"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
+https://engage.tesla.com:443 ["Engage Tesla"] [200] [489314] ["text/html"] ["52.222.236.81"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 https://envoy-finplat-stg.tesla.com:443 [null] [401] [14] ["text/plain"] ["2.20.40.131"] [null] [null] [null] [];
 https://envoy-partnerleadsharing.tesla.com:443 [null] [401] [14] ["text/plain"] ["2.20.40.131"] [null] [null] [null] [];
 https://envoy-partnertasks.tesla.com:443 [null] [401] [14] ["text/plain"] ["104.89.18.184"] [null] [null] [null] [];
@@ -329,7 +329,7 @@ https://pages.emails.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] 
 https://partners.tesla.com:443 ["Partner Portal"] [200] [4283] ["text/html"] ["104.92.71.218"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 https://pay.tesla.com:443 ["Tesla - Payment"] [200] [4332] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai","Express","Node.js"]] [];
 https://powerhub.energy.tesla.com:443 [null] [302] [245] ["text/plain"] ["104.125.13.209"] [null] [null] [null] [];
-https://profile.tesla.com:443 ["Connect"] [200] [6528] ["text/html"] ["23.210.252.68"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
+https://profile.tesla.com:443 ["Connect"] [200] [6528] ["text/html"] ["104.92.71.218"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 https://pub.email.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 https://ranger.tesla.com:443 ["RangerWeb"] [200] [4278] ["text/html"] ["2.20.40.131"] [null] [null] [["Akamai","Google Font API"]] [];
 https://reassignment-ui.tesla.com:443 ["Contract Reassignment UI"] [200] [3677] ["text/html"] ["104.89.18.184"] [null] [null] [["Akamai"]] [];
@@ -350,7 +350,7 @@ https://sspr.tesla.com:443 ["Tesla – Self Service Password Reset"] [200] [1560
 https://stage-traffic-flow-test.tesla.com:443 [null] [403] [null] [null] ["104.90.109.222"] [null] ["Varnish"] [["Varnish"]] [];
 https://static-assets-pay.tesla.com:443 ["Error"] [404] [139] ["text/html"] ["2.20.40.131"] [null] [null] [["Express","Node.js"]] [];
 https://static-assets-profile-settings.tesla.com:443 ["Profile Settings"] [200] [3974] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];
-https://static-assets-teslaaccount.tesla.com:443 ["Teslaaccount"] [200] [3969] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];
+https://static-assets-teslaaccount.tesla.com:443 ["Teslaaccount"] [200] [3970] ["text/html"] ["104.125.18.99"] [null] [null] [["Akamai"]] [];
 https://static-assets.tesla.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["104.111.226.14"] [null] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
 https://static-map.tesla.com:443 [null] [404] [null] [null] ["2.20.40.131"] [null] [null] [["Varnish"]] [];
 https://suppliers-stg.tesla.com:443 ["Supplier Relationship Management"] [200] [736] ["text/html"] ["104.89.18.184"] [null] [null] [null] [];
