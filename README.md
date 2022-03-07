@@ -9,36 +9,61 @@ Our aim with this project is to:
 - give security teams better visibility into their assets.
 - reduce the load and noise that some programs face from automated tools (we run them on schedule, give the results to everyone)
 
-## Statistics
-```mermaid
-graph LR
-title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{0}}
-title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{0}}
+## Directory Structure
 ```
-
----
-
-```mermaid
-graph TD
-title{URL Status Codes} --> 1xx[[1xx]] --> status1xxNum{{0}}
-title --> 2xx[[2xx]] --> status2xxNum{{0}}
-title --> 3xx[[3xx]] --> status3xxNum{{0}}
-title --> 4xx[[4xx]] --> status4xxNum{{0}}
-title --> 5xx[[5xx]] --> status5xxNum{{0}}
+├── Target
+│   ├── cloud
+│   │   ├── all.txt                              # All Cloud Assets
+│   │   ├── aws-apps.txt                         # AWS Apps
+│   │   ├── aws-s3-buckets.txt                   # S3 Buckets
+│   │   ├── azure-containers.txt                 # Azure Containers
+│   │   ├── azure-databases.txt                  # Azure Databases
+│   │   ├── azure-vms.txt                        # Azure VMs
+│   │   ├── azure-websites.txt                   # Azure Websites
+│   │   ├── digitalocean-spaces.txt              # Digital Ocean Spaces
+│   │   ├── dreamhost-buckets.txt                # DreamHost Buckets
+│   │   ├── gcp-app-engine-apps.txt              # Google Cound App Engine Apps
+│   │   ├── gcp-buckets.txt                      # Google Cloud Buckets
+│   │   ├── gcp-cloud-functions.txt              # Google Cloud Functions
+│   │   ├── gcp-firebase-databases.txt           # Google Cloud Firebase Databases
+│   │   ├── linode-buckets.txt                   # Linode Buckets
+│   │   ├── scaleway-buckets.txt                 # Scaleway Buckets
+│   │   └── wasabi-buckets.txt                   # Wasabi Buckets
+│   ├── network
+│   │   ├── hostnames.txt                        # Hostnames
+│   │   └── ips.txt                              # IP Adresses 
+│   ├── org
+│   │   └── email.txt                            # Spidered emails
+│   ├── technologies.txt                         # Technologies
+│   ├── web
+│   │   ├── csp.txt                              # All Content Security Policy hosts
+│   │   ├── forms.txt                            # Spidered forms
+│   │   ├── js.txt                               # Spidered Javascript files
+│   │   ├── links.txt                            # Spidered links
+│   │   ├── requests
+│   │   │   ├── 1xx.txt                          # Requests with 1xx Status
+│   │   │   ├── 2xx.txt                          # Requests with 2xx Status 
+│   │   │   ├── 3xx.txt                          # Requests with 3xx Status
+│   │   │   ├── 4xx.txt                          # Requests with 4xx Status
+│   │   │   └── 5xx.txt                          # Requests with 5xx Status
+│   │   ├── servers-extended.txt                 # Web Servers with additional data
+│   │   ├── servers.txt                          # Web Server URLs
+│   │   ├── spider.txt                           # All Spidered data
+│   │   └── urls
+│   │       ├── all.txt                          # All gathered URLs
+│   │       ├── idor.txt                         # URLs targeting Insecure Direct Object Reference vulnerabilities
+│   │       ├── lfi.txt                          # URLs targeting Local File Inclusion vulnerabilities
+│   │       ├── rce.txt                          # URLs targeting Remote Code Execution vulnerabilities
+│   │       ├── redirect.txt                     # URLs targeting Redirection vulnerabilities
+│   │       ├── sqli.txt                         # URLs targeting SQL Injection vulnerabilities
+│   │       ├── ssrf.txt                         # URLs targeting Server Side Request Forgery Injection vulnerabilities
+│   │       ├── ssti.txt                         # URLs targeting Server Side Template Injection vulnerabilities
+│   │       └── xss.txt                          # URLs targeting Cross-Site Scripting vulnerabilities
+│   └── wordlists
+│       ├── paths.txt                            # Paths found in javascript files
+│       ├── robots.txt                           # Paths found in robots.txt files
+│       └── subdomain.txt                        # Words found in root domain HTTP Response
 ```
-
----
-
-```mermaid
-graph LR
-title{5 Most Used<br>Technologies} --> tech1{{Tech1}}
-title --> tech2{{Tech2}}
-title --> tech3{{Tech3}}
-title --> tech4{{Tech4}}
-title --> tech5{{Tech5}}
-```
-
----
 
 ## How it works
 We have selected a few popular, public bug bounty programs as a start, and we are open to [suggestions](#contribution)!
@@ -129,66 +154,44 @@ In the end, we deduplicate and merge the results of this workflow execution with
 
 > **Note**: As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.
 
-## Directory Structure
-```
-├── Target
-│   ├── cloud
-│   │   ├── all.txt                              # All Cloud Assets
-│   │   ├── aws-apps.txt                         # AWS Apps
-│   │   ├── aws-s3-buckets.txt                   # S3 Buckets
-│   │   ├── azure-containers.txt                 # Azure Containers
-│   │   ├── azure-databases.txt                  # Azure Databases
-│   │   ├── azure-vms.txt                        # Azure VMs
-│   │   ├── azure-websites.txt                   # Azure Websites
-│   │   ├── digitalocean-spaces.txt              # Digital Ocean Spaces
-│   │   ├── dreamhost-buckets.txt                # DreamHost Buckets
-│   │   ├── gcp-app-engine-apps.txt              # Google Cound App Engine Apps
-│   │   ├── gcp-buckets.txt                      # Google Cloud Buckets
-│   │   ├── gcp-cloud-functions.txt              # Google Cloud Functions
-│   │   ├── gcp-firebase-databases.txt           # Google Cloud Firebase Databases
-│   │   ├── linode-buckets.txt                   # Linode Buckets
-│   │   ├── scaleway-buckets.txt                 # Scaleway Buckets
-│   │   └── wasabi-buckets.txt                   # Wasabi Buckets
-│   ├── network
-│   │   ├── hostnames.txt                        # Hostnames
-│   │   └── ips.txt                              # IP Adresses 
-│   ├── org
-│   │   └── email.txt                            # Spidered emails
-│   ├── technologies.txt                         # Technologies
-│   ├── web
-│   │   ├── csp.txt                              # All Content Security Policy hosts
-│   │   ├── forms.txt                            # Spidered forms
-│   │   ├── js.txt                               # Spidered Javascript files
-│   │   ├── links.txt                            # Spidered links
-│   │   ├── requests
-│   │   │   ├── 1xx.txt                          # Requests with 1xx Status
-│   │   │   ├── 2xx.txt                          # Requests with 2xx Status 
-│   │   │   ├── 3xx.txt                          # Requests with 3xx Status
-│   │   │   ├── 4xx.txt                          # Requests with 4xx Status
-│   │   │   └── 5xx.txt                          # Requests with 5xx Status
-│   │   ├── servers-extended.txt                 # Web Servers with additional data
-│   │   ├── servers.txt                          # Web Server URLs
-│   │   ├── spider.txt                           # All Spidered data
-│   │   └── urls
-│   │       ├── all.txt                          # All gathered URLs
-│   │       ├── idor.txt                         # URLs targeting Insecure Direct Object Reference vulnerabilities
-│   │       ├── lfi.txt                          # URLs targeting Local File Inclusion vulnerabilities
-│   │       ├── rce.txt                          # URLs targeting Remote Code Execution vulnerabilities
-│   │       ├── redirect.txt                     # URLs targeting Redirection vulnerabilities
-│   │       ├── sqli.txt                         # URLs targeting SQL Injection vulnerabilities
-│   │       ├── ssrf.txt                         # URLs targeting Server Side Request Forgery Injection vulnerabilities
-│   │       ├── ssti.txt                         # URLs targeting Server Side Template Injection vulnerabilities
-│   │       └── xss.txt                          # URLs targeting Cross-Site Scripting vulnerabilities
-│   └── wordlists
-│       ├── paths.txt                            # Paths found in javascript files
-│       ├── robots.txt                           # Paths found in robots.txt files
-│       └── subdomain.txt                        # Words found in root domain HTTP Response
-```
+
 ## Custom Usage
 You can use `trickest-cli` (public release soon!) to run this workflow on a custom target(s) using the following command:
 ```
 trickest execute Inventory --targets targets.json
 ```
+
+## Statistics
+```mermaid
+graph LR
+title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{0}}
+title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{0}}
+```
+
+---
+
+```mermaid
+graph TD
+title{URL Status Codes} --> 1xx[[1xx]] --> status1xxNum{{0}}
+title --> 2xx[[2xx]] --> status2xxNum{{0}}
+title --> 3xx[[3xx]] --> status3xxNum{{0}}
+title --> 4xx[[4xx]] --> status4xxNum{{0}}
+title --> 5xx[[5xx]] --> status5xxNum{{0}}
+```
+
+---
+
+```mermaid
+graph LR
+title{5 Most Used<br>Technologies} --> tech1{{Tech1}}
+title --> tech2{{Tech2}}
+title --> tech3{{Tech3}}
+title --> tech4{{Tech4}}
+title --> tech5{{Tech5}}
+```
+
+---
+
 
 ## Contribution
 All contributions/ideas/suggestions are welcome! If you want to add/edit a target/workflow, feel free to create a new ticket via [GitHub issues](https://github.com/trickest/inventory/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
