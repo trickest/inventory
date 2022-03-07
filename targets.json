@@ -1,0 +1,107 @@
+{
+    "targets": [
+            {
+                "name": "Uber",
+                "domains": [
+                    "uber.com",
+                    "ubereats.com",
+                    "uberinternal.com"
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Apple",
+                "domains": [
+                    "apple.com",
+                    "icloud.com"
+                ],
+                "url_filters": [
+                    ".*phobos.*"
+                ]
+            },
+            {
+                "name": "Github",
+                "domains": [
+                    "github.com",
+                    "githubapp.com",
+                    "githubusercontent.com"
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Paypal",
+                "domains": [
+                    "paypal.com",
+                    "xoom.com"
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Tesla",
+                "domains": [
+                    "tesla.com"
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Facebook",
+                "domains": [
+                    "facebook.com",
+                    "fb.com",
+                    "instagram.com",
+                    "oculus.com",
+                    "internalfb.com",
+                    "thefacebook.com",
+                    "workplace.com"
+
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Bugcrowd",
+                "domains": [
+                    "bugcrowd.com"
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Hackerone",
+                "domains": [
+                    "hackerone.com",
+                    "hacker101.com",
+                    "hackerone.net",
+                    "hackerone-ext-content.com"
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Snapchat",
+                "domains": [
+                    "snapchat.com"
+                ],
+                "url_filters": []
+            },
+            {
+                "name": "Twitter",
+                "domains": [
+                    "twitter.com",
+                    "vine.co",
+                    "periscope.tv",
+                    "twimg.com",
+                    "pscp.tv",
+                    "twttr.com"
+                ],
+                "url_filters": [
+                    "twitter.com/.+/status/[0-9]+",
+                    "syndication",
+                    "*.ts$",
+                    ".*video.pscp.tv.*",
+                    ".*video.periscope.tv.*",
+                    ".*oembed.*",
+                    ".*www.pscp.tv.*",
+                    ".*/w/.*",
+                    ".*m3u8$"
+                ]
+            }
+        ]
+}

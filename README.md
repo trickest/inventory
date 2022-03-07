@@ -12,8 +12,8 @@ Our aim with this project is to:
 ## Statistics
 ```mermaid
 graph LR
-title{Number of<br>Subdomains} --> subdomainsDate1[[On 1 February 2022]] --> subdomainsNum1{{12482}}
-title --> subdomainsDate2[[Today]] --> subdomainsNum2{{32983219}}
+title{Number of<br>Subdomains} --> subdomainsDate1[[On 1 February 2022]] --> subdomainsNum1{{0}}
+title --> subdomainsDate2[[Today]] --> subdomainsNum2{{0}}
 ```
 
 ---
@@ -21,10 +21,10 @@ title --> subdomainsDate2[[Today]] --> subdomainsNum2{{32983219}}
 ```mermaid
 graph TD
 title{URL Status Codes} --> 10x[[10x]] --> Num10x{{0}}
-title --> 20x[[20x]] --> status20xNum{{921283}}
-title --> 30x[[30x]] --> status30xNum{{12123}}
-title --> 40x[[20x]] --> status40xNum{{23131}}
-title --> 50x[[50x]] --> status50xNum{{92139}}
+title --> 20x[[20x]] --> status20xNum{{0}}
+title --> 30x[[30x]] --> status30xNum{{0}}
+title --> 40x[[20x]] --> status40xNum{{0}}
+title --> 50x[[50x]] --> status50xNum{{0}}
 ```
 
 ---
@@ -56,7 +56,8 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
     - Pass the found passive subdomains to [dsieve](https://github.com/trickest/dsieve) to collect their `main environments` (e.g. foo.admin.example.com -> admin.example.com). This will be used for:
       - brute-forcing per environment using wordlist from previous step
       - more permutations later
-    - Combine everything found so far into one `wordlist`.
+    - Get pre-defined `wordlist`
+    - Combine everything into one `wordlist`.
     - Use [mksub](https://github.com/trickest/mksub) to merge the `wordlist` and the `main environments` along with `root-domains` and generate DNS names.
     - Resolve DNS names using [puredns](https://github.com/d3mondev/puredns) (Thanks [d3mondev](https://github.com/d3mondev)!).
     - Generate permutations using [gotator](https://github.com/Josue87/gotator) (Thanks [Josue87](https://github.com/Josue87)!).
@@ -87,10 +88,12 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 
 #### URLs
 - For each target:
-    - Collect URLs using previously found [hostnames](#Hostnames) with [gauplus](https://github.com/bp0lr/gauplus) (Thanks [bp0lr](https://github.com/bp0lr/gauplus)!)
-    - Deduplicate them using [uro](https://github.com/s0md3v/uro) (Thanks [s0md3v](https://github.com/s0md3v)!)
+    - Collect URLs using newly found [hostnames](#Hostnames) with [gauplus](https://github.com/bp0lr/gauplus) (Thanks [bp0lr](https://github.com/bp0lr/gauplus)!)
+    - Extract filters from `targets.json` and filter out using `grep`
+    - Deduplicate them using [urldedupe](https://github.com/ameenmaali/urldedupe) (Thanks [ameenmaali](https://github.com/ameenmaali)!)
     - Use [gf](https://github.com/tomnomnom/gf) and [gf-patterns](https://github.com/1ndianl33t/Gf-Patterns) to categorize newly found URLs. (Thanks [tomnomnom](https://github.com/tomnomnom),[1ndianl33t](https://github.com/1ndianl33t)!)
     - Save each pattern's URLs to its own file for easier navigation.
+  
 ---
 
 #### Cloud Resources
@@ -116,65 +119,70 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
         - Scaleway Buckets
         - Wasabi Buckets
     - Save each type of resource to its own file for easier navigation.
-
+  
 ---
 
 #### Collection & Storage
 In the end, we deduplicate and merge the results of this workflow execution with the previous executions and push them to this repository.
 
+---
 
-**Note**: As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.
+> **Note**: As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.
 
 ## Directory Structure
 ```
-├── Target-name
+├── Target
 │   ├── cloud
-│   │   ├── all.txt
-│   │   ├── aws-apps.txt
-│   │   ├── aws-s3-buckets.txt
-│   │   ├── azure-containers.txt
-│   │   ├── azure-databases.txt
-│   │   ├── azure-vms.txt
-│   │   ├── azure-websites.txt
-│   │   ├── digitalocean-spaces.txt
-│   │   ├── dreamhost-buckets.txt
-│   │   ├── gcp-app-engine-apps.txt
-│   │   ├── gcp-buckets.txt
-│   │   ├── gcp-cloud-functions.txt
-│   │   ├── gcp-firebase-databases.txt
-│   │   ├── linode-buckets.txt
-│   │   ├── scaleway-buckets.txt
-│   │   └── wasabi-buckets.txt
+│   │   ├── all.txt                              # All Cloud Assets
+│   │   ├── aws-apps.txt                         # AWS Apps
+│   │   ├── aws-s3-buckets.txt                   # S3 Buckets
+│   │   ├── azure-containers.txt                 # Azure Containers
+│   │   ├── azure-databases.txt                  # Azure Databases
+│   │   ├── azure-vms.txt                        # Azure VMs
+│   │   ├── azure-websites.txt                   # Azure Websites
+│   │   ├── digitalocean-spaces.txt              # Digital Ocean Spaces
+│   │   ├── dreamhost-buckets.txt                # DreamHost Buckets
+│   │   ├── gcp-app-engine-apps.txt              # Google Cound App Engine Apps
+│   │   ├── gcp-buckets.txt                      # Google Cloud Buckets
+│   │   ├── gcp-cloud-functions.txt              # Google Cloud Functions
+│   │   ├── gcp-firebase-databases.txt           # Google Cloud Firebase Databases
+│   │   ├── linode-buckets.txt                   # Linode Buckets
+│   │   ├── scaleway-buckets.txt                 # Scaleway Buckets
+│   │   └── wasabi-buckets.txt                   # Wasabi Buckets
 │   ├── network
-│   │   ├── hostnames.txt
-│   │   └── ips.txt
+│   │   ├── hostnames.txt                        # Hostnames
+│   │   └── ips.txt                              # IP Adresses 
 │   ├── org
-│   │   └── email.txt
-│   ├── requests
-│   │   ├── 20x.txt
-│   │   ├── 30x.txt
-│   │   ├── 40x.txt
-│   │   └── 50x.txt
-│   ├── technologies.txt
+│   │   └── email.txt                            # Spidered emails
+│   ├── technologies.txt                         # Technologies
 │   ├── web
-│   │   ├── servers.txt
-│   │   ├── spider.txt
-│   │   ├── js.txt
-│   │   ├── links.txt
-│   │   ├── csp.txt
-│   │   ├── servers-extended.txt
+│   │   ├── csp.txt                              # All Content Security Policy hosts
+│   │   ├── forms.txt                            # Spidered forms
+│   │   ├── js.txt                               # Spidered Javascript files
+│   │   ├── links.txt                            # Spidered links
+│   │   ├── requests
+│   │   │   ├── 1xx.txt                          # Requests with 1xx Status
+│   │   │   ├── 2xx.txt                          # Requests with 2xx Status 
+│   │   │   ├── 3xx.txt                          # Requests with 3xx Status
+│   │   │   ├── 4xx.txt                          # Requests with 4xx Status
+│   │   │   └── 5xx.txt                          # Requests with 5xx Status
+│   │   ├── servers-extended.txt                 # Web Servers with additional data
+│   │   ├── servers.txt                          # Web Server URLs
+│   │   ├── spider.txt                           # All Spidered data
 │   │   └── urls
-│   │       ├── all.txt
-│   │       ├── idor.txt
-│   │       ├── lfi.txt
-│   │       ├── rce.txt
-│   │       ├── redirect.txt
-│   │       ├── sqli.txt
-│   │       ├── ssrf.txt
-│   │       ├── ssti.txt
-│   │       └── xss.txt
+│   │       ├── all.txt                          # All gathered URLs
+│   │       ├── idor.txt                         # URLs targeting Insecure Direct Object Reference vulnerabilities
+│   │       ├── lfi.txt                          # URLs targeting Local File Inclusion vulnerabilities
+│   │       ├── rce.txt                          # URLs targeting Remote Code Execution vulnerabilities
+│   │       ├── redirect.txt                     # URLs targeting Redirection vulnerabilities
+│   │       ├── sqli.txt                         # URLs targeting SQL Injection vulnerabilities
+│   │       ├── ssrf.txt                         # URLs targeting Server Side Request Forgery Injection vulnerabilities
+│   │       ├── ssti.txt                         # URLs targeting Server Side Template Injection vulnerabilities
+│   │       └── xss.txt                          # URLs targeting Cross-Site Scripting vulnerabilities
 │   └── wordlists
-│       └── subdomain.txt
+│       ├── paths.txt                            # Paths found in javascript files
+│       ├── robots.txt                           # Paths found in robots.txt files
+│       └── subdomain.txt                        # Words found in root domain HTTP Response
 ```
 ## Custom Usage
 You can use `trickest-cli` (public release soon!) to run this workflow on a custom target(s) using the following command:
@@ -185,5 +193,5 @@ trickest execute Inventory --targets targets.json
 ## Contribution
 All contributions/ideas/suggestions are welcome! If you want to add/edit a target/workflow, feel free to create a new ticket via [GitHub issues](https://github.com/trickest/inventory/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
 
-## Build your own workflows
+## Build your own workflows!
 We believe in the value of tinkering. Sign up for a demo on [trickest.com](https://trickest.com) to customize this workflow to your use case, get access to many more workflows, or build your own from scratch!
