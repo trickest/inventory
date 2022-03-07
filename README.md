@@ -178,6 +178,7 @@ title --> 3xx[[3xx]] --> status3xxNum{{1}}
 title --> 4xx[[4xx]] --> status4xxNum{{19972}}
 title --> 5xx[[5xx]] --> status5xxNum{{0}}
 ```
+<p align="center">Note: We follow all redirects to get a more accurate representation of each URL - "3xx" counts responses that have no "Location" header.</p>
 
 ---
 
