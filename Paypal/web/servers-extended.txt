@@ -99,7 +99,7 @@ http://m.paypal.com:80 [null] [301] [null] [null] ["23.79.153.168"] [null] ["Aka
 http://m.xoom.com:80 [null] [301] [null] [null] ["205.189.102.141"] [null] ["BigIP"] [["F5 BigIP"]] [];
 http://mail.paypal.com:80 [null] [400] [3] ["text/plain"] ["159.127.187.12"] [null] [null] [null] [];
 http://manager-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
-http://manager-edgemigration.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
+http://manager-edgemigration.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.191"] [null] ["nginx"] [["Nginx"]] [];
 http://manager-edgemigration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://manager-migration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://manager.payflow.edge.paypal.com:80 [null] [301] [null] [null] ["66.211.171.182"] [null] [null] [null] [];
@@ -204,7 +204,7 @@ http://slc-a-origin-history-1.paypal.com:80 ["Fastly error: unknown domain slc-a
 http://slc-a-origin-history-2.paypal.com:80 ["Service Unavailable"] [503] [269] ["text/html"] ["23.210.252.100"] [null] ["AkamaiGHost"] [null] [];
 http://slc-a-origin-history.paypal.com:80 ["Service Unavailable"] [503] [269] ["text/html"] ["23.210.252.100"] [null] ["AkamaiGHost"] [null] [];
 http://slc-a-origin-pointofsale.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.84.72"] [null] [null] [null] [];
-http://slc-a-origin-pointofsale.paypal.com:80 [null] [200] [6701] ["text/html"] ["173.0.84.104"] [null] ["nginx"] [["Nginx"]] [];
+http://slc-a-origin-pointofsale.paypal.com:80 [null] [200] [6679] ["text/html"] ["173.0.84.104"] [null] ["nginx"] [["Nginx"]] [];
 http://slc-b-origin-history-1.paypal.com:80 ["Fastly error: unknown domain slc-b-origin-history-1.paypal.com"] [500] [287] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://slc-b-origin-history-2.paypal.com:80 ["Fastly error: unknown domain slc-b-origin-history-2.paypal.com"] [500] [287] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://slc-b-origin-history.paypal.com:80 ["Fastly error: unknown domain slc-b-origin-history.paypal.com"] [500] [283] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
@@ -400,7 +400,7 @@ https://lyncdiscover.xoom.com:443 [null] [404] [34] ["application/json"] ["52.11
 https://m.paypal.com:443 [null] [301] [null] [null] ["23.79.153.168"] [null] ["AkamaiGHost"] [null] [];
 https://m.xoom.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["205.189.102.141"] [null] [null] [null] [];
 https://mail.paypal.com:443 [null] [400] [3] ["text/plain"] ["159.127.187.12"] [null] [null] [null] [];
-https://manager-edgemigration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
+https://manager-edgemigration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.191"] [null] ["nginx"] [["Nginx"]] [];
 https://manager-edgemigration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://manager-migration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://manager.payflow.edge.paypal.com:443 ["PayPal Manager"] [200] [79409] ["text/html"] ["66.211.171.182"] [null] ["Apache"] [["Apache"]] [];
