@@ -31,7 +31,7 @@ Our aim with this project is to:
 │   │   └── wasabi-buckets.txt                   # Wasabi Buckets
 │   ├── network
 │   │   ├── hostnames.txt                        # Hostnames
-│   │   └── ips.txt                              # IP Adresses 
+│   │   └── ips.txt                              # IP Addresses 
 │   ├── org
 │   │   └── email.txt                            # Spidered emails
 │   ├── technologies.txt                         # Technologies
@@ -56,8 +56,8 @@ Our aim with this project is to:
 │   │       ├── rce.txt                          # URLs targeting Remote Code Execution vulnerabilities
 │   │       ├── redirect.txt                     # URLs targeting Redirection vulnerabilities
 │   │       ├── sqli.txt                         # URLs targeting SQL Injection vulnerabilities
-│   │       ├── ssrf.txt                         # URLs targeting Server Side Request Forgery Injection vulnerabilities
-│   │       ├── ssti.txt                         # URLs targeting Server Side Template Injection vulnerabilities
+│   │       ├── ssrf.txt                         # URLs targeting Server-Side Request Forgery vulnerabilities
+│   │       ├── ssti.txt                         # URLs targeting Server-Side Template Injection vulnerabilities
 │   │       └── xss.txt                          # URLs targeting Cross-Site Scripting vulnerabilities
 │   └── wordlists
 │       ├── paths.txt                            # Paths found in javascript files
@@ -164,8 +164,8 @@ trickest execute Inventory --targets targets.json
 ## Statistics
 ```mermaid
 graph LR
-title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{0}}
-title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{0}}
+title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{83708}}
+title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{83708}}
 ```
 
 ---
@@ -173,21 +173,22 @@ title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{0}}
 ```mermaid
 graph TD
 title{URL Status Codes} --> 1xx[[1xx]] --> status1xxNum{{0}}
-title --> 2xx[[2xx]] --> status2xxNum{{0}}
-title --> 3xx[[3xx]] --> status3xxNum{{0}}
-title --> 4xx[[4xx]] --> status4xxNum{{0}}
+title --> 2xx[[2xx]] --> status2xxNum{{4707}}
+title --> 3xx[[3xx]] --> status3xxNum{{1}}
+title --> 4xx[[4xx]] --> status4xxNum{{19972}}
 title --> 5xx[[5xx]] --> status5xxNum{{0}}
 ```
+<p align="center">Note: We follow all redirects to get a more accurate representation of each URL - "3xx" counts responses that have no "Location" header.</p>
 
 ---
 
 ```mermaid
 graph LR
-title{5 Most Used<br>Technologies} --> tech1{{Tech1}}
-title --> tech2{{Tech2}}
-title --> tech3{{Tech3}}
-title --> tech4{{Tech4}}
-title --> tech5{{Tech5}}
+title{5 Most Used<br>Technologies} --> tech1{{Varnish}}
+title --> tech2{{Pulse Secure}}
+title --> tech3{{Ruby on Rails}}
+title --> tech4{{GitHub Pages}}
+title --> tech5{{Fastly}}
 ```
 
 ---
