@@ -920,6 +920,7 @@ http://hound.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.3
 http://hub.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://hub.uberinternal.com/"] ["ufe"] [null] [];
 http://hue-dev.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://hue-dev.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://hulk.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://hulk.uber.com/"] ["ufe"] [["Envoy"]] [];
+http://i.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://i.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://i18n-app.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://i18n-app.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://i18n-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://i18n-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://i18n.uber.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] ["https://i18n.uber.com/"] ["ufe"] [["Envoy"]] [];
@@ -2943,6 +2944,7 @@ https://hound.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104
 https://hub.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://hue-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://hulk.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://i.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://i18n-app.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://i18n-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://i18n.uber.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
