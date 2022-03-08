@@ -131,16 +131,17 @@ http://partnermanager-migration.glb.paypal.com:80 [null] [302] [30] ["text/plain
 http://partnermanager.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
 http://partnermanager.paypal.com:80 ["PayPal Partner Manager"] [200] [61812] ["text/html"] ["173.0.93.190"] [null] ["nginx"] [["Nginx"]] [];
 http://payflowlink-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
+http://payflowlink-edgemigration.glb.paypal.com:80 [null] [200] [6715] ["text/html"] ["173.0.93.189"] ["https://payflowlink-edgemigration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payflowlink-edgemigration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://payflowlink-migration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://payflowlink.paypal.com:80 ["Payflow Link"] [200] [1674] ["text/html"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
-http://payflowpro-edgemigration.payflow.edge.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [131457] ["text/html"] ["173.0.93.143"] ["https://payflowpro-edgemigration.payflow.edge.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
+http://payflowpro-edgemigration.payflow.edge.paypal.com:80 [null] [200] [6701] ["text/html"] ["173.0.93.143"] ["https://payflowpro-edgemigration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payflowpro-migration.payflow.edge.paypal.com:80 [null] [200] [6697] ["text/html"] ["173.0.93.143"] ["https://payflowpro-migration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payflowpro.glb.paypal.com:80 [null] [200] [6677] ["text/html"] ["173.0.93.143"] ["https://payflowpro.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payflowpro.paypal.com:80 [null] [404] [64] ["text/plain"] ["173.0.93.143"] ["https://payflowpro.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payments-reports-edgemigration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://payments-reports-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
-http://payments-reports-migration.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
+http://payments-reports-migration.glb.paypal.com:80 [null] [200] [6697] ["text/html"] ["173.0.93.191"] ["https://payments-reports-migration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payments-reports-migration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://payments-reports.paypal.com:80 ["403 Forbidden"] [403] [202] ["text/html"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://paypal.com:80 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.36"] ["https://paypal.com/"] [null] [null] [];
@@ -430,6 +431,7 @@ https://partner.xoom.com:443 ["Send Money Online | Xoom, a PayPal Service"] [200
 https://partnermanager-migration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://partnermanager.paypal.com:443 ["PayPal Partner Manager"] [200] [61812] ["text/html"] ["173.0.93.190"] [null] ["nginx"] [["Nginx"]] [];
 https://partnerships.xoom.com:443 [null] [404] [52] ["application/json"] ["198.199.247.44"] [null] [null] [["Envoy"]] [];
+https://payflowlink-edgemigration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://payflowlink-edgemigration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://payflowlink-migration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://payflowlink.payflow.edge.paypal.com:443 ["Payflow Link"] [200] [1674] ["text/html"] ["66.211.171.164"] [null] ["Apache"] [["Apache"]] [];
@@ -439,7 +441,7 @@ https://payflowpro-migration.payflow.edge.paypal.com:443 [null] [302] [30] ["tex
 https://payflowpro.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.143"] [null] ["nginx"] [["Nginx"]] [];
 https://payflowpro.paypal.com:443 [null] [404] [64] ["text/plain"] ["173.0.93.143"] [null] ["nginx"] [["Nginx"]] [];
 https://payments-reports-edgemigration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
-https://payments-reports-migration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
+https://payments-reports-migration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.191"] [null] ["nginx"] [["Nginx"]] [];
 https://payments-reports-migration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://payments-reports.paypal.com:443 ["403 Forbidden"] [403] [202] ["text/html"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://paypal.com:443 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.36"] [null] [null] [null] [];

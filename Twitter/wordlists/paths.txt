@@ -2745,6 +2745,10 @@
 /YN/
 /ZwF
 /_$1
+/_/container-expanded
+/_/raw-response
+/_/response-time
+/_/url
 /_jcr_content.csat_developer_feedback.json
 /_unused_dummy_error_path_route_
 /a/b
@@ -2858,7 +2862,9 @@
 /bin/twitter/api-proxy.json
 /bin/twitter/direct-ads-support-handle.json
 /bin/twitter/profile.json
+/bin/twitter/stratostore/profiledata
 /bin/twitter/userid.json
+/birthday
 /block
 /blocked
 /blog
@@ -3230,6 +3236,7 @@
 /help/settings.json
 /hidden
 /home
+/home/users/a/anonymous
 /hqdefault.jpg
 /i/
 /i/about-this-ad/
@@ -3563,6 +3570,7 @@
 /p50
 /participants
 /password
+/paused
 /payment
 /payment-method
 /payment-methods
@@ -3577,6 +3585,7 @@
 /photo
 /photo/1
 /photos
+/photos/primary/image
 /places/
 /plugins/
 /plugins/ua/
@@ -3593,6 +3602,7 @@
 /products
 /products/
 /products/:selectedPackage?
+/profile/photos/primary/image
 /profile/twitter/
 /projects
 /projects-and-apps
@@ -4443,6 +4453,7 @@ contacts/destroy/all
 contacts/upload_v2
 container/container
 container/registry
+contexthub.js
 contributors/contributor_list_error
 contributors/contributor_list_row
 contributors/contributor_manager
@@ -4786,6 +4797,7 @@ ember/container-debug-adapter
 ember/load-initializers
 ember/resolver
 emoji/v2/svg
+emulators/currentDevice
 events/timeline
 events/timeline/
 favorites/create.json
@@ -5711,6 +5723,8 @@ strato/column/User/
 strato/op/insert/schedule/insert
 subscriptions/join
 superfollows/subscribe
+surferinfo/os/name
+surferinfo/os/version
 text/css
 text/csv
 text/event-stream
