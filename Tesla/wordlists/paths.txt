@@ -4944,6 +4944,7 @@
 /accept
 /accessrequest
 /account
+/account/
 /account/:sectionName/:accountId
 /account/api-doc
 /account/api/search/C360Search
@@ -5963,12 +5964,14 @@
 /count/new
 /countries
 /countryCode
+/course/
 /create
 /create-ecdh
 /createPasswordSingleSignOnCredentials
 /credit-memo
 /creditMemos/
 /creditSummary
+/creditsummary
 /cu/
 /cua-api/ir/
 /custom/
@@ -6072,6 +6075,7 @@
 /email/verify/send
 /emailme
 /emoji
+/employees
 /empty
 /en-us/pages/faqs.aspx
 /enable
@@ -6177,6 +6181,7 @@
 /groups/tbx-fse/all_users
 /groups/tbx-regional-tech-specialists/all_users
 /groups_by_channels
+/help
 /help-center
 /help-center?sidenav=contactITAnswers
 /help/contact/
@@ -6285,6 +6290,7 @@
 /labels?portalId=
 /laborsupport
 /landing
+/landingpage
 /langs/
 /languages
 /ldap/certificate/private
@@ -6663,6 +6669,7 @@
 /quality/processmrb
 /query-builder-config
 /query/
+/rates
 /raw_log_upload/gen3/?vin=
 /reactions
 /reactions/
@@ -6797,6 +6804,7 @@
 /statements/paymentHistory/export
 /statements/search
 /statements/token
+/states
 /states/
 /static/
 /static/data/locales/content/{{ns}}/{{lng}}.json
@@ -6835,6 +6843,7 @@
 /stripe/v1/subscriptions
 /subject_matter_experts/
 /subject_matter_experts?system_id=
+/submit
 /subscription
 /subscription-options
 /subscription/invoices
@@ -6871,6 +6880,7 @@
 /systemprofile/
 /t3+
 /tabs
+/tacc
 /takecharge
 /task/inbox
 /tasks
@@ -8757,6 +8767,7 @@ api/User/UpsertUserFinancialDetailsWithSchema
 api/User/UpsertUserPIIDetails
 api/User/UpsertUserPayrollDetailsWithSchema
 api/User/UpsertUserPersonalDetailsWithSchema
+api/address-suggestions?searchTerm=
 api/applications/apppermissions/
 api/applications/recommended
 api/applications/revokeUserConsentToApp/
@@ -8779,6 +8790,7 @@ api/bills
 api/bodyShops/
 api/bodyshops
 api/communications
+api/countries
 api/me/getAssignedWorkspaces
 api/me/intuneBranding
 api/me/tenants
@@ -13246,9 +13258,17 @@ onboarding/questions/elementmappings
 onboarding/questions/mappingdata
 onboarding/questions/mappingdata/
 onboarding/questions/mappingfilterdata
+onboarding/requests
+onboarding/requests/
+onboarding/requests/comments
+onboarding/requests/files
+onboarding/requests/images/
+onboarding/requests/resalecertificates/
+onboarding/requests/taxdocuments
 onboarding/rolepermissionlock
 onboarding/savecustomcolumnsforuser
 onboarding/savespecificonboardingdata
+onboarding/timezones
 onboarding/updateDistributorCode
 onboarding/workScopes
 onboarding/workerlocation
