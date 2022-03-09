@@ -2585,6 +2585,7 @@
 /:clientAppId/auth-settings
 /:clientAppId/connection
 /:clientAppId/keys
+/:clientAppId/metrics
 /:clientAppId/settings
 /:clientAppId/settings/edit
 /:error
@@ -2594,6 +2595,7 @@
 /:projectId/apps/:clientAppId
 /:projectId/apps/:clientAppId/auth-settings
 /:projectId/apps/:clientAppId/keys
+/:projectId/apps/:clientAppId/metrics
 /:projectId/apps/:clientAppId/settings
 /:projectId/apps/:clientAppId/settings/edit
 /:projectId/apps/connections/new
