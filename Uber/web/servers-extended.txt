@@ -1831,6 +1831,7 @@ http://tbs.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.
 http://tc.uber.com:80 [null] [404] [null] [null] ["34.98.127.226"] ["https://tc.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://tc.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://tc.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://tc.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://tc2.UberINtERnAl.com:80 [null] [401] [103] ["application/json"] ["104.36.197.214"] ["https://tc2.UberINtERnAl.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://tc2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://tc2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://tdottest1.uber.com:80 [null] [302] [null] ["text/html"] ["18.184.197.212"] [null] [null] [null] [];
 http://team-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.197.214"] ["https://team-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -3750,6 +3751,7 @@ https://tbs-static.uber.com:443 [null] [403] [146] ["text/xml"] ["18.66.97.44"] 
 https://tbs.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://tc.uber.com:443 [null] [404] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://tc.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://tc2.UberINtERnAl.com:443 [null] [429] [109] ["text/plain"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://tc2.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://tdottest1.uber.com:443 [null] [302] [null] ["text/html"] ["18.184.197.212"] [null] [null] [null] [];
 https://team-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];

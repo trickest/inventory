@@ -2129,8 +2129,10 @@
 ./job-input
 ./jobs
 ./js/frontify-styleguide/colorswatch.2ae859e8063ffb513130.js
+./js/frontify-styleguide/colorswatch.7cf6e615a0aa259880de.js
 ./js/frontify-styleguide/colorswatch.ace3a864797a9910b18e.js
 ./js/frontify-styleguide/colorswatch.eb9c37361943275df3c4.js
+./js/frontify-upload.worker.1919face20368202c03b.worker.js
 ./jv
 ./jv.js
 ./jw
@@ -3802,6 +3804,7 @@
 /api/communicationsetting?
 /api/context
 /api/development/flag/
+/api/document/
 /api/document/block/
 /api/document/page-content/42
 /api/document/settings/
@@ -3834,6 +3837,8 @@
 /api/feature/info?feature=
 /api/file/
 /api/file/addtolibrary
+/api/file/init
+/api/file/progress
 /api/file/upload
 /api/graphql/v1
 /api/group
@@ -4207,6 +4212,7 @@
 /article-route-workflow
 /article?
 /asset
+/asset-counts?document_id=
 /asset-ids?
 /assets/icons/action-sprite/svg/symbols.svg\
 /assets/icons/custom-sprite/svg/symbols.svg\
@@ -5863,6 +5869,7 @@
 /search/?
 /search/TagSearchResults
 /search?
+/search?carid=eyJwbHVnaW4iOiJyZWNvbW1lbmRhdGlvbkZlZWRQbHVnaW4iLCJyZWNvbW1UeXBlIjoidG9wX2VhdHMifQ%3D%3D&amp;pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjU1NSUyME1hcmtldCUyMFN0JTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyNmYxYmQ0ZmEtMmJjNS1mNjBhLTYxNjctNGIyMjYwMDY1ZjJmJTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EzNy43OTAwMDY0JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTEyMi4zOTkzMjI1JTdE&amp;app_deeplink_fallback_redirect={{APP_DEEPLINK_FALLBACK_REDIRECT}}
 /search?carid={{CAROUSEL_ID}}&amp;app_deeplink_fallback_redirect={{APP_DEEPLINK_FALLBACK_REDIRECT}}
 /search?q=
 /search?q={{QUERY_SLUG}}&amp;app_deeplink_fallback_redirect={{APP_DEEPLINK_FALLBACK_REDIRECT}}
