@@ -1,5 +1,6 @@
 http://0cd20b6fe61233e4a24bf70f30c9ba46.paypal.com:80 [null] [400] [194] [null] ["204.79.197.200"] [null] [null] [null] [];
 http://16695532.paypal.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
+http://SECURE.UNINITIALIZED.REAL.paypal.com:80 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [293] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://active-api-s.paypal.com:80 ["Service Unavailable"] [503] [269] ["text/html"] ["88.221.60.123"] [null] ["AkamaiGHost"] [null] [];
 http://active-www.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [117137] ["text/html"] ["173.0.93.196"] ["https://active-www.paypal.com/de/home"] [null] [["React"]] [];
 http://adjvendor.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
@@ -254,6 +255,7 @@ http://zettleintegrations.paypal.com:80 [null] [200] [6697] ["text/html"] ["23.2
 http://zootapi.paypal.com:80 [null] [404] [null] [null] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
 https://0cd20b6fe61233e4a24bf70f30c9ba46.paypal.com:443 [null] [400] [194] [null] ["204.79.197.200"] [null] [null] [null] [];
 https://16695532.paypal.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
+https://SECURE.UNINITIALIZED.REAL.paypal.com:443 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [292] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://active-api-s.paypal.com:443 ["Access Denied"] [403] [223] ["text/html"] ["88.221.60.123"] [null] ["AkamaiGHost"] [null] [];
 https://active-www.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.196"] [null] [null] [null] [];
 https://adjvendor.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
