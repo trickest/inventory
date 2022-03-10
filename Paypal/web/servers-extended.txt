@@ -1,6 +1,6 @@
 http://0cd20b6fe61233e4a24bf70f30c9ba46.paypal.com:80 [null] [400] [194] [null] ["204.79.197.200"] [null] [null] [null] [];
 http://16695532.paypal.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
-http://SECURE.UNINITIALIZED.REAL.paypal.com:80 ["Service Unavailable"] [503] [267] ["text/html"] ["104.92.95.148"] [null] ["AkamaiGHost"] [null] [];
+http://SECURE.UNINITIALIZED.REAL.paypal.com:80 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [293] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://active-api-s.paypal.com:80 ["Service Unavailable"] [503] [268] ["text/html"] ["88.221.60.123"] [null] ["AkamaiGHost"] [null] [];
 http://active-www.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [117137] ["text/html"] ["173.0.93.196"] ["https://active-www.paypal.com/de/home"] [null] [["React"]] [];
 http://adjvendor.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
@@ -243,12 +243,12 @@ http://view.mktg1.paypal.com:80 ["Object moved"] [302] [128] ["text/html"] ["13.
 http://view.zettle.paypal.com:80 ["Error"] [200] [932] ["text/html"] ["13.110.202.183"] ["https://view.zettle.paypal.com/Error.aspx"] [null] [null] [];
 http://www-edge.glb.paypal.com:80 [null] [200] [6677] ["text/html"] ["173.0.93.196"] ["https://www-edge.glb.paypal.com/"] [null] [null] [];
 http://www-fastly.glb.paypal.com:80 ["Fastly error: unknown domain www-fastly.glb.paypal.com"] [500] [270] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
-http://www-fastly.glb.xoom.com:80 ["Fastly error: unknown domain www-fastly.glb.xoom.com"] [500] [267] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
+http://www-fastly.glb.xoom.com:80 ["Fastly error: unknown domain www-fastly.glb.xoom.com"] [500] [267] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://www-ru.glb.paypal.com:80 ["Fastly error: unknown domain www-ru.glb.paypal.com"] [500] [263] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://www-sandbox.glb.paypal.com:80 ["Fastly error: unknown domain www-sandbox.glb.paypal.com"] [500] [272] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://www-v2.sandbox.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119617] ["text/html"] ["151.101.193.21"] ["https://www-v2.sandbox.paypal.com/"] [null] [["React","Varnish"]] [];
 http://www.glb.paypal.com:80 ["Fastly error: unknown domain www.glb.paypal.com"] [500] [256] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
-http://www.glb.xoom.com:80 ["Fastly error: unknown domain www.glb.xoom.com"] [500] [252] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
+http://www.glb.xoom.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["205.189.102.141"] ["https://www.glb.xoom.com/"] [null] [null] [];
 http://www.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [149753] ["text/html"] ["151.101.193.21"] ["https://www.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 http://www.sandbox.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119119] ["text/html"] ["151.101.1.21"] ["https://www.sandbox.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 http://www.xoom.com:80 ["Send Money Online | Xoom, a PayPal Service"] [200] [59721] ["text/html"] ["205.189.102.141"] ["https://www.xoom.com"] [null] [["Contentful","Envoy"]] [];
@@ -261,7 +261,7 @@ http://zettleintegrations.paypal.com:80 [null] [200] [6697] ["text/html"] ["23.2
 http://zootapi.paypal.com:80 [null] [404] [null] [null] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
 https://0cd20b6fe61233e4a24bf70f30c9ba46.paypal.com:443 [null] [400] [194] [null] ["204.79.197.200"] [null] [null] [null] [];
 https://16695532.paypal.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
-https://SECURE.UNINITIALIZED.REAL.paypal.com:443 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [293] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
+https://SECURE.UNINITIALIZED.REAL.paypal.com:443 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [293] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://active-api-s.paypal.com:443 ["Access Denied"] [403] [222] ["text/html"] ["88.221.60.123"] [null] ["AkamaiGHost"] [null] [];
 https://active-www.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.196"] [null] [null] [null] [];
 https://adjvendor.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
@@ -544,12 +544,12 @@ https://view.zettle.paypal.com:443 ["Object moved"] [302] [128] ["text/html"] ["
 https://webservices.xoom.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["198.199.247.144"] [null] [null] [null] [];
 https://www-edge.glb.paypal.com:443 [null] [200] [6715] ["text/html"] ["173.0.93.196"] [null] [null] [null] [];
 https://www-fastly.glb.paypal.com:443 ["Fastly error: unknown domain www-fastly.glb.paypal.com"] [500] [270] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
-https://www-fastly.glb.xoom.com:443 ["Fastly error: unknown domain www-fastly.glb.xoom.com"] [500] [267] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
+https://www-fastly.glb.xoom.com:443 ["Fastly error: unknown domain www-fastly.glb.xoom.com"] [500] [267] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://www-ru.glb.paypal.com:443 ["Fastly error: unknown domain www-ru.glb.paypal.com"] [500] [263] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://www-sandbox.glb.paypal.com:443 ["Fastly error: unknown domain www-sandbox.glb.paypal.com"] [500] [272] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://www-v2.sandbox.paypal.com:443 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119552] ["text/html"] ["151.101.129.21"] [null] [null] [["React","Varnish"]] [];
 https://www.glb.paypal.com:443 ["Fastly error: unknown domain www.glb.paypal.com"] [500] [256] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
-https://www.glb.xoom.com:443 ["Fastly error: unknown domain www.glb.xoom.com"] [500] [252] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
+https://www.glb.xoom.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["205.189.102.141"] [null] [null] [null] [];
 https://www.paypal.com:443 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [117080] ["text/html"] ["151.101.193.21"] ["https://www.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 https://www.sandbox.paypal.com:443 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119125] ["text/html"] ["151.101.1.21"] ["https://www.sandbox.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 https://www.xoom.com:443 ["Send Money Online | Xoom, a PayPal Service"] [200] [59719] ["text/html"] ["205.189.102.141"] [null] [null] [["Contentful","Envoy"]] [];
