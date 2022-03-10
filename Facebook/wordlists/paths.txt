@@ -826,6 +826,7 @@
 ./modules/apgroup/details/partials/forms/vlan_pool.html
 ./modules/apgroup/details/partials/forms/wan.html
 ./modules/apgroup/details/partials/forms/wlan.html
+./modules/apgroup/details/partials/forms/wwan.html
 ./modules/apgroup/details/partials/importProfile.tpl.html
 ./modules/apgroup/details/partials/profileForm.html
 ./modules/apgroup/grid/index.html
@@ -840,12 +841,20 @@
 ./modules/cbrs/devices/list/cbrsList.index.html
 ./modules/cbrs/devices/list/cbrsList.template.html
 ./modules/cbrs/devices/partials/addCredentials.html
+./modules/cbrs/devices/partials/addGroupId.html
 ./modules/cbrs/devices/partials/addSM.html
 ./modules/cbrs/devices/partials/addSector.html
+./modules/cbrs/devices/partials/confirmDeleteAll.html
+./modules/cbrs/devices/partials/confirmWithNote.html
 ./modules/cbrs/devices/partials/deRegister.html
+./modules/cbrs/devices/partials/exportConfirmation.html
 ./modules/cbrs/devices/partials/importSector.html
+./modules/cbrs/devices/partials/jobWarning.html
+./modules/cbrs/devices/partials/spectrumEIRPSelect.html
 ./modules/cbrs/devices/partials/spectrumStatus.html
 ./modules/cbrs/index.html
+./modules/cbrs/orphans/index.html
+./modules/cbrs/orphans/orphans.tpl.html
 ./modules/cbrs/overview/addCode.html
 ./modules/cbrs/overview/billingDetails.html
 ./modules/cbrs/overview/index.html
@@ -853,6 +862,7 @@
 ./modules/cbrs/overview/paymenttos.html
 ./modules/cbrs/overview/sasVendorChange.html
 ./modules/cbrs/overview/tos.html
+./modules/cbrs/overview/usageDetails.html
 ./modules/cbrs/partials/addAccount.html
 ./modules/cbrs/partials/copyToken.html
 ./modules/cbrs/partials/devicesDetail.html
@@ -900,6 +910,7 @@
 ./modules/dashboard/bhs/index.html
 ./modules/dashboard/cnmatrix/port/index.html
 ./modules/dashboard/cnmatrix/switch/index.html
+./modules/dashboard/cnmatrix/topology/index.html
 ./modules/dashboard/cnranger/bbu/index.html
 ./modules/dashboard/cnranger/rrh/index.html
 ./modules/dashboard/cnranger/sm/index.html
@@ -1442,9 +1453,11 @@
 /FETCH_PERMISSIONS_REQUEST
 /FETCH_PERMISSIONS_SUCCESS
 /Gs1 gs /Pattern cs /Sh1 scn
+/MHz
 /MKj
 /Pattern cs /Sh1 scn
 /RESET_EVENT_UPDATES
+/RRH
 /SET_ATTENDEE_TOTAL
 /SET_PREVIOUS_ATTENDEE_TOTAL
 /SET_TICKET_TYPE_ID
@@ -1845,6 +1858,7 @@
 /cn-srv/beta-programs
 /cn-srv/cns-notify
 /cn-srv/createaccount
+/cn-srv/download/
 /cn-srv/download/backup/
 /cn-srv/download/floorplan/
 /cn-srv/download/reports/
@@ -1951,6 +1965,7 @@
 /directory/suggested/:username/
 /dismiss
 /dist/
+/domainproxy/sectorsdp/:subName/edit
 /donate/checkout/
 /download/
 /download/confirm/
@@ -2104,7 +2119,13 @@
 /help
 /help/api/index.html
 /help/api/index.html?token=
+/help/cbrs/cbrs_template.ods
 /help/cbrs/cbrs_template.xlsm
+/help/cbrs/cbrs_template.xlsx
+/help/cbrs/lte_cbrs_template.ods
+/help/cbrs/lte_cbrs_template.xlsx
+/help/cbrs/lte_cbrs_template_tp.ods
+/help/cbrs/lte_cbrs_template_tp.xlsx
 /help/resources
 /help/update_app_for_help/
 /hide/
@@ -2536,6 +2557,7 @@
 /settings/help/
 /settings/reactivation/
 /settings/{navContext:.+}
+/shared/cbrs/mapping.json
 /shared/common/devices.json
 /shared/notification/mappings.json
 /shared/reporting/inventory.json
@@ -2704,6 +2726,7 @@
 /tinymce.min.js
 /tmp
 /token
+/tools/sectors/:subName/edit
 /topics/
 /tower/:subName
 /translations
@@ -3659,6 +3682,7 @@ assets/gp/images/
 assets/images/
 assets/images/icons/Block.svg
 assets/images/icons/Speed.svg
+assets/images/map_pin/
 assets/js/
 attributors/attribute/direction
 attributors/class/align
@@ -3721,6 +3745,7 @@ cn-srv/onboarding
 cn-srv/peers
 cn-srv/roles
 cn-srv/schedule
+cn-srv/schedule/download/cbrs
 cn-srv/schedule/download/report
 cn-srv/search
 cn-srv/services/acl
@@ -3761,6 +3786,7 @@ component/scheduler/index.html
 component/site/index.html
 component/tower/index.html
 component/tree/index.html
+config.action
 content.xml
 content/images/appbackgrounds/0-small_e4609ff3d3040b6cd9773ac01b9f93cb.jpg
 content/images/appbackgrounds/0_018052905902821de9d4582b8fee8dff.jpg
@@ -4235,6 +4261,7 @@ lib/elliptic.js
 lodash/cloneDeep
 lodash/get
 lodash/merge
+low/high
 m/d/Y
 m/d/y
 m/d/yy
@@ -4297,15 +4324,22 @@ modules/cbrs/addCode.html
 modules/cbrs/devices/index.html
 modules/cbrs/devices/partials/addSM.html
 modules/cbrs/devices/partials/addSector.html
+modules/cbrs/devices/partials/confirmDeleteAll.html
+modules/cbrs/devices/partials/confirmWithNote.html
+modules/cbrs/devices/partials/exportConfirmation.html
 modules/cbrs/devices/partials/importSector.html
+modules/cbrs/devices/partials/jobWarning.html
+modules/cbrs/devices/partials/spectrumEIRPSelect.html
 modules/cbrs/devices/partials/spectrumStatus.html
 modules/cbrs/index.html
+modules/cbrs/orphans/index.html
 modules/cbrs/overview/billingDetails.html
 modules/cbrs/overview/index.html
 modules/cbrs/overview/partials/devicesDetail.html
 modules/cbrs/overview/paymenttos.html
 modules/cbrs/overview/sasVendorChange.html
 modules/cbrs/overview/tos.html
+modules/cbrs/overview/usageDetails.html
 modules/cbrs/partials/addAccount.html
 modules/cbrs/partials/copyToken.html
 modules/cbrs/sectors/index.html
@@ -4346,6 +4380,7 @@ modules/dashboard/bhm/index.html
 modules/dashboard/bhs/index.html
 modules/dashboard/cnmatrix/port/index.html
 modules/dashboard/cnmatrix/switch/index.html
+modules/dashboard/cnmatrix/topology/index.html
 modules/dashboard/cnranger/bbu/index.html
 modules/dashboard/cnranger/rrh/index.html
 modules/dashboard/cnranger/sm/index.html

@@ -37,6 +37,7 @@ http://api.financing.paypal.com:80 ["403 Forbidden"] [403] [209] ["text/html"] [
 http://api.glb.paypal.com:80 [null] [404] [1364] ["text/xml"] ["173.0.84.66"] ["https://api.glb.paypal.com/"] [null] [null] [];
 http://api.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.84.66"] [null] [null] [null] [];
 http://api.paypal.com:80 ["406 Not Acceptable"] [406] [558] ["text/html"] ["173.0.84.66"] ["https://api.paypal.com/"] [null] [null] [];
+http://api.sandbox.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.199"] [null] [null] [null] [];
 http://api.sandbox.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [128799] ["text/html"] ["173.0.93.199"] ["https://api.sandbox.glb.paypal.com/"] [null] [["React"]] [];
 http://api.sandbox.paypal.com:80 ["406 Not Acceptable"] [406] [172] ["text/html"] ["173.0.93.199"] ["https://api.sandbox.paypal.com/"] [null] [null] [];
 http://autodiscover.paypal.com:80 [null] [301] [null] [null] ["52.97.151.88"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
@@ -102,7 +103,7 @@ http://m.paypal.com:80 [null] [301] [null] [null] ["23.79.153.168"] [null] ["Aka
 http://m.xoom.com:80 [null] [301] [null] [null] ["205.189.102.141"] [null] ["BigIP"] [["F5 BigIP"]] [];
 http://mail.paypal.com:80 [null] [400] [3] ["text/plain"] ["159.127.187.12"] [null] [null] [null] [];
 http://manager-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
-http://manager-edgemigration.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.191"] [null] ["nginx"] [["Nginx"]] [];
+http://manager-edgemigration.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [130234] ["text/html"] ["173.0.93.189"] ["https://manager-edgemigration.glb.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
 http://manager-edgemigration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://manager-migration.payflow.edge.paypal.com:80 [null] [301] [null] [null] ["66.211.171.182"] [null] [null] [null] [];
 http://manager.payflow.edge.paypal.com:80 [null] [301] [null] [null] ["66.211.171.182"] [null] [null] [null] [];
@@ -136,7 +137,7 @@ http://partnermanager-migration.glb.paypal.com:80 [null] [302] [30] ["text/plain
 http://partnermanager.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://partnermanager.paypal.com:80 ["PayPal Partner Manager"] [200] [61812] ["text/html"] ["173.0.93.190"] [null] ["nginx"] [["Nginx"]] [];
 http://payflowlink-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
-http://payflowlink-edgemigration.glb.paypal.com:80 [null] [200] [6697] ["text/html"] ["173.0.93.189"] ["https://payflowlink-edgemigration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
+http://payflowlink-edgemigration.glb.paypal.com:80 [null] [200] [6698] ["text/html"] ["173.0.93.189"] ["https://payflowlink-edgemigration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payflowlink-edgemigration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://payflowlink-migration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://payflowlink.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.189"] [null] [null] [null] [];
@@ -359,6 +360,7 @@ https://cloudmonitor36.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"
 https://cloudmonitor37.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["66.211.169.99"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor38.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["66.211.169.100"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor39.paypal.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["66.211.169.108"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
+https://cloudmonitor4.paypal.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["66.211.169.109"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor40.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["66.211.169.109"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor41.paypal.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["66.211.169.110"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor42.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["66.211.169.111"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
@@ -368,9 +370,11 @@ https://cloudmonitor45.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"
 https://cloudmonitor47.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["173.0.87.4"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor48.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["173.0.87.5"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor49.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["173.0.87.10"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
+https://cloudmonitor5.paypal.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["173.0.87.13"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor50.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["173.0.87.11"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor51.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["173.0.87.28"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://cloudmonitor52.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["173.0.87.31"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
+https://cloudmonitor6.paypal.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["173.0.87.48"] [null] ["nginx/1.14.0"] [["Nginx"]] [];
 https://commerce.paypal.com:443 [null] [404] [474] ["application/json"] ["35.156.167.229"] [null] ["nginx"] [["Nginx"]] [];
 https://commerce.paypal.com:8443 ["Braintree Control Panel"] [200] [5613] ["text/html"] ["52.29.159.59"] ["https://commerce.paypal.com:8443/login"] [null] [null] [];
 https://commerce.sandbox.paypal.com:443 [null] [404] [474] ["application/json"] ["52.57.216.246"] [null] ["nginx"] [["Nginx"]] [];
