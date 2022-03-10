@@ -122,6 +122,7 @@ http://onboarding.paypal.com:80 ["ERROR: The request could not be satisfied"] [4
 http://origin-ad.paypal.com:80 [null] [403] [null] [null] ["66.211.168.148"] ["https://origin-ad.paypal.com/"] ["BigIP"] [["F5 BigIP"]] [];
 http://origin-history.paypal.com:80 ["Fastly error: unknown domain origin-history.paypal.com"] [500] [271] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://p.paypal.com:80 [null] [403] [2] ["text/html"] ["23.45.109.237"] [null] [null] [null] [];
+http://pages.emails.paypal.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
 http://pages.messages.xoom.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.44.2"] [null] [null] [null] [];
 http://pages.mktg1.paypal.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
 http://pages.xoom.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.44.1"] [null] [null] [null] [];
@@ -242,10 +243,12 @@ http://view.mktg1.paypal.com:80 ["Object moved"] [302] [128] ["text/html"] ["13.
 http://view.zettle.paypal.com:80 ["Error"] [200] [932] ["text/html"] ["13.110.202.183"] ["https://view.zettle.paypal.com/Error.aspx"] [null] [null] [];
 http://www-edge.glb.paypal.com:80 [null] [200] [6677] ["text/html"] ["173.0.93.196"] ["https://www-edge.glb.paypal.com/"] [null] [null] [];
 http://www-fastly.glb.paypal.com:80 ["Fastly error: unknown domain www-fastly.glb.paypal.com"] [500] [270] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
+http://www-fastly.glb.xoom.com:80 ["Fastly error: unknown domain www-fastly.glb.xoom.com"] [500] [267] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://www-ru.glb.paypal.com:80 ["Fastly error: unknown domain www-ru.glb.paypal.com"] [500] [263] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://www-sandbox.glb.paypal.com:80 ["Fastly error: unknown domain www-sandbox.glb.paypal.com"] [500] [272] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://www-v2.sandbox.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119617] ["text/html"] ["151.101.193.21"] ["https://www-v2.sandbox.paypal.com/"] [null] [["React","Varnish"]] [];
 http://www.glb.paypal.com:80 ["Fastly error: unknown domain www.glb.paypal.com"] [500] [256] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
+http://www.glb.xoom.com:80 ["Fastly error: unknown domain www.glb.xoom.com"] [500] [252] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://www.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [149753] ["text/html"] ["151.101.193.21"] ["https://www.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 http://www.sandbox.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119119] ["text/html"] ["151.101.1.21"] ["https://www.sandbox.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 http://www.xoom.com:80 ["Send Money Online | Xoom, a PayPal Service"] [200] [59721] ["text/html"] ["205.189.102.141"] ["https://www.xoom.com"] [null] [["Contentful","Envoy"]] [];
@@ -428,6 +431,7 @@ https://onboarding.paypal.com:443 ["404 Not Found"] [404] [162] ["text/html"] ["
 https://origin-ad.paypal.com:443 [null] [403] [null] [null] ["66.211.168.148"] [null] ["BigIP"] [["F5 BigIP"]] [];
 https://origin-history.paypal.com:443 ["Fastly error: unknown domain origin-history.paypal.com"] [500] [271] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://p.paypal.com:443 [null] [403] [2] ["text/html"] ["23.45.109.237"] [null] [null] [null] [];
+https://pages.emails.paypal.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
 https://pages.messages.xoom.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.44.2"] [null] [null] [null] [];
 https://pages.mktg1.paypal.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
 https://pages.xoom.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.44.1"] [null] [null] [null] [];
@@ -540,10 +544,12 @@ https://view.zettle.paypal.com:443 ["Object moved"] [302] [128] ["text/html"] ["
 https://webservices.xoom.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["198.199.247.144"] [null] [null] [null] [];
 https://www-edge.glb.paypal.com:443 [null] [200] [6715] ["text/html"] ["173.0.93.196"] [null] [null] [null] [];
 https://www-fastly.glb.paypal.com:443 ["Fastly error: unknown domain www-fastly.glb.paypal.com"] [500] [270] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
+https://www-fastly.glb.xoom.com:443 ["Fastly error: unknown domain www-fastly.glb.xoom.com"] [500] [267] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://www-ru.glb.paypal.com:443 ["Fastly error: unknown domain www-ru.glb.paypal.com"] [500] [263] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://www-sandbox.glb.paypal.com:443 ["Fastly error: unknown domain www-sandbox.glb.paypal.com"] [500] [272] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://www-v2.sandbox.paypal.com:443 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119552] ["text/html"] ["151.101.129.21"] [null] [null] [["React","Varnish"]] [];
 https://www.glb.paypal.com:443 ["Fastly error: unknown domain www.glb.paypal.com"] [500] [256] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
+https://www.glb.xoom.com:443 ["Fastly error: unknown domain www.glb.xoom.com"] [500] [252] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://www.paypal.com:443 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [117080] ["text/html"] ["151.101.193.21"] ["https://www.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 https://www.sandbox.paypal.com:443 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119125] ["text/html"] ["151.101.1.21"] ["https://www.sandbox.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 https://www.xoom.com:443 ["Send Money Online | Xoom, a PayPal Service"] [200] [59719] ["text/html"] ["205.189.102.141"] [null] [null] [["Contentful","Envoy"]] [];
