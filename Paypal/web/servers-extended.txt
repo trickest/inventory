@@ -107,7 +107,7 @@ http://manager-edgemigration.glb.paypal.com:80 ["Send Money, Pay Online or Set U
 http://manager-edgemigration.payflow.edge.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://manager-migration.payflow.edge.paypal.com:80 [null] [301] [null] [null] ["66.211.171.182"] [null] [null] [null] [];
 http://manager.payflow.edge.paypal.com:80 [null] [301] [null] [null] ["66.211.171.182"] [null] [null] [null] [];
-http://manager.paypal.com:80 ["PayPal Manager"] [200] [79409] ["text/html"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
+http://manager.paypal.com:80 ["PayPal Manager"] [200] [79409] ["text/html"] ["173.0.93.189"] ["https://manager.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://messages.xoom.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.44.1"] [null] [null] [null] [];
 http://misc-redirect.paypal.com:80 [null] [403] [null] [null] ["66.211.168.148"] ["https://misc-redirect.paypal.com/"] ["BigIP"] [["F5 BigIP"]] [];
 http://mobile.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [134499] ["text/html"] ["23.79.153.168"] ["https://mobile.paypal.com/us/home"] [null] [["Akamai","React"]] [];
