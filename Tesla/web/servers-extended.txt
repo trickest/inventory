@@ -46,12 +46,12 @@ http://akamai-apigateway-uat-materials.tesla.com:80 ["Access Denied"] [403] [303
 http://akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com:80 ["Access Denied"] [403] [319] ["text/html"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-vfx-stg.tesla.com:80 [null] [404] [228] ["application/json"] ["184.30.18.203"] ["https://akamai-apigateway-vfx-stg.tesla.com/"] [null] [null] [];
 http://akamai-apigateway-vfx.tesla.com:80 [null] [404] [115] ["application/json"] ["184.30.18.203"] ["https://akamai-apigateway-vfx.tesla.com/"] [null] [null] [];
-http://akamai-apigateway-warp3pl.tesla.com:80 ["IIS Windows Server"] [200] [701] ["text/html"] ["104.92.71.218"] ["https://akamai-apigateway-warp3pl.tesla.com/"] ["Microsoft-IIS/8.5"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
+http://akamai-apigateway-warp3pl.tesla.com:80 ["IIS Windows Server"] [200] [701] ["text/html"] ["104.90.109.222"] ["https://akamai-apigateway-warp3pl.tesla.com/"] ["Microsoft-IIS/8.5"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://akamai-apigateway-warpcxml.tesla.com:80 ["Access Denied"] [403] [293] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-warpedi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["23.210.252.68"] ["https://akamai-apigateway-warpedi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://akamai-apigateway-warptmsapiserver-upgrade.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.90.109.222"] ["https://akamai-apigateway-warptmsapiserver-upgrade.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://akamai-apigateway-warptmsapiserver.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.111.226.14"] ["https://akamai-apigateway-warptmsapiserver.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
-http://akamai-apigateway-warptqpapi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.92.71.218"] ["https://akamai-apigateway-warptqpapi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
+http://akamai-apigateway-warptqpapi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.76.200.116"] ["https://akamai-apigateway-warptqpapi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://api-firebolt-dev.tesla.com:80 ["Access Denied"] [403] [283] ["text/html"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
 http://api-firebolt-stage.tesla.com:80 ["Access Denied"] [403] [285] ["text/html"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
 http://api-firebolt.tesla.com:80 ["Access Denied"] [403] [275] ["text/html"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
@@ -121,7 +121,7 @@ http://ir.tesla.com:80 ["Tesla Investor Relations"] [200] [245614] ["text/html"]
 http://itanswers.tesla.com:80 [null] [301] [2] ["text/html"] ["204.74.99.100"] [null] [null] [null] [];
 http://kronos-dev.tesla.com:80 ["IIS Windows Server"] [200] [3774] ["text/html"] ["184.30.18.203"] ["https://kronos-dev.tesla.com/"] [null] [["Akamai"]] [];
 http://kronos.tesla.com:80 [null] [302] [null] [null] ["104.90.109.222"] ["https://kronos.tesla.com/wfc/logon"] [null] [null] [];
-http://link.tesla.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["104.92.71.218"] ["https://link.tesla.com/"] ["nginx"] [["Nginx"]] [];
+http://link.tesla.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["104.76.200.116"] ["https://link.tesla.com/"] ["nginx"] [["Nginx"]] [];
 http://links.tesla.com:80 [null] [303] [null] [null] ["104.76.200.116"] ["https://links.tesla.com/"] ["iterable-links d881"] [null] [];
 http://livestream.tesla.com:80 ["Q4 2021 Financial Results | Tesla"] [200] [9542] ["text/html"] ["184.30.18.203"] ["https://livestream.tesla.com/"] [null] [["Akamai","Google Tag Manager"]] [];
 http://livestreamapi.tesla.com:80 ["Access Denied"] [403] [272] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
@@ -129,7 +129,7 @@ http://location-services-prd.tesla.com:80 ["Access Denied"] [403] [288] ["text/h
 http://logcollection.tesla.com:80 ["404 Not Found"] [404] [223] ["text/html"] ["104.92.71.218"] [null] ["Splunkd"] [["Splunkd"]] [];
 http://marketing.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.196"] [null] [null] [null] [];
 http://mfa-reset.tesla.com:80 ["MFA Deactivation"] [200] [5592] ["text/html"] ["104.90.109.222"] ["https://mfa-reset.tesla.com/"] [null] [["Akamai"]] [];
-http://mfa.tesla.com:80 ["MFA Enrollment"] [200] [4641] ["text/html"] ["104.90.109.222"] ["https://mfa.tesla.com/"] [null] [["Akamai"]] [];
+http://mfa.tesla.com:80 ["MFA Enrollment"] [200] [4644] ["text/html"] ["23.210.252.68"] ["https://mfa.tesla.com/"] [null] [["Akamai"]] [];
 http://mfs-supplier-uat.tesla.com:80 ["MFS Supplier Portal"] [200] [2353] ["text/html"] ["104.92.71.218"] ["https://mfs-supplier-uat.tesla.com/"] [null] [null] [];
 http://mfs-supplier.tesla.com:80 ["MFS Supplier Portal"] [200] [2353] ["text/html"] ["104.92.71.218"] ["https://mfs-supplier.tesla.com/"] [null] [null] [];
 http://mobile.tesla.com:80 ["Tesla Mobile App Store"] [200] [10535] ["text/html"] ["104.76.200.116"] ["https://mobile.tesla.com/appstore/account/username?ReturnUrl=%2Fappstore%2F"] ["nginx/1.12.2"] [["Akamai","Bootstrap","Nginx"]] [];
@@ -206,13 +206,13 @@ https://akamai-apigateway-einvoicing.tesla.com:443 ["Access Denied"] [403] [296]
 https://akamai-apigateway-finplat-prd.tesla.com:443 ["Access Denied"] [403] [301] ["text/html"] ["104.125.18.99"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-fta.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["184.30.18.203"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 https://akamai-apigateway-inventorytxnextapi.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
-https://akamai-apigateway-logisticsratesapi.tesla.com:443 ["Access Denied"] [403] [302] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
+https://akamai-apigateway-logisticsratesapi.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.76.200.116"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 https://akamai-apigateway-materials.tesla.com:443 ["Access Denied"] [403] [293] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-mfs-supplier-uat.tesla.com:443 ["Access Denied"] [403] [309] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-mfs-supplier.tesla.com:443 ["Access Denied"] [403] [302] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-payment.tesla.com:443 ["Access Denied"] [403] [292] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-prd-global-deliveryopsapi.tesla.com:443 ["Access Denied"] [403] [319] ["text/html"] ["104.111.226.14"] [null] ["AkamaiGHost"] [null] [];
-https://akamai-apigateway-procuretopayapi.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["23.210.252.68"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
+https://akamai-apigateway-procuretopayapi.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.90.109.222"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 https://akamai-apigateway-profileapi.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-qa-captiveunderwriting.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-scraprecycle.tesla.com:443 ["Access Denied"] [403] [297] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
@@ -315,7 +315,7 @@ https://invest.tesla.com:443 ["Service Unavailable"] [503] [268] ["text/html"] [
 https://ir.tesla.com:443 ["Tesla Investor Relations"] [200] [245614] ["text/html"] ["184.30.18.203"] [null] [null] [["Drupal","Google Tag Manager","PHP","Varnish"]] [];
 https://kronos-dev.tesla.com:443 ["IIS Windows Server"] [200] [3770] ["text/html"] ["184.30.18.203"] [null] [null] [["Akamai"]] [];
 https://kronos.tesla.com:443 ["IIS Windows Server"] [200] [3770] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];
-https://link.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["104.92.71.218"] [null] ["nginx"] [["Nginx"]] [];
+https://link.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["104.76.200.116"] [null] ["nginx"] [["Nginx"]] [];
 https://links.tesla.com:443 [null] [303] [null] [null] ["104.76.200.116"] [null] ["iterable-links 15ed"] [null] [];
 https://livestream.tesla.com:443 ["Q4 2021 Financial Results | Tesla"] [200] [9542] ["text/html"] ["184.30.18.203"] [null] [null] [["Akamai","Google Tag Manager"]] [];
 https://livestreamapi.tesla.com:443 ["Access Denied"] [403] [272] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
@@ -338,7 +338,7 @@ https://pages.emails.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] 
 https://partners.tesla.com:443 ["Partner Portal"] [200] [4282] ["text/html"] ["184.30.18.203"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 https://pay.tesla.com:443 ["Tesla - Payment"] [200] [4331] ["text/html"] ["184.30.18.203"] [null] [null] [["Akamai","Express","Node.js"]] [];
 https://powerhub.energy.tesla.com:443 [null] [302] [245] ["text/plain"] ["104.125.13.209"] [null] [null] [null] [];
-https://profile.tesla.com:443 ["Connect"] [200] [6527] ["text/html"] ["104.90.109.222"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
+https://profile.tesla.com:443 ["Connect"] [200] [6530] ["text/html"] ["104.76.200.116"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 https://pub.email.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 https://ranger.tesla.com:443 ["RangerWeb"] [200] [4278] ["text/html"] ["184.30.18.203"] [null] [null] [["Akamai","Google Font API"]] [];
 https://reassignment-ui.tesla.com:443 ["Contract Reassignment UI"] [200] [3672] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];
@@ -378,7 +378,7 @@ https://url1894.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.
 https://url2547.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 https://url4104.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 https://url5196.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
-https://url7051.tesla.com:443 ["Error"] [503] [176] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
+https://url7051.tesla.com:443 ["Error"] [503] [175] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 https://view.email.tesla.com:443 ["Object moved"] [302] [128] ["text/html"] ["136.147.129.32"] [null] [null] [null] [];
 https://view.emails.tesla.com:443 ["Object moved"] [302] [128] ["text/html"] ["13.111.49.179"] [null] [null] [null] [];
 https://vmanage-alerts.tesla.com:443 ["404 Not Found"] [404] [232] ["text/html"] ["184.30.18.203"] [null] ["Werkzeug/2.0.1 Python/3.7.7"] [["Flask","Python"]] [];
