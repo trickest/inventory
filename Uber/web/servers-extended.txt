@@ -1784,6 +1784,7 @@ http://supermarket.uberinternal.com:80 [null] [401] [103] ["application/json"] [
 http://superpac-ui-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://superpac-ui-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://superpac.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://superpac.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://superpac.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
+http://superset.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://superset.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://supplier-staging.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://supplier-staging.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://supplier-staging.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://supplier.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://supplier.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
@@ -3713,6 +3714,7 @@ https://supermarket-staging.uberinternal.com:443 [null] [429] [109] ["text/plain
 https://supermarket.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://superpac-ui-staging.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://superpac.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
+https://superset.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://supplier-staging.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://supplier.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://suppliers.uber.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];

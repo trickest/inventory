@@ -202,6 +202,7 @@ http://registration-migration.glb.paypal.com:443 ["400 The plain HTTP request wa
 http://registration-migration.glb.paypal.com:80 [null] [200] [6679] ["text/html"] ["173.0.93.214"] [null] ["nginx"] [["Nginx"]] [];
 http://registration.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
 http://safebreach.paypal.com:80 [null] [404] [null] [null] ["151.101.193.21"] ["https://safebreach.paypal.com/"] [null] [["Varnish"]] [];
+http://safetyhub.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.196"] [null] [null] [null] [];
 http://safetyhub.paypal.com:80 [null] [200] [124] ["text/html"] ["173.0.93.196"] ["https://safetyhub.paypal.com/"] [null] [["Java"]] [];
 http://sandbox.paypal.com:80 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.36"] ["https://sandbox.paypal.com/"] [null] [null] [];
 http://secure.uninitialized.real.paypal.com:80 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [293] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
