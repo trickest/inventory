@@ -159,6 +159,7 @@ http://serviceapi-stg.tesla.com:80 ["Access Denied"] [403] [278] ["text/html"] [
 http://serviceapi.tesla.com:80 ["Access Denied"] [403] [269] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 http://shop.tesla.com:80 ["The Official Tesla Shop | Tesla"] [200] [139816] ["text/html"] ["104.92.71.218"] ["https://shop.tesla.com/"] ["Tesla Commerce 1.0"] [["Google Tag Manager"]] [];
 http://smtp.tesla.com:80 [null] [301] [null] [null] ["52.97.137.226"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
+http://solarbonds.tesla.com:80 ["404 Not Found"] [404] [548] ["text/html"] ["104.92.71.218"] ["https://solarbonds.tesla.com/"] [null] [null] [];
 http://sso-dev.tesla.com:80 [null] [404] [null] [null] ["104.92.71.218"] ["https://sso-dev.tesla.com/"] [null] [null] [];
 http://sso.tesla.com:80 [null] [404] [null] [null] ["184.30.18.203"] ["https://sso.tesla.com/"] [null] [null] [];
 http://sspr.tesla.com:80 ["Tesla – Self Service Password Reset"] [200] [156011] ["text/html"] ["104.76.200.116"] ["https://sspr.tesla.com/"] ["nginx"] [["Akamai","Nginx"]] [];
@@ -353,6 +354,7 @@ https://serviceapi.tesla.com:443 ["Access Denied"] [403] [269] ["text/html"] ["2
 https://shop.tesla.com:443 ["The Official Tesla Shop | Tesla"] [200] [139816] ["text/html"] ["184.30.18.203"] [null] ["Tesla Commerce 1.0"] [["Google Tag Manager"]] [];
 https://sip.tesla.com:443 [null] [404] [75] ["text/plain"] ["52.112.192.11"] [null] ["RTC/7.0"] [null] [];
 https://smtp.tesla.com:443 ["Object moved"] [302] [777] ["text/html"] ["52.97.137.226"] ["https://smtp.tesla.com/owa/"] ["Microsoft-IIS/10.0"] [["IIS","Windows Server"]] [];
+https://solarbonds.tesla.com:443 ["404 Not Found"] [404] [548] ["text/html"] ["104.92.71.218"] [null] [null] [null] [];
 https://sso-dev.tesla.com:443 [null] [404] [null] [null] ["184.30.18.203"] [null] [null] [null] [];
 https://sso.tesla.com:443 [null] [404] [null] [null] ["184.30.18.203"] [null] [null] [null] [];
 https://sspr.tesla.com:443 ["Tesla – Self Service Password Reset"] [200] [156009] ["text/html"] ["104.90.109.222"] [null] ["nginx"] [["Akamai","Nginx"]] [];

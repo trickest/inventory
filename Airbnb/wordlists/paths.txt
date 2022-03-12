@@ -115,6 +115,7 @@
 ../components/RedirectToListingContainer
 ../components/RedirectToRdpContextSheet
 ../components/ReservationDetailsContextSheetRoute
+../components/StaysConfirmationHeader
 ../components/T1Redirect
 ../components/TwoStepVerificationEntry
 ../components/TwoStepVerificationEntry.prepare
@@ -242,6 +243,7 @@
 ./../../messaging-utils/redirects/RedirectToC3PI
 ./../../signup-login-dls-sso/utils/openSSOModal
 ./../account-activation/utils/checkAccountActivation
+./../airlock-platform/utils/triggerAirlock
 ./../airlock-platform/utils/triggerAirlockModal
 ./../airlock/util/AirlockFinishUtils
 ./../cobrowse/widget
@@ -453,6 +455,8 @@
 ./8.png
 ./9-small.jpg
 ./9.jpg
+./AircoverLandingPageRoute/AircoverLandingPageRoute
+./AircoverLandingPageRoute/AircoverLandingPageRoute.prepare
 ./App
 ./AppCentipede_Beam.png
 ./AppCentipede_Beam.svg
@@ -1956,6 +1960,7 @@
 /against-discrimination
 /agent
 /agent_client_config
+/aircover
 /analytics
 /api/v0/reports
 /api/v2
