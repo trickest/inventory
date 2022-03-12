@@ -1851,9 +1851,13 @@
 /browserify-sign
 /build/
 /business
+/business/content/preview/
 /business/dashboard/
+/business/instagram/claim/oauth/
+/business/loginpage/
 /business/m/async/dashboard/post_tags/
 /business/m/async/quiz/{quiz_id}/
+/business/send/verification/email/
 /business/v3/async/c25/
 /c/
 /calendar
@@ -1864,6 +1868,7 @@
 /cbrs
 /cbrs/devices/sectors/:subName/edit
 /cbrs/devices/sectorsdp/:subName/editdomainproxy
+/ccta/create/
 /challenge/action
 /channel/
 /check_access_key.ns?access_key_pretty=
@@ -1875,6 +1880,7 @@
 /cloud-api-user
 /cloud/validate
 /cms-tools?
+/cms/render_block/
 /cn-ctlr/guest/
 /cn-ctlr/pgw/
 /cn-srv/aaa-servers
@@ -1915,7 +1921,9 @@
 /comments/c/
 /commerce
 /commerce/products/{item_id}/_dialog/
+/commerce/self-serve/merchant/mark-nux-seen/
 /commerce_manager/onboarding/
+/commerce_manager/{account_id}/{?tab}/
 /community/events
 /community/events-d64
 /compat
@@ -2021,8 +2029,10 @@
 /event/
 /events
 /events/
+/events/ajax/invite/
 /events/collaborators/users
 /events/cropExistingImage/
+/events/dialog/create/
 /events/duplicate
 /events/export
 /events/fileUpload/
@@ -2036,6 +2046,7 @@
 /events/tags
 /events/types
 /events/{?location_slug}/{?name_slug}/{event_id}/{?child_event_id}/
+/events/{event_id}/dates/
 /explore
 /explore/
 /explore/grid/
@@ -2479,7 +2490,9 @@
 /partnerships/major-league-hacking
 /partnerships/major-league-hacking-744
 /pay
+/payment/mobile_phone_validate/
 /payment_receipt/download/
+/payments/credit_card/mutator/{mutation_type}/
 /payments/paypal_close
 /photo
 /photo.php
@@ -2773,6 +2786,7 @@
 /styles/v1
 /styles/v1/
 /submit
+/support/
 /survey/us2020/consent_withdraw/
 /switchGroup
 /switcher/placeholder
@@ -3812,6 +3826,11 @@ bootloader/bootload
 bootloader/defer_timeout
 bootloader/resource_in_longtail_bt_manifest
 build/instant-search/
+chat-connection/connected
+chat-connection/mute
+chat-connection/reconnecting
+chat-connection/shutdown
+chat-connection/unmute
 chat/option-changed
 cn-srv/account
 cn-srv/account/settings
