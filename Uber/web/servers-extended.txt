@@ -1627,6 +1627,8 @@ http://security.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https
 http://security.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://security.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://security.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://security2.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://security2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://sensors.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://sensors.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
+http://sensors.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://sentry.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://sentry.uberinternal.com/"] ["ufe"] [null] [];
 http://seo-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://seo-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://seo.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://seo.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -3570,6 +3572,7 @@ https://secure-t.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.15
 https://security.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://security.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://security2.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://sensors.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://sentry.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://seo-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://seo.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
