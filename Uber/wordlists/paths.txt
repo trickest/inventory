@@ -101,6 +101,7 @@
 ../../../data/help/drivers.json
 ../../../data/help/riders.json
 ../../../plugins/flash/swfobject.js
+../../../server/handlers/util/constants
 ../../../server/handlers/utils/recaptcha
 ../../../shared/components/access-tag
 ../../../shared/components/common/success-img
@@ -110,6 +111,7 @@
 ../../../shared/redux/view-actions
 ../../../shared/universal-rendering/utils
 ../../../shared/utils/asset-url
+../../../shared/utils/constants
 ../../../shared/utils/facebook-login-client
 ../../../src/shared/constant
 ../../../themes/superfine/styles
@@ -1271,6 +1273,7 @@
 ./answer-card
 ./api-descriptor
 ./app-stores.jsx
+./app-themes
 ./app.jsx
 ./app/mobile-menu.jsx
 ./app/search-header.jsx
@@ -4580,6 +4583,7 @@
 /blog/sw.js?ver=1646774656695&amp;scope=en-US
 /blog/sw.js?ver=1646774693713&amp;scope=en-US
 /blog/sw.js?ver=1646774694110&amp;scope=en-US
+/blog/sw.js?ver=1646774714123&amp;scope=en-US
 /blog/sw.js?ver=1646774714144&amp;scope=en-US
 /blog/sw.js?ver=1646774714147&amp;scope=en-US
 /blog/sw.js?ver=1646774735070&amp;scope=en-US
@@ -5560,9 +5564,13 @@
 /login-redirect/?redirect=
 /login-user
 /login/
+/login/?baseAccountEnabled=True&amp;name=b&amp;uber_client_name=u4bWeb&amp;next_url=https%3A%2F%2Ffreightbonjour.uber.com%2F&amp;
 /login/?error=dbfailure
 /login/?error=true
 /login/?next_url=
+/login/?uber_client_name=eatsWebSignUp&amp;
+/login/?uber_client_name=riderSignUp&amp;
+/login/?uber_client_name=u4bWeb&amp;
 /login/cisco.css
 /login/dark.css
 /login/forgot-password?
@@ -5574,6 +5582,7 @@
 /login/session?next_url=
 /login/udimeta
 /login?continue=
+/login?uber_client_name=base&amp;
 /login_iframe
 /loginpagebuilder
 /logo
