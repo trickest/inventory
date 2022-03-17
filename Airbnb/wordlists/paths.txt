@@ -13,6 +13,7 @@
 ../../../components/account/selectCurrency/SelectCurrencyContainer
 ../../../components/account/smallScreen/SummaryContainer
 ../../../components/activeHelp/ActiveHelpFeatureToggle.tsx
+../../../components/activeHelp/search/SearchContainer.tsx
 ../../../components/agentSideCard/AgentSideCardContainer
 ../../../components/appDownloadOverlay/AppDownloadOverlayContainer
 ../../../components/auth/AuthScreenContainer
@@ -1957,6 +1958,7 @@
 /account_linking
 /action/
 /activation
+/add
 /addcontent/index/esearch
 /addcontent/index/index-esearch
 /addcontent/sharedrepository/esearch
@@ -2734,6 +2736,7 @@
 /registration/send-verification-email
 /registration/user/register
 /remove
+/removeAll
 /report_incorrect/
 /repository_id/
 /reservation
@@ -2830,6 +2833,7 @@
 /suppliers
 /support
 /support/faq
+/support/search
 /surferinfo/percentile
 /suspended
 /suspended/export
@@ -3334,6 +3338,7 @@
 /usr/src/app/app/fetchers/NearbyPopularMarketsFetcher.js
 /usr/src/app/app/fetchers/PopularCitiesFetcher.js
 /usr/src/app/app/fetchers/requests/Request.js
+/usr/src/app/app/helpers/ActiveHelpHelpers.tsx
 /usr/src/app/app/helpers/AnalyticsHelper.js
 /usr/src/app/app/helpers/AttributionHelper.js
 /usr/src/app/app/helpers/BrowserHelper.js
@@ -3432,6 +3437,7 @@
 /usr/src/app/app/routes/smallScreen/configs/mainRoutesConfig.js
 /usr/src/app/app/routes/smallScreen/configs/orderRoutesConfig.js
 /usr/src/app/app/routes/utils/renderRoute.js
+/usr/src/app/app/store.tsx
 /usr/src/app/app/utils/PreloadContainers.js
 /usr/src/app/app/utils/ScrollToTop.js
 /usr/src/app/app/utils/aphrodite.js
@@ -3467,6 +3473,7 @@
 /v1/users/{applicationSpecificUserId}/posts
 /v1/users/{applicationSpecificUserId}/publications
 /v2/action_notifications/
+/v2/active_help
 /v2/auth/audit/sub-key/
 /v2/auth/grant/sub-key/
 /v2/authentications
