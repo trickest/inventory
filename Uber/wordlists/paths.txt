@@ -2140,6 +2140,7 @@
 ./js/frontify-styleguide/colorswatch.756f51a49bfc5585e9ef.js
 ./js/frontify-styleguide/colorswatch.7cf6e615a0aa259880de.js
 ./js/frontify-styleguide/colorswatch.ace3a864797a9910b18e.js
+./js/frontify-styleguide/colorswatch.e560072164a6676825f0.js
 ./js/frontify-styleguide/colorswatch.eb9c37361943275df3c4.js
 ./js/frontify-styleguide/colorswatch.f118dc965656a61a0881.js
 ./js/frontify-upload.worker.1919face20368202c03b.worker.js
@@ -3831,6 +3832,7 @@
 /api/communicationsetting/
 /api/communicationsetting?
 /api/context
+/api/dashboard
 /api/development/flag/
 /api/document/
 /api/document/block/
@@ -4854,6 +4856,9 @@
 /docs/riders/ride-requests/tutorials/deep-links/introduction
 /docs/riders/terms-of-use
 /document/
+/domain-management*
+/domain-management/*
+/domain-management/routes
 /domain/
 /domain_register/buy
 /domain_register/create_payment_intent
@@ -7421,6 +7426,7 @@ DD/MM/YYYY
 DEPk/7St
 DTLS/SCTP
 Date/time
+Domain/CName
 Error: invalid input defined or SSL error: HTTP Error 404: Not Found
 Etc/GMT-0|Etc/GMT
 Etc/GMT-0|Etc/GMT+0
@@ -8686,9 +8692,13 @@ java://industries.interaction.rule.connect.api.calculationprocedure.output.Calcu
 java://industries.interaction.rule.connect.api.calculationprocedure.output.CalculationProcedureListOutputRepresentation
 java://industries.interaction.rule.connect.api.decisionmatrix.output.DecisionMatrixResultListRepresentation
 java://industries.interaction.rule.connect.api.decisionmatrix.output.DecisionMatrixResultRepresentation
+java://industries.sustainability.connect.api.input.carbonInventory.SustainabilityCarbonInventoryInputRepresentation
+java://industries.sustainability.connect.api.output.carbonInventory.SustainabilityCarbonInventoryRepresentation
 java://industries.sustainability.connect.api.output.footprintCalculation.SustainabilityFootprintCalculationRepresentation
 java://industries.sustainability.connect.api.output.recordlockunlock.SCRecordLockUnlockRepresentation
 java://industries.sustainability.connect.api.output.referencedata.SCReferenceDataOutputRepresentation
+java://industries.sustainability.connect.api.output.suppliermgmt.SCScorecardAllocateEmissionsOutputRepresentation
+java://industries.sustainability.connect.api.output.suppliermgmt.SCScorecardAssociateScorecardOutputRepresentation
 java://java.lang.Boolean
 java://java.lang.Integer
 java://java.lang.Iterable
