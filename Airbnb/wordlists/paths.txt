@@ -13,6 +13,7 @@
 ../../../components/account/selectCurrency/SelectCurrencyContainer
 ../../../components/account/smallScreen/SummaryContainer
 ../../../components/activeHelp/ActiveHelpFeatureToggle.tsx
+../../../components/activeHelp/category/CategoryContainer.tsx
 ../../../components/activeHelp/search/SearchContainer.tsx
 ../../../components/agentSideCard/AgentSideCardContainer
 ../../../components/appDownloadOverlay/AppDownloadOverlayContainer
@@ -107,6 +108,7 @@
 ../components/CCPageRoute
 ../components/ContactHostRedirect
 ../components/FreeformPane
+../components/Header/StaysCheckoutHeader
 ../components/ItinerarySurface
 ../components/MenuPanel
 ../components/MenuPanel2
@@ -2665,6 +2667,7 @@
 /partner_affiliates
 /partner_id/
 /password
+/pay/
 /pay/:id
 /pay/:token
 /pay/payments/:id
@@ -2832,6 +2835,7 @@
 /subscribe/@{username}
 /suppliers
 /support
+/support/category
 /support/faq
 /support/search
 /surferinfo/percentile

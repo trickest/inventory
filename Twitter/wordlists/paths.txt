@@ -2398,6 +2398,7 @@
 //scribe test\nfunction logToScribe() {\n  var img  = new Image();\n  img.src = 
 //static.ads-twitter.com/uwt.js
 //t.co/
+//t.co/i/adsct?type=javascript&amp;version=2.0.10&amp;p_id=Twitter&amp;p_user_id=0
 //t.co/i/adsct?type=javascript&amp;version=2.0.4&amp;p_id=Twitter&amp;p_user_id=0
 //www.glassdoor.com/track/jobApply/complete.htm?partnerId=18363&amp;cachebuster=
 //www.google-analytics.com
@@ -4903,9 +4904,11 @@ friendships/accept
 friendships/cancel
 friendships/create
 friendships/create.json
+friendships/create_all
 friendships/deny
 friendships/destroy
 friendships/destroy.json
+friendships/destroy_all
 friendships/incoming
 friendships/no_retweets/ids.json
 friendships/show.json
@@ -5146,6 +5149,7 @@ page.js
 pagemodel/messaging.js
 paseto/token
 people_discovery/modules_urt
+people_discovery/profile_follow
 periscope/APP_AVAILABLE
 periscope/ASSOCIATED_ACCOUNT_INFO_OPEN
 periscope/AUTH_LOGOUT
@@ -5569,6 +5573,9 @@ rweb/ocf/VERIFY_IDENTIFIER_SUCCESS
 rweb/previews/LINK_TWEET_TO_PREVIEW
 rweb/previews/REMOVE_PREVIEW_TWEET
 rweb/previews/STORE_PREVIEW
+rweb/promotedContent/LOG_FAILURE
+rweb/promotedContent/LOG_REQUEST
+rweb/promotedContent/LOG_SUCCESS
 rweb/promotedContent/LOG_UNIQUE_EVENT
 rweb/revueAccount/FETCH_REVUE_ACCOUNT_FAILURE
 rweb/revueAccount/FETCH_REVUE_ACCOUNT_REQUEST
@@ -5610,6 +5617,9 @@ rweb/settings/UPDATE_DATA_USAGE_SETTINGS_FAILURE
 rweb/settings/UPDATE_DATA_USAGE_SETTINGS_REQUEST
 rweb/settings/UPDATE_DATA_USAGE_SETTINGS_SUCCESS
 rweb/ssr_rate_limited_request
+rweb/subscriptionProductFeatures/FETCH_SUBSCRIPTION_PRODUCT_FEATURES_FAILURE
+rweb/subscriptionProductFeatures/FETCH_SUBSCRIPTION_PRODUCT_FEATURES_REQUEST
+rweb/subscriptionProductFeatures/FETCH_SUBSCRIPTION_PRODUCT_FEATURES_SUCCESS
 rweb/teams/FETCH_TEAMS_FAILURE
 rweb/teams/FETCH_TEAMS_REQUEST
 rweb/teams/FETCH_TEAMS_SUCCESS

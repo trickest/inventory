@@ -1814,6 +1814,9 @@
 ./inject-frame
 ./integrations/mongo
 ./integrations/mysql
+./integrations/node/mongo
+./integrations/node/mysql
+./integrations/node/postgres
 ./integrations/postgres
 ./invite-team
 ./invite-team.d
@@ -3607,6 +3610,7 @@
 //s.w.org
 //static.licdn.com/scds/common/u/images/apps/connect/sprites/sprite_connect_v14.png
 //status.halp.com/
+//t.co/i/adsct?type=javascript&amp;version=2.0.10&amp;p_id=Twitter&amp;p_user_id=0
 //t.co/i/adsct?type=javascript&amp;version=2.0.4&amp;p_id=Twitter&amp;p_user_id=0
 //telegram.me/share/url?
 //totp/
@@ -5160,7 +5164,7 @@
 /feed/SECFiling.svc/GetEdgarFilingList
 /feed/SECFiling.svc/GetEdgarFilingYearList
 /feed/StockQuote.svc/
-/feedback
+/feedback slash command
 /feedback-collector-api
 /fetch-instance-users
 /fetchPaymentInfo
@@ -6698,7 +6702,7 @@
 /sdQ
 /sdk/evalx/
 /sdk/goals/
-/search
+/search slashcommand
 /search-results
 /search-results?SearchTerm=
 /search/
@@ -9388,6 +9392,7 @@ confluence/templates
 confluence/tooltip
 confluence/watches
 confluence/websudo
+connectable-contacts/oauth/google/start?
 container/blog
 container/default
 container/home
@@ -11812,6 +11817,7 @@ packages/self-help-experience/feedback-collector/CHANGELOG.md
 packages/self-help-experience/feedback-collector/docs/01-intro.tsx
 packages/self-help-experience/feedback-collector/examples/01-feedback-form.tsx
 packages/self-help-experience/feedback-collector/examples/02-feedback-collector.tsx
+packages/self-help-experience/feedback-collector/examples/03-feedback-button.tsx
 packages/self-help-experience/feedback-collector/examples/04-custom-feedback-collector.tsx
 packages/self-help-experience/feedback-collector/package.json
 packages/smart-experiences/container-picker/CHANGELOG.md
