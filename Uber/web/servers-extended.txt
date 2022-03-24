@@ -843,7 +843,7 @@ http://graphite.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text
 http://graphql.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://graphql.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://gratitude.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://gratitude.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://gratitude.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://gratitude.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://gratitude.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://gratitude.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://gratitude.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://griffith.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://griffith.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://grocery.uber.com:80 [null] [302] [null] [null] ["104.36.195.150"] ["https://grocery.uber.com/"] ["ufe"] [null] [];
 http://groove.uber.com:80 [null] [404] [9] ["text/html"] ["54.197.177.102"] [null] [null] [null] [];
@@ -957,7 +957,7 @@ http://info.ubereats.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.9
 http://infra.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://infra.uberinternal.com/"] ["ufe"] [null] [];
 http://inquiries.uber.com:80 [null] [404] [9] ["text/plain"] ["34.98.127.226"] ["https://inquiries.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://inquiries.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://inquiries.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://inquiries.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://inquiries.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://inquiries.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://inspection.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.197.214"] ["https://inspection.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://inspector-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://inspector-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://inspector.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://inspector.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1902,7 +1902,7 @@ http://tour.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.12
 http://tps.uberinternal.com:80 [null] [301] [null] [null] ["104.36.197.214"] ["https://tps.uberinternal.com/"] ["ufe"] [null] [];
 http://trace.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://trace.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://trace.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://track.spmail.uber.com:80 ["404 Not Found"] [404] [561] ["text/plain"] ["52.27.112.101"] [null] ["msys-http"] [null] [];
+http://track.spmail.uber.com:80 ["404 Not Found"] [404] [561] ["text/plain"] ["44.228.58.115"] [null] ["msys-http"] [null] [];
 http://track.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://track.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://track.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://tracker.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://tracker.uberinternal.com/"] ["ufe"] [null] [];
@@ -2160,7 +2160,7 @@ http://www.lert.uber.com:80 [null] [301] [2] ["text/html"] ["204.74.99.101"] [nu
 http://www.lert.uberinternal.com:80 [null] [301] [null] ["application/octet-stream"] ["3.13.170.128"] [null] ["awselb/2.0"] [null] [];
 http://www.uber.com:80 [null] [406] [14] ["text/plain"] ["34.98.127.226"] ["https://www.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://www.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://www.ubereats.com:80 ["Uber Eats | Food Delivery and Takeout | Order Online from Restaurants Near You"] [200] [202814] ["text/html"] ["34.98.127.226"] ["https://www.ubereats.com/de"] ["ufe"] [["Envoy","Google Cloud"]] [];
+http://www.ubereats.com:80 ["Uber Eats | Food Delivery and Takeout | Order Online from Restaurants Near You"] [200] [206404] ["text/html"] ["34.98.127.226"] ["https://www.ubereats.com/de"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://www.ubereats.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://www.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://www.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://x.uber.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://x.uber.com/"] ["ufe"] [["Envoy"]] [];
@@ -3822,7 +3822,7 @@ https://totalrewards.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"
 https://tour.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://tps.uberinternal.com:443 [null] [301] [null] [null] ["104.36.197.214"] [null] ["ufe"] [null] [];
 https://trace.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://track.spmail.uber.com:443 ["404 Not Found"] [404] [159] ["text/plain"] ["52.27.112.101"] [null] ["msys-http"] [null] [];
+https://track.spmail.uber.com:443 ["404 Not Found"] [404] [561] ["text/plain"] ["44.228.58.115"] [null] ["msys-http"] [null] [];
 https://track.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://tracker.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://tracktivity.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
