@@ -1,7 +1,7 @@
 http://api.bugcrowd.com:80 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://api.bugcrowd.com:8080 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://api.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
-http://assetinventory.bugcrowd.com:80 ["Bit Discovery - Attack Surface Management"] [200] [4144] ["text/html"] ["104.20.7.68"] ["https://assetinventory.bugcrowd.com/"] ["cloudflare"] [["Cloudflare"]] [];
+http://assetinventory.bugcrowd.com:80 ["Bit Discovery - Attack Surface Management"] [200] [4145] ["text/html"] ["104.20.7.68"] ["https://assetinventory.bugcrowd.com/"] ["cloudflare"] [["Cloudflare"]] [];
 http://assetinventory.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://bugcrowd.com:80 ["Just a moment..."] [503] [10125] ["text/html"] ["104.20.7.68"] ["https://bugcrowd.com/"] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management","hCaptcha"]] [];
 http://bugcrowd.com:8080 [null] [302] [null] [null] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
@@ -36,6 +36,8 @@ http://files.bugcrowd.com:80 [null] [404] [48] ["application/json"] ["151.101.2.
 http://forum.bugcrowd.com:80 ["Bugcrowd Forum - community for hackers & security researchers"] [200] [121551] ["text/html"] ["64.62.250.110"] ["https://forum.bugcrowd.com/"] ["nginx"] [["Discourse","Google Font API","Nginx","Ruby on Rails"]] [];
 http://go.bugcrowd.com:80 [null] [200] [101] ["text/html"] ["104.17.73.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://go.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.17.73.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
+http://gslink.bugcrowd.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
+http://gslink.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://hooks.bugcrowd.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://hooks.bugcrowd.com:80 [null] [403] [16] ["text/plain"] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://hooks.bugcrowd.com:8080 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
@@ -48,6 +50,7 @@ http://levelup.bugcrowd.com:443 ["400 The plain HTTP request was sent to HTTPS p
 http://levelup.bugcrowd.com:80 [null] [200] [551450] ["text/html"] ["104.20.6.68"] ["https://levelup.bugcrowd.com/"] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management","Google Tag Manager"]] [];
 http://levelup.bugcrowd.com:8080 [null] [301] [null] [null] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://levelup.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
+http://mailgun.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://pages.bugcrowd.com:80 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://researcherdocs.bugcrowd.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://researcherdocs.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
@@ -79,10 +82,12 @@ https://email.submit.bugcrowd.com:443 [null] [200] [23] ["application/octet-stre
 https://files.bugcrowd.com:443 [null] [404] [48] ["application/json"] ["151.101.2.132"] [null] ["kong/2.6.0"] [["Varnish"]] [];
 https://forum.bugcrowd.com:443 ["Bugcrowd Forum - community for hackers & security researchers"] [200] [121551] ["text/html"] ["64.62.250.110"] [null] ["nginx"] [["Discourse","Google Font API","Nginx","Ruby on Rails"]] [];
 https://go.bugcrowd.com:443 [null] [200] [101] ["text/html"] ["104.17.73.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
+https://gslink.bugcrowd.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://hooks.bugcrowd.com:443 [null] [200] [12] [null] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://itmoah.bugcrowd.com:443 ["2020 Inside the Mind of a Hacker Report | Bugcrowd"] [200] [934077] ["text/html"] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management","Google Tag Manager"]] [];
 https://itmoah.bugcrowd.com:8443 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://levelup.bugcrowd.com:443 [null] [200] [551450] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management","Google Tag Manager"]] [];
+https://mailgun.bugcrowd.com:443 [null] [404] [null] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://pages.bugcrowd.com:443 [null] [301] [null] [null] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://pages.bugcrowd.com:8443 [null] [301] [null] [null] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://researcherdocs.bugcrowd.com:443 [null] [301] [14] [null] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];

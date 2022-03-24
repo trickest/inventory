@@ -50,7 +50,7 @@ http://akamai-apigateway-warp3pl.tesla.com:80 ["IIS Windows Server"] [200] [701]
 http://akamai-apigateway-warpcxml.tesla.com:80 ["Access Denied"] [403] [293] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-warpdashboardapi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["2.20.40.131"] ["https://akamai-apigateway-warpdashboardapi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://akamai-apigateway-warpedi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["23.210.252.68"] ["https://akamai-apigateway-warpedi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
-http://akamai-apigateway-warptmsapiserver-upgrade.tesla.com:80 [null] [200] [75] ["application/problem+json"] ["2.20.40.131"] [null] ["AkamaiGHost"] [null] [];
+http://akamai-apigateway-warptmsapiserver-upgrade.tesla.com:80 [null] [200] [75] ["application/problem+json"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-warptmsapiserver.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["2.20.40.131"] ["https://akamai-apigateway-warptmsapiserver.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://akamai-apigateway-warptqpapi.tesla.com:80 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.90.109.222"] ["https://akamai-apigateway-warptqpapi.tesla.com/"] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 http://api-firebolt-dev.tesla.com:80 ["Access Denied"] [403] [283] ["text/html"] ["23.37.238.80"] [null] ["AkamaiGHost"] [null] [];
@@ -80,10 +80,10 @@ http://checkout-ui-assets.tesla.com:80 ["Checkout UI"] [200] [5273] ["text/html"
 http://cld-ec.tesla.com:80 ["404 Not Found"] [404] [223] ["text/html"] ["23.37.238.80"] ["https://cld-ec.tesla.com/"] ["Splunkd"] [["Splunkd"]] [];
 http://click.email.tesla.com:80 [null] [301] [null] [null] ["92.123.225.49"] [null] ["AkamaiGHost"] [null] [];
 http://click.emails.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.48.179"] ["https://click.emails.tesla.com/"] [null] [null] [];
-http://courses.tesla.com:80 [null] [302] [null] ["text/html"] ["23.210.252.68"] ["https://courses.tesla.com/auth/login/tesla-prod-oauth2/?auth_entry=login&next=%2Fdashboard"] ["nginx"] [["Nginx"]] [];
+http://courses.tesla.com:80 [null] [302] [null] ["text/html"] ["23.53.168.68"] ["https://courses.tesla.com/auth/login/tesla-prod-oauth2/?auth_entry=login&next=%2Fdashboard"] ["nginx"] [["Nginx"]] [];
 http://dataviz.tesla.com:80 ["302 Found"] [302] [426] ["text/html"] ["92.122.176.137"] ["https://dataviz.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
 http://digitalassets-energy.tesla.com:80 [null] [404] [null] ["image/gif"] ["151.101.2.1"] [null] ["Cloudinary"] [null] [];
-http://digitalassets-learning.tesla.com:80 [null] [404] [null] ["image/gif"] ["151.101.2.1"] [null] ["Cloudinary"] [null] [];
+http://digitalassets-learning.tesla.com:80 [null] [404] [null] ["image/gif"] ["151.101.14.1"] [null] ["Cloudinary"] [null] [];
 http://digitalassets-shop.tesla.com:80 [null] [301] [null] [null] ["104.90.109.222"] ["https://digitalassets-shop.tesla.com/"] ["Cloudinary"] [null] [];
 http://digitalassets.tesla.com:80 [null] [404] [null] ["image/gif"] ["151.101.2.1"] [null] ["Cloudinary"] [null] [];
 http://eaa-setup.tesla.com:80 ["302 Found"] [302] [427] ["text/html"] ["2.16.6.137"] ["https://eaa-setup.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
@@ -109,6 +109,7 @@ http://financial-gw-stg.tesla.com:80 ["Access Denied"] [403] [283] ["text/html"]
 http://finops.tesla.com:80 [null] [302] [435] ["text/plain"] ["104.90.109.222"] ["https://finops.tesla.com/"] [null] [null] [];
 http://forums.tesla.com:80 ["Attack"] [503] [124309] ["text/html"] ["162.159.138.78"] ["https://forums.tesla.com/"] ["cloudflare"] [["Cloudflare"]] [];
 http://forums.tesla.com:8080 [null] [301] [null] [null] ["162.159.138.78"] [null] ["cloudflare"] [["Cloudflare"]] [];
+http://forums.tesla.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["162.159.128.79"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://grid.tesla.com:80 [null] [403] [88] ["text/html"] ["23.37.238.80"] [null] [null] [null] [];
 http://gridlogic.energy.tesla.com:80 ["Access Denied"] [403] [278] ["text/html"] ["104.89.4.15"] [null] ["AkamaiGHost"] [null] [];
 http://hub.tesla.com:80 ["302 Found"] [302] [428] ["text/html"] ["92.122.176.137"] ["https://hub.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
@@ -197,7 +198,7 @@ http://www.tesla.com:80 ["Electric Cars, Solar & Clean Energy | Tesla"] [200] [2
 http://www.ug.tesla.com:80 ["GF Berlin"] [200] [3973] ["text/html"] ["3.68.179.236"] [null] [null] [["Bootstrap","Google Font API","Popper"]] [];
 http://xapps.tesla.com:80 [null] [302] [2] ["text/html"] ["204.74.99.100"] [null] [null] [null] [];
 http://xmail.tesla.com:80 [null] [302] [2] ["text/html"] ["204.74.99.100"] [null] [null] [null] [];
-http://zta-setup.tesla.com:80 ["302 Found"] [302] [427] ["text/html"] ["23.210.31.26"] ["https://zta-setup.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
+http://zta-setup.tesla.com:80 ["302 Found"] [302] [427] ["text/html"] ["23.54.116.26"] ["https://zta-setup.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
 https://3.tesla.com:443 [null] [404] [7203] ["text/html"] ["23.37.238.80"] [null] ["nginx"] [["Adobe Experience Manager","Java","Nginx"]] [];
 https://akamai-apigateway-automation-billing.tesla.com:443 ["Access Denied"] [403] [308] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-automation.tesla.com:443 ["Access Denied"] [403] [296] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
@@ -249,7 +250,7 @@ https://akamai-apigateway-vfx.tesla.com:443 [null] [404] [115] ["application/jso
 https://akamai-apigateway-warp3pl.tesla.com:443 ["IIS Windows Server"] [200] [701] ["text/html"] ["184.30.18.203"] [null] ["Microsoft-IIS/8.5"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 https://akamai-apigateway-warpcxml.tesla.com:443 ["Access Denied"] [403] [293] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-warpedi.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["72.246.101.86"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
-https://akamai-apigateway-warptmsapiserver-upgrade.tesla.com:443 [null] [200] [75] ["application/problem+json"] ["2.20.40.131"] [null] ["AkamaiGHost"] [null] [];
+https://akamai-apigateway-warptmsapiserver-upgrade.tesla.com:443 [null] [200] [75] ["application/problem+json"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-warptmsapiserver.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["104.111.226.14"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 https://akamai-apigateway-warptqpapi.tesla.com:443 ["IIS Windows Server"] [200] [703] ["text/html"] ["184.30.18.203"] [null] ["Microsoft-IIS/10.0"] [["IIS","Microsoft ASP.NET","Windows Server"]] [];
 https://api-firebolt-dev.tesla.com:443 ["Access Denied"] [403] [283] ["text/html"] ["23.37.238.80"] [null] ["AkamaiGHost"] [null] [];
@@ -280,7 +281,7 @@ https://cnvpn1.tesla.com:443 ["Tesla Motors VPN"] [404] [2543] ["text/html"] ["1
 https://courses.tesla.com:443 [null] [302] [null] ["text/html"] ["104.92.71.218"] ["https://courses.tesla.com/auth/login/tesla-prod-oauth2/?auth_entry=login&next=%2Fdashboard"] ["nginx"] [["Nginx"]] [];
 https://dataviz.tesla.com:443 ["302 Found"] [302] [427] ["text/html"] ["2.16.6.137"] [null] ["akamai/nginx"] [["Nginx"]] [];
 https://digitalassets-energy.tesla.com:443 [null] [404] [null] ["image/gif"] ["151.101.14.1"] [null] ["Cloudinary"] [null] [];
-https://digitalassets-learning.tesla.com:443 [null] [404] [null] ["image/gif"] ["151.101.114.1"] [null] ["Cloudinary"] [null] [];
+https://digitalassets-learning.tesla.com:443 [null] [404] [null] ["image/gif"] ["151.101.2.1"] [null] ["Cloudinary"] [null] [];
 https://digitalassets-shop.tesla.com:443 [null] [301] [null] [null] ["104.90.109.222"] [null] ["Cloudinary"] [null] [];
 https://digitalassets.tesla.com:443 [null] [404] [null] ["image/gif"] ["151.101.2.1"] [null] ["Cloudinary"] [null] [];
 https://eaa-setup.tesla.com:443 ["302 Found"] [302] [428] ["text/html"] ["2.16.6.137"] [null] ["akamai/nginx"] [["Nginx"]] [];
@@ -320,7 +321,7 @@ https://kronos-dev.tesla.com:443 ["IIS Windows Server"] [200] [3772] ["text/html
 https://kronos.tesla.com:443 ["IIS Windows Server"] [200] [3776] ["text/html"] ["104.89.18.184"] [null] [null] [["Akamai"]] [];
 https://link.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["23.37.238.80"] [null] ["nginx"] [["Nginx"]] [];
 https://links.tesla.com:443 [null] [303] [null] [null] ["23.37.238.80"] [null] ["iterable-links b20d"] [null] [];
-https://livestream.tesla.com:443 ["Q4 2021 Financial Results | Tesla"] [200] [9542] ["text/html"] ["104.89.18.184"] [null] [null] [["Akamai","Google Tag Manager"]] [];
+https://livestream.tesla.com:443 ["Q4 2021 Financial Results | Tesla"] [200] [9539] ["text/html"] ["23.53.168.68"] [null] [null] [["Akamai","Google Tag Manager"]] [];
 https://livestreamapi.tesla.com:443 ["Access Denied"] [403] [272] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 https://location-services-prd.tesla.com:443 ["Access Denied"] [403] [288] ["text/html"] ["23.53.168.68"] [null] ["AkamaiGHost"] [null] [];
 https://logcollection.tesla.com:443 ["404 Not Found"] [404] [223] ["text/html"] ["23.37.238.80"] [null] ["Splunkd"] [["Splunkd"]] [];
@@ -343,7 +344,7 @@ https://pages.emails.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] 
 https://partners.tesla.com:443 ["Partner Portal"] [200] [4283] ["text/html"] ["23.37.238.80"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 https://pay.tesla.com:443 ["Tesla - Payment"] [200] [4331] ["text/html"] ["23.37.238.80"] [null] [null] [["Akamai","Express","Node.js"]] [];
 https://powerhub.energy.tesla.com:443 [null] [302] [242] ["text/plain"] ["104.89.4.15"] [null] [null] [null] [];
-https://profile.tesla.com:443 ["Connect"] [200] [6527] ["text/html"] ["104.89.18.184"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
+https://profile.tesla.com:443 ["Connect"] [200] [6528] ["text/html"] ["104.90.109.222"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 https://pub.email.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 https://ranger.tesla.com:443 ["RangerWeb"] [200] [4279] ["text/html"] ["104.89.18.184"] [null] [null] [["Akamai","Google Font API"]] [];
 https://reassignment-ui.tesla.com:443 ["Contract Reassignment UI"] [200] [3675] ["text/html"] ["104.89.18.184"] [null] [null] [["Akamai"]] [];
@@ -394,4 +395,4 @@ https://workforce.tesla.com:443 ["Workforce Management"] [200] [3758] ["text/htm
 https://www.engage.tesla.com:443 ["302 Found"] [302] [154] ["text/html"] ["143.204.98.41"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 https://www.tesla.com:443 ["Electric Cars, Solar & Clean Energy | Tesla"] [200] [278276] ["text/html"] ["23.37.238.80"] [null] [null] [["Drupal","PHP","Varnish"]] [];
 https://www.ug.tesla.com:443 ["GF Berlin"] [200] [3973] ["text/html"] ["3.68.179.236"] [null] [null] [["Bootstrap","Google Font API","Popper"]] [];
-https://zta-setup.tesla.com:443 ["302 Found"] [302] [428] ["text/html"] ["23.210.31.26"] [null] ["akamai/nginx"] [["Nginx"]] [];
+https://zta-setup.tesla.com:443 ["302 Found"] [302] [427] ["text/html"] ["23.54.116.26"] [null] ["akamai/nginx"] [["Nginx"]] [];

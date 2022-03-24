@@ -20,9 +20,13 @@
 *.salesforce.com
 *.sandbox.braintree-api.com
 *.statuspage.io
+*.stg.atlassian.com
+*.stg.internal.atlassian.com
+*.stg.services.atlassian.com
 *.stripe.com
 *.visualforce.com
 *.wp.com
+api-68b2559a.duosecurity.com
 api.sandbox.braintreegateway.com
 api.segment.io
 assets.quadpay.com
@@ -94,8 +98,10 @@ https://*.force.com
 https://*.githubusercontent.com
 https://*.gs0.salesforce.com
 https://*.ingest.sentry.io
+https://*.intercom.io
 https://*.jira-dev.com
 https://*.jira.com
+https://*.launchdarkly.com
 https://*.lightning.force.com
 https://*.my.salesforce.com
 https://*.na52.visual.force.com
@@ -107,6 +113,7 @@ https://*.preview.demo.pardot.com
 https://*.preview.pardot.com
 https://*.salesforce.com
 https://*.t.salesforce.com
+https://*.tiles.mapbox.com
 https://*.visual.force.com
 https://*.visualforce.com
 https://accounts.google.com/
@@ -117,6 +124,7 @@ https://aid-frontend.prod.atl-paas.net/
 https://api-68b2559a.duosecurity.com
 https://api-private.atlassian.com
 https://api.atlassian.com
+https://api.mapbox.com
 https://app.pendo.io
 https://atl-global.atlassian.com/
 https://atl-global.atlassian.com/js/atl-global.min.js
@@ -146,6 +154,7 @@ https://embedded.pardot.com
 https://force.com
 https://geolocation.onetrust.com/
 https://github.atlassian.com
+https://github.stg.atlassian.com
 https://gs0.salesforce.com
 https://lightning.force.com
 https://metal.prod.atl-paas.net/
@@ -183,11 +192,15 @@ https://trello.com
 https://visual.force.com
 https://visualforce.com
 https://web-security-reports.services.atlassian.com/csp-report/adminhub-frontend
+https://web-security-reports.services.atlassian.com/csp-report/bifrost-baked-cookies
+https://web-security-reports.services.atlassian.com/csp-report/cdac-incident-escalation
 https://web-security-reports.services.atlassian.com/csp-report/custom-domain-validator
 https://web-security-reports.services.atlassian.com/csp-report/github-for-jira
 https://web-security-reports.services.atlassian.com/csp-report/sign-in-service
+https://web-security-reports.services.atlassian.com/csp-report/socrates-slack-bot
 https://www.google-analytics.com/
 js-agent.newrelic.com
+js.intercomcdn.com
 js.stripe.com
 m.stripe.network
 q.stripe.com
@@ -195,6 +208,7 @@ secure.gravatar.com
 sharepointonline.com
 slant.co
 use.typekit.net
+wss://*.intercom.io
 wss://trellegi.services.atlassian.com
 www.paypalobjects.com
 youtube.com
