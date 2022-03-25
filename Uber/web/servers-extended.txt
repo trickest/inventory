@@ -1961,6 +1961,7 @@ http://ubereats.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["34.
 http://ubereats.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://uberhealth-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uberhealth-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://uberhealth-tools.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://uberhealth-tools.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://uberhub.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [653] ["text/html"] ["149.96.251.71"] [null] ["snow_adc"] [null] [];
 http://uberhub.uberinternal.com:80 [null] [302] [null] [null] ["149.96.251.71"] ["https://uberhub.uberinternal.com/"] ["snow_adc"] [null] [];
 http://uberhubdev.uberinternal.com:80 [null] [302] [null] [null] ["149.96.251.71"] ["https://uberhubdev.uberinternal.com/"] ["snow_adc"] [null] [];
 http://uberhubtest.uberinternal.com:80 [null] [302] [null] [null] ["149.96.251.71"] ["https://uberhubtest.uberinternal.com/"] ["snow_adc"] [null] [];
@@ -3454,6 +3455,7 @@ https://qa-tracker-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text
 https://qa-tracker.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://qb-backend.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://qb-monorepo-dca.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://qb-monorepo.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://qb.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://qbfe-docker.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://qifan.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];

@@ -3542,6 +3542,7 @@
 ./src/packages/spa-apps/admin-pages/new-issue-search-settings/src/index.js
 ./src/packages/spa-apps/admin-pages/new-issue-view-settings/src/index.js
 ./src/packages/spa-apps/admin-pages/product-jsm-email-requests/src/index.js
+./src/packages/spa-apps/admin-pages/products-jsm-compliance/src/index.js
 ./src/packages/spa-apps/admin-pages/products-jsm-configuration/src/index.js
 ./src/packages/spa-apps/admin-pages/products-jsm-incident-management-tools/src/index.js
 ./src/packages/spa-apps/admin-pages/products-jsw-configuration/src/index.js
@@ -3599,6 +3600,7 @@
 ./src/packages/spa-apps/personal-settings/src/index.js
 ./src/packages/spa-apps/polaris/ideas/src/index.js
 ./src/packages/spa-apps/proforma-issue-forms-direct/src/index.js
+./src/packages/spa-apps/proforma-issue-forms-general/src/index.js
 ./src/packages/spa-apps/project-issue-navigator/src/index.js
 ./src/packages/spa-apps/project-settings/app-discovery-settings/src/index.js
 ./src/packages/spa-apps/project-settings/board-settings/card/src/index.js
@@ -6325,6 +6327,7 @@
 /jira/core/projects/:projectKey/issues/:issueKey?
 /jira/core/projects/:projectKey/list
 /jira/core/projects/:projectKey/list/embed
+/jira/core/projects/:projectKey/pages
 /jira/core/projects/:projectKey/summary
 /jira/core/projects/:projectKey/timeline
 /jira/core/projects/:projectKey/timeline/embed
@@ -6334,6 +6337,7 @@
 /jira/devops/connected-project?isFoundingAdmin=true
 /jira/errors/project-archived
 /jira/filters
+/jira/forms/create
 /jira/issues/:issueKey?
 /jira/marketplace
 /jira/marketplace/manage/app-requests
@@ -6423,6 +6427,7 @@
 /jira/settings/issues/screens
 /jira/settings/issues/workflow-schemes
 /jira/settings/issues/workflows
+/jira/settings/products/jira-service-management-compliance
 /jira/settings/products/jira-service-management-configuration
 /jira/settings/products/jira-service-management-email-requests
 /jira/settings/products/jira-service-management-incident-management-tools
@@ -6456,6 +6461,7 @@
 /jira/software/c/projects/:projectKey/settings/forms/form/:templateFormId/edit
 /jira/software/c/projects/:projectKey/settings/notifications/notification-email
 /jira/software/c/projects/:projectKey/settings/opsgenie
+/jira/software/c/projects/:projectKey/settings/toolchain
 /jira/software/projects/
 /jira/software/projects/:projectKey/boards/:boardId
 /jira/software/projects/:projectKey/boards/:boardId/backlog
@@ -6807,6 +6813,7 @@
 /o/:orgId/user-provisioning
 /o/:orgId/users
 /o/:orgId/users/:userId
+/o/:orgid/billing-preview
 /o/create
 /o/oauth2/auth
 /o10
@@ -7355,6 +7362,7 @@
 /rest/gira/1/
 /rest/greenhopper/
 /rest/greenhopper/1.0/frontend/service-worker.js
+/rest/greenhopper/1.0/profile/labs-panel/modern-gic-visibility
 /rest/internal/2/log/unsafe/frontend-exception
 /rest/internal/3/announcement-banner
 /rest/internal/board/:boardId/sprint/:sprintId/sprint-progress
@@ -9687,6 +9695,7 @@ YYYY/MM/DD
 _jira-spa/spa-shell/page-container.end
 abortcontroller.js
 about-modal/sharedFiles
+ac/create
 ac/marketplace
 accounts/FETCH
 accounts/SEARCH
