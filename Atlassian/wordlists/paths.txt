@@ -4946,6 +4946,12 @@
 /addons/app/{application}
 /addons/app/{application}/{silter}
 /addons/{silter}
+/address/city
+/address/country
+/address/line1
+/address/line2
+/address/postCode
+/address/state
 /addtocart
 /admin
 /admin-api
@@ -5712,6 +5718,7 @@
 /eQG
 /eligibleCartItemsForAutoRenew?_=
 /em
+/email
 /emails
 /embed/
 /embed/videoseries?list=
@@ -6549,6 +6556,7 @@
 /js/keycommands.js
 /js/libs/lz-string-1.4.4.js
 /jsd-next-gen
+/jsi18n-json/
 /jsm-error
 /jsm-success
 /json/
@@ -6619,6 +6627,8 @@
 /liveagent/autoquery.apexp
 /loader.js
 /localExtractRefreshes
+/locales/add/{{lng}}/{{ns}}
+/locales/{{lng}}/{{ns}}.json
 /log
 /logger-1.min.js
 /logger.min.js
@@ -6784,6 +6794,7 @@
 /mycommand help
 /n2R
 /nPt
+/name
 /named-contact
 /navigation-system
 /navigation-system-1
@@ -6914,6 +6925,7 @@
 /organization/teams/
 /orphaned-trust/
 /osync
+/otherContactDetails
 /overview
 /owners
 /ownership/summary/
@@ -7003,6 +7015,7 @@
 /permissions
 /permitted
 /personalSpace
+/phone
 /picture
 /ping/
 /pkce
@@ -8049,6 +8062,7 @@
 /var/spool
 /var/tmp
 /var/yp
+/vendorLinks/homePage
 /vendors/
 /vendors/{id}/{slug}
 /vendors/{vendorId}

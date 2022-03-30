@@ -194,7 +194,7 @@ http://errors.hackerone.net:8443 ["400 The plain HTTP request was sent to HTTPS 
 http://gcp-errorerror.ctf.hacker101.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [220] ["text/html"] ["52.35.58.141"] [null] ["awselb/2.0"] [null] [];
 http://gcp-user.debug.error.ctf.hacker101.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [622] ["text/html"] ["35.86.13.172"] [null] ["awselb/2.0"] [null] [];
 http://gslink.hackerone.com:443 ["ERROR: The request could not be satisfied"] [400] [915] ["text/html"] ["13.226.78.10"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
-http://gslink.hackerone.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["143.204.215.34"] ["https://gslink.hackerone.com/"] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
+http://gslink.hackerone.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["143.204.98.95"] ["https://gslink.hackerone.com/"] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 http://hacker101.com:80 [null] [301] [null] [null] ["104.18.193.12"] ["https://hacker101.com/"] ["cloudflare"] [["Cloudflare"]] [];
 http://hacker101.com:8080 [null] [301] [null] [null] ["104.18.193.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://hackerone-ext-content.com:80 [null] [302] [null] [null] ["104.18.110.82"] ["https://hackerone-ext-content.com/"] ["cloudflare"] [["Cloudflare"]] [];
@@ -207,8 +207,8 @@ http://hackerone.net:8080 [null] [301] [null] [null] ["104.17.234.53"] [null] ["
 http://internal.error.ctf.hacker101.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [220] ["text/html"] ["52.35.135.63"] [null] ["awselb/2.0"] [null] [];
 http://jenkins-access.errorerror.ctf.hacker101.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [622] ["text/html"] ["35.86.13.172"] [null] ["awselb/2.0"] [null] [];
 http://jenkins-private.error-status.ctf.hacker101.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [220] ["text/html"] ["54.244.81.0"] [null] ["awselb/2.0"] [null] [];
-http://levels-a.hacker101.com:80 [null] [302] [null] [null] ["104.18.192.12"] ["https://levels-a.hacker101.com/"] ["cloudflare"] [["Cloudflare"]] [];
-http://levels-a.hacker101.com:8080 [null] [301] [null] [null] ["104.18.192.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
+http://levels-a.hacker101.com:80 [null] [302] [null] [null] ["104.18.193.12"] ["https://levels-a.hacker101.com/"] ["cloudflare"] [["Cloudflare"]] [];
+http://levels-a.hacker101.com:8080 [null] [301] [null] [null] ["104.18.193.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://levels-b.hacker101.com:80 [null] [302] [null] [null] ["104.18.192.12"] ["https://levels-b.hacker101.com/"] ["cloudflare"] [["Cloudflare"]] [];
 http://levels-b.hacker101.com:8080 [null] [301] [null] [null] ["104.18.192.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://maintenance.hacker101.com:80 ["Site Maintenance"] [200] [888] ["text/html"] ["104.18.193.12"] ["https://maintenance.hacker101.com/"] ["cloudflare"] [["Cloudflare","Cloudflare Network Error Logging"]] [];
@@ -931,7 +931,7 @@ https://access.errorerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] 
 https://access.gcp-redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://access.jenkins.deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://access.new.v1jenkins.error-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.203.212"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
-https://access.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://access.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://access.stagingdebug-updateelasticbeanstalkerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://access.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://access2018-2021.develasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1072,6 +1072,7 @@ https://admin.account2021.v1-error.ctf.hacker101.com:443 [null] [404] [22] ["tex
 https://admin.accountbucket.preferenceserror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://admin.accountchef.develasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://admin.accountdbms-redirect.v4.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://admin.admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://admin.alphasystemredirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://admin.auth.private.access.vpn-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.203.212"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://admin.backup.beta.access-jenkins-error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1152,6 +1153,7 @@ https://alpha2019-v4-access-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["
 https://alpha2021-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://alphaaccountaccount.access-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://alphaadmin.alphasystemredirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://alphaadmin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://alphaalpha-2018-deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://alphaalpha.team.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://alphaalpha2019-v4-access-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1204,6 +1206,7 @@ https://api.bucket.alpha.2021deverror.ctf.hacker101.com:443 [null] [404] [22] ["
 https://api.debug.access-demo.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.32.228.149"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://api.hackerone.com:443 ["HackerOne API"] [200] [8513] ["text/html"] ["104.16.99.52"] [null] ["cloudflare"] [["Algolia","Cloudflare"]] [];
 https://api.jenkins-error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://api.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://api.staging2021deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://api.v4.debug.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://api.vpndbms2021.beta.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.203.212"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1315,6 +1318,7 @@ https://beta.access2018-updateelasticbeanstalkerror.ctf.hacker101.com:443 [null]
 https://beta.accessauth2019-statuserror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://beta.account-data.upload.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://beta.accountauth-data.chef.dbms.private.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://beta.admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://beta.alpha.dbms-dbmsgcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://beta.bucket-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://beta.chef.demo.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1392,6 +1396,7 @@ https://chef.v4-access-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/
 https://chef.vpn.2018chefgcp-user.debug.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.128.243"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://chefaccessstagingdebug.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://chefaccount-api2019.auth2019-statuserror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://chefadmin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://chefalpha.preferencesv2-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://chefdbms-redirect.v4.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://chefdemo.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1424,6 +1429,7 @@ https://config2021.beta.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["
 https://configchefstatus.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["100.21.79.181"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://confluence-2019-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://confluence-access-newredirect.v4.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://confluence-admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://confluence-chef-elasticbeanstalk.data.status-demo.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://confluence-elasticbeanstalkerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://confluence-gcp-errorerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1471,6 +1477,7 @@ https://data.staging.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.
 https://data.upload.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://data.user-v3.vpn-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://data.v2-preferences-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://dataadmin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://databackup-chefstatus.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.203.212"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://datadatapreferences.upload-deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://dataengineering.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1509,6 +1516,7 @@ https://debug-v4-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["
 https://debug.2021-account.statusdbms-error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://debug.access-demo.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://debug.config.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://debug.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://debug.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://debug.gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://debugbeta.config.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1535,6 +1543,7 @@ https://demo.vpn.preferences-status.ctf.hacker101.com:443 [null] [404] [22] ["te
 https://demo2020s3.alpha-redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://demo2021.preferencesvpndemo.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://demonew-errorerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://demoredirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://demostatus-adminautherror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://denilparmar.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://designer2013.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1560,6 +1569,8 @@ https://devv2-preferences-status.ctf.hacker101.com:443 [null] [404] [22] ["text/
 https://docs.hackerone.com:443 ["HackerOne Platform Documentation"] [200] [66272] ["text/html"] ["185.199.109.153"] [null] ["GitHub.com"] [["Fastly","Gatsby","GitHub Pages","React","Ruby on Rails","Varnish","webpack"]] [];
 https://elasticbeanstalk-2018.confluence.v2-preferences-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://elasticbeanstalk.2019.beta.2019-private.access.vpn-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://elasticbeanstalk.admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://elasticbeanstalk.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://elasticbeanstalk.data.status-demo.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://elasticbeanstalk.engineering-backupchefv2-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://elasticbeanstalk.jenkins.2018.confluence.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.32.228.149"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1582,6 +1593,7 @@ https://engineering.data.upload.ctf.hacker101.com:443 [null] [404] [22] ["text/h
 https://engineering.dbms.demostatus-adminautherror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineering.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineering.preferences-error-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["100.21.79.181"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://engineering.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineering.upload-preferencesvpndemo.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineering.upload.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.128.243"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineering.useraccess.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1589,6 +1601,7 @@ https://engineering.v2-preferences-status.ctf.hacker101.com:443 [null] [404] [22
 https://engineering.vpnconfluence-gcp-user.debug.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.128.243"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineeringbeta-chef.demo.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineeringconfig.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://engineeringredirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineeringuser-statuserror-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.203.212"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineeringv2-preferences-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://engineeringvpn-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["100.21.79.181"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1621,16 +1634,19 @@ https://gcp-update.autherror.ctf.hacker101.com:443 [null] [404] [22] ["text/html
 https://gcp-user.debug.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcp-web2021-team.demo.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcp.2021.beta.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["100.21.79.181"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://gcp.admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcp.beta.chef.demo.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://gcp.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcp.preferences-error-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcp.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcp2018-jenkins.error-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcpauthv2-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://gcpengineering-backupchefv2-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://gcpredirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://geekzspot.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://geven7.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
-https://gslink.hackerone.com:443 ["404 Not Found"] [404] [162] ["text/html"] ["143.204.215.34"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
+https://gslink.hackerone.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["143.204.98.95"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 https://guachaut.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://hacker101.com:443 [null] [301] [null] [null] ["104.18.193.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
 https://hacker101.com:8443 [null] [301] [null] [null] ["104.18.193.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
@@ -1675,6 +1691,7 @@ https://jenkins-vpn-access-team.dbmsgcp.error.ctf.hacker101.com:443 [null] [404]
 https://jenkins.2018.confluence.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://jenkins.2019.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://jenkins.2021.engineering.upload.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://jenkins.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://jenkins.demo-internal.staging2021deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.32.228.149"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://jenkins.deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://jenkins.engineering-backupchefv2-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1693,8 +1710,8 @@ https://justme-1983.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.8
 https://karenfaithlechoco.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://kofiav.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://leun4m.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
-https://levels-a.hacker101.com:443 [null] [302] [null] [null] ["104.18.192.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
-https://levels-a.hacker101.com:8443 [null] [302] [null] [null] ["104.18.192.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
+https://levels-a.hacker101.com:443 [null] [302] [null] [null] ["104.18.193.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
+https://levels-a.hacker101.com:8443 [null] [302] [null] [null] ["104.18.193.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
 https://levels-b.hacker101.com:443 [null] [302] [null] [null] ["104.18.192.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
 https://levels-b.hacker101.com:8443 [null] [302] [null] [null] ["104.18.192.12"] [null] ["cloudflare"] [["Cloudflare"]] [];
 https://linux4all.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1753,6 +1770,7 @@ https://preferences-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"]
 https://preferences.alpha.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://preferences.beta.2019-private.access.vpn-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.203.212"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://preferences.elasticbeanstalk.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://preferences.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://preferences.upload-deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://preferencesaccount.statusdbms-error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://preferencesadminautherror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1785,6 +1803,7 @@ https://purpose.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13
 https://qihongl.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://rasel.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://razor.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.28.91"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://redirect-admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://redirect-beta.web-error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://redirect-config-jenkins-dev.gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1836,6 +1855,7 @@ https://stagingv4-api-vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/ht
 https://status-2018.confluence.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://status-2021.devalpha.config.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://status-demo.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://status-redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://status.2020vpn.update.autherror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://status.confluence.2018.errorerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1861,9 +1881,10 @@ https://system-error.internal.staging2021deverror.ctf.hacker101.com:443 [null] [
 https://system-new.account.internaldemo.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://system.account.2019-private.access.vpn-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://system.dbms.debug.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://system.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://system.s3v4.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://systemaccess-v2.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["100.21.79.181"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
-https://systemredirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://systemredirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://systemredirect.v4.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://team-dbms-redirect.v4.vpnerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://team.2019.dbms.demostatus-adminautherror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1919,6 +1940,7 @@ https://upload.vpn-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] 
 https://uploadupdate.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://user-2018v4-access-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://user-accountaccount.access-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.128.243"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://user-admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://user-adminalpha-accessaccess-engineeringconfig.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.81.203.212"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://user-adminupload-deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://user-debug-alpha-2018-deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1935,6 +1957,7 @@ https://userengineering.data.upload.ctf.hacker101.com:443 [null] [404] [22] ["te
 https://userupdate.redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v1-2018.errorerror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v1-2019-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["100.21.79.181"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://v1-admin.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.233.7.171"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v1-datascisg.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v1-error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v1-system-alpha.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
@@ -1960,6 +1983,7 @@ https://v2.debug-access2021.v1-error.ctf.hacker101.com:443 [null] [404] [22] ["t
 https://v3-datapreferences.upload-deverror.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v3-error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v3-preferences-status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["54.244.81.0"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
+https://v3-redirect.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.235.9.210"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v3.2019-accessaccess-engineeringconfig.status.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["44.240.73.50"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v32018v4-access-gcp.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["35.86.13.172"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
 https://v3data.status-demo.error.ctf.hacker101.com:443 [null] [404] [22] ["text/html"] ["52.35.58.141"] [null] ["openresty/1.19.9.1"] [["Nginx","OpenResty"]] [];
