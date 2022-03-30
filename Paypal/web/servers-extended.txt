@@ -143,7 +143,7 @@ http://panvpntest.xoom.com:80 [null] [200] [170] ["text/html"] ["205.189.102.148
 http://partner-monitoring.paypal.com:80 ["404 Not Found"] [404] [277] ["text/html"] ["35.190.0.194"] [null] [null] [null] [];
 http://partner-monitoring.paypal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["35.190.0.194"] [null] [null] [null] [];
 http://partner.xoom.com:80 ["Send Money Online | Xoom, a PayPal Service"] [200] [59432] ["text/html"] ["151.101.65.21"] ["https://partner.xoom.com/"] [null] [["Contentful","Envoy","Varnish"]] [];
-http://partnermanager-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
+http://partnermanager-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://partnermanager-migration.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://partnermanager.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
 http://partnermanager.paypal.com:80 ["PayPal Partner Manager"] [200] [61799] ["text/html"] ["173.0.93.189"] ["https://partnermanager.paypal.com/"] ["nginx"] [["Nginx"]] [];
@@ -158,7 +158,7 @@ http://payflowpro-migration.payflow.edge.paypal.com:80 [null] [200] [6678] ["tex
 http://payflowpro.glb.paypal.com:80 [null] [200] [6702] ["text/html"] ["173.0.93.143"] ["https://payflowpro.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payflowpro.paypal.com:80 [null] [404] [64] ["text/plain"] ["173.0.93.143"] ["https://payflowpro.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payments-reports-edgemigration.payflow.edge.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.93.189"] ["https://payments-reports-edgemigration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
-http://payments-reports-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
+http://payments-reports-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://payments-reports-migration.glb.paypal.com:80 [null] [200] [6722] ["text/html"] ["173.0.93.189"] ["https://payments-reports-migration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payments-reports-migration.payflow.edge.paypal.com:80 [null] [200] [6678] ["text/html"] ["173.0.93.189"] ["https://payments-reports-migration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payments-reports.paypal.com:80 ["403 Forbidden"] [403] [202] ["text/html"] ["173.0.93.189"] ["https://payments-reports.paypal.com/"] ["nginx"] [["Nginx"]] [];
@@ -182,7 +182,7 @@ http://phx-origin-history-1.paypal.com:80 ["Fastly error: unknown domain phx-ori
 http://phx-origin-history-2.paypal.com:80 ["Fastly error: unknown domain phx-origin-history-2.paypal.com"] [500] [283] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://phx-origin-history.paypal.com:80 ["Fastly error: unknown domain phx-origin-history.paypal.com"] [500] [279] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://pics-fastly.glb.paypal.com:80 ["Fastly error: unknown domain pics-fastly.glb.paypal.com"] [500] [272] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
-http://pics-v2.sandbox.paypal.com:80 [null] [404] [null] [null] ["151.101.65.21"] ["https://pics-v2.sandbox.paypal.com/"] [null] [["Varnish"]] [];
+http://pics-v2.sandbox.paypal.com:80 [null] [404] [null] [null] ["151.101.129.21"] ["https://pics-v2.sandbox.paypal.com/"] [null] [["Varnish"]] [];
 http://pics.glb.paypal.com:80 ["404 - Not Found"] [404] [345] ["text/html"] ["192.229.221.25"] [null] ["ECAcc (frc/8F13)"] [null] [];
 http://pics.paypal.com:80 ["403 - Forbidden"] [403] [345] ["text/html"] ["192.229.221.25"] [null] ["ECAcc (frc/8F93)"] [null] [];
 http://pics.sandbox.paypal.com:80 [null] [404] [null] [null] ["151.101.193.21"] ["https://pics.sandbox.paypal.com/"] [null] [["Varnish"]] [];
@@ -209,7 +209,7 @@ http://ppme-migration.glb.paypal.com:80 ["Fastly error: unknown domain ppme-migr
 http://ppo.glb.paypal.com:80 ["Fastly error: unknown domain ppo.glb.paypal.com"] [500] [257] ["text/html"] ["151.101.2.133"] [null] ["Varnish"] [["Varnish"]] [];
 http://qwac.paypal.com:80 [null] [200] [6698] ["text/html"] ["151.101.193.21"] ["https://qwac.paypal.com/"] [null] [["Varnish"]] [];
 http://refer.xoom.com:80 [null] [204] [null] ["application/json"] ["54.162.29.15"] [null] ["Extole"] [null] [];
-http://registration-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
+http://registration-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.191"] [null] [null] [null] [];
 http://registration-edgemigration.glb.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.93.189"] ["https://registration-edgemigration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://registration-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://registration-migration.glb.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.93.191"] ["https://registration-migration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
@@ -220,7 +220,7 @@ http://safetyhub.paypal.com:80 [null] [200] [128] ["text/html"] ["173.0.93.196"]
 http://sandbox.paypal.com:80 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.36"] ["https://sandbox.paypal.com/"] [null] [null] [];
 http://secure.uninitialized.real.paypal.com:80 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [293] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://securecards.paypal.com:80 [null] [302] [null] [null] ["66.211.168.173"] [null] ["BigIP"] [["F5 BigIP"]] [];
-http://securepayments-v2.sandbox.paypal.com:80 [null] [404] [null] [null] ["151.101.1.21"] ["https://securepayments-v2.sandbox.paypal.com/"] [null] [["Varnish"]] [];
+http://securepayments-v2.sandbox.paypal.com:80 [null] [404] [null] [null] ["151.101.129.21"] ["https://securepayments-v2.sandbox.paypal.com/"] [null] [["Varnish"]] [];
 http://securepayments.paypal.com:80 [null] [200] [6716] ["text/html"] ["151.101.193.21"] ["https://securepayments.paypal.com/"] [null] [["Varnish"]] [];
 http://securepayments.sandbox.paypal.com:80 [null] [302] [null] [null] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://shopping.paypal.com:80 ["301 Moved Permanently"] [301] [252] ["text/html"] ["208.76.140.165"] ["https://shopping.paypal.com/"] ["Apache"] [["Apache"]] [];
@@ -229,7 +229,7 @@ http://slc-a-origin-history-1.paypal.com:80 ["Fastly error: unknown domain slc-a
 http://slc-a-origin-history-2.paypal.com:80 ["Fastly error: unknown domain slc-a-origin-history-2.paypal.com"] [500] [286] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://slc-a-origin-history.paypal.com:80 ["Fastly error: unknown domain slc-a-origin-history.paypal.com"] [500] [282] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://slc-a-origin-pointofsale.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.84.104"] [null] [null] [null] [];
-http://slc-a-origin-pointofsale.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.84.104"] [null] ["nginx"] [["Nginx"]] [];
+http://slc-a-origin-pointofsale.paypal.com:80 [null] [200] [6702] ["text/html"] ["173.0.84.104"] [null] ["nginx"] [["Nginx"]] [];
 http://slc-b-origin-history-1.paypal.com:80 ["Fastly error: unknown domain slc-b-origin-history-1.paypal.com"] [500] [286] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://slc-b-origin-history-2.paypal.com:80 ["Fastly error: unknown domain slc-b-origin-history-2.paypal.com"] [500] [286] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://slc-b-origin-history.paypal.com:80 ["Fastly error: unknown domain slc-b-origin-history.paypal.com"] [500] [283] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
@@ -435,7 +435,7 @@ https://lyncdiscover.xoom.com:443 [null] [404] [34] ["application/json"] ["52.11
 https://m.paypal.com:443 [null] [301] [null] [null] ["23.79.153.168"] [null] ["AkamaiGHost"] [null] [];
 https://m.xoom.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["151.101.65.21"] [null] [null] [["Varnish"]] [];
 https://mail.paypal.com:443 [null] [400] [3] ["text/plain"] ["159.127.187.12"] [null] [null] [null] [];
-https://manager-edgemigration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
+https://manager-edgemigration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.190"] [null] ["nginx"] [["Nginx"]] [];
 https://manager-edgemigration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://manager-migration.payflow.edge.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://manager.payflow.edge.paypal.com:443 ["PayPal Manager"] [200] [79409] ["text/html"] ["66.211.171.182"] [null] ["Apache"] [["Apache"]] [];
@@ -497,7 +497,7 @@ https://phx-origin-posprivate-svcs.paypal.com:443 [null] [503] [54] [null] ["64.
 https://phx-origin-posprivatevpn-api-3t.paypal.com:443 [null] [404] [null] [null] ["64.4.251.212"] [null] [null] [null] [];
 https://phx-origin-posprivatevpn-svcs.paypal.com:443 [null] [503] [54] [null] ["64.4.251.211"] [null] [null] [null] [];
 https://pics-fastly.glb.paypal.com:443 ["Fastly error: unknown domain pics-fastly.glb.paypal.com"] [500] [273] ["text/html"] ["151.101.65.21"] [null] ["Varnish"] [["Varnish"]] [];
-https://pics-v2.sandbox.paypal.com:443 [null] [404] [null] [null] ["151.101.65.21"] [null] [null] [["Varnish"]] [];
+https://pics-v2.sandbox.paypal.com:443 [null] [404] [null] [null] ["151.101.129.21"] [null] [null] [["Varnish"]] [];
 https://pics.glb.paypal.com:443 ["404 - Not Found"] [404] [345] ["text/html"] ["192.229.221.25"] [null] ["ECAcc (frc/8F13)"] [null] [];
 https://pics.paypal.com:443 ["403 - Forbidden"] [403] [345] ["text/html"] ["192.229.221.25"] [null] ["ECAcc (frc/8F93)"] [null] [];
 https://pics.sandbox.paypal.com:443 [null] [404] [null] [null] ["151.101.193.21"] [null] [null] [["Varnish"]] [];
@@ -529,7 +529,7 @@ https://safebreach.paypal.com:443 [null] [404] [null] [null] ["151.101.193.21"] 
 https://safetyhub.paypal.com:443 [null] [200] [228] ["text/html"] ["173.0.93.196"] [null] [null] [null] [];
 https://sandbox.paypal.com:443 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.36"] [null] [null] [null] [];
 https://secure.uninitialized.real.paypal.com:443 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [293] ["text/html"] ["151.101.1.21"] [null] ["Varnish"] [["Varnish"]] [];
-https://securepayments-v2.sandbox.paypal.com:443 [null] [404] [null] [null] ["151.101.1.21"] [null] [null] [["Varnish"]] [];
+https://securepayments-v2.sandbox.paypal.com:443 [null] [404] [null] [null] ["151.101.129.21"] [null] [null] [["Varnish"]] [];
 https://securepayments.paypal.com:443 [null] [200] [6700] ["text/html"] ["151.101.193.21"] [null] [null] [["Varnish"]] [];
 https://securepayments.sandbox.paypal.com:443 [null] [302] [null] [null] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 https://shopping.paypal.com:443 ["301 Moved Permanently"] [301] [252] ["text/html"] ["208.76.140.165"] [null] ["Apache"] [["Apache"]] [];
