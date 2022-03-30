@@ -1685,7 +1685,7 @@ http://shiny-staging.uberinternal.com:80 [null] [401] [103] ["application/json"]
 http://shiny-tips.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-tips.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-triage-explorer.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-triage-explorer.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-uf-carrier-search.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-uf-carrier-search.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://shiny-uf-lead-transfer-board.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://shiny-uf-lead-transfer-board.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://shiny-uf-lead-transfer-board.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-uf-lead-transfer-board.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-uf-ratecon.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://shiny-uf-ratecon.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://shiny-uf-unifeed.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-uf-unifeed.uberinternal.com/apps/uf_unifeed/"] ["ufe"] [["Envoy"]] [];
 http://shiny03-admin.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://shiny03-admin.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
@@ -1949,7 +1949,7 @@ http://typewriter.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36
 http://u4b.uberinternal.com:80 [null] [302] [null] ["text/html"] ["35.184.61.224"] ["https://u4b.uberinternal.com/"] ["nginx"] [["Nginx"]] [];
 http://uask.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uask.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://uass.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://uass.uberinternal.com/"] ["ufe"] [null] [];
-http://uat.usuppliers.uber.com:80 ["302 Found"] [302] [264] ["text/html"] ["207.231.171.31"] ["https://uat.usuppliers.uber.com/"] [null] [null] [];
+http://uat.usuppliers.uber.com:80 ["E-Business Suite Home Page Redirect"] [200] [1245] ["text/html"] ["207.231.171.31"] ["https://uat.usuppliers.uber.com/"] [null] [null] [];
 http://uber-atlas.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uber-atlas.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://uber-com-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uber-com-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://uber-health.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uber-health.uberinternal.com/v2/select"] ["ufe"] [["Envoy"]] [];
@@ -3873,7 +3873,7 @@ https://typewriter.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] 
 https://u4b.uberinternal.com:443 [null] [302] [null] ["text/html"] ["35.184.61.224"] [null] ["nginx"] [["Nginx"]] [];
 https://uask.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://uass.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
-https://uat.usuppliers.uber.com:443 ["302 Found"] [302] [264] ["text/html"] ["207.231.171.31"] [null] [null] [null] [];
+https://uat.usuppliers.uber.com:443 ["E-Business Suite Home Page Redirect"] [200] [1245] ["text/html"] ["207.231.171.31"] [null] [null] [null] [];
 https://uber-atlas.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://uber-com-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://uber-health.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uber-health.uberinternal.com/v2/select"] ["ufe"] [["Envoy"]] [];

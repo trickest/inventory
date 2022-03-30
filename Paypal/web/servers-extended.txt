@@ -80,7 +80,7 @@ http://demo.paypal.com:80 ["PayPal Demo"] [200] [66520] ["text/html"] ["104.125.
 http://developer.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [131444] ["text/html"] ["173.0.93.193"] ["https://developer.glb.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
 http://developer.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.193"] [null] [null] [null] [];
 http://developer.paypal.com:80 [null] [200] [28144] ["text/html"] ["173.0.93.193"] ["https://developer.paypal.com/"] ["nginx"] [["Algolia","Gatsby","Nginx","React","webpack"]] [];
-http://dropzone.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.197"] [null] [null] [null] [];
+http://dropzone.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.197"] [null] [null] [null] [];
 http://dropzone.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.197"] [null] [null] [null] [];
 http://embed.xoom.com:80 ["Send Money Online | Xoom, a PayPal Service"] [200] [28989] ["text/html"] ["151.101.193.21"] ["https://embed.xoom.com/"] [null] [["Contentful","Envoy","Varnish"]] [];
 http://financing.paypal.com:80 [null] [301] [null] [null] ["151.101.193.35"] ["https://financing.paypal.com/"] [null] [["Varnish"]] [];
@@ -95,7 +95,7 @@ http://image.emails.paypal.com:80 ["Access Denied"] [403] [276] ["text/html"] ["
 http://image.messages.xoom.com:80 ["Access Denied"] [403] [277] ["text/html"] ["104.126.37.123"] [null] ["AkamaiGHost"] [null] [];
 http://image.mktg1.paypal.com:80 ["Access Denied"] [403] [275] ["text/html"] ["23.53.41.250"] [null] ["AkamaiGHost"] [null] [];
 http://image.zettle.paypal.com:80 ["Access Denied"] [403] [277] ["text/html"] ["95.100.153.73"] [null] ["AkamaiGHost"] [null] [];
-http://images.payflowlink-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
+http://images.payflowlink-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
 http://images.payflowlink-edgemigration.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 http://images.payflowlink.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://images.payflowlink.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [131463] ["text/html"] ["173.0.93.189"] ["https://images.payflowlink.glb.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
@@ -163,9 +163,9 @@ http://payments-reports-migration.glb.paypal.com:80 [null] [200] [6722] ["text/h
 http://payments-reports-migration.payflow.edge.paypal.com:80 [null] [200] [6678] ["text/html"] ["173.0.93.189"] ["https://payments-reports-migration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://payments-reports.paypal.com:80 ["403 Forbidden"] [403] [202] ["text/html"] ["173.0.93.189"] ["https://payments-reports.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://paypal.com:80 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.36"] ["https://paypal.com/"] [null] [null] [];
-http://paypalmanager-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
+http://paypalmanager-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
 http://paypalmanager-edgemigration.glb.paypal.com:80 [null] [200] [6676] ["text/html"] ["173.0.93.189"] ["https://paypalmanager-edgemigration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
-http://paypalmanager-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
+http://paypalmanager-migration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
 http://paypalmanager-migration.glb.paypal.com:80 [null] [200] [6716] ["text/html"] ["173.0.93.189"] ["https://paypalmanager-migration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://paypalmanager-v2.paypal.com:80 [null] [200] [6718] ["text/html"] ["173.0.93.190"] ["https://paypalmanager-v2.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://paypalmanager-v2.sandbox.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.205"] [null] [null] [null] [];
@@ -190,7 +190,7 @@ http://pilot-migration.payflowpro.payflow.edge.paypal.com:80 [null] [200] [6676]
 http://pilot-payflowlink-edgemigration.payflow.edge.paypal.com:80 [null] [200] [6698] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink-edgemigration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowlink-migration.payflow.edge.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink-migration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowlink.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
-http://pilot-payflowlink.glb.paypal.com:80 [null] [200] [6676] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
+http://pilot-payflowlink.glb.paypal.com:80 [null] [200] [6678] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowlink.paypal.com:80 ["Payflow Link"] [200] [1661] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowpro-edgemigration.payflow.edge.paypal.com:80 [null] [200] [6698] ["text/html"] ["173.0.93.143"] ["https://pilot-payflowpro-edgemigration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowpro.glb.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.93.143"] ["https://pilot-payflowpro.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
@@ -267,7 +267,7 @@ http://www.glb.xoom.com:80 ["Fastly error: unknown domain www.glb.xoom.com"] [50
 http://www.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [117163] ["text/html"] ["151.101.193.21"] ["https://www.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 http://www.sandbox.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [119389] ["text/html"] ["151.101.129.21"] ["https://www.sandbox.paypal.com/de/home"] [null] [["React","Varnish"]] [];
 http://www.xoom.com:80 ["Send Money Online | Xoom, a PayPal Service"] [200] [59432] ["text/html"] ["151.101.193.21"] ["https://www.xoom.com/"] [null] [["Contentful","Envoy","Varnish"]] [];
-http://xml-reg-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
+http://xml-reg-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
 http://xml-reg-edgemigration.glb.paypal.com:80 [null] [200] [6678] ["text/html"] ["173.0.93.189"] ["https://xml-reg-edgemigration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://xml-reg.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://xml-reg.paypal.com:80 ["Error 404--Not Found"] [404] [1164] ["text/html"] ["173.0.93.189"] ["https://xml-reg.paypal.com/"] ["nginx"] [["Nginx"]] [];
