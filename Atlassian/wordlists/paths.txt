@@ -4183,6 +4183,7 @@
 //www.atlassian.com/legal/privacy-policy
 //www.google-analytics.com
 //www.google.com/cse/cse.js?cx=
+//www.googletagmanager.com/gtag/js?id=
 //www.googletagmanager.com/gtm.js?id=
 //www.macromedia.com/go/getflashplayer
 //www.paypalobjects.com/api/checkout.lib.js
@@ -6879,6 +6880,7 @@
 /o/:orgId/user-provisioning
 /o/:orgId/users
 /o/:orgId/users/:userId
+/o/:orgId/users/export/:exportId
 /o/:orgid/billing-preview
 /o/create
 /o/oauth2/auth
@@ -6971,6 +6973,9 @@
 /pages/rendercontent.action
 /pages/reorderpages.action?key=:spaceKey([^&amp;]+)
 /pages/resumedraft.action
+/pages/versioned/common-scripts-source/latest.js
+/pages/versioned/tracking-scripts-source/latest.js
+/pages/versioned/trackingpagestate-scripts-source/latest.js
 /pages/viewpage.action
 /pages/viewpreviousversions.action
 /pages/viewtrash.action?key=:spaceKey([^&amp;]+)
@@ -7563,6 +7568,7 @@
 /s/:cloudId/users/:userId
 /s/:cloudId/users/add
 /s/:cloudId/users/export
+/s/:cloudId/users/export/:exportId
 /s/:cloudId/users/invite
 /s/:siteId/access-requests
 /s/:siteId/users
