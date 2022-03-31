@@ -37,6 +37,7 @@
 2018-backupengineering.redirect.ctf.hacker101.com
 2018-beta.2018dbmsstatus.ctf.hacker101.com
 2018-beta.access-jenkins-error.ctf.hacker101.com
+2018-beta.bucket-staging.backup.ctf.hacker101.com
 2018-beta.chef.demo.elasticbeanstalk.error.ctf.hacker101.com
 2018-beta.gcp-redirect.ctf.hacker101.com
 2018-bucket.auth-staging2021deverror.ctf.hacker101.com
@@ -96,6 +97,7 @@
 2018.account.2018-2018-jenkins.deverror.ctf.hacker101.com
 2018.account2019.confluence-2019-status.ctf.hacker101.com
 2018.accountvpn.2018-jenkins.error-status.ctf.hacker101.com
+2018.admin-error.ctf.hacker101.com
 2018.admin.account2021.v1-error.ctf.hacker101.com
 2018.adminaccess.data-chef.autherror.ctf.hacker101.com
 2018.adminupdateelasticbeanstalkerror.ctf.hacker101.com
@@ -197,10 +199,12 @@
 2018dev.config.v3-preferences-status.ctf.hacker101.com
 2018elasticbeanstalk.upgrade.elasticbeanstalk.error.ctf.hacker101.com
 2018gcp.error.ctf.hacker101.com
+2018jenkins-gcp.confluence-admin.ctf.hacker101.com
 2018jenkins.2018.confluence.redirect.ctf.hacker101.com
 2018preferencesadminautherror.ctf.hacker101.com
 2018redirect.ctf.hacker101.com
 2018user-error.ctf.hacker101.com
+2018v1-admin.ctf.hacker101.com
 2018v1-error.ctf.hacker101.com
 2018v4-access-gcp.error.ctf.hacker101.com
 2019-2018-s3.debug.ctf.hacker101.com
@@ -339,6 +343,8 @@
 2019.iiixiii.ctf.hacker101.com
 2019.internal-confluence.2018.errorerror.ctf.hacker101.com
 2019.jenkins-gcp.confluence-admin.ctf.hacker101.com
+2019.jenkins-jenkins-debug.ctf.hacker101.com
+2019.redirect.ctf.hacker101.com
 2019.redirect.v4.vpnerror.ctf.hacker101.com
 2019.staging-v3-preferences-status.ctf.hacker101.com
 2019.staging.backup.ctf.hacker101.com
@@ -392,6 +398,7 @@
 2019system-engineering-private2019-status.ctf.hacker101.com
 2019systemredirect.ctf.hacker101.com
 2019update.stagingdebug.error.ctf.hacker101.com
+2019upgrade-demochefadmin.ctf.hacker101.com
 2019upload-deverror.ctf.hacker101.com
 2019user-admin.ctf.hacker101.com
 2019v1-admin.ctf.hacker101.com
@@ -464,11 +471,13 @@
 2020.admindata-debug.ctf.hacker101.com
 2020.adminvpn.private.access.vpn-status.ctf.hacker101.com
 2020.allowed.ctf.hacker101.com
+2020.alpha-demochefadmin.ctf.hacker101.com
 2020.alphaaccountaccount.access-gcp.error.ctf.hacker101.com
 2020.alphaupgrade.elasticbeanstalk.error.ctf.hacker101.com
 2020.alphavpn-status.ctf.hacker101.com
 2020.api-errorerror.ctf.hacker101.com
 2020.apiaccess-gcp.error.ctf.hacker101.com
+2020.auth-redirectaccess.gcpredirect.ctf.hacker101.com
 2020.authchefstatus.ctf.hacker101.com
 2020.authdev.dev.gcp.error.ctf.hacker101.com
 2020.backup-systemredirect.ctf.hacker101.com
@@ -547,6 +556,7 @@
 2020s3.alpha-redirect.ctf.hacker101.com
 2020staging-systemredirect.v4.vpnerror.ctf.hacker101.com
 2020staging-v2-preferences-status.ctf.hacker101.com
+2020stagingredirectaccess.gcpredirect.ctf.hacker101.com
 2020status.ctf.hacker101.com
 2020system.redirect.ctf.hacker101.com
 2020systemaccess-v2.ctf.hacker101.com
@@ -555,9 +565,11 @@
 2020vpn.update.autherror.ctf.hacker101.com
 2020vpn.v1-2018.errorerror.ctf.hacker101.com
 2021-2019-accessaccess-engineeringconfig.status.ctf.hacker101.com
+2021-2019systemredirect.ctf.hacker101.com
 2021-2021-bucket-status.ctf.hacker101.com
 2021-2021-redirect.ctf.hacker101.com
 2021-2021-status.ctf.hacker101.com
+2021-2021.2018debug.demochefadmin.ctf.hacker101.com
 2021-access-user-admin.ctf.hacker101.com
 2021-account.admin-access-gcp.error.ctf.hacker101.com
 2021-account.ctf.hacker101.com
@@ -594,6 +606,7 @@
 2021-jenkins.deverror.ctf.hacker101.com
 2021-newredirect.v4.vpnerror.ctf.hacker101.com
 2021-redirect.ctf.hacker101.com
+2021-s3.debug.ctf.hacker101.com
 2021-status.ctf.hacker101.com
 2021-system-alpha.status.ctf.hacker101.com
 2021-team.config.user-error.ctf.hacker101.com
@@ -605,6 +618,7 @@
 2021.2018-beta.chef.demo.elasticbeanstalk.error.ctf.hacker101.com
 2021.2018.web-preferences-status.ctf.hacker101.com
 2021.2018debug.demochefadmin.ctf.hacker101.com
+2021.2019-admindata-debug.ctf.hacker101.com
 2021.2019-statuserror.ctf.hacker101.com
 2021.2019beta.config.status.ctf.hacker101.com
 2021.access-2018-2021.develasticbeanstalk.error.ctf.hacker101.com
@@ -647,6 +661,7 @@
 2021.chef.demo.elasticbeanstalk.error.ctf.hacker101.com
 2021.config.authelasticbeanstalk.data.status-demo.error.ctf.hacker101.com
 2021.config2018.2021debug.error.ctf.hacker101.com
+2021.confluence-backup.jenkins-gcp.confluence-admin.ctf.hacker101.com
 2021.confluence.v2-preferences-status.ctf.hacker101.com
 2021.devalpha-2018-deverror.ctf.hacker101.com
 2021.devalpha.config.status.ctf.hacker101.com
@@ -727,6 +742,7 @@ access-admin.staging-access-demo.elasticbeanstalk.error.ctf.hacker101.com
 access-admindemo-private-statuserror.ctf.hacker101.com
 access-admins32019-status-demo.error.ctf.hacker101.com
 access-adminupdate.stagingdebug.error.ctf.hacker101.com
+access-alpha-redirectdevsystem.redirect.ctf.hacker101.com
 access-alpha.config.status.ctf.hacker101.com
 access-api.staging2021deverror.ctf.hacker101.com
 access-apiupdate.redirect.ctf.hacker101.com
@@ -755,13 +771,16 @@ access-team.dbmsgcp.error.ctf.hacker101.com
 access-teamapi-vpnerror.ctf.hacker101.com
 access-updateelasticbeanstalkerror.ctf.hacker101.com
 access-user-admin.ctf.hacker101.com
+access-userbackup.2020elasticbeanstalk.admin.ctf.hacker101.com
 access-v1-elasticbeanstalk-engineering.redirect.ctf.hacker101.com
 access-v2.ctf.hacker101.com
 access-v4.debug.error.ctf.hacker101.com
 access.2019.error.ctf.hacker101.com
+access.2021.backup-backup-systemredirect.ctf.hacker101.com
 access.access-chef.2021.preferencesvpndemo.error.ctf.hacker101.com
 access.access.2019.error.ctf.hacker101.com
 access.access.alphainternaljenkins.deverror.ctf.hacker101.com
+access.access.debug.demochefadmin.ctf.hacker101.com
 access.admin.debug.error.ctf.hacker101.com
 access.adminstaginginternaljenkins.deverror.ctf.hacker101.com
 access.alpha-2018-updateelasticbeanstalkerror.ctf.hacker101.com
@@ -812,8 +831,10 @@ access2019redirect.v4.vpnerror.ctf.hacker101.com
 access2021-redirect.ctf.hacker101.com
 access2021.v1-error.ctf.hacker101.com
 accessaccess-engineeringconfig.status.ctf.hacker101.com
+accessaccess-user-admin.ctf.hacker101.com
 accessaccess.api-2018-deverror.ctf.hacker101.com
 accessaccess.vpnerror.ctf.hacker101.com
+accessaccount.alphaadmin.ctf.hacker101.com
 accessadmin-v4jenkins.deverror.ctf.hacker101.com
 accessadminaccessaccess.vpnerror.ctf.hacker101.com
 accessadmins32019-status-demo.error.ctf.hacker101.com
@@ -823,6 +844,7 @@ accessalphaalpha-2018-deverror.ctf.hacker101.com
 accessapi-private2019-status.ctf.hacker101.com
 accessapi-stagingdebug-updateelasticbeanstalkerror.ctf.hacker101.com
 accessauth2019-statuserror.ctf.hacker101.com
+accessbackup.2020elasticbeanstalk.admin.ctf.hacker101.com
 accessbeta.account-data.upload.ctf.hacker101.com
 accessbetaaccess-gcp.error.ctf.hacker101.com
 accesschefstatus.ctf.hacker101.com
@@ -892,6 +914,7 @@ account.alphaadmin.ctf.hacker101.com
 account.api-2018.gcpauthv2-gcp.error.ctf.hacker101.com
 account.api.dbms.vpn.ctf.hacker101.com
 account.auth-2018-backup.2021-status.ctf.hacker101.com
+account.authapibucketdataadmin.ctf.hacker101.com
 account.backupdemo.jenkinserror.ctf.hacker101.com
 account.beta.web-error.ctf.hacker101.com
 account.betaaccess-gcp.error.ctf.hacker101.com
@@ -900,6 +923,7 @@ account.config.user-error.ctf.hacker101.com
 account.ctf.hacker101.com
 account.dbms2021.beta.ctf.hacker101.com
 account.dbmsbackup-chefstatus.ctf.hacker101.com
+account.elasticbeanstalk.ctf.hacker101.com
 account.gcp.admin.ctf.hacker101.com
 account.gcp.error.ctf.hacker101.com
 account.internaldemo.error.ctf.hacker101.com
@@ -916,6 +940,7 @@ accountaccess.access.2019.error.ctf.hacker101.com
 accountaccessconfluence.update.stagingdebug.error.ctf.hacker101.com
 accountaccount.access-gcp.error.ctf.hacker101.com
 accountadmin.access.stagingdebug-updateelasticbeanstalkerror.ctf.hacker101.com
+accountadminadminnew.gcp.admin.ctf.hacker101.com
 accountalpha.status.ctf.hacker101.com
 accountapiaccess-gcp.error.ctf.hacker101.com
 accountapiv1.jenkins.error-status.ctf.hacker101.com
@@ -932,6 +957,7 @@ accountdemo-v3-preferences-status.ctf.hacker101.com
 accountjenkins-jenkins-debug.ctf.hacker101.com
 accountnew-2021.preferencesvpndemo.error.ctf.hacker101.com
 accountprivate.backupredirect.ctf.hacker101.com
+accountv2.elasticbeanstalk-engineering.redirect.ctf.hacker101.com
 accountvpn-status.ctf.hacker101.com
 accountvpn.2018-jenkins.error-status.ctf.hacker101.com
 admin-2019.account-v4-status.ctf.hacker101.com
@@ -944,6 +970,7 @@ admin-accessconfluence.update.stagingdebug.error.ctf.hacker101.com
 admin-api-2018-deverror.ctf.hacker101.com
 admin-api-2018.gcpauthv2-gcp.error.ctf.hacker101.com
 admin-authelasticbeanstalk.data.status-demo.error.ctf.hacker101.com
+admin-backupengineering.redirect.ctf.hacker101.com
 admin-beta-access-2018-2018-jenkins.deverror.ctf.hacker101.com
 admin-betaaccess-gcp.error.ctf.hacker101.com
 admin-chefaccessstagingdebug.error.ctf.hacker101.com
@@ -1002,10 +1029,13 @@ adminaccount.statusdbms-error.ctf.hacker101.com
 adminadminnew.gcp.admin.ctf.hacker101.com
 adminalpha-accessaccess-engineeringconfig.status.ctf.hacker101.com
 adminapi.v4-api-vpnerror.ctf.hacker101.com
+adminapidebug.engineering.redirect.ctf.hacker101.com
 adminautherror.ctf.hacker101.com
 adminbeta.admin.ctf.hacker101.com
+adminbeta.engineering.redirect.ctf.hacker101.com
 adminbeta.vpnconfluence-gcp-user.debug.error.ctf.hacker101.com
 adminbetabeta.update.stagingdebug.error.ctf.hacker101.com
+adminchef-admin.ctf.hacker101.com
 adminchefadmin.ctf.hacker101.com
 admindata-debug.ctf.hacker101.com
 admindbms-v4.userconfluence.2018.errorerror.ctf.hacker101.com
@@ -1055,6 +1085,7 @@ alpha.admin.chef.v4-access-gcp.error.ctf.hacker101.com
 alpha.alpha2018v4-access-gcp.error.ctf.hacker101.com
 alpha.api-2020chefstatus.ctf.hacker101.com
 alpha.auth.account-accessprivate.status.2020vpn.update.autherror.ctf.hacker101.com
+alpha.backup-backup-systemredirect.ctf.hacker101.com
 alpha.beta.bucket-status.ctf.hacker101.com
 alpha.beta.config-access.dbmsstatuserror.ctf.hacker101.com
 alpha.beta.engineering.redirect.ctf.hacker101.com
@@ -1097,6 +1128,7 @@ alphadbmsstatuserror.ctf.hacker101.com
 alphadevalpha-2018-deverror.ctf.hacker101.com
 alphainternaljenkins.deverror.ctf.hacker101.com
 alphajenkins.2019.error.ctf.hacker101.com
+alphanew.adminchefadmin.ctf.hacker101.com
 alphas32019-status-demo.error.ctf.hacker101.com
 alphasystemredirect.ctf.hacker101.com
 alphaupgrade.elasticbeanstalk.error.ctf.hacker101.com
@@ -1150,6 +1182,7 @@ api.internal-system.redirect.ctf.hacker101.com
 api.jenkins-error.ctf.hacker101.com
 api.redirect.ctf.hacker101.com
 api.staging2021deverror.ctf.hacker101.com
+api.status-preferences.redirect.ctf.hacker101.com
 api.v4-api-vpnerror.ctf.hacker101.com
 api.v4.debug.error.ctf.hacker101.com
 api.vpndbms2021.beta.ctf.hacker101.com
@@ -1196,9 +1229,11 @@ auth.account.accessprivate.status.2020vpn.update.autherror.ctf.hacker101.com
 auth.account.newdemo-internal.staging2021deverror.ctf.hacker101.com
 auth.auth-redirectaccess.gcpredirect.ctf.hacker101.com
 auth.backup.api2019.auth2019-statuserror.ctf.hacker101.com
+auth.config.backupengineering.redirect.ctf.hacker101.com
 auth.config.data.chef.dbms.private.error.ctf.hacker101.com
 auth.confluence-gcp-user.debug.error.ctf.hacker101.com
 auth.dbms-2019-status-demo.error.ctf.hacker101.com
+auth.debug-2018.s3.debug.ctf.hacker101.com
 auth.debug-access2021.v1-error.ctf.hacker101.com
 auth.demonew-errorerror.ctf.hacker101.com
 auth.private.access.vpn-status.ctf.hacker101.com
@@ -1262,6 +1297,7 @@ backup.debug.error.ctf.hacker101.com
 backup.demochefadmin.ctf.hacker101.com
 backup.engineering-authinternal-gcp.error.ctf.hacker101.com
 backup.jenkins-gcp.confluence-admin.ctf.hacker101.com
+backup2020system.redirect.ctf.hacker101.com
 backup20212018-deverror.ctf.hacker101.com
 backupaccess-engineeringconfig.status.ctf.hacker101.com
 backupaccess2019redirect.v4.vpnerror.ctf.hacker101.com
@@ -1370,6 +1406,7 @@ bucket.beta.preferences.redirect.ctf.hacker101.com
 bucket.configchefstatus.ctf.hacker101.com
 bucket.preferenceserror.ctf.hacker101.com
 bucket.preferencesv2-gcp.error.ctf.hacker101.com
+bucket.staging.demoredirect.ctf.hacker101.com
 bucket.status.ctf.hacker101.com
 bucket.upload-adminv4-access-gcp.error.ctf.hacker101.com
 bucket.user-s3.debug.ctf.hacker101.com
@@ -1396,8 +1433,10 @@ chef-backup.2019.error.ctf.hacker101.com
 chef-bucket-new-vpn.update.autherror.ctf.hacker101.com
 chef-dbms-beta.admin.ctf.hacker101.com
 chef-elasticbeanstalk.data.status-demo.error.ctf.hacker101.com
+chef-jenkins.system.redirect.ctf.hacker101.com
 chef-preferences-error-status.ctf.hacker101.com
 chef-redirect.v4.vpnerror.ctf.hacker101.com
+chef-s3.preferences.redirect.ctf.hacker101.com
 chef-user-admin.ctf.hacker101.com
 chef.2018-preferencesadminautherror.ctf.hacker101.com
 chef.2021-redirect.ctf.hacker101.com
@@ -1436,6 +1475,7 @@ config-jenkins-dev.gcp.error.ctf.hacker101.com
 config-update-userconfluence.2018.errorerror.ctf.hacker101.com
 config.2018-new-errorerror.ctf.hacker101.com
 config.2018.debug-alpha-2018-deverror.ctf.hacker101.com
+config.2020.internal-system.redirect.ctf.hacker101.com
 config.2021-status.ctf.hacker101.com
 config.access.vpn-status.ctf.hacker101.com
 config.accessauth2019-statuserror.ctf.hacker101.com
@@ -1449,6 +1489,7 @@ config.dbms-error.ctf.hacker101.com
 config.debug.gcp.error.ctf.hacker101.com
 config.error.internal.staging2021deverror.ctf.hacker101.com
 config.status.ctf.hacker101.com
+config.upgrade-demochefadmin.ctf.hacker101.com
 config.uploadsystemredirect.ctf.hacker101.com
 config.user-error.ctf.hacker101.com
 config.user-s3.debug.ctf.hacker101.com
@@ -1460,6 +1501,7 @@ configchefstatus.ctf.hacker101.com
 configerror.ctf.hacker101.com
 configjenkins.ctf.hacker101.com
 confluence-2019-status.ctf.hacker101.com
+confluence-access-account.gcp.admin.ctf.hacker101.com
 confluence-access-newredirect.v4.vpnerror.ctf.hacker101.com
 confluence-admin.ctf.hacker101.com
 confluence-backup.jenkins-gcp.confluence-admin.ctf.hacker101.com
@@ -1509,6 +1551,7 @@ data-vpnaccess.redirect.ctf.hacker101.com
 data.2021-admin.chef.v4-access-gcp.error.ctf.hacker101.com
 data.access-chef.2021.preferencesvpndemo.error.ctf.hacker101.com
 data.accountaccount.access-gcp.error.ctf.hacker101.com
+data.alpha.config.user-s3.debug.ctf.hacker101.com
 data.alpha.jenkins.system.redirect.ctf.hacker101.com
 data.chef.dbms.private.error.ctf.hacker101.com
 data.chefstatus.ctf.hacker101.com
@@ -1529,6 +1572,7 @@ datadatapreferences.upload-deverror.ctf.hacker101.com
 dataengineering.error.ctf.hacker101.com
 datapreferences.upload-deverror.ctf.hacker101.com
 datascisg.ctf.hacker101.com
+datastagingredirectaccess.gcpredirect.ctf.hacker101.com
 dbms-2019-status-demo.error.ctf.hacker101.com
 dbms-auth-s3alphaadmin.ctf.hacker101.com
 dbms-beta.admin.ctf.hacker101.com
@@ -1538,6 +1582,7 @@ dbms-error.ctf.hacker101.com
 dbms-jenkinserror.ctf.hacker101.com
 dbms-redirect.v4.vpnerror.ctf.hacker101.com
 dbms-status.ctf.hacker101.com
+dbms-team.2018debug.demochefadmin.ctf.hacker101.com
 dbms-v4.userconfluence.2018.errorerror.ctf.hacker101.com
 dbms.2018.debug-alpha-2018-deverror.ctf.hacker101.com
 dbms.2018.s3.debug.ctf.hacker101.com
@@ -1609,6 +1654,7 @@ demo.vpn.preferences-status.ctf.hacker101.com
 demo2020s3.alpha-redirect.ctf.hacker101.com
 demo2021.preferencesvpndemo.error.ctf.hacker101.com
 demoapi-errorerror.ctf.hacker101.com
+demobucket-preferences.redirect.ctf.hacker101.com
 demochefadmin.ctf.hacker101.com
 demonew-errorerror.ctf.hacker101.com
 demoredirect.ctf.hacker101.com
@@ -1687,8 +1733,10 @@ engineering.useraccess.vpnerror.ctf.hacker101.com
 engineering.v2-preferences-status.ctf.hacker101.com
 engineering.vpnconfluence-gcp-user.debug.error.ctf.hacker101.com
 engineeringaccess.configjenkins.ctf.hacker101.com
+engineeringadminnew.gcp.admin.ctf.hacker101.com
 engineeringbeta-chef.demo.elasticbeanstalk.error.ctf.hacker101.com
 engineeringconfig.status.ctf.hacker101.com
+engineeringgcp-internal-chefadmin.ctf.hacker101.com
 engineeringredirect.ctf.hacker101.com
 engineeringuser-statuserror-status.ctf.hacker101.com
 engineeringv2-preferences-status.ctf.hacker101.com
@@ -1780,6 +1828,7 @@ internalweb2021-team.demo.elasticbeanstalk.error.ctf.hacker101.com
 iosganeshkumar.ctf.hacker101.com
 jagsrawan.ctf.hacker101.com
 java-x.ctf.hacker101.com
+jenkins-2019-admindata-debug.ctf.hacker101.com
 jenkins-2019.jenkins-gcp.confluence-admin.ctf.hacker101.com
 jenkins-2021.api.redirect.ctf.hacker101.com
 jenkins-access.errorerror.ctf.hacker101.com
@@ -1950,6 +1999,7 @@ s3-user.2018-v2-2018-2018-jenkins.deverror.ctf.hacker101.com
 s3.alpha-redirect.ctf.hacker101.com
 s3.backup-chefstatus.ctf.hacker101.com
 s3.debug.ctf.hacker101.com
+s3.gcp-internal-chefadmin.ctf.hacker101.com
 s3.preferences.redirect.ctf.hacker101.com
 s3.v1-admin.ctf.hacker101.com
 s32019-status-demo.error.ctf.hacker101.com
@@ -1966,6 +2016,7 @@ shankar-mydotnetsite.ctf.hacker101.com
 shaunlazaro.ctf.hacker101.com
 shuppar.ctf.hacker101.com
 sphericsf.ctf.hacker101.com
+staging-2020system.redirect.ctf.hacker101.com
 staging-2021.2018debug.demochefadmin.ctf.hacker101.com
 staging-access-demo.elasticbeanstalk.error.ctf.hacker101.com
 staging-access-gcp.error.ctf.hacker101.com
@@ -2104,6 +2155,7 @@ upgradeuser-admin.ctf.hacker101.com
 upload-access.gcpredirect.ctf.hacker101.com
 upload-adminv4-access-gcp.error.ctf.hacker101.com
 upload-authinternal-gcp.error.ctf.hacker101.com
+upload-backupengineering.redirect.ctf.hacker101.com
 upload-deverror.ctf.hacker101.com
 upload-preferencesvpndemo.error.ctf.hacker101.com
 upload-userconfluence.2018.errorerror.ctf.hacker101.com
@@ -2130,6 +2182,7 @@ user.2018-v2-2018-2018-jenkins.deverror.ctf.hacker101.com
 user.accountconfluenceelasticbeanstalk.error.ctf.hacker101.com
 user.alphaupgrade.elasticbeanstalk.error.ctf.hacker101.com
 user.debug.error.ctf.hacker101.com
+user.gcp-internal-chefadmin.ctf.hacker101.com
 user.jenkins.deverror.ctf.hacker101.com
 useraccess.vpnerror.ctf.hacker101.com
 userbackup.2020elasticbeanstalk.admin.ctf.hacker101.com
@@ -2146,6 +2199,7 @@ v1-gcp.ctf.hacker101.com
 v1-system-alpha.status.ctf.hacker101.com
 v1-vpndemo.error.ctf.hacker101.com
 v1.alpha2019-v4-access-gcp.error.ctf.hacker101.com
+v1.bucket-preferences.redirect.ctf.hacker101.com
 v1.chef-elasticbeanstalk.data.status-demo.error.ctf.hacker101.com
 v1.error-status.ctf.hacker101.com
 v1.jenkins.error-status.ctf.hacker101.com
@@ -2177,6 +2231,7 @@ v3-demochefadmin.ctf.hacker101.com
 v3-error.ctf.hacker101.com
 v3-preferences-status.ctf.hacker101.com
 v3-redirect.ctf.hacker101.com
+v3.2018-s3.debug.ctf.hacker101.com
 v3.2019-accessaccess-engineeringconfig.status.ctf.hacker101.com
 v3.2021-debug.engineering.redirect.ctf.hacker101.com
 v3.vpn-status.ctf.hacker101.com
