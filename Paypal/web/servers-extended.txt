@@ -80,7 +80,7 @@ http://demo.paypal.com:80 ["PayPal Demo"] [200] [66520] ["text/html"] ["104.125.
 http://developer.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [131444] ["text/html"] ["173.0.93.193"] ["https://developer.glb.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
 http://developer.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.193"] [null] [null] [null] [];
 http://developer.paypal.com:80 [null] [200] [28144] ["text/html"] ["173.0.93.193"] ["https://developer.paypal.com/"] ["nginx"] [["Algolia","Gatsby","Nginx","React","webpack"]] [];
-http://dropzone.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.197"] [null] [null] [null] [];
+http://dropzone.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.197"] [null] [null] [null] [];
 http://dropzone.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.197"] [null] [null] [null] [];
 http://embed.xoom.com:80 ["Send Money Online | Xoom, a PayPal Service"] [200] [28989] ["text/html"] ["151.101.193.21"] ["https://embed.xoom.com/"] [null] [["Contentful","Envoy","Varnish"]] [];
 http://financing.paypal.com:80 [null] [301] [null] [null] ["151.101.193.35"] ["https://financing.paypal.com/"] [null] [["Varnish"]] [];
@@ -89,7 +89,7 @@ http://github-global.paypal.com:80 [null] [403] [null] [null] ["173.0.93.196"] [
 http://gslink.paypal.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 http://gsslink.paypal.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
 http://history.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [117185] ["text/html"] ["151.101.65.21"] ["https://history.paypal.com/de/home"] [null] [["React","Varnish"]] [];
-http://id.sandbox.xoom.com:80 [null] [302] [null] [null] ["151.101.129.21"] ["https://id.sandbox.xoom.com/"] [null] [["Varnish"]] [];
+http://id.sandbox.xoom.com:80 [null] [302] [null] [null] ["151.101.65.21"] ["https://id.sandbox.xoom.com/"] [null] [["Varnish"]] [];
 http://id.xoom.com:80 [null] [302] [null] [null] ["151.101.129.21"] ["https://id.xoom.com/"] [null] [["Varnish"]] [];
 http://image.emails.paypal.com:80 ["Access Denied"] [403] [276] ["text/html"] ["2.16.216.202"] [null] ["AkamaiGHost"] [null] [];
 http://image.messages.xoom.com:80 ["Access Denied"] [403] [277] ["text/html"] ["104.126.37.123"] [null] ["AkamaiGHost"] [null] [];
@@ -190,7 +190,7 @@ http://pilot-migration.payflowpro.payflow.edge.paypal.com:80 [null] [200] [6676]
 http://pilot-payflowlink-edgemigration.payflow.edge.paypal.com:80 [null] [200] [6698] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink-edgemigration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowlink-migration.payflow.edge.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink-migration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowlink.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
-http://pilot-payflowlink.glb.paypal.com:80 [null] [200] [6678] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
+http://pilot-payflowlink.glb.paypal.com:80 [null] [200] [6718] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowlink.paypal.com:80 ["Payflow Link"] [200] [1661] ["text/html"] ["173.0.93.189"] ["https://pilot-payflowlink.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowpro-edgemigration.payflow.edge.paypal.com:80 [null] [200] [6698] ["text/html"] ["173.0.93.143"] ["https://pilot-payflowpro-edgemigration.payflow.edge.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://pilot-payflowpro.glb.paypal.com:80 [null] [200] [6700] ["text/html"] ["173.0.93.143"] ["https://pilot-payflowpro.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
@@ -416,7 +416,7 @@ https://gsslink.paypal.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167
 https://help.xoom.com:443 ["Xoom Help Center"] [200] [78053] ["text/html"] ["161.71.22.171"] ["https://help.xoom.com/s/?language=en_US"] [null] [null] [];
 https://history.paypal.com:443 [null] [302] [30] ["text/plain"] ["151.101.65.21"] [null] [null] [["Varnish"]] [];
 https://hnd.stats.paypal.com:443 [null] [404] [14] ["text/plain"] ["64.4.245.7"] [null] ["Python/3.7 aiohttp/3.5.4"] [["Python"]] [];
-https://id.sandbox.xoom.com:443 [null] [302] [null] [null] ["151.101.129.21"] [null] [null] [["Varnish"]] [];
+https://id.sandbox.xoom.com:443 [null] [302] [null] [null] ["151.101.65.21"] [null] [null] [["Varnish"]] [];
 https://id.xoom.com:443 [null] [302] [null] [null] ["151.101.129.21"] [null] [null] [["Varnish"]] [];
 https://image.emails.paypal.com:443 ["Access Denied"] [403] [276] ["text/html"] ["2.16.216.202"] [null] ["AkamaiGHost"] [null] [];
 https://image.messages.xoom.com:443 ["Access Denied"] [403] [277] ["text/html"] ["104.126.37.123"] [null] ["AkamaiGHost"] [null] [];

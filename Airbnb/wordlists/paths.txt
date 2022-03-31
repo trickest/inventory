@@ -13,6 +13,7 @@
 ../../../components/account/selectCurrency/SelectCurrencyContainer
 ../../../components/account/smallScreen/SummaryContainer
 ../../../components/activeHelp/ActiveHelpFeatureToggle.tsx
+../../../components/activeHelp/article/ArticleContainer.tsx
 ../../../components/activeHelp/category/CategoryContainer.tsx
 ../../../components/activeHelp/search/SearchContainer.tsx
 ../../../components/agentSideCard/AgentSideCardContainer
@@ -2840,6 +2841,7 @@
 /subscribe/@{username}
 /suppliers
 /support
+/support/article
 /support/category
 /support/faq
 /support/search
@@ -3078,6 +3080,7 @@
 /usr/src/app/app/actions/AppActions.js
 /usr/src/app/app/actions/BookingActions.js
 /usr/src/app/app/actions/CitySearchActions.js
+/usr/src/app/app/actions/CouponsActions.js
 /usr/src/app/app/actions/CustomerActions.js
 /usr/src/app/app/actions/CustomizeFilterActions.js
 /usr/src/app/app/actions/DatepickerActions.js
@@ -3325,6 +3328,7 @@
 /usr/src/app/app/constants/COUPONS.js
 /usr/src/app/app/constants/EUCOUNTRIES.js
 /usr/src/app/app/constants/EXPERIMENTS.js
+/usr/src/app/app/constants/EXTERNAL_URLS.js
 /usr/src/app/app/constants/FORMS.js
 /usr/src/app/app/constants/HT_CITIES.js
 /usr/src/app/app/constants/KEYS.js
@@ -3337,6 +3341,7 @@
 /usr/src/app/app/fetchers/BookingHoldFetcher.js
 /usr/src/app/app/fetchers/BraintreeFetcher.js
 /usr/src/app/app/fetchers/CitySearchFetcher.js
+/usr/src/app/app/fetchers/CouponsFetcher.js
 /usr/src/app/app/fetchers/CustomerFetcher.js
 /usr/src/app/app/fetchers/DiscoverFetcher.js
 /usr/src/app/app/fetchers/DownloadAppFetcher.js
