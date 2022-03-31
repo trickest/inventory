@@ -4685,6 +4685,7 @@
 /:entityId/appspane
 /:entityId/channel_info
 /:entityId/composer-flex/:draftId
+/:entityId/contact_profile/:contactResourceId
 /:entityId/details
 /:entityId/details/:sectionId
 /:entityId/docs/:quipDocId
@@ -4784,6 +4785,7 @@
 /KJu
 /Kal
 /Kx6
+/L+3
 /L3Z
 /L4o
 /LN1
@@ -5542,6 +5544,7 @@
 /connect
 /connect-cdn.atl-paas.net/all
 /connect/atlassian-connect.json
+/connected-accounts
 /connectedDatasources
 /connectedFlows
 /connectedMetrics
@@ -6188,6 +6191,8 @@
 /img/app-launcher/app_launcher_welcome.png
 /img/app-launcher/app_launcher_welcome@2x.png
 /img/app-launcher/atlassian_banner.png
+/img/avatars-teams/ava_0002-34.png
+/img/avatars-teams/ava_0002-44.png
 /img/browsers/user-groups-empty.png
 /img/calendar/google-calendar/dk-google-calendar-status-sync.png
 /img/calendar/google-calendar/gCal-logo.png
@@ -6891,6 +6896,7 @@
 /oauth/
 /oauth/authorize
 /oauth/consumer-info
+/oauth/google/start?
 /oauth/token
 /oauth/token/accessible-resources
 /object-resolver
@@ -8088,6 +8094,7 @@
 /vote
 /w/x
 /wCD
+/wEl
 /wT/
 /wac
 /watch
@@ -10559,6 +10566,8 @@ bookmarks-store/conditional-fetching
 bootstrap/oauth/google/start?
 bower.json
 bricks.js
+browse-people/rimeto_profile/
+browse-people/user_groups/
 bug/type-incorrect-for-checked-prop
 build/website/bolt-fs-loader/CHANGELOG.md
 build/website/bolt-fs-loader/package.json
@@ -10566,6 +10575,7 @@ build/website/changelog-md-loader/CHANGELOG.md
 build/website/changelog-md-loader/package.json
 build/website/docs/CHANGELOG.md
 build/website/docs/package.json
+callbacks/inbox/serve/
 calls-api/joinRoom
 canCoTerm/FETCH
 cart/CLEAR
@@ -11009,6 +11019,7 @@ emojis/info
 emojis/list
 emojis/search
 emptyHtmlDoc.html
+enterprise-teams-dialog/fetchPost
 env/jquery
 errorDetailsDialog.html
 errors/Error404
@@ -11089,6 +11100,10 @@ groupMembershipDialog.html
 gtm.js
 hash.js
 header-items/group-load
+help-article-feedback/postHelpFeedback
+help-article-flexpane/fetchHelpArticles
+help-article-flexpane/trackArticle
+help-window/help/
 help/requests/new
 help_search/fetch_all_articles
 highcharts/highstock
@@ -13588,6 +13603,7 @@ sha384-gcMWyJurhs2OxKnLeJqCvLoRV/QghIiqjOme29q6JkyYNVHkVmiLiwnzz6TtRlzd
 sha384-uObFsIlmV0TvXnvnUvEhhDHEbjC4zBHwRA8tg/f0CcVHlIG0XlMAK1oHeK06zBCe
 sha512/224
 sha512/256
+shared-files-section/fetchFiles
 site-permission/space-access
 site-permissions/space-access/add
 site-permissions/space-access/remove
@@ -13973,6 +13989,11 @@ textBox.html
 textDropdown.html
 themes/bubble
 themes/snow
+threads-view/markThreadAsUnreadByMsg
+threads-view/maybeMarkNewMessageOnUpdate
+threads-view/maybeMarkVisibleThreadAsRead
+threads-view/onFooterInputFocus
+threads-view/scrollToNextUnreadAndMark
 tiles/redirect
 timePicker.html
 timeZoneSiteSetting.html
