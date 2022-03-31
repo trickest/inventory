@@ -7382,6 +7382,7 @@
 /renew
 /renew/server
 /reporting
+/reporting/:reportName
 /reports
 /request-access?
 /request-channels
@@ -7408,6 +7409,7 @@
 /rest/2/addons/vendor/
 /rest/2/geoip
 /rest/2/vendors/
+/rest/2/vendors/81/reporting/sales/transactions/hosting?aggregation=week
 /rest/2/vendors/{vendorId}
 /rest/V1/stripe/payments/get_setup_intent
 /rest/analytics/1.0/publish/bulk
