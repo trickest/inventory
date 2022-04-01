@@ -834,6 +834,7 @@ http://gopkg.uberinternal.com:80 [null] [307] [null] [null] ["104.36.195.150"] [
 http://goplay.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://goplay.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://goproxy-beta.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://goproxy-beta.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://goproxy.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://goproxy.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://grafana.uberinternal.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] ["https://grafana.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://grafana4-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://grafana4-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://grafana4-gcp.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://grafana4-gcp.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://grafana4-phx2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://grafana4-phx2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -2902,6 +2903,7 @@ https://gopkg.uberinternal.com:443 [null] [307] [null] [null] ["104.36.195.150"]
 https://goplay.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://goproxy-beta.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://goproxy.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
+https://grafana.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://grafana4-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://grafana4-gcp.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://grafana4-phx2.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
