@@ -3506,6 +3506,7 @@
 /:languageCountryPair?/shipment/
 /:languageCountryPair?/shipment/order-confirmation
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/
+/:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customization-metadata
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customizations-metadata
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/promotion-details
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/start-new-order
@@ -3630,6 +3631,7 @@
 /_next/static/HEAD_BUILD_ID
 /_nuxt/
 /_rpc
+/_s/:languageCountryPair/customization-metadata/:storeUuid/:sectionUuid/:menuItemUuid
 /_slds/icons/action-sprite/svg/symbols.svg?cache=9.40.4
 /_slds/icons/action-sprite/svg/symbols_rtl.svg?cache=9.40.4
 /_slds/icons/custom-sprite/svg/symbols.svg?cache=9.40.4
@@ -4660,6 +4662,7 @@
 /blog/sw.js?ver=1648095944098&amp;scope=en-US
 /blog/sw.js?ver=1648096830268&amp;scope=en-US
 /blog/sw.js?ver=1648096915027&amp;scope=en-US
+/blog/sw.js?ver=1648096944349&amp;scope=en-DE
 /blog/sw.js?ver=1648096959842&amp;scope=en-DE
 /blog/sw.js?ver=1648096959918&amp;scope=en-DE
 /blog/tacoma/

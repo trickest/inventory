@@ -6300,14 +6300,17 @@
 /case/addparts
 /case/allservicevisitsbyvin/
 /case/closeorcancelactivity
+/case/createpartsprn
 /case/createprn
 /case/createvisit/
 /case/getactivity?locale=
 /case/getactivitycorrectionowners/
+/case/getconfig?configid=
 /case/getcontactaddress
 /case/getexistingcontact/
 /case/getowoactivitieswithservicevisit
 /case/getpartquantity
+/case/getserialnumberformats
 /case/getvisitactivitiesbyvisitid
 /case/insuranceclaimsbyservicevisitId
 /case/insuranceinfobyuseridandvin/
@@ -6325,6 +6328,7 @@
 /case/suppliersearch
 /case/updateactivity
 /case/updateactivitycorrectionowners
+/case/updateactivitycorrections
 /case/updatecompletiontime
 /case/updatemultipleactivitycorrections
 /case/updateservicevisitkeytag
@@ -9806,8 +9810,10 @@ assets/tds-icons.svg#tds-icon-eye
 assets/tds-icons.svg#tds-icon-filter
 assets/tds-icons.svg#tds-icon-logo
 assets/tds-icons.svg#tds-icon-logo-wordmark
+assets/tds-icons.svg#tds-icon-minus--filled
 assets/tds-icons.svg#tds-icon-pdf
 assets/tds-icons.svg#tds-icon-pencil
+assets/tds-icons.svg#tds-icon-plus--filled
 assets/tds-icons.svg#tds-icon-trash
 assets/tesla-badge.png
 audienceBuilder/evalRuleSet
