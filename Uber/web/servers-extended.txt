@@ -724,6 +724,7 @@ http://floweco.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] [
 http://flux.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://flux.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://fly.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://fly.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://fly.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
+http://flyte-poc-us-east4.uberinternal.com:80 ["404 Not Found"] [404] [146] ["text/html"] ["34.85.180.42"] ["https://flyte-poc-us-east4.uberinternal.com"] [null] [null] [];
 http://flyte-poc.uberinternal.com:80 ["404 Not Found"] [404] [277] ["text/html"] ["34.111.221.202"] [null] [null] [null] [];
 http://flyte-poc.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.111.221.202"] [null] [null] [null] [];
 http://forge.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://forge.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
@@ -2810,6 +2811,7 @@ https://floweco.uber.com:443 [null] [404] [null] [null] ["34.98.127.226"] [null]
 https://floweco.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://flux.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fly.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
+https://flyte-poc-us-east4.uberinternal.com:443 ["404 Not Found"] [404] [146] ["text/html"] ["34.85.180.42"] [null] [null] [null] [];
 https://flyte-poc.uberinternal.com:443 [null] [404] [74] ["text/plain"] ["34.111.221.202"] [null] [null] [["Google Cloud"]] [];
 https://forge.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fractal.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
