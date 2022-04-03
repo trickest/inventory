@@ -3558,6 +3558,7 @@
 /:parent/:slug
 /:parent/search/:search
 /:recordName/:recordId
+/:section?
 /:selected
 /:slug
 /:vote
@@ -3683,6 +3684,8 @@
 /activity/:project/:slug
 /actuals/
 /add
+/additionalItems
+/additionalProperties
 /addon/
 /admin
 /admin/audit-logs
@@ -4224,6 +4227,7 @@
 /api/v0/users
 /api/v0/version
 /api/v0/visibility
+/api/v1
 /api/v1/branding.json
 /api/v1/send_support
 /api/v1/situations/
@@ -4424,6 +4428,7 @@
 /blog/columbus/business/page/2
 /blog/community-support/
 /blog/connecticut/
+/blog/connecticut/2022-eats-trip-radar/
 /blog/courier/deliver-products/
 /blog/courier/deliver-promotions/
 /blog/cute-booty-lounge-fashion-delivery/
@@ -4661,6 +4666,7 @@
 /blog/sw.js?ver=1648095941575&amp;scope=en-US
 /blog/sw.js?ver=1648095944006&amp;scope=en-US
 /blog/sw.js?ver=1648095944098&amp;scope=en-US
+/blog/sw.js?ver=1648095944347&amp;scope=en-US
 /blog/sw.js?ver=1648096830268&amp;scope=en-US
 /blog/sw.js?ver=1648096886059&amp;scope=en-US
 /blog/sw.js?ver=1648096915027&amp;scope=en-US
@@ -4754,6 +4760,7 @@
 /checkEmail?
 /checkEmailDomain?
 /checkout
+/children/task_executions
 /cl/
 /clarity-assets/illustrations/
 /clarity-assets/illustrations/api.svg
@@ -4836,6 +4843,9 @@
 /connectors/[A-Z0-9_-]\
 /consent
 /consent/
+/console
+/console/assets/
+/console/assets/d4cc493c.svg
 /consumer-goods\
 /contactDetails/firstName
 /contactDetails/lastName
@@ -4845,6 +4855,7 @@
 /cookbooks
 /cookbooks/
 /copy/
+/cors_proxy
 /create
 /create-ecdh
 /create-notice?key=
@@ -4867,6 +4878,7 @@
 /dashboards/
 /dashboards/event-feed
 /dashboards/templates
+/data
 /dataConnectorTypes$\
 /dataImporter/dataImporter.app\
 /data_bags
@@ -4927,6 +4939,7 @@
 /domain_register/transfer
 /domains
 /domains/
+/domains/:domainId
 /domains/:domainId/links/:linkId/edit/:tab
 /domains/:domainId/links/:linkId/edit/permissions
 /domains/:domain_id/links/:link_id/edit
@@ -4965,6 +4978,7 @@
 /editorial-items/
 /el/
 /elliptic
+/else
 /email-change-request
 /email/unsubscribe
 /email/validate
@@ -5317,6 +5331,11 @@
 /eventstrings
 /ex/errorduringprocessing.jsp?retURL\x3d
 /example-alert
+/executions
+/executions/
+/executions/:executionId
+/executions/recover
+/executions/relaunch
 /exm=
 /experiments/charting
 /explore
@@ -5326,6 +5345,8 @@
 /external-data-group
 /external-data-group/
 /fake_7eac155c.js
+/fake_e8180ef5.js
+/false schema
 /featured-integrations
 /features
 /features/
@@ -5613,6 +5634,8 @@
 /ko-kr/hompeiji
 /labs/configure
 /lastRenderedEventIndex
+/launch_plan_ids
+/launch_plans
 /layers/
 /layout/\
 /legal/consent-action
@@ -5780,6 +5803,7 @@
 /multicart
 /musickit/v3/
 /n/{devName}
+/named_entities
 /nav-items\
 /nava
 /navigation
@@ -5792,6 +5816,7 @@
 /newsroom/search/:search
 /newsroom/search/:search/page/:page
 /node/
+/node_executions
 /node_metadata_counts
 /node_modules/
 /node_modules/gulp-browserify/node_modules/base64-js/lib
@@ -5864,6 +5889,7 @@
 /pagead/aclk?
 /pages
 /passwordchange
+/patternProperties/
 /patterns/
 /patterns/:project/:slug
 /payload.js
@@ -5940,9 +5966,11 @@
 /projects/:project/:slug/publish
 /projects/:project/:slug/settings/:settings
 /projects/:project/:slug/settingsnotification
+/projects/:projectId
 /projects/:project_id/:slug/duplicate-detection
 /projects/templates
 /promotion-details
+/properties
 /prototype
 /prs-US/blog/
 /ps-US/blog/
@@ -6051,6 +6079,7 @@
 /request-formbuilder
 /requests/
 /requests/:active_tab?/:request_id?
+/required
 /rerun/id/
 /resend
 /reset
@@ -6338,6 +6367,13 @@
 /targets/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$\
 /task
 /task/
+/task_executions
+/task_executions/
+/task_executions/:executionName/:nodeId/:taskProject/:taskDomain/:taskName/:taskVersion/:retryAttempt
+/task_ids
+/tasks
+/tasks/
+/tasks/:taskName
 /team
 /teams
 /teams/
@@ -6363,6 +6399,7 @@
 /theme/resources/images/moogsoft-symbol.72.png
 /theme/resources/images/moogsoft-symbol.ico
 /theme/resources/images/toast-notification-icon.png
+/then
 /tickets
 /timeline/v2/
 /today
@@ -6392,6 +6429,7 @@
 /troubleloggingin
 /try-figjam
 /try/cloud/signup
+/type
 /type/content-block
 /type/guideline-blocks
 /type/integration
@@ -6647,8 +6685,12 @@
 /with-nodes
 /work
 /workflow
+/workflow_ids
+/workflows
 /workflows/
 /workflows/:project/:slug/:item?
+/workflows/:workflowName
+/workflows/:workflowName/version/:workflowVersion
 /wp-content/plugins/social-warfare/assets/images/admin-options-page/social-warfare-pro-light.png
 /wp-json/
 /ws/v1
@@ -8138,6 +8180,7 @@ build/yui/yui.js
 build/yuiloader/yuiloader-min.js
 build/yuiloader/yuiloader.js
 bur/mya
+chart.js
 charteditor/charteditor.css
 charteditor/charteditor_base.css
 charting/formatUtils
@@ -8581,6 +8624,7 @@ fbjs/lib/shallowEqual
 fbjs/lib/warning
 feed.php
 fi-FI.json
+file/blob
 filters/default
 flash/compiled/FontList.swf
 font/opentype

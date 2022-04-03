@@ -172,6 +172,7 @@ http://static-assets-pay.tesla.com:80 ["Error"] [404] [139] ["text/html"] ["104.
 http://static-assets-profile-settings.tesla.com:80 ["Profile Settings"] [200] [3979] ["text/html"] ["104.89.18.184"] ["https://static-assets-profile-settings.tesla.com/"] [null] [["Akamai"]] [];
 http://static-assets-teslaaccount.tesla.com:80 ["Teslaaccount"] [200] [3971] ["text/html"] ["104.92.71.218"] ["https://static-assets-teslaaccount.tesla.com/"] [null] [["Akamai","Varnish"]] [];
 http://static-assets.TeSLA.com:80 [null] [301] [null] [null] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
+http://static-assets.tesLa.com:80 [null] [301] [null] [null] ["2.20.40.131"] [null] ["AkamaiGHost"] [null] [];
 http://static-assets.tesla.com:80 ["404 Not Found"] [404] [571] ["text/html"] ["104.76.200.116"] ["https://static-assets.tesla.com/"] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
 http://static-map.tesla.com:80 [null] [404] [null] [null] ["104.92.71.218"] ["https://static-map.tesla.com/"] [null] [["Varnish"]] [];
 http://suppliers-stg.tesla.com:80 ["Supplier Relationship Management"] [200] [736] ["text/html"] ["104.92.71.218"] ["https://suppliers-stg.tesla.com/"] [null] [null] [];
@@ -371,6 +372,7 @@ https://static-assets-pay.tesla.com:443 ["Error"] [404] [139] ["text/html"] ["10
 https://static-assets-profile-settings.tesla.com:443 ["Profile Settings"] [200] [3979] ["text/html"] ["104.89.18.184"] [null] [null] [["Akamai"]] [];
 https://static-assets-teslaaccount.tesla.com:443 ["Teslaaccount"] [200] [3971] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai","Varnish"]] [];
 https://static-assets.TeSLA.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["104.76.200.116"] [null] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
+https://static-assets.tesLa.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["2.20.40.131"] [null] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
 https://static-assets.tesla.com:443 ["404 Not Found"] [404] [571] ["text/html"] ["104.76.200.116"] [null] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
 https://static-map.tesla.com:443 [null] [404] [null] [null] ["104.111.226.14"] [null] [null] [["Varnish"]] [];
 https://suppliers-stg.tesla.com:443 ["Supplier Relationship Management"] [200] [736] ["text/html"] ["104.92.71.218"] [null] [null] [null] [];
