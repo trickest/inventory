@@ -141,7 +141,7 @@ http://myapps.tesla.com:80 ["Object moved"] [302] [296] ["text/html"] ["104.89.1
 http://onboard.tesla.com:80 ["Access Denied"] [403] [266] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 http://origin-www-auth.tesla.com:80 ["404 Not Found"] [404] [146] ["text/html"] ["209.133.79.56"] ["https://origin-www-auth.tesla.com/"] [null] [null] [];
 http://origin-www.tesla.com:80 [null] [403] [null] [null] ["209.133.79.55"] ["https://origin-www.tesla.com/"] ["Varnish"] [["Varnish"]] [];
-http://os.tesla.com:80 [null] [404] [10] [null] ["104.76.200.116"] [null] ["AkamaiNetStorage"] [null] [];
+http://os.tesla.com:80 [null] [404] [10] [null] ["104.111.226.14"] [null] ["AkamaiNetStorage"] [null] [];
 http://ownership.tesla.com:80 [null] [200] [2] ["text/plain"] ["104.92.71.218"] ["https://ownership.tesla.com/"] [null] [null] [];
 http://pages.email.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.25"] [null] [null] [null] [];
 http://pages.emails.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.18.25"] [null] [null] [null] [];
@@ -170,6 +170,7 @@ http://sspr.tesla.com:80 ["Tesla – Self Service Password Reset"] [200] [155897
 http://stage-traffic-flow-test.tesla.com:80 [null] [403] [null] [null] ["104.111.226.14"] ["https://stage-traffic-flow-test.tesla.com/"] ["Varnish"] [["Varnish"]] [];
 http://static-assets-pay.tesla.com:80 ["Error"] [404] [139] ["text/html"] ["104.76.200.116"] ["https://static-assets-pay.tesla.com/"] [null] [["Express","Node.js"]] [];
 http://static-assets-profile-settings.tesla.com:80 ["Profile Settings"] [200] [3979] ["text/html"] ["104.89.18.184"] ["https://static-assets-profile-settings.tesla.com/"] [null] [["Akamai"]] [];
+http://static-assets-teslaaccount.tESLA.com:80 [null] [301] [null] [null] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 http://static-assets-teslaaccount.tesla.com:80 ["Teslaaccount"] [200] [3971] ["text/html"] ["104.92.71.218"] ["https://static-assets-teslaaccount.tesla.com/"] [null] [["Akamai","Varnish"]] [];
 http://static-assets.TeSLA.com:80 [null] [301] [null] [null] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 http://static-assets.tesLa.com:80 [null] [301] [null] [null] ["2.20.40.131"] [null] ["AkamaiGHost"] [null] [];
@@ -356,7 +357,7 @@ https://referral.tesla.com:443 ["401 Authorization Required"] [401] [1048] ["tex
 https://repair.tesla.com:443 ["Repair"] [200] [6396] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai","Google Font API"]] [];
 https://sales-prd.tesla.com:443 ["Access Denied"] [403] [271] ["text/html"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 https://schedule.tesla.com:443 ["Service Unavailable"] [503] [269] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
-https://secure-static-assets.tesla.com:443 [null] [404] [10] [null] ["2.20.40.131"] [null] ["AkamaiNetStorage"] [null] [];
+https://secure-static-assets.tesla.com:443 [null] [404] [10] [null] ["104.111.226.14"] [null] ["AkamaiNetStorage"] [null] [];
 https://service.tesla.com:443 ["Tesla Service"] [200] [13598] ["text/html"] ["104.76.200.116"] [null] [null] [["Akamai"]] [];
 https://serviceapi-stg.tesla.com:443 ["Access Denied"] [403] [277] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 https://serviceapi.tesla.com:443 ["Access Denied"] [403] [268] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
@@ -370,6 +371,7 @@ https://sspr.tesla.com:443 ["Tesla – Self Service Password Reset"] [200] [1558
 https://stage-traffic-flow-test.tesla.com:443 [null] [403] [null] [null] ["104.76.200.116"] [null] ["Varnish"] [["Varnish"]] [];
 https://static-assets-pay.tesla.com:443 ["Error"] [404] [139] ["text/html"] ["104.76.200.116"] [null] [null] [["Express","Node.js"]] [];
 https://static-assets-profile-settings.tesla.com:443 ["Profile Settings"] [200] [3979] ["text/html"] ["104.89.18.184"] [null] [null] [["Akamai"]] [];
+https://static-assets-teslaaccount.tESLA.com:443 ["Teslaaccount"] [200] [3968] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai","Varnish"]] [];
 https://static-assets-teslaaccount.tesla.com:443 ["Teslaaccount"] [200] [3971] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai","Varnish"]] [];
 https://static-assets.TeSLA.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["104.76.200.116"] [null] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
 https://static-assets.tesLa.com:443 ["404 Not Found"] [404] [169] ["text/html"] ["2.20.40.131"] [null] ["nginx/1.10.3"] [["Nginx","Varnish"]] [];
