@@ -3767,6 +3767,7 @@
 ./strategies/modal
 ./strategies/popup
 ./strategies/popup-bridge
+./strings/c932221/index/{locale}.json
 ./strings/e75fb86/index/{locale}.json
 ./subtask
 ./subtask.d
@@ -4870,6 +4871,7 @@
 /ZWZ
 /ZhC
 /_edge/tenant_info
+/_links/logo/href
 /_static/
 /_static/Bamboo-blue.svg
 /_static/Bitbucket-blue.svg
@@ -5661,6 +5663,7 @@
 /departments
 /dependencies
 /deprecations
+/description
 /design-system
 /design-system/
 /details
@@ -7391,6 +7394,8 @@
 /renew/server
 /reporting
 /reporting/:reportName
+/reporting/sales/metrics/conversion?
+/reporting/sales/transactions/hosting?
 /reports
 /request-access?
 /request-channels
@@ -7415,6 +7420,7 @@
 /rest/2/addons
 /rest/2/addons/
 /rest/2/addons/vendor/
+/rest/2/assets/image/logo
 /rest/2/geoip
 /rest/2/vendors/
 /rest/2/vendors/81/reporting/sales/transactions/hosting?aggregation=week
@@ -7909,6 +7915,11 @@
 /summary
 /support
 /support/releases/online
+/supportDetails/emergencyContact
+/supportDetails/supportOrg/name
+/supportDetails/supportOrg/supportEmail
+/supportDetails/supportOrg/supportPhone
+/supportDetails/supportOrg/supportUrl
 /sv/true
 /sw.js
 /swagger-ui.html
@@ -9126,6 +9137,7 @@ ClassyLlama_AvaTax/js/view/payment/list/certificates-link
 ClassyLlama_AvaTax/template/checkout/cart/totals/tax
 ClassyLlama_AvaTax/template/checkout/summary/tax
 ClassyLlama_AvaTax/template/payment-methods/list
+CloudConversions/hooks
 Collections/EmptyList
 Collections/EmptyListIterator
 Collections/EmptyMap
@@ -11331,6 +11343,7 @@ jquery/ui-modules/dialog
 jquery/validate
 js/atlassian-deps.js
 js/beamer-boosted-embed.js
+js/beamer-boosted-embed.js?v=2
 js/beamer-nps-embed.js
 js/confluence-keyboard-shortcuts.js
 js/confluence-rest.js
@@ -13029,6 +13042,10 @@ packages/jira/color-picker/examples/04-color-palette-menu.tsx
 packages/jira/color-picker/examples/05-multi-columns-color-palette-menu.tsx
 packages/jira/color-picker/examples/06-compact-multi-columns-color-palette-menu.tsx
 packages/jira/color-picker/package.json
+packages/linking-platform/linking-common/CHANGELOG.md
+packages/linking-platform/linking-common/docs/0-intro.tsx
+packages/linking-platform/linking-common/examples/00-basic.tsx
+packages/linking-platform/linking-common/package.json
 packages/media/chunkinator/CHANGELOG.md
 packages/media/chunkinator/docs/0-intro.tsx
 packages/media/chunkinator/examples/1-integrator.tsx
@@ -13788,6 +13805,7 @@ stores/xdomain
 stripe/AFTER_PAYMENT_AUTHENTICATION
 styled-components/native
 styles/beamer-boosted-embed.css
+styles/beamer-boosted-embed.css?v=2
 styles/beamer-embed-nostyle.css
 styles/beamer-embed.css
 summary.html
