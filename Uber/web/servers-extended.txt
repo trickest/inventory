@@ -537,6 +537,8 @@ http://devhub.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.
 http://devices.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["3.225.164.108"] [null] [null] [null] [];
 http://devices.uberinternal.com:80 ["Object moved"] [302] [176] ["text/html"] ["3.225.164.108"] ["https://devices.uberinternal.com/"] [null] [null] [];
 http://devpod-auth.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://devpod-auth.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://devpod-bra.uberinternal.com:80 [null] [302] [null] [null] ["34.111.240.226"] ["https://devpod-bra.uberinternal.com/"] [null] [null] [];
+http://devpod-bra.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.111.240.226"] [null] [null] [null] [];
 http://devpod-eu.uberinternal.com:80 [null] [302] [null] [null] ["34.107.149.48"] ["https://devpod-eu.uberinternal.com/"] [null] [null] [];
 http://devpod-eu.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.107.149.48"] [null] [null] [null] [];
 http://devpod-ind.uberinternal.com:80 [null] [302] [null] [null] ["35.244.142.123"] ["https://devpod-ind.uberinternal.com/"] [null] [null] [];
@@ -2666,6 +2668,7 @@ https://developers.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [nu
 https://devhub.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://devices.uberinternal.com:443 ["Object moved"] [302] [176] ["text/html"] ["3.225.164.108"] [null] [null] [null] [];
 https://devpod-auth.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
+https://devpod-bra.uberinternal.com:443 [null] [302] [null] [null] ["34.111.240.226"] [null] [null] [null] [];
 https://devpod-eu.uberinternal.com:443 [null] [302] [null] [null] ["34.107.149.48"] [null] [null] [null] [];
 https://devpod-ind.uberinternal.com:443 [null] [302] [null] [null] ["35.244.142.123"] [null] [null] [null] [];
 https://devpod-monitor-oregon.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];

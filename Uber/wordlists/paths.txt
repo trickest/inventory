@@ -2144,6 +2144,7 @@
 ./js/frontify-styleguide/colorswatch.6e6db1460ce6cf3685f7.js
 ./js/frontify-styleguide/colorswatch.756f51a49bfc5585e9ef.js
 ./js/frontify-styleguide/colorswatch.7cf6e615a0aa259880de.js
+./js/frontify-styleguide/colorswatch.93a5b2119898d54d4b31.js
 ./js/frontify-styleguide/colorswatch.9dd4e3001b5f41d1658b.js
 ./js/frontify-styleguide/colorswatch.a335c1112e0e60e50778.js
 ./js/frontify-styleguide/colorswatch.ace3a864797a9910b18e.js
@@ -3507,6 +3508,7 @@
 /:languageCountryPair?/shipment/order-confirmation
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customization-metadata
+/:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customization-metadata/:productDetailsUuid
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customizations-metadata
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/promotion-details
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/start-new-order
@@ -4677,6 +4679,7 @@
 /blog/sw.js?ver=1648096944470&amp;scope=en-DE
 /blog/sw.js?ver=1648096959842&amp;scope=en-DE
 /blog/sw.js?ver=1648096959918&amp;scope=en-DE
+/blog/sw.js?ver=1649164190980&amp;scope=en-US
 /blog/tacoma/
 /blog/tallahassee/
 /blog/tampa-bay/
@@ -4871,6 +4874,7 @@
 /css/dependencies
 /csv
 /custom_settings.js
+/customizations-metadata
 /daily
 /dashboard
 /dashboard*
