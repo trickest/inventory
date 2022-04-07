@@ -41,7 +41,7 @@ http://akamai-apigateway-stg-warpedi.tesla.com:80 ["Access Denied"] [403] [300] 
 http://akamai-apigateway-stg-warptmsapiserver.tesla.com:80 ["Access Denied"] [403] [308] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg-warptqpapi.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg2-global-deliveryopsapi.tesla.com:80 ["Access Denied"] [403] [319] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
-http://akamai-apigateway-teslaservice-api.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
+http://akamai-apigateway-teslaservice-api.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-translationpipeline.tesla.com:80 ["Access Denied"] [403] [304] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-uat-materials.tesla.com:80 ["Access Denied"] [403] [302] ["text/html"] ["72.246.101.86"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com:80 ["Access Denied"] [403] [317] ["text/html"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
@@ -141,7 +141,7 @@ http://mfs-supplier.tesla.com:80 ["MFS Supplier Portal"] [200] [2353] ["text/htm
 http://mobile.tesla.com:80 ["Tesla Mobile App Store"] [200] [10538] ["text/html"] ["104.76.200.116"] ["https://mobile.tesla.com/appstore/account/username?ReturnUrl=%2Fappstore%2F"] ["nginx/1.12.2"] [["Akamai","Bootstrap","Nginx"]] [];
 http://myapps.tesla.com:80 ["Object moved"] [302] [296] ["text/html"] ["104.89.18.184"] ["https://myapps.tesla.com/_trust/default.aspx?trust=ADFS&ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F"] [null] [null] [];
 http://onboard.tesla.com:80 ["Access Denied"] [403] [266] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
-http://origin-assets-teslaaccount-ownership-ownership.tesla.com:80 ["Ownership"] [200] [3949] ["text/html"] ["104.90.109.222"] ["https://origin-assets-teslaaccount-ownership-ownership.tesla.com/"] [null] [["Akamai"]] [];
+http://origin-assets-teslaaccount-ownership-ownership.tesla.com:80 ["Ownership"] [200] [3949] ["text/html"] ["104.92.71.218"] ["https://origin-assets-teslaaccount-ownership-ownership.tesla.com/"] [null] [["Akamai"]] [];
 http://origin-www-auth.tesla.com:80 ["404 Not Found"] [404] [146] ["text/html"] ["209.133.79.56"] ["https://origin-www-auth.tesla.com/"] [null] [null] [];
 http://origin-www.tesla.com:80 [null] [403] [null] [null] ["209.133.79.55"] ["https://origin-www.tesla.com/"] ["Varnish"] [["Varnish"]] [];
 http://os.tesla.com:80 [null] [404] [10] [null] ["104.111.226.14"] [null] ["AkamaiNetStorage"] [null] [];
@@ -250,7 +250,7 @@ https://akamai-apigateway-stg-warpedi.tesla.com:443 ["Access Denied"] [403] [299
 https://akamai-apigateway-stg-warptmsapiserver.tesla.com:443 ["Access Denied"] [403] [308] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg-warptqpapi.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg2-global-deliveryopsapi.tesla.com:443 ["Access Denied"] [403] [318] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
-https://akamai-apigateway-teslaservice-api.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
+https://akamai-apigateway-teslaservice-api.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["184.30.18.203"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-translationpipeline.tesla.com:443 ["Access Denied"] [403] [303] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-uat-materials.tesla.com:443 ["Access Denied"] [403] [302] ["text/html"] ["72.246.101.86"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com:443 ["Access Denied"] [403] [318] ["text/html"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
@@ -309,7 +309,7 @@ https://epc.tesla.com:443 ["Parts Catalog"] [200] [1541] ["text/html"] ["104.92.
 https://epcapi.tesla.com:443 [null] [404] [null] [null] ["104.76.200.116"] [null] [null] [["Varnish"]] [];
 https://errlog-stage.tesla.com:443 [null] [401] [null] [null] ["104.76.200.116"] [null] ["Varnish"] [["Varnish"]] [];
 https://errlog.tesla.com:443 [null] [401] [null] [null] ["104.76.200.116"] [null] ["Varnish"] [["Varnish"]] [];
-https://error-log.tesla.com:443 [null] [401] [null] [null] ["23.210.252.68"] [null] ["Varnish"] [["Varnish"]] [];
+https://error-log.tesla.com:443 [null] [401] [null] [null] ["104.92.71.218"] [null] ["Varnish"] [["Varnish"]] [];
 https://events.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.195"] [null] [null] [null] [];
 https://factory.tesla.com:443 ["302 Found"] [302] [426] ["text/html"] ["2.21.140.91"] [null] ["akamai/nginx"] [["Nginx"]] [];
 https://feedback.tesla.com:443 [null] [302] [51] ["text/html"] ["104.111.232.47"] [null] [null] [null] [];
@@ -344,7 +344,7 @@ https://mfs-supplier.tesla.com:443 ["MFS Supplier Portal"] [200] [2353] ["text/h
 https://mobile.tesla.com:443 ["Tesla Mobile App Store"] [200] [10535] ["text/html"] ["104.92.71.218"] ["https://mobile.tesla.com/appstore/account/username?ReturnUrl=%2Fappstore%2F"] ["nginx/1.12.2"] [["Akamai","Bootstrap","Nginx"]] [];
 https://myapps.tesla.com:443 ["Object moved"] [302] [296] ["text/html"] ["104.89.18.184"] ["https://myapps.tesla.com/_trust/default.aspx?trust=ADFS&ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F"] [null] [null] [];
 https://onboard.tesla.com:443 ["Access Denied"] [403] [265] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
-https://origin-assets-teslaaccount-ownership-ownership.tesla.com:443 ["Ownership"] [200] [3945] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];
+https://origin-assets-teslaaccount-ownership-ownership.tesla.com:443 ["Ownership"] [200] [3949] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai"]] [];
 https://origin-cicerone.tesla.com:443 [null] [401] [24] ["text/html"] ["209.133.79.99"] [null] [null] [["Express","Node.js"]] [];
 https://origin-www-auth.tesla.com:443 ["404 Not Found"] [404] [146] ["text/html"] ["209.133.79.56"] [null] [null] [null] [];
 https://origin-www.tesla.com:443 [null] [403] [null] [null] ["209.133.79.55"] [null] ["Varnish"] [["Varnish"]] [];

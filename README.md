@@ -164,8 +164,8 @@ trickest execute Inventory --targets targets.json
 ## Statistics
 ```mermaid
 graph LR
-title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{1367859}}
-title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{1367944}}
+title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{1367944}}
+title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{1401391}}
 ```
 
 ---
@@ -173,9 +173,9 @@ title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{1367944}}
 ```mermaid
 graph TD
 title{URL Status Codes} --> 1xx[[1xx]] --> status1xxNum{{0}}
-title --> 2xx[[2xx]] --> status2xxNum{{58887}}
+title --> 2xx[[2xx]] --> status2xxNum{{59234}}
 title --> 3xx[[3xx]] --> status3xxNum{{1}}
-title --> 4xx[[4xx]] --> status4xxNum{{285096}}
+title --> 4xx[[4xx]] --> status4xxNum{{291842}}
 title --> 5xx[[5xx]] --> status5xxNum{{0}}
 ```
 <p align="center">Note: We follow all redirects to get a more accurate representation of each URL - "3xx" counts responses that have no "Location" header.</p>
