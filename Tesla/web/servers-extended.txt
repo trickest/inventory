@@ -41,6 +41,7 @@ http://akamai-apigateway-stg-warpedi.tesla.com:80 ["Access Denied"] [403] [300] 
 http://akamai-apigateway-stg-warptmsapiserver.tesla.com:80 ["Access Denied"] [403] [308] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg-warptqpapi.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-stg2-global-deliveryopsapi.tesla.com:80 ["Access Denied"] [403] [319] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
+http://akamai-apigateway-teslaservice-api.tesla.com:80 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-translationpipeline.tesla.com:80 ["Access Denied"] [403] [304] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-uat-materials.tesla.com:80 ["Access Denied"] [403] [302] ["text/html"] ["72.246.101.86"] [null] ["AkamaiGHost"] [null] [];
 http://akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com:80 ["Access Denied"] [403] [317] ["text/html"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
@@ -103,7 +104,7 @@ http://epc.tesla.com:80 ["Parts Catalog"] [200] [1541] ["text/html"] ["104.92.71
 http://epcapi.tesla.com:80 [null] [404] [null] [null] ["104.76.200.116"] ["https://epcapi.tesla.com/"] [null] [["Varnish"]] [];
 http://errlog-stage.tesla.com:80 [null] [401] [null] [null] ["104.111.226.14"] ["https://errlog-stage.tesla.com/"] ["Varnish"] [["Varnish"]] [];
 http://errlog.tesla.com:80 [null] [401] [null] [null] ["104.90.109.222"] ["https://errlog.tesla.com/"] ["Varnish"] [["Varnish"]] [];
-http://error-log.tesla.com:80 [null] [401] [null] [null] ["104.92.71.218"] ["https://error-log.tesla.com/"] ["Varnish"] [["Varnish"]] [];
+http://error-log.tesla.com:80 [null] [401] [null] [null] ["23.210.252.68"] ["https://error-log.tesla.com/"] ["Varnish"] [["Varnish"]] [];
 http://events.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.195"] [null] [null] [null] [];
 http://factory.tesla.com:80 ["302 Found"] [302] [426] ["text/html"] ["2.21.140.91"] ["https://factory.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
 http://feedback.tesla.com:80 [null] [302] [null] [null] ["104.117.214.125"] ["https://feedback.tesla.com/login?path=%2FQ%2FIdentitySection%2FFinishSSO&product=ControlPanel"] [null] [null] [];
@@ -249,6 +250,7 @@ https://akamai-apigateway-stg-warpedi.tesla.com:443 ["Access Denied"] [403] [299
 https://akamai-apigateway-stg-warptmsapiserver.tesla.com:443 ["Access Denied"] [403] [308] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg-warptqpapi.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-stg2-global-deliveryopsapi.tesla.com:443 ["Access Denied"] [403] [318] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
+https://akamai-apigateway-teslaservice-api.tesla.com:443 [null] [401] [75] ["application/problem+json"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-translationpipeline.tesla.com:443 ["Access Denied"] [403] [303] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-uat-materials.tesla.com:443 ["Access Denied"] [403] [302] ["text/html"] ["72.246.101.86"] [null] ["AkamaiGHost"] [null] [];
 https://akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com:443 ["Access Denied"] [403] [318] ["text/html"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
@@ -307,7 +309,7 @@ https://epc.tesla.com:443 ["Parts Catalog"] [200] [1541] ["text/html"] ["104.92.
 https://epcapi.tesla.com:443 [null] [404] [null] [null] ["104.76.200.116"] [null] [null] [["Varnish"]] [];
 https://errlog-stage.tesla.com:443 [null] [401] [null] [null] ["104.76.200.116"] [null] ["Varnish"] [["Varnish"]] [];
 https://errlog.tesla.com:443 [null] [401] [null] [null] ["104.76.200.116"] [null] ["Varnish"] [["Varnish"]] [];
-https://error-log.tesla.com:443 [null] [401] [null] [null] ["104.92.71.218"] [null] ["Varnish"] [["Varnish"]] [];
+https://error-log.tesla.com:443 [null] [401] [null] [null] ["23.210.252.68"] [null] ["Varnish"] [["Varnish"]] [];
 https://events.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.195"] [null] [null] [null] [];
 https://factory.tesla.com:443 ["302 Found"] [302] [426] ["text/html"] ["2.21.140.91"] [null] ["akamai/nginx"] [["Nginx"]] [];
 https://feedback.tesla.com:443 [null] [302] [51] ["text/html"] ["104.111.232.47"] [null] [null] [null] [];
