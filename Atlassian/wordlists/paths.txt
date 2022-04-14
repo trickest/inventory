@@ -887,6 +887,10 @@
 ./channels.js
 ./chapter-page
 ./chapter-page.js
+./chapterPageUtils
+./chapterPageUtils.js
+./chapterPageUtils.spec
+./chapterPageUtils.spec.js
 ./check
 ./check-anon-community-user-consent
 ./check-circle
@@ -5845,7 +5849,7 @@
 /feed/SECFiling.svc/GetEdgarFilingYearList
 /feed/StockQuote.svc/
 /feed/popular?first=25
-/feedback slash command
+/feedback
 /feedback-collector-api
 /fetch-instance-users
 /fetchPaymentInfo
@@ -7623,7 +7627,7 @@
 /sdQ
 /sdk/evalx/
 /sdk/goals/
-/search slashcommand
+/search
 /search-results
 /search-results?SearchTerm=
 /search/
@@ -11353,6 +11357,7 @@ jquery/validate
 js/atlassian-deps.js
 js/beamer-boosted-embed.js
 js/beamer-boosted-embed.js?v=2
+js/beamer-boosted-embed.js?v=3
 js/beamer-nps-embed.js
 js/confluence-keyboard-shortcuts.js
 js/confluence-rest.js

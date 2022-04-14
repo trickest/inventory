@@ -1636,6 +1636,7 @@
 /ajax/chat/settings.php
 /ajax/dtsg/
 /ajax/fantail/
+/ajax/help/duo_typeahead/
 /ajax/help/query_typeahead/
 /ajax/hovercard/hovercard.php
 /ajax/mercury/change_archived_status.php
@@ -1656,6 +1657,9 @@
 /ajax/mercury/unread_threads.php
 /ajax/navigation/
 /ajax/photos/snowlift/init.php
+/ajax/places/claim/refer_claim.php
+/ajax/places/claim/start_claim.php
+/ajax/presence/reconnect.php
 /ajax/proxy.php
 /ajax/relay-ef/
 /ajax/route-definition/
@@ -1696,6 +1700,7 @@
 /api/v1/commerce/bag/add/
 /api/v1/commerce/bag/sync/
 /api/v1/commerce/products/{product_id}/details/
+/api/v1/commerce/shop/products/{query}/
 /api/v1/commerce/shop/serp/{query}/
 /api/v1/creators/partner_program/get_monetization_products_gating/
 /api/v1/direct_v2/create_group_thread/
@@ -1790,6 +1795,7 @@
 /approve/
 /apps/
 /aps
+/ar-studio/learn/documentation/async/nav/
 /ar/
 /ar/shopping/
 /asset-library/{?tab}/{?id}/
@@ -1865,6 +1871,7 @@
 /browserify-sign
 /build/
 /business
+/business/async/subnav/
 /business/content/preview/
 /business/dashboard/
 /business/instagram/claim/oauth/
@@ -1993,6 +2000,7 @@
 /deactivate/lognred/
 /debug/bootstrap?id=
 /delete/
+/delete/?__d=dis
 /deleted
 /descendant::$1
 /device/packages
@@ -2109,6 +2117,7 @@
 /feed/PressRelease.svc/GetPressReleaseYearList
 /feed/SECFiling.svc/GetEdgarFilingList
 /feed/SECFiling.svc/GetEdgarFilingYearList
+/feed/article_context/dialog/
 /feed/topics/
 /files/js/q4-addto-calendar/css/jquery-q4-addto-calendar.css
 /files/rooms
@@ -2170,6 +2179,7 @@
 /graphql/query/
 /graphqlbatch
 /groupcall/{?call_context}/
+/groups/{group_idorvanity}/user/{member_id}/
 /gtag/destination?id=
 /gtag/js
 /gtag/js?id=
@@ -2443,6 +2453,7 @@
 /migrations/files/scenes/
 /migrations/scenes/
 /migrator-certificate
+/mobile/settings/
 /mockServiceWorker.js
 /move/
 /mute/
@@ -2455,6 +2466,7 @@
 /notifications
 /notifications/
 /notifications/:filterParams
+/notifications/client/push/mute/
 /notify_disconnect
 /nw/
 /o/
@@ -2504,6 +2516,10 @@
 /p/:shortcode/false_information
 /packages/
 /packetLoss.html
+/page/instagram/oauthlink/
+/page/instagram/oauthlink/update/
+/pages/creation/
+/pages/edit/pagevisibility/save/{page_id}/
 /pages/nux_selector/
 /pages/settings
 /partnerships/major-league-hacking
@@ -2660,11 +2676,14 @@
 /shared/notification/mappings.json
 /shared/reporting/inventory.json
 /shop/
+/shop/?
 /shop/bag/
 /shop/bag/:merchant_id/
 /shop/cart/
 /shop/cart/:merchant_id/
 /shop/p/
+/shop/products/:query
+/shop/products/:query/
 /shop/serp/:query/
 /shopping/bag/
 /shopping/home/
@@ -2697,9 +2716,13 @@
 /static/images/company-logo/family-lockup-dark-2x.png/9e0771a27d96.png 2x
 /static/images/company-logo/family-lockup-dark.png/44de3b15b2c9.png
 /static/images/company-logo/family-lockup.png/12240e200b0c.png
+/static/images/creation/30fpsCheckLoopsOnce-dark.gif/ca219c2e329d.gif
 /static/images/creation/30fpsCheckLoopsOnce.gif/10a8cbeb94ba.gif
+/static/images/creation/refreshedCheck-dark.gif/9d1ca3c4875d.gif
 /static/images/creation/refreshedCheck.gif/c82a5a5a71df.gif
+/static/images/creation/refreshedSpinner-dark.gif/6266d15a78b3.gif
 /static/images/creation/refreshedSpinner.gif/221b89e4ef9e.gif
+/static/images/creation/spinner10s-dark.gif/cfa4e498eb1c.gif
 /static/images/creation/spinner10s.gif/25a440f983de.gif
 /static/images/filters/Aden-2x.jpg/81c62f31da3b.jpg
 /static/images/filters/Aden.jpg/9c199ca848ef.jpg
@@ -2784,6 +2807,12 @@
 /static/images/payments/stamp-dark-2x.png/f4317619a556.png 2x
 /static/images/payments/stamp-dark.png/90a34140031c.png
 /static/images/payments/stamp.png/779a3df3ec7e.png
+/static/images/web/blue_lock_outlined-2x.png/af76f924dae4.png 2x
+/static/images/web/blue_lock_outlined.png/790680946a26.png
+/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png 2x
+/static/images/web/logged_out_wordmark-dark-2x.png/e56785a5ceab.png 2x
+/static/images/web/logged_out_wordmark-dark.png/de0f46ab251e.png
+/static/images/web/logged_out_wordmark.png/7a252de00b20.png
 /static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png 2x
 /static/images/web/mobile_nav_type_logo-dark-2x.png/908edfc84eda.png 2x
 /static/images/web/mobile_nav_type_logo-dark.png/ff9b85f2b7ca.png
@@ -2841,6 +2870,7 @@
 /translations/admin/
 /translations/glossary/
 /translations/inline/dialog/
+/translations/tasks/find_user/
 /trending
 /trust/afro/dialog
 /tunnel/{navContext:.+}/{subContext:.*}
@@ -3295,15 +3325,19 @@
 /video/unified_cvc/
 /video/video.php
 /video_redirect/
+/videos/
 /videos/?
 /videos/?videos_category=
 /virtual
 /virtual?guest-access-hash=
 /votinginfocenter
 /wa/manage/{?tab}/
+/watch
 /watch/
+/watch/hashtag/{?hashtag}/
 /watch/live/
 /watch/{?idorvanity}/
+/watch/{?section_id}/
 /web/activity/mark_checked/
 /web/comments/
 /web/comments/like/
@@ -3404,6 +3438,7 @@
 /{page_token}/inbox/{?selected_item_id}/{?*extra_junk}/
 /{page_token}/reviews/
 /{page_token}/shop/
+/{page_token}/videos/
 /{query}.json
 /{vanity}/videos/{?set_token}/{video_id}/{?story_token}/{?*extra_junk}/
 0/cn-srv/report
@@ -3669,6 +3704,17 @@ Include/Vendors/prismjs-
 Include/Vendors/tinymce_
 Index/Document.iwa
 Indian/Christmas|Etc/GMT-7
+LitestandMessages/DuplicateCursorError
+LitestandMessages/LeaveHome
+LitestandMessages/NewStoriesContainer
+LitestandMessages/NewerStoriesInserted
+LitestandMessages/NewerStoriesRequested
+LitestandMessages/NewsFeedLoad
+LitestandMessages/RHCReloaded
+LitestandMessages/StoriesInserted
+LitestandMessages/StoriesRequested
+LitestandMessages/StreamLoadError
+LitestandMessages/StreamLoadRetry
 M/D/YY
 M/d/yy
 META-INF/manifest.xml
@@ -4408,6 +4454,8 @@ images/payments/fbpaylogoforheader.png
 images/payments/paymentinfo.png
 images/payments/securedonation.png
 images/payments/stamp.png
+images/web/blue_lock_outlined.png
+images/web/logged_out_wordmark.png
 images/web/mobile_nav_type_logo.png
 include/amcharts/images/
 intent://instagram.com
@@ -5118,6 +5166,7 @@ uib/template/typeahead/typeahead-match.html
 uib/template/typeahead/typeahead-popup.html
 upgradeModal.html
 upload/certificates
+useractivity/activity
 video/avi
 video/event
 video/mov

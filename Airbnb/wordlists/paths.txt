@@ -55,6 +55,7 @@
 ../../../components/responsive/invite/InviteScreenContainer
 ../../../components/responsive/locationPage/LocationPageContainer
 ../../../components/responsive/locationPage/components/LocationBreadCrumb
+../../../components/responsive/newGuestCouponsTerms/NewGuestCouponsTermsContainer
 ../../../components/responsive/ourCities/OurCitiesPageContainer
 ../../../components/responsive/ourHotels/OurHotelsPageContainer
 ../../../components/responsive/partnerSignUp/PartnerSignUpContainer
@@ -560,6 +561,7 @@
 ./GuestPaymentHistoryRoute/GuestPaymentHistoryRoute
 ./GuestPaymentHistoryRoute/GuestPaymentHistoryRoute.prepare
 ./HeaderQuery.prepare
+./IndexRouteWithApiV3
 ./IndexRouteWithGating
 ./InsuranceRoute/InsuranceRoute
 ./InsuranceRoute/InsuranceRoute.prepare
@@ -2587,15 +2589,19 @@
 /me/series/{filterBy}
 /me/settings
 /me/settings/custom-domain
+/me/settings/membership
 /me/settings/mobile-beta
 /me/settings/mute
 /me/settings/mute/{activeTab}
+/me/settings/notifications
 /me/settings/payment/update
 /me/settings/payout/dashboard
 /me/settings/payout/setup
 /me/settings/payout/stripe/finish
 /me/settings/promote-memberships
 /me/settings/promote-subscriptions
+/me/settings/publishing
+/me/settings/security
 /me/settings/{setting}
 /me/stats
 /me/stats/:postId/:startTimeMs/:endTimeMs
@@ -2955,6 +2961,7 @@
 /terms-of-use/campaign-terms
 /terms-of-use/cookie-terms
 /terms-of-use/gdpr-terms
+/terms-of-use/new-guest-12-terms
 /terms-of-use/privacy-policy
 /terms-of-use/recruitment-privacy-policy
 /terms-of-use/security
@@ -3218,6 +3225,9 @@
 /usr/src/app/app/analytics/events/SupportAnalytics.js
 /usr/src/app/app/analytics/helpers/InventoryAnalyticsHelper.js
 /usr/src/app/app/bootstrap.js
+/usr/src/app/app/components/activeHelp/modal/ActiveHelpModal.tsx
+/usr/src/app/app/components/activeHelp/modal/ActiveHelpModalContainer.tsx
+/usr/src/app/app/components/activeHelp/modal/styles/ActiveHelpModalStyles.tsx
 /usr/src/app/app/components/appLayout/AppLayout.js
 /usr/src/app/app/components/appLayout/components/BookingsDropdown.js
 /usr/src/app/app/components/appLayout/components/FullScreenSpinner.js
@@ -3287,7 +3297,9 @@
 /usr/src/app/app/components/messageOverlay/styles/MessageOverlayStyles.js
 /usr/src/app/app/components/mobileAppLayout/MobileAppLayout.js
 /usr/src/app/app/components/mobileAppLayout/styles/MobileAppLayoutStyles.js
+/usr/src/app/app/components/modal/BottomModalContainer.tsx
 /usr/src/app/app/components/modal/ModalContainer.js
+/usr/src/app/app/components/modal/styles/BottomModalStyles.tsx
 /usr/src/app/app/components/modal/styles/ModalStyles.js
 /usr/src/app/app/components/order/documentHead/OrderDocumentHead.js
 /usr/src/app/app/components/order/documentHead/OrderDocumentHeadContainer.js
@@ -3476,6 +3488,7 @@
 /usr/src/app/app/hooks/FormHooks.js
 /usr/src/app/app/hooks/HTReactReduxHooks.js
 /usr/src/app/app/hooks/ReactReduxHooks.js
+/usr/src/app/app/hooks/ReactReduxTSHooks.tsx
 /usr/src/app/app/middleware/analyticsMiddleware.js
 /usr/src/app/app/reducers/AccountReducer.js
 /usr/src/app/app/reducers/ActiveHelpReducer.tsx
@@ -5248,6 +5261,7 @@ music-summaries/search
 musickit.js
 oj8Q/rI1
 oneDs_5114baa5d527ebec6e76.js
+oneDs_cf88713273157e0b2931.js
 otBannerSdk.js
 packages/dls/dls-lite_o2-leftover
 pages/app
