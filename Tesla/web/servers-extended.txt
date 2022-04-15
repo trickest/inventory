@@ -96,15 +96,15 @@ http://employeefeedback.tesla.com:80 [null] [200] [4964] ["text/html"] ["104.92.
 http://energydesk.tesla.com:80 ["400 Bad Request"] [400] [122] ["text/html"] ["136.143.190.74"] ["https://energydesk.tesla.com/"] ["ZGS"] [null] [];
 http://energysupport.tesla.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [220] ["text/html"] ["136.143.190.74"] [null] ["ZGS"] [null] [];
 http://engage.tesla.com:443 ["ERROR: The request could not be satisfied"] [400] [915] ["text/html"] ["143.204.98.39"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
-http://engage.tesla.com:80 ["Engage Tesla"] [200] [487558] ["text/html"] ["52.222.236.86"] ["https://engage.tesla.com/"] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
+http://engage.tesla.com:80 ["Engage Tesla"] [200] [487644] ["text/html"] ["108.157.4.83"] ["https://engage.tesla.com/"] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 http://envoy-finplat-stg.tesla.com:80 [null] [401] [14] ["text/plain"] ["23.37.238.80"] ["https://envoy-finplat-stg.tesla.com/"] [null] [null] [];
 http://envoy-partnerleadsharing.tesla.com:80 [null] [401] [14] ["text/plain"] ["23.37.238.80"] ["https://envoy-partnerleadsharing.tesla.com/"] [null] [null] [];
 http://envoy-partnertasks.tesla.com:80 [null] [401] [14] ["text/plain"] ["104.89.18.184"] ["https://envoy-partnertasks.tesla.com/"] [null] [null] [];
 http://epc.tesla.com:80 ["Parts Catalog"] [200] [1541] ["text/html"] ["23.210.252.68"] ["https://epc.tesla.com/"] [null] [["Varnish"]] [];
 http://epcapi.tesla.com:80 [null] [404] [null] [null] ["104.89.18.184"] ["https://epcapi.tesla.com/"] [null] [["Varnish"]] [];
 http://errlog-stage.tesla.com:80 [null] [401] [null] [null] ["104.92.71.218"] ["https://errlog-stage.tesla.com/"] ["Varnish"] [["Varnish"]] [];
-http://errlog.tesla.com:80 [null] [401] [null] [null] ["184.30.18.203"] ["https://errlog.tesla.com/"] ["Varnish"] [["Varnish"]] [];
-http://error-log.tesla.com:80 [null] [401] [null] [null] ["104.125.18.99"] ["https://error-log.tesla.com/"] ["Varnish"] [["Varnish"]] [];
+http://errlog.tesla.com:80 [null] [401] [null] [null] ["104.92.71.218"] ["https://errlog.tesla.com/"] ["Varnish"] [["Varnish"]] [];
+http://error-log.tesla.com:80 [null] [401] [null] [null] ["184.30.18.203"] ["https://error-log.tesla.com/"] ["Varnish"] [["Varnish"]] [];
 http://events.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.195"] [null] [null] [null] [];
 http://factory.tesla.com:80 ["302 Found"] [302] [427] ["text/html"] ["23.210.252.68"] ["https://factory.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
 http://feedback.tesla.com:80 [null] [302] [null] [null] ["104.89.36.184"] ["https://feedback.tesla.com/login?path=%2FQ%2FIdentitySection%2FFinishSSO&product=ControlPanel"] [null] [null] [];
@@ -114,7 +114,7 @@ http://forums.tesla.com:80 ["Attack"] [503] [124470] ["text/html"] ["162.159.128
 http://forums.tesla.com:8080 [null] [301] [null] [null] ["162.159.128.79"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://forums.tesla.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["162.159.128.79"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://grid.tesla.com:80 [null] [403] [88] ["text/html"] ["104.89.18.184"] [null] [null] [null] [];
-http://gridlogic.energy.tesla.com:80 ["Access Denied"] [403] [280] ["text/html"] ["104.117.201.79"] [null] ["AkamaiGHost"] [null] [];
+http://gridlogic.energy.tesla.com:80 ["Access Denied"] [403] [278] ["text/html"] ["23.45.236.83"] [null] ["AkamaiGHost"] [null] [];
 http://hub.tesla.com:80 ["302 Found"] [302] [428] ["text/html"] ["88.221.13.137"] ["https://hub.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
 http://image-emails.tesla.com:80 [null] [404] [11] [null] ["104.89.18.184"] [null] ["AkamaiNetStorage"] [null] [];
 http://image.email.tesla.com:80 ["Access Denied"] [403] [274] ["text/html"] ["92.123.224.106"] [null] ["AkamaiGHost"] [null] [];
@@ -151,7 +151,7 @@ http://pages.emails.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1
 http://partners.tesla.com:80 ["Partner Portal"] [200] [4285] ["text/html"] ["23.37.238.80"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 http://pay.tesla.com:80 ["Tesla - Payment"] [200] [4338] ["text/html"] ["23.37.238.80"] ["https://pay.tesla.com/"] [null] [["Akamai","Express","Node.js"]] [];
 http://pm-bounces.tesla.com:80 ["Postmark — Email delivery for web apps"] [200] [4424] ["text/html"] ["138.197.30.54"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-http://powerhub.energy.tesla.com:80 [null] [302] [242] ["text/plain"] ["104.89.4.15"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
+http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["104.89.4.15"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
 http://profile.tesla.com:80 ["Connect"] [200] [6529] ["text/html"] ["104.89.18.184"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 http://pub.email.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 http://ranger.tesla.com:80 ["RangerWeb"] [200] [4284] ["text/html"] ["104.89.18.184"] ["https://ranger.tesla.com/"] [null] [["Akamai","Google Font API"]] [];
@@ -271,7 +271,7 @@ https://aurora-ordering-ext-qa.tesla.com:443 ["Access Denied"] [403] [292] ["tex
 https://aurora-ordering-ext-stg.tesla.com:443 ["Access Denied"] [403] [293] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 https://auth-global-stage.tesla.com:443 [null] [301] [null] [null] ["23.37.238.80"] [null] ["AkamaiGHost"] [null] [];
 https://auth-global.tesla.com:443 [null] [301] [null] [null] ["23.37.238.80"] [null] ["AkamaiGHost"] [null] [];
-https://auth-stage.tesla.com:443 ["SVG Lookup Table"] [200] [35506] ["text/html"] ["104.92.71.218"] [null] [null] [null] [];
+https://auth-stage.tesla.com:443 ["SVG Lookup Table"] [200] [35506] ["text/html"] ["104.89.18.184"] [null] [null] [null] [];
 https://auth.TeSLA.com:443 ["SVG Lookup Table"] [200] [35636] ["text/html"] ["104.76.200.116"] [null] [null] [["Akamai"]] [];
 https://auth.tesla.com:443 ["SVG Lookup Table"] [200] [35644] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai"]] [];
 https://autobidder-preprd.powerhub.energy.tesla.com:443 ["Access Denied"] [403] [304] ["text/html"] ["104.84.97.191"] [null] ["AkamaiGHost"] [null] [];
@@ -301,7 +301,7 @@ https://einvoicing.tesla.com:443 ["Access Denied"] [403] [268] ["text/html"] ["1
 https://employeefeedback.tesla.com:443 [null] [302] [51] ["text/html"] ["104.92.110.204"] [null] [null] [null] [];
 https://energydesk.tesla.com:443 ["400 Bad Request"] [400] [122] ["text/html"] ["136.143.190.74"] [null] ["ZGS"] [null] [];
 https://energysupport.tesla.com:443 [null] [200] [15870] ["text/html"] ["136.143.190.74"] ["https://energysupport.tesla.com/portal/en/home"] ["ZGS"] [null] [];
-https://engage.tesla.com:443 ["Engage Tesla"] [200] [487558] ["text/html"] ["52.222.236.86"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
+https://engage.tesla.com:443 ["Engage Tesla"] [200] [487644] ["text/html"] ["108.157.4.83"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 https://envoy-finplat-stg.tesla.com:443 [null] [401] [14] ["text/plain"] ["104.92.71.218"] [null] [null] [null] [];
 https://envoy-partnerleadsharing.tesla.com:443 [null] [401] [14] ["text/plain"] ["23.37.238.80"] [null] [null] [null] [];
 https://envoy-partnertasks.tesla.com:443 [null] [401] [14] ["text/plain"] ["104.89.18.184"] [null] [null] [null] [];
@@ -318,7 +318,7 @@ https://finops.tesla.com:443 [null] [302] [435] ["text/plain"] ["104.89.18.184"]
 https://forums.tesla.com:443 ["Attack"] [503] [124575] ["text/html"] ["162.159.128.79"] [null] ["cloudflare"] [["Cloudflare"]] [];
 https://forums.tesla.com:8443 ["Attack"] [503] [124355] ["text/html"] ["162.159.128.79"] [null] ["cloudflare"] [["Cloudflare"]] [];
 https://grid.tesla.com:443 [null] [403] [88] ["text/html"] ["23.37.238.80"] [null] [null] [null] [];
-https://gridlogic.energy.tesla.com:443 ["Access Denied"] [403] [280] ["text/html"] ["104.117.201.79"] [null] ["AkamaiGHost"] [null] [];
+https://gridlogic.energy.tesla.com:443 ["Access Denied"] [403] [278] ["text/html"] ["23.45.236.83"] [null] ["AkamaiGHost"] [null] [];
 https://hub.tesla.com:443 ["302 Found"] [302] [427] ["text/html"] ["88.221.13.137"] [null] ["akamai/nginx"] [["Nginx"]] [];
 https://image-emails.tesla.com:443 [null] [404] [11] [null] ["104.89.18.184"] [null] ["AkamaiNetStorage"] [null] [];
 https://image.email.tesla.com:443 ["Access Denied"] [403] [274] ["text/html"] ["92.123.224.106"] [null] ["AkamaiGHost"] [null] [];

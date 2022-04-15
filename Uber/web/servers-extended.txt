@@ -1,7 +1,7 @@
 http://a.uber.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["34.98.127.226"] ["https://a.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://a.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://aarthika-staging-phx2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://aarthika-staging-phx2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://aarthika-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://aarthika-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://aarthika-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://aarthika-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://aarthika.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://aarthika.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://about.ubereats.com:80 [null] [406] [14] ["text/plain"] ["34.98.127.226"] ["https://about.ubereats.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://about.ubereats.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
@@ -142,9 +142,9 @@ http://autopsy.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104
 http://autor.uber.com:80 [null] [404] [null] [null] ["34.98.127.226"] ["https://autor.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://autor.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://autotune.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://autotune.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://av-log-viewer-dev.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://av-log-viewer-dev.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://av-log-viewer-dev.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://av-log-viewer-dev.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://av-log-viewer-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://av-log-viewer-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://av-log-viewer.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://av-log-viewer.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://av-log-viewer.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://av-log-viewer.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://av-maps-flow.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://av-maps-flow.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://avengers-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://avengers-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://avengers.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://avengers.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -209,7 +209,7 @@ http://bliss-stage.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] [
 http://bliss-wfh.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://bliss-wfh.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://bliss.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://bliss.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://blissnxt.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://blissnxt.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://bloc-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://bloc-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://bloc-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://bloc-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://bloc.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://bloc.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://blog.uber.com:80 ["301 Moved Permanently"] [301] [162] ["text/html"] ["35.184.61.224"] [null] ["nginx"] [["Nginx"]] [];
 http://blogadmin.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [650] ["text/html"] ["173.45.129.92"] [null] ["nginx"] [["Nginx"]] [];
@@ -227,10 +227,10 @@ http://boost.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.3
 http://boulder-ui.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://boulder-ui.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://boulder-web-tools-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://boulder-web-tools-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://boulder-web-tools.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://boulder-web-tools.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://brand-private.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://brand-private.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://brand-private.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://brand-private.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://brand.uber.com:80 ["301 Moved Permanently"] [301] [134] ["text/html"] ["3.214.201.41"] [null] ["awselb/2.0"] [null] [];
 http://buck-cache-android.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://buck-cache-android.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://buck-cache-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://buck-cache-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://buck-cache-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://buck-cache-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://buck-cache.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://buck-cache.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://buck-doctor.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] ["https://buck-doctor.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://bugbounty.uber.com:80 [null] [404] [null] [null] ["34.98.127.226"] ["https://bugbounty.uber.com/"] ["ufe"] [["Google Cloud"]] [];
@@ -422,7 +422,7 @@ http://connmon-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html
 http://connmon.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://connmon.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://console-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.197.214"] ["https://console-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://console.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://console.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://contact.uber.com:80 ["ubergrowth"] [200] [14923] ["text/html"] ["160.8.21.29"] ["https://contact.uber.com/s/?language=en_US"] [null] [["Cloudinary"]] [];
+http://contact.uber.com:80 ["ubergrowth"] [200] [14891] ["text/html"] ["160.8.21.29"] ["https://contact.uber.com/s/?language=en_US"] [null] [["Cloudinary"]] [];
 http://content.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://content.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://content.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://context.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://context.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -463,7 +463,7 @@ http://dash-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] 
 http://dash-testing.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dash-testing.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://dash.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dash.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://dashbuilder-beta-staging-dca.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dashbuilder-beta-staging-dca.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://dashbuilder-beta1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dashbuilder-beta1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://dashbuilder-beta1.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://dashbuilder-beta1.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://dashbuilder-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dashbuilder-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://dashbuilder-ea.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dashbuilder-ea.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://dashbuilder-phx2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://dashbuilder-phx2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -491,7 +491,7 @@ http://databook.uberinternal.com:80 [null] [401] [103] ["application/json"] ["10
 http://datacentral.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://datacentral.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://datagram-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://datagram-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://datagram.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://datagram.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://datahawk2-dca1.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://datahawk2-dca1.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://datahawk2-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://datahawk2-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://datahawk2-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://datahawk2-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://datahawk2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://datahawk2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://datahealth-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://datahealth-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -514,7 +514,7 @@ http://dclb-staging-phx2.uber.com:80 [null] [405] [36] ["application/json"] ["10
 http://dclb.uber.com:80 [null] [405] [36] ["application/json"] ["104.36.197.214"] ["https://dclb.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://dearjohn.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dearjohn.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://decision.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://decision.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://deeplearningcatalystdemo.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://deeplearningcatalystdemo.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://deeplearningcatalystdemo.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://deeplearningcatalystdemo.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://deeplink.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://deeplink.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://delivery.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://delivery.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://delivery.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
@@ -536,7 +536,7 @@ http://developer.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.
 http://developer.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://developer.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://developers.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://developers.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://developers.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://devhub.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://devhub.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://devhub.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://devhub.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://devices.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["3.225.164.108"] [null] [null] [null] [];
 http://devices.uberinternal.com:80 ["Object moved"] [302] [176] ["text/html"] ["3.225.164.108"] ["https://devices.uberinternal.com/"] [null] [null] [];
 http://devpod-auth.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://devpod-auth.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -571,7 +571,7 @@ http://direct.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.
 http://direct.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://direct.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://dispatcher.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://dispatcher.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://docapprover.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://docapprover.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://docker-phx4.uberinternal.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.197.214"] ["https://docker-phx4.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://docker-phx4.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.197.214"] ["https://docker-phx4.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://docnn.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://docnn.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://docs.uber.com:80 ["302 Moved"] [302] [231] ["text/html"] ["142.250.185.147"] [null] ["ghs"] [null] [];
 http://domains.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://domains.uberinternal.com/"] ["ufe"] [null] [];
@@ -668,7 +668,7 @@ http://events.uber.com:80 ["403 Forbidden"] [403] [552] ["text/html"] ["104.36.1
 http://eventsconsole.uberinternal.com:80 ["301 Moved Permanently"] [301] [134] ["text/html"] ["13.56.154.125"] [null] ["awselb/2.0"] [null] [];
 http://evi.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://evi.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://ewb.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://ewb.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://expanse.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://expanse.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://expanse.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://expanse.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://experience.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://experience.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://experience.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://experiment.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://experiment.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
@@ -716,7 +716,7 @@ http://flipr-dev.uberinternal.com:80 [null] [401] [103] ["application/json"] ["1
 http://flipr.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://flipr.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://floppy-omega.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://floppy-omega.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://flow-dev-lab.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://flow-dev-lab.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://flow-orchestrator.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://flow-orchestrator.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://flow-orchestrator.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://flow-orchestrator.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://flow-partner-lab.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://flow-partner-lab.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://flow.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://flow.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://flowdsl.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://flowdsl.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -747,12 +747,12 @@ http://freight-marketing.uberinternal.com:80 ["302 Found"] [302] [142] ["text/ht
 http://freight-ops-lite-staging.uber.com:80 [null] [404] [9] ["text/plain"] ["104.36.195.150"] ["https://freight-ops-lite-staging.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://freight-ops-lite.uber.com:80 [null] [404] [9] ["text/plain"] ["104.36.195.150"] ["https://freight-ops-lite.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://freight-ops-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://freight-ops-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://freight-ops-web-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://freight-ops-web-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://freight-ops-web-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://freight-ops-web-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://freight-ops-web.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://freight-ops-web.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://freight-ops.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://freight-ops.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://freight-service.uberinternal.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] ["https://freight-service.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://freight-support.uber.com:80 [null] [404] [9] ["text/plain"] ["104.36.195.150"] ["https://freight-support.uber.com/"] ["ufe"] [["Envoy"]] [];
-http://freight-support.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://freight-support.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://freight-support.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://freight-support.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://freight.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://freight.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://freight.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://freightbonjour.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://freightbonjour.uber.com/"] ["ufe"] [["Envoy"]] [];
@@ -789,8 +789,8 @@ http://gateway-ui.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["
 http://gateway.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://gateway.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://genesis.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://genesis.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://genie.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://genie.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://geo-dca1.cfe.uber.com:80 [null] [405] [36] ["application/json"] ["35.227.224.91"] ["https://geo-dca1.cfe.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
-http://geo-dca1.cfe.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["35.227.224.91"] [null] [null] [null] [];
+http://geo-dca1.cfe.uber.com:80 [null] [405] [36] ["application/json"] ["35.201.81.34"] ["https://geo-dca1.cfe.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
+http://geo-dca1.cfe.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["35.201.81.34"] [null] [null] [null] [];
 http://geo-frontends-all-dca1.uber.com:80 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["104.36.195.150"] ["https://geo-frontends-all-dca1.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://geo-frontends-all-phx2.uber.com:80 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["104.36.197.214"] ["https://geo-frontends-all-phx2.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://geo-frontends-dca1.uber.com:80 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["104.36.195.150"] ["https://geo-frontends-dca1.uber.com/"] ["ufe"] [["Envoy"]] [];
@@ -828,7 +828,7 @@ http://gim.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.
 http://girard-salesforce.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://girard-salesforce.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://girard-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://girard-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://girard.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://girard.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://glh.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://glh.uberinternal.com/greenlight2/"] ["ufe"] [["Envoy"]] [];
+http://glh.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://glh.uberinternal.com/greenlight2/"] ["ufe"] [["Basic","Envoy"]] [];
 http://glossary.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://glossary.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://go-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://go-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://go.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://go.uber.com/"] ["ufe"] [["Google Cloud"]] [];
@@ -918,7 +918,7 @@ http://help.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["h
 http://help.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://hero.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://hero.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://hero.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://hero.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://hero.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://hero.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://hero.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://hexographer-staging.uberinternal.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] ["https://hexographer-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://hexographer.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://hexographer.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://hexster.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://hexster.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -950,9 +950,9 @@ http://icons.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] [
 http://idata.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://idata.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://ieweb-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://ieweb-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://ieweb.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://ieweb.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://ihub-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://ihub-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://ihub-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://ihub-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://ihub.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://ihub.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://image-truth-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://image-truth-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://image-truth-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://image-truth-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://image-truth.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://image-truth.uberinternal.com/"] ["ufe"] [null] [];
 http://image.et.uber.com:80 ["Access Denied"] [403] [271] ["text/html"] ["104.89.45.136"] [null] ["AkamaiGHost"] [null] [];
 http://imagemanager.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://imagemanager.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -999,7 +999,7 @@ http://iteportal.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["1
 http://jaeger-dca1.uber.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://jaeger-dca1.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://jaeger-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://jaeger-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://jaeger-phx3.uber.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.197.214"] ["https://jaeger-phx3.uber.com/"] ["ufe"] [["Envoy"]] [];
-http://jaeger-phx3.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://jaeger-phx3.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://jaeger-phx3.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.197.214"] ["https://jaeger-phx3.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://jaeger-v2.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://jaeger-v2.uberinternal.com/"] ["ufe"] [null] [];
 http://jaeger.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://jaeger.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://jaguar.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://jaguar.uberinternal.com/"] ["ufe"] [null] [];
@@ -1072,7 +1072,7 @@ http://login.uber.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.19
 http://logs.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://logs.uberinternal.com/"] ["ufe"] [null] [];
 http://lol.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://lol.uberinternal.com/"] ["ufe"] [null] [];
 http://lonely-mountain.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://lonely-mountain.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
-http://looker-dev.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://looker-dev.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://looker-dev.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://looker-dev.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://looker-phx2.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.197.214"] ["https://looker-phx2.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://looker-sandbox.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://looker-sandbox.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://looker.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://looker.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1094,7 +1094,7 @@ http://m2.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://m2.
 http://m2.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://m2.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://m2.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://m2.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://m3prom-dca1.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://m3prom-dca1.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://m3prom-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://m3prom-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://m3prom.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://m3prom.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://ma.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://ma.uberinternal.com/"] ["ufe"] [null] [];
 http://madan.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://madan.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1205,7 +1205,7 @@ http://michelangelo-legacy.uberinternal.com:80 ["302 Found"] [302] [142] ["text/
 http://michelangelo-staging-dca1.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://michelangelo-staging-dca1.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://michelangelo-staging-scj1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://michelangelo-staging-scj1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://michelangelo-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://michelangelo-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://michelangelo-studio.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://michelangelo-studio.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://michelangelo-studio.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://michelangelo-studio.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://michelangelo.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://michelangelo.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://milton-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://milton-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://milton.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://milton.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1233,15 +1233,15 @@ http://mobile-content.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] 
 http://mobileappdirectory.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://mobileappdirectory.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://mobileci.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://mobileci.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://models.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://models.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://mojave-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://mojave-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://mojave-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://mojave-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://mojave.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://mojave.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://moncon.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://moncon.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://monitoring.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://monitoring.uberinternal.com/checkmute/"] ["ufe"] [["Envoy"]] [];
+http://monitoring.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://monitoring.uberinternal.com/checkmute/"] ["ufe"] [["Basic","Envoy"]] [];
 http://monocle.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://monocle.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://morpheus.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://morpheus.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://morpheus.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://movement-admin.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://movement-admin.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://movement-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://movement-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://movement-dca1.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://movement-dca1.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://movement-preprod.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://movement-preprod.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://movement-preprod.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://movement-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://movement-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1261,7 +1261,7 @@ http://myprivacy.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.
 http://myprivacy.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://myprivacy.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://mystique-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://mystique-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://mystique.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://mystique.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://nagios-dca1.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://nagios-dca1.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://nagios-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://nagios-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://nagios-phx2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://nagios-phx2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://nagios.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://nagios.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://nav.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] ["https://nav.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1278,7 +1278,7 @@ http://nlexa.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.3
 http://nlexaclient.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://nlexaclient.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://notifier.uber.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://notifier.uber.com/"] ["ufe"] [null] [];
 http://nova-dev.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://nova-dev.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://nova-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://nova-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://nova-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.197.214"] ["https://nova-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://nova-training.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://nova-training.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://nova.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://nova.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://npope.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://npope.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1410,7 +1410,7 @@ http://photography.uberinternal.com:80 ["Application Error"] [503] [506] ["text/
 http://photos.uber.com:80 ["Application Error"] [503] [506] ["text/html"] ["52.202.168.65"] [null] ["Cowboy"] [["Cowboy"]] [];
 http://pi.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://pi.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://pindrop-aggregator.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://pindrop-aggregator.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://pingo.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://pingo.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://pingo.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://pingo.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://pingpong.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://pingpong.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://pinot-controller-adhoc-phx.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://pinot-controller-adhoc-phx.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://pinot.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://pinot.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1445,7 +1445,7 @@ http://prd.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["h
 http://predicate-service.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] ["https://predicate-service.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://preloads-backend.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://preloads-backend.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://preloads.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://preloads.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
-http://presence.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://presence.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://presence.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://presence.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://primer-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://primer-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://primer.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://primer.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://prism.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://prism.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1455,14 +1455,14 @@ http://privacy.uber.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https
 http://privacy.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://privacy.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://proactive.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proactive.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://proctor-api-demo.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://proctor-api-demo.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
-http://proctor-api-dev.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proctor-api-dev.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://proctor-api-dev.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://proctor-api-dev.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://proctor-api-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proctor-api-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://proctor-api.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proctor-api.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://proctor-demo.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proctor-demo.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://proctor-dev.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proctor-dev.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://proctor-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proctor-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://proctor.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://proctor.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://prod1-insightvm.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://prod1-insightvm.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://prod1-insightvm.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://prod1-insightvm.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://prod2-insightvm.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://prod2-insightvm.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://prod3-insightvm.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.197.214"] ["https://prod3-insightvm.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://prod4-insightvm.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://prod4-insightvm.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1573,7 +1573,7 @@ http://rfc-ui-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["10
 http://rfc-ui.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://rfc-ui.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://rfc.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://rfc.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://rfc.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://ri.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://ri.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://ri.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://ri.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://rider-rewards.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://rider-rewards.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://rider.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://rider.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://rider.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
@@ -1606,7 +1606,7 @@ http://rush.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.12
 http://rush.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://rush.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://rush.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://rushmore.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.197.214"] ["https://rushmore.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://s-chronicle.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://s-chronicle.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://s-chronicle.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://s-chronicle.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://s-urate.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://s-urate.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://s.uber.com:80 [null] [404] [null] [null] ["34.98.127.226"] ["https://s.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://s.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
@@ -1648,9 +1648,9 @@ http://scribe.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.
 http://sea-eng.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://sea-eng.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://search-dca1.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://search-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://search-phx.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.197.214"] ["https://search-phx.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://search-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://search-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://search-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://search-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://search.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://search.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://secrets.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://secrets.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://secrets.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://secrets.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://secure-t.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://secure-t.uberinternal.com/"] ["ufe"] [null] [];
 http://security.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://security.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://security.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
@@ -1671,7 +1671,7 @@ http://share.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://
 http://share.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://sherlock-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://sherlock-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://sherlock.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://sherlock.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://shiny-app-ian-lob-dash.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://shiny-app-ian-lob-dash.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://shiny-app-ian-lob-dash.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-app-ian-lob-dash.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-burn-efficiency.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://shiny-burn-efficiency.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-commops-agent-dash-v2.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://shiny-commops-agent-dash-v2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-commops-dash.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://shiny-commops-dash.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1707,7 +1707,7 @@ http://shiny-triage-explorer.uberinternal.com:80 [null] [429] [109] ["text/plain
 http://shiny-uf-carrier-search.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://shiny-uf-carrier-search.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-uf-lead-transfer-board.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://shiny-uf-lead-transfer-board.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shiny-uf-ratecon.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-uf-ratecon.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://shiny-uf-unifeed.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://shiny-uf-unifeed.uberinternal.com/apps/uf_unifeed/"] ["ufe"] [["Envoy"]] [];
+http://shiny-uf-unifeed.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://shiny-uf-unifeed.uberinternal.com/apps/uf_unifeed/"] ["ufe"] [["Basic","Envoy"]] [];
 http://shiny03-admin.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://shiny03-admin.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shipper-staging.uberinternal.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] ["https://shipper-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://shortener.uber.com:80 ["Error - Uber"] [503] [2692] ["text/html"] ["34.98.127.226"] ["https://shortener.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
@@ -1743,7 +1743,7 @@ http://slate.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.3
 http://snaptask-test.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://snaptask-test.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://snaptask.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://snaptask.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://snippy.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://snippy.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://snitch.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://snitch.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://snitch.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://snitch.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://sortinghat.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://sortinghat.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://sourcegraph.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.197.214"] ["https://sourcegraph.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://sourcetrace.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://sourcetrace.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1771,7 +1771,7 @@ http://stage-bliss.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.3
 http://stage-help.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://stage-help.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://stagehand.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://stagehand.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://staging-bliss.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://staging-bliss.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://staging-driver-pricing.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://staging-driver-pricing.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://staging-driver-pricing.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://staging-driver-pricing.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://staging-ufailover2.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://staging-ufailover2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://staging-umonitor-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://staging-umonitor-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://staging-umonitor-phx3.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.197.214"] ["https://staging-umonitor-phx3.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1786,7 +1786,7 @@ http://static.ubereats.com:80 [null] [400] [361] ["application/xml"] ["34.98.127
 http://static.ubereats.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://status.uberinternal.com:80 [null] [302] [91] ["text/html"] ["52.215.192.131"] [null] [null] [["Atlassian Statuspage","Fastly"]] [];
 http://storage.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://storage.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
-http://storagetapper-dca1.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://storagetapper-dca1.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://storagetapper-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://storagetapper-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://storagetapper-phx2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://storagetapper-phx2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://storedvalue.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://storedvalue.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://studio-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://studio-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
@@ -1844,7 +1844,7 @@ http://swn-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.3
 http://swn.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://swn.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://symphony.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://symphony.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://synoptic-staging.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://synoptic-staging.uberinternal.com/"] ["ufe"] [null] [];
-http://synoptic-ui.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://synoptic-ui.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://synoptic-ui.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://synoptic-ui.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://synoptic.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://synoptic.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://system.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://system.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://t.uber.com:80 [null] [302] [null] ["text/html"] ["52.59.165.42"] ["https://t.uber.com/"] [null] [null] [];
@@ -1861,10 +1861,10 @@ http://tableau.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104
 http://tagging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://tagging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://taishan-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://taishan-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://taishan.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://taishan.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://taskly.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://taskly.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://taskly.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://taskly.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://tassadar.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://tassadar.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://tax-profiles-admin.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://tax-profiles-admin.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
-http://tax-profiles.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://tax-profiles.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://tax-profiles.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://tax-profiles.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://tax.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://tax.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://tb-static.uber.com:443 ["ERROR: The request could not be satisfied"] [400] [915] ["text/html"] ["143.204.98.28"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
 http://tb-static.uber.com:80 ["ERROR: The request could not be satisfied"] [403] [915] ["text/html"] ["143.204.98.28"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
@@ -1899,7 +1899,7 @@ http://test123.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98
 http://test22.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://test22.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://testaccounts-staging.UberINtERnAl.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://testaccounts-staging.UberINtERnAl.com/"] ["ufe"] [["Envoy"]] [];
 http://testaccounts-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://testaccounts-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://testaccounts.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://testaccounts.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://testaccounts.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://testaccounts.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://testing.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://testing.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://testing.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://tests.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://tests.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1915,7 +1915,7 @@ http://titan.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.
 http://tm1.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] ["https://tm1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://tm1dev.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://tm1dev.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://tm1dev.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://tollbooth.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://tollbooth.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://tollbooth.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://tollbooth.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://tools.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://tools.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://tools.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://tools.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://tools.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
@@ -1931,7 +1931,7 @@ http://tour.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.12
 http://tps.uberinternal.com:80 [null] [301] [null] [null] ["104.36.197.214"] ["https://tps.uberinternal.com/"] ["ufe"] [null] [];
 http://trace.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://trace.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://trace.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://track.spmail.uber.com:80 ["404 Not Found"] [404] [561] ["text/plain"] ["44.240.81.90"] [null] ["msys-http"] [null] [];
+http://track.spmail.uber.com:80 ["404 Not Found"] [404] [561] ["text/plain"] ["44.228.58.115"] [null] ["msys-http"] [null] [];
 http://track.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://track.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://track.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://tracker.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://tracker.uberinternal.com/"] ["ufe"] [null] [];
@@ -1964,7 +1964,7 @@ http://trust-phx2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["
 http://trust-staging-dca1.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://trust-staging-dca1.uberinternal.com/trust-staging/"] ["ufe"] [["Envoy"]] [];
 http://trust-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://trust-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://trust.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://trust.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://twine-staging-phx3.uberinternal.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.197.214"] ["https://twine-staging-phx3.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://twine-staging-phx3.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.197.214"] ["https://twine-staging-phx3.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://twine.uberinternal.com:80 [null] [404] [null] [null] ["104.36.195.150"] ["https://twine.uberinternal.com/"] ["ufe"] [null] [];
 http://typewriter.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://typewriter.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://u4b.uberinternal.com:80 [null] [302] [null] ["text/html"] ["35.184.61.224"] ["https://u4b.uberinternal.com/"] ["nginx"] [["Nginx","WP Engine","WordPress"]] [];
@@ -2088,10 +2088,10 @@ http://usurv-pat.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.
 http://usurv-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://usurv-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://usurv-tst.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://usurv-tst.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://usurv.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://usurv.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
-http://utask.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://utask.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://utask.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://utask.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://utmbeta-staging.uber.com:80 ["Error - Uber"] [503] [2692] ["text/html"] ["104.36.195.150"] ["https://utmbeta-staging.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://utmbeta.uber.com:80 ["Error - Uber"] [503] [2692] ["text/html"] ["104.36.195.150"] ["https://utmbeta.uber.com/"] ["ufe"] [["Envoy"]] [];
-http://utoken.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://utoken.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://utoken.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://utoken.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://utoll-dev.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://utoll-dev.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://utoll-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://utoll-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://utoll.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://utoll.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -2109,7 +2109,7 @@ http://vehicle-solutions.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["1
 http://vehicle.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://vehicle.uber.com/terms/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://vehicle.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://vehicles.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://vehicles.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://venues.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://venues.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://venues.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://venues.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://verifier.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://verifier.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://verifier.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://verify.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://verify.uber.com/"] ["ufe"] [["Envoy"]] [];
@@ -2139,7 +2139,7 @@ http://wall-e.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195
 http://wallet.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] ["https://wallet.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://wallet.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://watchtower-v2.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://watchtower-v2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://watchtower.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://watchtower.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
+http://watchtower.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://watchtower.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://wav.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://wav.uber.com/v2/select"] ["ufe"] [["Envoy"]] [];
 http://waybill2.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://waybill2.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://wd.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.197.214"] ["https://wd.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -2150,7 +2150,7 @@ http://web-claims.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36
 http://web-fleet-manager-staging.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://web-fleet-manager-staging.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://web-fraud-staging.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://web-fraud-staging.uberinternal.com/"] ["ufe"] [null] [];
 http://web-geosome.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://web-geosome.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://web-jarvis.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://web-jarvis.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://web-jarvis.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://web-jarvis.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://web-klaxon-staging.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://web-klaxon-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://web-klaxon.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://web-klaxon.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://web-mastermind.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://web-mastermind.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -2239,7 +2239,7 @@ https://adtech-tools-staging.uberinternal.com:443 ["301 Moved Permanently"] [301
 https://adtech-tools.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://adtech-web-tools-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://adtech-web-tools-test.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://adtech-web-tools.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://adtech-web-tools.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://adtech.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://advertiser.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://ae.uber.com:443 [null] [404] [19] ["text/plain"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
@@ -2266,7 +2266,7 @@ https://apollo-manager-dca.uberinternal.com:443 ["302 Found"] [302] [142] ["text
 https://appdash.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://apphealth-monitor-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://apphealth-monitor.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://apphealth.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://apphealth.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://aptarchive.uber.com:443 ["403 Forbidden"] [403] [153] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://ar.uber.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://arcanist-the-service.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2293,14 +2293,14 @@ https://atg-catalog-explorer.uberinternal.com:443 [null] [401] [103] ["applicati
 https://atg-catalog-search.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-chronicle-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-code.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://atg-collins.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://atg-collins.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://atg-iam-avmaps.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-iam-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-iam-mlp.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-infraportal-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://atg-infraportal.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://atg-lls-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://atg-lls-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://atg-lls-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-lls.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://atg-logsets.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-metrics-lab-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
@@ -2309,7 +2309,7 @@ https://atg-partners.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.9
 https://atg-partners.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atg-simulation-dev.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atgmarketplace-routing-datascience.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://atgmarketplace-routing-staging.uberinternal.com:443 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://atgmarketplace-routing-staging.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://atgmarketplace-routing.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://athena.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://athenax-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2408,7 +2408,7 @@ https://boost.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104
 https://boulder-ui.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://boulder-web-tools-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://boulder-web-tools.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://brand-private.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://brand-private.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://brand.uber.com:443 [null] [302] [null] ["text/html"] ["3.214.201.41"] [null] ["frontify"] [["Sqreen"]] [];
 https://buck-cache-android.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://buck-cache-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
@@ -2523,7 +2523,7 @@ https://cloud-integrations-stage.uber.com:443 ["403 Forbidden"] [403] [118] ["te
 https://cloud-onboarding.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://cluster-mgmt.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://cmm-atg.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://cmm-ui.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://cmm-ui.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://cmm.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://cms.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://cn-dc1.uber.com:443 [null] [405] [36] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2559,7 +2559,7 @@ https://codelabs.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["
 https://coeshift-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://coeshift.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://commander.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://commerce.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://commerce.uberinternal.com/account/dashboard/user/"] ["ufe"] [["Basic","Envoy"]] [];
+https://commerce.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://commerce.uberinternal.com/account/dashboard/user/"] ["ufe"] [["Envoy"]] [];
 https://commons.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://comms.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://communities.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2572,7 +2572,7 @@ https://config.uberinternal.com:443 [null] [401] [103] ["application/json"] ["10
 https://connmon-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://connmon.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://console-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
-https://console.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://console.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://contact.uber.com:443 ["ubergrowth"] [200] [49226] ["text/html"] ["160.8.21.29"] ["https://contact.uber.com/s/?language=en_US"] [null] [["Cloudinary"]] [];
 https://content.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://context.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2596,7 +2596,7 @@ https://cronus-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"]
 https://cronus.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://crypt-staging.uberinternal.com:443 [null] [302] [null] ["text/html"] ["52.88.177.231"] [null] ["nginx"] [["Nginx"]] [];
 https://crypt.uberinternal.com:443 [null] [302] [null] ["text/html"] ["35.167.64.135"] [null] ["nginx"] [["Nginx"]] [];
-https://crypto.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://crypto.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://cs.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://csp.uber.com:443 [null] [404] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://css.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2606,7 +2606,7 @@ https://d3.uberinternal.com:443 ["IIS Windows Server"] [200] [703] ["text/html"]
 https://daas.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://damon.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://dans-test.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://darktower-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://darktower-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://darktower.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://dash-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://dash-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
@@ -2614,7 +2614,7 @@ https://dash-testing.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"
 https://dash.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://dashbuilder-beta-staging-dca.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://dashbuilder-beta1.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
-https://dashbuilder-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://dashbuilder-dca1.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://dashbuilder-ea.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://dashbuilder-phx2.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://dashbuilder-staging-phx2.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
@@ -2622,7 +2622,7 @@ https://dashbuilder-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["tex
 https://dashbuilder-testing.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://dashbuilder.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://data-announcer-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://data-announcer.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://data-announcer.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://data.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://data.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://databook-beta.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2677,7 +2677,7 @@ https://devbuilds.uber.com:443 [null] [403] [243] ["application/xml"] ["65.9.7.6
 https://developer.uber.com:443 ["Developers | Uber"] [200] [128265] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://developer.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://developers.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://devhub.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
+https://devhub.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://devices.uberinternal.com:443 ["Object moved"] [302] [176] ["text/html"] ["3.225.164.108"] [null] [null] [null] [];
 https://devpod-auth.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://devpod-bra.uberinternal.com:443 [null] [302] [null] [null] ["34.111.240.226"] [null] [null] [null] [];
@@ -2704,7 +2704,7 @@ https://domains.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150
 https://dosa.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://dost.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://downloads.uber.com:443 ["404 Not Found"] [404] [233] ["text/html"] ["104.36.195.150"] ["https://downloads.uber.com/noauth/"] ["ufe"] [["Envoy"]] [];
-https://dragon.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://dragon.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://drive.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://driver-loyalty.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://driver-pricing.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
@@ -2760,7 +2760,7 @@ https://engtraining.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195
 https://engucation.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://engwiki-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://engwiki.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
-https://epic.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
+https://epic.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://eprof.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://epudos.uberinternal.com:443 [null] [301] [null] [null] ["104.36.197.214"] [null] ["ufe"] [null] [];
 https://erd-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2796,7 +2796,7 @@ https://fantom.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195
 https://fares-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fares.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fbs.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://feeds.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://feeds.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fermat-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://fermat.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fieldnotes.uberinternal.com:443 ["Site is not available"] [404] [1957] ["text/html"] ["130.211.29.77"] [null] ["UploadServer"] [["Google Cloud","Google Cloud Storage"]] [];
@@ -2845,7 +2845,7 @@ https://freight-ops-lite-staging.uber.com:443 [null] [404] [9] ["text/plain"] ["
 https://freight-ops-lite.uber.com:443 [null] [404] [9] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://freight-ops-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://freight-ops-web-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://freight-ops-web.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://freight-ops-web.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://freight-ops.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://freight-service.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://freight-support.uber.com:443 [null] [404] [9] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2881,7 +2881,7 @@ https://gateway-ui.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] 
 https://gateway.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://genesis.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://genie.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://geo-dca1.cfe.uber.com:443 [null] [405] [36] ["application/json"] ["35.227.224.91"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
+https://geo-dca1.cfe.uber.com:443 [null] [405] [36] ["application/json"] ["35.201.81.34"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://geo-frontends-all-dca1.uber.com:443 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://geo-frontends-all-phx2.uber.com:443 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://geo-frontends-dca1.uber.com:443 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -2952,7 +2952,7 @@ https://hadoop-jhs.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] 
 https://hadoop-management.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://hadoop-ui-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://hadoop-ui.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://hadoopviz.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://hadoopviz.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://hailstorm-dca1.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://hailstorm-phx2.uberinternal.com:443 [null] [301] [null] [null] ["104.36.197.214"] [null] ["ufe"] [null] [];
 https://hailstorm-v2-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3009,7 +3009,7 @@ https://i18n-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"
 https://i18n.uber.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://i18n.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://iadm.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://iam-console-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://iam-console-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://iam.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://icons.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://idata.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
@@ -3094,7 +3094,7 @@ https://kirby.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104
 https://klaxon-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://klaxon.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://kloak-monitor.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://kronos-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://kronos-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://kronos.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://ktb-staging.uberinternal.com:443 ["403"] [403] [134] ["text/html"] ["34.120.75.79"] [null] [null] [null] [];
 https://ktb.uberinternal.com:443 ["403"] [403] [134] ["text/html"] ["34.96.69.246"] [null] [null] [null] [];
@@ -3134,7 +3134,7 @@ https://looker-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] 
 https://looker-phx2.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://looker-sandbox.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://looker.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://loop.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
+https://loop.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://lost.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://love.uber.com:443 ["301 Moved Permanently"] [301] [162] ["text/html"] ["35.184.61.224"] ["https://love.uber.com/australia/"] ["nginx"] [["Nginx"]] [];
 https://luna.uberinternal.com:443 [null] [301] [null] [null] ["104.36.197.214"] [null] ["ufe"] [null] [];
@@ -3164,13 +3164,13 @@ https://managed.uberinternal.com:443 [null] [200] [458] ["application/octet-stre
 https://manhattan.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://manifold.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://mapbots.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://mapkeeper.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://mapkeeper.uberinternal.com:443 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://maple-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://maple.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://mapmaker.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://maps-evidence.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://maps-metrics-db-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://maps-metrics-db-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://maps-metrics-db-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://maps-metrics-db.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://maps-ops-metrics-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://maps-ops-metrics-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3184,7 +3184,7 @@ https://maps.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] 
 https://mapstore-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://mapstore-internal.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://mapstore-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
-https://mapstore.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://mapstore.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://mapstorecatalog.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://mapstorets.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://marketplace.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
@@ -3230,7 +3230,7 @@ https://metro-api-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/
 https://metro-api.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://metro-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://metro.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://metro2.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://metro2.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://metron-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://metron.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://mi-test.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3274,7 +3274,7 @@ https://morpheus.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226
 https://movement-admin.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://movement-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://movement-preprod.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
-https://movement-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://movement-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://movement.uber.com:443 [null] [302] [34] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy","Express","Node.js"]] [];
 https://movement.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://mri.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3303,14 +3303,14 @@ https://nlexa.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104
 https://nlexaclient.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://notifier.uber.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://nova-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://nova-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://nova-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://nova-training.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://nova.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://npope.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://npope.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://nycvideo.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://nye.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://o.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://oauthplayground.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://oauthplayground.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://ocs-lite-demo.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://ocs-lite-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://ocs-lite.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
@@ -3330,10 +3330,10 @@ https://oncall-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"]
 https://oncall.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://one.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://oneops.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://openingact.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://openingact.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://opensource.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://opera-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
-https://opera.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://opera.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://operations.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://ops-garage.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://opsapps.uberinternal.com:443 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3422,7 +3422,7 @@ https://pinot.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104
 https://piper-atg.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://piper-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://piper-phx2.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
-https://piper-sandbox.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://piper-sandbox.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://piper-staging-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://piper-staging-phx2.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://piper-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3432,7 +3432,7 @@ https://places-chains.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html
 https://places-mobile.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://places-mobile.uberinternal.com:443 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://places-service.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://places-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
+https://places-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://places.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://platform.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://plot-for-trends.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3447,7 +3447,7 @@ https://prd.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [
 https://predicate-service.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://preloads-backend.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://preloads.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://presence.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://presence.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://primer-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://primer.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://prism.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3537,7 +3537,7 @@ https://research.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null
 https://restaurant-dashboard.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://restaurant-dashboard.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://restaurant-help.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
-https://restaurant-signup-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
+https://restaurant-signup-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://restaurant-staging.uber.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://restaurant-staging.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://restaurant.uber.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
@@ -3692,7 +3692,7 @@ https://sif.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.
 https://sigma-dca1.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://sigma.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://signclassification.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
-https://signups.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://signups.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://silverbullet.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://sim.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://sirius-dailystaging.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3798,7 +3798,7 @@ https://swn-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"]
 https://swn.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://symphony.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://synoptic-staging.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
-https://synoptic-ui.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://synoptic-ui.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://synoptic.uberinternal.com:443 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://system.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://t.uber.com:443 [null] [302] [null] ["text/html"] ["52.59.165.42"] [null] [null] [null] [];
@@ -3825,7 +3825,7 @@ https://tbs.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.3
 https://tc.uber.com:443 [null] [404] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://tc.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://tc2.UberINtERnAl.com:443 [null] [429] [109] ["text/plain"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
-https://tc2.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://tc2.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://tdottest1.uber.com:443 [null] [302] [null] ["text/html"] ["18.184.197.212"] [null] [null] [null] [];
 https://team-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://team.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
@@ -3846,7 +3846,7 @@ https://test123.uber.com:443 [null] [400] [67] ["application/json"] ["34.98.127.
 https://test22.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://testaccounts-staging.UberINtERnAl.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://testaccounts-staging.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
-https://testaccounts.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://testaccounts.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://testing.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://tests.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://thermometer-staging.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3872,7 +3872,7 @@ https://totalrewards.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["10
 https://tour.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://tps.uberinternal.com:443 [null] [301] [null] [null] ["104.36.197.214"] [null] ["ufe"] [null] [];
 https://trace.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://track.spmail.uber.com:443 ["404 Not Found"] [404] [561] ["text/plain"] ["44.240.81.90"] [null] ["msys-http"] [null] [];
+https://track.spmail.uber.com:443 ["404 Not Found"] [404] [159] ["text/plain"] ["44.228.58.115"] [null] ["msys-http"] [null] [];
 https://track.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://tracker.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://tracktivity.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -4016,8 +4016,8 @@ https://usurv.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.19
 https://utask.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://utmbeta-staging.uber.com:443 ["Error - Uber"] [503] [2692] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://utmbeta.uber.com:443 ["Error - Uber"] [503] [2692] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://utoken.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
-https://utoll-dev.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://utoken.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://utoll-dev.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://utoll-staging.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://utoll.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://utube.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
