@@ -3780,6 +3780,9 @@
 /api/activity/stream/?summary=true
 /api/adobecreativecloud/libraries
 /api/adobecreativecloud/libraries/
+/api/analytics/content-plays?start_date=
+/api/analytics/people?start_date=
+/api/analytics/uptime
 /api/annotation/add
 /api/annotation/comment/add
 /api/annotation/comment/remove/
@@ -3918,6 +3921,13 @@
 /api/file/init
 /api/file/progress
 /api/file/upload
+/api/general/city_codes
+/api/general/components
+/api/general/components/
+/api/general/default_playlist
+/api/general/locations
+/api/general/locations/
+/api/general/screens/
 /api/graphql/v1
 /api/group
 /api/group/
@@ -3965,6 +3975,8 @@
 /api/measure/add/
 /api/measure/remove/
 /api/measure/update
+/api/media
+/api/media/uploadFile
 /api/metadata/content/
 /api/metadata/fields/
 /api/metadata/get
@@ -4014,6 +4026,8 @@
 /api/platform-analytics/download/
 /api/platform-analytics/generate/
 /api/platform-analytics/metric/
+/api/playlists
+/api/playlists/
 /api/portal/brandupdate/
 /api/portal?
 /api/printrequest/config
@@ -4065,6 +4079,7 @@
 /api/reports/list
 /api/saml
 /api/saml/validate_code
+/api/schedule
 /api/screen/attachment/
 /api/screen/data/
 /api/screen/delete
@@ -4109,6 +4124,8 @@
 /api/share-link/
 /api/storyteq-callback-data
 /api/storyteq-template
+/api/streams
+/api/streams/
 /api/styleguide-navigation-item
 /api/styleguide-navigation-item/
 /api/styleguide-navigation/
@@ -4195,6 +4212,11 @@
 /api/user/update/
 /api/userlist/account
 /api/userlist/brandupdate/
+/api/users
+/api/users/current
+/api/users/login
+/api/users/logout
+/api/users/roles
 /api/v0
 /api/v0/applications
 /api/v0/applications/service-groups
@@ -4247,6 +4269,9 @@
 /api/v3/projects/
 /api/validation/email/send
 /api/viewer/data/
+/api/visualization/
+/api/visualizations
+/api/visualizations/
 /api/voucher/validate?code=
 /api/watermark/
 /api/workflow-status/list
@@ -4368,6 +4393,7 @@
 /auraCmpDef?aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD&amp;_au=KbCmDBVbE10iCy1inwbbzA&amp;_ff=DESKTOP&amp;_l=true&amp;_lrmc=1730203071&amp;_l10n=en_US&amp;_c=true&amp;_style=52728839&amp;_density=VIEW_ONE
 /auraCmpDef?aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD&amp;_au=KbCmDBVbE10iCy1inwbbzA&amp;_ff=DESKTOP&amp;_l=true&amp;_lrmc=1730203071&amp;_l10n=en_US&amp;_c=true&amp;_style=74282427&amp;_density=VIEW_ONE
 /auraCmpDef?aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD&amp;_au=PAjEh9HEIZmsDpK-Y8SVTg&amp;_ff=DESKTOP&amp;_l=true&amp;_lrmc=1730203071&amp;_l10n=en_US&amp;_c=true&amp;_style=52728839&amp;_density=VIEW_ONE
+/auraCmpDef?aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD&amp;_au=PAjEh9HEIZmsDpK-Y8SVTg&amp;_ff=DESKTOP&amp;_l=true&amp;_lrmc=1730203071&amp;_l10n=en_US&amp;_c=true&amp;_style=74282427&amp;_density=VIEW_ONE
 /auraFW
 /auraFW/resources/
 /auraFW/resources/aura/images/time-separator.png
@@ -4458,6 +4484,7 @@
 /blog/earn/
 /blog/earn/courier/
 /blog/earn/drive/
+/blog/easier-business-travel/
 /blog/eat/
 /blog/eat/eats-products/
 /blog/eat/eats-promotions/
@@ -4552,6 +4579,7 @@
 /blog/new-york-city/eat/eats-products/
 /blog/new-york-city/eat/eats-promotions/
 /blog/new-york-city/eat/eats-stories/
+/blog/new-york-city/engineering/
 /blog/new-york-city/freight/
 /blog/new-york-city/freight/carrier/
 /blog/new-york-city/freight/shipper/
@@ -4692,9 +4720,11 @@
 /blog/sw.js?ver=1648096959842&amp;scope=en-DE
 /blog/sw.js?ver=1648096959918&amp;scope=en-DE
 /blog/sw.js?ver=1649164089665&amp;scope=en-US
+/blog/sw.js?ver=1649164089736&amp;scope=en-US
 /blog/sw.js?ver=1649164130092&amp;scope=en-US
 /blog/sw.js?ver=1649164190980&amp;scope=en-US
 /blog/sw.js?ver=1649164212062&amp;scope=en-DE
+/blog/sw.js?ver=1649164212062&amp;scope=en-US
 /blog/sw.js?ver=1649164231662&amp;scope=en-US
 /blog/sw.js?ver=1649164291348&amp;scope=en-DE
 /blog/tacoma/
@@ -4876,6 +4906,7 @@
 /contacts-interactions$\
 /contenthub/
 /contents\
+/controls
 /cookbooks
 /cookbooks/
 /copy/
@@ -5001,6 +5032,9 @@
 /eatsTrips/
 /edit
 /edit_widget/
+/editor
+/editor/create
+/editor/create/sixteen_nine
 /editorial-items/
 /el/
 /elliptic
@@ -5698,6 +5732,7 @@
 /lite
 /live/red_lojson/300lo.json?
 /liveagent/autoquery.apexp
+/location
 /log-ips-event
 /login
 /login-redirect
@@ -5938,6 +5973,8 @@
 /planning
 /play
 /playlists
+/playlists/edit/:id
+/playlists/new
 /plugins
 /plugins/flash/FlashPlugin.swf
 /policies
@@ -6168,6 +6205,7 @@
 /scanner/jobs
 /scanner/jobs/id/
 /scanner/jobs/search
+/schedule
 /schedule-appointment
 /screen
 /screen-relation/add
@@ -6413,6 +6451,7 @@
 /telemetry/services/count/updated
 /template.html
 /templates
+/templates/detail
 /tenant-registration$\
 /test/interactions
 /test/jasmine
@@ -6705,6 +6744,8 @@
 /view
 /viewAudiobook
 /vimeo
+/visualizations
+/visualizations/create
 /vouchers
 /watch
 /wave\
@@ -6766,6 +6807,7 @@
 5489-e4a1e2240854.js
 5578-5687a2996633.js
 5578-f5ab27f41b04.js
+5623-0ddf61308988.js
 5623-21daab19c5bd.js
 5623-89132408f95d.js
 5623-a64743afb813.js
