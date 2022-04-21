@@ -62,6 +62,7 @@ http://2018.account.admin-accessbucket.staging.vpn.twttr.com:80
 http://2018.account.adminaccess-api.demo.staging.vpn.twttr.com:80
 http://2018.account.backup.betabackup-alpha-accountbeta.staging.vpn.twttr.com:80
 http://2018.account.beta.staging.vpn.twttr.com:80
+http://2018.account.config.staging.vpn.twttr.com:80
 http://2018.accountaccessbucket.staging.vpn.twttr.com:80
 http://2018.accountaccount.access-api.demo.staging.vpn.twttr.com:80
 http://2018.accountaccountbeta.staging.vpn.twttr.com:80
@@ -147,10 +148,12 @@ http://2019-adminalpha-accountbeta.staging.vpn.twttr.com:80
 http://2019-alpha-alpha-dbms-demo.staging.vpn.twttr.com:80
 http://2019-alpha-dbms-demo.staging.vpn.twttr.com:80
 http://2019-alphaadmin-api.demo.staging.vpn.twttr.com:80
+http://2019-alphaupload.staging.vpn.twttr.com:80
 http://2019-api.staging.vpn.twttr.com:80
 http://2019-apiupload.staging.vpn.twttr.com:80
 http://2019-auth.staging.vpn.twttr.com:80
 http://2019-beta-beta.staging.vpn.twttr.com:80
+http://2019-beta.apiupload.staging.vpn.twttr.com:80
 http://2019-beta.bucket.alpha.staging.vpn.twttr.com:80
 http://2019-upload.staging.vpn.twttr.com:80
 http://2019.access-admin-api.demo.staging.vpn.twttr.com:80
@@ -201,6 +204,7 @@ http://2019admin-access.alpha-dbms-demo.staging.vpn.twttr.com:80
 http://2019admin-api.demo.staging.vpn.twttr.com:80
 http://2019admin-demo.staging.vpn.twttr.com:80
 http://2019admin.alphaapi-demo.staging.vpn.twttr.com:80
+http://2019admin.upload.staging.vpn.twttr.com:80
 http://2019adminapi.staging.vpn.twttr.com:80
 http://2019alpha-accountbeta.staging.vpn.twttr.com:80
 http://2019alpha.accessaccount.accountbeta.staging.vpn.twttr.com:80
@@ -229,10 +233,12 @@ http://2020-account.accountaccount.access-api.demo.staging.vpn.twttr.com:80
 http://2020-account.admin.access-api.demo.staging.vpn.twttr.com:80
 http://2020-accountaccountbeta.staging.vpn.twttr.com:80
 http://2020-admin-alphaapi.demo.staging.vpn.twttr.com:80
+http://2020-admin.upload.staging.vpn.twttr.com:80
 http://2020-adminapi.staging.vpn.twttr.com:80
 http://2020-api-demo.staging.vpn.twttr.com:80
 http://2020-backup.dbms-api.staging.vpn.twttr.com:80
 http://2020-beta.bucket.alpha.staging.vpn.twttr.com:80
+http://2020.2019-apiupload.staging.vpn.twttr.com:80
 http://2020.access-access.account.access-api.demo.staging.vpn.twttr.com:80
 http://2020.access-accessadmin-accountalpha-dbms-demo.staging.vpn.twttr.com:80
 http://2020.access-accessbucket.staging.vpn.twttr.com:80
@@ -253,11 +259,14 @@ http://2020.account-alphaadmin-api.demo.staging.vpn.twttr.com:80
 http://2020.account.access.access.chef-bucket.staging.vpn.twttr.com:80
 http://2020.account.account.backup.dbms-api.staging.vpn.twttr.com:80
 http://2020.account.admin-accessbucket.staging.vpn.twttr.com:80
+http://2020.account.admin.upload.staging.vpn.twttr.com:80
 http://2020.accountbeta.staging.vpn.twttr.com:80
 http://2020.admin-api.demo.staging.vpn.twttr.com:80
+http://2020.admin.upload.staging.vpn.twttr.com:80
 http://2020.adminaccount.beta.staging.vpn.twttr.com:80
 http://2020.alpha-dbms-demo.staging.vpn.twttr.com:80
 http://2020.alpha.staging.vpn.twttr.com:80
+http://2020.alphaupload.staging.vpn.twttr.com:80
 http://2020.api-demo.staging.vpn.twttr.com:80
 http://2020.backup.dbms-api.staging.vpn.twttr.com:80
 http://2020.beta.admin-admin.access-api.demo.staging.vpn.twttr.com:80
@@ -287,6 +296,7 @@ http://2020accessapi-debug-api.staging.vpn.twttr.com:80
 http://2020accessbucket.staging.vpn.twttr.com:80
 http://2020account-admin-demo.staging.vpn.twttr.com:80
 http://2020account-alphaadmin-api.demo.staging.vpn.twttr.com:80
+http://2020account-apiupload.staging.vpn.twttr.com:80
 http://2020account.accessaccount.accessaccount.access-api.demo.staging.vpn.twttr.com:80
 http://2020account.admin-accessbucket.staging.vpn.twttr.com:80
 http://2020account.admin-alphaapi.demo.staging.vpn.twttr.com:80
@@ -527,6 +537,7 @@ http://account.alphaapi-demo.staging.vpn.twttr.com:80
 http://account.backup.betabackup-alpha-accountbeta.staging.vpn.twttr.com:80
 http://account.backup.dbms-api.staging.vpn.twttr.com:80
 http://account.beta.staging.vpn.twttr.com:80
+http://account.bucket-access-upload.staging.vpn.twttr.com:80
 http://account.config.staging.vpn.twttr.com:80
 http://accountaccess-access-api.demo.staging.vpn.twttr.com:80
 http://accountaccess-accessbucket.staging.vpn.twttr.com:80
@@ -598,8 +609,10 @@ http://adminaccessaccount.access.admin-access-api.demo.staging.vpn.twttr.com:80
 http://adminaccessadmin-access-admin-api.demo.staging.vpn.twttr.com:80
 http://adminaccount.accessaccount.access-api.demo.staging.vpn.twttr.com:80
 http://adminaccount.beta.staging.vpn.twttr.com:80
+http://adminaccount.bucket-access-upload.staging.vpn.twttr.com:80
 http://adminadminalpha-accountbeta.staging.vpn.twttr.com:80
 http://adminalpha-accountbeta.staging.vpn.twttr.com:80
+http://adminalphaupload.staging.vpn.twttr.com:80
 http://adminapi-debug-api.staging.vpn.twttr.com:80
 http://adminapi.staging.vpn.twttr.com:80
 http://ads-api-sandbox.twitter.com:80
@@ -643,6 +656,7 @@ http://alpha-alpha-dbms-demo.staging.vpn.twttr.com:80
 http://alpha-alphaapi.demo.staging.vpn.twttr.com:80
 http://alpha-auth-admin-api.demo.staging.vpn.twttr.com:80
 http://alpha-auth.staging.vpn.twttr.com:80
+http://alpha-beta.config.staging.vpn.twttr.com:80
 http://alpha-dbms-demo.staging.vpn.twttr.com:80
 http://alpha-debug-api.staging.vpn.twttr.com:80
 http://alpha.access-account.access-api.demo.staging.vpn.twttr.com:80
@@ -931,6 +945,7 @@ http://betaaccess.alpha-accountbeta.staging.vpn.twttr.com:80
 http://betaaccessbucket.staging.vpn.twttr.com:80
 http://betaaccount.access.admin-access-api.demo.staging.vpn.twttr.com:80
 http://betaaccount.admin-accessbucket.staging.vpn.twttr.com:80
+http://betaadmin.upload.staging.vpn.twttr.com:80
 http://betaalpha.alpha.staging.vpn.twttr.com:80
 http://betabackup-alpha-accountbeta.staging.vpn.twttr.com:80
 http://bibhumohapatra.twitter.com:80
@@ -1034,6 +1049,7 @@ http://chef-access-account.access.admin-access-api.demo.staging.vpn.twttr.com:80
 http://chef-account.access-api.demo.staging.vpn.twttr.com:80
 http://chef-admin-account.access.access.chef-bucket.staging.vpn.twttr.com:80
 http://chef-admin.access-api.demo.staging.vpn.twttr.com:80
+http://chef-apiupload.staging.vpn.twttr.com:80
 http://chef-bucket.staging.vpn.twttr.com:80
 http://chef.access-upload.staging.vpn.twttr.com:80
 http://chef.access.account.admin-alphaapi.demo.staging.vpn.twttr.com:80
@@ -1443,6 +1459,7 @@ http://geo4.api-stream.twitter.com:80
 http://geo4.api.twitter.com:80
 http://geo4.api.twitter.com:8080
 http://geo4.mobile.twitter.com:80
+http://geo4.platform.twitter.com:80
 http://geo4.probe.twitter.com:80
 http://geo4.syndication.twitter.com:80
 http://geo4.tpop-api.twitter.com:80
@@ -1678,6 +1695,7 @@ http://ms5.twitter.com:80
 http://mtc.cdn.vine.co:80
 http://mttr.twitter.com:80
 http://mtv.twitter.com:80
+http://munki-smfc.svc.twttr.com:443
 http://munki.svc.twttr.com:443
 http://mux.twitter.com:80
 http://mx.staging.vpn.twttr.com:80
@@ -1688,6 +1706,7 @@ http://natgeo.twitter.com:80
 http://nationalgeographic.twitter.com:80
 http://neptune.twitter.com:80
 http://nestlematchplay.twitter.com:80
+http://new-2018.staging.vpn.twttr.com:80
 http://new-backupadmin-demo.staging.vpn.twttr.com:80
 http://new-demo.staging.vpn.twttr.com:80
 http://new.access.admin-access-api.demo.staging.vpn.twttr.com:80
@@ -2048,6 +2067,7 @@ http://solareclipse.twitter.com:80
 http://ss.twitter.com:80
 http://stadium.twitter.com:80
 http://staging-access-api.demo.staging.vpn.twttr.com:80
+http://staging-account.config.staging.vpn.twttr.com:80
 http://staging-admin-api.demo.staging.vpn.twttr.com:80
 http://staging-aem-author-application.twitter.com:80
 http://staging-engineering.twitter.com:80
@@ -2656,6 +2676,7 @@ https://2018-alphaapi.demo.staging.vpn.twttr.com:443
 https://2018-analyse.vpn.twttr.com:443
 https://2018-api-45-0-0.vpn.twttr.com:443
 https://2018-api-astudyinpixels.vpn.twttr.com:443
+https://2018-api-beta.semantic-lab.vpn.twttr.com:443
 https://2018-api-debug-api.staging.vpn.twttr.com:443
 https://2018-api.admin.admin-atlc-lab.vpn.twttr.com:443
 https://2018-api.auth.obv-atla.vpn.twttr.com:443
@@ -2668,8 +2689,10 @@ https://2018-authapi.dev-databrandsafety.vpn.twttr.com:443
 https://2018-aveesplace.vpn.twttr.com:443
 https://2018-babylonlib.vpn.twttr.com:443
 https://2018-backup.access.api-smfc-lab.vpn.twttr.com:443
+https://2018-backup.obv-smf1.vpn.twttr.com:443
 https://2018-backupconfig.betabrandsafety.vpn.twttr.com:443
 https://2018-beta.obv-smf1.vpn.twttr.com:443
+https://2018-betaalphaatlc-lab.vpn.twttr.com:443
 https://2018-betulkarali.vpn.twttr.com:443
 https://2018-bucket.staging.vpn.twttr.com:443
 https://2018-buy.vpn.twttr.com:443
@@ -2678,6 +2701,7 @@ https://2018-config-atlc-lab.vpn.twttr.com:443
 https://2018-config.staging.vpn.twttr.com:443
 https://2018-confluenceadmin-staging.vpn.twttr.com:443
 https://2018-corbetta.phys.vpn.twttr.com:443
+https://2018-debugbeta.semantic-lab.vpn.twttr.com:443
 https://2018-demo.staging.vpn.twttr.com:443
 https://2018-escalate.vpn.twttr.com:443
 https://2018-j3p0uk.vpn.twttr.com:443
@@ -2843,6 +2867,7 @@ https://2018.account.api.admin-atlc-lab.vpn.twttr.com:443
 https://2018.account.backup.betabackup-alpha-accountbeta.staging.vpn.twttr.com:443
 https://2018.account.beta.staging.vpn.twttr.com:443
 https://2018.account.brandsafety.vpn.twttr.com:443
+https://2018.account.config.staging.vpn.twttr.com:443
 https://2018.account.data.obv-atla.vpn.twttr.com:443
 https://2018.account.dbms.obv-atla.vpn.twttr.com:443
 https://2018.account0.vpn.twttr.com:443
@@ -2902,6 +2927,7 @@ https://2018.alpha-devbloggerpeer.vpn.twttr.com:443
 https://2018.alpha.account-abani-kumar.vpn.twttr.com:443
 https://2018.alpha.adminbloggerpeer.vpn.twttr.com:443
 https://2018.alpha.answering.vpn.twttr.com:443
+https://2018.alpha.apiatlc-lab.vpn.twttr.com:443
 https://2018.alpha.staging.vpn.twttr.com:443
 https://2018.alphaadmin.api-41-5-1-41-5-2.vpn.twttr.com:443
 https://2018.alphabackupaccount-corbetta.phys.vpn.twttr.com:443
@@ -2922,7 +2948,9 @@ https://2018.api.staging.vpn.twttr.com:443
 https://2018.apiaccount-betabrandsafety.vpn.twttr.com:443
 https://2018.apiaccount-corbetta.phys.vpn.twttr.com:443
 https://2018.apialpha.staging.vpn.twttr.com:443
+https://2018.apiatlc-lab.vpn.twttr.com:443
 https://2018.apibeta-deividas.vpn.twttr.com:443
+https://2018.apibeta.semantic-lab.vpn.twttr.com:443
 https://2018.art.vpn.twttr.com:443
 https://2018.ashishkranjan.vpn.twttr.com:443
 https://2018.atlc-lab.vpn.twttr.com:443
@@ -2940,6 +2968,7 @@ https://2018.basicjahid.vpn.twttr.com:443
 https://2018.belief.vpn.twttr.com:443
 https://2018.beta-beta.astudyinpixels.vpn.twttr.com:443
 https://2018.beta.alpha.staging.vpn.twttr.com:443
+https://2018.beta.backup.obv-smf1.vpn.twttr.com:443
 https://2018.betabrandsafety.vpn.twttr.com:443
 https://2018.black.vpn.twttr.com:443
 https://2018.brandsafety.vpn.twttr.com:443
@@ -3167,6 +3196,7 @@ https://2018apachaves.vpn.twttr.com:443
 https://2018api-39-4-0-39-4-9.vpn.twttr.com:443
 https://2018api-abhi18feb.vpn.twttr.com:443
 https://2018api-backup.dbms-api.staging.vpn.twttr.com:443
+https://2018api-beta.semantic-lab.vpn.twttr.com:443
 https://2018api-debug-api.staging.vpn.twttr.com:443
 https://2018api-smfc-lab.vpn.twttr.com:443
 https://2018api.accountaccount.admin.betabrandsafety.vpn.twttr.com:443
@@ -3191,6 +3221,7 @@ https://2018backup.access.api.staging.vpn.twttr.com:443
 https://2018backupaccount-corbetta.phys.vpn.twttr.com:443
 https://2018backupconfig.betabrandsafety.vpn.twttr.com:443
 https://2018bekommt.vpn.twttr.com:443
+https://2018betaalphaatlc-lab.vpn.twttr.com:443
 https://2018brandsafety-lab.vpn.twttr.com:443
 https://2018bucket-engineeringsatishnaidu.vpn.twttr.com:443
 https://2018bucket.alpha.staging.vpn.twttr.com:443
@@ -3277,6 +3308,7 @@ https://2019-accessaccount.auf.vpn.twttr.com:443
 https://2019-accessaccount.betabrandsafety.vpn.twttr.com:443
 https://2019-accessaccountadmin.api-41-0-0-41-5-2.vpn.twttr.com:443
 https://2019-accessadmin-accountalpha-dbms-demo.staging.vpn.twttr.com:443
+https://2019-accessap.vpn.twttr.com:443
 https://2019-accessapi-debug-api.staging.vpn.twttr.com:443
 https://2019-accessatlc-lab.vpn.twttr.com:443
 https://2019-accomplishments.vpn.twttr.com:443
@@ -3363,6 +3395,7 @@ https://2019-alphaadmin-api.demo.staging.vpn.twttr.com:443
 https://2019-alphaadmin.betabrandsafety.vpn.twttr.com:443
 https://2019-alphastaging.vpn.twttr.com:443
 https://2019-alphastevenmaglio.vpn.twttr.com:443
+https://2019-alphaupload.staging.vpn.twttr.com:443
 https://2019-ankitha-androiddevelopment.vpn.twttr.com:443
 https://2019-apachaves.vpn.twttr.com:443
 https://2019-api-account.access.accountsmfc-lab.vpn.twttr.com:443
@@ -3386,6 +3419,7 @@ https://2019-backupaccount-corbetta.phys.vpn.twttr.com:443
 https://2019-backupapi-41-6-0-41-0-0.vpn.twttr.com:443
 https://2019-beta-auth.account.betabrandsafety.vpn.twttr.com:443
 https://2019-beta-beta.staging.vpn.twttr.com:443
+https://2019-beta.apiupload.staging.vpn.twttr.com:443
 https://2019-beta.bucket.alpha.staging.vpn.twttr.com:443
 https://2019-beta.dev-databrandsafety.vpn.twttr.com:443
 https://2019-binhgiang.vpn.twttr.com:443
@@ -3786,6 +3820,7 @@ https://2019admin.alphaapi-demo.staging.vpn.twttr.com:443
 https://2019admin.astudyinpixels.vpn.twttr.com:443
 https://2019admin.demo.semantic-lab.vpn.twttr.com:443
 https://2019admin.engineering.tableau.vpn.twttr.com:443
+https://2019admin.upload.staging.vpn.twttr.com:443
 https://2019adminaccount.betabrandsafety.vpn.twttr.com:443
 https://2019adminalongside.vpn.twttr.com:443
 https://2019adminapi.staging.vpn.twttr.com:443
@@ -3819,6 +3854,7 @@ https://2019api-demo.staging.vpn.twttr.com:443
 https://2019api.access.authbloggerpeer.vpn.twttr.com:443
 https://2019api.admin-atlc-lab.vpn.twttr.com:443
 https://2019api.api.apiaccountdatabrandsafety.vpn.twttr.com:443
+https://2019api.chef-dev.atlc-lab.vpn.twttr.com:443
 https://2019api.staging.vpn.twttr.com:443
 https://2019apiaccess.config.configstart.vpn.twttr.com:443
 https://2019approvals.vpn.twttr.com:443
@@ -3963,6 +3999,7 @@ https://2020-admin.admin.always.vpn.twttr.com:443
 https://2020-admin.admin.amplify.vpn.twttr.com:443
 https://2020-admin.alpha-admin-atlc-lab.vpn.twttr.com:443
 https://2020-admin.amardeepchandra.vpn.twttr.com:443
+https://2020-admin.upload.staging.vpn.twttr.com:443
 https://2020-admin3.vpn.twttr.com:443
 https://2020-adminaccepts.vpn.twttr.com:443
 https://2020-adminaccess-aaron.vpn.twttr.com:443
@@ -4013,12 +4050,14 @@ https://2020-config-atlc-lab.vpn.twttr.com:443
 https://2020-config-developerinfodomestic.vpn.twttr.com:443
 https://2020-configaccess.authbloggerpeer.vpn.twttr.com:443
 https://2020-configescalate.vpn.twttr.com:443
+https://2020-confluence.obv-smf1.vpn.twttr.com:443
 https://2020-confluence.semantic-lab.vpn.twttr.com:443
 https://2020-cuberman3141.vpn.twttr.com:443
 https://2020-dbms-prod-ec-us-west-1.vpn.twttr.com:443
 https://2020-debug.debug.merchandisingtableau-lab.vpn.twttr.com:443
 https://2020-dev.atlc-lab.vpn.twttr.com:443
 https://2020-escalate.vpn.twttr.com:443
+https://2020.2019-apiupload.staging.vpn.twttr.com:443
 https://2020.a17-112-144-59.vpn.twttr.com:443
 https://2020.a4.vpn.twttr.com:443
 https://2020.a59.vpn.twttr.com:443
@@ -4140,6 +4179,7 @@ https://2020.account.accountandromeda.vpn.twttr.com:443
 https://2020.account.admin-accessbucket.staging.vpn.twttr.com:443
 https://2020.account.admin.alpha.another.vpn.twttr.com:443
 https://2020.account.admin.betabrandsafety.vpn.twttr.com:443
+https://2020.account.admin.upload.staging.vpn.twttr.com:443
 https://2020.account.adminaccess-admin-admin.alpha-escalate.vpn.twttr.com:443
 https://2020.account.adminadmin-alexandra.vpn.twttr.com:443
 https://2020.account.alexandru.vpn.twttr.com:443
@@ -4173,7 +4213,9 @@ https://2020.admin.admin3.vpn.twttr.com:443
 https://2020.admin.alpha-admin-atlc-lab.vpn.twttr.com:443
 https://2020.admin.amplify.vpn.twttr.com:443
 https://2020.admin.archived.vpn.twttr.com:443
+https://2020.admin.upload.staging.vpn.twttr.com:443
 https://2020.adminaccount.beta.staging.vpn.twttr.com:443
+https://2020.admininternal.atlc-lab.vpn.twttr.com:443
 https://2020.adserving.vpn.twttr.com:443
 https://2020.aem.vpn.twttr.com:443
 https://2020.akadns.vpn.twttr.com:443
@@ -4195,12 +4237,15 @@ https://2020.alpha.alpha-alphaalphastaging.vpn.twttr.com:443
 https://2020.alpha.staging.vpn.twttr.com:443
 https://2020.alphaaccount.atlc-lab.vpn.twttr.com:443
 https://2020.alphabackup-access.authbloggerpeer.vpn.twttr.com:443
+https://2020.alphaupload.staging.vpn.twttr.com:443
 https://2020.anirudhbhatnagar.vpn.twttr.com:443
 https://2020.another.vpn.twttr.com:443
 https://2020.api-api.chef.mikepenzin.vpn.twttr.com:443
 https://2020.api-auth.account.betabrandsafety.vpn.twttr.com:443
 https://2020.api-demo.staging.vpn.twttr.com:443
 https://2020.api.ags.vpn.twttr.com:443
+https://2020.api.chef-dev.atlc-lab.vpn.twttr.com:443
+https://2020.apiatlc-lab.vpn.twttr.com:443
 https://2020.apibeta-brandsafety-lab.vpn.twttr.com:443
 https://2020.apple.vpn.twttr.com:443
 https://2020.astro.vpn.twttr.com:443
@@ -4332,6 +4377,7 @@ https://2020account-admin-demo.staging.vpn.twttr.com:443
 https://2020account-ads2.vpn.twttr.com:443
 https://2020account-advised.vpn.twttr.com:443
 https://2020account-alphaadmin-api.demo.staging.vpn.twttr.com:443
+https://2020account-apiupload.staging.vpn.twttr.com:443
 https://2020account-betabrandsafety.vpn.twttr.com:443
 https://2020account.access.accessbrandsafety.vpn.twttr.com:443
 https://2020account.access.accountaccess.access-admin-alphaaccount.atlc-lab.vpn.twttr.com:443
@@ -4436,6 +4482,7 @@ https://2020bucket.staging.vpn.twttr.com:443
 https://2020burcakyilmaz.vpn.twttr.com:443
 https://2020chatman-replay-us-west-1.vpn.twttr.com:443
 https://2020confluence.staging.vpn.twttr.com:443
+https://2020confluenceadmin.atlc-lab.vpn.twttr.com:443
 https://2020data.account-admin.backupconfig.betabrandsafety.vpn.twttr.com:443
 https://2020demo.obv-smf1.vpn.twttr.com:443
 https://2020demo.staging.vpn.twttr.com:443
@@ -4623,6 +4670,7 @@ https://2021-chef-alexacosta.vpn.twttr.com:443
 https://2021-chef-debug.merchandisingtableau-lab.vpn.twttr.com:443
 https://2021-confluence.obv-smf1.vpn.twttr.com:443
 https://2021-confluence.semantic-lab.vpn.twttr.com:443
+https://2021-cv-hussamalqaza.vpn.twttr.com:443
 https://2021-dbms-prod-ec-us-west-1.vpn.twttr.com:443
 https://2021-debug.merchandisingtableau-lab.vpn.twttr.com:443
 https://2021-demo.obv-smf1.vpn.twttr.com:443
@@ -4806,6 +4854,7 @@ https://2021.bhattrajat.vpn.twttr.com:443
 https://2021.bikramballagan.vpn.twttr.com:443
 https://2021.blacklist.vpn.twttr.com:443
 https://2021.brandsafety.vpn.twttr.com:443
+https://2021.bucket.admin.atlc-lab.vpn.twttr.com:443
 https://2021.bucket.alpha.staging.vpn.twttr.com:443
 https://2021.celesteparker.vpn.twttr.com:443
 https://2021.chef.preferences.brandsafety.vpn.twttr.com:443
@@ -4948,6 +4997,7 @@ https://2021alpha.account.brandsafety.vpn.twttr.com:443
 https://2021alpha.account.obv-atla.vpn.twttr.com:443
 https://2021alpha.accountescalate-lab.vpn.twttr.com:443
 https://2021alpha.and.vpn.twttr.com:443
+https://2021alpha.demo.semantic-lab.vpn.twttr.com:443
 https://2021alphaalpha.account.obv-atla.vpn.twttr.com:443
 https://2021alphaapi.demo.staging.vpn.twttr.com:443
 https://2021alphastaging.vpn.twttr.com:443
@@ -5274,6 +5324,7 @@ https://access-chef-alexacosta.vpn.twttr.com:443
 https://access-chef.preferences.brandsafety.vpn.twttr.com:443
 https://access-config-atlc-lab.vpn.twttr.com:443
 https://access-configescalate.vpn.twttr.com:443
+https://access-confluencecristbrian.vpn.twttr.com:443
 https://access-data-dev.vpn.twttr.com:443
 https://access-dev.vpn.twttr.com:443
 https://access-escalate.vpn.twttr.com:443
@@ -5410,6 +5461,7 @@ https://access.alpha-debug-api.staging.vpn.twttr.com:443
 https://access.alpha.accountescalate-lab.vpn.twttr.com:443
 https://access.alpha.staging.vpn.twttr.com:443
 https://access.alphaalpha.answering.vpn.twttr.com:443
+https://access.alphaatlc-lab.vpn.twttr.com:443
 https://access.alphastevenmaglio.vpn.twttr.com:443
 https://access.anti.vpn.twttr.com:443
 https://access.anunturi.vpn.twttr.com:443
@@ -5495,6 +5547,7 @@ https://accessaccess.alpha-accountbeta.staging.vpn.twttr.com:443
 https://accessaccess.alpha-alpha.and.vpn.twttr.com:443
 https://accessaccess.alpha.accountescalate-lab.vpn.twttr.com:443
 https://accessaccess.alpha.staging.vpn.twttr.com:443
+https://accessaccess.alphaatlc-lab.vpn.twttr.com:443
 https://accessaccess.config.configstart.vpn.twttr.com:443
 https://accessaccess.maneesh.vpn.twttr.com:443
 https://accessaccessacceptance.vpn.twttr.com:443
@@ -5557,6 +5610,7 @@ https://accessadmin.adoption.vpn.twttr.com:443
 https://accessadmin.api-39-4-5-39-4-9.vpn.twttr.com:443
 https://accessadmin.archived.vpn.twttr.com:443
 https://accessadmin.backupconfig.betabrandsafety.vpn.twttr.com:443
+https://accessadmin.demo.semantic-lab.vpn.twttr.com:443
 https://accessadminaccountescalate-lab.vpn.twttr.com:443
 https://accessagentless.vpn.twttr.com:443
 https://accessakadns.vpn.twttr.com:443
@@ -5873,6 +5927,7 @@ https://account.applocator.vpn.twttr.com:443
 https://account.atlc-lab.vpn.twttr.com:443
 https://account.auf.vpn.twttr.com:443
 https://account.avaughan89.vpn.twttr.com:443
+https://account.backup.atlc-lab.vpn.twttr.com:443
 https://account.backup.betabackup-alpha-accountbeta.staging.vpn.twttr.com:443
 https://account.backup.dbms-api.staging.vpn.twttr.com:443
 https://account.baiatul-cu-ochi-verzi.vpn.twttr.com:443
@@ -5882,6 +5937,7 @@ https://account.beta.staging.vpn.twttr.com:443
 https://account.betabrandsafety.vpn.twttr.com:443
 https://account.blogofsud.vpn.twttr.com:443
 https://account.brandsafety.vpn.twttr.com:443
+https://account.bucket-access-upload.staging.vpn.twttr.com:443
 https://account.bucket.alpha-alphaalphastaging.vpn.twttr.com:443
 https://account.bucket.alpha.access.baboon.rce.vpn.twttr.com:443
 https://account.bucketblack.vpn.twttr.com:443
@@ -5999,6 +6055,7 @@ https://accountall-are-wonders.vpn.twttr.com:443
 https://accountalleged.vpn.twttr.com:443
 https://accountalpha-dbms-demo.staging.vpn.twttr.com:443
 https://accountalpha.admin-staging.vpn.twttr.com:443
+https://accountalphaatlc-lab.vpn.twttr.com:443
 https://accountalways.vpn.twttr.com:443
 https://accountandre-pedroso.vpn.twttr.com:443
 https://accountandromeda.vpn.twttr.com:443
@@ -6019,11 +6076,13 @@ https://accountbjori.vpn.twttr.com:443
 https://accountbucket.alpha.staging.vpn.twttr.com:443
 https://accountchef.preferences.brandsafety.vpn.twttr.com:443
 https://accountconfig-atlc-lab.vpn.twttr.com:443
+https://accountconfluence.obv-smf1.vpn.twttr.com:443
 https://accountconfluenceandrewlee.vpn.twttr.com:443
 https://accountdata-demo.obv-smf1.vpn.twttr.com:443
 https://accountdata.obv-atla.vpn.twttr.com:443
 https://accountdatabrandsafety.vpn.twttr.com:443
 https://accountdbms.obv-atla.vpn.twttr.com:443
+https://accountdemo.semantic-lab.vpn.twttr.com:443
 https://accountescalate-lab.vpn.twttr.com:443
 https://accountkesiblog.vpn.twttr.com:443
 https://accountsmfc-lab.vpn.twttr.com:443
@@ -6388,6 +6447,7 @@ https://adminaccount.adminadmin-alexandra.vpn.twttr.com:443
 https://adminaccount.ansi.vpn.twttr.com:443
 https://adminaccount.beta.staging.vpn.twttr.com:443
 https://adminaccount.betabrandsafety.vpn.twttr.com:443
+https://adminaccount.bucket-access-upload.staging.vpn.twttr.com:443
 https://adminaccount.data.obv-atla.vpn.twttr.com:443
 https://adminaccount.dbms.obv-atla.vpn.twttr.com:443
 https://adminaccountadmin.api-41-0-0-41-5-2.vpn.twttr.com:443
@@ -6417,6 +6477,7 @@ https://adminalpha.account-abani-kumar.vpn.twttr.com:443
 https://adminalpha.account-account.betabrandsafety.vpn.twttr.com:443
 https://adminalpha.bc.vpn.twttr.com:443
 https://adminalphaadmin.api-41-5-1-41-5-2.vpn.twttr.com:443
+https://adminalphaupload.staging.vpn.twttr.com:443
 https://adminambition.vpn.twttr.com:443
 https://adminapi-45-0-0.vpn.twttr.com:443
 https://adminapi-astudyinpixels.vpn.twttr.com:443
@@ -6695,6 +6756,7 @@ https://alpha-auth-admin-api.demo.staging.vpn.twttr.com:443
 https://alpha-auth.abadger.vpn.twttr.com:443
 https://alpha-auth.staging.vpn.twttr.com:443
 https://alpha-avaughan89.vpn.twttr.com:443
+https://alpha-beta.config.staging.vpn.twttr.com:443
 https://alpha-beta.semantic-lab.vpn.twttr.com:443
 https://alpha-chef-auth.obv-atla.vpn.twttr.com:443
 https://alpha-config-atlc-lab.vpn.twttr.com:443
@@ -6826,6 +6888,7 @@ https://alpha.chef.apiaccount-betabrandsafety.vpn.twttr.com:443
 https://alpha.dbmsdemochef.mikepenzin.vpn.twttr.com:443
 https://alpha.debug.debug.merchandisingtableau-lab.vpn.twttr.com:443
 https://alpha.deividas.vpn.twttr.com:443
+https://alpha.demo.semantic-lab.vpn.twttr.com:443
 https://alpha.obv-smf1.vpn.twttr.com:443
 https://alpha.staging.vpn.twttr.com:443
 https://alphaa-0001.vpn.twttr.com:443
@@ -7395,6 +7458,7 @@ https://apiambition.vpn.twttr.com:443
 https://apiamer.vpn.twttr.com:443
 https://apiapi-34-0-0.vpn.twttr.com:443
 https://apiapi-39-0-0-39-4-2.vpn.twttr.com:443
+https://apiapi.confluenceadmin.atlc-lab.vpn.twttr.com:443
 https://apiart.vpn.twttr.com:443
 https://apiassigned.vpn.twttr.com:443
 https://apiatlc-lab.vpn.twttr.com:443
@@ -7404,6 +7468,7 @@ https://apiauto.vpn.twttr.com:443
 https://apiautoconfig.scripts.vpn.twttr.com:443
 https://apibeta-brandsafety-lab.vpn.twttr.com:443
 https://apibeta-deividas.vpn.twttr.com:443
+https://apibeta.semantic-lab.vpn.twttr.com:443
 https://apibzcareermongodb.vpn.twttr.com:443
 https://apiconfig-atlc-lab.vpn.twttr.com:443
 https://apidemo.atlc-lab.vpn.twttr.com:443
@@ -7691,6 +7756,7 @@ https://auth.alpha.staging.vpn.twttr.com:443
 https://auth.amer.vpn.twttr.com:443
 https://auth.api-config-atlc-lab.vpn.twttr.com:443
 https://auth.auth.api-config-atlc-lab.vpn.twttr.com:443
+https://auth.beta.backup.obv-smf1.vpn.twttr.com:443
 https://auth.brandsafety.vpn.twttr.com:443
 https://auth.canary-fleets-us-west-2.vpn.twttr.com:443
 https://auth.cashier.vpn.twttr.com:443
@@ -7929,6 +7995,7 @@ https://backup.alpha.account.obv-atla.vpn.twttr.com:443
 https://backup.alphaaccount.atlc-lab.vpn.twttr.com:443
 https://backup.alphaapi.demo.staging.vpn.twttr.com:443
 https://backup.amphp.vpn.twttr.com:443
+https://backup.api-api-beta.semantic-lab.vpn.twttr.com:443
 https://backup.api2.vpn.twttr.com:443
 https://backup.apiaccountdatabrandsafety.vpn.twttr.com:443
 https://backup.appleevent.vpn.twttr.com:443
@@ -8261,6 +8328,7 @@ https://beta.alpha-accountbeta.staging.vpn.twttr.com:443
 https://beta.alpha-admin-api.demo.staging.vpn.twttr.com:443
 https://beta.alpha-auth.staging.vpn.twttr.com:443
 https://beta.alpha.another.vpn.twttr.com:443
+https://beta.alpha.apiatlc-lab.vpn.twttr.com:443
 https://beta.alpha.bc.vpn.twttr.com:443
 https://beta.alpha.staging.vpn.twttr.com:443
 https://beta.alphaaccess-config-atlc-lab.vpn.twttr.com:443
@@ -8355,6 +8423,7 @@ https://betaadmin.account-adspy-lab.vpn.twttr.com:443
 https://betaadmin.always.vpn.twttr.com:443
 https://betaadmin.backupconfig.betabrandsafety.vpn.twttr.com:443
 https://betaadmin.betabackupconfig.betabrandsafety.vpn.twttr.com:443
+https://betaadmin.upload.staging.vpn.twttr.com:443
 https://betaadminaccess.alexandra.vpn.twttr.com:443
 https://betaadoption.vpn.twttr.com:443
 https://betaalexacosta.vpn.twttr.com:443
@@ -8617,6 +8686,7 @@ https://bucket-admin-alpha.answering.vpn.twttr.com:443
 https://bucket-admin-atlc-lab.vpn.twttr.com:443
 https://bucket-admin.abuse-report.vpn.twttr.com:443
 https://bucket-admin.api.staging.vpn.twttr.com:443
+https://bucket-admin.demo.semantic-lab.vpn.twttr.com:443
 https://bucket-ads2.vpn.twttr.com:443
 https://bucket-alexeykolyanov.vpn.twttr.com:443
 https://bucket-alphaapi.demo.staging.vpn.twttr.com:443
@@ -8646,6 +8716,7 @@ https://bucket.access.chef-bucket.staging.vpn.twttr.com:443
 https://bucket.accessaccount-beta-brandsafety.vpn.twttr.com:443
 https://bucket.accessaccount.access-api.demo.staging.vpn.twttr.com:443
 https://bucket.accessagentless.vpn.twttr.com:443
+https://bucket.accessap.vpn.twttr.com:443
 https://bucket.accesschef-debug.merchandisingtableau-lab.vpn.twttr.com:443
 https://bucket.account-access-alihuber.vpn.twttr.com:443
 https://bucket.account.brandsafety.vpn.twttr.com:443
@@ -8710,6 +8781,7 @@ https://bucketadoptable.vpn.twttr.com:443
 https://bucketaem-demo-dev.vpn.twttr.com:443
 https://bucketalison.vpn.twttr.com:443
 https://bucketalpha-admin-access-abuse-report.vpn.twttr.com:443
+https://bucketapi-atlc-lab.vpn.twttr.com:443
 https://bucketapi-stream.vpn.twttr.com:443
 https://bucketapiaccount-betabrandsafety.vpn.twttr.com:443
 https://bucketart.vpn.twttr.com:443
@@ -9015,6 +9087,7 @@ https://chef-adspy-lab.vpn.twttr.com:443
 https://chef-alexacosta.vpn.twttr.com:443
 https://chef-alexandru.vpn.twttr.com:443
 https://chef-algorithm.vpn.twttr.com:443
+https://chef-apiupload.staging.vpn.twttr.com:443
 https://chef-assigned.vpn.twttr.com:443
 https://chef-auth.obv-atla.vpn.twttr.com:443
 https://chef-autodiscover.news.vpn.twttr.com:443
@@ -9091,6 +9164,7 @@ https://chefaccess-api.demo.staging.vpn.twttr.com:443
 https://chefaccess-backupconfig.betabrandsafety.vpn.twttr.com:443
 https://chefaccess.accountadmin3.vpn.twttr.com:443
 https://chefaccessadmin.archived.vpn.twttr.com:443
+https://chefaccessap.vpn.twttr.com:443
 https://chefaccount-account.accountadspy-lab.vpn.twttr.com:443
 https://chefaccount-brandsafety.vpn.twttr.com:443
 https://chefaccount.access-agboola.vpn.twttr.com:443
@@ -9109,6 +9183,7 @@ https://chefalpha-dbms-demo.staging.vpn.twttr.com:443
 https://chefashishdisawal.vpn.twttr.com:443
 https://chefauth.obv-atla.vpn.twttr.com:443
 https://chefbaiatul-cu-ochi-verzi.vpn.twttr.com:443
+https://chefconfluenceadmin.atlc-lab.vpn.twttr.com:443
 https://chefdbms-account.beta.staging.vpn.twttr.com:443
 https://chefe.vpn.twttr.com:443
 https://chefutils.vpn.twttr.com:443
@@ -9358,6 +9433,7 @@ https://config-alpha-aeschright.vpn.twttr.com:443
 https://config-alpha-config-atlc-lab.vpn.twttr.com:443
 https://config-alphastevenmaglio.vpn.twttr.com:443
 https://config-api-42-0-0.vpn.twttr.com:443
+https://config-api-atlc-lab.vpn.twttr.com:443
 https://config-art.vpn.twttr.com:443
 https://config-atlc-lab.vpn.twttr.com:443
 https://config-authapi.dev-databrandsafety.vpn.twttr.com:443
@@ -9401,6 +9477,7 @@ https://config.allspaw.vpn.twttr.com:443
 https://config.alpha-aeschright.vpn.twttr.com:443
 https://config.alpha.adminbloggerpeer.vpn.twttr.com:443
 https://config.alphaagree.vpn.twttr.com:443
+https://config.ap.vpn.twttr.com:443
 https://config.appreciation.vpn.twttr.com:443
 https://config.auto.vpn.twttr.com:443
 https://config.beta.apiaccount-betabrandsafety.vpn.twttr.com:443
@@ -9498,6 +9575,7 @@ https://confluence.alpha.staging.vpn.twttr.com:443
 https://confluence.api-api.config-atlc-lab.vpn.twttr.com:443
 https://confluence.assumethat.vpn.twttr.com:443
 https://confluence.configstart.vpn.twttr.com:443
+https://confluence.datadebugbeta.semantic-lab.vpn.twttr.com:443
 https://confluence.escalate.vpn.twttr.com:443
 https://confluence.jtzemp.vpn.twttr.com:443
 https://confluence.obv-smf1.vpn.twttr.com:443
@@ -9541,6 +9619,7 @@ https://confluenceapi-39-4-2-39-4-9.vpn.twttr.com:443
 https://confluencebetaaccountandre-pedroso.vpn.twttr.com:443
 https://confluencebucketaem-demo-dev.vpn.twttr.com:443
 https://confluencechef.art.vpn.twttr.com:443
+https://confluencecristbrian.vpn.twttr.com:443
 https://confluencedennisyim.vpn.twttr.com:443
 https://confluencedeveloperinfodomestic.vpn.twttr.com:443
 https://confluencefandayrockworld.vpn.twttr.com:443
@@ -9843,6 +9922,7 @@ https://data.alpha.account-abani-kumar.vpn.twttr.com:443
 https://data.alpha.account.brandsafety.vpn.twttr.com:443
 https://data.anhth.vpn.twttr.com:443
 https://data.apparentlymart.vpn.twttr.com:443
+https://data.beta.backup.obv-smf1.vpn.twttr.com:443
 https://data.debugapi.staging.vpn.twttr.com:443
 https://data.freely.vpn.twttr.com:443
 https://data.obv-atla.vpn.twttr.com:443
@@ -9869,6 +9949,7 @@ https://dataadminaccess-admin-admin.alpha-escalate.vpn.twttr.com:443
 https://dataadspy-lab.vpn.twttr.com:443
 https://dataalexacosta.vpn.twttr.com:443
 https://dataamp2.vpn.twttr.com:443
+https://dataap.vpn.twttr.com:443
 https://dataapi-45-0-0.vpn.twttr.com:443
 https://database.vpn.twttr.com:443
 https://database2.vpn.twttr.com:443
@@ -9942,6 +10023,7 @@ https://dbms-api.accessadmin.backupconfig.betabrandsafety.vpn.twttr.com:443
 https://dbms-api.staging.vpn.twttr.com:443
 https://dbms-atlc-lab.vpn.twttr.com:443
 https://dbms-bloggerpeer.vpn.twttr.com:443
+https://dbms-cristbrian.vpn.twttr.com:443
 https://dbms-dbms-api.staging.vpn.twttr.com:443
 https://dbms-demo.staging.vpn.twttr.com:443
 https://dbms-obv-smf1.vpn.twttr.com:443
@@ -10202,6 +10284,7 @@ https://demo.admin.account-alphaadmin-api.demo.staging.vpn.twttr.com:443
 https://demo.adminadmin.access.atlc-lab.vpn.twttr.com:443
 https://demo.alpha.staging.vpn.twttr.com:443
 https://demo.api-demo.staging.vpn.twttr.com:443
+https://demo.apiatlc-lab.vpn.twttr.com:443
 https://demo.artifactory-ci.vpn.twttr.com:443
 https://demo.atlc-lab.vpn.twttr.com:443
 https://demo.authconfig-atlc-lab.vpn.twttr.com:443
@@ -10329,6 +10412,7 @@ https://dev-chatman-replay-eu-west-1.pscp.tv:443
 https://dev-chatman-replay-us-west-2.periscope.tv:443
 https://dev-chatman-replay-us-west-2.pscp.tv:443
 https://dev-chatman-replay-us-west-2.vpn.twttr.com:443
+https://dev-confluence.obv-smf1.vpn.twttr.com:443
 https://dev-databrandsafety.vpn.twttr.com:443
 https://dev-demo.staging.vpn.twttr.com:443
 https://dev-email.periscope.tv:443
@@ -10979,6 +11063,7 @@ https://engineeringarjun-chaudhary.vpn.twttr.com:443
 https://engineeringauthbekommt.vpn.twttr.com:443
 https://engineeringbucket.admin.amardeepchandra.vpn.twttr.com:443
 https://engineeringcodegambler.vpn.twttr.com:443
+https://engineeringconfluenceadmin.atlc-lab.vpn.twttr.com:443
 https://engineeringdns3.vpn.twttr.com:443
 https://engineeringgridaco.vpn.twttr.com:443
 https://engineeringsatishnaidu.vpn.twttr.com:443
@@ -11031,6 +11116,7 @@ https://error-akhileshsh026.vpn.twttr.com:443
 https://error-alpha.access.accessadmin-admin-answering.vpn.twttr.com:443
 https://error-apachaves.vpn.twttr.com:443
 https://error-api-39-4-3-39-4-5.vpn.twttr.com:443
+https://error-apiatlc-lab.vpn.twttr.com:443
 https://error-authconfig-atlc-lab.vpn.twttr.com:443
 https://error-bicyclecrew.vpn.twttr.com:443
 https://error-demo.staging.vpn.twttr.com:443
@@ -11644,6 +11730,7 @@ https://geo3.twitter.com:443
 https://geo4.api-stream.twitter.com:443
 https://geo4.api.twitter.com:443
 https://geo4.mobile.twitter.com:443
+https://geo4.platform.twitter.com:443
 https://geo4.probe.twitter.com:443
 https://geo4.syndication.twitter.com:443
 https://geo4.tpop-api.twitter.com:443
@@ -13856,6 +13943,7 @@ https://neue.vpn.twttr.com:443
 https://neuerungen.vpn.twttr.com:443
 https://neuroshima.vpn.twttr.com:443
 https://neverduncoding.vpn.twttr.com:443
+https://new-2018.staging.vpn.twttr.com:443
 https://new-a59.vpn.twttr.com:443
 https://new-access-access-alpha-escalate.vpn.twttr.com:443
 https://new-access.accessaccount-beta-brandsafety.vpn.twttr.com:443
@@ -16516,6 +16604,7 @@ https://staging-account-abs-0.vpn.twttr.com:443
 https://staging-account-account-admin.asw2.vpn.twttr.com:443
 https://staging-account-account.abati.vpn.twttr.com:443
 https://staging-account.access.accountdata.obv-atla.vpn.twttr.com:443
+https://staging-account.config.staging.vpn.twttr.com:443
 https://staging-activestorage.vpn.twttr.com:443
 https://staging-activities.vpn.twttr.com:443
 https://staging-admin-access.auf.vpn.twttr.com:443
@@ -16581,6 +16670,7 @@ https://staging2-partnerstream1.twitter.com:443
 https://staging2-smf1-partnerstream1.twitter.com:443
 https://staging2-smf1-stream-data-api.twitter.com:443
 https://staging2-stream-data-api.twitter.com:443
+https://staging2021-ap.vpn.twttr.com:443
 https://staging3.vpn.twttr.com:443
 https://staging4.vpn.twttr.com:443
 https://stagingabadger.vpn.twttr.com:443
@@ -16608,6 +16698,7 @@ https://stagingapi.chef.mikepenzin.vpn.twttr.com:443
 https://stagingauthapi.dev-databrandsafety.vpn.twttr.com:443
 https://stagingbehaviors.vpn.twttr.com:443
 https://stagingbeta.accountdata.obv-atla.vpn.twttr.com:443
+https://stagingconfluence.obv-smf1.vpn.twttr.com:443
 https://stagingdebug.merchandisingtableau-lab.vpn.twttr.com:443
 https://stagingredirect-bucket.api.dev-databrandsafety.vpn.twttr.com:443
 https://stagingsemantic-lab.vpn.twttr.com:443
