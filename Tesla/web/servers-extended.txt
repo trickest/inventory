@@ -65,7 +65,7 @@ http://aurora-ordering-ext-qa.tesla.com:80 ["Access Denied"] [403] [293] ["text/
 http://aurora-ordering-ext-stg.tesla.com:80 ["Access Denied"] [403] [294] ["text/html"] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
 http://auth-global-stage.tesla.com:80 [null] [301] [null] [null] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
 http://auth-global.tesla.com:80 [null] [301] [null] [null] ["104.90.109.222"] [null] ["AkamaiGHost"] [null] [];
-http://auth-stage.tesla.com:80 ["Service Unavailable - Fail to connect"] [503] [272] ["text/html"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
+http://auth-stage.tesla.com:80 ["Service Unavailable - Fail to connect"] [503] [271] ["text/html"] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
 http://auth.tesla.com:80 ["Access Denied"] [403] [262] ["text/html"] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
 http://autobidder-preprd.powerhub.energy.tesla.com:80 ["Access Denied"] [403] [305] ["text/html"] ["104.117.201.79"] [null] ["AkamaiGHost"] [null] [];
 http://autobidder.powerhub.energy.tesla.com:80 ["Access Denied"] [403] [293] ["text/html"] ["104.89.4.15"] [null] ["AkamaiGHost"] [null] [];
@@ -103,9 +103,9 @@ http://envoy-partnerleadsharing.tesla.com:80 [null] [401] [14] ["text/plain"] ["
 http://envoy-partnertasks.tesla.com:80 [null] [401] [14] ["text/plain"] ["104.89.18.184"] ["https://envoy-partnertasks.tesla.com/"] [null] [null] [];
 http://epc.tesla.com:80 ["Parts Catalog"] [200] [1541] ["text/html"] ["104.89.18.184"] ["https://epc.tesla.com/"] [null] [["Varnish"]] [];
 http://epcapi.tesla.com:80 [null] [404] [null] [null] ["104.92.71.218"] ["https://epcapi.tesla.com/"] [null] [["Varnish"]] [];
-http://errlog-stage.tesla.com:80 [null] [401] [null] [null] ["104.92.71.218"] ["https://errlog-stage.tesla.com/"] ["Varnish"] [["Varnish"]] [];
+http://errlog-stage.tesla.com:80 ["Service Unavailable - Fail to connect"] [503] [271] ["text/html"] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
 http://errlog.tesla.com:80 [null] [401] [null] [null] ["104.90.109.222"] ["https://errlog.tesla.com/"] ["Varnish"] [["Varnish"]] [];
-http://error-log.tesla.com:80 [null] [401] [null] [null] ["72.246.101.86"] ["https://error-log.tesla.com/"] ["Varnish"] [["Varnish"]] [];
+http://error-log.tesla.com:80 ["Service Unavailable - Fail to connect"] [503] [271] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 http://events.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.195"] [null] [null] [null] [];
 http://factory.tesla.com:80 ["302 Found"] [302] [428] ["text/html"] ["95.100.208.60"] ["https://factory.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
 http://feedback.tesla.com:80 [null] [302] [null] [null] ["104.111.232.47"] ["https://feedback.tesla.com/login?path=%2FQ%2FIdentitySection%2FFinishSSO&product=ControlPanel"] [null] [null] [];
@@ -145,7 +145,7 @@ http://model3.tesla.com:80 [null] [302] [null] [null] ["205.234.27.221"] [null] 
 http://myapps.tesla.com:80 ["Object moved"] [302] [296] ["text/html"] ["95.100.208.60"] ["https://myapps.tesla.com/_trust/default.aspx?trust=ADFS&ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F"] [null] [null] [];
 http://onboard.tesla.com:80 ["Access Denied"] [403] [266] ["text/html"] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
 http://origin-assets-teslaaccount-ownership-ownership.tesla.com:80 ["Ownership"] [200] [3950] ["text/html"] ["95.100.208.60"] ["https://origin-assets-teslaaccount-ownership-ownership.tesla.com/"] [null] [["Akamai"]] [];
-http://origin-www-auth.tesla.com:80 ["404 Not Found"] [404] [548] ["text/html"] ["209.133.79.56"] ["https://origin-www-auth.tesla.com/"] [null] [null] [];
+http://origin-www-auth.tesla.com:80 ["404 Not Found"] [404] [146] ["text/html"] ["209.133.79.56"] ["https://origin-www-auth.tesla.com/"] [null] [null] [];
 http://origin-www.tesla.com:80 [null] [403] [null] [null] ["209.133.79.55"] ["https://origin-www.tesla.com/"] ["Varnish"] [["Varnish"]] [];
 http://os.tesla.com:80 [null] [404] [10] [null] ["104.125.18.99"] [null] ["AkamaiNetStorage"] [null] [];
 http://ownership.tesla.com:80 [null] [200] [2] ["text/plain"] ["95.100.208.60"] ["https://ownership.tesla.com/"] [null] [null] [];
@@ -154,7 +154,7 @@ http://pages.emails.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1
 http://partners.tesla.com:80 ["Partner Portal"] [200] [4282] ["text/html"] ["104.90.109.222"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 http://pay.tesla.com:80 ["Tesla - Payment"] [200] [4336] ["text/html"] ["95.100.208.60"] ["https://pay.tesla.com/"] [null] [["Akamai","Express","Node.js"]] [];
 http://pm-bounces.tesla.com:80 ["Postmark — Email delivery for web apps"] [200] [4424] ["text/html"] ["138.197.30.54"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["104.89.4.15"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
+http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["104.84.97.191"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
 http://profile.tesla.com:80 ["Connect"] [200] [6527] ["text/html"] ["104.90.109.222"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 http://pub.email.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 http://ranger.tesla.com:80 ["RangerWeb"] [200] [4281] ["text/html"] ["23.3.108.53"] ["https://ranger.tesla.com/"] [null] [["Akamai","Google Font API"]] [];
@@ -333,7 +333,7 @@ https://image.emails.tesla.com:443 [null] [301] [null] [null] ["23.3.108.53"] [n
 https://inside.tesla.com:443 ["Inside Tesla"] [200] [6562] ["text/html"] ["95.100.208.60"] ["https://inside.tesla.com/en-US/"] [null] [["Akamai"]] [];
 https://installations-ext-api.tesla.com:443 ["Access Denied"] [403] [287] ["text/html"] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
 https://inventory-assets.tesla.com:443 [null] [204] [262] ["text/html"] ["95.100.208.60"] [null] ["Varnish"] [["Varnish"]] [];
-https://invest.tesla.com:443 ["Service Unavailable"] [503] [268] ["text/html"] ["104.92.71.218"] [null] ["AkamaiGHost"] [null] [];
+https://invest.tesla.com:443 ["Service Unavailable"] [503] [268] ["text/html"] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
 https://ir.tesla.com:443 ["Tesla Investor Relations"] [200] [248843] ["text/html"] ["104.89.18.184"] [null] [null] [["Drupal","Google Tag Manager","PHP","Varnish"]] [];
 https://kronos-dev.tesla.com:443 ["IIS Windows Server"] [200] [3770] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];
 https://kronos.tesla.com:443 ["IIS Windows Server"] [200] [3770] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];
@@ -353,7 +353,7 @@ https://myapps.tesla.com:443 ["Object moved"] [302] [296] ["text/html"] ["95.100
 https://onboard.tesla.com:443 ["Access Denied"] [403] [267] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 https://origin-assets-teslaaccount-ownership-ownership.tesla.com:443 ["Ownership"] [200] [3946] ["text/html"] ["95.100.208.60"] [null] [null] [["Akamai"]] [];
 https://origin-cicerone.tesla.com:443 [null] [401] [24] ["text/html"] ["209.133.79.99"] [null] [null] [["Express","Node.js"]] [];
-https://origin-www-auth.tesla.com:443 ["404 Not Found"] [404] [548] ["text/html"] ["209.133.79.56"] [null] [null] [null] [];
+https://origin-www-auth.tesla.com:443 ["404 Not Found"] [404] [146] ["text/html"] ["209.133.79.56"] [null] [null] [null] [];
 https://origin-www.tesla.com:443 [null] [403] [null] [null] ["209.133.79.55"] [null] ["Varnish"] [["Varnish"]] [];
 https://origin-wwwcdn.tesla.com:443 ["Select"] [200] [497776] ["text/html"] ["209.133.79.55"] [null] [null] [["Drupal","Google Tag Manager","PHP","Varnish"]] [];
 https://os.tesla.com:443 [null] [404] [10] [null] ["104.92.71.218"] [null] ["AkamaiNetStorage"] [null] [];
@@ -362,7 +362,7 @@ https://pages.email.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [
 https://pages.emails.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.18.25"] [null] [null] [null] [];
 https://partners.tesla.com:443 ["Partner Portal"] [200] [4281] ["text/html"] ["104.90.109.222"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 https://pay.tesla.com:443 ["Tesla - Payment"] [200] [4331] ["text/html"] ["95.100.208.60"] [null] [null] [["Akamai","Express","Node.js"]] [];
-https://powerhub.energy.tesla.com:443 [null] [302] [243] ["text/plain"] ["23.37.38.29"] [null] [null] [null] [];
+https://powerhub.energy.tesla.com:443 [null] [302] [244] ["text/plain"] ["96.16.129.250"] [null] [null] [null] [];
 https://profile.tesla.com:443 ["Connect"] [200] [6528] ["text/html"] ["104.111.226.14"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 https://pub.email.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 https://ranger.tesla.com:443 ["RangerWeb"] [200] [4279] ["text/html"] ["95.100.208.60"] [null] [null] [["Akamai","Google Font API"]] [];
