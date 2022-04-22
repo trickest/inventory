@@ -136,7 +136,7 @@ http://location-services-prd.tesla.com:80 ["Access Denied"] [403] [288] ["text/h
 http://logcollection.tesla.com:80 ["404 Not Found"] [404] [223] ["text/html"] ["95.100.208.60"] [null] ["Splunkd"] [["Splunkd"]] [];
 http://marketing.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.196"] [null] [null] [null] [];
 http://meet.tesla.com:80 [null] [302] [null] [null] ["205.234.27.221"] [null] ["LB"] [null] [];
-http://mfa-reset.tesla.com:80 ["MFA Deactivation"] [200] [5485] ["text/html"] ["72.246.101.86"] ["https://mfa-reset.tesla.com/"] [null] [["Akamai"]] [];
+http://mfa-reset.tesla.com:80 ["MFA Deactivation"] [200] [5486] ["text/html"] ["95.100.208.60"] ["https://mfa-reset.tesla.com/"] [null] [["Akamai"]] [];
 http://mfa.tesla.com:80 ["MFA Enrollment"] [200] [4536] ["text/html"] ["95.100.208.60"] ["https://mfa.tesla.com/"] [null] [["Akamai"]] [];
 http://mfs-supplier-uat.tesla.com:80 ["MFS Supplier Portal"] [200] [2353] ["text/html"] ["95.100.208.60"] ["https://mfs-supplier-uat.tesla.com/"] [null] [null] [];
 http://mfs-supplier.tesla.com:80 ["MFS Supplier Portal"] [200] [2353] ["text/html"] ["95.100.208.60"] ["https://mfs-supplier.tesla.com/"] [null] [null] [];
@@ -154,7 +154,7 @@ http://pages.emails.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1
 http://partners.tesla.com:80 ["Partner Portal"] [200] [4282] ["text/html"] ["104.90.109.222"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 http://pay.tesla.com:80 ["Tesla - Payment"] [200] [4336] ["text/html"] ["95.100.208.60"] ["https://pay.tesla.com/"] [null] [["Akamai","Express","Node.js"]] [];
 http://pm-bounces.tesla.com:80 ["Postmark — Email delivery for web apps"] [200] [4424] ["text/html"] ["138.197.30.54"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["104.84.97.191"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
+http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["104.117.201.79"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
 http://profile.tesla.com:80 ["Connect"] [200] [6527] ["text/html"] ["104.90.109.222"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 http://pub.email.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 http://ranger.tesla.com:80 ["RangerWeb"] [200] [4281] ["text/html"] ["23.3.108.53"] ["https://ranger.tesla.com/"] [null] [["Akamai","Google Font API"]] [];
@@ -344,7 +344,7 @@ https://livestreamapi.tesla.com:443 ["Access Denied"] [403] [271] ["text/html"] 
 https://location-services-prd.tesla.com:443 ["Access Denied"] [403] [289] ["text/html"] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
 https://logcollection.tesla.com:443 ["404 Not Found"] [404] [223] ["text/html"] ["95.100.208.60"] [null] ["Splunkd"] [["Splunkd"]] [];
 https://marketing.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.47.196"] [null] [null] [null] [];
-https://mfa-reset.tesla.com:443 ["MFA Deactivation"] [200] [5482] ["text/html"] ["72.246.101.86"] [null] [null] [["Akamai"]] [];
+https://mfa-reset.tesla.com:443 ["MFA Deactivation"] [200] [5482] ["text/html"] ["95.100.208.60"] [null] [null] [["Akamai"]] [];
 https://mfa.tesla.com:443 ["MFA Enrollment"] [200] [4533] ["text/html"] ["95.100.208.60"] [null] [null] [["Akamai"]] [];
 https://mfs-supplier-uat.tesla.com:443 ["MFS Supplier Portal"] [200] [2353] ["text/html"] ["95.100.208.60"] [null] [null] [null] [];
 https://mfs-supplier.tesla.com:443 ["MFS Supplier Portal"] [200] [2353] ["text/html"] ["95.100.208.60"] [null] [null] [null] [];
@@ -363,7 +363,7 @@ https://pages.emails.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] 
 https://partners.tesla.com:443 ["Partner Portal"] [200] [4281] ["text/html"] ["104.90.109.222"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 https://pay.tesla.com:443 ["Tesla - Payment"] [200] [4331] ["text/html"] ["95.100.208.60"] [null] [null] [["Akamai","Express","Node.js"]] [];
 https://powerhub.energy.tesla.com:443 [null] [302] [244] ["text/plain"] ["96.16.129.250"] [null] [null] [null] [];
-https://profile.tesla.com:443 ["Connect"] [200] [6528] ["text/html"] ["104.111.226.14"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
+https://profile.tesla.com:443 ["Connect"] [200] [6531] ["text/html"] ["104.89.18.184"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 https://pub.email.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 https://ranger.tesla.com:443 ["RangerWeb"] [200] [4279] ["text/html"] ["95.100.208.60"] [null] [null] [["Akamai","Google Font API"]] [];
 https://reassignment-ui.tesla.com:443 ["Contract Reassignment UI"] [200] [3673] ["text/html"] ["104.90.109.222"] [null] [null] [["Akamai"]] [];

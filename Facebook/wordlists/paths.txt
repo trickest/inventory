@@ -1951,6 +1951,7 @@
 /commerce/self-serve/merchant/mark-nux-seen/
 /commerce_manager/offsite/update/
 /commerce_manager/onboarding/
+/commerce_manager/onboarding_landing/
 /commerce_manager/{account_id}/orders/{order_id}/{?status}/{?case_id}/
 /commerce_manager/{account_id}/settings/{tab}/
 /commerce_manager/{account_id}/{?tab}/
@@ -2376,6 +2377,7 @@
 /intern/review/
 /intern/rsrc.php
 /intern/rsrc.php/
+/intl/see_translation/
 /inventory/{subContext:.+}/:subName
 /items/
 /j/collect
@@ -3720,6 +3722,7 @@ Include/Vendors/prismjs-
 Include/Vendors/tinymce_
 Index/Document.iwa
 Indian/Christmas|Etc/GMT-7
+LitestandClassicRHC/loaded
 LitestandMessages/DuplicateCursorError
 LitestandMessages/LeaveHome
 LitestandMessages/NewStoriesContainer
@@ -4811,6 +4814,18 @@ modules/wlans/grid/index.html
 multipart/form-data
 mustache.js
 n/j/y
+nav/allowChannelAutoFocus
+nav/dismissAllStackedChannels
+nav/dismissStackedChannel
+nav/hidePublicContentBanner
+nav/markPendingTransition
+nav/pushStackedChannel
+nav/replaceStackedChannel
+nav/selectAppTabID
+nav/setActiveEntityKey
+nav/showPublicContentBanner
+nav/startLoading
+nav/stopLoading
 nested/pressable
 next/router
 nodes_renderer.html
