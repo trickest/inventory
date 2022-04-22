@@ -1872,9 +1872,11 @@
 /browserify-sign
 /build/
 /business
+/business/async/dynamiccontent/
 /business/async/subnav/
 /business/content/preview/
 /business/dashboard/
+/business/f/{id}/
 /business/instagram/claim/oauth/
 /business/loginpage/
 /business/m/async/dashboard/post_tags/
@@ -1893,6 +1895,8 @@
 /ccta/create/
 /challenge/action
 /channel/
+/chat/user_info/
+/chat/user_info_all/
 /check_access_key.ns?access_key_pretty=
 /child::$1
 /choices.tpl.html
@@ -1945,7 +1949,10 @@
 /commerce
 /commerce/products/{item_id}/_dialog/
 /commerce/self-serve/merchant/mark-nux-seen/
+/commerce_manager/offsite/update/
 /commerce_manager/onboarding/
+/commerce_manager/{account_id}/orders/{order_id}/{?status}/{?case_id}/
+/commerce_manager/{account_id}/settings/{tab}/
 /commerce_manager/{account_id}/{?tab}/
 /community/events
 /community/events-d64
@@ -2090,6 +2097,7 @@
 /exportSQL
 /exportSyncDiscardedDeviceDetails
 /facebook
+/facebook-account-link/
 /facebook_pay/:part1?/:part2?/
 /facebook_pay/connect_learn_more/
 /faq
@@ -2483,6 +2491,7 @@
 /oauth/ofa_control/unblocklist_app
 /oauth/oidc
 /oauth/oidc/user_consent/
+/oauth/oidc/user_reject/
 /oauth/revoke_access/
 /oauth/v2/token
 /off_facebook_activity/{?*subpath}
@@ -2685,6 +2694,7 @@
 /shop/p/
 /shop/products/:query
 /shop/products/:query/
+/shop/report/download/
 /shop/serp/:query/
 /shopping/bag/
 /shopping/home/
@@ -2711,6 +2721,7 @@
 /static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png
 /static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png
 /static/images/appstore-install-badges/badge_microsoft_english-en.png/8a9204989bce.png
+/static/images/bloks/assets/ig_illustrations/illo_lock_clock_refresh-1x-dark.png/09d4436dd46a.png
 /static/images/circle_checkmark-2x.png/cf0036b91e96.png 2x
 /static/images/circle_checkmark.png/37abe7d57422.png
 /static/images/company-logo/family-lockup-2x.png/473e6c751247.png 2x
@@ -3429,6 +3440,7 @@
 /ws
 /z_
 /zr/nux/update_preference/
+/{*rest}/
 /{0}
 /{1}/cancel
 /{1}/exportDeviceDetails
@@ -4438,6 +4450,7 @@ image/webp
 image/x-emf
 image/x-icon
 image/x-wmf
+images/bloks/assets/ig_illustrations/illo_lock_clock_refresh-1x-dark.png
 images/circle_checkmark.png
 images/cnMaestro-gr-logo.png
 images/coinflip.gif
@@ -5037,6 +5050,7 @@ relay-runtime/util/withDuration
 relay-runtime/util/withProvidedVariables
 reportWidget.html
 search/photos
+search/updateNullState
 series-select.html
 sha384-gcMWyJurhs2OxKnLeJqCvLoRV/QghIiqjOme29q6JkyYNVHkVmiLiwnzz6TtRlzd
 sha384-uObFsIlmV0TvXnvnUvEhhDHEbjC4zBHwRA8tg/f0CcVHlIG0XlMAK1oHeK06zBCe

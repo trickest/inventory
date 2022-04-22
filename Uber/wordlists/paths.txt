@@ -3569,6 +3569,7 @@
 /:vote
 /?#
 /?$
+/?auth_token=
 /?download&amp;title_as_filename&amp;track
 /?download&amp;title_as_filename&amp;track&amp;resizing_mode=
 /?fuid=
@@ -3801,6 +3802,7 @@
 /api/approvalrequestpreset?project_id=
 /api/approvalrequestpreset?template_screen_id=
 /api/asset
+/api/asset-analytics/metric
 /api/asset-approval
 /api/asset-approval-response
 /api/asset-approval/
@@ -3940,6 +3942,7 @@
 /api/groups/
 /api/groups/list
 /api/groups/smartusers/
+/api/guideline-analytics/metric
 /api/guideline-search/
 /api/guidelines/
 /api/hub/create/
@@ -4918,6 +4921,7 @@
 /contactDetails/firstName
 /contactDetails/lastName
 /contacts-interactions$\
+/content/templates/
 /contenthub/
 /contents\
 /controls
@@ -5830,6 +5834,7 @@
 /me
 /me/account
 /me/storefront
+/media/create
 /members:add
 /members:remove
 /mention
@@ -9923,6 +9928,7 @@ uber/main/202203291519
 uber/main/202204060400
 uber/main/202204111529
 uber/main/202204181102
+uber/main/202204211112
 ui.html
 ui/appBarAriaLabel
 ui/appBarCommandAriaLabel
