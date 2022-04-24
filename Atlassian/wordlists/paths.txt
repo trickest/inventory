@@ -5854,7 +5854,7 @@
 /feed/SECFiling.svc/GetEdgarFilingYearList
 /feed/StockQuote.svc/
 /feed/popular?first=25
-/feedback
+/feedback slash command
 /feedback-collector-api
 /fetch-instance-users
 /fetchPaymentInfo
@@ -7636,7 +7636,7 @@
 /sdQ
 /sdk/evalx/
 /sdk/goals/
-/search
+/search slashcommand
 /search-results
 /search-results?SearchTerm=
 /search/
@@ -9200,7 +9200,7 @@ EnumMap/EntrySetIterator
 EnumMap/MapEntry
 EnumSet/EnumSetImpl
 EnumSet/EnumSetImpl/IteratorImpl
-Error: invalid input defined or SSL error: <urlopen error [SSL: NO_CIPHERS_AVAILABLE] no ciphers available (_ssl.c:997)>
+Error: invalid input defined or SSL error: <urlopen error [Errno -2] Name does not resolve>
 Etc/GMT
 Etc/GMT-0
 Etc/GMT-0|Etc/GMT
@@ -14244,6 +14244,7 @@ worker-v1.js
 workerProcessStatus.html
 workflow-builder/fetch-new-trigger
 workflow-builder/fetch-new-workflow
+workflow-builder/fetch-updated-trigger
 workflow/create/channel_action
 workflow/create/channel_action/
 worklet-inline-processor-v1.js
