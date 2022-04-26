@@ -1503,7 +1503,9 @@
 /about-9fd
 /about/basics
 /about/jobs/
+/account/
 /account/:subName/{navContext:[\\w\\-]+}/{subContext:.*}
+/account/orders/recent/
 /accounts/access_tool/
 /accounts/account_privacy
 /accounts/account_recovery_ajax/
@@ -1640,6 +1642,7 @@
 /ajax/help/duo_typeahead/
 /ajax/help/query_typeahead/
 /ajax/hovercard/hovercard.php
+/ajax/js_error_details/
 /ajax/mercury/change_archived_status.php
 /ajax/mercury/change_mute_thread.php
 /ajax/mercury/change_page_follow_up_status.php
@@ -1859,6 +1862,7 @@
 /auth
 /auth.php
 /authorize.php
+/bag/
 /bbu/:subName
 /bhhm/:subName
 /bhhs/:subName
@@ -1881,6 +1885,7 @@
 /business/loginpage/
 /business/m/async/dashboard/post_tags/
 /business/m/async/quiz/{quiz_id}/
+/business/resources/
 /business/send/verification/email/
 /business/v3/async/c25/
 /c/
@@ -2202,6 +2207,7 @@
 /hashtag_following/
 /heartbeat_and_get_viewer_count/
 /help
+/help/
 /help/api/index.html
 /help/api/index.html?token=
 /help/cbrs/cbrs_template.ods
@@ -2213,6 +2219,7 @@
 /help/cbrs/lte_cbrs_template_tp.xlsx
 /help/resources
 /help/update_app_for_help/
+/help/{?*rest}/
 /hide/
 /history
 /home
@@ -2327,6 +2334,7 @@
 /home/runner/work/ui/ui/src/utils/storage.ts
 /home/runner/work/ui/ui/src/utils/windows.ts
 /hqdefault.jpg
+/html/
 /hubs/items
 /hubs/with/event/
 /i18n/{part}/locale-{lang}.json
@@ -2370,6 +2378,8 @@
 /integrity/checkpoint/checkpoint_underage_appeal/
 /inter_app/redirect/
 /intern
+/intern/asp
+/intern/comet_dev_tools/gk/spoof
 /intern/enforcement/challenge_info/
 /intern/enforcement/enforcement_info_homepage/
 /intern/enforcement/restriction_demo/
@@ -2425,6 +2435,7 @@
 /logging/falco
 /login
 /login.php
+/login/
 /login/identify/loggedin/
 /logout.php
 /lte
@@ -2568,6 +2579,7 @@
 /privacy/checks/
 /privacy/consent/:flow
 /privacy/explanation/
+/privacy/policy/
 /profile/
 /profile/intro/edit/bio/
 /profile/intro/edit/photos/
@@ -2864,9 +2876,11 @@
 /system/:subName
 /t/
 /t_ms
+/tealium/
 /templates
 /tenant
 /terms
+/terms/
 /terms/accept/
 /terms/accept/?__d=dis
 /terms/start/
@@ -3449,6 +3463,13 @@
 /{1}/labels
 /{1}/migration?force=true
 /{1}/migrationStateTransEvent/ui
+/{?*rest}/
+/{?locale}/help/
+/{?locale}/help/{?*rest}/
+/{country}/
+/{country}/{?*rest}/
+/{country}/{language}/
+/{country}/{language}/{?*rest}/
 /{navContext:.+}
 /{navContext:.+}/list
 /{navContext:.+}/{subContext:.*}
@@ -4438,8 +4459,11 @@ htm/DataTableFeeder.aspx
 htm/LogError.aspx
 htm/PosLearning.aspx
 htm/Resolution.aspx?W=
+html/js/comet/redblock/CometRedblockUsageColorsIgnoreList.js
 icons/Block.svg
 iframe-resizer/js/iframeResizer
+image/apng
+image/avif
 image/bmp
 image/gif
 image/heic
