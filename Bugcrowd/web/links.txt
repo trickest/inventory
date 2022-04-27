@@ -1,3 +1,4 @@
+// 20.2.2.3 Math.acosh(x)\nvar $export = __webpack_require__(2);\nvar log1p = __webpack_require__(106);\nvar sqrt = Math.sqrt;\nvar $acosh = Math.acosh;\n\n$export($export.S + $export.F * !($acosh\n  // V8 bug: https://code.google.com/p/v8/issues/detail?id=3509\n  &amp;&amp; Math.floor($acosh(Number.MAX_VALUE)) == 710\n  // Tor Browser bug: Math.acosh(Infinity) -&gt; NaN\n  &amp;&amp; $acosh(Infinity) == Infinity\n), 
 http://api.jquery.com/jquery.ajax/
 http://curl.haxx.se/
 http://curl.haxx.se/libcurl/
@@ -5,8 +6,13 @@ http://devel-m6w6.rhcloud.com/mdref/http
 http://docs.guzzlephp.org/en/stable/
 http://docs.python-requests.org/en/latest/api/#requests.request
 http://example.com
+http://example.com/#/some/path?foo=bar&amp;baz=xoxo\
+http://example.com/:id.json
+http://example.com/resource.json
+http://example.com/resource/:resource_id.:format
 http://example.com/{endpoint}
 http://golang.org/pkg/net/http/#NewRequest
+http://google.com
 http://httpie.org/
 http://json-schema.org/draft-04/schema
 http://json-schema.org/draft-04/schema#
@@ -14,17 +20,24 @@ http://json-schema.org/draft-06/schema#
 http://json-schema.org/draft-07/schema
 http://json-schema.org/draft-07/schema#
 http://json-schema.org/schema
+http://myapp.example.com/clickThru**
 http://nodejs.org/api/http.html#http_http_request_options_callback
 http://nvd.nist.gov/vuln/detail/${id}\
 http://owlbert.io/images/owlberts-png/Celebration-Confetti.psd.png
 http://php.net/manual/en/book.curl.php
 http://php.net/manual/en/book.http.php
+http://placekitten.com/100/150\
+http://placekitten.com/150/150\
 http://restsharp.org/
 http://ruby-doc.org/stdlib-2.2.1/libdoc/net/http/rdoc/Net/HTTP.html
 http://square.github.io/okhttp/
+http://srv*.assets.example.com/**
+http://twitter.com/
 http://unirest.io/java.html
 http://unirest.io/nodejs.html
 http://www.bugcrowd.com/termsandconditions
+http://www.gravatar.com/avatar/{{hash}} 2x\
+http://www.gravatar.com/avatar/{{hash}}\
 http://www.ibm.com/data/dtd/v11/ibmxhtml1-transitional.dtd
 http://www.w3.org/1998/Math/MathML
 http://www.w3.org/1999/xhtml
@@ -32,7 +45,11 @@ http://www.w3.org/1999/xlink
 http://www.w3.org/2000/svg
 http://www.w3.org/2000/xmlns/
 http://www.w3.org/XML/1998/namespace
+http://yoursite.com/test/\\
 https://*.bugcrowd.com
+https://angularjs.org/doesntexist&amp;callback=JSON_CALLBACK
+https://angularjs.org/greet.php?callback=JSON_CALLBACK&amp;name=Super%20Hero
+https://api.github.com/gists/
 https://apis.google.com/js/plusone.js
 https://assets.calendly.com/assets/external/widget.css
 https://assets.pinterest.com/js/pinit.js
@@ -43,6 +60,7 @@ https://confluence.atlassian.com/jiracoreserver/working-with-search-results-9399
 https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html
 https://d1id5eheivyv24.cloudfront.net/62545322/dist/
 https://d1id5eheivyv24.cloudfront.net/6b2a0333/dist/
+https://d3c7kdb7my25wp.cloudfront.net/
 https://dash.readme.io/signup
 https://delicious.com/post?url={URL}
 https://developer.apple.com/library/mac/documentation/Foundation/Reference/NSURLSession_class/index.html
@@ -71,6 +89,8 @@ https://docs.python.org/3/library/http.client.html
 https://docs.readme.com/recipes/publish-all-docs-in-category
 https://example.com
 https://files.readme.io/97584af-brandmark-white.svg
+https://files.readme.io/JkLUlRaMSUOuUatO0XDi_sample-logo.png
+https://files.readme.io/NOHKHVqUQkqooLBoQeYz_sample-logo.png
 https://gist.github.com/
 https://github.com/AsyncHttpClient/async-http-client
 https://github.com/Redocly/redoc

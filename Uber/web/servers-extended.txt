@@ -353,6 +353,8 @@ http://clientless.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["
 http://clients.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://clients.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://clients.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://clm.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://clm.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://clogs.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [220] ["text/html"] ["52.21.55.203"] [null] ["awselb/2.0"] [null] [];
+http://clogs.uberinternal.com:80 ["301 Moved Permanently"] [301] [134] ["text/html"] ["54.83.46.92"] [null] ["awselb/2.0"] [null] [];
 http://cloud-onboarding.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://cloud-onboarding.uberinternal.com/"] ["ufe"] [null] [];
 http://cluster-mgmt.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104.36.195.150"] ["https://cluster-mgmt.uberinternal.com/"] ["ufe"] [["Basic","Envoy"]] [];
 http://cmm-atg.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://cmm-atg.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -1031,6 +1033,8 @@ http://kafka.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.3
 http://kaiju-backend-dca1.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://kaiju-backend-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://kaiju-dca1.uberinternal.com:80 [null] [429] [109] ["text/plain"] ["104.36.195.150"] ["https://kaiju-dca1.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://kaiju-phx3.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://kaiju-phx3.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://kasper.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://kasper.uber.com/"] ["ufe"] [["Google Cloud"]] [];
+http://kasper.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://khang.uberinternal.com:80 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] ["https://khang.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://kiosk-node-api-staging.uber.com:80 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["34.98.127.226"] ["https://kiosk-node-api-staging.uber.com/"] ["ufe"] [["Envoy","Google Cloud"]] [];
 http://kiosk-node-api-staging.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
@@ -2526,6 +2530,7 @@ https://clientless-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/ht
 https://clientless.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://clients.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://clm.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://clogs.uberinternal.com:443 [null] [200] [2] ["text/plain"] ["54.83.46.92"] [null] [null] [null] [];
 https://cloud-integrations-stage.uber.com:443 ["403 Forbidden"] [403] [520] ["text/html"] ["54.219.65.157"] [null] [null] [null] [];
 https://cloud-onboarding.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://cluster-mgmt.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
@@ -3096,6 +3101,7 @@ https://kafka.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104
 https://kaiju-backend-dca1.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://kaiju-dca1.uberinternal.com:443 [null] [429] [109] ["text/plain"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://kaiju-phx3.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.197.214"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://kasper.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://khang.uberinternal.com:443 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://kiosk-node-api-staging.uber.com:443 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://kirby.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];

@@ -2151,6 +2151,7 @@
 ./js/frontify-styleguide/colorswatch.a335c1112e0e60e50778.js
 ./js/frontify-styleguide/colorswatch.ace3a864797a9910b18e.js
 ./js/frontify-styleguide/colorswatch.b6977d8ba66ebd995e41.js
+./js/frontify-styleguide/colorswatch.ba82308ec4feae3e9283.js
 ./js/frontify-styleguide/colorswatch.d46760bee3e48bae6a82.js
 ./js/frontify-styleguide/colorswatch.e560072164a6676825f0.js
 ./js/frontify-styleguide/colorswatch.eb9c37361943275df3c4.js
@@ -4027,6 +4028,7 @@
 /api/patterns?full=true
 /api/plans/
 /api/platform-analytics/
+/api/platform-analytics/action
 /api/platform-analytics/active-user/
 /api/platform-analytics/asset/
 /api/platform-analytics/download/
@@ -4034,6 +4036,7 @@
 /api/platform-analytics/metric/
 /api/playlists
 /api/playlists/
+/api/portal/
 /api/portal/brandupdate/
 /api/portal?
 /api/printrequest/config
@@ -4745,9 +4748,11 @@
 /blog/sw.js?ver=1649164212062&amp;scope=en-DE
 /blog/sw.js?ver=1649164212062&amp;scope=en-US
 /blog/sw.js?ver=1649164212156&amp;scope=en-US
+/blog/sw.js?ver=1649164231559&amp;scope=en-DE
 /blog/sw.js?ver=1649164231559&amp;scope=en-US
 /blog/sw.js?ver=1649164231662&amp;scope=en-US
 /blog/sw.js?ver=1649164251708&amp;scope=en-US
+/blog/sw.js?ver=1649164271408&amp;scope=en-US
 /blog/sw.js?ver=1649164291243&amp;scope=en-DE
 /blog/sw.js?ver=1649164291348&amp;scope=en-DE
 /blog/sw.js?ver=1649164291348&amp;scope=en-US
@@ -4835,6 +4840,10 @@
 /category-feed/
 /cb=
 /cc.js
+/cdn-cgi/bm/cv/result?req_id=
+/cdn-cgi/mirage_speedtest/
+/cdn-cgi/pe/mirage_bag?format=base64
+/cdn-cgi/pe/mirage_bag?format=binary
 /chart
 /charts
 /chat
@@ -8188,6 +8197,7 @@ application/x-csh
 application/x-cypher-query
 application/x-director
 application/x-dvi
+application/x-ecmascript
 application/x-ejs
 application/x-erb
 application/x-futuresplash
@@ -8248,6 +8258,7 @@ assets/img/logo-aws.svg
 assets/img/logo-azure.svg
 assets/img/logo-gcp.svg
 attribute/align
+attribute/externalDataPlaceholder
 attribute/font_style
 attribute/style
 audio/aac
@@ -9773,8 +9784,10 @@ text/html_fragment
 text/java
 text/javascript
 text/jinja2
+text/jscript
 text/jsx
 text/jsx-component
+text/livescript
 text/markdown
 text/mirc
 text/n-triples
@@ -9821,6 +9834,7 @@ text/x-dockerfile
 text/x-dylan
 text/x-ebnf
 text/x-ecl
+text/x-ecmascript
 text/x-eiffel
 text/x-elm
 text/x-erlang
@@ -9846,6 +9860,7 @@ text/x-hxml
 text/x-idl
 text/x-jade
 text/x-java
+text/x-javascript
 text/x-julia
 text/x-kotlin
 text/x-latex

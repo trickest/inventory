@@ -134,6 +134,7 @@ http://oma.staging.xoom.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["3
 http://onboarding.paypal.com:80 ["ERROR: The request could not be satisfied"] [403] [915] ["text/html"] ["143.204.98.33"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
 http://origin-ad.paypal.com:80 [null] [403] [null] [null] ["66.211.168.148"] ["https://origin-ad.paypal.com/"] ["BigIP"] [["F5 BigIP"]] [];
 http://origin-history.paypal.com:80 ["Fastly error: unknown domain origin-history.paypal.com"] [500] [271] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
+http://p-fastly.glb.paypal.com:80 ["Fastly error: unknown domain p-fastly.glb.paypal.com"] [500] [267] ["text/html"] ["151.101.129.35"] [null] ["Varnish"] [["Varnish"]] [];
 http://p.glb.paypal.com:80 ["Fastly error: unknown domain p.glb.paypal.com"] [500] [253] ["text/html"] ["151.101.65.35"] [null] ["Varnish"] [["Varnish"]] [];
 http://p.paypal.com:80 [null] [403] [2] ["text/html"] ["104.89.17.150"] [null] [null] [null] [];
 http://pages.emails.paypal.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
@@ -467,6 +468,7 @@ https://oma.staging.xoom.com:443 ["Send Money Online | Xoom, a PayPal Service"] 
 https://onboarding.paypal.com:443 ["404 Not Found"] [404] [162] ["text/html"] ["143.204.98.33"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 https://origin-ad.paypal.com:443 [null] [403] [null] [null] ["66.211.168.148"] [null] ["BigIP"] [["F5 BigIP"]] [];
 https://origin-history.paypal.com:443 ["Fastly error: unknown domain origin-history.paypal.com"] [500] [271] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
+https://p-fastly.glb.paypal.com:443 ["Fastly error: unknown domain p-fastly.glb.paypal.com"] [500] [267] ["text/html"] ["151.101.129.35"] [null] ["Varnish"] [["Varnish"]] [];
 https://p.glb.paypal.com:443 ["Fastly error: unknown domain p.glb.paypal.com"] [500] [252] ["text/html"] ["151.101.65.35"] [null] ["Varnish"] [["Varnish"]] [];
 https://p.paypal.com:443 ["403 Forbidden"] [403] [421] ["text/html"] ["151.101.1.35"] [null] ["Varnish"] [["Varnish"]] [];
 https://pages.emails.paypal.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
