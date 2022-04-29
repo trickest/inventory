@@ -197,6 +197,7 @@ http://tradepartnertickets.tesla.com:80 ["Workbench"] [200] [8679] ["text/html"]
 http://trt.tesla.com:80 ["Tesla Real Estate"] [200] [6355] ["text/html"] ["104.89.18.184"] ["https://trt.tesla.com/"] ["nginx/1.16.1"] [["Akamai","Nginx"]] [];
 http://uicrashtracer.tesla.com:80 ["Service Unavailable - Fail to connect"] [401] [272] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
 http://ul.engage.tesla.com:80 [null] [403] [243] ["application/xml"] ["143.204.98.59"] ["https://ul.engage.tesla.com/"] ["AmazonS3"] [["Amazon Cloudfront","Amazon S3","Amazon Web Services"]] [];
+http://url1894.tesla.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [264] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
 http://url1894.tesla.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 http://url2547.tesla.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 http://url4104.tesla.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.52"] [null] ["nginx"] [["Nginx"]] [];
@@ -363,7 +364,7 @@ https://pages.emails.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] 
 https://partners.tesla.com:443 ["Partner Portal"] [200] [4283] ["text/html"] ["104.76.200.116"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 https://pay.tesla.com:443 ["Tesla - Payment"] [200] [4337] ["text/html"] ["104.76.200.116"] [null] [null] [["Akamai","Express","Node.js"]] [];
 https://powerhub.energy.tesla.com:443 [null] [302] [244] ["text/plain"] ["104.89.4.15"] [null] [null] [null] [];
-https://profile.tesla.com:443 ["Connect"] [200] [6531] ["text/html"] ["104.89.18.184"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
+https://profile.tesla.com:443 ["Connect"] [200] [6530] ["text/html"] ["23.37.238.80"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 https://pub.email.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 https://ranger.tesla.com:443 ["RangerWeb"] [200] [4279] ["text/html"] ["104.92.71.218"] [null] [null] [["Akamai","Google Font API"]] [];
 https://reassignment-ui.tesla.com:443 ["Contract Reassignment UI"] [200] [3680] ["text/html"] ["104.76.200.116"] [null] [null] [["Akamai"]] [];
