@@ -5961,6 +5961,7 @@
 /gateway/api/marketplace/catalog/partner-permissions/
 /gateway/api/marketplace/catalog/partners/
 /gateway/api/marketplace/catalog/user-partners
+/gateway/api/marketplace/vendor/rest/2/vendors/
 /gateway/api/me
 /gateway/api/notification-log
 /gateway/api/notification-log/api/3/notifications
@@ -7418,10 +7419,13 @@
 /renew
 /renew/server
 /reporting
+/reporting/
 /reporting/:reportName
+/reporting/apps?reportType=
 /reporting/sales/metrics/
 /reporting/sales/metrics/conversion?
 /reporting/sales/transactions/hosting?
+/reporting/sales/transactions?
 /reports
 /request-access?
 /request-channels
@@ -7942,10 +7946,12 @@
 /support
 /support/releases/online
 /supportDetails/emergencyContact
+/supportDetails/supportHours/
 /supportDetails/supportOrg/name
 /supportDetails/supportOrg/supportEmail
 /supportDetails/supportOrg/supportPhone
 /supportDetails/supportOrg/supportUrl
+/supportDetails/targetResponseTime
 /sv/true
 /sw.js
 /swagger-ui.html
@@ -8123,6 +8129,7 @@
 /var/tmp
 /var/yp
 /vendorLinks/homePage
+/vendorLinks/sla
 /vendors/
 /vendors/{id}/{slug}
 /vendors/{vendorId}
@@ -8697,6 +8704,7 @@ America/Mazatlan|Mexico/BajaSur
 America/Mendoza
 America/Menominee
 America/Merida
+America/Metlakatla
 America/Mexico_City
 America/Mexico_City|America/Bahia_Banderas
 America/Mexico_City|America/Merida
@@ -8798,6 +8806,7 @@ America/Puerto_Rico|America/St_Thomas
 America/Puerto_Rico|America/St_Vincent
 America/Puerto_Rico|America/Tortola
 America/Puerto_Rico|America/Virgin
+America/Punta_Arenas
 America/Rainy_River
 America/Rankin_Inlet
 America/Recife
@@ -8885,6 +8894,7 @@ Antarctica/Palmer|America/Punta_Arenas
 Antarctica/Rothera
 Antarctica/South_Pole
 Antarctica/Syowa
+Antarctica/Troll
 Antarctica/Vostok
 Arctic/Longyearbyen
 Arrays/ArrayList
@@ -8897,6 +8907,7 @@ Asia/Aqtobe
 Asia/Ashgabat
 Asia/Ashgabat|Asia/Ashkhabad
 Asia/Ashkhabad
+Asia/Atyrau
 Asia/Baghdad
 Asia/Baghdad|Antarctica/Syowa
 Asia/Baghdad|Asia/Aden
@@ -8953,6 +8964,7 @@ Asia/Dubai|Indian/Mahe
 Asia/Dubai|Indian/Mauritius
 Asia/Dubai|Indian/Reunion
 Asia/Dushanbe
+Asia/Famagusta
 Asia/Gaza
 Asia/Gaza|Asia/Hebron
 Asia/Harbin
@@ -9018,6 +9030,7 @@ Asia/Pontianak
 Asia/Pyongyang
 Asia/Qatar
 Asia/Qatar|Asia/Bahrain
+Asia/Qostanay
 Asia/Qyzylorda
 Asia/Rangoon
 Asia/Rangoon|Asia/Yangon
@@ -9081,6 +9094,7 @@ Asia/Vladivostok
 Asia/Vladivostok|Asia/Ust-Nera
 Asia/Yakutsk
 Asia/Yakutsk|Asia/Khandyga
+Asia/Yangon
 Asia/Yekaterinburg
 Asia/Yerevan
 Atlantic/Azores
@@ -9301,6 +9315,7 @@ Europe/Brussels
 Europe/Bucharest
 Europe/Budapest
 Europe/Busingen
+Europe/Chisinau
 Europe/Chisinau|Europe/Tiraspol
 Europe/Copenhagen
 Europe/Dublin
@@ -9391,6 +9406,7 @@ Europe/Rome|Europe/Vatican
 Europe/Samara
 Europe/San_Marino
 Europe/Sarajevo
+Europe/Saratov
 Europe/Simferopol
 Europe/Skopje
 Europe/Sofia
@@ -9733,6 +9749,7 @@ Pacific/Fiji
 Pacific/Funafuti
 Pacific/Galapagos
 Pacific/Galapagos|Etc/GMT+6
+Pacific/Gambier
 Pacific/Gambier|Etc/GMT+9
 Pacific/Guadalcanal
 Pacific/Guadalcanal|Etc/GMT-11
@@ -9742,6 +9759,7 @@ Pacific/Guadalcanal|Pacific/Noumea
 Pacific/Guadalcanal|Pacific/Pohnpei
 Pacific/Guadalcanal|Pacific/Ponape
 Pacific/Guam
+Pacific/GuamVillage
 Pacific/Guam|Pacific/Saipan
 Pacific/Honolulu
 Pacific/Honolulu|HST
@@ -9767,6 +9785,7 @@ Pacific/Pago_Pago|Pacific/Samoa
 Pacific/Pago_Pago|US/Samoa
 Pacific/Palau
 Pacific/Palau|Etc/GMT-9
+Pacific/Pitcairn
 Pacific/Pitcairn|Etc/GMT+8
 Pacific/Pohnpei
 Pacific/Pohnpei|Etc/GMT-11
@@ -9803,6 +9822,7 @@ ParadoxLabs_TokenBase/js/mixin/multishipping/payment
 PartnerActions/ArchivePartner
 PartnerContacts/hooks
 PartnerPaymentDetails/hooks
+PartnerReports/useAppsOfAReport
 PayPal_Braintree/js/model/step-navigator-mixin
 PayPal_Braintree/js/reCaptcha/braintree-cc-method-mixin
 PayPal_Braintree/js/view/payment/adapter
@@ -9874,6 +9894,7 @@ TLS/SSL
 ThresholdStrategy/NullThresholdStrategy
 ThresholdStrategy/Postprocessable
 ThresholdStrategy/SimpleThresholdStrategy
+TransactionsReports/hooks
 TreeMap/EntryIterator
 TreeMap/EntrySet
 TreeMap/Node
@@ -13674,6 +13695,7 @@ root/issues
 root/portfolio
 rtmp/mp4
 runtime.js
+sales/transactions
 scheduled-maintenances/active
 scheduled-maintenances/upcoming
 scheduler/unstable_mock
