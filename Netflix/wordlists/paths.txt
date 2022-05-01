@@ -6043,6 +6043,7 @@
 /account-manager
 /account-manager/
 /account-manager/#/partners/users/
+/account-request
 /account-request/
 /account/
 /action/
@@ -6107,6 +6108,7 @@
 /api/candidateContent/
 /api/candidateLocations
 /api/candidateNav
+/api/capabilities
 /api/census/RecordHit
 /api/census/RecordQuickView/
 /api/census/button-click
@@ -6114,6 +6116,7 @@
 /api/census/form-render
 /api/census/overlay
 /api/choices/?format=json
+/api/config
 /api/custom_notifications/
 /api/custom_rates/:vendorType/
 /api/data
@@ -6181,6 +6184,7 @@
 /api/onboarding/vendor_in_stage/
 /api/onboarding/workflow/
 /api/onboarding/workflow/email_attributes/
+/api/page/
 /api/paycasso/enrolment/
 /api/paycasso/enrolment/verification/
 /api/paycasso/events/
@@ -6440,6 +6444,7 @@
 /app/utils.js
 /app/viewport-units-buggyfill.js
 /apply
+/approvals
 /approvals/fault
 /approvals/success
 /approve
@@ -6464,16 +6469,27 @@
 /assets
 /assets/
 /assets/bulk
+/assets/color
 /assets/data/terms/terms-
 /assets/fonts/NetflixSans_W_Bd.woff2
 /assets/fonts/NetflixSans_W_Lt.woff2
 /assets/fonts/NetflixSans_W_Md.woff2
 /assets/fonts/NetflixSans_W_Rg.woff2
 /assets/for_download/
+/assets/frames
+/assets/iconography
+/assets/illustrations
 /assets/images/Gallery_Placeholder.png
 /assets/images/Netflix-PP-Logo.png
 /assets/images/NetflixN.png
+/assets/logo
+/assets/logos
+/assets/overview
+/assets/photography
+/assets/texture
+/assets/textures
 /assets/tracks/
+/assets/typography
 /assign_task/\
 /assign_to_group/
 /assign_to_job/
@@ -6515,6 +6531,11 @@
 /blog/:slug
 /box_works_registrationhome
 /box_works_webconfirmation
+/brand
+/brand/digital
+/brand/key-art
+/brand/motion
+/brand/social
 /brands
 /brands/
 /brands/?count=10000
@@ -7412,6 +7433,7 @@
 /custom_notifications/default_notifications/
 /custom_rate_types/
 /customization
+/cv/result/
 /dOi
 /dashboard/?availability&amp;date_start&amp;date_end&amp;redirect_to_onboarding
 /dashboards
@@ -7486,6 +7508,15 @@
 /embed
 /emc/REST/v2/projects/
 /en/
+/en/assets
+/en/assets/brand-cv-color
+/en/assets/brand-cv-frames
+/en/assets/brand-cv-iconography
+/en/assets/brand-cv-logo
+/en/assets/brand-cv-overview
+/en/assets/brand-cv-photography
+/en/assets/brand-cv-textures
+/en/assets/brand-cv-typography
 /encryption
 /engine.io
 /entity
@@ -7635,6 +7666,7 @@
 /images/symbol.png
 /images/top10.png
 /images/twitter.svg
+/img/splash-bg.jpg
 /impact
 /inclusion
 /index
@@ -7752,6 +7784,7 @@
 /login/?email&amp;error&amp;logged_out&amp;redirect&amp;next
 /logo192.png
 /logo_config/
+/logout
 /logout/
 /lookups/
 /lookups/audioChannelMsProductVersions
@@ -7787,6 +7820,7 @@
 /mediaroom
 /mediaroomDeviceModels/
 /mediaroomDeviceModels/partnerOrg/
+/meechum
 /meechum?info=json
 /meechum?logout=
 /merchant.js
@@ -7890,6 +7924,7 @@
 /p/
 /p/:id/?key
 /package.json
+/page-not-found
 /pageFormatDef
 /pageRangeDef
 /pages
@@ -8422,6 +8457,7 @@
 /report_issue/
 /reports
 /reports/modelGroupSearch?
+/request
 /requestPasswordReset
 /request_access/
 /request_approval/
@@ -8436,6 +8472,7 @@
 /reset_login_link/\
 /resolve_issue/
 /resourceLimits
+/resources
 /resources/
 /resources/dw-box-and-office365
 /resources/ecm-integrations
@@ -8935,6 +8972,7 @@
 /veriff/
 /video
 /video/
+/video/splash.mp4
 /videos
 /views
 /virtual-summit.html
@@ -9137,6 +9175,7 @@ Asia/Kuala_Lumpur|Singapore
 Asia/Macau|Asia/Macao
 Asia/Makassar|Asia/Ujung_Pandang
 Asia/Nicosia|Europe/Nicosia
+Asia/Pacific
 Asia/Qatar|Asia/Bahrain
 Asia/Rangoon|Asia/Yangon
 Asia/Riyadh|Antarctica/Syowa
@@ -9306,6 +9345,7 @@ Skills/Services
 Skills/services
 True/False
 Typed/Bookmarked
+US/Canada
 Usage: python /app/linkfinder.py [Options] use -h for help
 V/4N3HKfLAYMUFdZsgppMxO9
 VvKKNiXAqAlua0G/Bnq1t/l4
@@ -9372,6 +9412,7 @@ application/dart
 application/dicom
 application/ecmascript
 application/edn
+application/eps
 application/exi
 application/font-otf
 application/font-tdpfr
@@ -9515,6 +9556,7 @@ application/x-doom
 application/x-dvi
 application/x-ejs
 application/x-envoy
+application/x-eps
 application/x-erb
 application/x-eva
 application/x-font-bdf
@@ -9535,6 +9577,8 @@ application/x-gtar
 application/x-hdf
 application/x-httpd-php
 application/x-httpd-php-open
+application/x-iWork-keynote-sffkey
+application/x-indesign
 application/x-install-instructions
 application/x-iso9660-image
 application/x-java-archive
@@ -10763,6 +10807,7 @@ image/bpg
 image/cgm
 image/dicom-rle
 image/emf
+image/eps
 image/fits
 image/flif
 image/g3fax
@@ -10786,6 +10831,7 @@ image/prs.btif
 image/prs.pti
 image/sgi
 image/t38
+image/tif
 image/tiff
 image/tiff-fx
 image/vnd.djvu
@@ -10801,6 +10847,7 @@ image/x-canon-cr2
 image/x-cmu-raster
 image/x-cmx
 image/x-emf
+image/x-eps
 image/x-freehand
 image/x-icon
 image/x-jng

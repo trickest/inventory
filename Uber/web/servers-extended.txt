@@ -251,6 +251,7 @@ http://business-beta.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.3
 http://business-beta.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://business-beta.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://business.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://business.uber.com/"] ["ufe"] [["Envoy"]] [];
 http://business.uberinternal.com:80 ["404 Not Found"] [404] [150] ["text/html"] ["104.36.195.150"] ["https://business.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://businesses.uber.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.17.73.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://businesses.uber.com:80 [null] [302] [86] ["text/html"] ["104.17.70.206"] ["https://businesses.uber.com/"] ["cloudflare"] [["Cloudflare"]] [];
 http://businesses.uber.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.17.70.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://bz.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://bz.uber.com/"] ["ufe"] [["Google Cloud"]] [];
