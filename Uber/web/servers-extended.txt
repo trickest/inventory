@@ -2197,6 +2197,7 @@ http://works.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://
 http://works.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://woshou-web.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://woshou-web.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://woshou.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://woshou.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://wpe-breeze.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://wpe-breeze.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://wpe.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://wpe.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://www.blog.uber.com:80 [null] [302] [null] ["text/html"] ["35.184.61.224"] ["https://www.blog.uber.com/"] ["nginx"] [["Nginx"]] [];
 http://www.lert.uber.com:80 [null] [301] [2] ["text/html"] ["204.74.99.101"] [null] [null] [null] [];
@@ -4123,6 +4124,7 @@ https://workbench.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] [
 https://works.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://woshou-web.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://woshou.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
+https://wpe-breeze.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://wpe.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://www.blog.uber.com:443 [null] [302] [null] ["text/html"] ["35.184.61.224"] [null] ["nginx"] [["Nginx"]] [];
 https://www.uber.com:443 [null] [406] [14] ["text/plain"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
