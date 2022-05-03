@@ -4735,6 +4735,7 @@
 /:uuid
 /?#
 /?$
+/?cloudId=
 /?ll=
 /?url=
 /Aar
@@ -6008,6 +6009,7 @@
 /goal/
 /goal/:id/
 /goals
+/goals?cloudId=
 /gpa-cross-flow/
 /graphql
 /group?copyMetadataToUngroupedItems=
@@ -7344,6 +7346,7 @@
 /projects/:projectKey/issues/:issueKey?
 /projects/:projectKey/versions/:versionId
 /projects/:projectKey/versions/:versionId/tab/:tab
+/projects?cloudId=
 /projects?users=
 /promo
 /promos
@@ -7425,6 +7428,7 @@
 /reporting/
 /reporting/:reportName
 /reporting/apps?reportType=
+/reporting/feedback/details?
 /reporting/sales/metrics/
 /reporting/sales/metrics/conversion?
 /reporting/sales/transactions/hosting?
@@ -9435,6 +9439,7 @@ Europe/Zurich|Europe/Busingen
 Europe/Zurich|Europe/Vaduz
 FINAL_FORM/array-error
 FINAL_FORM/form-error
+FeedbackDetails/hooks
 Finance/SalesOps
 Find/Replace
 Fisheye/Crucible

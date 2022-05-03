@@ -39,10 +39,10 @@ http://files.bugcrowd.com:80 [null] [404] [48] ["application/json"] ["151.101.2.
 http://forum.bugcrowd.com:80 ["Bugcrowd Forum - community for hackers & security researchers"] [200] [156145] ["text/html"] ["64.62.250.111"] ["https://forum.bugcrowd.com/"] ["nginx"] [["Discourse","Google Font API","Nginx","Ruby on Rails"]] [];
 http://go.bugcrowd.com:80 [null] [200] [101] ["text/html"] ["104.17.72.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://go.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.17.72.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
-http://gslink.bugcrowd.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
-http://gslink.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
+http://gslink.bugcrowd.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
+http://gslink.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://hooks.bugcrowd.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
-http://hooks.bugcrowd.com:80 [null] [403] [16] ["text/plain"] ["104.20.7.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
+http://hooks.bugcrowd.com:80 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://hooks.bugcrowd.com:8080 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://hooks.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://itmoah.bugcrowd.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
@@ -54,8 +54,9 @@ http://levelup.bugcrowd.com:80 [null] [200] [551450] ["text/html"] ["104.20.6.68
 http://levelup.bugcrowd.com:8080 [null] [301] [null] [null] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://levelup.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://mailgun.bugcrowd.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
-http://mailgun.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
+http://mailgun.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://pages.bugcrowd.com:80 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
+http://pages.bugcrowd.com:8080 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://researcherdocs.bugcrowd.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [253] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
 http://researcherdocs.bugcrowd.com:8080 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 http://researcherdocs.bugcrowd.com:8443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare"]] [];
@@ -93,7 +94,7 @@ https://email.submit.bugcrowd.com:443 [null] [200] [23] ["application/octet-stre
 https://files.bugcrowd.com:443 [null] [404] [48] ["application/json"] ["151.101.2.132"] [null] ["kong/2.6.0"] [["Varnish"]] [];
 https://forum.bugcrowd.com:443 ["Bugcrowd Forum - community for hackers & security researchers"] [200] [118939] ["text/html"] ["64.62.250.111"] [null] ["nginx"] [["Discourse","Google Font API","Nginx","Ruby on Rails"]] [];
 https://go.bugcrowd.com:443 [null] [200] [101] ["text/html"] ["104.17.72.206"] [null] ["cloudflare"] [["Cloudflare"]] [];
-https://gslink.bugcrowd.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
+https://gslink.bugcrowd.com:443 ["404 Not Found"] [404] [162] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://hooks.bugcrowd.com:443 [null] [200] [12] [null] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://hooks.bugcrowd.com:8443 [null] [403] [16] ["text/plain"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management"]] [];
 https://itmoah.bugcrowd.com:443 ["2020 Inside the Mind of a Hacker Report | Bugcrowd"] [200] [934077] ["text/html"] ["104.20.6.68"] [null] ["cloudflare"] [["Cloudflare","Cloudflare Bot Management","Google Tag Manager"]] [];

@@ -3,7 +3,7 @@ http://16695532.paypal.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.
 http://17419645.paypal.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
 http://SECURE.UNINITIALIZED.REAL.paypal.com:80 ["Fastly error: unknown domain secure.uninitialized.real.paypal.com"] [500] [292] ["text/html"] ["151.101.193.21"] [null] ["Varnish"] [["Varnish"]] [];
 http://active-api-s.paypal.com:80 ["Service Unavailable"] [503] [268] ["text/html"] ["88.221.60.123"] [null] ["AkamaiGHost"] [null] [];
-http://active-www.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [150147] ["text/html"] ["173.0.93.196"] ["https://active-www.paypal.com/de/home"] [null] [["React"]] [];
+http://active-www.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | PayPal DE"] [200] [117152] ["text/html"] ["173.0.93.196"] ["https://active-www.paypal.com/de/home"] [null] [["React"]] [];
 http://adjvendor.glb.paypal.com:80 [null] [302] [30] ["text/plain"] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
 http://adjvendor.paypal.com:80 [null] [200] [2] ["text/plain"] ["173.0.93.103"] [null] ["nginx"] [["Nginx"]] [];
 http://api-3t-v2.sandbox.paypal.com:80 [null] [404] [null] [null] ["173.0.93.202"] ["https://api-3t-v2.sandbox.paypal.com/"] [null] [null] [];
@@ -113,9 +113,9 @@ http://lyncdiscover.xoom.com:80 [null] [404] [34] ["application/json"] ["52.112.
 http://m.paypal.com:80 [null] [301] [null] [null] ["104.109.59.129"] [null] ["AkamaiGHost"] [null] [];
 http://m.xoom.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["151.101.129.21"] ["https://m.xoom.com/"] [null] [["Varnish"]] [];
 http://mail.paypal.com:80 [null] [400] [3] ["text/plain"] ["159.127.187.12"] [null] [null] [null] [];
-http://manager-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.188"] [null] [null] [null] [];
+http://manager-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://manager-edgemigration.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [164490] ["text/html"] ["173.0.93.189"] ["https://manager-edgemigration.glb.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
-http://manager-edgemigration.payflow.edge.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [131565] ["text/html"] ["173.0.93.189"] ["https://manager-edgemigration.payflow.edge.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
+http://manager-edgemigration.payflow.edge.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [108940] ["text/html"] ["173.0.93.189"] ["https://manager-edgemigration.payflow.edge.paypal.com/us/home"] ["nginx"] [["Nginx","React"]] [];
 http://manager-migration.payflow.edge.paypal.com:80 [null] [301] [null] [null] ["66.211.171.182"] [null] [null] [null] [];
 http://manager.payflow.edge.paypal.com:80 [null] [301] [null] [null] ["66.211.171.182"] [null] [null] [null] [];
 http://manager.paypal.com:80 ["PayPal Manager"] [200] [79396] ["text/html"] ["173.0.93.189"] ["https://manager.paypal.com/"] ["nginx"] [["Nginx"]] [];
@@ -134,7 +134,7 @@ http://oma.staging.xoom.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["3
 http://onboarding.paypal.com:80 ["ERROR: The request could not be satisfied"] [403] [915] ["text/html"] ["143.204.98.33"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
 http://origin-ad.paypal.com:80 [null] [403] [null] [null] ["66.211.168.148"] ["https://origin-ad.paypal.com/"] ["BigIP"] [["F5 BigIP"]] [];
 http://origin-history.paypal.com:80 ["Fastly error: unknown domain origin-history.paypal.com"] [500] [271] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
-http://p-fastly.glb.paypal.com:80 ["Fastly error: unknown domain p-fastly.glb.paypal.com"] [500] [267] ["text/html"] ["151.101.1.35"] [null] ["Varnish"] [["Varnish"]] [];
+http://p-fastly.glb.paypal.com:80 ["Fastly error: unknown domain p-fastly.glb.paypal.com"] [500] [266] ["text/html"] ["151.101.193.35"] [null] ["Varnish"] [["Varnish"]] [];
 http://p.glb.paypal.com:80 ["Fastly error: unknown domain p.glb.paypal.com"] [500] [253] ["text/html"] ["151.101.65.35"] [null] ["Varnish"] [["Varnish"]] [];
 http://p.paypal.com:80 [null] [403] [2] ["text/html"] ["104.89.17.150"] [null] [null] [null] [];
 http://pages.emails.paypal.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
@@ -283,7 +283,7 @@ http://www.sandbox.paypal.com:80 ["Bargeldloses Bezahlen - Online Shopping | Pay
 http://www.xoom.com:80 ["Send Money Online | Xoom, a PayPal Service"] [200] [59494] ["text/html"] ["151.101.1.21"] ["https://www.xoom.com/"] [null] [["Contentful","Envoy","Varnish"]] [];
 http://xml-reg-edgemigration.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://xml-reg-edgemigration.glb.paypal.com:80 [null] [200] [6870] ["text/html"] ["173.0.93.189"] ["https://xml-reg-edgemigration.glb.paypal.com/"] ["nginx"] [["Nginx"]] [];
-http://xml-reg.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
+http://xml-reg.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.214"] [null] [null] [null] [];
 http://xml-reg.paypal.com:80 ["Error 404--Not Found"] [404] [1164] ["text/html"] ["173.0.93.191"] ["https://xml-reg.paypal.com/"] ["nginx"] [["Nginx"]] [];
 http://xoom.com:80 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.36"] ["https://xoom.com/"] [null] [null] [];
 http://zettleintegrations.paypal.com:80 [null] [200] [6883] ["text/html"] ["151.101.1.21"] ["https://zettleintegrations.paypal.com/"] [null] [["Varnish"]] [];
@@ -468,7 +468,7 @@ https://oma.staging.xoom.com:443 ["Send Money Online | Xoom, a PayPal Service"] 
 https://onboarding.paypal.com:443 ["404 Not Found"] [404] [162] ["text/html"] ["143.204.98.33"] [null] ["nginx"] [["Amazon Cloudfront","Amazon Web Services","Nginx"]] [];
 https://origin-ad.paypal.com:443 [null] [403] [null] [null] ["66.211.168.148"] [null] ["BigIP"] [["F5 BigIP"]] [];
 https://origin-history.paypal.com:443 ["Fastly error: unknown domain origin-history.paypal.com"] [500] [271] ["text/html"] ["151.101.129.21"] [null] ["Varnish"] [["Varnish"]] [];
-https://p-fastly.glb.paypal.com:443 ["Fastly error: unknown domain p-fastly.glb.paypal.com"] [500] [267] ["text/html"] ["151.101.1.35"] [null] ["Varnish"] [["Varnish"]] [];
+https://p-fastly.glb.paypal.com:443 ["Fastly error: unknown domain p-fastly.glb.paypal.com"] [500] [266] ["text/html"] ["151.101.193.35"] [null] ["Varnish"] [["Varnish"]] [];
 https://p.glb.paypal.com:443 ["Fastly error: unknown domain p.glb.paypal.com"] [500] [252] ["text/html"] ["151.101.65.35"] [null] ["Varnish"] [["Varnish"]] [];
 https://p.paypal.com:443 ["403 Forbidden"] [403] [421] ["text/html"] ["151.101.1.35"] [null] ["Varnish"] [["Varnish"]] [];
 https://pages.emails.paypal.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.110.192.1"] [null] [null] [null] [];
