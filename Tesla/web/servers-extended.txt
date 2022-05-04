@@ -154,7 +154,7 @@ http://pages.emails.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1
 http://partners.tesla.com:80 ["Partner Portal"] [200] [4284] ["text/html"] ["104.76.200.116"] ["https://partners.tesla.com/home"] [null] [["Akamai"]] [];
 http://pay.tesla.com:80 ["Tesla - Payment"] [200] [4337] ["text/html"] ["104.76.200.116"] ["https://pay.tesla.com/"] [null] [["Akamai","Express","Node.js"]] [];
 http://pm-bounces.tesla.com:80 ["Postmark — Email delivery for web apps"] [200] [4424] ["text/html"] ["138.197.30.54"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["23.45.236.83"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
+http://powerhub.energy.tesla.com:80 [null] [302] [243] ["text/plain"] ["104.89.4.15"] ["https://powerhub.energy.tesla.com/"] [null] [null] [];
 http://profile.tesla.com:80 ["Connect"] [200] [6530] ["text/html"] ["104.89.18.184"] ["https://profile.tesla.com/en-US/"] [null] [["Akamai","Google Font API"]] [];
 http://pub.email.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["136.147.129.35"] [null] [null] [null] [];
 http://ranger.tesla.com:80 ["RangerWeb"] [200] [4283] ["text/html"] ["104.92.71.218"] ["https://ranger.tesla.com/"] [null] [["Akamai","Google Font API"]] [];
@@ -203,10 +203,10 @@ http://url2547.tesla.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["167.89
 http://url4104.tesla.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.52"] [null] ["nginx"] [["Nginx"]] [];
 http://url5196.tesla.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 http://url7051.tesla.com:80 ["Error"] [503] [176] ["text/html"] ["104.89.18.184"] ["https://url7051.tesla.com/"] ["AkamaiGHost"] [null] [];
-http://vehicle-files.eng.euw1.vn.cloud.tesla.com:80 [null] [403] [243] ["application/xml"] ["23.53.43.81"] ["https://vehicle-files.eng.euw1.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-http://vehicle-files.eng.usw2.vn.cloud.tesla.com:80 [null] [403] [243] ["application/xml"] ["23.53.43.82"] ["https://vehicle-files.eng.usw2.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-http://vehicle-files.prd.euw1.vn.cloud.tesla.com:80 [null] [403] [243] ["application/xml"] ["23.53.43.40"] ["https://vehicle-files.prd.euw1.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-http://vehicle-files.prd.usw2.vn.cloud.tesla.com:80 [null] [403] [255] ["application/xml"] ["23.53.43.74"] ["https://vehicle-files.prd.usw2.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
+http://vehicle-files.eng.euw1.vn.cloud.tesla.com:80 [null] [403] [243] ["application/xml"] ["2.16.186.233"] ["https://vehicle-files.eng.euw1.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
+http://vehicle-files.eng.usw2.vn.cloud.tesla.com:80 [null] [403] [243] ["application/xml"] ["2.16.186.162"] ["https://vehicle-files.eng.usw2.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
+http://vehicle-files.prd.euw1.vn.cloud.tesla.com:80 [null] [403] [243] ["application/xml"] ["2.16.186.219"] ["https://vehicle-files.prd.euw1.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
+http://vehicle-files.prd.usw2.vn.cloud.tesla.com:80 [null] [403] [243] ["application/xml"] ["2.16.186.137"] ["https://vehicle-files.prd.usw2.vn.cloud.tesla.com/"] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
 http://view.email.tesla.com:80 ["Object moved"] [302] [128] ["text/html"] ["136.147.129.32"] [null] [null] [null] [];
 http://vmanage-alerts.tesla.com:80 ["404 Not Found"] [404] [232] ["text/html"] ["104.76.200.116"] ["https://vmanage-alerts.tesla.com/"] ["Werkzeug/2.0.1 Python/3.7.7"] [["Flask","Python"]] [];
 http://vpn2.tesla.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.47.24.215"] [null] [null] [null] [];
@@ -335,7 +335,7 @@ https://hub.tesla.com:443 ["302 Found"] [302] [427] ["text/html"] ["23.210.33.13
 https://image-emails.tesla.com:443 [null] [404] [11] [null] ["104.89.18.184"] [null] ["AkamaiNetStorage"] [null] [];
 https://image.email.tesla.com:443 ["Access Denied"] [403] [274] ["text/html"] ["2.16.218.163"] [null] ["AkamaiGHost"] [null] [];
 https://image.emails.tesla.com:443 [null] [301] [null] [null] ["104.89.18.184"] [null] ["AkamaiGHost"] [null] [];
-https://inside.tesla.com:443 ["Inside Tesla"] [200] [6562] ["text/html"] ["95.100.208.60"] ["https://inside.tesla.com/en-US/"] [null] [["Akamai"]] [];
+https://inside.tesla.com:443 ["Inside Tesla"] [200] [6562] ["text/html"] ["104.92.71.218"] ["https://inside.tesla.com/en-US/"] [null] [["Akamai"]] [];
 https://installations-ext-api.tesla.com:443 ["Access Denied"] [403] [289] ["text/html"] ["104.80.224.227"] [null] ["AkamaiGHost"] [null] [];
 https://inventory-assets.tesla.com:443 [null] [204] [262] ["text/html"] ["104.89.18.184"] [null] ["Varnish"] [["Varnish"]] [];
 https://invest.tesla.com:443 ["Service Unavailable"] [503] [269] ["text/html"] ["104.76.200.116"] [null] ["AkamaiGHost"] [null] [];
@@ -415,9 +415,9 @@ https://url2547.tesla.com:443 ["404 Not Found"] [404] [162] ["text/html"] ["167.
 https://url4104.tesla.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.118.52"] [null] ["nginx"] [["Nginx"]] [];
 https://url5196.tesla.com:443 ["404 Not Found"] [404] [162] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 https://url7051.tesla.com:443 ["Error"] [503] [175] ["text/html"] ["95.100.208.60"] [null] ["AkamaiGHost"] [null] [];
-https://vehicle-files.eng.euw1.vn.cloud.tesla.com:443 [null] [403] [243] ["application/xml"] ["23.53.43.81"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-https://vehicle-files.eng.usw2.vn.cloud.tesla.com:443 [null] [403] [243] ["application/xml"] ["23.53.43.41"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
-https://vehicle-files.prd.euw1.vn.cloud.tesla.com:443 [null] [403] [243] ["application/xml"] ["23.53.43.40"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
+https://vehicle-files.eng.euw1.vn.cloud.tesla.com:443 [null] [403] [243] ["application/xml"] ["23.53.43.32"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
+https://vehicle-files.eng.usw2.vn.cloud.tesla.com:443 [null] [403] [243] ["application/xml"] ["23.53.43.82"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
+https://vehicle-files.prd.euw1.vn.cloud.tesla.com:443 [null] [403] [243] ["application/xml"] ["2.16.186.219"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
 https://vehicle-files.prd.usw2.vn.cloud.tesla.com:443 [null] [403] [243] ["application/xml"] ["23.53.43.74"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services"]] [];
 https://view.email.tesla.com:443 ["Object moved"] [302] [128] ["text/html"] ["136.147.129.32"] [null] [null] [null] [];
 https://view.emails.tesla.com:443 ["Object moved"] [302] [128] ["text/html"] ["13.111.49.179"] [null] [null] [null] [];
