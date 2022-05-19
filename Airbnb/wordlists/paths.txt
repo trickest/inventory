@@ -15,7 +15,12 @@
 ../../../components/activeHelp/ActiveHelpFeatureToggle.tsx
 ../../../components/activeHelp/article/ArticleContainer.tsx
 ../../../components/activeHelp/category/CategoryContainer.tsx
+../../../components/activeHelp/largeScreen/article/DesktopArticle
+../../../components/activeHelp/largeScreen/categories/ActiveHelpDesktopCategoriesContainer
+../../../components/activeHelp/largeScreen/previousSearch/PreviousSearchContainer
 ../../../components/activeHelp/search/SearchContainer.tsx
+../../../components/activeHelp/smallScreen/article/ActiveHelpSmallScreenArticleContainer.tsx
+../../../components/activeHelp/smallScreen/category/ActiveHelpSmallScreenCategory.tsx
 ../../../components/agentSideCard/AgentSideCardContainer
 ../../../components/appDownloadOverlay/AppDownloadOverlayContainer
 ../../../components/auth/AuthScreenContainer
@@ -95,6 +100,7 @@
 ../UserProfileRoute
 ../UserSecurityRoute
 ../account/coupons/CouponsContainer
+../activeHelp/modal/ActiveHelpModalContainer
 ../base/ExternalLittleSearchHeader
 ../base/Footer
 ../base/FooterWideOnly
@@ -2017,6 +2023,10 @@
 /account_linking
 /action/
 /activation
+/active-help/
+/active-help/article
+/active-help/category
+/active-help/search
 /add
 /addcontent/index/esearch
 /addcontent/index/index-esearch
@@ -2307,6 +2317,8 @@
 /experiences/sw_skeleton
 /export/newsletters/{newsletterV3Id}
 /extenuating-circumstances
+/fallback-homepage
+/fallback-page
 /favicon-rebrand.ico
 /favicon.ico
 /favicon.ico?33517106
@@ -2372,6 +2384,7 @@
 /global/ac_media_player/scripts/ac_media_languages/
 /gradv/
 /grant
+/grant/
 /greatescape
 /group-gift
 /group/add-users
@@ -3233,6 +3246,7 @@
 /usr/src/app/app/BuildRoutes.js
 /usr/src/app/app/DocumentHead.js
 /usr/src/app/app/Routes.js
+/usr/src/app/app/actions/ActiveHelpActions.tsx
 /usr/src/app/app/actions/AnalyticsActions.js
 /usr/src/app/app/actions/AppActions.js
 /usr/src/app/app/actions/BookingActions.js
@@ -3285,9 +3299,18 @@
 /usr/src/app/app/analytics/events/SupportAnalytics.js
 /usr/src/app/app/analytics/helpers/InventoryAnalyticsHelper.js
 /usr/src/app/app/bootstrap.js
+/usr/src/app/app/components/activeHelp/largeScreen/ActiveHelpLargeScreenContainer.tsx
+/usr/src/app/app/components/activeHelp/largeScreen/ActiveHelpLargeScreenContainerStyles.tsx
+/usr/src/app/app/components/activeHelp/largeScreen/search/ActiveHelpDesktopSearch.tsx
+/usr/src/app/app/components/activeHelp/largeScreen/search/ActiveHelpDesktopSearchContainer.tsx
+/usr/src/app/app/components/activeHelp/largeScreen/search/styles/ActiveHelpDesktopSearchStyles.tsx
 /usr/src/app/app/components/activeHelp/modal/ActiveHelpModal.tsx
 /usr/src/app/app/components/activeHelp/modal/ActiveHelpModalContainer.tsx
 /usr/src/app/app/components/activeHelp/modal/styles/ActiveHelpModalStyles.tsx
+/usr/src/app/app/components/activeHelp/shared/row/Row.tsx
+/usr/src/app/app/components/activeHelp/shared/row/RowStyles.tsx
+/usr/src/app/app/components/activeHelp/shared/searchButton/SearchButton.tsx
+/usr/src/app/app/components/activeHelp/shared/searchButton/SearchButtonStyles.tsx
 /usr/src/app/app/components/appLayout/AppLayout.js
 /usr/src/app/app/components/appLayout/components/BookingsDropdown.js
 /usr/src/app/app/components/appLayout/components/FullScreenSpinner.js
@@ -3405,6 +3428,7 @@
 /usr/src/app/app/components/shared/components/BackIcon.js
 /usr/src/app/app/components/shared/components/Button.js
 /usr/src/app/app/components/shared/components/CaretIcon.js
+/usr/src/app/app/components/shared/components/ChevronIcon.js
 /usr/src/app/app/components/shared/components/CloseIcon.js
 /usr/src/app/app/components/shared/components/CountryFlag.js
 /usr/src/app/app/components/shared/components/CoverImageBlock.js
@@ -3456,6 +3480,7 @@
 /usr/src/app/app/components/shared/grid/styles/ColStyles.js
 /usr/src/app/app/components/shared/grid/styles/ContainerStyles.js
 /usr/src/app/app/components/shared/grid/styles/RowStyles.js
+/usr/src/app/app/components/shared/icons/SearchIcon.tsx
 /usr/src/app/app/components/shared/input/InputField.js
 /usr/src/app/app/components/shared/input/InputWrapper.js
 /usr/src/app/app/components/shared/input/styles/InputWrapperStyles.js
@@ -3498,6 +3523,7 @@
 /usr/src/app/app/constants/MODALS.js
 /usr/src/app/app/constants/REGULAR_EXPRESSIONS.js
 /usr/src/app/app/constants/ROUTE.js
+/usr/src/app/app/fetchers/ActiveHelpFetcher.tsx
 /usr/src/app/app/fetchers/ApplePayFetcher.js
 /usr/src/app/app/fetchers/BookingFetcher.js
 /usr/src/app/app/fetchers/BookingHoldFetcher.js
@@ -3594,6 +3620,7 @@
 /usr/src/app/app/reducers/forms/SignUpFormReducer.js
 /usr/src/app/app/routes/largeScreen/LargeScreenRoutes.js
 /usr/src/app/app/routes/largeScreen/configs/accountRoutesConfig.js
+/usr/src/app/app/routes/largeScreen/configs/activeHelpConfig.tsx
 /usr/src/app/app/routes/largeScreen/configs/documentHeadConfig.js
 /usr/src/app/app/routes/largeScreen/configs/footerConfig.js
 /usr/src/app/app/routes/largeScreen/configs/layoutConfig.js
@@ -4202,6 +4229,26 @@ America/Port_of_Spain|America/St_Thomas
 America/Port_of_Spain|America/St_Vincent
 America/Port_of_Spain|America/Tortola
 America/Port_of_Spain|America/Virgin
+America/Puerto_Rico|America/Anguilla
+America/Puerto_Rico|America/Antigua
+America/Puerto_Rico|America/Aruba
+America/Puerto_Rico|America/Blanc-Sablon
+America/Puerto_Rico|America/Curacao
+America/Puerto_Rico|America/Dominica
+America/Puerto_Rico|America/Grenada
+America/Puerto_Rico|America/Guadeloupe
+America/Puerto_Rico|America/Kralendijk
+America/Puerto_Rico|America/Lower_Princes
+America/Puerto_Rico|America/Marigot
+America/Puerto_Rico|America/Montserrat
+America/Puerto_Rico|America/Port_of_Spain
+America/Puerto_Rico|America/St_Barthelemy
+America/Puerto_Rico|America/St_Kitts
+America/Puerto_Rico|America/St_Lucia
+America/Puerto_Rico|America/St_Thomas
+America/Puerto_Rico|America/St_Vincent
+America/Puerto_Rico|America/Tortola
+America/Puerto_Rico|America/Virgin
 America/Regina|Canada/Saskatchewan
 America/Rio_Branco|America/Eirunepe
 America/Rio_Branco|America/Porto_Acre
@@ -4242,6 +4289,7 @@ America/Tijuana|America/Ensenada
 America/Tijuana|America/Santa_Isabel
 America/Tijuana|Mexico/BajaNorte
 America/Toronto|America/Montreal
+America/Toronto|America/Nassau
 America/Toronto|Canada/Eastern
 America/Vancouver|Canada/Pacific
 America/Whitehorse|America/Dawson
@@ -4345,6 +4393,7 @@ Asia/Qatar|Asia/Bahrain
 Asia/Rangoon
 Asia/Rangoon|Asia/Yangon
 Asia/Rangoon|Indian/Cocos
+Asia/Riyadh|Antarctica/Syowa
 Asia/Riyadh|Asia/Aden
 Asia/Riyadh|Asia/Kuwait
 Asia/Seoul|ROK
@@ -4436,7 +4485,7 @@ DD/M/YYYY
 DD/MM/YY
 DD/MM/YYYY
 DEPk/7St
-Error: invalid input defined or SSL error: <urlopen error [SSL: NO_CIPHERS_AVAILABLE] no ciphers available (_ssl.c:997)>
+Error: invalid input defined or SSL error: IncompleteRead(392836 bytes read, 64322 more expected)
 Etc/GMT-0|Etc/GMT
 Etc/GMT-0|Etc/GMT+0
 Etc/GMT-0|Etc/GMT0
@@ -4571,6 +4620,7 @@ Pacific/Chuuk|Pacific/Yap
 Pacific/Easter
 Pacific/Easter|Chile/EasterIsland
 Pacific/Enderbury|Etc/GMT-13
+Pacific/Enderbury|Pacific/Kanton
 Pacific/Fakaofo|Etc/GMT-13
 Pacific/Fakaofo|Pacific/Enderbury
 Pacific/Fiji
