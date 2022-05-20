@@ -453,6 +453,7 @@
 ../components/solutions
 ../components/support
 ../config/locale-list
+../configure-logger
 ../connect-to-styles
 ../constants
 ../containers/app-container
@@ -466,15 +467,19 @@
 ../core-js/symbol
 ../core-js/symbol/iterator
 ../create
+../create-matcher
 ../data
+../deep-equal
 ../disable-selection
 ../dispatchers/dispatcher
 ../error-message
 ../escape-selector
+../event
 ../external/google-analytics
 ../external/google-tag-manager
 ../external/mixpanel
 ../external/tealium
+../fake-xhr
 ../field-shared/constants
 ../field-shared/error-caption-inner
 ../field-shared/field-inner
@@ -1309,6 +1314,7 @@
 ./arch-app-state-type
 ./array
 ./array-set
+./array-types
 ./arrow
 ./arrow-button
 ./ars
@@ -1321,6 +1327,7 @@
 ./asa
 ./asa.js
 ./asdf
+./assert
 ./asset-url
 ./assign
 ./ast
@@ -1355,6 +1362,7 @@
 ./be
 ./be.js
 ./before
+./behavior
 ./bem
 ./bem.js
 ./bez
@@ -1367,6 +1375,7 @@
 ./binary-search
 ./bindActionCreators
 ./bit-button
+./blob
 ./blog
 ./bm
 ./bm.js
@@ -1403,6 +1412,7 @@
 ./calendar-select-button
 ./calendar-view
 ./call-preference-options
+./called-in-order
 ./camelize
 ./canDefineProperty
 ./cancel-confirmation
@@ -1561,6 +1571,7 @@
 ./ckb
 ./ckb.js
 ./clamp.js
+./class-name
 ./clearfix
 ./clipboard
 ./close-icon
@@ -1569,6 +1580,8 @@
 ./code-panel
 ./code/data-loader.js
 ./code/polyfill.js
+./collect-own-methods
+./color
 ./combineReducers
 ./comment
 ./common/banners
@@ -1619,8 +1632,10 @@
 ./content/receipt-content
 ./context-consumer.entry.js
 ./controlgroup
+./copy-prototype
 ./core
 ./core.get-iterator-method
+./core/extend
 ./countries
 ./country
 ./country-code-conversion
@@ -1629,6 +1644,14 @@
 ./country-options
 ./country-selected
 ./country-wrapper
+./create-matcher
+./create-matcher/assert-matcher
+./create-matcher/assert-method-exists
+./create-matcher/assert-type
+./create-matcher/is-iterable
+./create-matcher/is-matcher
+./create-matcher/matcher-prototype
+./create-matcher/type-map
 ./createAction
 ./createArrayFromMixed
 ./createBrowserHistory
@@ -1660,6 +1683,7 @@
 ./currency-input
 ./cursors
 ./custom-error
+./custom-event
 ./cv
 ./cv.js
 ./cy
@@ -1696,6 +1720,7 @@
 ./declaration
 ./decode
 ./decode_codepoint.js
+./deep-equal
 ./deep-extend
 ./deep-link-redirect
 ./deeplink-generator-modal
@@ -1706,6 +1731,7 @@
 ./deeplink-generator/set-promo
 ./deeplink-generator/show-deeplink
 ./default
+./default-behaviors
 ./default-params
 ./default-tag
 ./defaultCellRangeRenderer
@@ -1720,6 +1746,7 @@
 ./demo-projects-dropdown.component.html
 ./deprecate
 ./deprecateObjectProperties
+./deprecated
 ./depths
 ./diacritics
 ./dispatchers/dispatcher
@@ -1822,6 +1849,7 @@
 ./en_ZZ
 ./en_ZZ.js
 ./encode
+./encoding-indexes.js
 ./eo
 ./eo.js
 ./eq
@@ -1857,13 +1885,16 @@
 ./eu
 ./eu.js
 ./event
+./event-target
 ./eventpublisher
 ./eventtarget
+./every
 ./ewo
 ./ewo.js
 ./expo-in
 ./expo-in-out
 ./expo-out
+./extend
 ./fa
 ./fa.js
 ./fabric
@@ -1871,6 +1902,10 @@
 ./factory
 ./factoryWithThrowingShims
 ./factoryWithTypeCheckers
+./fake
+./fake-server
+./fake-server/fake-server-with-clock
+./fake-xhr
 ./fare
 ./fare-info/eater-fare-info
 ./fare-info/rides-fare-info
@@ -1924,6 +1959,8 @@
 ./fr.mo.json
 ./fr_CA.mo.json
 ./freight-logo
+./function
+./function-name
 ./fur
 ./fur.js
 ./fy
@@ -1934,6 +1971,9 @@
 ./gd.js
 ./geocoder
 ./get
+./get-class
+./get-next-tick
+./get-property-descriptor
 ./getComponents
 ./getDisplayName
 ./getEventCharCode
@@ -1949,6 +1989,7 @@
 ./getVendorPrefixedEventName
 ./gl
 ./gl.js
+./global
 ./global-styler
 ./global/alert-error
 ./global/alert-info
@@ -2050,6 +2091,7 @@
 ./id
 ./id.js
 ./id.mo.json
+./identical
 ./identity
 ./ig
 ./ig.js
@@ -2087,11 +2129,22 @@
 ./internal/streams/stream
 ./invariant
 ./is
+./is-arguments
+./is-array-type
 ./is-client
+./is-date
+./is-element
 ./is-empty
 ./is-implemented
 ./is-iterable
+./is-map
+./is-matcher
+./is-nan
 ./is-native-implemented
+./is-neg-zero
+./is-object
+./is-set
+./is-subset
 ./is-symbol
 ./is-value
 ./is.js
@@ -2126,6 +2179,7 @@
 ./it.mo.json
 ./item
 ./item-results
+./iterable-to-string
 ./iu
 ./iu.js
 ./iw
@@ -2148,6 +2202,7 @@
 ./jobs
 ./js/frontify-styleguide/colorswatch.28f314295f08432994a1.js
 ./js/frontify-styleguide/colorswatch.2ae859e8063ffb513130.js
+./js/frontify-styleguide/colorswatch.3a3c82cfbbf8edc027fa.js
 ./js/frontify-styleguide/colorswatch.4c00f8e89ded3ded25ee.js
 ./js/frontify-styleguide/colorswatch.64d084007bdd23e8cb81.js
 ./js/frontify-styleguide/colorswatch.6dab84e09396ffb458f1.js
@@ -2156,6 +2211,7 @@
 ./js/frontify-styleguide/colorswatch.7cf6e615a0aa259880de.js
 ./js/frontify-styleguide/colorswatch.93a5b2119898d54d4b31.js
 ./js/frontify-styleguide/colorswatch.9dd4e3001b5f41d1658b.js
+./js/frontify-styleguide/colorswatch.9ee87d3c770c3c4aec23.js
 ./js/frontify-styleguide/colorswatch.a335c1112e0e60e50778.js
 ./js/frontify-styleguide/colorswatch.ace3a864797a9910b18e.js
 ./js/frontify-styleguide/colorswatch.b6977d8ba66ebd995e41.js
@@ -2262,6 +2318,7 @@
 ./lib/decode.js
 ./lib/element
 ./lib/encode.js
+./lib/encoding.js
 ./lib/function_call.js
 ./lib/generate-suffix
 ./lib/helpers
@@ -2334,6 +2391,7 @@
 ./lv.js
 ./lv.mo.json
 ./makeStateWithLocation
+./map
 ./map-generator
 ./mapDispatchToProps
 ./mapStateToProps
@@ -2343,7 +2401,9 @@
 ./mas
 ./mas.js
 ./match
+./match-object
 ./matchRoutes
+./matcher-prototype
 ./maxElementSize.js
 ./md5
 ./me
@@ -2381,6 +2441,8 @@
 ./mobile-menu/sub-menu.jsx
 ./mobile-menu/top-categories-menu-content.jsx
 ./mobile-menu/user-type-selector.jsx
+./mock
+./mock-expectation
 ./mockrtcstatsreport
 ./modal
 ./modal-container
@@ -2677,6 +2739,7 @@
 ./ny.js
 ./nyn
 ./nyn.js
+./object
 ./oc-lnc
 ./oc-lnc.js
 ./om
@@ -2686,6 +2749,7 @@
 ./options
 ./or
 ./or.js
+./order-by-first-call
 ./os
 ./os.js
 ./other-help-item.jsx
@@ -2761,11 +2825,18 @@
 ./product-stats
 ./profile
 ./profile-menu
+./progress-event
 ./progress-nav-list
 ./promise
 ./property
 ./props-filters
+./prototypes
+./prototypes/array
 ./provider
+./proxy
+./proxy-call
+./proxy-call-util
+./proxy-invoke
 ./ps
 ./ps.js
 ./pstream
@@ -2858,6 +2929,7 @@
 ./sah
 ./sah.js
 ./saml-auth-redirect
+./sandbox
 ./sanitized-html
 ./sanitizer-bundle.js
 ./saq
@@ -2898,6 +2970,7 @@
 ./services
 ./ses
 ./ses.js
+./set
 ./set-prototype-of/is-implemented
 ./set-prototype-of/shim
 ./setDisplayName
@@ -2936,6 +3009,19 @@
 ./sine-in
 ./sine-in-out
 ./sine-out
+./sinon
+./sinon/assert
+./sinon/behavior
+./sinon/create-sandbox
+./sinon/mock-expectation
+./sinon/promise
+./sinon/restore-object
+./sinon/sandbox
+./sinon/stub
+./sinon/util/core/default-config
+./sinon/util/core/extend
+./sinon/util/core/format
+./sinon/util/fake-timers
 ./size-mapping
 ./sk
 ./sk-SK.json
@@ -2967,6 +3053,8 @@
 ./source-map-generator
 ./space-around
 ./spacing
+./spy
+./spy-formatters
 ./sq
 ./sq.js
 ./sr
@@ -3020,6 +3108,7 @@
 ./string
 ./stringifier
 ./stringify
+./stub
 ./stubArray
 ./stubFalse
 ./styled
@@ -3074,6 +3163,7 @@
 ./th.mo.json
 ./thirdparty
 ./thread
+./throw-on-falsy-object
 ./ti
 ./ti.js
 ./tig
@@ -3144,6 +3234,7 @@
 ./two-line-result-item
 ./twq
 ./twq.js
+./type-of
 ./types
 ./typography
 ./tzl
@@ -3183,7 +3274,24 @@
 ./userid-input
 ./userid-password-form
 ./util
+./util.inspect
 ./util/assertString
+./util/core/export-async-behaviors
+./util/core/extend
+./util/core/format
+./util/core/function-to-string
+./util/core/get-property-descriptor
+./util/core/is-es-module
+./util/core/is-non-existent-property
+./util/core/is-property-configurable
+./util/core/is-restorable
+./util/core/next-tick
+./util/core/times-in-words
+./util/core/use-promise-library
+./util/core/walk
+./util/core/walk-object
+./util/core/wrap-method
+./util/fake-timers
 ./util/merge
 ./utilities/data-queue
 ./utils
@@ -3225,6 +3333,7 @@
 ./validate-options
 ./validate-symbol
 ./validateDOMNesting
+./value-to-string
 ./variables.scss
 ./ve
 ./ve.js
@@ -3249,6 +3358,7 @@
 ./wa.js
 ./wae
 ./wae.js
+./walk
 ./warn-once
 ./warning
 ./web-analytics
@@ -3372,6 +3482,7 @@
 //policies.google.com/privacy
 //policies.google.com/terms
 //swenzhang.baidu.com/js/pjt/content_ex/page/bookmark.js
+//tags.tiqcdn.com/utag/uber/main/
 //tags.tiqcdn.com/utag/uber/main/prod/
 //tags.tiqcdn.com/utag/uber/main/prod/utag.js
 //tjs.sjs.sinajs.cn/open/api/js/wb.js
@@ -3403,6 +3514,7 @@
 //www.youtube.com/embed/%id%?autoplay=1
 //www.youtube.com/iframe_api
 /0+H
+/0.44704790466774985:1652794584:ea8752db8651d28268a362eb798f8a44bc6b02b01710d48258a2709b1ad7e1e6/
 /02/29
 /0IN
 /1.0/auth/xsrf/plain
@@ -3888,6 +4000,7 @@
 /api/collection/share/
 /api/collection?
 /api/collection?permission_token=
+/api/collection?project_id=
 /api/collection?scope=PROJECT&amp;project_id=
 /api/color/add/
 /api/color/library/
@@ -3994,7 +4107,10 @@
 /api/marketplace-app/
 /api/marketplace-app/list
 /api/marketplace-app?surface=createAsset
+/api/marketplace-app?type=CREATE_ASSET
 /api/marketplace/app
+/api/marketplace/app/
+/api/marketplace/collection/
 /api/measure/add/
 /api/measure/remove/
 /api/measure/update
@@ -4055,6 +4171,7 @@
 /api/portal/
 /api/portal/brandupdate/
 /api/portal?
+/api/portal?brand_id=
 /api/printrequest/config
 /api/printrequest/create
 /api/printrequest/quote
@@ -4099,6 +4216,7 @@
 /api/publishing/
 /api/publishing/appearance/
 /api/publishing/import/
+/api/publishing/publications?source_id=
 /api/publishing/template/
 /api/realtime_v2
 /api/reports/download/
@@ -4139,7 +4257,9 @@
 /api/session/sms_recover
 /api/session/sso_config
 /api/session/state
+/api/set
 /api/set/
+/api/set/add/
 /api/set/create/
 /api/set/data/
 /api/set/delete
@@ -4233,6 +4353,7 @@
 /api/user/accountlist
 /api/user/autocompletion?project_id=
 /api/user/create
+/api/user/email-verification
 /api/user/flags/
 /api/user/get/
 /api/user/info
@@ -4453,6 +4574,7 @@
 /base.svg
 /batch/payments/schedulers\
 /batch\
+/beacon/ov
 /billing\
 /biz
 /bldr
@@ -4515,6 +4637,7 @@
 /blog/denver/
 /blog/des-moines/
 /blog/detroit/
+/blog/dpr-construction-uber-for-business/
 /blog/drive/driver-feedback/
 /blog/drive/driver-products/
 /blog/drive/driver-promotions/
@@ -4793,6 +4916,8 @@
 /blog/sw.js?ver=1649164291463&amp;scope=en-DE
 /blog/sw.js?ver=1649164291646&amp;scope=en-DE
 /blog/sw.js?ver=1649164291646&amp;scope=en-US
+/blog/sw.js?ver=1651601790411&amp;scope=en-US
+/blog/sw.js?ver=1651601809805&amp;scope=en-US
 /blog/tacoma/
 /blog/tallahassee/
 /blog/tampa-bay/
@@ -4803,10 +4928,12 @@
 /blog/uber-freight-2022-market-outlook/
 /blog/uber-freight-h2-2021-market-insights/
 /blog/uber-freight-march-spot-market/
+/blog/uber-health-celebrates-moms/
 /blog/uber-listen/
 /blog/uber-one-corporate/
 /blog/uber-reveals-airport-award-winners/
 /blog/uber-us-insurance/
+/blog/uber-vouchers-new-features/
 /blog/updates/
 /blog/utah/
 /blog/vermont/
@@ -4924,6 +5051,7 @@
 /community
 /community/collections
 /community/collections/preview
+/community/feed
 /community/figjam
 /community/funfeed
 /community/plugins
@@ -4987,6 +5115,7 @@
 /cookbooks/
 /copy/
 /cors_proxy
+/country-code
 /create
 /create-ecdh
 /create-notice?key=
@@ -5000,6 +5129,7 @@
 /custom_settings.js
 /customization-metadata
 /customizations-metadata
+/cv/result/
 /daily
 /dashboard
 /dashboard*
@@ -5126,6 +5256,7 @@
 /elliptic
 /else
 /email-change-request
+/email-verification
 /email/unsubscribe
 /email/validate
 /embeddable
@@ -5554,6 +5685,7 @@
 /games
 /gateway/api/available-products/api/available-products
 /gateway/api/available-products/api/product-configuration
+/gateway/api/me
 /geocode/{query}.json
 /get-appointment-preview/
 /get-external-appointment
@@ -5691,6 +5823,7 @@
 /img/document/icon-document-basic.svg
 /img/document/icon-document-blank.svg
 /img/email/frontify-nook@2x.png
+/img/emailverificationpageimage.svg
 /img/emoji/sheet_apple_64_indexed_256.png
 /img/empty@2x.png
 /img/favicon-nook.png
@@ -5698,6 +5831,7 @@
 /img/filetypes/file-generic.svg
 /img/filetypes/file-url.svg
 /img/flags/round/
+/img/guideline/monobrand-logo.png
 /img/icon/
 /img/integrations/
 /img/integrations/app.svg
@@ -5727,6 +5861,8 @@
 /img/swal/limit-reached.png
 /img/swal/success.svg
 /img/swal/warning.svg
+/img/templatelibrary/
+/img/templatelibrary/arrow-out-external.svg
 /img/templatelibrary/brackets-curly-16.svg
 /img/templatelibrary/google-spreadsheet-24.svg
 /img/transparent.png
@@ -5962,6 +6098,7 @@
 /moogpoller
 /moogpoller/ws
 /moogsvr/mooms
+/move
 /move/
 /mru-list-records/\
 /mru-list-ui/\
@@ -6237,6 +6374,8 @@
 /related-list/\
 /related-list/batch/\
 /reload
+/remove
+/removeAll
 /renewMusicToken
 /replicatedDatasets$\
 /reporting/controls
@@ -6390,6 +6529,7 @@
 /session/refresh
 /sessions/in_sudo
 /set
+/sets
 /sets?
 /settings
 /settings*
@@ -6455,6 +6595,7 @@
 /software/jira/core
 /software/jira/service-desk
 /solutions
+/sort
 /spaces
 /spaces/
 /spaces/create
@@ -6677,6 +6818,7 @@
 /usage/:action?
 /user
 /user-details
+/user-email-verification
 /user-state
 /user-state\
 /user-types/
@@ -6847,6 +6989,7 @@
 /v1/me/recommendations
 /v1/me/recommendations/{id}
 /v1/me/storefront
+/v1/project/
 /v1/storefronts
 /v1/storefronts/{id}
 /v2/
@@ -8037,7 +8180,10 @@ PgUp/PgDn
 Play/Pause
 SHA-512/224
 SHA-512/256
+Shared/options.mod
+Shared/settings.mod
 Show/Hide
+Show/hide
 Sort/Filter
 Style/Icons/24px/Add
 Style/Icons/24px/Add_simple
@@ -8382,6 +8528,7 @@ build/yui/yui.js
 build/yuiloader/yuiloader-min.js
 build/yuiloader/yuiloader.js
 bur/mya
+call-bind/callBound
 chart.js
 charteditor/charteditor.css
 charteditor/charteditor_base.css
@@ -9471,6 +9618,9 @@ linkid.js
 linklist/fetchSuccess
 linklist/page_change
 links/table/
+listenerMiddleware/add
+listenerMiddleware/remove
+listenerMiddleware/removeAll
 lockup/software-add-on
 lockups/app
 lockups/app-event
@@ -9672,6 +9822,7 @@ recompose/withHandlers
 redux.action
 redux/reducers/tealium.js
 regenerator-runtime/runtime
+register/resendEmailConfirmation
 resources/enablement-links.csv
 review-v2-transpiled.js
 review.js
@@ -10027,6 +10178,8 @@ uber/main/202204111529
 uber/main/202204181102
 uber/main/202204211112
 uber/main/202204281642
+uber/main/202205091357
+uber/main/202205131048
 ui.html
 ui/appBarAriaLabel
 ui/appBarCommandAriaLabel
