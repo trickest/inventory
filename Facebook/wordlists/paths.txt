@@ -1544,6 +1544,7 @@
 /accounts/fb_profile/
 /accounts/fbsignup/
 /accounts/get_encrypted_credentials/
+/accounts/interest_topics/
 /accounts/korkdhlzibmtowhooplzvnqyfuxdmvqj/
 /accounts/login/
 /accounts/login/?next=%2Faccounts%2Flogin%2F
@@ -1630,6 +1631,7 @@
 /ads/ig_redirect/
 /ads/manage/summary/campaign/
 /ads/manager/account/settings/
+/ads/preferences/ad_topics/
 /ads/settings/
 /adsmanager
 /affiliate_management/
@@ -1691,6 +1693,7 @@
 /api/v1/business/account/create_whatsapp_link/
 /api/v1/business/account/get_professional_conversion_nux_configuration/
 /api/v1/business/account/get_public_business_contact_info
+/api/v1/business/account/get_public_business_contact_info/
 /api/v1/business/account/get_suggested_categories/
 /api/v1/business/account/get_top_categories/
 /api/v1/clips/discover/
@@ -1752,6 +1755,8 @@
 /api/v1/friendships/{user_id}/mutual_followers/
 /api/v1/guides/guide/
 /api/v1/highlights/{user_id}/highlights_tray/
+/api/v1/interest/author_interest_opt_in/
+/api/v1/interest/author_interest_opt_out/
 /api/v1/live/
 /api/v1/live/create/
 /api/v1/live/delete_question/
@@ -1803,6 +1808,7 @@
 /ar-studio/learn/documentation/async/nav/
 /ar/
 /ar/shopping/
+/aradscamera/?
 /asset-library/{?tab}/{?id}/
 /assets/
 /assets/device/wifi-enterprise/channelList.json
@@ -1894,6 +1900,7 @@
 /canvas.php
 /careers
 /careers-e68
+/catalog
 /categories/accounts/
 /cbrs
 /cbrs/devices/sectors/:subName/edit
@@ -2222,6 +2229,7 @@
 /help/resources
 /help/update_app_for_help/
 /help/{?*rest}/
+/help?ref=href021
 /hide/
 /history
 /home
@@ -2525,6 +2533,7 @@
 /organization/users/count
 /orgs
 /outage-events-feed-ads-transparency.rss
+/outage-events-feed-catalog.rss
 /outage-events-feed-commerce.rss
 /outage-events-feed-fbs.rss
 /outage-events-feed-graph-api.rss
@@ -2642,6 +2651,7 @@
 /reports/web/get_frx_prompt/
 /reports/web/handle_guided_action/
 /reports/web/log_tag_selected/
+/reports/web/notify_guardian/
 /reregistration.html
 /revive
 /root.php
@@ -2741,6 +2751,7 @@
 /static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png
 /static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png
 /static/images/appstore-install-badges/badge_microsoft_english-en.png/8a9204989bce.png
+/static/images/bloks/assets/ig_illustrations/illo_clock_refresh-1x-light.png/85038f7c0509.png
 /static/images/bloks/assets/ig_illustrations/illo_lock_clock_refresh-1x-dark.png/09d4436dd46a.png
 /static/images/circle_checkmark-2x.png/cf0036b91e96.png 2x
 /static/images/circle_checkmark.png/37abe7d57422.png
@@ -2872,6 +2883,7 @@
 /styles/v1/
 /submit
 /support/
+/support/chat/embed/ig/
 /survey/us2020/consent_withdraw/
 /switchGroup
 /switcher/placeholder
@@ -3013,6 +3025,7 @@
 /usr/src/app/frontend/common/components/SaveModalFooter/constants/index.js
 /usr/src/app/frontend/common/components/Spacer/index.jsx
 /usr/src/app/frontend/common/components/TopLevelAppErrorBoundary/TopLevelAppErrorBoundary.jsx
+/usr/src/app/frontend/common/components/TouchpointEditor/components/TouchpointNodes/Block/Block.tools.jsx
 /usr/src/app/frontend/common/components/TouchpointEditor/tools/BackgroundColorTools/BackgroundColorTools.jsx
 /usr/src/app/frontend/common/components/TouchpointEditor/tools/BackgroundColorTools/index.jsx
 /usr/src/app/frontend/common/components/TouchpointEditor/tools/BackgroundImageTools/BackgroundImageTools.jsx
@@ -3021,6 +3034,10 @@
 /usr/src/app/frontend/common/components/TouchpointEditor/tools/BorderTools/index.jsx
 /usr/src/app/frontend/common/components/TouchpointEditor/tools/FontTools/FontTools.jsx
 /usr/src/app/frontend/common/components/TouchpointEditor/tools/FontTools/index.jsx
+/usr/src/app/frontend/common/components/Typography/Body.jsx
+/usr/src/app/frontend/common/components/Typography/Headline.jsx
+/usr/src/app/frontend/common/components/Typography/SplashAppTitle.jsx
+/usr/src/app/frontend/common/components/Typography/Subheadline.jsx
 /usr/src/app/frontend/common/components/Upsells/UpsellModal/UpsellModal.jsx
 /usr/src/app/frontend/common/components/Workspace/Workspace.jsx
 /usr/src/app/frontend/common/components/Workspace/index.js
@@ -3246,11 +3263,13 @@
 /usr/src/app/frontend/common/icons/svg/refresh.svg
 /usr/src/app/frontend/common/icons/svg/remove-fill.svg
 /usr/src/app/frontend/common/icons/svg/remove-outline.svg
+/usr/src/app/frontend/common/icons/svg/search.svg
 /usr/src/app/frontend/common/icons/svg/settings.svg
 /usr/src/app/frontend/common/icons/svg/tablet.svg
 /usr/src/app/frontend/common/icons/svg/trash-small.svg
 /usr/src/app/frontend/common/icons/svg/trash.svg
 /usr/src/app/frontend/common/icons/svg/upload.svg
+/usr/src/app/frontend/common/schemas/event.js
 /usr/src/app/frontend/common/schemas/session.js
 /usr/src/app/frontend/common/store/eventUpdates/index.js
 /usr/src/app/frontend/common/store/eventUpdates/selectors.js
@@ -3258,6 +3277,7 @@
 /usr/src/app/frontend/common/store/ticketType/index.js
 /usr/src/app/frontend/common/store/ticketType/selectors.js
 /usr/src/app/frontend/common/store/userPermissions/index.js
+/usr/src/app/frontend/common/store/userProperties/selectors.js
 /usr/src/app/frontend/common/styles/breakpoints.js
 /usr/src/app/frontend/common/styles/colors.js
 /usr/src/app/frontend/common/styles/palette.js
@@ -3342,6 +3362,7 @@
 /usr/src/app/frontend/utils/fontLoader.js
 /usr/src/app/frontend/utils/getDomains.js
 /usr/src/app/frontend/utils/guestTrackingId.js
+/usr/src/app/frontend/utils/hooks/usePrevious.jsx
 /usr/src/app/frontend/utils/hooks/useRestoreFocus.jsx
 /usr/src/app/frontend/utils/id.js
 /usr/src/app/frontend/utils/insertInlineStylesAnchor/withInlineStylesAnchor.jsx
@@ -3488,6 +3509,8 @@
 /{vanity}/videos/{?set_token}/{video_id}/{?story_token}/{?*extra_junk}/
 0/cn-srv/report
 0/cn-srv/stats/
+01/31/2022
+1/graphqlsubscriptions/
 2/19/17
 Africa/Abidjan|Africa/Bamako
 Africa/Abidjan|Africa/Banjul
@@ -4483,6 +4506,7 @@ image/webp
 image/x-emf
 image/x-icon
 image/x-wmf
+images/bloks/assets/ig_illustrations/illo_clock_refresh-1x-light.png
 images/bloks/assets/ig_illustrations/illo_lock_clock_refresh-1x-dark.png
 images/circle_checkmark.png
 images/cnMaestro-gr-logo.png
