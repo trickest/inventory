@@ -2200,6 +2200,7 @@
 ./job-details/rides-job-details
 ./job-input
 ./jobs
+./js/frontify-styleguide/colorswatch.0f2a710802993d0262a9.js
 ./js/frontify-styleguide/colorswatch.28f314295f08432994a1.js
 ./js/frontify-styleguide/colorswatch.2ae859e8063ffb513130.js
 ./js/frontify-styleguide/colorswatch.3a3c82cfbbf8edc027fa.js
@@ -2222,6 +2223,7 @@
 ./js/frontify-styleguide/colorswatch.f118dc965656a61a0881.js
 ./js/frontify-styleguide/colorswatch.f7c53e99210289c0bbd5.js
 ./js/frontify-upload.worker.1919face20368202c03b.worker.js
+./js/frontify-upload.worker.ec8ceeb160896ba62b3d.worker.js
 ./jv
 ./jv.js
 ./jw
@@ -3588,6 +3590,7 @@
 /:languageCountryPair?/dish/:slugName
 /:languageCountryPair?/dish/:slugName/:secondarySlugName
 /:languageCountryPair?/eats-pass/
+/:languageCountryPair?/educational-marketing-feed/
 /:languageCountryPair?/favorites/
 /:languageCountryPair?/feed
 /:languageCountryPair?/feed/
@@ -3659,6 +3662,7 @@
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/payment/edit/
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/payment/profile/:profileUuid?/select-meal-program
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/payment/select-intent
+/:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/repeat-group-order
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/time-up/
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/limited-delivery-tracking
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/nugget/:nuggetType
@@ -3933,6 +3937,7 @@
 /api/asset-analytics/bar-chart
 /api/asset-analytics/line-chart
 /api/asset-analytics/metric
+/api/asset-analytics/search/table
 /api/asset-approval
 /api/asset-approval-response
 /api/asset-approval/
@@ -4056,6 +4061,7 @@
 /api/file/init
 /api/file/progress
 /api/file/upload
+/api/font
 /api/general/city_codes
 /api/general/components
 /api/general/components/
@@ -4288,6 +4294,8 @@
 /api/styleguide/document/
 /api/styleguide/page/
 /api/styleguide/recover
+/api/subscription
+/api/subscription/
 /api/tag
 /api/tag?search_term=
 /api/target/bytype
@@ -4575,6 +4583,7 @@
 /batch/payments/schedulers\
 /batch\
 /beacon/ov
+/billing-information
 /billing\
 /biz
 /bldr
@@ -4610,6 +4619,7 @@
 /blog/boulder/
 /blog/business-ancestry-holiday-uber-eats-gift-cards/
 /blog/business-holiday-rides-gifts/
+/blog/business-traveler-well-being-tips/
 /blog/business/
 /blog/business/page/2
 /blog/california/
@@ -4718,6 +4728,7 @@
 /blog/nashville/
 /blog/nebraska/
 /blog/nevada/
+/blog/new-driver-courier-support/
 /blog/new-england/
 /blog/new-hampshire/
 /blog/new-jersey/
@@ -4918,6 +4929,8 @@
 /blog/sw.js?ver=1649164291646&amp;scope=en-US
 /blog/sw.js?ver=1651601790411&amp;scope=en-US
 /blog/sw.js?ver=1651601809805&amp;scope=en-US
+/blog/sw.js?ver=1651601809857&amp;scope=en-US
+/blog/sw.js?ver=1651601847443&amp;scope=en-US
 /blog/tacoma/
 /blog/tallahassee/
 /blog/tampa-bay/
@@ -5052,6 +5065,7 @@
 /community/collections
 /community/collections/preview
 /community/feed
+/community/feed/search
 /community/figjam
 /community/funfeed
 /community/plugins
@@ -5705,6 +5719,9 @@
 /groups
 /guest-add
 /guideline
+/guideline/
+/guideline/:project_id
+/guideline/:project_id/:id?
 /guidelines
 /h/
 /hamlet
@@ -5804,6 +5821,7 @@
 /img/blankslate/chooser/blankslate-2.svg
 /img/blankslate/chooser/blankslate-3.svg
 /img/blankslate/duplicate-detection/blank-slate.png
+/img/blankslate/duplicate-detection/blank-slate@1x.png
 /img/blankslate/guideline/guidelines@1x.png
 /img/blankslate/library/assets@1x.png
 /img/blankslate/library/documentlibrary@1x.png
@@ -5831,6 +5849,8 @@
 /img/filetypes/file-generic.svg
 /img/filetypes/file-url.svg
 /img/flags/round/
+/img/guideline/image-1.png
+/img/guideline/image-2.png
 /img/guideline/monobrand-logo.png
 /img/icon/
 /img/integrations/
@@ -5903,6 +5923,7 @@
 /introspect
 /introspect_projects
 /introspect_some
+/invoice
 /ios/app-store/
 /item
 /item/
@@ -5992,6 +6013,7 @@
 /login?uber_client_name=base&amp;
 /login_iframe
 /loginpagebuilder
+/loginpagebuilder/preview
 /logo
 /logo-aws.svg
 /logo-azure.svg
@@ -6099,6 +6121,7 @@
 /moogpoller/ws
 /moogsvr/mooms
 /move
+/move-to-trash
 /move/
 /mru-list-records/\
 /mru-list-ui/\
@@ -6226,6 +6249,7 @@
 /policyfiles/
 /policygroups/
 /poll
+/popular
 /position
 /prc/configure-and-retrain
 /pre-checkout
@@ -6403,6 +6427,7 @@
 /resetpassword
 /resize/
 /resource/
+/restore-from-trash
 /retry
 /review
 /reviews-disclaimer
@@ -6611,6 +6636,7 @@
 /start-group-order/payment/edit/
 /start-group-order/payment/profile/
 /start-group-order/payment/select-intent
+/start-group-order/repeat-group-order
 /start-new-order
 /start-new-quick-add-order
 /start_google_sso
@@ -9911,10 +9937,12 @@ settings/node-credentials
 settings/node-integrations
 settings/node-lifecycle
 settings/notifications
+sha384-/iQ3pP5Zp4fD1rguiVgUcA3QJDibOZveudin4X8yHdfRi2QqesZ/FnO4f4VjeD8/
 sha384-gcMWyJurhs2OxKnLeJqCvLoRV/QghIiqjOme29q6JkyYNVHkVmiLiwnzz6TtRlzd
 sha384-uObFsIlmV0TvXnvnUvEhhDHEbjC4zBHwRA8tg/f0CcVHlIG0XlMAK1oHeK06zBCe
 sha512/224
 sha512/256
+she/her/hers
 shipment/order-confirmation
 sig/similarity
 sig/thread
