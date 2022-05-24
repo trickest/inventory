@@ -9904,6 +9904,8 @@ Race/Ethnicity
 Radiation/Sun
 STST-SM-0000/signalname
 Smoke/Smoldering
+Sponsorship/SaveSponsorshipInitiationWithSchema
+Sponsorship/SaveSponsorshipInitiationWithSchema?isReInitiate=true
 Stat/region
 State/Province
 State/Province/Region
@@ -10804,6 +10806,7 @@ business-process-reasons/termination-reasons
 cXgi/zI4
 cache/localStorage/expired
 cache/localStorage/hit
+candidate/SubmitEligibilityCheckRequest
 career-admin/components/career-path
 career-admin/components/career-versatility-dashboard
 career-admin/components/role-plans
@@ -14179,6 +14182,7 @@ forms/formConditions/
 forms/partner/jobSearch?genericSearch=
 forms/search
 forms/ts/formBuilder/form_builder_example.ts
+formsprocess/GetDynamicFormTemplate
 funnel/collection/add-apps-button-clicked/create-collection
 funnel/collection/add-apps-button-clicked/edit-collection
 funnel/collection/app-selection-toggled/create-collection
@@ -14550,6 +14554,13 @@ next/router
 no/type
 objectdata.xml
 octet/stream
+offer/GetOfferCompensationRangeDetails?jobCode=
+offer/GetOfferFormInfoWithSchema?candidateID=
+offer/GetOfferFormMasterData?headcountID=
+offer/GetOfferHeaderFormMasterData/
+offer/GetOfferMetaData/
+offer/GetRelocationCost/
+offer/UpdateOffer
 onboarding/CreateOnboardingRequest
 onboarding/CustomTemplate/upload
 onboarding/DeleteMySearch/
@@ -14696,6 +14707,7 @@ redirect/addApplications
 redux.action
 regenerator-runtime/runtime
 request/failed
+requisition/GetRequisitionById/
 reset/CANCEL_MFA_CANCEL
 reset/CANCEL_MFA_FAILURE
 reset/CANCEL_MFA_REQUEST
