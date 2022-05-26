@@ -3902,6 +3902,7 @@
 /api/account/trial-extend/
 /api/account/update
 /api/account/usage/storage
+/api/account/usage/storage?invocation_source=
 /api/account/usage/user
 /api/account/users
 /api/account/users-export
@@ -4017,6 +4018,8 @@
 /api/communicationsetting/
 /api/communicationsetting?
 /api/context
+/api/custom-route
+/api/custom-route/
 /api/dashboard
 /api/dashboard/
 /api/development/flag/
@@ -4278,8 +4281,10 @@
 /api/storyteq-template
 /api/streams
 /api/streams/
+/api/styleguide-analytics/bar-chart
 /api/styleguide-analytics/line-chart
 /api/styleguide-analytics/metric
+/api/styleguide-analytics/search/table
 /api/styleguide-folder
 /api/styleguide-folder/
 /api/styleguide-link
@@ -4296,6 +4301,7 @@
 /api/styleguide/recover
 /api/subscription
 /api/subscription/
+/api/subscription?account_id=
 /api/tag
 /api/tag?search_term=
 /api/target/bytype
@@ -4537,6 +4543,7 @@
 /assets/img/bubble.svg
 /assets/img/data-feed.svg
 /assets/img/logos/AutomateLogo-default.svg
+/assets/img/logos/BannerLogo.svg
 /assets/img/no_preview.gif
 /assets/img/nodes.svg
 /assets/img/profiles.svg
@@ -4697,6 +4704,7 @@
 /blog/kentucky/
 /blog/las-vegas/
 /blog/las-vegas/business/page/2
+/blog/launching-uberx-share/
 /blog/legal/
 /blog/lexington/
 /blog/los-angeles/
@@ -4711,6 +4719,7 @@
 /blog/maryland/
 /blog/massachusetts/
 /blog/maui/
+/blog/meet-uberx-share/
 /blog/memphis/
 /blog/merchants/
 /blog/merchants/merchant-products/
@@ -4931,7 +4940,10 @@
 /blog/sw.js?ver=1651601809805&amp;scope=en-US
 /blog/sw.js?ver=1651601809857&amp;scope=en-US
 /blog/sw.js?ver=1651601847443&amp;scope=en-US
+/blog/sw.js?ver=1651601847746&amp;scope=en-US
+/blog/sw.js?ver=1651601868840&amp;scope=en-US
 /blog/sw.js?ver=1651601908509&amp;scope=en-DE
+/blog/sw.js?ver=1651601948606&amp;scope=en-DE
 /blog/tacoma/
 /blog/tallahassee/
 /blog/tampa-bay/
@@ -5216,6 +5228,7 @@
 /docs/riders/ride-requests/tutorials/deep-links/introduction
 /docs/riders/terms-of-use
 /document/
+/documents
 /domain-management*
 /domain-management/*
 /domain-management/routes
@@ -5832,6 +5845,7 @@
 /img/blankslate/library/medialibrary-drop.png
 /img/blankslate/library/templatelibrary@1x.png
 /img/blankslate/library/textlibrary@1x.png
+/img/blankslate/marketplace/blankslate.svg
 /img/blankslate/project/assets@1x.png
 /img/blankslate/project/drop-create-folder.png
 /img/blankslate/project/projects@1x.png
@@ -6084,6 +6098,7 @@
 /meta/unsubscribe
 /meta/unsuccessful
 /metadata
+/metadata-field
 /metadata/relations
 /methods
 /methods/categories
@@ -6186,6 +6201,7 @@
 /opp/oppteam.apexp\
 /options
 /orders/
+/organization
 /organizations
 /organizations/
 /organizations/:organizationId
@@ -6837,6 +6853,7 @@
 /undefined
 /unified-eats-receipts/
 /unified-ride-receipts/
+/uninstall
 /unpublish
 /unsubscribe
 /updates
