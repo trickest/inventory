@@ -824,6 +824,7 @@
 ./book.d.ts
 ./book.js
 ./boot-data.js
+./boot.js
 ./borders.less
 ./bots.js
 ./br
@@ -831,6 +832,7 @@
 ./braintree-error
 ./branch/16.js
 ./branch/24.js
+./broadcast-keywords.js
 ./browser-detection
 ./bs
 ./bs.js
@@ -961,7 +963,10 @@
 ./classroom-license-request/classroom-license-request-page/classroom-license-request-page
 ./client
 ./clipboard-action
+./clipboard.js
+./clog-types.js
 ./clog-workspace-setting-submit.js
+./clog.js
 ./closest
 ./code
 ./code-WLXKCESA.fe70f8da.js
@@ -1052,6 +1057,7 @@
 ./cs-CZ.json
 ./cs.js
 ./cs.json
+./currency.js
 ./custom-panel-FP5U4N5W.f5917e4a.js
 ./cv
 ./cv.js
@@ -1072,6 +1078,7 @@
 ./datasourcePublishSuccessDialog.styl
 ./datasourceRemoteQueryAgent.styl
 ./date-UZDISVKR.a469ee3f.js
+./datetime.js
 ./de
 ./de-DE.json
 ./de-at
@@ -1081,6 +1088,7 @@
 ./de.js
 ./de.json
 ./de/messages.json
+./debug.js
 ./debuggability
 ./decision
 ./decision-NUGIDKBX.62196b90.js
@@ -1100,6 +1108,7 @@
 ./department.d
 ./department.d.ts
 ./department.js
+./desktop.js
 ./detail-view
 ./detail-view.d
 ./detail-view.d.ts
@@ -1570,6 +1579,7 @@
 ./encode
 ./encode-consent-token
 ./enhanceError
+./enterprise/analytics/measure-enterprise-analytics-first-page-render.jsx
 ./enterprise/analytics/mount-analytics-channels.jsx
 ./enterprise/analytics/mount-analytics-members.jsx
 ./enterprise/analytics/mount-analytics-overview.jsx
@@ -1616,6 +1626,7 @@
 ./enterprise/mount-workspace-directory.jsx
 ./enterprise/rimeto/mount-atlas-configure-profile.tsx
 ./enumerate
+./environment.js
 ./eo
 ./eo.js
 ./epic/16.js
@@ -1710,6 +1721,7 @@
 ./file.d.ts
 ./file.js
 ./fileInput.styl
+./files.js
 ./filter
 ./filter.d
 ./filter.d.ts
@@ -1755,6 +1767,7 @@
 ./fonts.less
 ./form
 ./form.js
+./format.js
 ./forms.styl
 ./fr
 ./fr-FR.json
@@ -2039,6 +2052,7 @@
 ./hu.json
 ./hy-am
 ./hy-am.js
+./i18n.js
 ./icons.js
 ./icons.styl
 ./id
@@ -2816,6 +2830,7 @@
 ./notification.d
 ./notification.d.ts
 ./notification.js
+./notifications.js
 ./oc-lnc
 ./oc-lnc.js
 ./office-building
@@ -2832,6 +2847,8 @@
 ./open
 ./open-app-management-modal.js
 ./open-invite-member-to-channel-dialog.js
+./open-promo-code-modal.js
+./open-promo-terms-modal.js
 ./open-source-license-request/open-source-license-request-page
 ./open-source-license-request/open-source-license-request-page/open-source-license-request-page
 ./open.d
@@ -3247,6 +3264,7 @@
 ./refreshModePicker.styl
 ./region_config
 ./region_config.json
+./register-global-error-handler.js
 ./registry
 ./remoteAgents.styl
 ./remoteRefreshCustomScheduleDialog.styl
@@ -3393,6 +3411,7 @@
 ./services/sts
 ./set
 ./set-app-element-for-react-modal.js
+./set-team-id-for-token.js
 ./settings
 ./settings.d
 ./settings.d.ts
@@ -3814,12 +3833,14 @@
 ./task.js
 ./task/16.js
 ./task/24.js
+./tax-utils.js
 ./tbAuthenticationProviderSelector.styl
 ./tbTabSet.styl
 ./te
 ./te.js
 ./team-site-nav.js
 ./teams.js
+./telemeter.js
 ./tet
 ./tet.js
 ./textBox.styl
@@ -3833,6 +3854,7 @@
 ./th.json
 ./thenables
 ./thread-reply
+./threads.js
 ./three-d-secure
 ./thumbnail.styl
 ./tileCreation.html
@@ -3918,6 +3940,7 @@
 ./ur
 ./ur.js
 ./url-builder.js
+./url.js
 ./us-bank-account
 ./user-avatar-circle
 ./user-avatar-circle.d
@@ -3935,6 +3958,7 @@
 ./using.js
 ./util
 ./util.js
+./utility.js
 ./utility/a11y.js
 ./utility/broadcast-keywords.js
 ./utility/client-action-token.js
@@ -5021,6 +5045,7 @@
 /admins
 /admins-and-agents
 /adsct?type=javascript&amp;version=2.3.1&amp;p_id=Twitter&amp;p_user_id=0
+/adsct?type=javascript&amp;version=2.3.12&amp;p_id=Twitter&amp;p_user_id=0
 /adsct?type=javascript&amp;version=2.3.2&amp;p_id=Twitter&amp;p_user_id=0
 /agents
 /agreements/approve
@@ -6796,10 +6821,12 @@
 /manage/vendors/{partnerId}/promos/{promotionId}/codes
 /manage/vendors/{partnerId}/promos/{promotionId}/details
 /manage/vendors/{partnerId}/promos/{promotionId}/pricing
+/manage/vendors/{partnerId}/report/{reportName}/details/{text}
 /manage/vendors/{partnerId}/reporting/feedback?metric=reason&amp;period=past90Days
 /manage/vendors/{partnerId}/reporting/feedback?period=past90Days
 /manage/vendors/{partnerId}/reporting/sales
 /manage/vendors/{partnerId}/reporting/sales?period=past90Days
+/manage/vendors/{partnerId}/reporting/{reportName}
 /manage/vendors/{partnerId}/security
 /manifest.json
 /manifest/
@@ -6926,6 +6953,7 @@
 /o/:orgId/billing
 /o/:orgId/billing-preview
 /o/:orgId/changelog
+/o/:orgId/changelog/:changelogId
 /o/:orgId/data-residency
 /o/:orgId/data-residency/cloudId/:cloudId/product/:productType/apps
 /o/:orgId/data-security-policies
@@ -7144,6 +7172,7 @@
 /platform/app-migration-service/
 /platform/app-migration/
 /platform/asap/
+/platform/asset-attribution/
 /platform/atlas-bot/
 /platform/atlas-cli/
 /platform/atlassian-document-format/
@@ -7155,6 +7184,7 @@
 /platform/atlops/
 /platform/audit-log/
 /platform/avocado/
+/platform/aws-account-provisioning-api/
 /platform/bbc-ad-sync/
 /platform/bifrost/
 /platform/billing-api-gateway/
@@ -7181,7 +7211,9 @@
 /platform/data-vaults/
 /platform/developer-101/
 /platform/devops-container-relationships/
+/platform/disaster-recovery/
 /platform/druid-platform-service/
+/platform/edge-services-docs/
 /platform/entitlement-templates/
 /platform/entity-relationship-store/
 /platform/esp-integrators/
@@ -7221,6 +7253,8 @@
 /platform/marketplace/
 /platform/marketplace/atlassian-developer-terms/
 /platform/media/
+/platform/metadata-artifactory/
+/platform/metadata-bitbucket-connect/
 /platform/metadata-spinnaker/
 /platform/metadata/
 /platform/metal/
@@ -7490,6 +7524,7 @@
 /rename slash command
 /renew
 /renew/server
+/report/:reportName/details/:text
 /reporting
 /reporting/
 /reporting/:reportName
@@ -7696,6 +7731,8 @@
 /s/:cloudId/user-connected-apps/:appId/:tab
 /s/:cloudId/user-connected-apps/:oAuthClientId
 /s/:cloudId/user-connected-apps/:oAuthClientId/:tab
+/s/:cloudId/user-connected-apps/connect/:appKey
+/s/:cloudId/user-connected-apps/connect/:appKey/:tab
 /s/:cloudId/users
 /s/:cloudId/users/:userId
 /s/:cloudId/users/add
@@ -7889,6 +7926,7 @@
 /slack-connect/connections/
 /slack-connect/settings
 /slack/auth
+/slack/auth-redirect?login=true&amp;redirectPath=
 /slackTriageThread
 /slack_diagnostic_report
 /slackaccessibility slash command
@@ -14017,6 +14055,7 @@ siteconfigurator/SET_UPDATED_ANNUAL_CART
 siteconfigurator/SET_UPDATED_BIENNIAL_CART
 slack-connect-accept-errors/handleOtherWorkspaceClick
 slack-connect/connections
+slack/auth?destination=
 slack/texty
 software/buy/ROUTE
 software/confluence/
