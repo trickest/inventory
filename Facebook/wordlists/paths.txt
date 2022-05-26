@@ -1507,6 +1507,7 @@
 /account/
 /account/:subName/{navContext:[\\w\\-]+}/{subContext:.*}
 /account/orders/recent/
+/account/referrals/
 /accounts/access_tool/
 /accounts/account_privacy
 /accounts/account_recovery_ajax/
@@ -1628,6 +1629,8 @@
 /administrator
 /ads
 /ads-transparency
+/ads/activity/feed/
+/ads/activity/story/
 /ads/ig_redirect/
 /ads/manage/summary/campaign/
 /ads/manager/account/settings/
@@ -1750,6 +1753,7 @@
 /api/v1/friendships/pending/
 /api/v1/friendships/show/{target_user_id}/
 /api/v1/friendships/show_many/
+/api/v1/friendships/update_feed_favorites/
 /api/v1/friendships/{user_id}/followers/
 /api/v1/friendships/{user_id}/following/
 /api/v1/friendships/{user_id}/mutual_followers/
@@ -1911,6 +1915,7 @@
 /chat/user_info/
 /chat/user_info_all/
 /check_access_key.ns?access_key_pretty=
+/checkout/
 /child::$1
 /choices.tpl.html
 /click.php
@@ -4391,11 +4396,13 @@ cookie/consent
 core/customize-widgets
 core/data
 core/edit-post
+core/edit-site
 core/edit-widgets
 core/editor
 core/i18n
 core/interface
 core/module
+core/preferences
 core/rich-text
 core/text-color
 core/theme
