@@ -312,6 +312,7 @@ http://cascade.uberinternal.com:80 [null] [401] [103] ["application/json"] ["104
 http://casper.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://casper.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://casper.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://catalog.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://catalog.uberinternal.com/"] ["ufe"] [null] [];
+http://cbi.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://cbi.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://cc-staging.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://cc-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://cc.uberinternal.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["104.36.195.150"] ["https://cc.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://ccstore-backend.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://ccstore-backend.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -2078,7 +2079,7 @@ http://tour.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.12
 http://tps.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://tps.uberinternal.com/"] ["ufe"] [null] [];
 http://trace.uberinternal.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://trace.uberinternal.com/"] ["ufe"] [["Google Cloud"]] [];
 http://trace.uberinternal.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
-http://track.spmail.uber.com:80 ["404 Not Found"] [404] [561] ["text/plain"] ["44.228.58.115"] [null] ["msys-http"] [null] [];
+http://track.spmail.uber.com:80 ["404 Not Found"] [404] [561] ["text/plain"] ["52.42.46.42"] [null] ["msys-http"] [null] [];
 http://track.uber.com:80 [null] [301] [null] [null] ["34.98.127.226"] ["https://track.uber.com/"] ["ufe"] [["Google Cloud"]] [];
 http://track.uber.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://tracker.uberinternal.com:80 [null] [301] [null] [null] ["104.36.195.150"] ["https://tracker.uberinternal.com/"] ["ufe"] [null] [];
@@ -2139,7 +2140,7 @@ http://ubereats.com:80 ["301 Moved Permanently"] [301] [166] ["text/html"] ["34.
 http://ubereats.com:8080 ["404 Not Found"] [404] [277] ["text/html"] ["34.98.127.226"] [null] [null] [null] [];
 http://uberhealth-staging.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uberhealth-staging.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://uberhealth-tools.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uberhealth-tools.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
-http://uberhub.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [653] ["text/html"] ["149.96.251.71"] [null] ["snow_adc"] [null] [];
+http://uberhub.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [251] ["text/html"] ["149.96.251.71"] [null] ["snow_adc"] [null] [];
 http://uberhub.uberinternal.com:80 [null] [302] [null] [null] ["149.96.251.71"] ["https://uberhub.uberinternal.com/"] ["snow_adc"] [null] [];
 http://uberhubdev.uberinternal.com:80 [null] [302] [null] [null] ["149.96.251.71"] ["https://uberhubdev.uberinternal.com/"] ["snow_adc"] [null] [];
 http://uberhubtest.uberinternal.com:80 [null] [302] [null] [null] ["149.96.251.71"] ["https://uberhubtest.uberinternal.com/"] ["snow_adc"] [null] [];
@@ -4198,7 +4199,7 @@ https://totalrewards.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"
 https://tour.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["34.98.127.226"] [null] ["ufe"] [["Envoy","Google Cloud"]] [];
 https://tps.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://trace.uberinternal.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
-https://track.spmail.uber.com:443 ["404 Not Found"] [404] [159] ["text/plain"] ["44.228.58.115"] [null] ["msys-http"] [null] [];
+https://track.spmail.uber.com:443 ["404 Not Found"] [404] [159] ["text/plain"] ["52.42.46.42"] [null] ["msys-http"] [null] [];
 https://track.uber.com:443 [null] [301] [null] [null] ["34.98.127.226"] [null] ["ufe"] [["Google Cloud"]] [];
 https://tracker.uberinternal.com:443 [null] [301] [null] [null] ["104.36.195.150"] [null] ["ufe"] [null] [];
 https://tracktivity.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];

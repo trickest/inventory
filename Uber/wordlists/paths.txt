@@ -3640,6 +3640,9 @@
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customization-metadata
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customization-metadata/:productDetailsUuid
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/customizations-metadata
+/:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/out-of-items
+/:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/out-of-items/backup-items
+/:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/out-of-items/do-not-replace
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/promotion-details
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/:subsectionUuid/:menuItemUuid/start-new-order
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid/start-new-quick-add-order
@@ -3656,6 +3659,7 @@
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/edit-deadline
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/edit-delivery-address
+/:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/edit-group-size
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/edit-name
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/edit-spending-limit
 /:languageCountryPair?/store/:storeSlug/:encodedStoreUuid/:sectionUuid?/start-group-order/payment/edit
@@ -4939,6 +4943,7 @@
 /blog/sw.js?ver=1651601790411&amp;scope=en-US
 /blog/sw.js?ver=1651601809805&amp;scope=en-US
 /blog/sw.js?ver=1651601809857&amp;scope=en-US
+/blog/sw.js?ver=1651601809895&amp;scope=en-US
 /blog/sw.js?ver=1651601847443&amp;scope=en-US
 /blog/sw.js?ver=1651601847746&amp;scope=en-US
 /blog/sw.js?ver=1651601868840&amp;scope=en-US
@@ -6650,6 +6655,7 @@
 /start-group-order
 /start-group-order/edit-deadline
 /start-group-order/edit-delivery-address
+/start-group-order/edit-group-size
 /start-group-order/edit-name
 /start-group-order/edit-spending-limit
 /start-group-order/payment/edit/
