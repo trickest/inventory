@@ -7820,6 +7820,7 @@
 /portal/api/me/password?portalId=
 /portal/api/me/photo?portalId=
 /portal/api/me?portalId=
+/portal/api/mentions?from=
 /portal/api/myLayouts?portalId=
 /portal/api/pageMetaInfo?portalId=
 /portal/api/portalUser/
@@ -14655,6 +14656,7 @@ offer/GetRelocationCost/
 offer/UpdateOffer
 onboarding/CreateOnboardingRequest
 onboarding/CustomTemplate/upload
+onboarding/DeleteCustomTemplate/
 onboarding/DeleteMySearch/
 onboarding/DownloadAuditFromAgreementId/
 onboarding/DownloadDashboardData
@@ -14679,6 +14681,7 @@ onboarding/PostOnboardingData
 onboarding/ResetTasks/
 onboarding/SaveCommentsForOnboardingInquiry
 onboarding/SaveMySearch
+onboarding/UpdateCustomTemplate
 onboarding/UpdateOwner
 onboarding/UpdateOwnerConfig
 onboarding/UploadCustomAgreement
