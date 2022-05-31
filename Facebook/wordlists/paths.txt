@@ -1508,6 +1508,7 @@
 /account/:subName/{navContext:[\\w\\-]+}/{subContext:.*}
 /account/orders/recent/
 /account/referrals/
+/accountquality/ufac/
 /accounts/access_tool/
 /accounts/account_privacy
 /accounts/account_recovery_ajax/
@@ -1631,7 +1632,9 @@
 /ads-transparency
 /ads/activity/feed/
 /ads/activity/story/
+/ads/boosted_components/fetch_button_data/
 /ads/ig_redirect/
+/ads/lift/report/
 /ads/manage/summary/campaign/
 /ads/manager/account/settings/
 /ads/preferences/ad_topics/
@@ -1916,6 +1919,7 @@
 /chat/user_info_all/
 /check_access_key.ns?access_key_pretty=
 /checkout/
+/checkpoint/1501092823525282/{?enrollment_id}/
 /child::$1
 /choices.tpl.html
 /click.php
@@ -1971,6 +1975,7 @@
 /commerce_manager/onboarding/
 /commerce_manager/onboarding_landing/
 /commerce_manager/{account_id}/orders/{order_id}/{?status}/{?case_id}/
+/commerce_manager/{account_id}/promotions/discounts/{flow}/{?discount_id}/
 /commerce_manager/{account_id}/settings/{tab}/
 /commerce_manager/{account_id}/{?tab}/
 /community/events
@@ -2353,6 +2358,7 @@
 /hubs/items
 /hubs/with/event/
 /i18n/{part}/locale-{lang}.json
+/id/{?param_primary}/{?param_secondary}/
 /ignore/
 /igtv/configure_to_igtv/
 /images/
@@ -2560,6 +2566,8 @@
 /packetLoss.html
 /page/instagram/oauthlink/
 /page/instagram/oauthlink/update/
+/pages/admin/ban_user/
+/pages/admin/unban_from_page/
 /pages/creation/
 /pages/edit/pagevisibility/save/{page_id}/
 /pages/nux_selector/
@@ -2635,6 +2643,7 @@
 /push/web/settings/
 /push/web/update_settings/
 /q4api/v3/anticsrf
+/qp/action/log/
 /qp/batch_fetch_web/
 /qr/
 /r.php
@@ -2715,6 +2724,7 @@
 /settings/reactivation/
 /settings/{?tab}/{?asset_id}/
 /settings/{navContext:.+}
+/share/dialog/submit/
 /shared/cbrs/mapping.json
 /shared/common/devices.json
 /shared/notification/mappings.json
@@ -3385,6 +3395,7 @@
 /v4/marker/pin-
 /video.php
 /video/drm/getlicense
+/video/edit/
 /video/unified_cvc/
 /video/video.php
 /video_redirect/
@@ -4445,6 +4456,7 @@ entity_presence/skipped_ping
 ev-emitter/ev-emitter
 excalidraw/clipboard
 expect.js
+fbjs/lib/CSSCore
 fbjs/lib/ExecutionEnvironment
 fbjs/lib/emptyFunction
 fbjs/lib/emptyObject
