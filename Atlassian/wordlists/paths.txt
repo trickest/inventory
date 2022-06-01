@@ -3980,6 +3980,7 @@
 ./utility/versions.js
 ./utils
 ./utils/date-time
+./utils/get-endpoint-base-path
 ./utils/lazy-load-script
 ./uz
 ./uz-latn
@@ -6055,6 +6056,7 @@
 /goals?cloudId=
 /gpa-cross-flow/
 /graphql
+/graphql?q=MyTeams
 /group?copyMetadataToUngroupedItems=
 /groups
 /grow-your-business/
@@ -11505,6 +11507,7 @@ index.js
 initialization.html
 inline_stackedElement.html
 insights/page-byline
+insights/page-dialog
 inviteTeamMember/openDialog
 inviteTeamMember/submit
 issuers/ideal
@@ -12605,6 +12608,7 @@ packages/design-system/page-layout/examples/20-controlled-left-sidebar.tsx
 packages/design-system/page-layout/examples/25-server-rendered.tsx
 packages/design-system/page-layout/examples/30-custom-skip-links.tsx
 packages/design-system/page-layout/examples/35-locked-sidebar.tsx
+packages/design-system/page-layout/examples/40-sidebar-controller.tsx
 packages/design-system/page-layout/package.json
 packages/design-system/page/CHANGELOG.md
 packages/design-system/page/docs/0-intro.tsx
@@ -13074,6 +13078,7 @@ packages/editor/editor-core/examples/5-full-page-without-edit-custom-panel.tsx
 packages/editor/editor-core/examples/5-full-page.tsx
 packages/editor/editor-core/examples/6-copy-paste.tsx
 packages/editor/editor-core/examples/88-media-embed-html-source.tsx
+packages/editor/editor-core/examples/99-copy-paste-testing.tsx
 packages/editor/editor-core/examples/99-testing-collaborative-editing-catchup.tsx
 packages/editor/editor-core/examples/99-testing.tsx
 packages/editor/editor-core/examples/99-vr-testing.tsx
@@ -13170,6 +13175,7 @@ packages/editor/renderer/examples/2-with-providers-and-portal.tsx
 packages/editor/renderer/examples/20-renderer-actions.tsx
 packages/editor/renderer/examples/21-annotations.tsx
 packages/editor/renderer/examples/22-placeholder-enabled.tsx
+packages/editor/renderer/examples/23-with-mock-template-variables.tsx
 packages/editor/renderer/examples/3-with-providers-and-portal-and-extension.tsx
 packages/editor/renderer/examples/5-with-text-serializer.tsx
 packages/editor/renderer/examples/7-dac-viewer.tsx
@@ -13216,6 +13222,7 @@ packages/elements/emoji/examples/20-emoji-ssr-hydration.tsx
 packages/elements/emoji/examples/21-emoji-ufo-with-real-resource.tsx
 packages/elements/emoji/examples/21-emoji-ufo.tsx
 packages/elements/emoji/examples/22-resourced-emoji-real-resource-backend.tsx
+packages/elements/emoji/examples/23-sprite-emoji.tsx
 packages/elements/emoji/package.json
 packages/elements/mention/CHANGELOG.md
 packages/elements/mention/docs/0-intro.tsx
@@ -13521,8 +13528,11 @@ packages/media/media-viewer/examples/2-layer-stacking.tsx
 packages/media/media-viewer/examples/3-data-source-priority.tsx
 packages/media/media-viewer/examples/4-open-from-card.tsx
 packages/media/media-viewer/examples/5-mocked-viewer.tsx
+packages/media/media-viewer/examples/5-vr-mocked-viewer.tsx
 packages/media/media-viewer/examples/6-sidebar.tsx
 packages/media/media-viewer/examples/7-empty-file.tsx
+packages/media/media-viewer/examples/7-vr-empty-file.tsx
+packages/media/media-viewer/examples/8-vr-archive-side-bar.tsx
 packages/media/media-viewer/package.json
 packages/media/smart-card/CHANGELOG.md
 packages/media/smart-card/docs/0-intro.tsx
@@ -13669,6 +13679,7 @@ packages/navigation/atlassian-navigation/examples/create-with-link.tsx
 packages/navigation/atlassian-navigation/examples/create.tsx
 packages/navigation/atlassian-navigation/examples/custom-product-home.tsx
 packages/navigation/atlassian-navigation/examples/help-button.tsx
+packages/navigation/atlassian-navigation/examples/logo-max-width.tsx
 packages/navigation/atlassian-navigation/examples/notifications.tsx
 packages/navigation/atlassian-navigation/examples/overflow-menu.tsx
 packages/navigation/atlassian-navigation/examples/primary-button.tsx
@@ -13896,6 +13907,8 @@ prefs-api/setUserPrefByApi
 prefs-store/resetChannelNotificationOverride
 prefs-store/setChannelNotificationOverride
 prefs/maybeSetLocaleSideEffect
+presenter-mode/full-screen-api
+presenter-mode/view
 privacy-visibility/remove-user-block
 privacy-visibility/use-blocked-emails-list
 privacy-visibility/use-email-verification-status
