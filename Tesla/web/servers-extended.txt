@@ -90,7 +90,7 @@ http://cicerone.tesla.com:80 [null] [401] [24] ["text/html"] ["104.90.109.222"] 
 http://cld-ec.tesla.com:80 ["404 Not Found"] [404] [223] ["text/html"] ["72.246.101.86"] ["https://cld-ec.tesla.com/"] ["Splunkd"] [["Splunkd"]] [];
 http://click.email.tesla.com:80 [null] [301] [null] [null] ["92.123.194.131"] [null] ["AkamaiGHost"] [null] [];
 http://click.emails.tesla.com:80 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.48.179"] ["https://click.emails.tesla.com/"] [null] [null] [];
-http://courses.tesla.com:80 [null] [302] [null] ["text/html"] ["184.30.24.90"] ["https://courses.tesla.com/auth/login/tesla-prod-oauth2/?auth_entry=login&next=%2Fdashboard"] ["nginx"] [["Nginx"]] [];
+http://courses.tesla.com:80 [null] [302] [null] ["text/html"] ["72.246.101.86"] ["https://courses.tesla.com/auth/login/tesla-prod-oauth2/?auth_entry=login&next=%2Fdashboard"] ["nginx"] [["Nginx"]] [];
 http://dataviz.tesla.com:80 ["302 Found"] [302] [428] ["text/html"] ["23.210.30.192"] ["https://dataviz.tesla.com/"] ["akamai/nginx"] [["Nginx"]] [];
 http://digitalassets-energy.tesla.com:80 [null] [404] [null] ["image/gif"] ["151.101.114.1"] [null] ["Cloudinary"] [null] [];
 http://digitalassets-learning.tesla.com:80 [null] [404] [null] ["image/gif"] ["151.101.2.1"] [null] ["Cloudinary"] [null] [];
@@ -322,7 +322,7 @@ https://click.email.tesla.com:443 [null] [301] [null] [null] ["23.2.13.43"] [nul
 https://click.emails.tesla.com:443 ["403 - Forbidden: Access is denied."] [403] [1233] ["text/html"] ["13.111.48.179"] [null] [null] [null] [];
 https://cnvpn.tesla.com:443 ["Tesla Motors VPN"] [404] [3086] ["text/html"] ["103.222.41.215"] [null] [null] [null] [];
 https://cnvpn1.tesla.com:443 ["Tesla Motors VPN"] [404] [2617] ["text/html"] ["114.141.176.215"] [null] [null] [null] [];
-https://courses.tesla.com:443 [null] [302] [null] ["text/html"] ["104.89.18.184"] ["https://courses.tesla.com/auth/login/tesla-prod-oauth2/?auth_entry=login&next=%2Fdashboard"] ["nginx"] [["Nginx"]] [];
+https://courses.tesla.com:443 [null] [302] [null] ["text/html"] ["72.246.101.86"] ["https://courses.tesla.com/auth/login/tesla-prod-oauth2/?auth_entry=login&next=%2Fdashboard"] ["nginx"] [["Nginx"]] [];
 https://dataviz.tesla.com:443 ["302 Found"] [302] [426] ["text/html"] ["92.122.179.192"] [null] ["akamai/nginx"] [["Nginx"]] [];
 https://digitalassets-energy.tesla.com:443 [null] [404] [null] ["image/gif"] ["151.101.114.1"] [null] ["Cloudinary"] [null] [];
 https://digitalassets-learning.tesla.com:443 [null] [404] [null] ["image/gif"] ["151.101.2.1"] [null] ["Cloudinary"] [null] [];
@@ -404,7 +404,7 @@ https://repair.tesla.com:443 ["Repair"] [200] [18186] ["text/html"] ["72.246.101
 https://roadsideinvoice.tesla.com:443 [null] [401] [14] ["text/plain"] ["72.246.101.86"] [null] [null] [null] [];
 https://sales-prd.tesla.com:443 ["Access Denied"] [403] [273] ["text/html"] ["23.3.108.53"] [null] ["AkamaiGHost"] [null] [];
 https://schedule.tesla.com:443 ["Service Unavailable"] [503] [268] ["text/html"] ["72.246.101.86"] [null] ["AkamaiGHost"] [null] [];
-https://secure-static-assets.tesla.com:443 [null] [404] [10] [null] ["72.246.101.86"] [null] ["AkamaiNetStorage"] [null] [];
+https://secure-static-assets.tesla.com:443 [null] [404] [10] [null] ["104.89.18.184"] [null] ["AkamaiNetStorage"] [null] [];
 https://service.tesla.com:443 ["Tesla Service"] [200] [13629] ["text/html"] ["72.246.101.86"] [null] [null] [["Akamai"]] [];
 https://serviceapi-stg.tesla.com:443 ["Access Denied"] [403] [278] ["text/html"] ["104.80.224.227"] [null] ["AkamaiGHost"] [null] [];
 https://serviceapi.tesla.com:443 ["Access Denied"] [403] [270] ["text/html"] ["104.80.224.227"] [null] ["AkamaiGHost"] [null] [];
