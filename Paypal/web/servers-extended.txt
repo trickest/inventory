@@ -44,7 +44,7 @@ http://api.glb.paypal.com:80 [null] [404] [1364] ["text/xml"] ["173.0.84.66"] ["
 http://api.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.84.66"] [null] [null] [null] [];
 http://api.paypal.com:80 ["406 Not Acceptable"] [406] [558] ["text/html"] ["173.0.84.66"] ["https://api.paypal.com/"] [null] [null] [];
 http://api.sandbox.glb.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [271] ["text/html"] ["173.0.93.199"] [null] [null] [null] [];
-http://api.sandbox.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [132109] ["text/html"] ["173.0.93.199"] ["https://api.sandbox.glb.paypal.com/us/home"] [null] [["React"]] [];
+http://api.sandbox.glb.paypal.com:80 ["Send Money, Pay Online or Set Up a Merchant Account - PayPal"] [200] [128037] ["text/html"] ["173.0.93.199"] ["https://api.sandbox.glb.paypal.com/us/home"] [null] [["React"]] [];
 http://api.sandbox.paypal.com:80 ["406 Not Acceptable"] [406] [574] ["text/html"] ["173.0.93.199"] ["https://api.sandbox.paypal.com/"] [null] [null] [];
 http://api.sandbox.pilot.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [673] ["text/html"] ["173.0.82.78"] [null] [null] [null] [];
 http://arkose.paypal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [655] ["text/html"] ["104.18.42.229"] [null] ["cloudflare"] [["Cloudflare"]] [];
@@ -522,7 +522,7 @@ https://payments-reports-migration.glb.paypal.com:443 [null] [200] [6883] ["text
 https://payments-reports-migration.payflow.edge.paypal.com:443 [null] [200] [6883] ["text/html"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://payments-reports.paypal.com:443 ["403 Forbidden"] [403] [202] ["text/html"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
 https://paypal.com:443 ["302 Found"] [302] [161] ["text/html"] ["64.4.250.37"] [null] [null] [null] [];
-https://paypalmanager-edgemigration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.189"] [null] ["nginx"] [["Nginx"]] [];
+https://paypalmanager-edgemigration.glb.paypal.com:443 [null] [200] [6887] ["text/html"] ["173.0.93.190"] [null] ["nginx"] [["Nginx"]] [];
 https://paypalmanager-migration.glb.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.191"] [null] ["nginx"] [["Nginx"]] [];
 https://paypalmanager-v2.paypal.com:443 [null] [200] [6885] ["text/html"] ["173.0.93.190"] [null] ["nginx"] [["Nginx"]] [];
 https://paypalmanager-v2.sandbox.paypal.com:443 [null] [302] [30] ["text/plain"] ["173.0.93.205"] [null] [null] [null] [];
