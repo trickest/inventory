@@ -130,7 +130,7 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
         - Azure Websites
         - Azure Databases
         - Azure Containers
-        - Auzre VMs
+        - Azure VMs
         - GCP Firebase Databases
         - GCP App Enginee Apps
         - GCP Cloud Functions
