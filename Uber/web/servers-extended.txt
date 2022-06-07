@@ -2123,6 +2123,7 @@ http://twine-staging-phx3.uberinternal.com:80 ["404 Not Found"] [404] [552] ["te
 http://twine.uberinternal.com:80 [null] [404] [null] [null] ["104.36.195.150"] ["https://twine.uberinternal.com/"] ["ufe"] [null] [];
 http://typewriter.uberinternal.com:80 ["429"] [429] [299] ["text/html"] ["104.36.195.150"] ["https://typewriter.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://u475-dca1.prod.uber.com:80 ["307 Temporary Redirect"] [307] [168] ["text/html"] ["104.36.194.152"] ["https://u475-dca1.prod.uber.com/"] ["ufe"] [["Envoy"]] [];
+http://u4b.uberinternal.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [650] ["text/html"] ["35.184.61.224"] [null] ["nginx"] [["Nginx"]] [];
 http://u4b.uberinternal.com:80 [null] [302] [null] ["text/html"] ["35.184.61.224"] ["https://u4b.uberinternal.com/"] ["nginx"] [["Nginx","WP Engine","WordPress"]] [];
 http://uaccess.uberinternal.com:80 ["429"] [429] [296] ["text/html"] ["104.36.195.150"] ["https://uaccess.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://uai.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://uai.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
@@ -3054,6 +3055,7 @@ https://family.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["10
 https://fantom-b.uber.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://fantom-staging.uber.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://fantom.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://fare.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fares-staging.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fares.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://fbs.uberinternal.com:443 ["404 Not Found"] [404] [552] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
