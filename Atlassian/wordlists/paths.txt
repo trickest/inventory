@@ -5120,6 +5120,7 @@
 /app/server-home-desktop?
 /app/server-home-prep?
 /appearance
+/apple
 /applicationlink
 /applicationlink/
 /applicationlink/primary/
@@ -5598,6 +5599,9 @@
 /components/tooltips
 /components/trees
 /configurations
+/confirm
+/confirmemail
+/confirmtrust
 /confluence-cloud/resources/
 /connect
 /connect-cdn.atl-paas.net/all
@@ -5640,6 +5644,7 @@
 /create-content/:contentType
 /create/
 /createblogpost.action
+/createnew
 /createpage-entervariables.action
 /createpage.action
 /csrf
@@ -5761,6 +5766,7 @@
 /docs/home
 /docs/setup
 /docs/ui-render-target
+/domain
 /domains
 /dosearchsite.action
 /download
@@ -5931,6 +5937,8 @@
 /filters
 /filters/:filters
 /filters/[
+/find
+/find_again
 /flight-deck
 /flow-editor
 /flows
@@ -6057,6 +6065,7 @@
 /goal/:id/
 /goals
 /goals?cloudId=
+/googleauthfallback
 /gpa-cross-flow/
 /graphql
 /graphql?q=MyTeams
@@ -6219,6 +6228,7 @@
 /idp
 /iframe
 /iframe.js
+/ignoreinvite
 /image
 /image/metadata
 /images/
@@ -6702,6 +6712,7 @@
 /labels
 /labels/autocompletelabel.action?maxResults=3
 /labels/autocompletelabel.action?maxResults=3&amp;query=:query&amp;contentId=:contentId
+/landing
 /lang-
 /langs/
 /latinumcheckout
@@ -7289,6 +7300,7 @@
 /platform/pollinator/
 /platform/privacy-and-consent-onboarding/
 /platform/provisioning-lifecycle/
+/platform/qes/
 /platform/recent-work/
 /platform/reminder-service/
 /platform/rollcall/
@@ -7904,6 +7916,8 @@
 /share/
 /shareDM/
 /sharedWithMe
+/sharedinvite
+/sharedinvitelanding
 /sheets
 /shortcut/
 /shortcuts
@@ -8032,6 +8046,7 @@
 /src/
 /src/index.less
 /srv
+/ssb/get-started
 /ssb/signin
 /ssb/signin_redirect?entry_point=download_app_modal
 /star
@@ -8276,6 +8291,7 @@
 /vizql/showadminview/datasources/DatasourceOwnerPanel?datasource_id=
 /vizql/showadminview/views/WhoHasSeen?views_id=
 /vote
+/vsG
 /w/x
 /wCD
 /wEl
@@ -8340,6 +8356,7 @@
 /workflow-builder/
 /workspace/
 /workspace/exists?cloudId=
+/workspaces
 /workspaces/
 /workspaces/add
 /workspaces/all
@@ -11662,11 +11679,13 @@ lottie-huddles-clap.json
 lottie-huddles-clock.json
 lottie-huddles-confetti.json
 lottie-huddles-cricket.json
+lottie-huddles-cricket02.json
 lottie-huddles-dolphin.json
 lottie-huddles-fire.json
 lottie-huddles-hearts.json
 lottie-huddles-popcorn.json
 lottie-huddles-rocket.json
+lottie-huddles-rocket03.json
 lottie-huddles-sad.json
 lottie-huddles-sparkles.json
 lottie-huddles-thinking.json
