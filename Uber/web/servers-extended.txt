@@ -952,6 +952,7 @@ http://grocery.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.
 http://groove.uber.com:80 [null] [404] [9] ["text/html"] ["52.207.114.1"] [null] [null] [null] [];
 http://groups.uber.com:80 ["302 Moved"] [302] [233] ["text/html"] ["142.250.186.179"] [null] ["ghs"] [null] [];
 http://growth-monitor.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://growth-monitor.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
+http://growth.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://growth.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://gryphon.uberinternal.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] ["https://gryphon.uberinternal.com/"] ["ufe"] [["Envoy"]] [];
 http://gslink.uber.com:80 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.115.120"] [null] ["nginx"] [["Nginx"]] [];
 http://guest.uber.com:80 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] ["https://guest.uber.com/"] ["ufe"] [["Envoy"]] [];
@@ -3219,6 +3220,7 @@ https://griffith.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["
 https://grocery.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
 https://groove.uber.com:443 [null] [302] [91] ["text/html"] ["44.195.201.134"] [null] [null] [null] [];
 https://growth-monitor.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
+https://growth.uberinternal.com:443 [null] [401] [103] ["application/json"] ["104.36.195.150"] [null] ["ufe"] [["Basic","Envoy"]] [];
 https://gryphon.uberinternal.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.197.214"] [null] ["ufe"] [["Envoy"]] [];
 https://gslink.uber.com:443 ["404 Not Found"] [404] [564] ["text/html"] ["167.89.115.120"] [null] ["nginx"] [["Nginx"]] [];
 https://guest.uber.com:443 ["302 Found"] [302] [142] ["text/html"] ["104.36.195.150"] [null] ["ufe"] [["Envoy"]] [];
