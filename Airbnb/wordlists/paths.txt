@@ -2060,6 +2060,7 @@
 /apps
 /apps/
 /apps/captionstudio/
+/arcadeSeeAllGames
 /arrival-guide
 /articles
 /articles/
@@ -3276,6 +3277,7 @@
 /usr/src/app/app/actions/PopularCitiesActions.js
 /usr/src/app/app/actions/ProgressLoaderActions.js
 /usr/src/app/app/actions/RecaptchaActions.js
+/usr/src/app/app/actions/SupportActions.js
 /usr/src/app/app/analytics/AnalyticEvents.js
 /usr/src/app/app/analytics/analytics.js
 /usr/src/app/app/analytics/events/AccountAnalytics.js
@@ -3544,6 +3546,7 @@
 /usr/src/app/app/fetchers/MobileConfigFetcher.js
 /usr/src/app/app/fetchers/NearbyPopularMarketsFetcher.js
 /usr/src/app/app/fetchers/PopularCitiesFetcher.js
+/usr/src/app/app/fetchers/SupportFetcher.js
 /usr/src/app/app/fetchers/requests/Request.js
 /usr/src/app/app/helpers/ActiveHelpHelpers.tsx
 /usr/src/app/app/helpers/AnalyticsHelper.js
@@ -5204,6 +5207,7 @@ ember-composable-helpers/helpers/chunk
 ember-composable-helpers/helpers/inc
 ember-composable-helpers/helpers/includes
 ember-composable-helpers/helpers/join
+ember-composable-helpers/helpers/pipe
 ember-composable-helpers/helpers/take
 ember-composable-helpers/index
 ember-composable-helpers/utils/as-array
@@ -5582,6 +5586,7 @@ text/xml
 themes/bubble
 themes/snow
 things-to-do/places
+uSas/pf1
 ui/color-picker
 ui/icon-picker
 ui/icons
@@ -5894,6 +5899,7 @@ web-experience-app/config/screenshot-profiles
 web-experience-app/config/see-all-profiles
 web-experience-app/config/shelf-profiles
 web-experience-app/config/timeouts
+web-experience-app/constants/keycode
 web-experience-app/controllers/app
 web-experience-app/controllers/app-bundle
 web-experience-app/controllers/app-bundle/index
@@ -5964,6 +5970,7 @@ web-experience-app/helpers/mzstatic-image-url
 web-experience-app/helpers/not
 web-experience-app/helpers/not-eq
 web-experience-app/helpers/or
+web-experience-app/helpers/pipe
 web-experience-app/helpers/pluralize
 web-experience-app/helpers/present
 web-experience-app/helpers/primary-platform
