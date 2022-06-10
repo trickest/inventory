@@ -7245,6 +7245,7 @@
 /cms/coverage-mapping
 /collection/create
 /collection/create/apps
+/collection/edit
 /collection/edit/
 /collection/edit/:id
 /collection/edit/:id/apps
@@ -7925,6 +7926,7 @@
 /organizationprocess/v2/allHrPortalMenuUrls
 /organizations
 /out-of-territory/
+/owners
 /page-data/app-data.json
 /page-data/out-of-territory/page-data.json
 /page-data/sq/d/2894826841.json
@@ -8165,6 +8167,7 @@
 /recognition/ListCnAwardsByEmployeeAsync?
 /recommendations/associations/v1
 /redirect/groups
+/redirect/manageAppMembership
 /redirect?article_id=
 /redirect_location
 /reference/
@@ -8664,6 +8667,7 @@
 /users/search
 /users/verify
 /users/x_return_from_masquerade
+/v1.0/groups/
 /v1/
 /v1/Action
 /v1/Assignment/
@@ -11941,6 +11945,9 @@ contentdistribution/GetUserContents
 contentdistribution/GetUserTransactions
 contentdistribution/SearchAudiencesByName
 contentdistribution/TestAudience
+contextMenu/app/
+contextMenu/collection/
+contextMenu/global/
 cordova/modulemapper
 core/ts/change_detect/change-detection.ts
 corehrprocess/AddUpdateContractTerminationExtensionTask/
@@ -15333,6 +15340,7 @@ manage-app/network-call/revoke-permissions
 manage-app/network-call/revoke-permissions/failed
 manage-app/network-call/revoke-permissions/success
 manage-app/network-call/update-account-state
+manage-app/unrecognized-sso-field
 masterdata/benefits/plansandcoverage
 masterdata/benefits/provider
 masterdata/compensation/basepayplan
