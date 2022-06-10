@@ -3755,6 +3755,8 @@
 /:languageCountryPair?/pickup/near-me
 /:languageCountryPair?/promo
 /:languageCountryPair?/region/:slugName
+/:languageCountryPair?/repeat-order
+/:languageCountryPair?/repeat-order/:repeatOrderTemplateUuid
 /:languageCountryPair?/restaurants-near-me/
 /:languageCountryPair?/search-suggestions/
 /:languageCountryPair?/search/
@@ -3981,6 +3983,7 @@
 /alerts?markPrc
 /all
 /allowed-destination
+/allowed-destination-list
 /alohaRedirect/\
 /am=
 /analytics
@@ -4199,6 +4202,9 @@
 /api/feature/activation
 /api/feature/info?feature=
 /api/figment-proxy
+/api/file-icon/file-
+/api/file-icon/file-generic.svg
+/api/file-icon/file-url.svg
 /api/file/
 /api/file/addtolibrary
 /api/file/init
@@ -4706,6 +4712,7 @@
 /auraAnalytics
 /auraCmpDef?_au=Vch3wESk1PHg9bGgICAqIA&amp;_c=true&amp;_density=VIEW_ONE&amp;_ff=DESKTOP&amp;_l=true&amp;_l10n=en_US&amp;_lrmc=533941497&amp;_style=-772962461&amp;aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD
 /auraCmpDef?_au=Vch3wESk1PHg9bGgICAqIA&amp;_c=true&amp;_density=VIEW_ONE&amp;_ff=DESKTOP&amp;_l=true&amp;_l10n=en_US&amp;_lrmc=991825831&amp;_style=-772962461&amp;aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD
+/auraCmpDef?_au=hiJAEzBaG5SdeoQ44WCypw&amp;_c=true&amp;_density=VIEW_ONE&amp;_ff=DESKTOP&amp;_l=true&amp;_l10n=en_US&amp;_lrmc=533941497&amp;_style=-772962461&amp;aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD
 /auraCmpDef?aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD&amp;_au=KbCmDBVbE10iCy1inwbbzA&amp;_ff=DESKTOP&amp;_l=true&amp;_lrmc=1730203071&amp;_l10n=en_US&amp;_c=true&amp;_style=52728839&amp;_density=VIEW_ONE
 /auraCmpDef?aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD&amp;_au=KbCmDBVbE10iCy1inwbbzA&amp;_ff=DESKTOP&amp;_l=true&amp;_lrmc=1730203071&amp;_l10n=en_US&amp;_c=true&amp;_style=74282427&amp;_density=VIEW_ONE
 /auraCmpDef?aura.app=markup://siteforce:communityApp&amp;aura.mode=PROD&amp;_au=PAjEh9HEIZmsDpK-Y8SVTg&amp;_ff=DESKTOP&amp;_l=true&amp;_lrmc=1730203071&amp;_l10n=en_US&amp;_c=true&amp;_style=52728839&amp;_density=VIEW_ONE
@@ -5106,6 +5113,7 @@
 /blog/sw.js?ver=1654104479848&amp;scope=en-US
 /blog/sw.js?ver=1654104519894&amp;scope=en-US
 /blog/sw.js?ver=1654104539766&amp;scope=en-US
+/blog/sw.js?ver=1654104581250&amp;scope=en-US
 /blog/sw.js?ver=1654104601802&amp;scope=en-US
 /blog/tacoma/
 /blog/tallahassee/
@@ -5250,6 +5258,7 @@
 /community/feed/search
 /community/figjam
 /community/funfeed
+/community/mixed
 /community/plugins
 /community/search
 /community/widgets
@@ -6940,6 +6949,7 @@
 /start-new-order
 /start-new-quick-add-order
 /start_google_sso
+/start_google_sso?should_use_redirect_instead=1
 /starter-templates$\
 /startpage/
 /static
