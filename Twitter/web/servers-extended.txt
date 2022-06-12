@@ -1,5 +1,5 @@
 http://0.twitter.com:80 [null] [301] [null] [null] ["104.244.42.67"] [null] ["tsa_f"] [null] [];
-http://2010.twitter.com:80 [null] [302] [null] [null] ["104.244.42.131"] [null] ["tsa_f"] [null] [];
+http://2010.twitter.com:80 [null] [302] [null] [null] ["104.244.42.195"] [null] ["tsa_o"] [null] [];
 http://2011.twitter.com:80 [null] [302] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
 http://2012.twitter.com:80 [null] [302] [null] [null] ["104.244.42.195"] [null] ["tsa_f"] [null] [];
 http://2013.twitter.com:80 [null] [301] [null] [null] ["104.244.42.67"] [null] ["tsa_o"] [null] [];
@@ -1197,6 +1197,7 @@ http://api-39-0-0.twitter.com:80 [null] [403] [16] ["text/plain"] ["69.195.175.1
 http://api-39-4-3-39-4-2.twitter.com:80 [null] [403] [16] ["text/plain"] ["209.237.203.131"] [null] ["tsa_d"] [null] [];
 http://api-39-4-3-39-4-3.twitter.com:80 [null] [403] [16] ["text/plain"] ["209.237.203.132"] [null] ["tsa_d"] [null] [];
 http://api-40-0-0.twitter.com:80 [null] [403] [16] ["text/plain"] ["69.195.181.128"] [null] ["tsa_a"] [null] [];
+http://api-41-0-0-41-0-1.twitter.com:80 [null] [403] [16] ["text/plain"] ["69.195.171.129"] [null] ["tsa_k"] [null] [];
 http://api-41-0-0-41-4-1.twitter.com:80 [null] [403] [16] ["text/plain"] ["69.195.171.132"] [null] ["tsa_k"] [null] [];
 http://api-41-0-0-41-4-2.twitter.com:80 [null] [403] [16] ["text/plain"] ["69.195.171.133"] [null] ["tsa_k"] [null] [];
 http://api-41-0-0-c.twitter.com:80 [null] [403] [16] ["text/plain"] ["69.195.171.128"] [null] ["tsa_k"] [null] [];
@@ -1497,7 +1498,7 @@ http://bloombergdaybreak.twitter.com:80 [null] [302] [null] [null] ["104.244.42.
 http://bloombergmarkets.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] ["https://bloombergmarkets.twitter.com/"] ["tsa_o"] [null] [];
 http://bloombergpolitics.twitter.com:80 [null] [302] [null] [null] ["104.244.42.195"] ["https://bloombergpolitics.twitter.com/"] ["tsa_o"] [null] [];
 http://bloombergtechnology.twitter.com:80 [null] [302] [null] [null] ["104.244.42.195"] ["https://bloombergtechnology.twitter.com/"] ["tsa_o"] [null] [];
-http://boxing.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] ["https://boxing.twitter.com/"] ["tsa_f"] [null] [];
+http://boxing.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] ["https://boxing.twitter.com/"] ["tsa_o"] [null] [];
 http://br.pscp.tv:80 [null] [400] [14] ["text/plain"] ["52.67.215.177"] [null] [null] [null] [];
 http://branch.twitter.com:80 [null] [301] [null] [null] ["104.244.42.3"] [null] ["tsa_f"] [null] [];
 http://brand-dev.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] ["https://brand-dev.twitter.com/"] ["tsa_f"] [null] [];
@@ -1563,7 +1564,7 @@ http://canary-transcode-us-east-1.pscp.tv:80 [null] [404] [19] ["text/plain"] ["
 http://canary-video-us-east-1.periscope.tv:80 [null] [404] [19] ["text/plain"] ["151.101.2.118"] [null] [null] [["Varnish"]] [];
 http://canary-video-us-east-1.pscp.tv:80 [null] [404] [19] ["text/plain"] ["151.101.2.164"] [null] [null] [["Varnish"]] [];
 http://canary-web.periscope.tv:80 ["Watch LIVE"] [200] [20312] ["text/html"] ["34.210.121.189"] ["https://canary-web.periscope.tv/"] [null] [["React"]] [];
-http://canary-web.pscp.tv:80 ["Watch LIVE"] [200] [20307] ["text/html"] ["35.84.250.131"] ["https://canary-web.pscp.tv/"] [null] [["React"]] [];
+http://canary-web.pscp.tv:80 ["Watch LIVE"] [200] [21361] ["text/html"] ["52.89.140.198"] ["https://canary-web.pscp.tv/"] [null] [["React"]] [];
 http://canary.twitter.com:80 [null] [404] [null] [null] ["104.244.45.148"] [null] ["tsa_a"] [null] [];
 http://capitalstb.twitter.com:80 [null] [302] [null] [null] ["104.244.42.67"] ["https://capitalstb.twitter.com/"] ["tsa_f"] [null] [];
 http://caps-staging.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_f"] [null] [];
@@ -1833,7 +1834,7 @@ http://dev-exp-video-eu-west-1.pscp.tv:80 ["400 no stream name"] [400] [433] ["t
 http://dev-exp-video-us-west-2.pscp.tv:80 ["401 unauthorized"] [401] [425] ["text/html"] ["151.101.2.164"] ["https://dev-exp-video-us-west-2.pscp.tv/"] ["Varnish"] [["Varnish"]] [];
 http://dev-fonts.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_o"] [null] [];
 http://dev-hls.periscope.tv:80 ["Fastly error: unknown domain dev-hls.periscope.tv"] [500] [261] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
-http://dev-hls.pscp.tv:80 ["Fastly error: unknown domain dev-hls.pscp.tv"] [500] [251] ["text/html"] ["151.101.2.93"] [null] ["Varnish"] [["Varnish"]] [];
+http://dev-hls.pscp.tv:80 ["Fastly error: unknown domain dev-hls.pscp.tv"] [500] [250] ["text/html"] ["151.101.2.93"] [null] ["Varnish"] [["Varnish"]] [];
 http://dev-hlspull.pscp.tv:80 [null] [404] [19] ["text/plain"] ["52.43.38.170"] [null] [null] [null] [];
 http://dev-masks.periscope.tv:443 ["ERROR: The request could not be satisfied"] [400] [915] ["text/html"] ["13.225.183.67"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
 http://dev-masks.periscope.tv:80 ["ERROR: The request could not be satisfied"] [403] [915] ["text/html"] ["108.138.7.58"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
@@ -1901,7 +1902,7 @@ http://dreamhack.twitter.com:80 [null] [302] [null] [null] ["104.244.42.67"] ["h
 http://dreamleague.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] ["https://dreamleague.twitter.com/"] ["tsa_f"] [null] [];
 http://drl.twitter.com:80 [null] [404] [null] [null] ["104.244.42.195"] ["https://drl.twitter.com/"] ["tsa_f"] [null] [];
 http://dubainye.twitter.com:80 [null] [404] [null] [null] ["104.244.42.67"] ["https://dubainye.twitter.com/"] ["tsa_o"] [null] [];
-http://dugout.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] ["https://dugout.twitter.com/"] ["tsa_f"] [null] [];
+http://dugout.twitter.com:80 [null] [302] [null] [null] ["104.244.42.131"] ["https://dugout.twitter.com/"] ["tsa_o"] [null] [];
 http://e3.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] ["https://e3.twitter.com/"] ["tsa_o"] [null] [];
 http://ea-o.twimg.com:80 [null] [400] [null] [null] ["104.244.42.9"] [null] ["tsa_o"] [null] [];
 http://ea.twimg.com:80 [null] [400] [null] [null] ["199.232.188.159"] [null] [null] [["Varnish"]] [];
@@ -1931,7 +1932,7 @@ http://elections.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] [nul
 http://em.events.twitter.com:443 ["400 The plain HTTP request was sent to HTTPS port"] [400] [666] ["text/html"] ["167.89.118.83"] [null] ["nginx"] [["Nginx"]] [];
 http://em.events.twitter.com:80 ["404 Not Found"] [404] [162] ["text/html"] ["167.89.123.54"] [null] ["nginx"] [["Nginx"]] [];
 http://ema.twitter.com:80 [null] [302] [null] [null] ["104.244.42.3"] ["https://ema.twitter.com/"] ["tsa_f"] [null] [];
-http://email.visitor.twitter.com:443 [null] [400] [48] [null] ["34.212.246.28"] [null] [null] [null] [];
+http://email.visitor.twitter.com:443 [null] [400] [48] [null] ["52.88.141.153"] [null] [null] [null] [];
 http://email.visitor.twitter.com:80 [null] [200] [23] ["application/octet-stream"] ["52.7.54.67"] [null] ["nginx"] [["Nginx"]] [];
 http://embed.periscope.tv:80 [null] [403] [243] ["application/json"] ["151.101.2.118"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services","Varnish"]] [];
 http://embed.pscp.tv:80 [null] [403] [243] ["application/json"] ["151.101.2.164"] [null] ["AmazonS3"] [["Amazon S3","Amazon Web Services","Varnish"]] [];
@@ -2072,7 +2073,7 @@ http://geo1.td.twitter.com:80 [null] [404] [null] [null] ["104.244.42.4"] [null]
 http://geo1.tpop-api-o.twitter.com:80 [null] [404] [null] [null] ["104.244.42.206"] [null] ["tsa_o"] [null] [];
 http://geo1.tpop-api.twitter.com:80 [null] [404] [null] [null] ["104.244.42.2"] [null] ["tsa_f"] [null] [];
 http://geo1.tweet.twitter.com:80 [null] [404] [null] [null] ["104.244.42.131"] [null] ["tsa_f"] [null] [];
-http://geo1.twitter.com:80 [null] [404] [null] [null] ["104.244.42.65"] [null] ["tsa_f"] [null] [];
+http://geo1.twitter.com:80 [null] [404] [null] [null] ["104.244.42.65"] [null] ["tsa_o"] [null] [];
 http://geo1.upload.twitter.com:80 [null] [404] [null] [null] ["104.244.42.11"] [null] ["tsa_f"] [null] [];
 http://geo1.userstream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.195"] [null] ["tsa_f"] [null] [];
 http://geo2.api-stream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
@@ -2091,7 +2092,7 @@ http://geo2.syndication.twitter.com:80 [null] [404] [null] [null] ["104.244.42.7
 http://geo2.td.twitter.com:80 [null] [404] [null] [null] ["104.244.42.68"] [null] ["tsa_f"] [null] [];
 http://geo2.ton-kf.twitter.com:80 [null] [404] [null] [null] ["199.16.156.204"] [null] ["tsa_b"] [null] [];
 http://geo2.tpop-api-c.twitter.com:80 [null] [404] [null] [null] ["104.244.42.13"] [null] ["tsa_f"] [null] [];
-http://geo2.twitter.com:80 [null] [404] [null] [null] ["104.244.42.129"] [null] ["tsa_f"] [null] [];
+http://geo2.twitter.com:80 [null] [404] [null] [null] ["104.244.42.129"] [null] ["tsa_o"] [null] [];
 http://geo2.upload.twitter.com:80 [null] [404] [null] [null] ["104.244.42.11"] [null] ["tsa_f"] [null] [];
 http://geo2.userstream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_f"] [null] [];
 http://geo2.video.twimg.com:80 ["404 - Not Found"] [404] [345] ["text/html"] ["68.232.34.217"] [null] ["ECAcc (frb/6691)"] [null] [];
@@ -2429,7 +2430,7 @@ http://overwatch.twitter.com:80 [null] [404] [null] [null] ["104.244.42.131"] ["
 http://overwatchwc.twitter.com:80 [null] [404] [null] [null] ["104.244.42.195"] ["https://overwatchwc.twitter.com/"] ["tsa_f"] [null] [];
 http://p.twimg.com:80 [null] [400] [null] [null] ["199.232.188.159"] [null] [null] [null] [];
 http://pBs.twimg.com:80 [null] [400] [null] [null] ["93.184.220.70"] [null] ["ECS (frb/67AA)"] [["Amazon ECS","Amazon Web Services","Docker"]] [];
-http://partner-stream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] ["https://partner-stream.twitter.com/"] ["tsa_f"] [null] [];
+http://partner-stream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.131"] ["https://partner-stream.twitter.com/"] ["tsa_o"] [null] [];
 http://partners-api-sandbox.twitter.com:80 [null] [404] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
 http://partners-api.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_o"] [null] [];
 http://partners-dev.twitter.com:80 [null] [404] [null] [null] ["104.244.42.67"] ["https://partners-dev.twitter.com/"] ["tsa_o"] [null] [];
@@ -2508,6 +2509,7 @@ http://proBe.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] ["https:
 http://probe-t.twitter.com:80 [null] [403] [16] ["text/plain"] ["104.244.42.195"] [null] ["tsa_o"] [null] [];
 http://probe.twitter.com:80 [null] [404] [null] [null] ["104.244.42.67"] ["https://probe.twitter.com/"] ["tsa_f"] [null] [];
 http://prod-ap-northeast-1.periscope.tv:80 ["Fastly error: unknown domain prod-ap-northeast-1.periscope.tv"] [500] [284] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
+http://prod-ap-southeast-2.perISCoPe.tv:80 ["Fastly error: unknown domain prod-ap-southeast-2.periscope.tv"] [500] [284] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
 http://prod-ap-southeast-2.periscope.tv:80 ["Fastly error: unknown domain prod-ap-southeast-2.periscope.tv"] [500] [284] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
 http://prod-assets.periscope.tv:443 ["ERROR: The request could not be satisfied"] [400] [915] ["text/html"] ["52.222.214.49"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
 http://prod-assets.periscope.tv:80 ["ERROR: The request could not be satisfied"] [403] [915] ["text/html"] ["18.66.248.4"] [null] ["CloudFront"] [["Amazon Cloudfront","Amazon Web Services"]] [];
@@ -2578,7 +2580,7 @@ http://prod-exp-video-eu-central-1.pscp.tv:80 ["401 unauthorized"] [401] [427] [
 http://prod-exp-video-eu-west-1.pscp.tv:80 ["401 unauthorized"] [401] [426] ["text/html"] ["151.101.2.164"] ["https://prod-exp-video-eu-west-1.pscp.tv/"] ["Varnish"] [["Varnish"]] [];
 http://prod-exp-video-sa-east-1.pscp.tv:80 ["401 unauthorized"] [401] [426] ["text/html"] ["151.101.2.164"] ["https://prod-exp-video-sa-east-1.pscp.tv/"] ["Varnish"] [["Varnish"]] [];
 http://prod-exp-video-us-east-1.pscp.tv:80 ["401 unauthorized"] [401] [426] ["text/html"] ["151.101.2.164"] ["https://prod-exp-video-us-east-1.pscp.tv/"] ["Varnish"] [["Varnish"]] [];
-http://prod-exp-video-us-west-1.pscp.tv:80 ["401 unauthorized"] [401] [427] ["text/html"] ["151.101.2.164"] ["https://prod-exp-video-us-west-1.pscp.tv/"] ["Varnish"] [["Varnish"]] [];
+http://prod-exp-video-us-west-1.pscp.tv:80 ["401 unauthorized"] [401] [425] ["text/html"] ["151.101.2.164"] ["https://prod-exp-video-us-west-1.pscp.tv/"] ["Varnish"] [["Varnish"]] [];
 http://prod-exp-video-us-west-2.pscp.tv:80 ["401 unauthorized"] [401] [426] ["text/html"] ["151.101.2.164"] ["https://prod-exp-video-us-west-2.pscp.tv/"] ["Varnish"] [["Varnish"]] [];
 http://prod-fastly-ap-northeast-1.video.periscope.tv:80 [null] [404] [19] ["text/plain"] ["199.232.138.118"] [null] [null] [["Varnish"]] [];
 http://prod-fastly-ap-northeast-1.video.pscp.tv:80 [null] [404] [19] ["text/plain"] ["199.232.82.164"] [null] [null] [["Varnish"]] [];
@@ -2600,7 +2602,7 @@ http://prod-fastly-sa-east-1.video.periscope.tv:80 [null] [404] [19] ["text/plai
 http://prod-fastly-sa-east-1.video.pscp.tv:80 [null] [404] [19] ["text/plain"] ["199.232.82.164"] [null] [null] [["Varnish"]] [];
 http://prod-fastly-us-east-1.video.periscope.tv:80 [null] [404] [19] ["text/plain"] ["199.232.190.118"] [null] [null] [["Varnish"]] [];
 http://prod-fastly-us-east-1.video.pscp.tv:80 [null] [404] [19] ["text/plain"] ["199.232.190.164"] [null] [null] [["Varnish"]] [];
-http://prod-fastly-us-west-1.video.periscope.tv:80 [null] [404] [19] ["text/plain"] ["199.232.138.118"] [null] [null] [["Varnish"]] [];
+http://prod-fastly-us-west-1.video.periscope.tv:80 [null] [404] [19] ["text/plain"] ["199.232.190.118"] [null] [null] [["Varnish"]] [];
 http://prod-fastly-us-west-1.video.pscp.tv:80 [null] [404] [19] ["text/plain"] ["199.232.190.164"] [null] [null] [["Varnish"]] [];
 http://prod-fastly-us-west-2.video.periscope.tv:80 [null] [404] [19] ["text/plain"] ["199.232.190.118"] [null] [null] [["Varnish"]] [];
 http://prod-fastly-us-west-2.video.pscp.tv:80 [null] [404] [19] ["text/plain"] ["199.232.82.164"] [null] [null] [["Varnish"]] [];
@@ -2656,7 +2658,7 @@ http://prod-transcode-sa-east-1.pscp.tv:80 [null] [404] [19] ["text/plain"] ["54
 http://prod-transcode-us-east-1.periscope.tv:80 [null] [404] [19] ["text/plain"] ["54.162.162.70"] [null] [null] [null] [];
 http://prod-transcode-us-east-1.pscp.tv:80 [null] [404] [19] ["text/plain"] ["34.200.4.156"] [null] [null] [null] [];
 http://prod-transcode-us-west-1.periscope.tv:80 [null] [404] [19] ["text/plain"] ["13.56.203.106"] [null] [null] [null] [];
-http://prod-transcode-us-west-1.pscp.tv:80 [null] [404] [19] ["text/plain"] ["52.8.22.77"] [null] [null] [null] [];
+http://prod-transcode-us-west-1.pscp.tv:80 [null] [404] [19] ["text/plain"] ["50.18.202.231"] [null] [null] [null] [];
 http://prod-transcode-us-west-2.periscope.tv:80 [null] [404] [19] ["text/plain"] ["35.164.107.191"] [null] [null] [null] [];
 http://prod-transcode-us-west-2.pscp.tv:80 [null] [404] [19] ["text/plain"] ["34.210.254.99"] [null] [null] [null] [];
 http://prod-us-east-1.periscope.tv:80 ["Fastly error: unknown domain prod-us-east-1.periscope.tv"] [500] [274] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
@@ -2808,7 +2810,7 @@ http://staging.apiaccount.access-account.bucket-access-upload.staging.vpn.twttr.
 http://staging.apiadminalphaupload.staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
 http://staging.video.twitter.com:80 [null] [404] [null] [null] ["104.244.42.195"] [null] ["tsa_o"] [null] [];
 http://staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
-http://staging1-partner-stream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.195"] [null] ["tsa_f"] [null] [];
+http://staging1-partner-stream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_f"] [null] [];
 http://staging1-partnerstream1.twitter.com:80 [null] [404] [null] [null] ["199.16.156.200"] ["https://staging1-partnerstream1.twitter.com/"] ["tsa_b"] [null] [];
 http://staging1-stream-data-api.twitter.com:80 [null] [404] [null] [null] ["104.244.42.195"] ["https://staging1-stream-data-api.twitter.com/"] ["tsa_f"] [null] [];
 http://staging2-partner-stream.twitter.com:80 [null] [404] [null] [null] ["104.244.42.195"] [null] ["tsa_f"] [null] [];
@@ -3144,7 +3146,7 @@ http://web-account.access-auth-config.staging.vpn.twttr.com:80 ["404 Not Found"]
 http://web-account.admin.upload.staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
 http://web-alpha.access.admin.config.staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
 http://web-ap-south-1.periscope.tv:80 [null] [403] [954] ["text/html"] ["35.154.31.251"] ["https://web-ap-south-1.periscope.tv/"] [null] [null] [];
-http://web-ap-south-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["15.207.138.226"] ["https://web-ap-south-1.pscp.tv/"] [null] [null] [];
+http://web-ap-south-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["15.206.191.57"] ["https://web-ap-south-1.pscp.tv/"] [null] [null] [];
 http://web-ap-southeast-1.periscope.tv:80 [null] [403] [954] ["text/html"] ["13.228.17.75"] ["https://web-ap-southeast-1.periscope.tv/"] [null] [null] [];
 http://web-ap-southeast-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["54.255.72.26"] ["https://web-ap-southeast-1.pscp.tv/"] [null] [null] [];
 http://web-backup.account.alpha-beta.config.staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
@@ -3153,13 +3155,13 @@ http://web-debug2018.backup-alpha-accountbeta.staging.vpn.twttr.com:80 ["404 Not
 http://web-eu-central-1.periscope.tv:80 [null] [403] [954] ["text/html"] ["3.65.202.179"] ["https://web-eu-central-1.periscope.tv/"] [null] [null] [];
 http://web-eu-central-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["18.195.142.217"] ["https://web-eu-central-1.pscp.tv/"] [null] [null] [];
 http://web-eu-west-1.periscope.tv:80 [null] [403] [954] ["text/html"] ["34.246.66.117"] ["https://web-eu-west-1.periscope.tv/"] [null] [null] [];
-http://web-eu-west-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["52.211.109.169"] ["https://web-eu-west-1.pscp.tv/"] [null] [null] [];
+http://web-eu-west-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["34.249.165.84"] ["https://web-eu-west-1.pscp.tv/"] [null] [null] [];
 http://web-us-east-1.periscope.tv:80 [null] [403] [954] ["text/html"] ["35.175.59.176"] ["https://web-us-east-1.periscope.tv/"] [null] [null] [];
 http://web-us-east-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["52.1.142.36"] ["https://web-us-east-1.pscp.tv/"] [null] [null] [];
 http://web-us-west-1.periscope.tv:80 [null] [403] [954] ["text/html"] ["52.52.73.139"] ["https://web-us-west-1.periscope.tv/"] [null] [null] [];
 http://web-us-west-1.pscp.tv:80 [null] [403] [954] ["text/html"] ["13.57.142.185"] ["https://web-us-west-1.pscp.tv/"] [null] [null] [];
 http://web-us-west-2.periscope.tv:80 [null] [403] [954] ["text/html"] ["52.43.122.85"] ["https://web-us-west-2.periscope.tv/"] [null] [null] [];
-http://web-us-west-2.pscp.tv:80 [null] [403] [954] ["text/html"] ["54.149.133.107"] ["https://web-us-west-2.pscp.tv/"] [null] [null] [];
+http://web-us-west-2.pscp.tv:80 [null] [403] [954] ["text/html"] ["54.148.198.144"] ["https://web-us-west-2.pscp.tv/"] [null] [null] [];
 http://web.2019-alphaupload.staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
 http://web.account-account.adminalphaupload.staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
 http://web.admin.alphaapi-demo.staging.vpn.twttr.com:80 ["404 Not Found"] [404] [111] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
@@ -9855,6 +9857,7 @@ https://api-39-4-8-39-4-9.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["
 https://api-39-4-9-39-4-2.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://api-40-0-0.twitter.com:443 [null] [404] [null] [null] ["69.195.181.128"] [null] ["tsa_a"] [null] [];
 https://api-40-0-0.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
+https://api-41-0-0-41-0-1.twitter.com:443 [null] [404] [null] [null] ["69.195.171.129"] [null] ["tsa_k"] [null] [];
 https://api-41-0-0-41-4-1.twitter.com:443 [null] [404] [null] [null] ["69.195.171.132"] [null] ["tsa_k"] [null] [];
 https://api-41-0-0-41-4-1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://api-41-0-0-41-4-2.twitter.com:443 [null] [404] [null] [null] ["69.195.171.133"] [null] ["tsa_k"] [null] [];
@@ -10344,7 +10347,7 @@ https://artanik.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76
 https://artemcm.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://arthouse-dev.twitter.com:443 [null] [404] [null] [null] ["104.244.42.67"] [null] ["tsa_f"] [null] [];
 https://arthouse-staging.twitter.com:443 [null] [404] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
-https://arthouse.twitter.com:443 ["Twitter / ?"] [404] [4074] ["text/html"] ["104.244.42.131"] [null] ["tsa_f"] [["Fourthwall"]] [];
+https://arthouse.twitter.com:443 ["Twitter / ?"] [404] [4074] ["text/html"] ["104.244.42.3"] [null] ["tsa_o"] [["Fourthwall"]] [];
 https://arthouse.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://arthur.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://articandle.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -10676,6 +10679,7 @@ https://authapi-45-0-0.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192
 https://authapi.dev-databrandsafety.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://authapiatlc-lab.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://authapibeta.config-api-atlc-lab.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
+https://authatlc-lab.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://authbackup-cliffton.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://authbekommt.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://authbeta-admin.brandsafety.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -11658,7 +11662,7 @@ https://boundaries.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133
 https://bounties.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://box1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://box2.ee.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
-https://boxing.twitter.com:443 [null] [302] [null] [null] ["104.244.42.195"] [null] ["tsa_f"] [null] [];
+https://boxing.twitter.com:443 [null] [302] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
 https://boyliupan.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://boyspic.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://bp.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -11771,6 +11775,7 @@ https://bucket-alphaapi.demo.staging.vpn.twttr.com:443 ["Pulse Connect Secure"] 
 https://bucket-api-access.ae10.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://bucket-api-atlc-lab.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://bucket-art.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
+https://bucket-atlc-lab.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://bucket-beta.dedis.cs.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://bucket-betulkarali.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://bucket-blocnotes.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -12022,7 +12027,7 @@ https://canary-guest.pscp.tv:443 [null] [404] [19] ["text/plain"] ["34.213.34.13
 https://canary-notification-service.periscope.tv:443 [null] [503] [null] [null] ["52.33.178.181"] [null] [null] [null] [];
 https://canary-notification-service.pscp.tv:443 [null] [503] [null] [null] ["34.210.13.249"] [null] [null] [null] [];
 https://canary-payman.periscope.tv:443 [null] [404] [19] ["text/plain"] ["35.162.197.239"] [null] [null] [null] [];
-https://canary-payman.pscp.tv:443 [null] [404] [19] ["text/plain"] ["35.81.138.45"] [null] [null] [null] [];
+https://canary-payman.pscp.tv:443 [null] [404] [19] ["text/plain"] ["34.212.197.235"] [null] [null] [null] [];
 https://canary-proxsee.pscp.tv:443 [null] [404] [19] ["text/plain"] ["35.166.25.71"] [null] [null] [null] [];
 https://canary-safety.periscope.tv:443 [null] [404] [19] ["text/plain"] ["34.209.230.59"] [null] [null] [null] [];
 https://canary-safety.pscp.tv:443 [null] [404] [19] ["text/plain"] ["52.39.128.86"] [null] [null] [null] [];
@@ -12172,7 +12177,7 @@ https://chat5.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.2
 https://chatc2.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://chatman-ap-northeast-1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://chatman-replay-ap-northeast-1.periscope.tv:443 [null] [404] [10] ["text/plain"] ["52.198.190.86"] [null] [null] [null] [];
-https://chatman-replay-ap-northeast-1.pscp.tv:443 [null] [404] [10] ["text/plain"] ["13.113.253.238"] [null] [null] [null] [];
+https://chatman-replay-ap-northeast-1.pscp.tv:443 [null] [404] [10] ["text/plain"] ["13.230.219.71"] [null] [null] [null] [];
 https://chatman-replay-eu-central-1.periscope.tv:443 [null] [404] [10] ["text/plain"] ["18.192.2.197"] [null] [null] [null] [];
 https://chatman-replay-eu-central-1.pscp.tv:443 [null] [404] [10] ["text/plain"] ["35.156.130.199"] [null] [null] [null] [];
 https://chatman-replay-sa-east-1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -13912,7 +13917,7 @@ https://dev-guest.periscope.tv:443 [null] [404] [19] ["text/plain"] ["35.161.111
 https://dev-guest.pscp.tv:443 [null] [404] [19] ["text/plain"] ["35.163.223.251"] [null] [null] [null] [];
 https://dev-guest.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://dev-hls.periscope.tv:443 ["Fastly error: unknown domain dev-hls.periscope.tv"] [500] [260] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
-https://dev-hls.pscp.tv:443 ["Fastly error: unknown domain dev-hls.pscp.tv"] [500] [251] ["text/html"] ["151.101.2.93"] [null] ["Varnish"] [["Varnish"]] [];
+https://dev-hls.pscp.tv:443 ["Fastly error: unknown domain dev-hls.pscp.tv"] [500] [250] ["text/html"] ["151.101.2.93"] [null] ["Varnish"] [["Varnish"]] [];
 https://dev-hlspull.pscp.tv:443 [null] [404] [19] ["text/plain"] ["52.43.38.170"] [null] [null] [null] [];
 https://dev-hlspull.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://dev-horizon.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -14644,6 +14649,7 @@ https://engineeringaccount.vpn.twttr.com:443 [null] [302] [null] ["text/html"] [
 https://engineeringaccountaccount.admin-admin.confluencecristbrian.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://engineeringalpha.apiapiadmin.alphaupload.staging.vpn.twttr.com:443 ["Pulse Connect Secure"] [404] [1595] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
 https://engineeringarjun-chaudhary.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
+https://engineeringatlc-lab.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://engineeringauthbekommt.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://engineeringbackupadmindev-account.config.staging.vpn.twttr.com:443 ["Pulse Connect Secure"] [404] [1595] ["text/html"] ["8.25.194.24"] [null] [null] [null] [];
 https://engineeringbucket.admin.amardeepchandra.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -15383,7 +15389,7 @@ https://geo1.td.twitter.com:443 [null] [404] [null] [null] ["104.244.42.4"] [nul
 https://geo1.tpop-api-o.twitter.com:443 [null] [404] [null] [null] ["104.244.42.142"] [null] ["tsa_o"] [null] [];
 https://geo1.tpop-api.twitter.com:443 [null] [404] [null] [null] ["104.244.42.2"] [null] ["tsa_f"] [null] [];
 https://geo1.tweet.twitter.com:443 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_o"] [null] [];
-https://geo1.twitter.com:443 [null] [404] [null] [null] ["104.244.42.65"] [null] ["tsa_f"] [null] [];
+https://geo1.twitter.com:443 [null] [404] [null] [null] ["104.244.42.129"] [null] ["tsa_f"] [null] [];
 https://geo1.upload.twitter.com:443 [null] [404] [null] [null] ["104.244.42.11"] [null] ["tsa_f"] [null] [];
 https://geo1.userstream.twitter.com:443 [null] [404] [null] [null] ["104.244.42.195"] [null] ["tsa_f"] [null] [];
 https://geo2.api-stream.twitter.com:443 [null] [404] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
@@ -15402,7 +15408,7 @@ https://geo2.syndication.twitter.com:443 [null] [404] [null] [null] ["104.244.42
 https://geo2.td.twitter.com:443 [null] [404] [null] [null] ["104.244.42.132"] [null] ["tsa_f"] [null] [];
 https://geo2.ton-kf.twitter.com:443 [null] [404] [null] [null] ["199.59.149.204"] [null] ["tsa_a"] [null] [];
 https://geo2.tpop-api-c.twitter.com:443 [null] [404] [null] [null] ["104.244.42.13"] [null] ["tsa_f"] [null] [];
-https://geo2.twitter.com:443 [null] [404] [null] [null] ["104.244.42.193"] [null] ["tsa_f"] [null] [];
+https://geo2.twitter.com:443 [null] [404] [null] [null] ["104.244.42.129"] [null] ["tsa_o"] [null] [];
 https://geo2.upload.twitter.com:443 [null] [404] [null] [null] ["104.244.42.11"] [null] ["tsa_f"] [null] [];
 https://geo2.userstream.twitter.com:443 [null] [404] [null] [null] ["104.244.42.131"] [null] ["tsa_f"] [null] [];
 https://geo2.video.twimg.com:443 ["404 - Not Found"] [404] [345] ["text/html"] ["68.232.34.217"] [null] ["ECAcc (frb/6691)"] [null] [];
@@ -15836,7 +15842,7 @@ https://hj.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"
 https://hjelmare.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://hk.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://hls.periscope.tv:443 ["Fastly error: unknown domain hls.periscope.tv"] [500] [252] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
-https://hls.pscp.tv:443 ["Fastly error: unknown domain hls.pscp.tv"] [500] [243] ["text/html"] ["151.101.2.93"] [null] ["Varnish"] [["Varnish"]] [];
+https://hls.pscp.tv:443 ["Fastly error: unknown domain hls.pscp.tv"] [500] [242] ["text/html"] ["151.101.2.93"] [null] ["Varnish"] [["Varnish"]] [];
 https://hlsads-akrc.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://hlsads-l3rc.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://hlsads-llrc.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -16919,7 +16925,7 @@ https://legacy-api.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133
 https://legacy.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://legal-dev.twitter.com:443 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_f"] [null] [];
 https://legal-staging.twitter.com:443 [null] [404] [null] [null] ["104.244.42.67"] [null] ["tsa_o"] [null] [];
-https://legal.twitter.com:443 [null] [302] [null] ["text/html"] ["104.244.42.3"] [null] ["tsa_f"] [null] [];
+https://legal.twitter.com:443 [null] [302] [null] ["text/html"] ["104.244.42.195"] [null] ["tsa_o"] [null] [];
 https://legal.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://legalrequests.twitter.com:443 ["Legal Request Submissions"] [200] [5636] ["text/html"] ["104.244.42.131"] ["https://legalrequests.twitter.com/forms/landing_disclaimer"] ["tsa_f"] [["Bootstrap"]] [];
 https://legalrequests.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -17021,7 +17027,7 @@ https://live.twitter.com:443 [null] [302] [null] [null] ["104.244.42.3"] [null] 
 https://live1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://livecampaign-dev.twitter.com:443 [null] [404] [null] [null] ["104.244.42.67"] [null] ["tsa_o"] [null] [];
 https://livecampaign-staging.twitter.com:443 [null] [404] [null] [null] ["104.244.42.195"] [null] ["tsa_o"] [null] [];
-https://livecampaign.twitter.com:443 ["Twitter / ?"] [404] [4074] ["text/html"] ["104.244.42.195"] [null] ["tsa_f"] [["Fourthwall"]] [];
+https://livecampaign.twitter.com:443 ["Twitter / ?"] [404] [4074] ["text/html"] ["104.244.42.67"] [null] ["tsa_f"] [["Fourthwall"]] [];
 https://livechat.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://livenation.twitter.com:443 [null] [302] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
 https://liverpool.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -18799,6 +18805,7 @@ https://probe6.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.
 https://problems.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://process.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://prod-ap-northeast-1.periscope.tv:443 ["Fastly error: unknown domain prod-ap-northeast-1.periscope.tv"] [500] [285] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
+https://prod-ap-southeast-2.perISCoPe.tv:443 ["Fastly error: unknown domain prod-ap-southeast-2.periscope.tv"] [500] [284] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-ap-southeast-2.periscope.tv:443 ["Fastly error: unknown domain prod-ap-southeast-2.periscope.tv"] [500] [284] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-assets.periscope.tv:443 [null] [403] [243] ["application/xml"] ["18.66.248.4"] [null] ["AmazonS3"] [["Amazon Cloudfront","Amazon S3","Amazon Web Services"]] [];
 https://prod-assets.pscp.tv:443 [null] [403] [243] ["application/xml"] ["18.66.112.15"] [null] ["AmazonS3"] [["Amazon Cloudfront","Amazon S3","Amazon Web Services"]] [];
@@ -18885,7 +18892,7 @@ https://prod-ec-us-west-2.video.pscp.tv:443 [null] [404] [19] ["text/plain"] ["1
 https://prod-ec-us-west-2.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://prod-eu-central-1.periscope.tv:443 ["Fastly error: unknown domain prod-eu-central-1.periscope.tv"] [500] [281] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-exp-video-ap-northeast-1.pscp.tv:443 ["400 no stream name"] [400] [433] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
-https://prod-exp-video-ap-southeast-1.pscp.tv:443 ["400 no stream name"] [400] [433] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
+https://prod-exp-video-ap-southeast-1.pscp.tv:443 ["400 no stream name"] [400] [432] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-exp-video-ap-southeast-2.pscp.tv:443 ["400 no stream name"] [400] [433] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-exp-video-ap-southeast-2.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://prod-exp-video-eu-central-1.pscp.tv:443 ["400 no stream name"] [400] [432] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
@@ -18894,7 +18901,7 @@ https://prod-exp-video-eu-west-1.pscp.tv:443 ["400 no stream name"] [400] [432] 
 https://prod-exp-video-sa-east-1.pscp.tv:443 ["400 no stream name"] [400] [432] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-exp-video-us-east-1.pscp.tv:443 ["400 no stream name"] [400] [433] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-exp-video-us-west-1.pscp.tv:443 ["400 no stream name"] [400] [432] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
-https://prod-exp-video-us-west-2.pscp.tv:443 ["400 no stream name"] [400] [433] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
+https://prod-exp-video-us-west-2.pscp.tv:443 ["400 no stream name"] [400] [431] ["text/html"] ["151.101.2.164"] [null] ["Varnish"] [["Varnish"]] [];
 https://prod-fa-web-lb.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://prod-fastly-ap-northeast-1.video.periscope.tv:443 [null] [404] [19] ["text/plain"] ["199.232.138.118"] [null] [null] [["Varnish"]] [];
 https://prod-fastly-ap-northeast-1.video.pscp.tv:443 [null] [404] [19] ["text/plain"] ["199.232.82.164"] [null] [null] [["Varnish"]] [];
@@ -18920,7 +18927,7 @@ https://prod-fastly-sa-east-1.video.pscp.tv:443 [null] [404] [19] ["text/plain"]
 https://prod-fastly-sa-east-1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://prod-fastly-us-east-1.video.periscope.tv:443 [null] [404] [19] ["text/plain"] ["199.232.190.118"] [null] [null] [["Varnish"]] [];
 https://prod-fastly-us-east-1.video.pscp.tv:443 [null] [404] [19] ["text/plain"] ["199.232.190.164"] [null] [null] [["Varnish"]] [];
-https://prod-fastly-us-west-1.video.periscope.tv:443 [null] [404] [19] ["text/plain"] ["199.232.138.118"] [null] [null] [["Varnish"]] [];
+https://prod-fastly-us-west-1.video.periscope.tv:443 [null] [404] [19] ["text/plain"] ["199.232.190.118"] [null] [null] [["Varnish"]] [];
 https://prod-fastly-us-west-1.video.pscp.tv:443 [null] [404] [19] ["text/plain"] ["199.232.190.164"] [null] [null] [["Varnish"]] [];
 https://prod-fastly-us-west-2.video.periscope.tv:443 [null] [404] [19] ["text/plain"] ["199.232.190.118"] [null] [null] [["Varnish"]] [];
 https://prod-fastly-us-west-2.video.pscp.tv:443 [null] [404] [19] ["text/plain"] ["199.232.82.164"] [null] [null] [["Varnish"]] [];
@@ -18963,7 +18970,7 @@ https://prod-transcode-eu-west-3.periscope.tv:443 [null] [404] [19] ["text/plain
 https://prod-transcode-eu-west-3.pscp.tv:443 [null] [404] [19] ["text/plain"] ["13.36.164.105"] [null] [null] [null] [];
 https://prod-transcode-eu-west-3.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://prod-transcode-proxy-ap-northeast-1.periscope.tv:443 [null] [404] [19] ["text/plain"] ["13.114.40.154"] [null] [null] [null] [];
-https://prod-transcode-proxy-ap-northeast-1.pscp.tv:443 [null] [404] [19] ["text/plain"] ["52.198.40.168"] [null] [null] [null] [];
+https://prod-transcode-proxy-ap-northeast-1.pscp.tv:443 [null] [404] [19] ["text/plain"] ["18.178.194.192"] [null] [null] [null] [];
 https://prod-transcode-proxy-ap-south-1.periscope.tv:443 [null] [404] [19] ["text/plain"] ["15.207.136.227"] [null] [null] [null] [];
 https://prod-transcode-proxy-ap-south-1.pscp.tv:443 [null] [404] [19] ["text/plain"] ["3.7.227.239"] [null] [null] [null] [];
 https://prod-transcode-proxy-ap-southeast-1.periscope.tv:443 [null] [404] [19] ["text/plain"] ["13.251.216.237"] [null] [null] [null] [];
@@ -18986,7 +18993,7 @@ https://prod-transcode-sa-east-1.pscp.tv:443 [null] [404] [19] ["text/plain"] ["
 https://prod-transcode-us-east-1.periscope.tv:443 [null] [404] [19] ["text/plain"] ["54.162.162.70"] [null] [null] [null] [];
 https://prod-transcode-us-east-1.pscp.tv:443 [null] [404] [19] ["text/plain"] ["34.200.4.156"] [null] [null] [null] [];
 https://prod-transcode-us-west-1.periscope.tv:443 [null] [404] [19] ["text/plain"] ["13.56.203.106"] [null] [null] [null] [];
-https://prod-transcode-us-west-1.pscp.tv:443 [null] [404] [19] ["text/plain"] ["52.8.22.77"] [null] [null] [null] [];
+https://prod-transcode-us-west-1.pscp.tv:443 [null] [404] [19] ["text/plain"] ["50.18.202.231"] [null] [null] [null] [];
 https://prod-transcode-us-west-2.periscope.tv:443 [null] [404] [19] ["text/plain"] ["35.164.107.191"] [null] [null] [null] [];
 https://prod-transcode-us-west-2.pscp.tv:443 [null] [404] [19] ["text/plain"] ["34.210.254.99"] [null] [null] [null] [];
 https://prod-us-east-1.periscope.tv:443 ["Fastly error: unknown domain prod-us-east-1.periscope.tv"] [500] [275] ["text/html"] ["151.101.0.65"] [null] ["Varnish"] [["Varnish"]] [];
@@ -19099,7 +19106,7 @@ https://publicly.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.7
 https://publicnt.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://publish.twitter.com:443 ["Twitter Publish"] [200] [719] ["text/html"] ["104.244.42.195"] [null] ["tsa_o"] [null] [];
 https://publisher.twitter.com:443 [null] [301] [null] [null] ["104.244.42.195"] [null] ["tsa_o"] [null] [];
-https://publishers.twttr.com:443 [null] [301] [null] [null] ["104.244.42.131"] [null] ["tsa_f"] [null] [];
+https://publishers.twttr.com:443 [null] [301] [null] [null] ["104.244.42.131"] [null] ["tsa_o"] [null] [];
 https://publishing.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://pull.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://pulse.twitter.com:443 [null] [301] [null] [null] ["104.244.42.131"] [null] ["tsa_f"] [null] [];
@@ -20418,10 +20425,10 @@ https://signer-eu-west-1.pscp.tv:443 [null] [200] [45] ["application/json"] ["54
 https://signer-eu-west-1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://signer-sa-east-1.periscope.tv:443 [null] [200] [45] ["application/json"] ["54.232.192.10"] [null] [null] [null] [];
 https://signer-sa-east-1.pscp.tv:443 [null] [200] [45] ["application/json"] ["54.232.214.83"] [null] [null] [null] [];
-https://signer-us-east-1.periscope.tv:443 [null] [200] [45] ["application/json"] ["18.213.68.169"] [null] [null] [null] [];
+https://signer-us-east-1.periscope.tv:443 [null] [200] [45] ["application/json"] ["54.82.14.1"] [null] [null] [null] [];
 https://signer-us-east-1.pscp.tv:443 [null] [200] [45] ["application/json"] ["54.234.153.230"] [null] [null] [null] [];
-https://signer-us-west-1.periscope.tv:443 [null] [200] [45] ["application/json"] ["204.236.175.93"] [null] [null] [null] [];
-https://signer-us-west-1.pscp.tv:443 [null] [200] [45] ["application/json"] ["184.72.23.178"] [null] [null] [null] [];
+https://signer-us-west-1.periscope.tv:443 [null] [200] [45] ["application/json"] ["54.219.160.12"] [null] [null] [null] [];
+https://signer-us-west-1.pscp.tv:443 [null] [200] [45] ["application/json"] ["52.9.56.63"] [null] [null] [null] [];
 https://signer-us-west-2.periscope.tv:443 [null] [200] [45] ["application/json"] ["52.38.99.133"] [null] [null] [null] [];
 https://signer-us-west-2.pscp.tv:443 [null] [200] [45] ["application/json"] ["44.240.170.54"] [null] [null] [null] [];
 https://signer.periscope.tv:443 [null] [200] [48] ["application/json"] ["52.57.19.234"] [null] [null] [null] [];
@@ -21656,7 +21663,7 @@ https://transferred.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.13
 https://transform.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://transformation.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://transformativesoftware.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
-https://translate.twitter.com:443 ["Twitter Translation Center"] [200] [2281] ["text/html"] ["104.244.42.67"] [null] ["tsa_f"] [["Ruby","Ruby on Rails"]] [];
+https://translate.twitter.com:443 ["Twitter Translation Center"] [200] [2281] ["text/html"] ["104.244.42.195"] [null] ["tsa_o"] [["Ruby","Ruby on Rails"]] [];
 https://translate.twttr.com:443 [null] [301] [null] [null] ["104.244.42.65"] [null] ["tsa_f"] [null] [];
 https://translation.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://transparency-dev.twitter.com:443 [null] [404] [null] [null] ["104.244.42.67"] [null] ["tsa_o"] [null] [];
@@ -21984,7 +21991,7 @@ https://upgradeerror-engineering.dev-databrandsafety.vpn.twttr.com:443 [null] [3
 https://upgradeevilgpo.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://upgradegatoprogramador.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://upl.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
-https://upload-0-0-0-0.twitter.com:443 [null] [410] [120] ["text/plain"] ["104.244.42.195"] [null] ["tsa_f"] [null] [];
+https://upload-0-0-0-0.twitter.com:443 [null] [410] [120] ["text/plain"] ["104.244.42.67"] [null] ["tsa_f"] [null] [];
 https://upload-0-0-0-0.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://upload-0-4-0.twitter.com:443 [null] [410] [120] ["text/plain"] ["104.244.42.3"] [null] ["tsa_f"] [null] [];
 https://upload-0-4-1.twitter.com:443 [null] [404] [null] [null] ["104.244.42.3"] [null] ["tsa_o"] [null] [];
@@ -22811,7 +22818,7 @@ https://web-ap-northeast-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["35.75.
 https://web-ap-northeast-2.periscope.tv:443 [null] [403] [954] ["text/html"] ["3.34.36.67"] [null] [null] [null] [];
 https://web-ap-northeast-2.pscp.tv:443 [null] [403] [954] ["text/html"] ["3.34.66.79"] [null] [null] [null] [];
 https://web-ap-south-1.periscope.tv:443 [null] [403] [954] ["text/html"] ["35.154.31.251"] [null] [null] [null] [];
-https://web-ap-south-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["15.207.138.226"] [null] [null] [null] [];
+https://web-ap-south-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["15.206.191.57"] [null] [null] [null] [];
 https://web-ap-southeast-1.periscope.tv:443 [null] [403] [954] ["text/html"] ["13.228.17.75"] [null] [null] [null] [];
 https://web-ap-southeast-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["54.255.72.26"] [null] [null] [null] [];
 https://web-ap-southeast-1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
@@ -22835,7 +22842,7 @@ https://web-es.ssl.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133
 https://web-eu-central-1.periscope.tv:443 [null] [403] [954] ["text/html"] ["3.65.202.179"] [null] [null] [null] [];
 https://web-eu-central-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["18.195.142.217"] [null] [null] [null] [];
 https://web-eu-west-1.periscope.tv:443 [null] [403] [954] ["text/html"] ["34.246.66.117"] [null] [null] [null] [];
-https://web-eu-west-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["52.211.109.169"] [null] [null] [null] [];
+https://web-eu-west-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["34.249.165.84"] [null] [null] [null] [];
 https://web-eu-west-1.vpn.twttr.com:443 [null] [302] [null] ["text/html"] ["192.133.76.240"] [null] [null] [["Pulse Secure"]] [];
 https://web-sa-east-1.periscope.tv:443 [null] [403] [954] ["text/html"] ["18.228.227.30"] [null] [null] [null] [];
 https://web-sa-east-1.pscp.tv:443 [null] [403] [954] ["text/html"] ["177.71.202.40"] [null] [null] [null] [];
