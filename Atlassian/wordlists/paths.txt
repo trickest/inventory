@@ -5099,6 +5099,7 @@
 /account_connected
 /accounts/newsletters
 /action/create-update
+/action/lookup/:key
 /action/sample-digest-email
 /action/update/:id/reaction
 /actions/022439d0ae2089f2d3e55f612029d860c057d042ea770dff1045030741c38307.js
@@ -5936,6 +5937,7 @@
 /emails
 /embed/
 /embed/videoseries?list=
+/embeds/give-kudos
 /embeds/goal/:goalKey/update
 /embeds/goals
 /embeds/initiative/:initiative
@@ -6047,7 +6049,7 @@
 /feed/SECFiling.svc/GetEdgarFilingYearList
 /feed/StockQuote.svc/
 /feed/popular?first=25
-/feedback slash command
+/feedback
 /feedback-collector-api
 /fetch-instance-users
 /fetchPaymentInfo
@@ -6847,6 +6849,7 @@
 /kYp
 /keys
 /keys/
+/kudos/give
 /l+K
 /lCS
 /lKr
@@ -7169,6 +7172,8 @@
 /o/:orgId/unmanaged-users
 /o/:orgId/user-access-settings
 /o/:orgId/user-provisioning
+/o/:orgId/user-tiers
+/o/:orgId/user-tiers/:workspaceType/:plan
 /o/:orgId/users
 /o/:orgId/users/:userId
 /o/:orgId/users/export/:exportId
@@ -7932,7 +7937,7 @@
 /sdQ
 /sdk/evalx/
 /sdk/goals/
-/search slashcommand
+/search
 /search-results
 /search-results?SearchTerm=
 /search/
@@ -8360,6 +8365,7 @@
 /user-provisioning
 /user-seg-redirector/v1/redirect-event/
 /user-seg-redirector/v1/view-attempt
+/user-tiers
 /user/
 /user/:username
 /user/reminders
