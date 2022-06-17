@@ -241,6 +241,9 @@
 ./../../../china-reservations/components/ReservationDetailPage
 ./../../../gp-add-payout-method-route/routes/AddPayoutMethodRoute/AddPayoutMethodRoute
 ./../../../gp-add-payout-method-route/routes/AddPayoutMethodRoute/AddPayoutMethodRoute.prepare
+./../../../gp-tax-info-route/routes/TaxInfoRoute/TaxInfoRoute
+./../../../gp-tax-info-route/routes/TaxInfoRoute/TaxInfoRoute.prepare
+./../../../gp-tax-info-route/routes/TaxInfoRoute/TaxInfoRouteWrapper
 ./../../../guest-contributions-settings/components/GuestContributionsSettings
 ./../../../host-service-fee-setting/AsyncHostServiceFeeSettingApp
 ./../../../manage-payout-method/containers/AddPageContainer
@@ -2101,6 +2104,7 @@
 /authenticate
 /author/{slug}
 /author/{slug}/{tab}
+/awards/{type}
 /backyard
 /banner
 /belgium/brussels
@@ -2240,6 +2244,7 @@
 /crossdomain.xml
 /css/*
 /customers/password/new
+/customize-topics
 /czech-republic/prague
 /d/gift-cards
 /darken/
@@ -5909,6 +5914,7 @@ web-experience-app/config/see-all-profiles
 web-experience-app/config/shelf-profiles
 web-experience-app/config/timeouts
 web-experience-app/constants/keycode
+web-experience-app/constants/os-version
 web-experience-app/controllers/app
 web-experience-app/controllers/app-bundle
 web-experience-app/controllers/app-bundle/index
