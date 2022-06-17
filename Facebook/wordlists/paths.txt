@@ -2368,6 +2368,7 @@
 /hubs/with/event/
 /i18n/{part}/locale-{lang}.json
 /id/{?param_primary}/{?param_secondary}/
+/ig-messenger
 /ignore/
 /igtv/configure_to_igtv/
 /images/
@@ -2497,6 +2498,7 @@
 /membership/{navContext:[\\w\\-]+}
 /messages
 /messaging/set_thread_image/
+/messenger
 /messenger_sync_create_queue
 /messenger_sync_get_diffs
 /metrics
@@ -2558,7 +2560,10 @@
 /outage-events-feed-commerce.rss
 /outage-events-feed-fbs.rss
 /outage-events-feed-graph-api.rss
+/outage-events-feed-ig-messenger.rss
+/outage-events-feed-messenger.rss
 /outage-events-feed-waba.rss
+/outage-events-feed-work-accounts.rss
 /outage-events-feed.rss
 /outages
 /overdraw
@@ -3006,6 +3011,7 @@
 /usr/src/app/frontend/common/components/BorderPicker/BorderPickerOptions/index.jsx
 /usr/src/app/frontend/common/components/BorderPicker/index.jsx
 /usr/src/app/frontend/common/components/BurstButton/BurstButton.jsx
+/usr/src/app/frontend/common/components/ClipboardCopyButton/ClipboardCopyButton.jsx
 /usr/src/app/frontend/common/components/CmsIframe/CmsIframe.jsx
 /usr/src/app/frontend/common/components/CmsIframe/CmsSaveButton.jsx
 /usr/src/app/frontend/common/components/CmsIframe/DeviceEmulationControls.jsx
@@ -3317,6 +3323,7 @@
 /usr/src/app/frontend/common/styles/breakpoints.js
 /usr/src/app/frontend/common/styles/colors.js
 /usr/src/app/frontend/common/styles/palette.js
+/usr/src/app/frontend/common/styles/snippets.js
 /usr/src/app/frontend/common/styles/typography.js
 /usr/src/app/frontend/common/styles/variables.js
 /usr/src/app/frontend/common/utils/constructActionTypes.js
@@ -3486,6 +3493,7 @@
 /wifiauth/redirect/
 /wlan
 /wlc
+/work-accounts
 /work/admin/delete_company/
 /work/admin/user/{work_user_id}/
 /wp-content/themes/code-fb-com/img/caret-video-left.png
