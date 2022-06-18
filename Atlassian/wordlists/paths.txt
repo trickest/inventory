@@ -5154,6 +5154,7 @@
 /admin/data_location
 /admin/deprecations
 /admin/dev-local-login
+/admin/email-domains
 /admin/emoji
 /admin/external-people
 /admin/external_people
@@ -5296,6 +5297,8 @@
 /archive/{appId}
 /archives
 /archives/
+/archives/${e.id}
+/archives/${n}
 /articles/
 /articles/Issue/
 /as8
@@ -5322,6 +5325,7 @@
 /atl_get_user_by_sso?sso_id=
 /atl_set_learner_profile_enabled?enabled=
 /atl_set_user_consent
+/atlassian
 /atlassian-access
 /atlassian-account/resources/
 /atlassian-connect/all
@@ -6202,6 +6206,8 @@
 /getting-started/editor
 /giphy
 /give-kudos
+/give-kudos?type=individual
+/give-kudos?type=individual&amp;recipientId=
 /glyph/
 /goal
 /goal/
@@ -8039,6 +8045,7 @@
 /server/tools/marketing-engineering-admintool/
 /services
 /services/
+/services/${e.id}
 /services/Soap/
 /services/import/
 /services/semantic-model/data-roles/
@@ -8202,6 +8209,7 @@
 /ssb/get-started
 /ssb/signin
 /ssb/signin_redirect?entry_point=download_app_modal
+/standard
 /star
 /start
 /start?initiated_by=
@@ -8271,6 +8279,7 @@
 /tasks
 /team
 /team/
+/team/${e.id}
 /team/anonymous-feedback
 /team/description
 /team/refresh
@@ -8394,6 +8403,7 @@
 /usr/src
 /v1/
 /v1/billing-agreements/agreement-tokens
+/v1/collaborationgraph/multitenant/user/container
 /v1/collaborationgraph/user/container
 /v1/collaborationgraph/user/user
 /v1/countries
@@ -14302,8 +14312,11 @@ saved-api/removeSavedReminder
 saved-api/saveMessage
 saved-api/saveReminder
 saved-api/savedList
+saved-api/toggleReminderComplete
+saved-api/toggleSavedMessageComplete
 saved-api/updateSavedMessage
 saved-api/updateSavedReminder
+saved-for-later/sentReply
 scheduled-maintenances/active
 scheduled-maintenances/upcoming
 scheduler/unstable_mock
