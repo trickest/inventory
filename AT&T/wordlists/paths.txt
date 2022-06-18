@@ -233,7 +233,10 @@
 ../../../assets/images/share-alt.svg
 ../../../assets/images/share_notebook.svg
 ../../../assets/img/bubble.png
+../../../assets/img/check-mark.png
+../../../assets/img/cross-mark.png
 ../../../assets/img/homepage-images/
+../../../assets/img/info-icon.png
 ../../../assets/img/menu-icon.png
 ../../../assets/user-guides/BCHS_Express_Ticketing_Text_Notifications.pdf
 ../../../assets/user-guides/ENGAGE_HelpGuide.pdf
@@ -2084,6 +2087,7 @@
 ./../Seo
 ./../Slide
 ./../StaticHTML
+./../StaticReview
 ./../StoreMap
 ./../StoreRibbon
 ./../StoryOffer
@@ -16206,6 +16210,8 @@
 //www.att.com/global-search/static/widget/js/searchWidgetScript.js
 //www.att.com/globalnav/mobile/3.3/js/mGlobalnav.min.js
 //www.att.com/globalnav/tesla/2.0/tesla.scaffold.js
+//www.att.com/maintenance/images/ACME-868-Background.jpg
+//www.att.com/maintenance/images/ACME-868-Headline.png
 //www.att.com/media/gvp/gvp-4.1.40.min.js
 //www.att.com/scripts/adobe/preprod/detm-container-ftr.js
 //www.att.com/scripts/adobe/preprod/detm-container-hdr.js
@@ -19355,6 +19361,7 @@
 /connect/bingo/:id
 /connect/insights
 /connect/insights/
+/connect/insights/00001809
 /connect/insights/:orgId?/:eventType?
 /connect/session/
 /connect/session/:id
@@ -20952,6 +20959,9 @@
 /imports/\
 /imports/{importId}\
 /impression/
+/inContact/ChatClient/ChatClient.aspx?poc=
+/inContact/ChatClient/chatButton.html
+/inContact/ChatClient/index.html
 /incidents
 /incidents/
 /incidents/addIncident
@@ -21513,6 +21523,7 @@
 /mktg/p13n/one-up
 /mktg/v1/_next/static/css/woff-icons-IE.min.css
 /mktg/v1/_next/static/serviceWorker.js
+/mktg/v1/_next/static/~partytown/debug/partytown-sw.js
 /mktg/v1/uf/log-error/
 /mlqxle14rw
 /mnt/d/dev/git/exceljs/node_modules/browserify-sign
@@ -21684,6 +21695,7 @@
 /msapi/outage/v1/linkedAcctInfo
 /msapi/outage/v1/workflows/na/BAN?executecache=true
 /msapi/p13n-data-check-nodems/v1/cartoffers
+/msapi/p13n-segment-value-nodems/v1/segment/AB_Testing?uuid=
 /msapi/paymentthirdpartyms/v1/citi/applicationreferral
 /msapi/personalization/v1/experienceinfo
 /msapi/recognizedstatems/v1/consent/determineConsentBanner
@@ -23338,6 +23350,11 @@
 /status
 /status.json
 /status/
+/status/e-pin
+/status/fileupload
+/status/info
+/status/log_note
+/status/manage-subscriptions
 /statuses/
 /stdjs/INIStdPay_third-party.js
 /stdjs/INIStdPay_third-party_under_ie9.js
@@ -29925,6 +29942,7 @@ restservices/addp/v1/account/efota/changeRequest
 restservices/addp/v1/account/efota/getChangeRequests
 restservices/addp/v1/account/enrollexistingdevices
 restservices/addp/v1/account/profiles
+restservices/addp/v1/account/revisenotificationsettings
 restservices/addp/v1/account/settings
 restservices/addp/v1/account/setup
 restservices/addp/v1/account/summary
@@ -30733,6 +30751,7 @@ text/mdx
 text/mirc
 text/n-triples
 text/ng-template
+text/partytown
 text/plain
 text/richtext
 text/rtf
