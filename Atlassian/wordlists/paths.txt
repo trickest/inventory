@@ -651,6 +651,7 @@
 ./app-access.d.ts
 ./app-access.js
 ./app-switcher
+./app-switcher.135a04f1.js
 ./app-switcher.d
 ./app-switcher.d.ts
 ./app-switcher.js
@@ -1061,6 +1062,7 @@
 ./component.js
 ./components/checkboxes/checkbox.styl
 ./components/tbDatePicker/datePicker.styl
+./components/tile.graphql
 ./compose-options
 ./compose-url
 ./conference
@@ -1149,6 +1151,7 @@
 ./de.js
 ./de.json
 ./de/messages.json
+./debug-ui.a8814733.js
 ./debug.js
 ./debuggability
 ./decision
@@ -3550,6 +3553,7 @@
 ./settings/pug/siteSettings/siteSettingsShouldShowExtensions.pug
 ./settle.js
 ./setup.7d1d1391.js
+./setup.eadc4b56.js
 ./sha
 ./sha256
 ./shape
@@ -3573,6 +3577,7 @@
 ./shortcut.js
 ./si
 ./si.js
+./sidebar-panel-content.b443db9d.js
 ./sign-in
 ./sign-in.d
 ./sign-in.d.ts
@@ -4125,6 +4130,7 @@
 ./v3https
 ./v4
 ./vault-manager
+./vendor.c20b869a.js
 ./vendor.e69420a6.js
 ./vendor/sjcl
 ./venmo
@@ -5436,6 +5442,9 @@
 /canvas
 /canvas-icon.459c0db2.svg
 /canvas-logo-preview.177bbc26.svg
+/canvas-logo-preview.2340beea.svg
+/canvas/
+/canvas/whiteboard/:boardId
 /capabilities/
 /capabilities/:capabilityId
 /capabilities/:capabilityId/map
@@ -5788,6 +5797,7 @@
 /create-content/:contentType
 /create-issue
 /create-issue\
+/create-plus.dbb9e889.svg
 /create/
 /createblogpost.action
 /createnew
@@ -5992,6 +6002,7 @@
 /entries/
 /environments/
 /error
+/error-not-found.6b2a3a66.svg
 /error.html
 /error.png
 /errorCorrectionLevel:
@@ -6053,7 +6064,7 @@
 /feed/SECFiling.svc/GetEdgarFilingYearList
 /feed/StockQuote.svc/
 /feed/popular?first=25
-/feedback
+/feedback slash command
 /feedback-collector-api
 /fetch-instance-users
 /fetchPaymentInfo
@@ -6138,6 +6149,7 @@
 /gateway/api/billing-ux/api/place/autocomplete/?
 /gateway/api/billing-ux/api/place/details/?
 /gateway/api/canvas
+/gateway/api/canvas/api/graphql
 /gateway/api/ccp/api/v1/invoices/
 /gateway/api/collaboration
 /gateway/api/collaboration/v1/collaborationgraph/multitenant/user/container
@@ -6262,6 +6274,7 @@
 /hamlet/1.0/public/reCaptcha/siteKey
 /hamsproxy/public/rest/2/country/taas/all
 /hamsproxy/public/rest/2/country/taas/findByIso/
+/handshake.c57b4e33.svg
 /hello
 /hello-world
 /help
@@ -6381,6 +6394,7 @@
 /iframe.js
 /ignoreinvite
 /image
+/image-icon.59b48dd4.svg
 /image/metadata
 /images/
 /images/DefaultAvatar.svg
@@ -6897,6 +6911,8 @@
 /licensing/purchase-licensing#softwaremaintenance-5
 /licensing/purchase-licensing/howtopay
 /licensing/resellers-licensing
+/line-icon-handles.26064934.svg
+/line-icon.3b21bf19.svg
 /line-icon.a8e972d8.svg
 /lineage
 /link
@@ -7314,6 +7330,7 @@
 /paymentInfo
 /pdf-viewer
 /pdf/spaces/:spaceKey/pages/overview
+/pencil.d6295602.svg
 /people
 /people/
 /people/groups
@@ -7943,7 +7960,7 @@
 /sdQ
 /sdk/evalx/
 /sdk/goals/
-/search
+/search slashcommand
 /search-results
 /search-results?SearchTerm=
 /search/
@@ -8201,6 +8218,7 @@
 /spaces/spacepermissions.action?key=:spaceKey([^&amp;]+)
 /spaces/viewspace.action
 /spaces/viewspacesummary.action?key=:spaceKey([^&amp;]+)
+/spiral-note-pad.de4fff6a.svg
 /sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery\x3d
 /src
 /src/
@@ -8317,6 +8335,7 @@
 /tickets
 /tickets/
 /tickets/:ticketID
+/tile.f0d8c48e.svg
 /tinymce.min.js?apiKey=
 /tmp
 /tnckb94959/plugins/custom/atlassian/atlassian
@@ -8480,6 +8499,7 @@
 /webinarsignup/updatestreamhub
 /welcome
 /welcome-modal-image.194e7f99.svg
+/welcome-modal-image.5c1ddc1f.svg
 /welcome/select
 /whats_new
 /widgets/
