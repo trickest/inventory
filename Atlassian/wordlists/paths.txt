@@ -6196,6 +6196,7 @@
 /gateway/api/v3/teams
 /gateway/api/watermelon
 /gateway/api/watermelon/authcheck
+/gateway/api/watermelon/export/goals/tql
 /gateway/api/watermelon/export/projects/tql
 /gateway/api/watermelon/graphql
 /gateway/api/watermelon/media-token
@@ -11017,9 +11018,11 @@ background-surface/background
 background-surface/background/colored
 background-surface/background/colored/accent
 background-surface/background/colored/accent/blue
+background-surface/background/colored/accent/gray
 background-surface/background/colored/accent/green
 background-surface/background/colored/accent/magenta
 background-surface/background/colored/accent/orange
+background-surface/background/colored/accent/purple
 background-surface/background/colored/accent/purple/
 background-surface/background/colored/accent/red
 background-surface/background/colored/accent/teal
@@ -11079,6 +11082,7 @@ border/colored/brand
 border/colored/danger
 border/colored/discovery
 border/colored/focused
+border/colored/gray
 border/colored/green
 border/colored/information
 border/colored/magenta
@@ -11690,6 +11694,7 @@ icon/colored/blue
 icon/colored/brand
 icon/colored/danger
 icon/colored/discovery
+icon/colored/gray
 icon/colored/green
 icon/colored/information
 icon/colored/magenta
@@ -14628,6 +14633,7 @@ text/coffeescript
 text/colored
 text/colored/accent
 text/colored/accent/blue
+text/colored/accent/gray
 text/colored/accent/green
 text/colored/accent/magenta
 text/colored/accent/orange
