@@ -6406,6 +6406,11 @@
 ./node_modules/@vzmi/caas-static/src/lazy/js/ioLazy.js
 ./node_modules/@vzmi/caas-static/src/util/js/index.js
 ./node_modules/@vzmi/wafer-core/src/utils/ee.js
+./node_modules/abs-components-bc/esm5/abs-components-bc.js
+./node_modules/abs-components-bc/styles/font.css
+./node_modules/abs-components-bc/styles/fontIcons.css
+./node_modules/abs-components-bc/styles/forms.css
+./node_modules/abs-components-bc/styles/global.css
 ./node_modules/admin-lte/dist/js/app.js
 ./node_modules/ag-grid-angular/dist/agGridColumn.js
 ./node_modules/ag-grid-angular/dist/agGridNg2.js
@@ -10298,6 +10303,11 @@
 ./node_modules/raw-loader/dist/cjs.js!./js/modules/setup/views/endpointSetup/endpoint-setup-view.html
 ./node_modules/raw-loader/dist/cjs.js!./js/vueComponents/dateRangePopup/dayRangePopup.html
 ./node_modules/raw-loader/dist/cjs.js!./js/vueComponents/popupWrapper/popupWrapper.html
+./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/abs-components-bc/styles/font.css
+./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/abs-components-bc/styles/fontIcons.css
+./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/abs-components-bc/styles/forms.css
+./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/abs-components-bc/styles/global.css
+./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css
 ./node_modules/react-aria-modal/dist/react-aria-modal.js
 ./node_modules/react-device-detect/dist/index.js
 ./node_modules/react-displace/dist/displace.js
@@ -10681,6 +10691,9 @@
 ./node_modules/rxjs/_esm5/internal/observable/fromArray.js
 ./node_modules/rxjs/_esm5/internal/observable/fromEvent.js
 ./node_modules/rxjs/_esm5/internal/observable/fromEventPattern.js
+./node_modules/rxjs/_esm5/internal/observable/fromIterable.js
+./node_modules/rxjs/_esm5/internal/observable/fromObservable.js
+./node_modules/rxjs/_esm5/internal/observable/fromPromise.js
 ./node_modules/rxjs/_esm5/internal/observable/generate.js
 ./node_modules/rxjs/_esm5/internal/observable/iif.js
 ./node_modules/rxjs/_esm5/internal/observable/interval.js
@@ -12965,12 +12978,24 @@
 ./src/app/app_properties/properties.ts
 ./src/app/auth-token/auth-token.module.ts
 ./src/app/auth-token/services/auth-token.interceptor.ts
+./src/app/avts-landing/avts-landing.component.css
+./src/app/avts-landing/avts-landing.component.html
+./src/app/avts-landing/avts-landing.component.ts
 ./src/app/bottom-navigation/bottom-navigation.component.css
 ./src/app/bottom-navigation/bottom-navigation.component.html
 ./src/app/bottom-navigation/bottom-navigation.component.ts
 ./src/app/bottom-navigation/bottom-navigation.module.ts
 ./src/app/bottom-navigation/services/bottom-navigation.service.ts
+./src/app/cdde-landing/cdde-landing.component.css
+./src/app/cdde-landing/cdde-landing.component.html
+./src/app/cdde-landing/cdde-landing.component.ts
 ./src/app/change-password/change-password.component.ts
+./src/app/common-footer/common-footer.component.css
+./src/app/common-footer/common-footer.component.html
+./src/app/common-footer/common-footer.component.ts
+./src/app/common-header/common-header.component.css
+./src/app/common-header/common-header.component.html
+./src/app/common-header/common-header.component.ts
 ./src/app/common/pipes/grouped-search.pipe.ts
 ./src/app/component/attestation-cycle-list/attestation-cycle-list.component.ts
 ./src/app/component/attestation-disclosure-list/attestation-disclosure-list.component.ts
@@ -13041,6 +13066,9 @@
 ./src/app/eo/eo.component.html
 ./src/app/eo/eo.component.ts
 ./src/app/eo/eo.module.ts
+./src/app/error/error.component.css
+./src/app/error/error.component.html
+./src/app/error/error.component.ts
 ./src/app/features/home/features/download-product-brief-modal/download-product-brief-modal.component.html
 ./src/app/features/home/features/request-demo-modal/request-demo-modal.component.html
 ./src/app/features/home/home.component.html
@@ -13067,6 +13095,9 @@
 ./src/app/footer/footer.component.ts
 ./src/app/footer/footer.module.ts
 ./src/app/forgot-password/forgot-password.component.ts
+./src/app/gda-landing/gda-landing.component.css
+./src/app/gda-landing/gda-landing.component.html
+./src/app/gda-landing/gda-landing.component.ts
 ./src/app/guard/admin.guard.ts
 ./src/app/header/header.component.css
 ./src/app/header/header.component.html
@@ -13088,6 +13119,9 @@
 ./src/app/landing-page/landing-page.component.ts
 ./src/app/landing-page/landing-page.module.ts
 ./src/app/landing-page/services/landing-page.service.ts
+./src/app/learn/learn.component.css
+./src/app/learn/learn.component.html
+./src/app/learn/learn.component.ts
 ./src/app/lineconfiguration/components/configbuttons/configbuttons.component.css
 ./src/app/lineconfiguration/components/configbuttons/configbuttons.component.html
 ./src/app/lineconfiguration/components/configbuttons/configbuttons.component.ts
@@ -13111,7 +13145,13 @@
 ./src/app/loader/loader.module.ts
 ./src/app/loader/services/loader.interceptor.service.ts
 ./src/app/loader/services/loader.service.ts
+./src/app/main-page/main-page.component.css
+./src/app/main-page/main-page.component.html
+./src/app/main-page/main-page.component.ts
 ./src/app/main.ts
+./src/app/maintenance-page/maintenance-page.component.css
+./src/app/maintenance-page/maintenance-page.component.html
+./src/app/maintenance-page/maintenance-page.component.ts
 ./src/app/material/material.module.ts
 ./src/app/modal/components/alert-modal/alert-modal.component.html
 ./src/app/modal/components/alert-modal/alert-modal.component.ts
@@ -13169,6 +13209,9 @@
 ./src/app/resolve/attestation/attestation-landing.resolve.ts
 ./src/app/resolve/data-request.resolve.ts
 ./src/app/resolve/request-form.resolve.ts
+./src/app/rocc-landing/rocc-landing.component.css
+./src/app/rocc-landing/rocc-landing.component.html
+./src/app/rocc-landing/rocc-landing.component.ts
 ./src/app/save/services/save.service.ts
 ./src/app/search-product/search-product.component.css
 ./src/app/search-product/search-product.component.html
@@ -13298,6 +13341,9 @@
 ./src/app/webmom/services/product.ts
 ./src/app/webmom/services/routing-codes.ts
 ./src/app/webmom/services/webmom.service.ts
+./src/app/wholesale-landing/wholesale-landing.component.css
+./src/app/wholesale-landing/wholesale-landing.component.html
+./src/app/wholesale-landing/wholesale-landing.component.ts
 ./src/assets/css/styles.css
 ./src/assets/styles/style.scss
 ./src/base.js
@@ -16400,6 +16446,7 @@
 /#/start?oem=
 /#1:2
 /#\
+/#_
 /#affiliations
 /#monitoring/calls?filter=endpoint_id==
 /#stories
@@ -16503,6 +16550,7 @@
 //gvpcertvideos.att.com
 //gvpcertvideos.att.com/
 //idse2.dev.att.com:10081
+//ilightbox.net/getSource/jsonp.php?url=
 //img.youtube.com/vi/
 //img.youtube.com/vi/$4/hqdefault.jpg
 //img.youtube.com/vi/%1
@@ -17884,6 +17932,7 @@
 /api/customers/customerlist
 /api/customers/platform/:platformId/updateusermigrationflag
 /api/customers/sitegroups
+/api/downloadRequests?start=
 /api/dynamic-link-by?url=
 /api/email/ping
 /api/embed/error-page/
@@ -18317,6 +18366,7 @@
 /api/sso/startup
 /api/start_session?
 /api/statistics
+/api/stats?start=
 /api/status/time/
 /api/status/version/
 /api/system/CVEWhitelist
@@ -19053,6 +19103,7 @@
 /available-courses/my-learning-plan/:learningPlanId
 /available-products/api/available-products
 /available-products/api/product-configuration
+/avtslanding
 /axios
 /b.html
 /b/ss/
@@ -19567,6 +19618,8 @@
 /categoriesandsegments/public
 /category/
 /categorySchema
+/cddelanding
+/cdn-cgi/l/email-protection#
 /cellphones
 /cellphones/details
 /ceo-challenge
@@ -19622,6 +19675,7 @@
 /check-availability/modal
 /check-login
 /check_access_key.ns?access_key_pretty=
+/check_session/
 /checkout
 /checkout.php
 /checkout/
@@ -20897,6 +20951,7 @@
 /gateways/
 /gcdb
 /gcpGetDialPlanByTn
+/gdalanding
 /gen-ID
 /gen/general?pid=11624
 /gen/general?pid=11624\
@@ -21396,6 +21451,7 @@
 /images/icons/cancel.svg
 /images/icons/clock.svg
 /images/icons/close.svg
+/images/icons/doc.svg
 /images/icons/documents/doc.svg
 /images/icons/down.svg
 /images/icons/download.svg
@@ -22102,6 +22158,7 @@
 /mpel/mpel?href\x3d
 /mpel/mpel_storage.html?cmd\x3dgetpref\x26href\x3d
 /mpel/mpel_storage.html?cmd\x3dstorePref\x26href\x3d
+/mqdefault.jpg
 /msapi
 /msapi/accountservices/v1/common/accountDetails
 /msapi/accountservices/v1/gnsess/manage
@@ -23310,6 +23367,7 @@
 /rma/XT2460G211001A0A
 /robots
 /robots/
+/rocclanding
 /role
 /role-aliases/{roleAlias}\
 /role-aliases\
@@ -25193,9 +25251,14 @@
 /whats-next
 /whats-next.html
 /whole?flag=true
+/wholesalelanding
 /wicket/resource/com.appdirect.wicket.resources.Resource/spa/themes/acme/images/acme_logo.png
 /wicket/resource/com.appdirect.wicket.resources.Resource/spa/themes/appdirectapp/images/logo_white_2x.png
 /widget/
+/widgets/follow_button.d7fc2fc075c61f6fa34d79a0cbbf1e34.{{lang}}.html
+/widgets/hub.html
+/widgets/tweet_button.d7fc2fc075c61f6fa34d79a0cbbf1e34.{{lang}}.html
+/widgets/widget_iframe.d7fc2fc075c61f6fa34d79a0cbbf1e34.html
 /wiki
 /wing
 /wipe
@@ -25334,6 +25397,7 @@
 1466.js
 1786.js
 1884/0331357718
+1999/09/14
 1999/xlink
 2000/svg
 2020/01/01
@@ -25379,6 +25443,7 @@
 8193.js
 8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/s-code-contents-74eccc461f495271f7d3e907271af48aa6938276.js
 8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/scripts/
+9/14/99
 901/TOC/AKRNOH25K01/AKRNOH25W31
 9897.js
 99/99/99
@@ -27422,6 +27487,7 @@ amp-artwork/image
 amp-artwork/wea
 analytics.js
 analytics/data-usage/export?
+animation-cmp.html
 anomaly_detection.html
 aol/search
 ap/ip-kytkin
@@ -28854,6 +28920,7 @@ controllers/updateFieldModel
 controllers/validateRequired
 conversations/new
 conversations/search
+cookie/consent
 copyAndResetExtension/isADIntegrationEnabled
 cordova/plugin_list
 core-js/es/object/assign
@@ -29083,6 +29150,7 @@ dsl/checkout/complete/complete.jsp
 dss2021/ceo-challenge
 dvc-worklet/krisp-audio-worklet.js
 dvc-worklet/preload-check-worker.js
+ebiz/registration
 ecdsa/rsa
 ecms/dam
 editorial/books/brick-compositing
@@ -29861,6 +29929,7 @@ global/window
 goldeneye.js
 google/protobuf/
 graphql/language
+grid/collection
 groups/activePanel
 gtm.js
 harbor/sign-in
@@ -31302,6 +31371,7 @@ src/app/data-formatters/twocell-formatter
 src/app/data-formatters/vmrstatussearchgrid-formatter
 src/app/data-formatters/xmldetails-formatter
 src/assets/images/manifest-logo-2.png
+src/scripts/components/BarChart.vue
 src/scripts/components/MessageDetailsModal.vue
 src/scripts/components/MessageList.vue
 src/scripts/components/OfferDetailsModal.vue
@@ -31309,6 +31379,7 @@ src/scripts/components/OfferList.vue
 src/scripts/components/OfferMessageList.vue
 src/scripts/components/ReferralDetailsModal.vue
 src/scripts/components/ReferralRedemption.vue
+src/scripts/components/Reporting.vue
 src/scripts/components/SignatureRequestModal.vue
 src/scripts/components/SignatureRequests.vue
 src/scripts/components/events/EventApproveReject.vue
@@ -31990,6 +32061,7 @@ trdParty/DETM/production/detmLoaderConfig.js
 trial/continue
 tv/game-of-thrones
 tv/game-of-thrones-v2
+tweets.json
 twoFactor/options
 twoFactor/recheck
 type/plain-function/ensure
@@ -32162,6 +32234,7 @@ video/3gpp
 video/3gpp2
 video/MP2T
 video/avi
+video/event
 video/flv
 video/h261
 video/h263
@@ -32868,6 +32941,7 @@ widget/templates/form/_BasePicker.html
 widget/templates/form/_BaseSinglePicker.html
 widget/templates/objectselector/ObjectSelectorTreeNode.html
 widget/templates/tree/TreeNode.html
+widgets/video
 worklet.js
 worksheets/sheet
 world-calendars/dist/calendars/chinese
