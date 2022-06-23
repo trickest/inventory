@@ -6748,6 +6748,7 @@
 /accountowner/verify
 /action/
 /actions/
+/actions/\
 /activate_account/
 /activities/
 /activity/
@@ -6840,6 +6841,7 @@
 /api/find_by_email/?email=
 /api/flatfile/job_openings/
 /api/flatfile/payments/
+/api/flatfile/vendors/
 /api/form/FormSubmissionKey
 /api/form/SaveFormSubmission
 /api/forms/templates/
@@ -7125,6 +7127,7 @@
 /api/vendors/public_key/\
 /api/vendors/request_intro/
 /api/vendors/{{$ctrl.vendor.slug}}/job_openings/{{$ctrl.jobOpening.id}}/pdf
+/api/vendors/{{$ctrl.vendor.slug}}/onboarding/{{$ctrl.jobOpening.vendor_workflow.id}}/summary
 /api/veriff/integration/
 /api/veriff/verification/
 /api/voip
@@ -8652,6 +8655,7 @@
 /lCS
 /landing
 /langs/
+/language/
 /language/{lng}/{ns}
 /languages
 /lastRenderedEventIndex
@@ -8766,6 +8770,7 @@
 /mobile-browser/
 /mocks/article
 /mocks/gallery
+/mocks/gallery?mediaIndex=
 /mocks/talent
 /mocks/title
 /mocks/video
@@ -10103,6 +10108,8 @@
 /task-groups/
 /task-templates/
 /task/:id/
+/task_groups/
+/task_groups/\
 /task_time_sheet/
 /tasks
 /tasks/
@@ -10667,6 +10674,7 @@ Etc/UTC|UTC
 Etc/UTC|Universal
 Etc/UTC|Zulu
 Etc/Unknown
+Europe/Athens
 Europe/Belgrade|Europe/Ljubljana
 Europe/Belgrade|Europe/Podgorica
 Europe/Belgrade|Europe/Sarajevo
@@ -12320,6 +12328,7 @@ img/project-thumb-2.png
 importFirmwareImplementation.html
 index.html
 index.js
+jDg/gKip4baeQneIEt3hQFEX
 job-board/list/
 job-opening-candidate-list/job-opening-candidate-zero-state.html
 job-opening-candidate-status.html
@@ -12816,6 +12825,7 @@ static/chunks/54-f1def7c217d41f7d1b3b.js
 static/chunks/976-89feafe46b727079286d.js
 static/chunks/993-5ad011416caebc2c1891.js
 static/chunks/993-7cdf793a367f6cb41c31.js
+static/chunks/993-a5de18394667ffbf6292.js
 static/chunks/pages/404-5cfd9cfd2fc5b4584fbc.js
 static/chunks/pages/404-648903751bb629494361.js
 static/chunks/pages/404-94284400d0ee15920203.js
