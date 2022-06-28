@@ -459,6 +459,7 @@
 ../../eventHandler
 ../../events/data_events
 ../../events/ui_events
+../../featurePreview/features
 ../../fonts/ATTAleckSans_W_Bd.woff
 ../../fonts/ATTAleckSans_W_Bd.woff2
 ../../fonts/ATTAleckSans_W_Blk.woff
@@ -4325,6 +4326,7 @@
 ./generic-operator-grayscale.png
 ./generic-operator.png
 ./generic-responder-selected.svg
+./generic-responder.svg
 ./generic-tracked-controller-controls
 ./genre.svg
 ./geo
@@ -17135,6 +17137,7 @@
 /DeviceServices/Release?sess=
 /DeviceServices/Ring?enabled=
 /EDR
+/EMS-responder-icon-map-label.svg
 /EMS-responder-icon-map.svg
 /EVPN/evpn2.0/inqChat.html
 /EdgeAuth/login.jsp
@@ -17155,6 +17158,7 @@
 /F1 0 Tf 0 g
 /F9t
 /Filter /Standard
+/Fire-Responder-icon-map-label.svg
 /Fire-Responder-icon-map.svg
 /First 
 /FirstChar 32
@@ -17226,7 +17230,8 @@
 /PageMode /
 /Pages 
 /Parent 
-/Pattern cs /Sh1 scn
+/Pattern cs
+/Police-responder-icon-map-label.svg
 /Police-responder-icon-map.svg
 /Predictor 
 /Prefix Length Mask
@@ -17744,9 +17749,11 @@
 /admin/accounts/[id]/products/[product]/users/[user]
 /admin/accounts/overview
 /admin/block-view
+/admin/categories
 /admin/clear-user-session-view
 /admin/cobc-admin-view
 /admin/configure-mdm
+/admin/default-tags
 /admin/devices
 /admin/devices/
 /admin/firstNet-and-family
@@ -17766,20 +17773,25 @@
 /admin/operating-unit-picklist-view
 /admin/organizations
 /admin/pdf-view
+/admin/predefined-responses
 /admin/publishing-view
 /admin/question-view
+/admin/resources
 /admin/solutions
 /admin/solutions/
+/admin/surveys
 /admin/toolkit-blocks-view
 /admin/toolkit-topics-view
 /admin/topic-view
 /admin/user-management
+/admin/users
 /administered-sites
 /adminportal/
 /adminportal/update/broadcastmsgs
 /adminportal/update/contacts
 /adminportal/update/documents
 /adminportal/update/labels
+/adminusers
 /adoption-and-usage
 /adoption-and-usage/:tab?
 /adrum-ext.396a4a3598e4fdd54b8073a93c951462.js
@@ -18937,6 +18949,7 @@
 /assets/fonts/password/password.ttf
 /assets/greetings/
 /assets/i18n/
+/assets/icons/att_white_cropped.png
 /assets/icons/checkmark.png
 /assets/icons/cropped_globe.png
 /assets/icons/eaw-logo-bl-small.png
@@ -18944,6 +18957,7 @@
 /assets/images/
 /assets/images/AT&amp;T_DataFlow_Video_poster.png
 /assets/images/Pinnacle_Uploading_Model.mp4
+/assets/images/ReyAvatar.png
 /assets/images/\
 /assets/images/arcade/upsell/banner-692@2x-16b7b165e886af7e1fdc697f7e725260.png
 /assets/images/arcade/wordmark/arcade-wordmark-US-77bc7c76adfebab1b38236d91ecd1a76.svg
@@ -19658,6 +19672,7 @@
 /catalog/serviceOffers
 /categories
 /categories/
+/categories/secondary
 /categoriesandsegments
 /categoriesandsegments/public
 /category/
@@ -19714,6 +19729,7 @@
 /charts/sa
 /chat/assets/js/test/jsplugin.js
 /chat/inqChat.html
+/chatresponses
 /chatskins/launch/
 /chatskins/launch/inqChat.html
 /check-availability/modal
@@ -21024,6 +21040,7 @@
 /generate-code
 /generate-upload-url
 /generatePin
+/generic-call-sign-map-label.svg
 /generic-call-sign-map.svg
 /geocodeAddresses
 /geocoding/v5/mapbox.places/
@@ -21628,6 +21645,7 @@
 /input
 /inqChat.html
 /inqChat/inqChat.html
+/inquiries
 /insight-dashboard
 /insight-dashboard.html
 /insights
@@ -22167,6 +22185,7 @@
 /mlqxle14rw
 /mnt/d/dev/git/exceljs/node_modules/browserify-sign
 /mnt1/jenkins/workspace/care-community-apps-k8s-build-deploy/npm-install-work/app
+/mnt1/jenkins/workspace/care-community-apps-k8s-build-deploy@2/npm-install-work/app
 /mo
 /mo. 
 /mobile-account-verification?d
@@ -22474,6 +22493,7 @@
 /new-application/app-submit/
 /new-dn-range
 /new-en-range
+/new-inquiry
 /new-sub-account
 /new-vehicle
 /newsbytag.html
@@ -22792,6 +22812,7 @@
 /photo-storage
 /photofiles/
 /photos/
+/picklists
 /picture
 /pin/
 /ping
@@ -24473,6 +24494,7 @@
 /surcharges?
 /survey
 /survey?surveyUrl=
+/surveys
 /suspend
 /suspicious-login
 /svg
@@ -24513,6 +24535,9 @@
 /tagStream\
 /tags
 /tags/
+/tags/default
+/tags/default/
+/tags/inquiry
 /tags/{resourceArn}\
 /tags/{resource_arn}\
 /tags\
@@ -24817,7 +24842,7 @@
 /usecase/id/
 /usecase/participating
 /usecase/view
-/user
+/user 
 /user-feedback/
 /user-group
 /user-groups
@@ -30369,6 +30394,7 @@ intl/locale-data/jsonp/en
 invoca/src/lib/actions/load_invoca_tag.js
 invoca/src/lib/invoca.js
 io/ioutil
+ioredis/cluster
 iot-logout.html
 isotope-layout/js/item
 isotope-layout/js/layout-mode
@@ -31614,6 +31640,7 @@ sources/arrays.txt
 sources/deep.txt
 sources/objects.txt
 splash/survey
+sql.js
 src/ReactBodymovinImpl.js
 src/Shaders/
 src/app/component-registration.js
