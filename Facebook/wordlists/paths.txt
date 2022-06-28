@@ -1811,9 +1811,11 @@
 /api/v1/feed/user/{user_id}/
 /api/v1/feed/user/{user_id}/story/
 /api/v1/feed/user/{username}/username/
+/api/v1/friendships/mute_posts_or_story_from_follow/
 /api/v1/friendships/pending/
 /api/v1/friendships/show/{target_user_id}/
 /api/v1/friendships/show_many/
+/api/v1/friendships/unmute_posts_or_story_from_follow/
 /api/v1/friendships/update_feed_favorites/
 /api/v1/friendships/{user_id}/followers/
 /api/v1/friendships/{user_id}/following/
@@ -5436,6 +5438,7 @@ relay-runtime/store/createFragmentSpecResolver
 relay-runtime/store/createRelayContext
 relay-runtime/store/defaultGetDataID
 relay-runtime/store/defaultRequiredFieldLogger
+relay-runtime/store/experimental-live-resolvers/LiveResolverSuspenseSentinel
 relay-runtime/store/hasOverlappingIDs
 relay-runtime/store/isRelayModernEnvironment
 relay-runtime/store/readInlineData
