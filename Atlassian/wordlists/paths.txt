@@ -6638,6 +6638,7 @@
 /index.action
 /index.html
 /initiative/:initiative
+/initiative/:initiative/:tabName?
 /initiatives
 /insights
 /integration/jira
@@ -7656,6 +7657,7 @@
 /profile_hover_card
 /program/:name
 /program/:name/:initiative
+/program/:name/:tabName?
 /project
 /project/
 /project/:id/
@@ -12132,6 +12134,7 @@ manage/slack-connect/connections/
 manage/slack-connect/connections?filter=approved_orgs_only
 manage/slack-connect/connections?team_id=
 manage/slack-connect/settings
+manage/vendors
 manifest.js
 manifest.json
 marketplace/ROUTE
