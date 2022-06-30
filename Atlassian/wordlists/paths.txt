@@ -1635,6 +1635,7 @@
 ./en-sg
 ./en-sg.js
 ./en.js
+./en.json
 ./en/messages.json
 ./en_GB
 ./en_GB.js
@@ -4518,6 +4519,7 @@
 /3cH
 /3zU
 /404
+/404-adventurers.png
 /404.html
 /412
 /416
@@ -5013,6 +5015,7 @@
 /README.md
 /RHw
 /Rb7
+/RmE
 /Rx2
 /S78
 /SEN-
@@ -5213,6 +5216,7 @@
 /ais/available-products
 /ajax/spaceavailable.action
 /akn
+/alerts
 /all
 /allOf
 /amkt-frontend-static/
@@ -5278,9 +5282,11 @@
 /apis/stg/cofs
 /apis/stg/hamlet
 /apis/stg/hamlet/1.0/auth/xsrf/html?domain=atlassian.com
+/app-framework
 /app-popouts/
 /app-space
 /app/
+/app/:id/:title
 /app/server-home-desktop?
 /app/server-home-prep?
 /appearance
@@ -5597,6 +5603,7 @@
 /cloud/jsd-escalator/
 /cloud/jsw-data-depot/
 /cloud/launchdarkly-bridge/
+/cloud/merge-queue/
 /cloud/migrations/
 /cloud/opsgenie-internal/
 /cloud/org-policy/
@@ -5633,6 +5640,8 @@
 /codes/
 /collab/controller
 /collab/controller-init
+/collab/controller-init?format=map
+/collab/controller-resources
 /collab/controller.js
 /collab/embedded.js
 /collab/view.js?
@@ -6200,6 +6209,10 @@
 /gateway/api/marketplace/catalog/user-partners
 /gateway/api/marketplace/vendor/rest/2/vendors/
 /gateway/api/me
+/gateway/api/mercury
+/gateway/api/mercury/authcheck
+/gateway/api/mercury/graphql
+/gateway/api/mercury/workspace/joinable
 /gateway/api/notification-log
 /gateway/api/notification-log/api/3/notifications
 /gateway/api/notification-log/api/3/notifications/mark
@@ -6232,6 +6245,7 @@
 /gateway/api/xpsearch-aggregator/search/v2/advanced
 /generate
 /generateCodeChallenge
+/generic-error-color.svg
 /generic-error.f4da0bf6.svg
 /get-started
 /get-started/
@@ -7088,6 +7102,7 @@
 /membership/join?
 /membership/request
 /merchants/
+/mercury-graphql-example
 /messages
 /messages/
 /metadata/graphiql/
@@ -7173,6 +7188,7 @@
 /o/:orgId/data-residency/cloudId/:cloudId/product/:productType/apps
 /o/:orgId/data-security-policies
 /o/:orgId/data-security-policies/policy/:policyId
+/o/:orgId/data-security-policies/policy/:tagId
 /o/:orgId/details
 /o/:orgId/discovered-products
 /o/:orgId/domains
@@ -7957,6 +7973,7 @@
 /s/:cloudId/user-connected-apps/:oAuthClientId/:tab
 /s/:cloudId/user-connected-apps/connect/:appKey
 /s/:cloudId/user-connected-apps/connect/:appKey/:tab
+/s/:cloudId/user-connected-apps/tab/:tab
 /s/:cloudId/users
 /s/:cloudId/users/:userId
 /s/:cloudId/users/add
@@ -8284,6 +8301,7 @@
 /stop
 /storage
 /store/
+/storm-with-meeples.svg
 /stp/current/
 /stp/qa/
 /stream-renderer.worker.js
@@ -8389,6 +8407,7 @@
 /u/P
 /u/d
 /uf1
+/ufo
 /ui/
 /ui/tag/LookupTagsPage
 /ui/tag/SaveTagsPage
@@ -11552,6 +11571,7 @@ date/desc
 datePicker.html
 daysPicker.html
 dd/MM/yyyy
+dd/MMM/yy
 deps.js
 developer-actions-api/convertToGranularBotApp
 developer-actions-api/updateAppScopes
