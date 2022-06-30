@@ -1802,6 +1802,7 @@
 /api/v1/fbsearch/accounts_recs/
 /api/v1/fbsearch/register_recent_search_click/
 /api/v1/fbsearch/search_engine_result_page/
+/api/v1/fbsearch/web/top_serp/
 /api/v1/feed/collection/
 /api/v1/feed/new_feed_posts_exist/
 /api/v1/feed/reels_media/
@@ -1839,6 +1840,7 @@
 /api/v1/location_search/
 /api/v1/locations/
 /api/v1/lox/discovery_module/fetch_media/
+/api/v1/lox/discovery_module/related_interest_on_logged_out/
 /api/v1/media/
 /api/v1/media/configure/
 /api/v1/media/configure_sidecar/
@@ -1849,6 +1851,8 @@
 /api/v1/mental_well_being/get_aggregated_screen_time_by_device/
 /api/v1/mental_well_being/get_daily_limit_settings/
 /api/v1/mental_well_being/update_screen_time/
+/api/v1/music/bookmark_music
+/api/v1/music/unbookmark_music
 /api/v1/news/inbox/
 /api/v1/news/inbox_seen/
 /api/v1/notifications/badge/
@@ -1865,6 +1869,7 @@
 /api/v1/upcoming_events/add_event_list/
 /api/v1/upcoming_events/set_reminder/{event_id}/
 /api/v1/upcoming_events/unset_reminder/{event_id}/
+/api/v1/users/notify_guardian_call/
 /api/v1/users/{user_id}/info/
 /api/v1/usertags/{user_id}/feed/
 /api/v1/web/bloks_path/
@@ -2216,6 +2221,7 @@
 /exportSyncDiscardedDeviceDetails
 /facebook
 /facebook-account-link/
+/facebook-login
 /facebook_pay/:part1?/:part2?/
 /facebook_pay/connect_learn_more/
 /faq
@@ -2317,6 +2323,7 @@
 /groupcall/{?call_context}/
 /groups/
 /groups/{group_idorvanity}/user/{member_id}/
+/groups/{idorvanity}/search/
 /gtag/destination?id=
 /gtag/js
 /gtag/js?id=
@@ -2639,6 +2646,7 @@
 /legal/terms/
 /legal/trademark
 /legal/trademark-e6d
+/legal/work_accounts_cookie_policy/
 /legal_consent
 /lib/emptyFunction
 /lib/emptyObject
@@ -2784,6 +2792,7 @@
 /outage-events-feed-ads-transparency.rss
 /outage-events-feed-catalog.rss
 /outage-events-feed-commerce.rss
+/outage-events-feed-facebook-login.rss
 /outage-events-feed-fbs.rss
 /outage-events-feed-graph-api.rss
 /outage-events-feed-ig-messenger.rss
@@ -2808,6 +2817,7 @@
 /padStart
 /page/instagram/oauthlink/
 /page/instagram/oauthlink/update/
+/page/{idorvanity}/search/
 /pages/admin/ban_user/
 /pages/admin/unban_from_page/
 /pages/creation/
@@ -2856,6 +2866,7 @@
 /profile/
 /profile/intro/edit/bio/
 /profile/intro/edit/photos/
+/profile/{idorvanity}/search/
 /profile_pic_edit
 /profiles
 /progress
