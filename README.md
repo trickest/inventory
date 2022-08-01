@@ -166,8 +166,8 @@ trickest execute Inventory --targets targets.json
 ## Statistics
 ```mermaid
 graph LR
-title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{986935}}
-title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{990431}}
+title{Number of<br>Subdomains} --> subdomainsDate1[[Last Commit]] --> subdomainsNum1{{990431}}
+title --> subdomainsDate2[[Currently]] --> subdomainsNum2{{990900}}
 ```
 
 ---
