@@ -9,7 +9,7 @@ Our aim with this project is to:
 - give security teams better visibility into their assets.
 - reduce the load and noise that some programs face from automated tools (we run them on schedule, give the results to everyone)
 
-## Directory And Workflow Structure
+## Directory And Workflows Structure
 
 [<img src="screenshots/inventory-graph.png" />](https://trickest-access.paperform.co/)
 
