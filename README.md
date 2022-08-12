@@ -17,12 +17,11 @@ Our aim with this project is to:
 
 ## How it works
 
-A [Trickest](https://trickest.com) workflow picks up these targets, collects data on them, enriches it, cleans it up, and pushes it to this repository.
+[Trickest](https://trickest.com) workflows pick up these targets, collects data on them, enriches it, cleans it up, and pushes it to this repository.
+
+#### Inventory 2.0 - Hostnames
 
 ![Trickest Workflow - Hostnames](screenshots/inventory-hostnames.png "Trickest Workflow - Inventory 2.0 - Hostnames")
-
-### TB; DZ (Too big; didn't zoom)
-#### Inventory 2.0 - Hostnames
 
   - Get the list of domains from [targets.json](https://raw.githubusercontent.com/trickest/inventory/main/targets.json)
   - Use [subfinder](https://github.com/projectdiscovery/subfinder) and [amass](https://github.com/OWASP/Amass) to collect subdomains from passive OSINT sources (Thanks [ProjectDiscovery](https://github.com/projectdiscovery), [hakluke](https://github.com/hakluke), [OWASP](https://github.com/OWASP), and [Jeff Foley](https://github.com/caffix)!)
@@ -60,7 +59,8 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 
 ![Trickest Workflow - Urls](screenshots/inventory-urls.png "Trickest Workflow - Inventory 2.0 - Hostnames")
 
-  - Collect URLs using newly found [hostnames](#Hostnames) with [gauplus](https://github.com/bp0lr/gauplus) (Thanks [bp0lr](https://github.com/bp0lr/gauplus)!)
+  - Collect URLs using newly found [hostnames](#Hostnames) with [gauplus](https://github.com/bp0lr/gauplus) (Thanks [bp0lr](https://github.com/bp0lr)!)
+  - Deduplicate with [urldedupe](https://github.com/ameenmaali/urldedupe) (Thanks [ameenmaali](https://github.com/ameenmaali))
   - Use [gf](https://github.com/tomnomnom/gf) and [gf-patterns](https://github.com/1ndianl33t/Gf-Patterns) to categorize newly found URLs. (Thanks [tomnomnom](https://github.com/tomnomnom),[1ndianl33t](https://github.com/1ndianl33t)!)
   - Use `prefix-file-lines` to add a prefix for each of the vulnerability
     - IDOR
@@ -80,7 +80,6 @@ A [Trickest](https://trickest.com) workflow picks up these targets, collects dat
 - For each target:
     - Spider URL in batches with [hakrawler](https://github.com/hakluke/hakrawler) (Thanks [hakluke](https://github.com/hakluke)!)
     - Push to repository
-
 ---
 
 #### Inventory 2.0 - Cloud
