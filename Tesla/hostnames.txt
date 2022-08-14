@@ -1,4 +1,5 @@
 aads.teslamotors.com
+accesstext.tesla.services
 acm2.teslamotors.com
 admin-legacy.billing.solarcity.com
 admin.billing.solarcity.com
@@ -6,6 +7,7 @@ akamai-apigateway-automation-billing.tesla.com
 akamai-apigateway-automation.tesla.com
 akamai-apigateway-bender.tesla.com
 akamai-apigateway-captiveunderwriting.tesla.com
+akamai-apigateway-charging-ownership.tesla.cn
 akamai-apigateway-charging-ownership.tesla.com
 akamai-apigateway-deliveryopsapi.tesla.com
 akamai-apigateway-deliveryopsapi1.tesla.com
@@ -104,6 +106,7 @@ akamai-apigateway-warptmsapiserver.tesla.com
 akamai-apigateway-warptqpapi.tesla.com
 akamai-apigateway-zip3-suppliersequence.tesla.com
 alertmanager-plateng-prod.mo.tesla.services
+alpv0699.tesla.services
 ams10ztagw-ext.teslamotors.com
 apacvpn.tesla.com
 apacvpn1.tesla.com
@@ -113,12 +116,15 @@ api-firebolt-stage.tesla.cn
 api-firebolt-stage.tesla.com
 api-firebolt.tesla.cn
 api-firebolt.tesla.com
+api-prd.ap.tesla.services
 api-prd.vn.tesla.services
 api-stg.shop.tesla.cn
 api-test.solarcity.com
 api-toolbox.tesla.com
+api.billing.solarcity.com
 api.kronos.tesla.com
 api.mp.tesla.services
+api.sn.tesla.services
 api.solarcity.com
 api.switchtower-sjc-br-1-eng.mo.tesla.services
 apm.tesla.cn
@@ -127,6 +133,7 @@ apmv3.go.tesla.services
 app.tesla.cn
 apps.tesla.com
 artifactory-eu.it.tesla.services
+artifactory.it.tesla.services
 artifacts.scit.solarcity.com
 asrs-dashboard.mo.tesla.services
 assets.engage.tesla.com
@@ -143,6 +150,7 @@ auth-stage.teslamotors.com
 auth.tesla.cn
 auth.tesla.com
 autobidder-ercot-site-signal-eng.sn.tesla.services
+autobidder-prd.sn.tesla.services
 autobidder-preprd.powerhub.energy.tesla.com
 autobidder.powerhub.energy.tesla.com
 autodiscover.tesla.cn
@@ -158,6 +166,7 @@ bi.tesla.com
 billing.tesla.com
 biw-inspector.mo.tesla.services
 bolt.tesla.com
+bootstrap-01.infra.scit.solarcity.com
 bootstrap.scit.solarcity.com
 build-01.prod.scit.solarcity.com
 business-ui-ownership.tesla.cn
@@ -177,6 +186,7 @@ cdn-design.tesla.com
 cdns-content.tesla.com
 cdntest.teslamotors.com
 cellmfg-rr.mo.tesla.services
+celltest-p2.mo.tesla.services
 celltest.mo.tesla.services
 charging.tesla.cn
 check.teslamotors.com
@@ -201,6 +211,7 @@ cnvpn.teslamotors.com
 cnvpn1.tesla.com
 community.tesla.cn
 comparison.tesla.com
+configupdate-eng.sn.tesla.services
 configupdate-prd.sn.tesla.services
 confluence-01.infra.scit.solarcity.com
 confluence.scit.solarcity.com
@@ -226,17 +237,20 @@ deejay-prd.ui.tesla.services
 deejay.prd.mp.tesla.services
 deliveryops.tesla.cn
 deliveryops.teslamotors.com
+demo.switchtower-sjc-br-1.mo.tesla.services
 dev-athena.scfs.solarcity.com
 dev-bi-01.scfs.solarcity.com
 dev-ci.scit.solarcity.com
 dev-jenkins.scit.solarcity.com
 dev-reporting-01.scfs.solarcity.com
 dev-reporting.scfs.solarcity.com
+dev124.tesla.services
 development-db-01.scfs.solarcity.com
 diagnostics.tesla.cn
 dialin.teslamotors.com
 digitalassets-accounts.tesla.cn
 digitalassets-accounts.tesla.com
+digitalassets-energy.tesla.cn
 digitalassets-energy.tesla.com
 digitalassets-learning.tesla.cn
 digitalassets-learning.tesla.com
@@ -344,6 +358,8 @@ forums.tesla.com
 frontapp.teslamotors.com
 fsfe.mo.tesla.services
 fsi-flower.mo.tesla.services
+fsi-monitor.mo.tesla.services
+fsialerts.mo.tesla.services
 ftir.teslamotors.com
 ftp.teslamotors.com
 ftp1.teslamotors.com
@@ -353,6 +369,7 @@ fw-01.wan.scit.solarcity.com
 genserv.tesla.com
 git.scit.solarcity.com
 github.it.tesla.services
+graph017.tesla.services
 grid.scit.solarcity.com
 grid.tesla.com
 gridlogic-api-eng.sn.tesla.services
@@ -365,6 +382,7 @@ grpc-kafka-proxy-prod.mo.tesla.services
 grpcweb-kafka-proxy-prod.mo.tesla.services
 guestportal.teslamotors.com
 gutenberg-distributor.mo.tesla.services
+gutenberg.mo.tesla.services
 gutenberg1-server.mo.tesla.services
 gw-dev.solarcity.com
 gw-test.solarcity.com
@@ -384,6 +402,8 @@ hermes-dev.xx.tesla.services
 hermes-eng.ap.tesla.services
 hermes-eng.sc.tesla.services
 hermes-eng.sn.tesla.services
+hermes-eng.vn.tesla.services
+hermes-eu-west-eng.vn.tesla.services
 hermes-na-east-dev.xx.tesla.services
 hermes-na-east-eng.vn.tesla.services
 hermes-na-east-prd.vn.tesla.services
@@ -393,6 +413,7 @@ hermes-na-west-prd.vn.tesla.services
 hermes-prd.ap.tesla.services
 hermes-prd.qd.tesla.services
 hermes-prd.sc.tesla.services
+hermes-prd.sn.tesla.services
 hermes-prd.vn.tesla.services
 hermes-stream-cn-north-eng.vn.tesla.services
 hermes-stream-eng.sn.tesla.services
@@ -410,6 +431,7 @@ hrosapi-origin.teslamotors.com
 hrosapi.tesla.com
 hrosapi.teslamotors.com
 hub.tesla.com
+humans.ap.tesla.services
 image-emails.tesla.com
 image.email.tesla.com
 image.emails.tesla.com
@@ -420,10 +442,12 @@ infra-cache-02.scfs.solarcity.com
 infra-cache-admin-01.scfs.solarcity.com
 infra-cache-admin.scfs.solarcity.com
 infra-chef-01.scfs.solarcity.com
+infra-chef-test-01.scfs.solarcity.com
 infra-ci-01.scfs.solarcity.com
 infra-ci-02.scfs.solarcity.com
 infra-graylog-01.scfs.solarcity.com
 infra-logging-01.scfs.solarcity.com
+infra-monitoring-01.scfs.solarcity.com
 infra-ns-01.scfs.solarcity.com
 infra-ns-02.scfs.solarcity.com
 infra-ns-03.scfs.solarcity.com
@@ -444,6 +468,7 @@ integration.kronos.tesla.com
 internal-mail.scfs.solarcity.com
 inventory-assets.tesla.com
 invest.tesla.com
+ipv4-c002-lcy002-talktalk-isp.tesla.services
 ipv4-c052-atl004-ix.tesla.services
 ir.tesla.com
 isapi.solarcity.com
@@ -451,6 +476,9 @@ issues.teslamotors.com
 itanswers.tesla.com
 jammer-health-sca.mo.tesla.services
 japan.teslamotors.com
+jedi.mo.tesla.services
+jenkins-01.prod.scit.solarcity.com
+jenkins.xx.tesla.services
 jira-01.infra.scit.solarcity.com
 jss-retail.teslamotors.com
 jss.teslamotors.com
@@ -458,6 +486,7 @@ k8s.mo.tesla.services
 kafka-connect.mo.tesla.services
 kafka-manager.mo.tesla.services
 kaspersky-01.prod.scit.solarcity.com
+kevin.mo.tesla.services
 kronos-dev.tesla.com
 kronos.tesla.com
 kubeless-error-handler-p.mo.tesla.services
@@ -492,6 +521,8 @@ lync.teslamotors.com
 lyncdiscover.tesla.cn
 lyncdiscover.teslamotors.com
 lyndir.teslamotors.com
+m3-trial-tracker.mo.tesla.services
+ma-p2-u-prod.tesla.services
 maestro-eng.sn.tesla.services
 maestro-prd.sn.tesla.services
 mail.scfs.solarcity.com
@@ -622,6 +653,7 @@ origin-na-suppliers.tesla.com
 origin-na-suppliers.teslamotors.com
 origin-onboarding-pre-delivery-prod.teslamotors.com
 origin-ownership-web.tesla.com
+origin-ownership.tesla.cn
 origin-ownership.tesla.com
 origin-packaging-v2-api.teslamotors.com
 origin-packaging-v2-ui.teslamotors.com
@@ -678,6 +710,7 @@ origin-www.tesla.com
 origin-wwwcdn.tesla.com
 os.tesla.com
 osm.ap.tesla.services
+owner-api-dev.vn.tesla.services
 owner-api-internal.vn.tesla.services
 owner-api-new.dev.teslamotors.com
 owner-api.dev.teslamotors.com
@@ -707,6 +740,7 @@ payments.solarcity.com
 pce-data.mo.tesla.services
 pentest-hamilton.scfs.solarcity.com
 pfep-apiserver.mo.tesla.services
+pfep.mo.tesla.services
 pivisionprocessing-prd.mo.tesla.services
 plcvpn.teslamotors.com
 pm-bounces.tesla.com
@@ -730,8 +764,10 @@ prod-cache-01.scfs.solarcity.com
 prod-cache-02.scfs.solarcity.com
 prod-cache-03.scfs.solarcity.com
 prod-cache-04.scfs.solarcity.com
+prod-cache-05.scfs.solarcity.com
 prod-cache-06.scfs.solarcity.com
 prod-cache-admin-01.scfs.solarcity.com
+prod-cache-admin.scfs.solarcity.com
 prod-ci.scit.solarcity.com
 prod-db-01.scfs.solarcity.com
 prod-db-02.scfs.solarcity.com
@@ -742,6 +778,7 @@ prod-hamilton-admin.scfs.solarcity.com
 prod-hamilton-api.scfs.solarcity.com
 prod-hamilton-cache.scfs.solarcity.com
 prod-hamilton-cust.scfs.solarcity.com
+prod-hamilton.scfs.solarcity.com
 prod-helios-admin.scfs.solarcity.com
 prod-helios-api.scfs.solarcity.com
 prod-helios-cust-alb.scfs.solarcity.com
@@ -785,6 +822,7 @@ reporting-bi-01.scfs.solarcity.com
 reporting-db-01-old.scfs.solarcity.com
 reporting-db-01.scfs.solarcity.com
 reporting.scfs.solarcity.com
+resource-camera.mo.tesla.services
 resource-fleet.mo.tesla.services
 resources.teslamotors.com
 results-tfr-p2.mo.tesla.services
@@ -803,6 +841,7 @@ scheduler.scfs.solarcity.com
 scm.scit.solarcity.com
 scms.tesla.cn
 sdlcvpn.teslamotors.com
+secengovp.tesla.services
 secrets.scfs.solarcity.com
 secure-static-assets.tesla.com
 secure-test.solarcity.com
@@ -814,6 +853,7 @@ secureguesteu.tesla.com
 seer.mo.tesla.services
 sentinel-eng.sn.tesla.services
 sentinel-prd.sn.tesla.services
+sentry.ap.tesla.services
 service-api.teslamotors.com
 service.tesla.cn
 service.tesla.com
@@ -867,7 +907,9 @@ stage-athena-admin.scfs.solarcity.com
 stage-athena-api.scfs.solarcity.com
 stage-athena-legacy.scfs.solarcity.com
 stage-db-01.scfs.solarcity.com
+stage-hamilton-admin.scfs.solarcity.com
 stage-hamilton-api.scfs.solarcity.com
+stage-hamilton-cust.scfs.solarcity.com
 stage-hamilton.scfs.solarcity.com
 stage-helios-admin.scfs.solarcity.com
 stage-helios-api.scfs.solarcity.com
@@ -906,13 +948,16 @@ stg-uc-twilio-bpm-webhook.tesla.com
 str01-eng.vn.tesla.services
 str01.vn.teslamotors.com
 str02-eng.vn.tesla.services
+str02-prd.vn.tesla.services
 str02.vn.teslamotors.com
 str03-prd.vn.tesla.services
 str03.vn.teslamotors.com
 str04-prd.vn.tesla.services
 str04.vn.teslamotors.com
 str202-prd.vn.tesla.services
+str204-prd.vn.tesla.services
 str301-prd.vn.tesla.services
+streaming-dev.vn.cloud.tesla.cn
 streaming-new.dev.teslamotors.com
 streaming-qts-eng.vn.tesla.services
 streaming-qts-prd.vn.tesla.services
@@ -925,7 +970,9 @@ suppliers.teslamotors.com
 switchtower-gfs-br-1-eng.mo.tesla.services
 switchtower-gfs-br-1.mo.tesla.services
 switchtower-sjc-br-1-eng.mo.tesla.services
+switchtower-sjc-br-1.mo.tesla.services
 syphon-ws.mo.tesla.services
+task-viewer.mo.tesla.services
 tasks.scfs.solarcity.com
 tcc-graph-stg.tesla.cn
 tcc-graph-stg.tesla.com
@@ -944,6 +991,7 @@ telemetry-dev.do.tesla.services
 telemetry-eng.ap.tesla.services
 telemetry-eng.vn.tesla.services
 telemetry-eu-west-eng.vn.tesla.services
+telemetry-eu-west-prd.vn.tesla.services
 telemetry-na-east-eng.vn.tesla.services
 telemetry-na-east-prd.vn.tesla.services
 telemetry-na-west-eng.an.tesla.services
@@ -959,6 +1007,7 @@ tesla.services
 teslacdpna0.tesla.com
 teslamotors.com
 teslatequila.tesla.com
+teslavision-1mn1-120-x267-m3.mo.tesla.services
 teslavision-1mn2-120-x267-m3.mo.tesla.services
 teslavision-camera5.mo.tesla.services
 teslavision-ga4-fc-020-x015-my.mo.tesla.services
@@ -975,12 +1024,15 @@ tickets.scit.solarcity.com
 toolbox-messagecenter-external-api-stage.teslamotors.com
 toolbox.tesla.com
 totetool.mo.tesla.services
+tradein-partner.tesla.cn
 tradepartnertickets.tesla.com
 training.teslamotors.com
+triage.ap.tesla.services
 trt.tesla.com
 trt.teslamotors.com
 truck-app-eng.sn.tesla.services
 ttel-web.ap.tesla.services
+tutorial.vn.cloud.tesla.cn
 uicrashtracer.tesla.com
 ul.engage.tesla.com
 uph.mo.tesla.services
@@ -1018,6 +1070,8 @@ vision.mo.tesla.services
 vitals.dev.teslamotors.com
 vmanage-alerts.tesla.com
 vmanage.teslamotors.com
+vpn-admin.scfs.solarcity.com
+vpn-admin.scit.solarcity.com
 vpn-ex.teslamotors.com
 vpn-ipv4-c052-atl004-ix.tesla.services
 vpn-test.vn.teslamotors.com
@@ -1060,6 +1114,7 @@ websocket-prod.scsg.solarcity.com
 wechat-stg.tesla.cn
 wechat.tesla.cn
 westream.teslamotors.com
+westvpn1.secengovp.tesla.services
 wiki.scit.solarcity.com
 workforce.tesla.com
 ws-gw.scsg.solarcity.com
@@ -1088,6 +1143,7 @@ www.ug.tesla.com
 www03.sjc05.teslamotors.com
 xapps.tesla.com
 xmail.tesla.com
+zip3.mo.tesla.services
 zta-setup.tesla.com
 ztawebapps.teslamotors.com
 3.tesla.cn
