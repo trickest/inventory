@@ -7,7 +7,7 @@ Our aim with this project is to:
 
 - help bug bounty hunters get up and running on new programs as quickly as possible.
 - give security teams better visibility into their assets.
-- reduce the load and noise that some programs face from automated tools (we run them on schedule, give the results to everyone)
+- reduce the load and noise that some programs face from automated tools (we run them on schedule, and give the results to everyone)
 
 ## Directory And Workflows Structure
 
@@ -17,7 +17,7 @@ Our aim with this project is to:
 
 ## How it works
 
-[Trickest](https://trickest.com) workflows pick up these targets, collects data on them, enriches it, cleans it up, and pushes it to this repository.
+A few [Trickest](https://trickest.com) workflows pick up these targets, collect data on them, enrich it, clean it up, and push it to this repository. 
 
 #### Inventory 2.0 - Hostnames
 
@@ -27,7 +27,7 @@ Our aim with this project is to:
   - Use [subfinder](https://github.com/projectdiscovery/subfinder) and [amass](https://github.com/OWASP/Amass) to collect subdomains from passive OSINT sources (Thanks [ProjectDiscovery](https://github.com/projectdiscovery), [hakluke](https://github.com/hakluke), [OWASP](https://github.com/OWASP), and [Jeff Foley](https://github.com/caffix)!)
   - Create words from passive results gathered in previous steps
   - Find already resolved hostnames to [dsieve](https://github.com/trickest/dsieve) to collect their `main environments` (e.g. foo.admin.example.com -> admin.example.com)
-  - Get pre-defined `wordlist`
+  - Get a pre-defined `wordlist`
   - Combine everything into one `wordlist`.
   - Use [mksub](https://github.com/trickest/mksub) to merge the `wordlist` and the `main environments` along with `root-domains` and generate DNS names.
   - Resolve DNS names using [puredns](https://github.com/d3mondev/puredns) (Thanks [d3mondev](https://github.com/d3mondev)!).
@@ -39,23 +39,23 @@ Our aim with this project is to:
 
 ![Trickest Workflow - Servers](screenshots/inventory-servers.png "Trickest Workflow - Inventory 2.0 - Hostnames")
 
-  - Probe previously found [hostnames](#Hostnames) using [httpx](https://github.com/projectdiscovery/httpx) to find live web servers on specific ports (`80,443,8080,5000,3000,8443,8000,4080,8888`) and collect their:
-      - HTTP Titles
-      - Status Codes
+  - Probe previously found [hostnames](#Hostnames) using [httpx](https://github.com/projectdiscovery/httpx) to find live web servers on specific ports (`80,443,8080,5000,3000,8443,8000,4080,8888`) and, for each one, collect its:
+      - HTTP Title
+      - Status Code
       - Content Length
-      - Content Security Policies
-      - Content Types
-      - Final Redirect Locations
-      - Webservers
-      - Technologies
+      - Content Security Policy
+      - Content Type
+      - Final Redirect Location
+      - Webserver
+      - Technology
       - IP Addresses
-      - CNAMEs
+      - CNAME
   - Parse httpx's output and organize it into files for easier navigation
   - Push to the repository
 
 ---
 
-#### Inventory 2.0 - Urls
+#### Inventory 2.0 - URLs
 
 ![Trickest Workflow - Urls](screenshots/inventory-urls.png "Trickest Workflow - Inventory 2.0 - Hostnames")
 
@@ -71,7 +71,7 @@ Our aim with this project is to:
     - SSRF
     - REDIRECT
     - LFI
-  - Push to repository
+  - Push to the repository
 
 #### Inventory 2.0 - Spider
 
@@ -79,7 +79,7 @@ Our aim with this project is to:
 
 - For each target:
     - Spider URL in batches with [hakrawler](https://github.com/hakluke/hakrawler) (Thanks [hakluke](https://github.com/hakluke)!)
-    - Push to repository
+    - Push to the repository
 ---
 
 #### Inventory 2.0 - Cloud
