@@ -1,9 +1,0 @@
-[IDOR]https://api.marketplace.ibm.com/catalog/v2/storefront/g2crowd?productKey=13760f049b44dc52767816624917e712
-[IDOR]https://api.marketplace.ibm.com/catalog/v2/storefront/g2crowd?productKey=13760f049b44dc52767816624917e712&page=1
-[LFI]https://api.marketplace.ibm.com/api/product-tours?include=referenced_products&filter[referenced_products.import_id.meta.guid]=d743f9f3caf69b44d94c21f16ecd0a92&fields[taxonomy--products]=import_id,name,field_product_key&filter[langcode]=en&fields[product-tour]=title,takeaways,search_path,langcode,referenced_products
-[LFI]https://api.marketplace.ibm.com/catalog/v2/storefront/g2crowd?productKey=13760f049b44dc52767816624917e712&page=1
-[REDIRECT]https://api.marketplace.ibm.com/catalog/v2/storefront/g2crowd?productKey=13760f049b44dc52767816624917e712&page=1
-[SSRF]https://api.marketplace.ibm.com/catalog/v2/storefront/g2crowd?productKey=13760f049b44dc52767816624917e712&page=1
-[XSS]https://api.marketplace.ibm.com/catalog/v2/storefront/g2crowd?productKey=13760f049b44dc52767816624917e712
-[XSS]https://api.marketplace.ibm.com/catalog/v2/storefront/g2crowd?productKey=13760f049b44dc52767816624917e712&page=1
-[XSS]https://api.marketplace.ibm.com/messaging/api/v2/liveperson/async/session?monitor=false&refreshToken=false
