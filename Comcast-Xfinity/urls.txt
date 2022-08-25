@@ -1,0 +1,8 @@
+[IDOR]https://api.mobile.xfinity.com/support/popular_search_queries?limit=3&session_id=2e039e8c-841b-268b-9dfd749e1985
+[REDIRECT]https://ccp.sys.comcast.net/login.jsp?os_destination=https%3A%2F%2Fccp.sys.comcast.net%2Fs
+[REDIRECT]https://ccp.sys.comcast.net/plugins/servlet/samlsso?redirectTo=%2F
+[SQLI]https://api.mobile.xfinity.com/support/popular_search_queries?limit=3&session_id=2e039e8c-841b-268b-9dfd749e1985
+[SSRF]https://ccp.sys.comcast.net/plugins/servlet/samlsso?redirectTo=%2F
+[SSTI]https://api.mobile.xfinity.com/support/popular_search_queries?limit=3&session_id=2e039e8c-841b-268b-9dfd749e1985
+[XSS]https://api.mobile.xfinity.com/support/popular_search_queries?limit=3&session_id=2e039e8c-841b-268b-9dfd749e1985
+[XSS]https://ccp.sys.comcast.net/issues/?jql=project+%3D+RDKALL+AND+fixVersion+%3D+%22Sprint+2006%22
