@@ -115,6 +115,7 @@ apps.edge-stage-usw1.rbx.com
 apps.lgtm-stage.rbx.com
 apps.monitoring.edge-stage-usw1.rbx.com
 apps.production.edge-prod-usw1.rbx.com
+apps.worker.guilded.gg
 appsdata.guilded.gg
 appsdns.edge-stage-usw1.rbx.com
 archive-api-preprod.guilded.gg
@@ -148,6 +149,7 @@ assets.lgtm-stage.rbx.com
 assets.ml-platform-dev-use1-1-5-3-serving.prod.ml.rbx.com
 assets.ml-platform-dev-use2-1-5-3-serving.prod.ml.rbx.com
 assets.smtp.guilded.gg
+assets.worker.guilded.gg
 assetseuw.edge-stage-usw1.rbx.com
 assetsmonitoring.edge-stage-usw1.rbx.com
 atl1-128-116-99-3.roblox.com
@@ -163,6 +165,7 @@ autheuw.edge-stage-usw1.rbx.com
 authget.guilded.gg
 authorize.roblox.com
 authsite.roblox.com
+authworker.guilded.gg
 autodiscover.cn.roblox.com
 autodiscover.rbx.com
 avatar.roblox.com
@@ -195,6 +198,7 @@ aws-us-west-2c-lms.rbx.com
 aws.edge-prod-usw1.rbx.com
 aws.lgtm-stage.rbx.com
 aws.webmail.guilded.gg
+aws.worker.guilded.gg
 awsdevelopment.artifactory-edgemd1.rbx.com
 awsvpn.roblox.com
 azdo.rbx.com
@@ -204,11 +208,13 @@ b2bdata.guilded.gg
 b2bdevelopment.artifactory-edgemd1.rbx.com
 backup-data.guilded.gg
 backup.cortex.rbx.com
+backup.worker.guilded.gg
 backupcrmdb.github-cli-stage.rbx.com
 backupdata.guilded.gg
 backupdevelopment.artifactory-edgemd1.rbx.com
 backups-pop.guilded.gg
 backups.artifactory-edge.rbx.com
+backups.artifactory-edgemdtest.rbx.com
 backups.ml-platform-dev-1-5rc1-serving.prod.ml.rbx.com
 backups.sql.edge-stage-usw1.rbx.com
 backupsdata.guilded.gg
@@ -257,8 +263,10 @@ cdn-data.guilded.gg
 cdn.api-preprod.guilded.gg
 cdn.artifactory.rbx.com
 cdn.edge-stage-usw1.rbx.com
+cdn.medialand.rbx.com
 cdnproviders.roblox.com
 cdnqa.edge-stage-usw1.rbx.com
+centraldevendas.guilded.gg
 certs.rbx.com
 chat.roblox.com
 chatmoderation.roblox.com
@@ -275,6 +283,7 @@ client-telemetry.roblox.com
 clients-jira.edge-stage-usw1.rbx.com
 clients.cortex-stage.rbx.com
 clients.lgtm-stage.rbx.com
+clients.worker.guilded.gg
 clientsettings.api.roblox.com
 clientsettings.roblox.com
 clientsettingscdn.roblox.com
@@ -285,9 +294,11 @@ cloud.qad-ng.guilded.gg
 cms.edge-stage-usw1.rbx.com
 cms.imap.guilded.gg
 cms.lgtm-stage.rbx.com
+cms.worker.guilded.gg
 community.roblox.com
 config-dns.edge-stage-usw1.rbx.com
 config.artifactory-edge01.rbx.com
+config.worker.guilded.gg
 configdns.edge-stage-usw1.rbx.com
 confluence-dev.rbx.com
 confluence-legacy.rbx.com
@@ -307,6 +318,7 @@ containerdevelopment.artifactory-edgemd1.rbx.com
 content.roblox.com
 contentstore.roblox.com
 controller.edge-stage-usw1.rbx.com
+controller.medialand.rbx.com
 controller.worker.guilded.gg
 controllerwebmail.guilded.gg
 corp-assets.rbx.com
@@ -344,8 +356,10 @@ customers-dns.edge-stage-usw1.rbx.com
 customers.artifactory-edgemd1.rbx.com
 customers.pop.guilded.gg
 data.artifactory-edge.rbx.com
+data.cortex-stage.rbx.com
 data.guilded.gg
 data.roblox.com
+data.worker.guilded.gg
 database-dns.edge-stage-usw1.rbx.com
 datadns.edge-stage-usw1.rbx.com
 db.artifactory.rbx.com
@@ -357,6 +371,7 @@ db1.ra.roblox.com
 db109.ra.roblox.com
 db2.edge-prod-use2.rbx.com
 db2.github-prod1.rbx.com
+db2.medialand.rbx.com
 db2.ra.roblox.com
 db4.ra.roblox.com
 db5.ra.roblox.com
@@ -389,6 +404,7 @@ developer.roblox.com
 developerproduction.edge-prod-usw1.rbx.com
 developers.roblox.com
 development.artifactory-edgemd1.rbx.com
+development.medialand.rbx.com
 devforum.roblox.com
 devops.edge-stage-usw1.rbx.com
 dfw1-128-116-125-3.roblox.com
@@ -435,6 +451,7 @@ en.edge-stage-usw1.rbx.com
 en.help.roblox.com
 eng.edge-stage-usw1.rbx.com
 engagementpayouts.roblox.com
+engineering.medialand.rbx.com
 english.github.rbx.com
 ephemeralcounters.api.roblox.com
 es.roblox.com
@@ -514,7 +531,10 @@ info.edge-stage-usw1.rbx.com
 infra.edge-stage-usw1.rbx.com
 infrastructure.roblox.com
 int.edge-stage-usw1.rbx.com
+integration.medialand.rbx.com
 inventory.roblox.com
+ip.medialand.rbx.com
+ipv6.edge-prod-usw1.rbx.com
 ir.roblox.com
 itemconfiguration.roblox.com
 jfmc-prod1.rbx.com
@@ -530,6 +550,7 @@ job.roblox.com
 jobs.roblox.com
 js.roblox.com
 jsak.roblox.com
+keamhelper.guilded.gg
 knomad-development-sitetest3-us-west-1.rbx.com
 kvm1.ra.roblox.com
 lab.ml-platform-infra-1-5-2-serving.prod.ml.rbx.com
@@ -567,11 +588,13 @@ lweb15.ra.roblox.com
 lweb16.ra.roblox.com
 lweb22.ra.roblox.com
 m.edge-stage-usw1.rbx.com
+m.medialand.rbx.com
 m.roblox.com
 mail.roblox.com
 maintenance.roblox.com
 media-preprod.guilded.gg
 media.guilded.gg
+media.medialand.rbx.com
 medialand.rbx.com
 member.edge-prod-use2.rbx.com
 member.edge-prod-usw1.rbx.com
@@ -584,6 +607,7 @@ midas-android.roblox.com
 midas-iap.roblox.com
 midas-webpay.roblox.com
 midas.roblox.com
+mijn.edge-prod-usw1.rbx.com
 misc.roblox.com
 ml-platform-dev-1-5rc1-serving.prod.ml.rbx.com
 ml-platform-dev-1-5rc1.prod.ml.rbx.com
@@ -640,9 +664,11 @@ perforce.roblox.com
 platinum.roblox.com
 points.roblox.com
 pop.guilded.gg
+portal.medialand.rbx.com
 pr-api-staging.guilded.gg
 premiumfeatures.roblox.com
 presence.roblox.com
+preview.medialand.rbx.com
 preview.ros-dev.rbx.com
 privatemessages.roblox.com
 prod.docsiteassets.roblox.com
@@ -685,10 +711,12 @@ search-comparison.roblox.com
 search.api.roblox.com
 search.roblox.com
 secure.edge-prod-usw1.rbx.com
+secure.medialand.rbx.com
 services.edge-artifactory.rbx.com
 setup-ak.roblox.com
 setup-cf.roblox.com
 setup.roblox.com
+sftp.medialand.rbx.com
 sg.rbx.com
 share.roblox.com
 shop.roblox.com
@@ -788,6 +816,7 @@ util38.sm.roblox.com
 util39.ra.roblox.com
 util4.ra.roblox.com
 versioncompatibility.api.roblox.com
+virtual.econ.guilded.gg
 voice.roblox.com
 vpn.cn.roblox.com
 vpn.ra.roblox.com
@@ -870,6 +899,7 @@ www.roblox.com
 xray-prod1.rbx.com
 xray-stage7.rbx.com
 xray.rbx.com
+zb25wt42.x.guilded.gg
 zendesk1.roblox.com
 zendesk2.roblox.com
 zendesk3.roblox.com
