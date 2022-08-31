@@ -6,6 +6,7 @@ acc.fsialerts.mo.tesla.services
 acc.teslavision-ga4-fc-020-x015-my.mo.tesla.services
 accept.sim-map.mo.tesla.services
 acceptatie-mfs-supplier.mo.tesla.services
+acceptatie-pm.mo.tesla.services
 acceptatie.celltest-kato-dev.mo.tesla.services
 acceptatieequipment-reports-paint.mo.tesla.services
 acceptatieflux-auth.mo.tesla.services
@@ -15,6 +16,7 @@ accesssecengovp.tesla.services
 accjammer-health-sca.mo.tesla.services
 accounts.jammer-health-sca.mo.tesla.services
 accountsautodiscover.tesla.services
+accountspm.mo.tesla.services
 acm2.teslamotors.com
 admin-legacy.billing.solarcity.com
 admin.billing.solarcity.com
@@ -289,6 +291,7 @@ cloudprotect.tesla.com
 cms-autodiscover.tesla.services
 cms.sim-map.mo.tesla.services
 cmsjammer-health-sca.mo.tesla.services
+cmspm.mo.tesla.services
 cmsswitchtower-sjc-br-1.mo.tesla.services
 cn-north-1-api.mp.tesla.services
 cn-north-1-stg-api.mp.tesla.services
@@ -301,6 +304,7 @@ cnvpn1.tesla.com
 community.tesla.cn
 comparison.tesla.com
 concourse.mo.tesla.services
+config-pm.mo.tesla.services
 config.pfep.mo.tesla.services
 config.sim-map.mo.tesla.services
 configupdate-eng.sn.tesla.services
@@ -308,19 +312,25 @@ configupdate-prd.sn.tesla.services
 confluence-01.infra.scit.solarcity.com
 connect.teslamotors.com
 connector-health.mo.tesla.services
+connectpm.mo.tesla.services
 connman.vn.tesla.services
 container.celltest-kato.mo.tesla.services
 container.sim-map.mo.tesla.services
 controller.dtreport.mo.tesla.services
+controllerpm.mo.tesla.services
 corp.celltest-p2.mo.tesla.services
 corp.gutenberg-v1-dev-api.mo.tesla.services
 corp.sim-map.mo.tesla.services
 corporate-p2b-precitec-etl.mo.tesla.services
+corporate-pm.mo.tesla.services
 corporate.pravasi.tesla.services
+corporatepm.mo.tesla.services
+corpsummoncontroller.mo.tesla.services
 courses.tesla.com
 cpkubeless-error-handler-prd.mo.tesla.services
 crossdock-logistics.tesla.com
 crossdock.tesla.cn
+cs-pm.mo.tesla.services
 cs.sim-map.mo.tesla.services
 csp.teslamotors.com
 cspivisionprocessing-prd.mo.tesla.services
@@ -335,10 +345,12 @@ cx.tesla.cn
 darkfield.tesla.cn
 darkfield.tesla.com
 data-flux-auth.mo.tesla.services
+data-pm.mo.tesla.services
 data.sim-map.mo.tesla.services
 database-nexomonitor.mo.tesla.services
 database.pce-data.mo.tesla.services
 database.sim-map.mo.tesla.services
+databasepm.mo.tesla.services
 datatank.fa.tesla.services
 dataviz.mo.tesla.services
 dataviz.tesla.com
@@ -469,6 +481,7 @@ extissues.teslamotors.com
 factory-hermes.mo.tesla.services
 factory.tesla.com
 factoryvision.mo.tesla.services
+fastcharge-west-prd.sc.tesla.services
 fastcharge.teslamotors.com
 fbgw6.tesla.services
 feedback.ap.tesla.services
@@ -484,6 +497,7 @@ finops.tesla.cn
 finops.tesla.com
 firmware-ota.vn.tesla.services
 firmware-ota.vn.teslamotors.com
+fleet-api.prd.vn.cloud.tesla.cn
 fleet-api.teslamotors.com
 fleet-api.vn.tesla.services
 fleetview.teslamotors.com
@@ -540,11 +554,13 @@ hamilton.scfs.solarcity.com
 helios-admin.scfs.solarcity.com
 helios-api.scfs.solarcity.com
 helpdesk.teslamotors.com
+hermes-ap-eng.vn.cloud.tesla.cn
 hermes-ap-prd.vn.cloud.tesla.cn
 hermes-cn-north-eng.vn.tesla.services
 hermes-cn-north-prd.vn.tesla.services
 hermes-dev.do.tesla.services
 hermes-dev.qd.tesla.services
+hermes-dev.vn.tesla.services
 hermes-dev.xx.tesla.services
 hermes-eng.ap.tesla.services
 hermes-eng.sc.tesla.services
@@ -636,6 +652,7 @@ isapi.solarcity.com
 issues.teslamotors.com
 itanswers.tesla.com
 jammer-health-sca.mo.tesla.services
+jammer.mo.tesla.services
 japan.teslamotors.com
 jedi.mo.tesla.services
 jeffbullaspic.tesla.services
@@ -699,6 +716,7 @@ lyndir.teslamotors.com
 m3-trial-tracker.mo.tesla.services
 maestro-eng.sn.tesla.services
 maestro-prd.sn.tesla.services
+mail.scfs.solarcity.com
 mapper.mo.tesla.services
 maps-eng.go.tesla.services
 maps-eu-prd.go.tesla.services
@@ -1049,6 +1067,7 @@ ptr1.tesla.com
 ptr2.tesla.com
 pub.email.tesla.com
 pwt-grafana-palladium.mo.tesla.services
+pyvision.mo.tesla.services
 qd-ws.mo.tesla.services
 qr-server-staging.mp.tesla.services
 qr-server.prd.mp.tesla.services
