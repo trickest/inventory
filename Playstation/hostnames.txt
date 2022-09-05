@@ -40,6 +40,7 @@ accept.auth.d1-spint.ac.playstation.net
 accept.clients.medialand.sonyentertainmentnetwork.com
 accept.config-redirect.rotator.sonyentertainmentnetwork.com
 accept.staff.my-oceania.rotator.sonyentertainmentnetwork.com
+accept.testing.meet-clients.medialand.sonyentertainmentnetwork.com
 accept.try.sonyentertainmentnetwork.com
 acceptapi-origin.sonyentertainmentnetwork.com
 acceptatie-api.d1-np.ac.playstation.net
@@ -80,7 +81,9 @@ access.redirect.rotator.sonyentertainmentnetwork.com
 access.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 accesseng-external.redirect.rotator.sonyentertainmentnetwork.com
 accesseventeng-external.redirect.rotator.sonyentertainmentnetwork.com
+accesslegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 accesslogs-eng-external.redirect.rotator.sonyentertainmentnetwork.com
+accesspostgresql.lbclients.medialand.sonyentertainmentnetwork.com
 accessrelay-config-redirect.rotator.sonyentertainmentnetwork.com
 accessstatus.start-clients.medialand.sonyentertainmentnetwork.com
 accessstore.auth.api.playstation.com
@@ -141,6 +144,7 @@ accounts-origin.d2-spint.api.playstation.com
 accounts-status.start-clients.medialand.sonyentertainmentnetwork.com
 accounts-store.auth.api.playstation.com
 accounts-system.medialand.sonyentertainmentnetwork.com
+accounts-webservices-start-clients.medialand.sonyentertainmentnetwork.com
 accounts-wild.auth.d1-np.ac.playstation.net
 accounts-wild.auth.e1-pmgt.ac.playstation.net
 accounts-wild.auth.q1-np.ac.playstation.net
@@ -166,6 +170,7 @@ accounts.int.api.ac.playstation.net
 accounts.int.api.playstation.com
 accounts.mgmt.api.playstation.com
 accounts.myaws.rotator.sonyentertainmentnetwork.com
+accounts.press.my-oceania.rotator.sonyentertainmentnetwork.com
 accounts.prod-qa.api.playstation.com
 accounts.q1-np.api.playstation.com
 accounts.q1-pmgt.api.playstation.com
@@ -185,6 +190,7 @@ accountslaco.auth.q1-pqa.ac.playstation.net
 accountsusers.medialand.sonyentertainmentnetwork.com
 accountswww.sonyentertainmentnetwork.com
 accsi-ivt.e1-np.community.playstation.net
+acctesting.meet-clients.medialand.sonyentertainmentnetwork.com
 action-cards-host-app.rnps.dl.playstation.net
 activate.playstation.net
 activity.api.np.km.playstation.net
@@ -249,6 +255,7 @@ alpha.auth.prod-qa.ac.playstation.net
 alpha.avira-free-antivirus.it.staging.tools.ce.playstation.net
 alpha.b2bsystem.medialand.sonyentertainmentnetwork.com
 alpha.dbs-b2bsystem.medialand.sonyentertainmentnetwork.com
+alpha.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 alpha.new-oceania.rotator.sonyentertainmentnetwork.com
 alpha.users.medialand.sonyentertainmentnetwork.com
 alpha4kmp-test.sonyentertainmentnetwork.com
@@ -271,12 +278,14 @@ alt.rotator.sonyentertainmentnetwork.com
 alt.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 altacceptatie.system.medialand.sonyentertainmentnetwork.com
 altconfig-redirect.rotator.sonyentertainmentnetwork.com
+altlegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 altstore.auth.api.playstation.com
 altstore.q1-pmgt.ac.playstation.net
 altus.rotator.sonyentertainmentnetwork.com
 amplitude.playstation.com
 amsprd.msys.playstation.net
 analytics.playstation.net
+antivirus-booster-and-cleaner.br.superduper.ce.playstation.net
 api-b2bsystem.medialand.sonyentertainmentnetwork.com
 api-dev.upro.playstation.net
 api-devel.clients.medialand.sonyentertainmentnetwork.com
@@ -294,6 +303,7 @@ api-origin.q1-np.sonyentertainmentnetwork.com
 api-origin.sonyentertainmentnetwork.com
 api-relay-config-redirect.rotator.sonyentertainmentnetwork.com
 api-stg.upro.playstation.net
+api-testing.meet-clients.medialand.sonyentertainmentnetwork.com
 api.auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 api.d1-np.ac.playstation.net
 api.d1-np.sonyentertainmentnetwork.com
@@ -316,6 +326,7 @@ api.e1-pmgt.sonyentertainmentnetwork.com
 api.e1-pqa.sonyentertainmentnetwork.com
 api.e1-spint.sonyentertainmentnetwork.com
 api.ivaldi.playstation.com
+api.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 api.q1-np.ac.playstation.net
 api.q1-np.sonyentertainmentnetwork.com
 api.q1-pmgt.ac.playstation.net
@@ -331,6 +342,7 @@ apieventeng-external.redirect.rotator.sonyentertainmentnetwork.com
 apimirror-my-oceania.rotator.sonyentertainmentnetwork.com
 apimm.e1-np.playstation.net
 apioceania.rotator.sonyentertainmentnetwork.com
+apipress.my-oceania.rotator.sonyentertainmentnetwork.com
 apius.rotator.sonyentertainmentnetwork.com
 apollo.d1-np.ac.playstation.net
 apollo.dev.dl.playstation.net
@@ -365,7 +377,9 @@ appmyaws.rotator.sonyentertainmentnetwork.com
 apps-b2bsystem.medialand.sonyentertainmentnetwork.com
 apps-geotest.auth.np.ac.playstation.net
 apps-jira.medialand.sonyentertainmentnetwork.com
+apps-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 apps-partner-devel.clients.medialand.sonyentertainmentnetwork.com
+apps-production.meet-clients.medialand.sonyentertainmentnetwork.com
 apps-users.medialand.sonyentertainmentnetwork.com
 apps-wild.auth.q1-np.ac.playstation.net
 apps-wild.auth.q1-pmgt.ac.playstation.net
@@ -373,6 +387,7 @@ apps.devel.clients.medialand.sonyentertainmentnetwork.com
 apps.event.svn.oceania.rotator.sonyentertainmentnetwork.com
 apps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 apps.new-oceania.rotator.sonyentertainmentnetwork.com
+apps.production.meet-clients.medialand.sonyentertainmentnetwork.com
 apps.rotator.sonyentertainmentnetwork.com
 appsb2bsystem.medialand.sonyentertainmentnetwork.com
 appsconfig-redirect.rotator.sonyentertainmentnetwork.com
@@ -450,6 +465,7 @@ auth-origin.e1-np.ac.playstation.net
 auth-roadster-lvb.api.np.ac.playstation.net
 auth-roadster-lvb.np.ac.playstation.net
 auth-roadster.api.np.ac.playstation.net
+auth-wild.auth.d1-pmgt.ac.playstation.net
 auth-wild.auth.d1-pqa.ac.playstation.net
 auth.api.d1-np.ac.playstation.net
 auth.api.d1-np.sonyentertainmentnetwork.com
@@ -495,6 +511,7 @@ auth.hosting.my-oceania.rotator.sonyentertainmentnetwork.com
 auth.m-stage.sonyentertainmentnetwork.com
 auth.mgmt.ac.playstation.net
 auth.my-oceania.rotator.sonyentertainmentnetwork.com
+auth.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 auth.np.ac.playstation.net
 auth.prod-qa.ac.playstation.net
 auth.q1-np.ac.playstation.net
@@ -505,6 +522,7 @@ auth.sp-int.ac.playstation.net
 authacceptatie.redirect.rotator.sonyentertainmentnetwork.com
 authip.oceania.rotator.sonyentertainmentnetwork.com
 authmirror-my-oceania.rotator.sonyentertainmentnetwork.com
+authnetworksvn.oceania.rotator.sonyentertainmentnetwork.com
 author.direct-qa.playstation.com
 author.direct-stage.playstation.com
 author.direct-stage2.playstation.com
@@ -559,6 +577,7 @@ b2b.e1-pmgt.sonyentertainmentnetwork.com
 b2b.event.svn.oceania.rotator.sonyentertainmentnetwork.com
 b2b.hosting.my-oceania.rotator.sonyentertainmentnetwork.com
 b2b.medialand.playstation.net
+b2b.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 b2b.redirect.devel.clients.medialand.sonyentertainmentnetwork.com
 b2bconfig-redirect.rotator.sonyentertainmentnetwork.com
 b2bmy-oceania.rotator.sonyentertainmentnetwork.com
@@ -571,6 +590,7 @@ ba.playstation.com
 backup-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 backup-media.lbclients.medialand.sonyentertainmentnetwork.com
 backup-start-clients.medialand.sonyentertainmentnetwork.com
+backup-testing.meet-clients.medialand.sonyentertainmentnetwork.com
 backup.apps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 backup.clients.medialand.sonyentertainmentnetwork.com
 backup.devel.clients.medialand.sonyentertainmentnetwork.com
@@ -599,6 +619,7 @@ bbc.dl.playstation.net
 bbmon01.op.san.np.ad.playstation.net
 bclog.np.rds.s0.playstation.net
 be-evnt-edge.np.community.playstation.net
+be-fllw.np.community.playstation.net
 be-gcd.np.community.playstation.net
 be-gmsg.np.community.playstation.net
 be-ivt.np.community.playstation.net
@@ -634,6 +655,7 @@ betabeta.redirect.rotator.sonyentertainmentnetwork.com
 betadbs-b2bsystem.medialand.sonyentertainmentnetwork.com
 betahelpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 betameet-clients.medialand.sonyentertainmentnetwork.com
+betapostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 beyond.eu.playstation.com
 beyond.playstation.com
 bg-prof.np.community.playstation.net
@@ -699,6 +721,7 @@ blog.zh-hant.playstation.com
 blog2.asia.playstation.com
 blogb2bmy-oceania.rotator.sonyentertainmentnetwork.com
 blogdevel.clients.medialand.sonyentertainmentnetwork.com
+blognetworksvn.oceania.rotator.sonyentertainmentnetwork.com
 blogp0.dl.playstation.net
 blogstage.de.playstation.com
 blogstage.es.playstation.com
@@ -722,6 +745,7 @@ br-ivt.np.community.playstation.net
 br-ntl.np.community.playstation.net
 br-prof.np.community.playstation.net
 br-push.np.communication.playstation.net
+br-tpy.np.community.playstation.net
 br.playstation.com
 br.support.sonyentertainmentnetwork.com
 bravia-e.dl.playstation.net
@@ -751,6 +775,8 @@ cache-laco.auth.q1-spint.ac.playstation.net
 cache-lbclients.medialand.sonyentertainmentnetwork.com
 cache-mm.e1-np.playstation.net
 cache-oceania.rotator.sonyentertainmentnetwork.com
+cache-production.meet-clients.medialand.sonyentertainmentnetwork.com
+cache-webservices-start-clients.medialand.sonyentertainmentnetwork.com
 cache.event.svn.oceania.rotator.sonyentertainmentnetwork.com
 cache.mail-start-clients.medialand.sonyentertainmentnetwork.com
 cache.system.medialand.sonyentertainmentnetwork.com
@@ -760,6 +786,7 @@ cachee1.dl.playstation.net
 cachelbclients.medialand.sonyentertainmentnetwork.com
 cacheoceania.rotator.sonyentertainmentnetwork.com
 cachetunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
+cachewild.auth.q1-pqa.ac.playstation.net
 cachewww.ucltickets.playstation.net
 camblocks.api.d1-np.sonyentertainmentnetwork.com
 camblocks.demo-int.d1-np.ac.playstation.net
@@ -813,6 +840,7 @@ cdnauth.prod-qa.scdn.dl.playstation.net
 cdnauth.sp-int.scdn.dl.playstation.net
 cdnlogsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 cdnmedia.lbclients.medialand.sonyentertainmentnetwork.com
+cdntesting.meet-clients.medialand.sonyentertainmentnetwork.com
 cdnuser.medialand.sonyentertainmentnetwork.com
 cdnwww01.oceania.rotator.sonyentertainmentnetwork.com
 cfss.crs.playstation.net
@@ -829,11 +857,13 @@ china.playstation.com
 chinacdn.playstation.com
 ci-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 ci-b2bsystem.medialand.sonyentertainmentnetwork.com
+ci-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 ci-status.start-clients.medialand.sonyentertainmentnetwork.com
 ci.mail-start-clients.medialand.sonyentertainmentnetwork.com
 ciapiapps.rotator.sonyentertainmentnetwork.com
 ciip.oceania.rotator.sonyentertainmentnetwork.com
 cilogsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+cipostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 cirelay-config-redirect.rotator.sonyentertainmentnetwork.com
 cisvn.oceania.rotator.sonyentertainmentnetwork.com
 citrus-test.epo.playstation.net
@@ -864,6 +894,7 @@ cloud-geotest.auth.np.ac.playstation.net
 cloud-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 cloud.auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 cloud.staff.my-oceania.rotator.sonyentertainmentnetwork.com
+cloud.testing.meet-clients.medialand.sonyentertainmentnetwork.com
 cloud.txn-email.playstation.com
 cloud.txn-email03.playstation.com
 cloud.www01.oceania.rotator.sonyentertainmentnetwork.com
@@ -894,6 +925,7 @@ cms-author.direct.q1-pmgt.playstation.com
 cms-author.direct.q1-pqa.playstation.com
 cms-author.direct.q1-spint.playstation.com
 cms-avira-free-antivirus.it.staging.tools.ce.playstation.net
+cms-press.my-oceania.rotator.sonyentertainmentnetwork.com
 cms-preview-publisher.direct.d1-np.playstation.com
 cms-preview-publisher.direct.d1-pmgt.playstation.com
 cms-preview-publisher.direct.d1-pqa.playstation.com
@@ -923,6 +955,7 @@ cms-publisher.direct.q1-np.playstation.com
 cms-publisher.direct.q1-pmgt.playstation.com
 cms-publisher.direct.q1-pqa.playstation.com
 cms-publisher.direct.q1-spint.playstation.com
+cms-store.auth.api.playstation.com
 cms-us.playstation.com
 cms-wild.auth.e1-np.ac.playstation.net
 cms-wild.auth.e1-pmgt.ac.playstation.net
@@ -932,6 +965,7 @@ cms.auth.e1-spint.ac.playstation.net
 cms.customers-devel.clients.medialand.sonyentertainmentnetwork.com
 cms.logs-eng-external.redirect.rotator.sonyentertainmentnetwork.com
 cms.mail-start-clients.medialand.sonyentertainmentnetwork.com
+cms.production.meet-clients.medialand.sonyentertainmentnetwork.com
 cms.si-ivt.e1-np.community.playstation.net
 cmshelpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 cmslbclients.medialand.sonyentertainmentnetwork.com
@@ -1081,6 +1115,7 @@ competitions.au.playstation.com
 components.playstation.net
 config-csip.oceania.rotator.sonyentertainmentnetwork.com
 config-media.lbclients.medialand.sonyentertainmentnetwork.com
+config-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 config-redirect.rotator.sonyentertainmentnetwork.com
 config-zeus.dl.playstation.net
 config.apius.rotator.sonyentertainmentnetwork.com
@@ -1090,12 +1125,14 @@ config.cs-external.redirect.rotator.sonyentertainmentnetwork.com
 config.event.svn.oceania.rotator.sonyentertainmentnetwork.com
 config.new-oceania.rotator.sonyentertainmentnetwork.com
 config.oceania.rotator.sonyentertainmentnetwork.com
+config.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 configapps.rotator.sonyentertainmentnetwork.com
 configclients.medialand.sonyentertainmentnetwork.com
 configlbclients.medialand.sonyentertainmentnetwork.com
 configmedia.lbclients.medialand.sonyentertainmentnetwork.com
 configmy-oceania.rotator.sonyentertainmentnetwork.com
 connect-eu-devel.clients.medialand.sonyentertainmentnetwork.com
+connect-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 connect-search.rnps.dl.playstation.net
 connect.devel.clients.medialand.sonyentertainmentnetwork.com
 connect.eu.playstation.com
@@ -1117,10 +1154,12 @@ container-laco.auth.q1-np.ac.playstation.net
 container.auth.e1-pqa.ac.playstation.net
 container.blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 container.new-oceania.rotator.sonyentertainmentnetwork.com
+container.production.meet-clients.medialand.sonyentertainmentnetwork.com
 container.svn.oceania.rotator.sonyentertainmentnetwork.com
 containerblog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 containercontrollerredirect.rotator.sonyentertainmentnetwork.com
 containermeet-clients.medialand.sonyentertainmentnetwork.com
+containertesting.meet-clients.medialand.sonyentertainmentnetwork.com
 containerwild.auth.d1-pmgt.ac.playstation.net
 control-center.rnps.dl.playstation.net
 controller-apiapps.rotator.sonyentertainmentnetwork.com
@@ -1132,7 +1171,9 @@ controller.auth.mgmt.ac.playstation.net
 controller.dl.playstation.net
 controller.eu-devel.clients.medialand.sonyentertainmentnetwork.com
 controller.jira.medialand.sonyentertainmentnetwork.com
+controller.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 controller.logsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+controller.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 controller.status.start-clients.medialand.sonyentertainmentnetwork.com
 controller.wishlist.rnps.dl.playstation.net
 controller.zeus.dl.playstation.net
@@ -1204,6 +1245,7 @@ corp-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 corp-devel.clients.medialand.sonyentertainmentnetwork.com
 corp-helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 corp-laco.auth.q1-pmgt.ac.playstation.net
+corp-press.my-oceania.rotator.sonyentertainmentnetwork.com
 corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 corp.auth.d1-spint.ac.playstation.net
 corp.auth.mgmt.ac.playstation.net
@@ -1229,6 +1271,8 @@ corpwild.auth.q1-spint.ac.playstation.net
 cosmiccube.rnps.dl.playstation.net
 cp-beta.cs-external.redirect.rotator.sonyentertainmentnetwork.com
 cp-devel.clients.medialand.sonyentertainmentnetwork.com
+cp-press.my-oceania.rotator.sonyentertainmentnetwork.com
+cp-production.meet-clients.medialand.sonyentertainmentnetwork.com
 cp-redirect.rotator.sonyentertainmentnetwork.com
 cp-user.medialand.sonyentertainmentnetwork.com
 cp-wild.auth.e1-np.ac.playstation.net
@@ -1237,6 +1281,8 @@ cp.beta.cs-external.redirect.rotator.sonyentertainmentnetwork.com
 cp.dbs-b2bsystem.medialand.sonyentertainmentnetwork.com
 cp.mail-start-clients.medialand.sonyentertainmentnetwork.com
 cp.meet-clients.medialand.sonyentertainmentnetwork.com
+cp.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
+cp.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 cp.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 cpacceptatie.redirect.rotator.sonyentertainmentnetwork.com
 cpacceptatie.system.medialand.sonyentertainmentnetwork.com
@@ -1265,6 +1311,7 @@ crmoceania.rotator.sonyentertainmentnetwork.com
 crmuser.medialand.sonyentertainmentnetwork.com
 crmwww-my-oceania.rotator.sonyentertainmentnetwork.com
 cs-external.redirect.rotator.sonyentertainmentnetwork.com
+cs-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 cs-roadster.auth.np.ac.playstation.net
 cs.acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 cs.auth.d1-pmgt.ac.playstation.net
@@ -1281,10 +1328,12 @@ csapps.rotator.sonyentertainmentnetwork.com
 csblog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 csip.oceania.rotator.sonyentertainmentnetwork.com
 csla.np.community.playstation.net
+cslegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 csx-al001.dl.sonyentertainmentnetwork.com
 csx-sl001.dl.sonyentertainmentnetwork.com
 csx-tl001.dl.sonyentertainmentnetwork.com
 customers-devel.clients.medialand.sonyentertainmentnetwork.com
+customers.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 customers.redirect.rotator.sonyentertainmentnetwork.com
 customers.rotator.sonyentertainmentnetwork.com
 customers.svn.oceania.rotator.sonyentertainmentnetwork.com
@@ -1292,6 +1341,7 @@ customersacceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 customersebm.email.sonyentertainmentnetwork.com
 customerseventeng-external.redirect.rotator.sonyentertainmentnetwork.com
 customerslogs-eng-external.redirect.rotator.sonyentertainmentnetwork.com
+customerstesting.meet-clients.medialand.sonyentertainmentnetwork.com
 cx-api-dev.e1-np.tools.playstation.net
 cx-api-dev.playstation.net
 cx-api.np.tools.playstation.net
@@ -1322,12 +1372,14 @@ dashboards.playstation.net
 data-config-redirect.rotator.sonyentertainmentnetwork.com
 data-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 data-log-b2bsystem.medialand.sonyentertainmentnetwork.com
+data-testing.meet-clients.medialand.sonyentertainmentnetwork.com
 data-www-my-oceania.rotator.sonyentertainmentnetwork.com
 data-www2.sonyentertainmentnetwork.com
 data.apps.rotator.sonyentertainmentnetwork.com
 data.auth.d1-pmgt.ac.playstation.net
 data.avira-free-antivirus.it.staging.tools.ce.playstation.net
 data.medialand.sonyentertainmentnetwork.com
+data.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 data.us.rotator.sonyentertainmentnetwork.com
 datab2bmy-oceania.rotator.sonyentertainmentnetwork.com
 database-eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -1366,12 +1418,14 @@ db2.config-redirect.rotator.sonyentertainmentnetwork.com
 db2.devel.clients.medialand.sonyentertainmentnetwork.com
 db2.login.ww.medialand.sonyentertainmentnetwork.com
 db2.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+db2.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 db2.partner-devel.clients.medialand.sonyentertainmentnetwork.com
 db2.rotator.sonyentertainmentnetwork.com
 db2.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 db2config-redirect.rotator.sonyentertainmentnetwork.com
 db2eu-devel.clients.medialand.sonyentertainmentnetwork.com
 db2mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+db2postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 db2users.medialand.sonyentertainmentnetwork.com
 dbacceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 dbb2bsystem.medialand.sonyentertainmentnetwork.com
@@ -1415,6 +1469,7 @@ default-si-ivt.e1-np.community.playstation.net
 default.auth.d1-np.ac.playstation.net
 default.auth.q1-pmgt.ac.playstation.net
 default.meet-clients.medialand.sonyentertainmentnetwork.com
+defaultgeotest.auth.np.ac.playstation.net
 defaultil-evnt-edge.np.community.playstation.net
 demo-m.email.sonyentertainmentnetwork.com
 demo.devel.clients.medialand.sonyentertainmentnetwork.com
@@ -1423,10 +1478,12 @@ demob2bmy-oceania.rotator.sonyentertainmentnetwork.com
 democonfig-redirect.rotator.sonyentertainmentnetwork.com
 demome-internal.mo.playstation.net
 demome.mo.playstation.net
+demopostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 deploy-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 deploy-devel.clients.medialand.sonyentertainmentnetwork.com
 deploy-hosting.my-oceania.rotator.sonyentertainmentnetwork.com
 deploy-media.lbclients.medialand.sonyentertainmentnetwork.com
+deploy-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 deploy-user.medialand.sonyentertainmentnetwork.com
 deploy.a9.qa.np.communication.playstation.net
 deploy.myaws.rotator.sonyentertainmentnetwork.com
@@ -1485,7 +1542,9 @@ developer-auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 developer-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 developer-extralife.playstation.net
 developer-ip.oceania.rotator.sonyentertainmentnetwork.com
+developer-legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 developer-logs-eng-external.redirect.rotator.sonyentertainmentnetwork.com
+developer-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 developer-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 developer-view.jp.sp-int.community.playstation.net
 developer.auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -1494,12 +1553,14 @@ developer.partner-devel.clients.medialand.sonyentertainmentnetwork.com
 developermail-start-clients.medialand.sonyentertainmentnetwork.com
 developermirror-my-oceania.rotator.sonyentertainmentnetwork.com
 developermyaws.rotator.sonyentertainmentnetwork.com
+developerpress.my-oceania.rotator.sonyentertainmentnetwork.com
 developerstatus.start-clients.medialand.sonyentertainmentnetwork.com
 development-us.rotator.sonyentertainmentnetwork.com
 development.auth.q1-pqa.ac.playstation.net
 development.medialand.playstation.net
 development.meet-clients.medialand.sonyentertainmentnetwork.com
 development.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+development.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 developmentapiapps.rotator.sonyentertainmentnetwork.com
 develus.support.sonyentertainmentnetwork.com
 develwww01.oceania.rotator.sonyentertainmentnetwork.com
@@ -1507,10 +1568,12 @@ devenv-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 devenv-stn.ww.np.cy.s0.playstation.net
 devenv-svn.oceania.rotator.sonyentertainmentnetwork.com
 devenv.clients.medialand.sonyentertainmentnetwork.com
+devenv.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 devenv.log-b2bsystem.medialand.sonyentertainmentnetwork.com
 devenv.p3bibit.np.ac.playstation.net
 devenvbeta.redirect.rotator.sonyentertainmentnetwork.com
 devenvcontrollerredirect.rotator.sonyentertainmentnetwork.com
+devenvlegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 devenvredirect.rotator.sonyentertainmentnetwork.com
 devenvstart-clients.medialand.sonyentertainmentnetwork.com
 devenvwww-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -1519,6 +1582,7 @@ devices-stage.sonyentertainmentnetwork.com
 devices.sonyentertainmentnetwork.com
 devlogs-eng-external.redirect.rotator.sonyentertainmentnetwork.com
 devlogsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+devops-legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 devops-redirect.rotator.sonyentertainmentnetwork.com
 devops-status.start-clients.medialand.sonyentertainmentnetwork.com
 devops.auth.sp-int.ac.playstation.net
@@ -1527,6 +1591,7 @@ devops.eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 devops.eventeng-external.redirect.rotator.sonyentertainmentnetwork.com
 devops.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 devops.my-oceania.rotator.sonyentertainmentnetwork.com
+devops.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 devopsapps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 devopsbeta.cs-external.redirect.rotator.sonyentertainmentnetwork.com
 devopseu-devel.clients.medialand.sonyentertainmentnetwork.com
@@ -1574,16 +1639,19 @@ dns-apps.rotator.sonyentertainmentnetwork.com
 dns-b2bsystem.medialand.sonyentertainmentnetwork.com
 dns-beta.cs-external.redirect.rotator.sonyentertainmentnetwork.com
 dns-mail-start-clients.medialand.sonyentertainmentnetwork.com
+dns-production.meet-clients.medialand.sonyentertainmentnetwork.com
 dns-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 dns.acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 dns.crm.controllerredirect.rotator.sonyentertainmentnetwork.com
 dns.meet-clients.medialand.sonyentertainmentnetwork.com
+dns.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 dnsapps.rotator.sonyentertainmentnetwork.com
 dnsblog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 dnscs-external.redirect.rotator.sonyentertainmentnetwork.com
 dnseng-external.redirect.rotator.sonyentertainmentnetwork.com
 dnsgeotest.auth.np.ac.playstation.net
 dnslbclients.medialand.sonyentertainmentnetwork.com
+dnslegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 dnslogin.ww.medialand.sonyentertainmentnetwork.com
 dnsnew-oceania.rotator.sonyentertainmentnetwork.com
 dnsstatus.start-clients.medialand.sonyentertainmentnetwork.com
@@ -1600,6 +1668,7 @@ docker-f.email.sonyentertainmentnetwork.com
 docker-geotest.auth.np.ac.playstation.net
 docker-ip.oceania.rotator.sonyentertainmentnetwork.com
 docker-logs-eng-external.redirect.rotator.sonyentertainmentnetwork.com
+docker-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 docker-oceania.rotator.sonyentertainmentnetwork.com
 docker.acceptatie.system.medialand.sonyentertainmentnetwork.com
 dockerlog-b2bsystem.medialand.sonyentertainmentnetwork.com
@@ -1829,6 +1898,7 @@ eng-us.rotator.sonyentertainmentnetwork.com
 eng.a9.de.np.communication.playstation.net
 eng.crm.controllerredirect.rotator.sonyentertainmentnetwork.com
 eng.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+eng.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 eng.status.start-clients.medialand.sonyentertainmentnetwork.com
 engevent.svn.oceania.rotator.sonyentertainmentnetwork.com
 engineering-gvs.api.prod-qa.playstation.net
@@ -1848,21 +1918,25 @@ english.partner-devel.clients.medialand.sonyentertainmentnetwork.com
 english.us.rotator.sonyentertainmentnetwork.com
 english.users.medialand.sonyentertainmentnetwork.com
 englishdevel.clients.medialand.sonyentertainmentnetwork.com
+englishlegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 englishstatus.start-clients.medialand.sonyentertainmentnetwork.com
 englishusers.medialand.sonyentertainmentnetwork.com
 engstaff.my-oceania.rotator.sonyentertainmentnetwork.com
 engstatus.start-clients.medialand.sonyentertainmentnetwork.com
+enpress.my-oceania.rotator.sonyentertainmentnetwork.com
 ensystem.medialand.sonyentertainmentnetwork.com
 entitlements.api.playstation.com
 envelope2.np.dl.playstation.net
 erp-ip.oceania.rotator.sonyentertainmentnetwork.com
 erp-partner-devel.clients.medialand.sonyentertainmentnetwork.com
+erp-press.my-oceania.rotator.sonyentertainmentnetwork.com
 erp.mail-start-clients.medialand.sonyentertainmentnetwork.com
 erpapps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 erpconfig-redirect.rotator.sonyentertainmentnetwork.com
 erplog-b2bsystem.medialand.sonyentertainmentnetwork.com
 erplogin.ww.medialand.sonyentertainmentnetwork.com
 erpnew-oceania.rotator.sonyentertainmentnetwork.com
+erpwebservices-start-clients.medialand.sonyentertainmentnetwork.com
 es-evnt-edge.np.community.playstation.net
 es-gcd.np.community.playstation.net
 es-gmsg.np.community.playstation.net
@@ -1894,12 +1968,14 @@ eugauthor.qa.playstation.com
 eugdev.playstation.com
 eugqa.playstation.com
 eumeet-clients.medialand.sonyentertainmentnetwork.com
+eupostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 europe-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 europe-helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 europe-logsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 europe-us.rotator.sonyentertainmentnetwork.com
 europe-www.q1-spint.sonyentertainmentnetwork.com
 europe.apps.rotator.sonyentertainmentnetwork.com
+europe.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 europe.new-oceania.rotator.sonyentertainmentnetwork.com
 europe.partner-devel.clients.medialand.sonyentertainmentnetwork.com
 europe.status.start-clients.medialand.sonyentertainmentnetwork.com
@@ -1934,6 +2010,7 @@ event.helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 event.jp.playstation.com
 event.lbclients.medialand.sonyentertainmentnetwork.com
 event.svn.oceania.rotator.sonyentertainmentnetwork.com
+event.testing.meet-clients.medialand.sonyentertainmentnetwork.com
 eventauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 eventcom.api.e1-np.km.playstation.net
 eventcom.api.mgmt.km.playstation.net
@@ -1954,6 +2031,7 @@ example-redirect.rotator.sonyentertainmentnetwork.com
 example-start-clients.medialand.sonyentertainmentnetwork.com
 example.b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 example.controllerredirect.rotator.sonyentertainmentnetwork.com
+example.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 example.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 example.oceania.rotator.sonyentertainmentnetwork.com
 example.status.start-clients.medialand.sonyentertainmentnetwork.com
@@ -1971,16 +2049,19 @@ examples.b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 examples.beta.redirect.rotator.sonyentertainmentnetwork.com
 examples.eng-external.redirect.rotator.sonyentertainmentnetwork.com
 examples.mail-start-clients.medialand.sonyentertainmentnetwork.com
+examples.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 examplesevent.svn.oceania.rotator.sonyentertainmentnetwork.com
 examplesredirect.devel.clients.medialand.sonyentertainmentnetwork.com
 examplesredirect.rotator.sonyentertainmentnetwork.com
 exchange-ebm.email.sonyentertainmentnetwork.com
 exchange-log-b2bsystem.medialand.sonyentertainmentnetwork.com
 exchange-login.ww.medialand.sonyentertainmentnetwork.com
+exchange-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 exchange.playstation.com
 exchange.rotator.sonyentertainmentnetwork.com
 exchangeacceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 exchangeevent.svn.oceania.rotator.sonyentertainmentnetwork.com
+exchangenetworksvn.oceania.rotator.sonyentertainmentnetwork.com
 exchangepacman.e1-np.tools.playstation.net
 exchangetry.sonyentertainmentnetwork.com
 ext-gps-lvp.np.tools.playstation.net
@@ -2002,6 +2083,8 @@ externalconfig-redirect.rotator.sonyentertainmentnetwork.com
 externalcrm.controllerredirect.rotator.sonyentertainmentnetwork.com
 externaldevel.clients.medialand.sonyentertainmentnetwork.com
 externale.ns.email.sonyentertainmentnetwork.com
+externallegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
+externalpostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 extralife.playstation.net
 extranet-controllerredirect.rotator.sonyentertainmentnetwork.com
 extranet-laco.auth.q1-spint.ac.playstation.net
@@ -2047,6 +2130,7 @@ fi.playstation.com
 files-eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 files-eventcom.api.np.km.playstation.net
 files-logsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+files-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 files-roadster.auth.np.ac.playstation.net
 files-start-clients.medialand.sonyentertainmentnetwork.com
 files-us.support.sonyentertainmentnetwork.com
@@ -2274,6 +2358,7 @@ ftp-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 ftp.auth.sp-int.ac.playstation.net
 ftp.b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 ftp.ip.oceania.rotator.sonyentertainmentnetwork.com
+ftp.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 ftpapius.rotator.sonyentertainmentnetwork.com
 ftpdevel.clients.medialand.sonyentertainmentnetwork.com
 ftpmirror-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -2307,6 +2392,7 @@ gateway.www-my-oceania.rotator.sonyentertainmentnetwork.com
 gatewayeu-devel.clients.medialand.sonyentertainmentnetwork.com
 gatewayeu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 gatewaylogin.ww.medialand.sonyentertainmentnetwork.com
+gatewaypostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 gb-evnt-edge.np.community.playstation.net
 gb-fllw.np.community.playstation.net
 gb-gcd.np.community.playstation.net
@@ -2397,6 +2483,7 @@ gitblog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 gitdevel.clients.medialand.sonyentertainmentnetwork.com
 giteu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 githosting.my-oceania.rotator.sonyentertainmentnetwork.com
+gitpostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 global.support.playstation.com
 gmedia.playstation.com
 gms.api.playstation.com
@@ -2450,6 +2537,7 @@ hau01.ps4.update.playstation.net
 hbr01.ps4.update.playstation.net
 hcn01.ps4.update.playstation.net
 help-new-oceania.rotator.sonyentertainmentnetwork.com
+help-production.meet-clients.medialand.sonyentertainmentnetwork.com
 help-system-tools.kodama.e1-np.tools.playstation.net
 help-system.tools.partners.playstation.net
 help.beta.redirect.rotator.sonyentertainmentnetwork.com
@@ -2463,6 +2551,7 @@ helpdesk-www.ucltickets.playstation.net
 helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 helpdesk.eu-devel.clients.medialand.sonyentertainmentnetwork.com
 helpdesk.event.svn.oceania.rotator.sonyentertainmentnetwork.com
+helpdesk.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 helpdesk.status.start-clients.medialand.sonyentertainmentnetwork.com
 helpdeskapps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 helpdeskapps.rotator.sonyentertainmentnetwork.com
@@ -2503,6 +2592,7 @@ home.rnps.dl.playstation.net
 homer.dl.playstation.net
 hongkong.playstation.com
 host-aws.rotator.sonyentertainmentnetwork.com
+host-press.my-oceania.rotator.sonyentertainmentnetwork.com
 host.crm.controllerredirect.rotator.sonyentertainmentnetwork.com
 host.meet-clients.medialand.sonyentertainmentnetwork.com
 host.start-clients.medialand.sonyentertainmentnetwork.com
@@ -2510,6 +2600,7 @@ host.users.medialand.sonyentertainmentnetwork.com
 hosteng-external.redirect.rotator.sonyentertainmentnetwork.com
 hosting-b2bsystem.medialand.sonyentertainmentnetwork.com
 hosting-eu-devel.clients.medialand.sonyentertainmentnetwork.com
+hosting-production.meet-clients.medialand.sonyentertainmentnetwork.com
 hosting-start-clients.medialand.sonyentertainmentnetwork.com
 hosting-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 hosting.helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
@@ -2520,6 +2611,7 @@ hostingj0.upload.dl.playstation.net
 hostingstaff.my-oceania.rotator.sonyentertainmentnetwork.com
 hostmeet-clients.medialand.sonyentertainmentnetwork.com
 hr-evnt-edge.np.community.playstation.net
+hr-gmsg.np.community.playstation.net
 hr-ivt.np.community.playstation.net
 hr-prof.np.community.playstation.net
 hr-tpy.np.community.playstation.net
@@ -2538,6 +2630,8 @@ husky.sonyentertainmentnetwork.com
 i-b2bsystem.medialand.sonyentertainmentnetwork.com
 i-new-oceania.rotator.sonyentertainmentnetwork.com
 i.auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+i.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
+i.production.meet-clients.medialand.sonyentertainmentnetwork.com
 i.us.rotator.sonyentertainmentnetwork.com
 iapps.rotator.sonyentertainmentnetwork.com
 ias.api.playstation.com
@@ -2578,6 +2672,7 @@ image.mail.jp.playstation.com
 image.txn-email.playstation.com
 image.txn-email03.playstation.com
 images-aws.rotator.sonyentertainmentnetwork.com
+images-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 images.au.playstation.com
 images.eu.playstation.com
 images.nz.playstation.com
@@ -2614,6 +2709,7 @@ info.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 infoboard.ww.dl.playstation.net
 infoboard.xx.dl.playstation.net
 infohelpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
+infolegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 infologin.ww.medialand.sonyentertainmentnetwork.com
 infotunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 infra-blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
@@ -2623,6 +2719,7 @@ infra-www.ucltickets.playstation.net
 infra.store.q1-pqa.ac.playstation.net
 infraapps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 infraexternal.redirect.rotator.sonyentertainmentnetwork.com
+infrapostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 infrawww.q1-pmgt.sonyentertainmentnetwork.com
 ingester-lv.e1.tools.playstation.net
 ingester-lv.mgmt.tools.playstation.net
@@ -2650,16 +2747,21 @@ internal.meet-clients.medialand.sonyentertainmentnetwork.com
 internal.redirect.rotator.sonyentertainmentnetwork.com
 internalmirror-my-oceania.rotator.sonyentertainmentnetwork.com
 internalp3bibit.np.ac.playstation.net
+internalpostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 internalstart-clients.medialand.sonyentertainmentnetwork.com
 intlogin.ww.medialand.sonyentertainmentnetwork.com
 intra-apius.rotator.sonyentertainmentnetwork.com
 intra-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
+intra-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 intra-status.start-clients.medialand.sonyentertainmentnetwork.com
 intra.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 intradevel.clients.medialand.sonyentertainmentnetwork.com
 intranet.eng-external.redirect.rotator.sonyentertainmentnetwork.com
+intranet.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 intraneteu-devel.clients.medialand.sonyentertainmentnetwork.com
 intranetexternal.redirect.rotator.sonyentertainmentnetwork.com
+intranetlegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
+intranetpress.my-oceania.rotator.sonyentertainmentnetwork.com
 intwild.auth.e1-np.ac.playstation.net
 invitation-dialog.rnps.dl.playstation.net
 invizimals.eu.playstation.com
@@ -2682,7 +2784,9 @@ ip-ww.medialand.sonyentertainmentnetwork.com
 ip.b2bsystem.medialand.sonyentertainmentnetwork.com
 ip.login.ww.medialand.sonyentertainmentnetwork.com
 ip.oceania.rotator.sonyentertainmentnetwork.com
+ip.testing.meet-clients.medialand.sonyentertainmentnetwork.com
 ipbeta.redirect.rotator.sonyentertainmentnetwork.com
+ipostgresql.lbclients.medialand.sonyentertainmentnetwork.com
 ipredirect.devel.clients.medialand.sonyentertainmentnetwork.com
 ipv4-beta.redirect.rotator.sonyentertainmentnetwork.com
 ipv4-blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
@@ -2693,15 +2797,18 @@ ipv4.redirect.devel.clients.medialand.sonyentertainmentnetwork.com
 ipv4.redirect.rotator.sonyentertainmentnetwork.com
 ipv4log-b2bsystem.medialand.sonyentertainmentnetwork.com
 ipv4myaws.rotator.sonyentertainmentnetwork.com
+ipv4postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 ipv6-blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 ipv6-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 ipv6-log-b2bsystem.medialand.sonyentertainmentnetwork.com
 ipv6-ww.medialand.sonyentertainmentnetwork.com
 ipv6.apius.rotator.sonyentertainmentnetwork.com
 ipv6.apps.mail-start-clients.medialand.sonyentertainmentnetwork.com
+ipv6.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 ipv6.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 ipv6.playstation.com
 ipv6crm.controllerredirect.rotator.sonyentertainmentnetwork.com
+ipv6legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 ipv6meet-clients.medialand.sonyentertainmentnetwork.com
 ipv6users.medialand.sonyentertainmentnetwork.com
 ironmanvr.playstation.com
@@ -2807,6 +2914,7 @@ la3pebmpriv08.email.sonyentertainmentnetwork.com
 lab-apiapps.rotator.sonyentertainmentnetwork.com
 lab-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 lab-www.register.playstation.net
+lab.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 lab.users.medialand.sonyentertainmentnetwork.com
 labeu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 lablogs-eng-external.redirect.rotator.sonyentertainmentnetwork.com
@@ -2902,6 +3010,7 @@ library.rnps.dl.playstation.net
 link-apps.rotator.sonyentertainmentnetwork.com
 link-b2bsystem.medialand.sonyentertainmentnetwork.com
 link-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+link-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 link.au.playstation.com
 link.media.lbclients.medialand.sonyentertainmentnetwork.com
 link.nz.playstation.com
@@ -2936,6 +3045,7 @@ live.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 live.nl.playstation.com
 live.no.playstation.com
 live.playstation.com
+live.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 live.ps3.at.playstation.com
 live.ps3.de.playstation.com
 live.ps3.es.playstation.com
@@ -2981,11 +3091,14 @@ loadbalancer.start-clients.medialand.sonyentertainmentnetwork.com
 loadbalancer.status.start-clients.medialand.sonyentertainmentnetwork.com
 loadbalancer.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 loadbalancerblog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
+loadbalancertesting.meet-clients.medialand.sonyentertainmentnetwork.com
 loan.playstation.net
 localhost.playstation.net
 log-b2bsystem.medialand.sonyentertainmentnetwork.com
 log-blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 log-clients.medialand.sonyentertainmentnetwork.com
+log-legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
+log-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 log-www.register.playstation.net
 log.auth.d1-spint.ac.playstation.net
 log.eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -3011,6 +3124,7 @@ logsacceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 logsapius.rotator.sonyentertainmentnetwork.com
 logsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 logseu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+logspostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 logtunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 lookup-20101.ww.np.matching.playstation.net
 lookup-20102.ww.np.matching.playstation.net
@@ -3139,12 +3253,16 @@ mail107a.c2.jp.playstation.com
 mail108a.c3.jp.playstation.com
 mail109a.c3.jp.playstation.com
 mail110a.c3.jp.playstation.com
+maillegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 main-beta.redirect.rotator.sonyentertainmentnetwork.com
 main-new-oceania.rotator.sonyentertainmentnetwork.com
 main.apiapps.rotator.sonyentertainmentnetwork.com
+main.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
+main.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 main.redirect.rotator.sonyentertainmentnetwork.com
 maineu-devel.clients.medialand.sonyentertainmentnetwork.com
 mainip.oceania.rotator.sonyentertainmentnetwork.com
+mainlegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 mainmyaws.rotator.sonyentertainmentnetwork.com
 malaysia.playstation.com
 manage-apius.rotator.sonyentertainmentnetwork.com
@@ -3164,7 +3282,9 @@ manual.playstation.net
 manuals.playstation.net
 master-eng-external.redirect.rotator.sonyentertainmentnetwork.com
 master-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+master-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 master.log-b2bsystem.medialand.sonyentertainmentnetwork.com
+master.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 mastereng-external.redirect.rotator.sonyentertainmentnetwork.com
 mastermyaws.rotator.sonyentertainmentnetwork.com
 masterusers.medialand.sonyentertainmentnetwork.com
@@ -3204,11 +3324,13 @@ medialand.sonyentertainmentnetwork.com
 medialogin.ww.medialand.sonyentertainmentnetwork.com
 mediapartner-devel.clients.medialand.sonyentertainmentnetwork.com
 mediaremoteapp-e.dl.playstation.net
+mediatesting.meet-clients.medialand.sonyentertainmentnetwork.com
 mediation.api.playstation.com
 mediation.e1-np.api.playstation.com
 meet-clients.medialand.sonyentertainmentnetwork.com
 meet-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 meet-m.email.sonyentertainmentnetwork.com
+meet-press.my-oceania.rotator.sonyentertainmentnetwork.com
 meet.acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 meet.apius.rotator.sonyentertainmentnetwork.com
 meet.b2bmy-oceania.rotator.sonyentertainmentnetwork.com
@@ -3219,6 +3341,7 @@ meetstart-clients.medialand.sonyentertainmentnetwork.com
 meetsvn.oceania.rotator.sonyentertainmentnetwork.com
 member-auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 member.eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+member.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 memberlogin.ww.medialand.sonyentertainmentnetwork.com
 memberrelay-config-redirect.rotator.sonyentertainmentnetwork.com
 members-new-oceania.rotator.sonyentertainmentnetwork.com
@@ -3258,6 +3381,7 @@ mgmt.store.sonyentertainmentnetwork.com
 mgmt.vaactivitypost.playstation.com
 mgmtbackend.sonyentertainmentnetwork.com
 miembros-apps.mail-start-clients.medialand.sonyentertainmentnetwork.com
+miembros-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 miembros-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 miembros.acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 miembros.redirect.rotator.sonyentertainmentnetwork.com
@@ -3278,6 +3402,7 @@ minecraft.eu.playstation.com
 minerva-csip.oceania.rotator.sonyentertainmentnetwork.com
 minerva-kamajiwt.api.np.km.playstation.net
 minerva-new-oceania.rotator.sonyentertainmentnetwork.com
+minerva-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 minerva.partner-devel.clients.medialand.sonyentertainmentnetwork.com
 minervasvn.oceania.rotator.sonyentertainmentnetwork.com
 mip.oceania.rotator.sonyentertainmentnetwork.com
@@ -3290,6 +3415,9 @@ mirror.lbclients.medialand.sonyentertainmentnetwork.com
 mirror.media.lbclients.medialand.sonyentertainmentnetwork.com
 mirror.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 mirrorb2bmy-oceania.rotator.sonyentertainmentnetwork.com
+mirrorlegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
+mirrorpostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
+mirrorpostgresql.lbclients.medialand.sonyentertainmentnetwork.com
 mirrortunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 mlogin.ww.medialand.sonyentertainmentnetwork.com
 mm.e1-np.playstation.net
@@ -3315,7 +3443,9 @@ monitoring.ip.oceania.rotator.sonyentertainmentnetwork.com
 monitoring.staff.my-oceania.rotator.sonyentertainmentnetwork.com
 monitoringblog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 monitoringold.event.svn.oceania.rotator.sonyentertainmentnetwork.com
+monitoringtesting.meet-clients.medialand.sonyentertainmentnetwork.com
 monitormeet-clients.medialand.sonyentertainmentnetwork.com
+monitorpress.my-oceania.rotator.sonyentertainmentnetwork.com
 monitorstatus.start-clients.medialand.sonyentertainmentnetwork.com
 monitorusers.medialand.sonyentertainmentnetwork.com
 monte-carlo.rnps.dl.playstation.net
@@ -3384,6 +3514,7 @@ my.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 my.status.start-clients.medialand.sonyentertainmentnetwork.com
 my.user.medialand.sonyentertainmentnetwork.com
 myaws.rotator.sonyentertainmentnetwork.com
+mylegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 mylog-b2bsystem.medialand.sonyentertainmentnetwork.com
 mypsn.eu.playstation.com
 mysql-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
@@ -3400,8 +3531,10 @@ mystatus.start-clients.medialand.sonyentertainmentnetwork.com
 na-acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 na-clients.medialand.sonyentertainmentnetwork.com
 na-csip.oceania.rotator.sonyentertainmentnetwork.com
+na-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 na.eng-external.redirect.rotator.sonyentertainmentnetwork.com
 na.lbclients.medialand.sonyentertainmentnetwork.com
+na.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 naapps.rotator.sonyentertainmentnetwork.com
 native-chunk.e1-np.ac.playstation.net
 native-ps3.d1-np.ac.playstation.net
@@ -3463,9 +3596,11 @@ net.apius.rotator.sonyentertainmentnetwork.com
 net.medialand.sonyentertainmentnetwork.com
 net.my-oceania.rotator.sonyentertainmentnetwork.com
 netflix.dl.playstation.net
+nettesting.meet-clients.medialand.sonyentertainmentnetwork.com
 network-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 network-eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 network-helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
+network-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 network.acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 network.blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 network.eu.playstation.com
@@ -3484,6 +3619,7 @@ new-www.register.playstation.net
 new.b2bsystem.medialand.sonyentertainmentnetwork.com
 new.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 new.new-oceania.rotator.sonyentertainmentnetwork.com
+new.press.my-oceania.rotator.sonyentertainmentnetwork.com
 news.playstation.com
 newsletters.eu.playstation.com
 nexus.playstation.com
@@ -3549,6 +3685,7 @@ npmt.q1-spint.tools.playstation.net
 npmt.sp-int.tools.playstation.net
 ns-eng-external.redirect.rotator.sonyentertainmentnetwork.com
 ns-log-b2bsystem.medialand.sonyentertainmentnetwork.com
+ns-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 ns.event.svn.oceania.rotator.sonyentertainmentnetwork.com
 ns.new-oceania.rotator.sonyentertainmentnetwork.com
 ns31.dl.sonyentertainmentnetwork.com
@@ -3597,9 +3734,13 @@ oceania.medialand.sonyentertainmentnetwork.com
 oceania.rotator.sonyentertainmentnetwork.com
 oceaniaapps.rotator.sonyentertainmentnetwork.com
 oceaniaip.oceania.rotator.sonyentertainmentnetwork.com
+oceaniapress.my-oceania.rotator.sonyentertainmentnetwork.com
 office-aws.rotator.sonyentertainmentnetwork.com
 office-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 office-ip.oceania.rotator.sonyentertainmentnetwork.com
+office-networksvn.oceania.rotator.sonyentertainmentnetwork.com
+office-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
+office-testing.meet-clients.medialand.sonyentertainmentnetwork.com
 office.acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 office.eng-external.redirect.rotator.sonyentertainmentnetwork.com
 office.logsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -3607,7 +3748,9 @@ office.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 office.status.start-clients.medialand.sonyentertainmentnetwork.com
 old-devel.clients.medialand.sonyentertainmentnetwork.com
 old.event.svn.oceania.rotator.sonyentertainmentnetwork.com
+old.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 old.oceania.rotator.sonyentertainmentnetwork.com
+oldpress.my-oceania.rotator.sonyentertainmentnetwork.com
 om.playstation.com
 omsk-e.dl.playstation.net
 on.ca.playstation.com
@@ -3701,6 +3844,7 @@ panel-acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 panel-eng-external.redirect.rotator.sonyentertainmentnetwork.com
 panel-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 panel-user.medialand.sonyentertainmentnetwork.com
+panel.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 panellog-b2bsystem.medialand.sonyentertainmentnetwork.com
 panelsvn.oceania.rotator.sonyentertainmentnetwork.com
 panup-dev.epo.playstation.net
@@ -3710,6 +3854,7 @@ partner-acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 partner-blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 partner-config-redirect.rotator.sonyentertainmentnetwork.com
 partner-devel.clients.medialand.sonyentertainmentnetwork.com
+partner-legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 partnerlog-b2bsystem.medialand.sonyentertainmentnetwork.com
 partnermanagement.playstation.net
 partneroceania.rotator.sonyentertainmentnetwork.com
@@ -3723,6 +3868,7 @@ partners.logsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 partners.media.lbclients.medialand.sonyentertainmentnetwork.com
 partners.playstation.com
 partners.playstation.net
+partners.press.my-oceania.rotator.sonyentertainmentnetwork.com
 partners.sit.pt.playstation.net
 partners.stg.pt.playstation.net
 partnersacceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
@@ -3733,6 +3879,7 @@ party.rnps.dl.playstation.net
 payments-avira-free-antivirus.it.staging.tools.ce.playstation.net
 payments-myaws.rotator.sonyentertainmentnetwork.com
 payments.direct.playstation.com
+payments.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 paymentsbeta.redirect.rotator.sonyentertainmentnetwork.com
 paymentsmy-oceania.rotator.sonyentertainmentnetwork.com
 paymentspartner-devel.clients.medialand.sonyentertainmentnetwork.com
@@ -3778,6 +3925,7 @@ portal.store.sonyentertainmentnetwork.com
 portal.us.rotator.sonyentertainmentnetwork.com
 portal.ww.np.rbt.playstation.net
 portalconfig-redirect.rotator.sonyentertainmentnetwork.com
+portalnetworksvn.oceania.rotator.sonyentertainmentnetwork.com
 portalwww.cl.playstation.com
 poseidon-privatelink.e1.dataocean.playstation.net
 poseidon-privatelink.pqa.dataocean.playstation.net
@@ -3790,6 +3938,7 @@ poseidon.prod.dataocean.playstation.net
 poseidon.spint.dataocean.playstation.net
 post.net.playstation.net
 postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
+postgres-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 postgres-users.medialand.sonyentertainmentnetwork.com
 postgres.staff.my-oceania.rotator.sonyentertainmentnetwork.com
 postgresql-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -3801,15 +3950,18 @@ postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 postgresql.my-oceania.rotator.sonyentertainmentnetwork.com
 postgresql.rotator.sonyentertainmentnetwork.com
 postgresql.staff.my-oceania.rotator.sonyentertainmentnetwork.com
+postgresqlpress.my-oceania.rotator.sonyentertainmentnetwork.com
 postgresqltunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 postman-devel.clients.medialand.sonyentertainmentnetwork.com
 postman-meet-clients.medialand.sonyentertainmentnetwork.com
 postman-tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 postman.ip.oceania.rotator.sonyentertainmentnetwork.com
+postman.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 postmandevel.clients.medialand.sonyentertainmentnetwork.com
 postmaneng-external.redirect.rotator.sonyentertainmentnetwork.com
 postmanhelpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 postmaster-login.ww.medialand.sonyentertainmentnetwork.com
+postmaster-press.my-oceania.rotator.sonyentertainmentnetwork.com
 postmaster-user.medialand.sonyentertainmentnetwork.com
 postmaster.beta.redirect.rotator.sonyentertainmentnetwork.com
 postmasterbeta.redirect.rotator.sonyentertainmentnetwork.com
@@ -3818,6 +3970,7 @@ postmasterduk01.ps3.update.playstation.net
 postmasterhelpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 pp-config-redirect.rotator.sonyentertainmentnetwork.com
 pp-myaws.rotator.sonyentertainmentnetwork.com
+pp-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 pp-users.medialand.sonyentertainmentnetwork.com
 pp.ip.oceania.rotator.sonyentertainmentnetwork.com
 ppb2bmy-oceania.rotator.sonyentertainmentnetwork.com
@@ -3832,12 +3985,16 @@ pr.beta.redirect.rotator.sonyentertainmentnetwork.com
 pr.blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 pr.devel.clients.medialand.sonyentertainmentnetwork.com
 pr.log-b2bsystem.medialand.sonyentertainmentnetwork.com
+pr.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 pre-prd.shop.us.playstation.com
 pre-returns.support.eu.playstation.com
 preprd.br.playstation.com
 preprd.ca.playstation.com
 preprd.latam.playstation.com
 preprod-eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+preprod-networksvn.oceania.rotator.sonyentertainmentnetwork.com
+preprod.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
+preprod.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 preprod.us.rotator.sonyentertainmentnetwork.com
 preprodbeta.redirect.rotator.sonyentertainmentnetwork.com
 preprodeng-external.redirect.rotator.sonyentertainmentnetwork.com
@@ -3845,12 +4002,16 @@ preprodlbclients.medialand.sonyentertainmentnetwork.com
 preprodmeet-clients.medialand.sonyentertainmentnetwork.com
 preprodmyaws.rotator.sonyentertainmentnetwork.com
 preprodoceania.rotator.sonyentertainmentnetwork.com
+preprodpostgresql.lbclients.medialand.sonyentertainmentnetwork.com
 press-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 press.au.playstation.com
+press.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 press.login.ww.medialand.sonyentertainmentnetwork.com
 press.my-oceania.rotator.sonyentertainmentnetwork.com
 pressbeta.redirect.rotator.sonyentertainmentnetwork.com
 presscenter.playstation.com
+presspostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
+preview-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 preview.ae.playstation.com
 preview.at.playstation.com
 preview.au.playstation.com
@@ -3949,13 +4110,16 @@ prod.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 prod.users.medialand.sonyentertainmentnetwork.com
 prodbackend.sonyentertainmentnetwork.com
 production-config-redirect.rotator.sonyentertainmentnetwork.com
+production-press.my-oceania.rotator.sonyentertainmentnetwork.com
 production-status.start-clients.medialand.sonyentertainmentnetwork.com
 production.login.ww.medialand.sonyentertainmentnetwork.com
 production.meet-clients.medialand.sonyentertainmentnetwork.com
+production.press.my-oceania.rotator.sonyentertainmentnetwork.com
 productionb2bmy-oceania.rotator.sonyentertainmentnetwork.com
 productioncrm.controllerredirect.rotator.sonyentertainmentnetwork.com
 productionduk01.ps3.update.playstation.net
 productioneu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+productionpostgresql.lbclients.medialand.sonyentertainmentnetwork.com
 prof.np.community.playstation.net
 profile-dialog.rnps.dl.playstation.net
 profile.api.playstation.com
@@ -4073,6 +4237,7 @@ pub.tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 pubconfig-redirect.rotator.sonyentertainmentnetwork.com
 public.eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 public.media.lbclients.medialand.sonyentertainmentnetwork.com
+public.networksvn.oceania.rotator.sonyentertainmentnetwork.com
 publicip.oceania.rotator.sonyentertainmentnetwork.com
 publish.playstation.net
 pubtunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
@@ -4099,6 +4264,7 @@ qa.io.playstation.com
 qa.ivaldi2.playstation.com
 qa.jp.playstation.com
 qa.playstation.com
+qa.press.my-oceania.rotator.sonyentertainmentnetwork.com
 qa.wrapup.playstation.com
 qa2.io.playstation.com
 qaavira-free-antivirus.it.staging.tools.ce.playstation.net
@@ -4186,13 +4352,17 @@ relay-config-redirect.rotator.sonyentertainmentnetwork.com
 relay-login.ww.medialand.sonyentertainmentnetwork.com
 relay.auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 relay.clients.medialand.sonyentertainmentnetwork.com
+relay.legacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 relay.partner-devel.clients.medialand.sonyentertainmentnetwork.com
+relaylegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 relaypartner-devel.clients.medialand.sonyentertainmentnetwork.com
+remote-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 remote.aws.rotator.sonyentertainmentnetwork.com
 remote.beta.redirect.rotator.sonyentertainmentnetwork.com
 remote.crm.controllerredirect.rotator.sonyentertainmentnetwork.com
 remote.medialand.sonyentertainmentnetwork.com
 remote.meet-clients.medialand.sonyentertainmentnetwork.com
+remote.press.my-oceania.rotator.sonyentertainmentnetwork.com
 remotelbclients.medialand.sonyentertainmentnetwork.com
 remoteold.event.svn.oceania.rotator.sonyentertainmentnetwork.com
 remoteplay.dl.playstation.net
@@ -4203,6 +4373,7 @@ repo.my-oceania.rotator.sonyentertainmentnetwork.com
 repo.users.medialand.sonyentertainmentnetwork.com
 repobeta.redirect.rotator.sonyentertainmentnetwork.com
 repohelpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
+repopress.my-oceania.rotator.sonyentertainmentnetwork.com
 report.playstation.net
 repos-extralife.playstation.net
 repos.clients.medialand.sonyentertainmentnetwork.com
@@ -4212,10 +4383,12 @@ repository.medialand.playstation.net
 repository.partner-devel.clients.medialand.sonyentertainmentnetwork.com
 repository.status.start-clients.medialand.sonyentertainmentnetwork.com
 repositorymyaws.rotator.sonyentertainmentnetwork.com
+reposnetworksvn.oceania.rotator.sonyentertainmentnetwork.com
 reposstart-clients.medialand.sonyentertainmentnetwork.com
 reposus.rotator.sonyentertainmentnetwork.com
 research-apps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 research.b2bmy-oceania.rotator.sonyentertainmentnetwork.com
+research.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 research.rotator.sonyentertainmentnetwork.com
 research.users.medialand.sonyentertainmentnetwork.com
 reserve.jp.playstation.com
@@ -4246,6 +4419,7 @@ resource.q1-pqa.ac.playstation.net
 resource.q1-spint.ac.playstation.net
 resource.sp-int.ac.playstation.net
 resources-blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
+resources-networksvn.oceania.rotator.sonyentertainmentnetwork.com
 resources-partner-devel.clients.medialand.sonyentertainmentnetwork.com
 resources.auth.q1-pqa.ac.playstation.net
 resources.blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
@@ -4279,6 +4453,7 @@ router-redirect.rotator.sonyentertainmentnetwork.com
 router.media.lbclients.medialand.sonyentertainmentnetwork.com
 routeraws.rotator.sonyentertainmentnetwork.com
 routerevent.svn.oceania.rotator.sonyentertainmentnetwork.com
+routerlegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 routeroceania.rotator.sonyentertainmentnetwork.com
 rpt.msys.playstation.net
 rs.playstation.com
@@ -4584,6 +4759,7 @@ share.blog.us.playstation.com
 share.clients.medialand.sonyentertainmentnetwork.com
 share.event.svn.oceania.rotator.sonyentertainmentnetwork.com
 shareevent.svn.oceania.rotator.sonyentertainmentnetwork.com
+sharepress.my-oceania.rotator.sonyentertainmentnetwork.com
 shop.be.playstation.com
 shop.de.playstation.com
 shop.eu.playstation.com
@@ -4613,6 +4789,7 @@ siren.playstation.com
 site-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 site-helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
 site.dtw01.psp2.update.playstation.net
+site.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 site.redirect.rotator.sonyentertainmentnetwork.com
 siteconfig-redirect.rotator.sonyentertainmentnetwork.com
 sites.aws.rotator.sonyentertainmentnetwork.com
@@ -4620,6 +4797,7 @@ sites.b2bsystem.medialand.sonyentertainmentnetwork.com
 sites.devel.clients.medialand.sonyentertainmentnetwork.com
 sites.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 sitesdevel.clients.medialand.sonyentertainmentnetwork.com
+siteslegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 sitespartner-devel.clients.medialand.sonyentertainmentnetwork.com
 sitesstatus.start-clients.medialand.sonyentertainmentnetwork.com
 sk-ivt.np.community.playstation.net
@@ -4666,6 +4844,7 @@ sql-login.ww.medialand.sonyentertainmentnetwork.com
 sql-myaws.rotator.sonyentertainmentnetwork.com
 sql-us.rotator.sonyentertainmentnetwork.com
 sql.meet-clients.medialand.sonyentertainmentnetwork.com
+sql.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 sqlb2bsystem.medialand.sonyentertainmentnetwork.com
 sqlmyaws.rotator.sonyentertainmentnetwork.com
 sqlserver.us.rotator.sonyentertainmentnetwork.com
@@ -4685,6 +4864,7 @@ sslvpn-auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 sslvpn.blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 sslvpnacceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 sslvpneng-external.redirect.rotator.sonyentertainmentnetwork.com
+sslvpnpress.my-oceania.rotator.sonyentertainmentnetwork.com
 sso-my-oceania.rotator.sonyentertainmentnetwork.com
 sso-start-clients.medialand.sonyentertainmentnetwork.com
 sso-user.medialand.sonyentertainmentnetwork.com
@@ -4746,6 +4926,7 @@ staging.finance.playstation.com
 staging.psblog.eu.playstation.com
 staging.share.blog.us.playstation.com
 stagingauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+stagingpress.my-oceania.rotator.sonyentertainmentnetwork.com
 start-clients.medialand.sonyentertainmentnetwork.com
 start-login.ww.medialand.sonyentertainmentnetwork.com
 start-user.medialand.sonyentertainmentnetwork.com
@@ -4781,6 +4962,7 @@ stats-partner-devel.clients.medialand.sonyentertainmentnetwork.com
 stats-user.medialand.sonyentertainmentnetwork.com
 stats.eng-external.redirect.rotator.sonyentertainmentnetwork.com
 stats.helpdesk.config-redirect.rotator.sonyentertainmentnetwork.com
+stats.press.my-oceania.rotator.sonyentertainmentnetwork.com
 statsacceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 statsfbr01.ps3.update.playstation.net
 status-eu.mirror-my-oceania.rotator.sonyentertainmentnetwork.com
@@ -4842,13 +5024,16 @@ stream-b2bsystem.medialand.sonyentertainmentnetwork.com
 stream-my-oceania.rotator.sonyentertainmentnetwork.com
 stream-user.medialand.sonyentertainmentnetwork.com
 stream.medialand.sonyentertainmentnetwork.com
+stream.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 streamauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 streamb2bmy-oceania.rotator.sonyentertainmentnetwork.com
 streambeta.redirect.rotator.sonyentertainmentnetwork.com
 streaming-acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 streaming-media.lbclients.medialand.sonyentertainmentnetwork.com
 streaming.meet-clients.medialand.sonyentertainmentnetwork.com
+streaminglegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 streamingmy-oceania.rotator.sonyentertainmentnetwork.com
+streamingpostgresql.lbclients.medialand.sonyentertainmentnetwork.com
 stun.us.np.stun.playstation.net
 stun.ww.np.cn.s0.playstation.net
 subs.playstation.net
@@ -4877,6 +5062,7 @@ svnb2bsystem.medialand.sonyentertainmentnetwork.com
 svnmyaws.rotator.sonyentertainmentnetwork.com
 svnusers.medialand.sonyentertainmentnetwork.com
 system-message-client.rnps.dl.playstation.net
+system-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 system.jp.playstation.com
 system.medialand.sonyentertainmentnetwork.com
 system.oceania.rotator.sonyentertainmentnetwork.com
@@ -4900,6 +5086,7 @@ telemetry-sbahn.sp-int.api.playstation.com
 telemetry.api.playstation.com
 temp-apps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 temp.f.ns.email.sonyentertainmentnetwork.com
+temppostgresql.lbclients.medialand.sonyentertainmentnetwork.com
 teslamq01.e1-np.ac.playstation.net
 teslamq02.e1-np.ac.playstation.net
 teslamq1.e1-pmgt.ac.playstation.net
@@ -4961,6 +5148,7 @@ tokenizer.prod.dataocean.playstation.net
 tokenizer.spint.dataocean.playstation.net
 tokikane-test.jp.biz.playstation.net
 tools.partners.playstation.net
+tr-evnt-edge.np.community.playstation.net
 tr-gcd.np.community.playstation.net
 tr-gmsg.np.community.playstation.net
 tr-ivt.np.community.playstation.net
@@ -4980,8 +5168,12 @@ tracker-eng-external.redirect.rotator.sonyentertainmentnetwork.com
 tracker.beta.redirect.rotator.sonyentertainmentnetwork.com
 tracker.clients.medialand.sonyentertainmentnetwork.com
 tracker.login.ww.medialand.sonyentertainmentnetwork.com
+tracker.press.my-oceania.rotator.sonyentertainmentnetwork.com
 tracker.start-clients.medialand.sonyentertainmentnetwork.com
+trackerpostgresql.lbclients.medialand.sonyentertainmentnetwork.com
+trackerpress.my-oceania.rotator.sonyentertainmentnetwork.com
 tracking-b2bsystem.medialand.sonyentertainmentnetwork.com
+tracking.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 trackingb2bsystem.medialand.sonyentertainmentnetwork.com
 trackmeet-clients.medialand.sonyentertainmentnetwork.com
 trailers.playstation.com
@@ -4999,6 +5191,7 @@ trophy01.np.community.playstation.net
 try.sonyentertainmentnetwork.com
 tunnel-b2bsystem.medialand.sonyentertainmentnetwork.com
 tunnel.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
+tunnellegacy.relay-config-redirect.rotator.sonyentertainmentnetwork.com
 tw-evnt-edge.np.community.playstation.net
 tw-gmsgp.np.community.playstation.net
 tw-ivt.np.community.playstation.net
@@ -5060,9 +5253,11 @@ uploader.ni.e1-np.community.playstation.net
 uploads-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 uploads-login.ww.medialand.sonyentertainmentnetwork.com
 uploads-my-oceania.rotator.sonyentertainmentnetwork.com
+uploads-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 uploads-status.start-clients.medialand.sonyentertainmentnetwork.com
 uploads-try.sonyentertainmentnetwork.com
 uploadsmyaws.rotator.sonyentertainmentnetwork.com
+uploadspostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 url-preview.api.playstation.com
 urlconfig.api.playstation.com
 urlconfig.sp-int.api.playstation.com
@@ -5116,6 +5311,7 @@ v1.beta.redirect.rotator.sonyentertainmentnetwork.com
 v1.clients.medialand.sonyentertainmentnetwork.com
 v1.user.medialand.sonyentertainmentnetwork.com
 v1edy.e1-np.ac.playstation.net
+v1postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 v1svn.oceania.rotator.sonyentertainmentnetwork.com
 v2-my-oceania.rotator.sonyentertainmentnetwork.com
 v2user.medialand.sonyentertainmentnetwork.com
@@ -5157,6 +5353,7 @@ vouchers.mgmt.playstation.net
 vouchers.playstation.net
 vouchers.prod-qa.playstation.net
 vouchers.sp-int.playstation.net
+vpn-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 vpn.edy.e1-np.ac.playstation.net
 vpn.jp.biz.playstation.net
 vpn.users.medialand.sonyentertainmentnetwork.com
@@ -5169,6 +5366,7 @@ vps1.b2bsystem.medialand.sonyentertainmentnetwork.com
 vps1.corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 vps1.devel.clients.medialand.sonyentertainmentnetwork.com
 vps1.login.ww.medialand.sonyentertainmentnetwork.com
+vps1.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 vpsauth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 vpsmeet-clients.medialand.sonyentertainmentnetwork.com
 vshvideo.dl.playstation.net
@@ -5228,6 +5426,7 @@ web01.devel.clients.medialand.sonyentertainmentnetwork.com
 web01corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 web01edy.d1-pqa.ac.playstation.net
 web0auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
+web0postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 webapp-acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 webapp-blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 webapp-corp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
@@ -5246,6 +5445,7 @@ webformsstage.playstation.com
 webg-us.playstation.com
 webhooks.sit.pcs.playstation.net
 webservices-my-oceania.rotator.sonyentertainmentnetwork.com
+webservices-press.my-oceania.rotator.sonyentertainmentnetwork.com
 webservices-start-clients.medialand.sonyentertainmentnetwork.com
 webservices.auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 webservicesblog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
@@ -5281,10 +5481,12 @@ worldcup.eu.playstation.com
 wp-edy.e1-spint.ac.playstation.net
 wp.eng-external.redirect.rotator.sonyentertainmentnetwork.com
 wp.my-oceania.rotator.sonyentertainmentnetwork.com
+wppostgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 wpusers.medialand.sonyentertainmentnetwork.com
 wrapup.playstation.com
 wrs.us.playstation.com
 ww-clients.medialand.sonyentertainmentnetwork.com
+ww-postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 ww-web-push.np.communication.playstation.net
 ww.blog-acceptatie.redirect.rotator.sonyentertainmentnetwork.com
 ww.dl.playstation.net
@@ -5300,12 +5502,15 @@ ww01-b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 ww01-eng-external.redirect.rotator.sonyentertainmentnetwork.com
 ww01-status.start-clients.medialand.sonyentertainmentnetwork.com
 ww01edy.q1-pqa.ac.playstation.net
+ww01press.my-oceania.rotator.sonyentertainmentnetwork.com
 ww0my-oceania.rotator.sonyentertainmentnetwork.com
+ww1-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 ww1.meet-clients.medialand.sonyentertainmentnetwork.com
 ww1.start-clients.medialand.sonyentertainmentnetwork.com
 ww1auth-mirror-my-oceania.rotator.sonyentertainmentnetwork.com
 ww1clients.medialand.sonyentertainmentnetwork.com
 ww1devel.clients.medialand.sonyentertainmentnetwork.com
+ww1postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 wwm.prod-qa.playstation.com
 www-dev.sonyentertainmentnetwork.com
 www-dev.upro.playstation.net
@@ -5320,6 +5525,7 @@ www-test-acceptatie-external.redirect.rotator.sonyentertainmentnetwork.com
 www-test-author.stage.playstation.com
 www-test-devel.clients.medialand.sonyentertainmentnetwork.com
 www-test-edy.q1-pqa.ac.playstation.net
+www-test-postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 www-test-www.q1-np.sonyentertainmentnetwork.com
 www-test.b2bmy-oceania.rotator.sonyentertainmentnetwork.com
 www-test.eng-external.redirect.rotator.sonyentertainmentnetwork.com
@@ -5481,6 +5687,7 @@ www01tw.playstation.com
 www1-apps.mail-start-clients.medialand.sonyentertainmentnetwork.com
 www1-oceania.rotator.sonyentertainmentnetwork.com
 www1.login.ww.medialand.sonyentertainmentnetwork.com
+www1.postgres-event.svn.oceania.rotator.sonyentertainmentnetwork.com
 www2.sonyentertainmentnetwork.com
 wwwaem.playstation.com
 wwwglobal.playstation.com
@@ -5504,6 +5711,7 @@ wwwqa.community.playstation.com
 wwwqa3.playstation.com
 wwwstage.community.playstation.com
 wwww-eng-external.redirect.rotator.sonyentertainmentnetwork.com
+wwww.postgresql.lbclients.medialand.sonyentertainmentnetwork.com
 wwwwcorp-staff.my-oceania.rotator.sonyentertainmentnetwork.com
 wwwwom.playstation.com
 xgen-title-map.rnps.dl.playstation.net
