@@ -3085,6 +3085,7 @@ apse1-mjolnir-dl.apple.com
 apse1-mjolnir-ep.apple.com
 apse1-mjolnir-prod.apple.com
 apse1-talk-stage.apple.com
+apse1-weather-auth-prod.apple.com
 apse1-weather-auth-staging.apple.com
 apse1-weather-map-prod.apple.com
 apse1-weather-staging-prod.apple.com
@@ -3266,6 +3267,7 @@ ausyd2-extranet-gw-v666-hsrp.asia.apple.com
 ausyd2-extranet-gw1-v666-hsrp.asia.apple.com
 ausyd2-extranet-gw2-v666-hsrp.asia.apple.com
 ausyd2-wwft-01.apple.com
+auth-assistant.apple.com
 auth.apps.apple.com
 auth.books.apple.com
 auth.fitness.apple.com
@@ -4716,6 +4718,8 @@ discussionsjapan-ph.apple.com
 discussionsjapan.apple.com
 discussionskorea.apple.com
 dispatch.info.apple.com
+dispatcher-sh.ls.apple.com
+dispatcher-sz.ls.apple.com
 display-apps-ui-soak.iad.apple.com
 display-apps-ui.iad.apple.com
 disthost-ib.apple.com
@@ -5014,6 +5018,7 @@ euw1-mjolnir-dl.apple.com
 euw1-mjolnir-ep.apple.com
 euw1-mjolnir-prod.apple.com
 euw1-talk-prod.euro.apple.com
+euw1-weather-auth-prod.apple.com
 evaluatemacs.apple.com
 events-admin.apple.com
 events-analytics.apple.com
@@ -6091,6 +6096,10 @@ gsps11.apple.com
 gspx-ssl-e185.ls.apple.com
 gspx-ssl-test.ls.apple.com
 gspx-ssl.ls.apple.com
+gspx57-ssl-background-acdn.ls.apple.com
+gspx57-ssl-background-ash.ls.apple.com
+gspx57-ssl-background-nlb.ls.apple.com
+gspx57-ssl-background.ls.apple.com
 gspx71-ssl.ls.apple.com
 gspx72-ssl.ls.apple.com
 gsq1-ls-nk11.apple.com
@@ -7559,6 +7568,7 @@ mdn-epsmtap-mkt-lsndr01105.apple.com
 mdn-epsmtap-mkt-lsndr01106.apple.com
 mdn-epsmtap-mkt-lsndr01107.apple.com
 mdn-epsmtap-mkt-lsndr02.apple.com
+mdn-epsmtap-mkt-lsndr02101.apple.com
 mdn-epsmtap-mkt-lsndr02102.apple.com
 mdn-epsmtap-mkt-lsndr02103.apple.com
 mdn-epsmtap-mkt-lsndr02104.apple.com
@@ -7816,6 +7826,7 @@ metrics-config-ic2.icloud.com
 metrics-config-ic3.icloud.com
 metrics-config-ic4.icloud.com
 metrics-config.icloud.com
+metrics-edge.icloud.com
 metrics-ic1.icloud.com
 metrics-ic2.icloud.com
 metrics-ic3.icloud.com
@@ -8557,12 +8568,14 @@ mw1-mwp8-pv36.ls.apple.com
 mw2-mwp8-pv36.ls.apple.com
 mw3-mwp8-pv36.ls.apple.com
 mw4-mwp8-pv36.ls.apple.com
+mwp11-ms11-rf3.ls.apple.com
 mwp11-ty92-rf3.ls.apple.com
 mwp12.ls.apple.com
 mwp13-pv50-ssl.ls.apple.com
 mwp13-st14-ssl.ls.apple.com
 mwp13.ls.apple.com
 mwp14.ls.apple.com
+mwp15-ms11-ssl.ls.apple.com
 mwp15-ty92-ssl.ls.apple.com
 mwp2s-ty92-rf3.ls.apple.com
 mwp3-pv50-ssl.ls.apple.com
@@ -10338,6 +10351,7 @@ p01-mailws-ic3.icloud.com
 p01-mailws-ic4.icloud.com
 p01-mailws-old.icloud.com
 p01-mailws.icloud.com
+p01-mcc.icloud.com
 p01-mobilebackup-china-ic1.icloud.com
 p01-mobilebackup-china-ic2.icloud.com
 p01-mobilebackup-china-ic3.icloud.com
@@ -10801,6 +10815,7 @@ p02-mailws-ic3.icloud.com
 p02-mailws-ic4.icloud.com
 p02-mailws-old.icloud.com
 p02-mailws.icloud.com
+p02-mcc.icloud.com
 p02-mobilebackup-china-ic1.icloud.com
 p02-mobilebackup-china-ic2.icloud.com
 p02-mobilebackup-china-ic3.icloud.com
@@ -12556,6 +12571,7 @@ p101-fmf.icloud.com
 p101-fmfmobile.icloud.com
 p101-fmip.icloud.com
 p101-fmipmobile.icloud.com
+p101-imap.mail.icloud.com
 p101-iwmb0.icloud.com
 p101-iwmb1.icloud.com
 p101-iwmb2.icloud.com
@@ -12586,6 +12602,7 @@ p102-fmf.icloud.com
 p102-fmfmobile.icloud.com
 p102-fmip.icloud.com
 p102-fmipmobile.icloud.com
+p102-imap.mail.icloud.com
 p102-iwmb0.icloud.com
 p102-iwmb1.icloud.com
 p102-iwmb2.icloud.com
@@ -12598,6 +12615,7 @@ p102-mailws.icloud.com
 p102-mcc.icloud.com
 p102-quota.icloud.com
 p102-remindersws.icloud.com
+p102-smtp.mail.icloud.com
 p103-acsegateway.icloud.com
 p103-caldav.icloud.com
 p103-calendarws.icloud.com
@@ -12613,6 +12631,7 @@ p103-fmf.icloud.com
 p103-fmfmobile.icloud.com
 p103-fmip.icloud.com
 p103-fmipmobile.icloud.com
+p103-imap.mail.icloud.com
 p103-iwmb.icloud.com
 p103-iwmb0.icloud.com
 p103-iwmb1.icloud.com
@@ -12620,9 +12639,11 @@ p103-iwmb2.icloud.com
 p103-iwmb3.icloud.com
 p103-iwmb9.icloud.com
 p103-keyvalueservice.icloud.com
+p103-mailws.icloud.com
 p103-mcc.icloud.com
 p103-quota.icloud.com
 p103-remindersws.icloud.com
+p103-smtp.mail.icloud.com
 p104-acsegateway.icloud.com
 p104-caldav.icloud.com
 p104-calendarws.icloud.com
@@ -12642,10 +12663,12 @@ p104-imap.mail.icloud.com
 p104-iwmb1.icloud.com
 p104-iwmb2.icloud.com
 p104-keyvalueservice.icloud.com
+p104-mailws.icloud.com
 p104-mcc.icloud.com
 p104-quota.icloud.com
 p104-remindersws.icloud.com
 p104-setup.icloud.com
+p104-smtp.mail.icloud.com
 p105-acsegateway.icloud.com
 p105-caldav.icloud.com
 p105-calendarws.icloud.com
@@ -12662,6 +12685,7 @@ p105-fmf.icloud.com
 p105-fmfmobile.icloud.com
 p105-fmip.icloud.com
 p105-fmipmobile.icloud.com
+p105-imap.mail.icloud.com
 p105-iwmb.icloud.com
 p105-iwmb0.icloud.com
 p105-iwmb1.icloud.com
@@ -12669,9 +12693,11 @@ p105-iwmb2.icloud.com
 p105-iwmb3.icloud.com
 p105-iwmb5.icloud.com
 p105-keyvalueservice.icloud.com
+p105-mailws.icloud.com
 p105-mcc.icloud.com
 p105-quota.icloud.com
 p105-remindersws.icloud.com
+p105-smtp.mail.icloud.com
 p106-acsegateway.icloud.com
 p106-caldav.icloud.com
 p106-calendarws.icloud.com
@@ -12688,14 +12714,17 @@ p106-fmfmobile.icloud.com
 p106-fmip.icloud.com
 p106-fmipmobile.icloud.com
 p106-geows.icloud.com
+p106-imap.mail.icloud.com
 p106-iwmb0.icloud.com
 p106-iwmb1.icloud.com
 p106-iwmb3.icloud.com
 p106-iwmb4.icloud.com
 p106-keyvalueservice.icloud.com
+p106-mailws.icloud.com
 p106-mcc.icloud.com
 p106-quota.icloud.com
 p106-remindersws.icloud.com
+p106-smtp.mail.icloud.com
 p107-acsegateway.icloud.com
 p107-caldav.icloud.com
 p107-calendarws.icloud.com
@@ -12713,9 +12742,11 @@ p107-geows.icloud.com
 p107-imap.mail.icloud.com
 p107-iwmb3.icloud.com
 p107-keyvalueservice.icloud.com
+p107-mailws.icloud.com
 p107-mcc.icloud.com
 p107-quota.icloud.com
 p107-remindersws.icloud.com
+p107-smtp.mail.icloud.com
 p108-acsegateway.icloud.com
 p108-caldav.icloud.com
 p108-calendarws.icloud.com
@@ -12736,9 +12767,11 @@ p108-iwmb1.icloud.com
 p108-iwmb2.icloud.com
 p108-iwmb3.icloud.com
 p108-keyvalueservice.icloud.com
+p108-mailws.icloud.com
 p108-mcc.icloud.com
 p108-quota.icloud.com
 p108-remindersws.icloud.com
+p108-smtp.mail.icloud.com
 p109-acsegateway.icloud.com
 p109-caldav.icloud.com
 p109-calendarws.icloud.com
@@ -12757,6 +12790,7 @@ p109-imap.mail.icloud.com
 p109-iwmb2.icloud.com
 p109-iwmb3.icloud.com
 p109-keyvalueservice.icloud.com
+p109-mailws.icloud.com
 p109-mcc.icloud.com
 p109-quota.icloud.com
 p109-remindersws.icloud.com
@@ -12894,6 +12928,7 @@ p110-iwmb2.icloud.com
 p110-iwmb3.icloud.com
 p110-iwmb6.icloud.com
 p110-keyvalueservice.icloud.com
+p110-mailws.icloud.com
 p110-mcc.icloud.com
 p110-quota.icloud.com
 p110-remindersws.icloud.com
@@ -12912,13 +12947,17 @@ p111-fmf.icloud.com
 p111-fmfmobile.icloud.com
 p111-fmip.icloud.com
 p111-fmipmobile.icloud.com
+p111-imap.mail.icloud.com
 p111-iwmb0.icloud.com
 p111-iwmb1.icloud.com
 p111-iwmb3-china.icloud.com
 p111-keyvalueservice.icloud.com
+p111-mailws.icloud.com
+p111-mcc.icloud.com
 p111-quota.icloud.com
 p111-remindersws.icloud.com
 p111-setup.icloud.com
+p111-smtp.mail.icloud.com
 p112-acsegateway.icloud.com
 p112-caldav.icloud.com
 p112-calendarws.icloud.com
@@ -12933,9 +12972,12 @@ p112-fmf.icloud.com
 p112-fmfmobile.icloud.com
 p112-fmip.icloud.com
 p112-fmipmobile.icloud.com
+p112-imap.mail.icloud.com
 p112-iwmb0.icloud.com
 p112-iwmb2.icloud.com
 p112-keyvalueservice.icloud.com
+p112-mailws.icloud.com
+p112-mcc.icloud.com
 p112-quota.icloud.com
 p112-remindersws.icloud.com
 p113-acsegateway.icloud.com
@@ -12952,13 +12994,16 @@ p113-fmf.icloud.com
 p113-fmfmobile.icloud.com
 p113-fmip.icloud.com
 p113-fmipmobile.icloud.com
+p113-imap.mail.icloud.com
 p113-iwmb.icloud.com
 p113-iwmb2.icloud.com
 p113-iwmb3.icloud.com
 p113-keyvalueservice.icloud.com
+p113-mailws.icloud.com
 p113-mcc.icloud.com
 p113-quota.icloud.com
 p113-remindersws.icloud.com
+p113-smtp.mail.icloud.com
 p114-acsegateway.icloud.com
 p114-caldav.icloud.com
 p114-calendarws.icloud.com
@@ -12977,8 +13022,11 @@ p114-imap.mail.icloud.com
 p114-iwmb1.icloud.com
 p114-iwmb3.icloud.com
 p114-keyvalueservice.icloud.com
+p114-mailws.icloud.com
+p114-mcc.icloud.com
 p114-quota.icloud.com
 p114-remindersws.icloud.com
+p114-smtp.mail.icloud.com
 p115-acsegateway.icloud.com
 p115-caldav.icloud.com
 p115-calendarws.icloud.com
@@ -13017,6 +13065,7 @@ p116-iwmb1-china.icloud.com
 p116-iwmb1.icloud.com
 p116-iwmb3.icloud.com
 p116-keyvalueservice.icloud.com
+p116-mcc.icloud.com
 p116-quota.icloud.com
 p116-remindersws.icloud.com
 p116-uploadimagews.icloud.com
@@ -13058,6 +13107,7 @@ p118-iwmb2.icloud.com
 p118-iwmb3.icloud.com
 p118-iwmb5.icloud.com
 p118-keyvalueservice.icloud.com
+p118-mcc.icloud.com
 p118-quota.icloud.com
 p118-remindersws.icloud.com
 p119-acsegateway.icloud.com
@@ -13171,6 +13221,7 @@ p12-keyvalueservice-china.icloud.com
 p12-keyvalueservice.icloud.com
 p12-maildomainws.icloud.com
 p12-mailws.icloud.com
+p12-mcc.icloud.com
 p12-mobilebackup-china.icloud.com
 p12-mobilebackup.icloud.com
 p12-notesws.icloud.com
@@ -13452,6 +13503,7 @@ p13-keyvalueservice-china.icloud.com
 p13-keyvalueservice.icloud.com
 p13-maildomainws.icloud.com
 p13-mailws.icloud.com
+p13-mcc.icloud.com
 p13-mobilebackup-china.icloud.com
 p13-mobilebackup.icloud.com
 p13-notesws.icloud.com
@@ -14736,6 +14788,7 @@ p22-keyvalueservice-china.icloud.com
 p22-keyvalueservice.icloud.com
 p22-maildomainws.icloud.com
 p22-mailws.icloud.com
+p22-mcc.icloud.com
 p22-mobilebackup-china.icloud.com
 p22-mobilebackup.icloud.com
 p22-notesws.icloud.com
@@ -15425,6 +15478,7 @@ p28-keyvalueservice-china.icloud.com
 p28-keyvalueservice.icloud.com
 p28-maildomainws.icloud.com
 p28-mailws.icloud.com
+p28-mcc.icloud.com
 p28-mobilebackup-china.icloud.com
 p28-mobilebackup.icloud.com
 p28-notesws.icloud.com
@@ -15677,6 +15731,7 @@ p30-ubiquity.icloud.com
 p30-ubiquityws.icloud.com
 p30-uploadimagews.icloud.com
 p301-iwmb-china.icloud.com
+p301-iwmb0-china.icloud.com
 p301-iwmb4-china.icloud.com
 p301-iwmb4.icloud.com
 p301-iwmb5.icloud.com
@@ -16440,6 +16495,7 @@ p36-keyvalueservice-china.icloud.com
 p36-keyvalueservice.icloud.com
 p36-maildomainws.icloud.com
 p36-mailws.icloud.com
+p36-mcc.icloud.com
 p36-mobilebackup-china.icloud.com
 p36-mobilebackup.icloud.com
 p36-notesws.icloud.com
@@ -18217,6 +18273,7 @@ p52-keyvalueservice-china.icloud.com
 p52-keyvalueservice.icloud.com
 p52-maildomainws.icloud.com
 p52-mailws.icloud.com
+p52-mcc.icloud.com
 p52-mobilebackup-china.icloud.com
 p52-mobilebackup.icloud.com
 p52-notesws.icloud.com
@@ -18327,6 +18384,7 @@ p53-keyvalueservice-china.icloud.com
 p53-keyvalueservice.icloud.com
 p53-maildomainws.icloud.com
 p53-mailws.icloud.com
+p53-mcc.icloud.com
 p53-mobilebackup-china.icloud.com
 p53-mobilebackup.icloud.com
 p53-notesws.icloud.com
@@ -20095,6 +20153,7 @@ p69-keyvalueservice-china.icloud.com
 p69-keyvalueservice.icloud.com
 p69-maildomainws.icloud.com
 p69-mailws.icloud.com
+p69-mcc.icloud.com
 p69-mobilebackup-china.icloud.com
 p69-mobilebackup.icloud.com
 p69-notesws.icloud.com
@@ -20428,6 +20487,7 @@ p72-keyvalueservice-china.icloud.com
 p72-keyvalueservice.icloud.com
 p72-maildomainws.icloud.com
 p72-mailws.icloud.com
+p72-mcc.icloud.com
 p72-mobilebackup-china.icloud.com
 p72-mobilebackup.icloud.com
 p72-notesws.icloud.com
@@ -25499,6 +25559,7 @@ usw2-turner-production-prod.apple.com
 usw2-video.apple.com
 usw2-vip-amp-offers-prod.apple.com
 usw2-wallet.apple.com
+usw2-weather-auth-prod.apple.com
 usw2-web-ce01-shield.apple.com
 usw2-web-ce02-shield.apple.com
 usw2-web-ce03-shield.apple.com
@@ -25836,6 +25897,7 @@ wdg3-nwk.apple.com
 wdg3.apple.com
 wdirect.apple.com
 weather-analytics-events.apple.com
+weather-auth-origin.apple.com
 weather-data-origin.apple.com
 weather-data-usmsc04-origin.apple.com
 weather-data-usnkq03-origin.apple.com
