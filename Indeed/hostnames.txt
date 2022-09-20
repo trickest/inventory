@@ -51,6 +51,7 @@ adcentral-support-options.cmhqa2.k8s.indeed.tech
 adcentral-support-options.cmhqa3.k8s.indeed.tech
 adcentral-uat.awscmh2.k8s.indeed.tech
 adcentral-uat.awscmh3.k8s.indeed.tech
+adcentral-upload.awscmhstage.k8s.indeed.tech
 adcentral-upload.cmhqa1.k8s.indeed.tech
 adcentral-upload.cmhqa2.k8s.indeed.tech
 adcentral-upload.cmhqa3.k8s.indeed.tech
@@ -715,6 +716,7 @@ ec.indeed.com
 ec.sjcprod.indeed.com
 echo-flight.awscmhstage.k8s.indeed.tech
 eda-grafana-temp.awscmhqa2.k8s.indeed.tech
+eda-grafana.awscmh2.k8s.indeed.tech
 eda-sbs-qa.cmhqa1.k8s.indeed.tech
 eda-sbs-raven.cmhqa1.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmhqa3.k8s.indeed.tech
@@ -1523,6 +1525,7 @@ marlin.cmhprod1.k8s.indeed.tech
 marlin.cmhprod2.k8s.indeed.tech
 marlin.cmhprod3.k8s.indeed.tech
 marvin-git-service-grpc.indeed.tech
+marvin-git-service-grpc.infra.indeed.tech
 marvin-git-service-grpc.qa.indeed.tech
 marvin-git-service-grpc.stage.indeed.tech
 marvin-git-service.indeed.tech
@@ -1831,7 +1834,10 @@ placement.indeed.com
 places.indeed.com
 playground-flink.cmhqa3.k8s.indeed.tech
 playground.chatbot.indeed.com
+pod-proxy.awscmh2.k8s.indeed.tech
 pod-proxy.awscmh4.k8s.indeed.tech
+pod-proxy.awsnrt2.k8s.indeed.tech
+pod-proxy.awsnrtqa.k8s.indeed.tech
 pod-proxy.awspdx.k8s.indeed.tech
 pod-proxy.awsyul.k8s.indeed.tech
 points.indeed.com
@@ -2054,6 +2060,7 @@ qp-mongo-rezemp-purchases.awscmh2.k8s.indeed.tech
 qp-mongo-rezemp-subscriptions.awscmh2.k8s.indeed.tech
 qp-mongo-rezemp-subscriptions.awscmhqa2.k8s.indeed.tech
 qp-mongo-rhone.awscmh2.k8s.indeed.tech
+qp-mongo-rich-media-moderation-db.awscmhqa2.k8s.indeed.tech
 qp-mongo-ruleresult.awscmh2.k8s.indeed.tech
 qp-mongo-ruleresult.awscmhqa2.k8s.indeed.tech
 qp-mongo-salary.awscmh2.k8s.indeed.tech
@@ -2514,6 +2521,7 @@ terraform.qa.indeed.tech
 terraformize.bigqa.k8s.indeed.tech
 test.awscmhqa2.k8s.indeed.tech
 test.cmhqa3.k8s.indeed.tech
+testrail-reporter.corp.indeed.com
 testrail.corp.indeed.com
 teststats-aws.cmhqa1.k8s.indeed.tech
 textmaster-webapp-qa.indeed.com
