@@ -232,6 +232,7 @@ auth.indeed.com
 auth.intraproxy.indeed.tech
 auth.mdml.qa.indeed.tech
 auth.prod2.hub.indeed.tech
+auth.qa.hub.indeed.tech
 auth.qa2.hub.indeed.tech
 auth.staging.intraproxy.indeed.tech
 auth2.dyn.indeed.com
@@ -721,6 +722,7 @@ eda-grafana.awscmh2.k8s.indeed.tech
 eda-sbs-qa.cmhqa1.k8s.indeed.tech
 eda-sbs-raven.cmhqa1.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmhqa3.k8s.indeed.tech
+edge-envoy-crossdc-ingress.awscmhstage.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awsnrtqa.k8s.indeed.tech
 edge-envoy-crossdc-ingress.cmhqa1.k8s.indeed.tech
 edge-envoy-crossdc-ingress.cmhqa2.k8s.indeed.tech
@@ -731,9 +733,11 @@ edge-envoy-ingress.awscmhdev.k8s.indeed.tech
 edge-envoy-ingress.awscmhqa3.k8s.indeed.tech
 edge-envoy-ingress.awscmhstage.k8s.indeed.tech
 edge-envoy-ingress.awsnrt2.k8s.indeed.tech
+edge-envoy-ingress.awsnrtqa.k8s.indeed.tech
 edge-envoy-ingress.cmhprod1.k8s.indeed.tech
 edge-envoy-ingress.cmhprod2.k8s.indeed.tech
 edge-envoy-ingress.cmhqa1.k8s.indeed.tech
+edge-envoy-ingress.cmhqa3.k8s.indeed.tech
 edge-envoy-ingress.pdxprod1.k8s.indeed.tech
 eeo-data-pipeline-api.cmhqa1.k8s.indeed.tech
 eg.conv.indeed.com
@@ -1392,6 +1396,7 @@ kibana-vendor-search-es.qa.indeed.tech
 kibana-zuora-search.prod.indeed.tech
 kibana-zuora-search.qa.indeed.tech
 kibana.awscmh2.k8s.indeed.tech
+kibana.awscmh4.k8s.indeed.tech
 kibana.awscmhdev.k8s.indeed.tech
 kibana.awscmhinfra2.k8s.indeed.tech
 kibana.awscmhqa2.k8s.indeed.tech
@@ -1855,6 +1860,7 @@ pod-proxy.awscmhqa3.k8s.indeed.tech
 pod-proxy.awsnrt2.k8s.indeed.tech
 pod-proxy.awsnrtqa.k8s.indeed.tech
 pod-proxy.awspdx.k8s.indeed.tech
+pod-proxy.awssyd.k8s.indeed.tech
 pod-proxy.awsyul.k8s.indeed.tech
 points.indeed.com
 polyfill.indeed.com
@@ -2159,6 +2165,7 @@ rabbit-event-bus-adapter.cmhqa2.k8s.indeed.tech
 rabbit-hole.cmhqa1.k8s.indeed.tech
 radio.indeed.tech
 railgun-clip-entadex.cmhqa1.k8s.indeed.tech
+rasa-action-server.awscmh2.k8s.indeed.tech
 raven-delivery.cmhprod2.k8s.indeed.tech
 raven-delivery.cmhqa1.k8s.indeed.tech
 raven-delivery.cmhqa2.k8s.indeed.tech
