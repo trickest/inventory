@@ -48,6 +48,7 @@ access.dev2.meraki.com
 access.dev2.network-auth.com
 access.portal.meraki.dev.ikarem.io
 access.syd-replica.artifactory.ikarem.io
+accesssha-replica.artifactory.prod.ikarem.io
 account-staging.meraki.com
 account-staging.network-auth.com
 account.chrbuckl.ephemeral.exp.ikarem.io
@@ -73,6 +74,7 @@ accountsenkrino.use.latitude.dev.ikarem.io
 accountstjn-replica.artifactory.ikarem.io
 accportal.meraki.dev.ikarem.io
 acctjn-replica.artifactory.ikarem.io
+admin.dev.latitude-test.dev.ikarem.io
 aglica.dev.ikarem.io
 agsglobal.dev.network-auth.com
 airflow-dev.ikarem.io
@@ -85,6 +87,7 @@ alpha-use.nt.dev.ikarem.io
 alpha.api.latitude-test.dev.ikarem.io
 alpha.dal-replica.artifactory.ikarem.io
 alpha.dal.artifactory.prod.ikarem.io
+alpha.dev.latitude-test.dev.ikarem.io
 alpha.dev.meraki.com
 alpha.fra-replica.artifactory.ikarem.io
 alpha.medusa-proxy.idp.dev.ikarem.io
@@ -116,10 +119,12 @@ ap.tlsgw.sandbox.meraki.com
 apa.internal.nt.meraki.com
 apa.nt.meraki.com
 apac.api.meraki.com
+apac.network-auth.com
 api-cloudenrollment.meraki.dev.ikarem.io
 api-mp.meraki.com
 api-na.meraki.dev.network-auth.ikarem.io
 api.dal.artifactory.prod.ikarem.io
+api.dev.latitude-test.dev.ikarem.io
 api.latitude-test.dev.ikarem.io
 api.meraki.com
 api.meraki.dev.ikarem.io
@@ -262,6 +267,7 @@ backup.dev.latitude-test.dev.ikarem.io
 backup.fra.artifactory.prod.ikarem.io
 backup.primary.ldap.dev.ikarem.io
 backup.sdg-replica.artifactory.prod.ikarem.io
+backup.staging.latitude-test.dev.ikarem.io
 backupaulavirtual.dev.network-auth.com
 backups-enkrino.use.latitude.dev.ikarem.io
 backups.dev.latitude-test.dev.ikarem.io
@@ -3484,6 +3490,7 @@ dashboard.meraki.com
 dashboard.sandbox.meraki.com
 dashboard.test.ikarem.io
 data-na.meraki.dev.network-auth.ikarem.io
+data.dev.latitude-test.dev.ikarem.io
 data.tjn.artifactory.prod.ikarem.io
 database-ios.meraki.dev.ikarem.io
 database-primary.ldap.dev.ikarem.io
@@ -4321,6 +4328,8 @@ gitlab-test.ikarem.io
 gitlab.ikarem.io
 gitlab.int.ikarem.io
 gmail.meraki.com
+go.go-web-portal.dev.ikarem.io
+go.go-web-portal.sandbox.meraki.com
 go.go-web-portal.use.development.k8s.ikarem.io
 go.go-web-portal.usw.development.k8s.ikarem.io
 go.go-web-portal.usw.production.k8s.ikarem.io
@@ -4367,6 +4376,7 @@ istio-ingressgateway.istio-system.usw.ml-development.k8s.ikarem.io
 it.it-managed.meraki.com
 it.meraki.com
 itqavgn-bmo.dev.network-auth.com
+jenkins.dev.latitude-test.dev.ikarem.io
 jenkins.ikarem.io
 jindo.dev.network-auth.com
 jira-beta.ikarem.io
@@ -4729,6 +4739,7 @@ member1.sso.meraki.com
 meraki-go.ephemeral.exp.ikarem.io
 meraki-vision-dev.meraki-vision.usw.development.k8s.ikarem.io
 meraki-vision-production.meraki-vision.use.production.k8s.ikarem.io
+meraki-vision-production.meraki-vision.usw.production.k8s.ikarem.io
 meraki-vision.dev.ikarem.io
 meraki.com
 metrics.ikarem.io
@@ -7243,6 +7254,7 @@ nginx-amqp.ha-splash.use.staging.k8s.ikarem.io
 nginx-amqp.ha-splash.usw.development.k8s.ikarem.io
 nginx-amqp.ha-splash.usw.production.k8s.ikarem.io
 nginx-amqp.ha-splash.usw.staging.k8s.ikarem.io
+nginx-http.ha-splash.usw.production.k8s.ikarem.io
 nginx.dxl-gatherer.apa.production.k8s.ikarem.io
 nginx.dxl-gatherer.aps.production.k8s.ikarem.io
 nginx.dxl-gatherer.euc.production.k8s.ikarem.io
@@ -8028,6 +8040,7 @@ peterseliger.artifactory.prod.ikarem.io
 pfudor.meraki.com
 pg-reports.ikarem.io
 pkg101.meraki.com
+pm-bounces.meraki.com
 portal.meraki.com
 portal.meraki.dev.ikarem.io
 portal.sandbox.meraki.com
@@ -8035,6 +8048,7 @@ portal.sso.meraki.com
 postman.meraki.com
 primary.ldap.dev.ikarem.io
 primary.ldap.meraki.com
+private.mun.artifactory.prod.ikarem.io
 prod.netbox.ikarem.io
 proxy.teleport.int.ikarem.io
 pub102.meraki.com
@@ -11308,4 +11322,6 @@ yard.ikarem.io
 18tqawww-harrisbank.dev.network-auth.com
 19-tqavgn-harrisbank.dev.network-auth.com
 2018-dal-fallback.artifactory.prod.ikarem.io
+2018.dev.latitude-test.dev.ikarem.io
+2019dal-replica.artifactory.prod.ikarem.io
 2019sdg-replica.artifactory.ikarem.io
