@@ -46,6 +46,7 @@ access-tjn-replica.artifactory.ikarem.io
 access.dal.artifactory.prod.ikarem.io
 access.dev2.meraki.com
 access.dev2.network-auth.com
+access.mun.artifactory.prod.ikarem.io
 access.portal.meraki.dev.ikarem.io
 access.syd-replica.artifactory.ikarem.io
 accesssha-replica.artifactory.prod.ikarem.io
@@ -55,6 +56,7 @@ account.chrbuckl.ephemeral.exp.ikarem.io
 account.meraki-go.ephemeral.exp.ikarem.io
 account.meraki.com
 account.meraki.meraki-go.ikarem.io
+account.mun.artifactory.prod.ikarem.io
 account.network-auth.com
 account.patrickh.ephemeral.exp.ikarem.io
 account.sandbox.meraki.com
@@ -91,6 +93,7 @@ alpha.dev.latitude-test.dev.ikarem.io
 alpha.dev.meraki.com
 alpha.fra-replica.artifactory.ikarem.io
 alpha.medusa-proxy.idp.dev.ikarem.io
+alpha.mun.artifactory.prod.ikarem.io
 alpha.sdg-replica.artifactory.int.ikarem.io
 alpha.sdg.artifactory.prod.ikarem.io
 alpha.use.nt.dev.ikarem.io
@@ -129,6 +132,7 @@ api.latitude-test.dev.ikarem.io
 api.meraki.com
 api.meraki.dev.ikarem.io
 api.mlabs.dev.ikarem.io
+api.mun.artifactory.prod.ikarem.io
 api.sandbox.meraki.com
 api.test.ikarem.io
 apiportal.meraki.dev.ikarem.io
@@ -223,6 +227,7 @@ assets-syd-replica.artifactory.ikarem.io
 assets.api.latitude-test.dev.ikarem.io
 assets.dal.artifactory.ikarem.io
 assets.dev.latitude-test.dev.ikarem.io
+assets.mun.artifactory.prod.ikarem.io
 assetssdg-replica.artifactory.ikarem.io
 assetsuse.internal.nt.dev.ikarem.io
 athena.athena.use.development.k8s.ikarem.io
@@ -235,6 +240,7 @@ aulavirtual.dev.network-auth.com
 auth.autoconfig.dev.network-auth.com
 auth.enroll.meraki.dev.ikarem.io
 auth.go.usw.go-web-portal.dev.ikarem.io
+auth.mun.artifactory.prod.ikarem.io
 auth.sha-fallback.artifactory.prod.ikarem.io
 authdev.latitude-test.dev.ikarem.io
 authsdg-replica.artifactory.prod.ikarem.io
@@ -266,6 +272,7 @@ backup.account.meraki.meraki-go.ikarem.io
 backup.dal.artifactory.prod.ikarem.io
 backup.dev.latitude-test.dev.ikarem.io
 backup.fra.artifactory.prod.ikarem.io
+backup.mun.artifactory.prod.ikarem.io
 backup.primary.ldap.dev.ikarem.io
 backup.sdg-replica.artifactory.prod.ikarem.io
 backup.staging.latitude-test.dev.ikarem.io
@@ -308,6 +315,7 @@ be-8-114.mun-core-2.meraki.com
 be-8-114.sdg-core-2.meraki.com
 beta-cloudenrollment.meraki.dev.ikarem.io
 beta-internacc.dev.network-auth.com
+beta.mun.artifactory.prod.ikarem.io
 beta.na.meraki.dev.network-auth.ikarem.io
 beta.notary.dev.ikarem.io
 beta.portal.meraki.dev.ikarem.io
@@ -326,6 +334,7 @@ blogmedusa-proxy.idp.dev.ikarem.io
 bloguse.nt.dev.ikarem.io
 blogx.dev.network-auth.com
 bounce.meraki.com
+bucket.mun.artifactory.prod.ikarem.io
 c0.meraki.com
 c0.sandbox.meraki.com
 c0.test.ikarem.io
@@ -437,6 +446,7 @@ cf.meraki.com
 cf.meraki.dev.ikarem.io
 cf.sandbox.meraki.com
 cftqavgn-harrisbank21.dev.network-auth.com
+chef.mun.artifactory.prod.ikarem.io
 chg.it-managed.meraki.com
 chi0.meraki.com
 chi0.oob.ikarem.io
@@ -524,6 +534,7 @@ cml2.ikarem.io
 cml3.ikarem.io
 cms-enkrino.use.latitude.dev.ikarem.io
 cms.go.usw.go-web-portal.dev.ikarem.io
+cms.mun.artifactory.prod.ikarem.io
 cms.portal.meraki.dev.ikarem.io
 cms.syd-replica.artifactory.prod.ikarem.io
 cmsdev.latitude-test.dev.ikarem.io
@@ -549,11 +560,13 @@ config.dev.latitude-test.dev.ikarem.io
 config.dev2.network-auth.com
 config.latitude-test.dev.ikarem.io
 config.meraki.com
+config.mun.artifactory.prod.ikarem.io
 config.sandbox.meraki.com
 configconfluence.dev.network-auth.com
 configenkrino.use.latitude.dev.ikarem.io
 confluence.dev.meraki.com
 confluence.dev.network-auth.com
+confluence.mun.artifactory.prod.ikarem.io
 connect-meraki-vision.dev.ikarem.io
 connect.dev.latitude-test.dev.ikarem.io
 connect.primary.ldap.dev.ikarem.io
@@ -3493,6 +3506,8 @@ dashboard.sandbox.meraki.com
 dashboard.test.ikarem.io
 data-na.meraki.dev.network-auth.ikarem.io
 data.dev.latitude-test.dev.ikarem.io
+data.mun-replica.artifactory.prod.ikarem.io
+data.mun.artifactory.prod.ikarem.io
 data.tjn.artifactory.prod.ikarem.io
 database-ios.meraki.dev.ikarem.io
 database-primary.ldap.dev.ikarem.io
@@ -3503,9 +3518,11 @@ db1.tjn.artifactory.prod.ikarem.io
 db2.tjn.artifactory.prod.ikarem.io
 db2sha-replica.artifactory.ikarem.io
 dbdev.latitude-test.dev.ikarem.io
+dbms.mun.artifactory.prod.ikarem.io
 dbms.sdg-replica.artifactory.prod.ikarem.io
 dbs.ios.meraki.dev.ikarem.io
 dbsios.meraki.dev.ikarem.io
+debug.mun.artifactory.prod.ikarem.io
 default-vpn.it-managed.meraki.com
 default.dev.latitude-test.dev.ikarem.io
 default.tjn.artifactory.prod.ikarem.io
@@ -3520,6 +3537,7 @@ dev-route66.meraki.com
 dev.athena.ikarem.io
 dev.latitude-test.dev.ikarem.io
 dev.meraki.com
+dev.mun.artifactory.prod.ikarem.io
 dev.nac-oss.ikarem.io
 dev.netbox.ikarem.io
 dev.network-auth.com
@@ -3571,6 +3589,7 @@ emits.sso.meraki.com
 en.dev.meraki.com
 en.dev.network-auth.com
 eng.meraki.com
+engineering.mun.artifactory.prod.ikarem.io
 enjoy.sso.meraki.com
 enkrino.latitude.use.development.k8s.ikarem.io
 enkrino.use.latitude.dev.ikarem.io
@@ -3579,6 +3598,7 @@ enroll.meraki.dev.ikarem.io
 enroll.sandbox.meraki.com
 enterprise.sso.meraki.com
 eposta.sso.meraki.com
+error.mun.artifactory.prod.ikarem.io
 esa-p.sso.meraki.com
 eu.network-auth.com
 eu.tlsgw.meraki.com
@@ -7251,6 +7271,7 @@ netbox.ikarem.io
 netbox.prod.infra.ikarem.io
 netbox.staging.infra.ikarem.io
 network.sha.artifactory.prod.ikarem.io
+new.mun.artifactory.prod.ikarem.io
 newmeraki-vision.dev.ikarem.io
 nginx-amqp.ha-splash.euc.production.k8s.ikarem.io
 nginx-amqp.ha-splash.euw.production.k8s.ikarem.io
@@ -8052,9 +8073,11 @@ portal.meraki.dev.ikarem.io
 portal.sandbox.meraki.com
 portal.sso.meraki.com
 postman.meraki.com
+preferences.mun.artifactory.prod.ikarem.io
 primary.ldap.dev.ikarem.io
 primary.ldap.meraki.com
 private.mun.artifactory.prod.ikarem.io
+prod.mun.artifactory.prod.ikarem.io
 prod.netbox.ikarem.io
 proxy.teleport.int.ikarem.io
 pub102.meraki.com
@@ -8402,8 +8425,10 @@ radius.sandbox.meraki.com
 radius.test.ikarem.io
 railing.meraki.com
 rails.meraki.com
+redirect.mun.artifactory.prod.ikarem.io
 research.syd-replica.artifactory.ikarem.io
 route66.meraki.com
+s3.mun.artifactory.prod.ikarem.io
 sait.artifactory.prod.ikarem.io
 sandbox.dev.meraki.com
 sandbox.dev.network-auth.com
@@ -10994,12 +11019,14 @@ syd319.meraki.com
 syd320.meraki.com
 syd321.meraki.com
 syd322.meraki.com
+system.mun.artifactory.prod.ikarem.io
 te-0-1-0.sin-core-2.meraki.com
 te-0-1-1.sin-core-1.meraki.com
 te-0-1-1.sin-core-2.meraki.com
 te-0-1-2.sin-core-1.meraki.com
 te-0-1-2.sin-core-2.meraki.com
 teamcity.ikarem.io
+temp.mun.artifactory.prod.ikarem.io
 tentamenrooster.sso.meraki.com
 test.fra-fallback.artifactory.prod.ikarem.io
 testrail.ikarem.io
@@ -11059,8 +11086,12 @@ tqavgn-bmoharris21api-docs.dev.network-auth.com
 tqavgn-bmoharris22b.dev.network-auth.com
 tqavgn2-bmo-origin.dev.network-auth.com
 twitch-fra-replica.artifactory.prod.ikarem.io
+update.mun.artifactory.prod.ikarem.io
+upgrade.mun.artifactory.prod.ikarem.io
 upload.dev.meraki.com
 upload.dev.network-auth.com
+upload.mun.artifactory.prod.ikarem.io
+uploads.mun.artifactory.prod.ikarem.io
 us.tlsgw.meraki.com
 us.tlsgw.sandbox.meraki.com
 use.dex.k8s.ikarem.io
@@ -11072,6 +11103,8 @@ use.nt.dev.ikarem.io
 use.nt.meraki.com
 use.nt.review.ikarem.io
 use.nt.sandbox.meraki.com
+user.mun.artifactory.prod.ikarem.io
+users.mun.artifactory.prod.ikarem.io
 usw-proxy.teleport.int.ikarem.io
 usw.dex.k8s.ikarem.io
 usw.internal.nt.dev.ikarem.io
@@ -11108,6 +11141,10 @@ usw509.meraki.com
 usw583.meraki.com
 ut.sso.meraki.com
 util.meraki.com
+v1.mun.artifactory.prod.ikarem.io
+v2.mun.artifactory.prod.ikarem.io
+v3.mun.artifactory.prod.ikarem.io
+v4.mun.artifactory.prod.ikarem.io
 vda100.meraki.com
 vda106.meraki.com
 vda109.meraki.com
@@ -11176,6 +11213,8 @@ vfr122.meraki.com
 vfr123.meraki.com
 vfr124.meraki.com
 vfr125.meraki.com
+video.mun.artifactory.prod.ikarem.io
+vip.mun.artifactory.prod.ikarem.io
 vision.meraki.com
 vision.sandbox.meraki.com
 vmu101.meraki.com
@@ -11206,6 +11245,7 @@ vmu151.meraki.com
 vmu153.meraki.com
 vpn.it-managed.meraki.com
 vpn.meraki.com
+vpn.mun.artifactory.prod.ikarem.io
 vsd101.meraki.com
 vsd102.meraki.com
 vsd103.meraki.com
@@ -11271,6 +11311,7 @@ vsi115.meraki.com
 vsy110.meraki.com
 w3idprofile.sso.meraki.com
 web-vsd157.meraki.com
+web.mun.artifactory.prod.ikarem.io
 web.vda111.meraki.com
 web.vda130.meraki.com
 web0-n409-spare.network-auth.com
@@ -11286,6 +11327,7 @@ webp193.meraki.com
 webvda167.meraki.com
 whatsapp-chatd-edge-shv-03-xsp1.meraki.com
 whitepages.sso.meraki.com
+wiki.mun.artifactory.prod.ikarem.io
 wikimap.network-auth.com
 windchill.corp.meraki.com
 wired.meraki.com
@@ -11330,8 +11372,13 @@ yard.ikarem.io
 2018-dal-fallback.artifactory.prod.ikarem.io
 2018.api.meraki.dev.ikarem.io
 2018.dev.latitude-test.dev.ikarem.io
+2018.mun.artifactory.prod.ikarem.io
+2018api.mlabs.dev.ikarem.io
+2019.mun.artifactory.prod.ikarem.io
 2019dal-replica.artifactory.prod.ikarem.io
 2019sdg-replica.artifactory.ikarem.io
 2021.go.usw.go-web-portal.dev.ikarem.io
 2021portal.meraki.dev.ikarem.io
 2021sdg-replica.artifactory.int.ikarem.io
+2022.mun.artifactory.prod.ikarem.io
+2022sdg-replica.artifactory.ikarem.io
