@@ -6,6 +6,7 @@ github-4.database.windows.net
 github-api.azurewebsites.net
 github-app.azurewebsites.net
 github-audit.azurewebsites.net
+github-dev.azurewebsites.net
 github-events.azurewebsites.net
 github-functions.azurewebsites.net
 github-jira.azurewebsites.net
@@ -19,6 +20,7 @@ githubapp.azurewebsites.net
 githubarchive.database.windows.net
 githubbackup.azurewebsites.net
 githubcontainer.azurewebsites.net
+githubdb.database.windows.net
 githubdevops.azurewebsites.net
 githubevents.azurewebsites.net
 githubfunctions.azurewebsites.net
@@ -189,7 +191,6 @@ http://storage.googleapis.com/github-snapshots
 http://storage.googleapis.com/github-static
 http://storage.googleapis.com/github-stats
 http://storage.googleapis.com/github-storage
-http://storage.googleapis.com/github-store
 http://storage.googleapis.com/githubarchive
 http://storage.googleapis.com/githubassets
 http://storage.googleapis.com/githubbucket
@@ -215,7 +216,9 @@ http://us-central1-jira-github.cloudfunctions.net/
 https://admin-github.firebaseio.com/.json
 https://android-github.firebaseio.com/.json
 https://applepreprod.blob.core.windows.net/github/?restype=container&comp=list
+https://git-github.firebaseio.com/.json
 https://github-bucket.firebaseio.com/.json
+https://github-com.firebaseio.com/.json
 https://github-dev.firebaseio.com/.json
 https://github-firebase.firebaseio.com/.json
 https://github-images.firebaseio.com/.json
