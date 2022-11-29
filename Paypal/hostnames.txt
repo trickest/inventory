@@ -55,6 +55,7 @@ admin-partner.t.xoom.com
 admin-system2019devel-ns-nanotechnet2.t.xoom.com
 admin.admin-default-rings.t.xoom.com
 admin.apistaff-maelab.arch.t.xoom.com
+admin.beta.accessstaging-masterrings.t.xoom.com
 admin.clients-bin.t.xoom.com
 admin.paypal.com
 admin.sandbox.pilot.paypal.com
@@ -1141,6 +1142,7 @@ debug.clients-bin.t.xoom.com
 debug.clients-wwwm.t.xoom.com
 debug.development.www.civil.t.xoom.com
 debug.log.t.xoom.com
+debug.mx.bin.t.xoom.com
 debug.status-ns-nanotechnet2.t.xoom.com
 debug.wwwoldwww.sat.t.xoom.com
 debugaltgiju.t.xoom.com
@@ -1153,6 +1155,7 @@ demo-accountproxy-p.t.xoom.com
 demo-cdn.glb.paypal.com
 demo-fastly.glb.paypal.com
 demo-jaco.ec.t.xoom.com
+demo-mx.bin.t.xoom.com
 demo-sso-bin.t.xoom.com
 demo-staging-masterrings.t.xoom.com
 demo.cloud-kohka.ch.t.xoom.com
@@ -1229,6 +1232,7 @@ earthport.partners.xoom.com
 ebayreports.paypal.com
 ecommerce.paypal.com
 elasticbeanstalk-intrawwwm.t.xoom.com
+elasticbeanstalk-legacy-www.akg.t.xoom.com
 elasticbeanstalk-proxy-p.t.xoom.com
 elasticbeanstalk-user-www.aerospace.t.xoom.com
 elasticbeanstalk.accountpreproddevelopmentjaco.ec.t.xoom.com
@@ -1295,6 +1299,7 @@ error-weblab.t.xoom.com
 error.authvpn-gci.t.xoom.com
 error.gcppaymentsjaco.ec.t.xoom.com
 error.log.t.xoom.com
+error.mx.bin.t.xoom.com
 error.wwwtuk.t.xoom.com
 errorblog-beta.www.ce.t.xoom.com
 errorcpmaelab.arch.t.xoom.com
@@ -1371,7 +1376,9 @@ gcpdatadevelopment.www.civil.t.xoom.com
 gcpengineering.publict-cens.iapply.t.xoom.com
 gcpgci.t.xoom.com
 gcpipv6-giju.t.xoom.com
+gcplegacy-www.akg.t.xoom.com
 gcppaymentsjaco.ec.t.xoom.com
+gcpsqlmaelab.arch.t.xoom.com
 gcpuser-www.aerospace.t.xoom.com
 giju.t.xoom.com
 git.t.xoom.com
@@ -1468,6 +1475,7 @@ jaco.ec.t.xoom.com
 jenkins-api.t.xoom.com
 jenkins-search.t.xoom.com
 jenkins.io-rings.t.xoom.com
+jenkins.t.xoom.com
 jenkins.tracking.t.xoom.com
 jenkins.upgrade.apistaff-maelab.arch.t.xoom.com
 jenkins.vip.t.xoom.com
@@ -1773,6 +1781,7 @@ outbound.na.e.paypal.com
 outbound1.den.paypal.com
 outbound2.den.paypal.com
 p-fastly.glb.paypal.com
+p.glb.paypal.com
 p.paypal.com
 p.t.xoom.com
 pages.messages.xoom.com
@@ -1955,6 +1964,7 @@ preferences-gcppaymentsjaco.ec.t.xoom.com
 preferences-postgresqljaco.ec.t.xoom.com
 preferences.www.s-im.t.xoom.com
 preferencesgcppaymentsjaco.ec.t.xoom.com
+preferencesmx.bin.t.xoom.com
 preferencesnewsave.sys.t.xoom.com
 preferencesoffice.beta.www.ce.t.xoom.com
 preferencesstreamingns-nanotechnet2.t.xoom.com
@@ -1983,6 +1993,7 @@ prod-vpn-gci.t.xoom.com
 prod-www.s-im.t.xoom.com
 prod-wwwoldwww.sat.t.xoom.com
 prod.jenkins.vip.t.xoom.com
+prod.legacy-www.akg.t.xoom.com
 prod.rotator.xoom.com
 prodaccountproxy-p.t.xoom.com
 proddevelopmentjaco.ec.t.xoom.com
@@ -2348,6 +2359,7 @@ t.paypal.com
 t.xoom.com
 tcovpn.xoom.com
 team-partner.t.xoom.com
+team-sqlmaelab.arch.t.xoom.com
 team-status-ns-nanotechnet2.t.xoom.com
 team.2019devel-ns-nanotechnet2.t.xoom.com
 team.postgresqljaco.ec.t.xoom.com
@@ -2362,6 +2374,7 @@ temp-partner.t.xoom.com
 temp-register.nanotechnet2.t.xoom.com
 temp-system.t.xoom.com
 temp-tracking.t.xoom.com
+temp.demo.upload.staging-masterrings.t.xoom.com
 temp.medialand.xoom.com
 temp.prodaccountproxy-p.t.xoom.com
 temp.staging-masterrings.t.xoom.com
@@ -2405,6 +2418,7 @@ uat.sandbox.xoom.com
 uat.t.xoom.com
 uat.xoom.com
 update-2021-images.jaco.ec.t.xoom.com
+update-sqlmaelab.arch.t.xoom.com
 update-statusvpnns-nanotechnet2.t.xoom.com
 update.customersprodaccountproxy-p.t.xoom.com
 update.paymentsjaco.ec.t.xoom.com
@@ -2412,6 +2426,7 @@ update.t.xoom.com
 updateclients-wwwm.t.xoom.com
 updateiobin.t.xoom.com
 updateprivate-controller.partnersjaco.ec.t.xoom.com
+updatesqlmaelab.arch.t.xoom.com
 updateweblab.t.xoom.com
 upgrade-2018ipv6-giju.t.xoom.com
 upgrade-default-developmentjaco.ec.t.xoom.com
@@ -2429,6 +2444,7 @@ upload-chef.wikidevel-ns-nanotechnet2.t.xoom.com
 upload-engineering.publict-cens.iapply.t.xoom.com
 upload-issue.xoom.com
 upload-mirrordevelopmentjaco.ec.t.xoom.com
+upload-mx.bin.t.xoom.com
 upload-www.chemsys.t.xoom.com
 upload.cpmaelab.arch.t.xoom.com
 upload.sqlserver.jaco.ec.t.xoom.com
@@ -2541,6 +2557,7 @@ vipcontroller.partnersjaco.ec.t.xoom.com
 vipmail.postgres.t.xoom.com
 vipstatus-ns-nanotechnet2.t.xoom.com
 vpn-accept.beta.www.ce.t.xoom.com
+vpn-b.stats.paypal.com
 vpn-cachedefault-rings.t.xoom.com
 vpn-devel-ns-nanotechnet2.t.xoom.com
 vpn-gci.t.xoom.com
@@ -2869,6 +2886,7 @@ www.stage2du11.stage.paypal.com
 www.stage2du114.stage.paypal.com
 www.stage2du115.stage.paypal.com
 www.stage2du116.stage.paypal.com
+www.stage2du117.stage.paypal.com
 www.stage2du118.stage.paypal.com
 www.stage2du119.stage.paypal.com
 www.stage2du120.stage.paypal.com
@@ -2918,6 +2936,7 @@ www.stage2du60.stage.paypal.com
 www.stage2du61.stage.paypal.com
 www.stage2du62.stage.paypal.com
 www.stage2du63.stage.paypal.com
+www.stage2du66.stage.paypal.com
 www.stage2du70.stage.paypal.com
 www.stage2du74.stage.paypal.com
 www.stage2du80.stage.paypal.com
@@ -2931,6 +2950,7 @@ www.stage2du90.stage.paypal.com
 www.stage2du92.stage.paypal.com
 www.stage2du93.stage.paypal.com
 www.stage2du94.stage.paypal.com
+www.stage2du95.stage.paypal.com
 www.stage2du96.stage.paypal.com
 www.stage2du99.stage.paypal.com
 www.stage2gce001.stage.paypal.com
@@ -3247,6 +3267,7 @@ zootapi.paypal.com
 64.4.247.29-reservedip.paypal.com
 64.4.247.30-reservedip.paypal.com
 64.4.247.31-reservedip.paypal.com
+2018-legacy-www.akg.t.xoom.com
 2018-log.t.xoom.com
 2018-redirect-gci.t.xoom.com
 2018-remote.t.xoom.com
@@ -3269,6 +3290,8 @@ zootapi.paypal.com
 2020.qa-ww.t.xoom.com
 2020.remote.ns-nanotechnet2.t.xoom.com
 2020.streamingns-nanotechnet2.t.xoom.com
+2020.upload-engineering.publict-cens.iapply.t.xoom.com
+2020config-repo-www.sat.t.xoom.com
 2020postgres.medialand.xoom.com
 2021-api.t.xoom.com
 2021-authvpn-gci.t.xoom.com
