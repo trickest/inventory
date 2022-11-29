@@ -6,6 +6,7 @@ github-4.database.windows.net
 github-api.azurewebsites.net
 github-app.azurewebsites.net
 github-audit.azurewebsites.net
+github-backup.azurewebsites.net
 github-events.azurewebsites.net
 github-functions.azurewebsites.net
 github-jira.azurewebsites.net
@@ -43,10 +44,8 @@ http://backups-github.s3.amazonaws.com/
 http://bucket-github.s3.amazonaws.com/
 http://bucketgithub.s3.amazonaws.com/
 http://cf-github.s3.amazonaws.com/
-http://cm-github.s3.amazonaws.com/
 http://contactgithub.s3.amazonaws.com/
 http://data-github.s3.amazonaws.com/
-http://datagithub.s3.amazonaws.com/
 http://debug-github.s3.amazonaws.com/
 http://github-1.s3.amazonaws.com/
 http://github-2016.s3.amazonaws.com/
@@ -126,6 +125,7 @@ http://githubbackups.s3.amazonaws.com/
 http://githubbak.s3.amazonaws.com/
 http://githubbucket.s3.amazonaws.com/
 http://githubbuild.s3.amazonaws.com/
+http://githubcache.s3.amazonaws.com/
 http://githubdata.s3.amazonaws.com/
 http://githubdevops.s3.amazonaws.com/
 http://githubdocs.s3.amazonaws.com/
@@ -184,6 +184,7 @@ http://storage.googleapis.com/github-prod
 http://storage.googleapis.com/github-project
 http://storage.googleapis.com/github-projects
 http://storage.googleapis.com/github-public
+http://storage.googleapis.com/github-reports
 http://storage.googleapis.com/github-secrets
 http://storage.googleapis.com/github-snapshots
 http://storage.googleapis.com/github-static
