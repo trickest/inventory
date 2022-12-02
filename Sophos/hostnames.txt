@@ -249,6 +249,7 @@ afweqezf.cloudstation.us-west-2.prod.hydra.sophos.com
 agent-api.dev.factory.sophos.com
 agent-api.staging.factory.sophos.com
 aggregation-cloudhub-eu-west-1.dev.hydra.sophos.com
+aggregation-cloudstation-eu-west-1.dev.hydra.sophos.com
 aggregation.cloudhub.eu-west-1.dev.hydra.sophos.com
 aggregation.cloudstation.eu-west-1.dev.hydra.sophos.com
 aggregator-summary-alt.stn010yul.ctr.sophos.com
@@ -498,6 +499,7 @@ api-eu02.central.sophos.com
 api-eu02.dev3.central.sophos.com
 api-eu02.inf.central.sophos.com
 api-eu02.qa.central.sophos.com
+api-exclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 api-fr.stn000cmh.ctr.sophos.com
 api-impersonation-cloudstation-eu-west-1.inf.hydra.sophos.com
 api-impersonation.cloudstation.eu-west-1.inf.hydra.sophos.com
@@ -621,6 +623,7 @@ api5.qa.central.sophos.com
 apia4p87kc6.cloudstation.eu-west-1.inf.hydra.sophos.com
 apiatp.feedback.sophos.com
 apiauthz-cloudstation-us-east-1.inf.hydra.sophos.com
+apiexclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 apimocks-hub.dev3.hydra.sophos.com
 apimocks-hub.internal.dev3.hydra.sophos.com
 apimocks-station.dev3.hydra.sophos.com
@@ -749,6 +752,7 @@ assets.s2ufvv97.cloudstation.eu-west-1.inf.hydra.sophos.com
 assets.sophos.com
 assets357f5k9h.cloudstation.eu-west-1.inf.hydra.sophos.com
 assetscf-outbound-cloudstation-eu-west-1.inf.hydra.sophos.com
+assetsexclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 assetsr1i0e8ck.cloudstation.eu-west-1.inf.hydra.sophos.com
 assetsrca-upload-cloudstation-eu-west-1.inf.hydra.sophos.com
 astaro.com
@@ -826,6 +830,7 @@ aug8q9r8.stn030bom.ctr.sophos.com
 auth-19xon399.cloudstation.eu-west-1.inf.hydra.sophos.com
 auth-atp.feedback.sophos.com
 auth-downloads.sophos.com
+auth-exclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 auth-fleet-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 auth-mail-cloudstation-eu-west-1.inf.hydra.sophos.com
 auth-phish-nginx-two.inf.hydra.sophos.com
@@ -1077,6 +1082,7 @@ b9rzlmgy.stn100yul.ctr.sophos.com
 babybrowns.reflexion.net
 backup-19xon399.cloudstation.eu-west-1.inf.hydra.sophos.com
 backup-h2msoad2.cloudhub.eu-west-1.inf.hydra.sophos.com
+backup-mail-cloudstation-eu-central-1.inf.hydra.sophos.com
 backup-wccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
 backup.a4p87kc6.cloudstation.eu-west-1.inf.hydra.sophos.com
 backup.asproxy.cloudstation.eu-west-1.inf.hydra.sophos.com
@@ -1111,6 +1117,7 @@ beta.ping-global.cloudhub.eu-west-1.inf.hydra.sophos.com
 beta.sample-ms-cloudstation-eu-west-1.inf.hydra.sophos.com
 beta.wccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
 betah2msoad2.cloudhub.eu-west-1.inf.hydra.sophos.com
+betaproxy.d.inf.hydra.sophos.com
 betawccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
 bfznph4d.cloudstation.us-west-2.qa.hydra.sophos.com
 bgsnrgrm.cloudstation.us-west-2.qa.hydra.sophos.com
@@ -1350,6 +1357,7 @@ chassis-smoke-ms.cloudstation.eu-west-1.dev.hydra.sophos.com
 chassis-smoke-ms.cloudstation.eu-west-1.inf.hydra.sophos.com
 checkip.cyberoam.com
 cheetah.reflexion.net
+chefexclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 chefpublic-gateway-api-cloudstation-eu-central-1.inf.hydra.sophos.com
 chf4unpl.cloudstation.us-west-2.prod.hydra.sophos.com
 chipremier-submit.reflexion.net
@@ -4036,6 +4044,7 @@ fwcm-config.cloudstation.us-east-2.prod.hydra.sophos.com
 fwcm-config.cloudstation.us-west-2.prod.hydra.sophos.com
 fwcm-config.cloudstation.us-west-2.qa.hydra.sophos.com
 fwcm-config.stn100yul.ctr.sophos.com
+fwcm-device-sync-alt.stn010yul.ctr.sophos.com
 fwcm-device-sync-alt.stn030syd.ctr.sophos.com
 fwcm-device-sync-alt.stn100yul.ctr.sophos.com
 fwcm-device-sync-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -4052,6 +4061,7 @@ fwcm-device-sync.cloudstation.eu-west-1.prod.hydra.sophos.com
 fwcm-device-sync.cloudstation.us-east-2.prod.hydra.sophos.com
 fwcm-device-sync.cloudstation.us-west-2.prod.hydra.sophos.com
 fwcm-device-sync.cloudstation.us-west-2.qa.hydra.sophos.com
+fwcm-device-sync.stn010yul.ctr.sophos.com
 fwcm-device-sync.stn030syd.ctr.sophos.com
 fwcm-device-sync.stn100yul.ctr.sophos.com
 fwcm-group-config-alt.stn030syd.ctr.sophos.com
@@ -4130,6 +4140,8 @@ fwcm-legacy-uihub-cloudhub-eu-west-1.qa.hydra.sophos.com
 fwcm-legacy-uihub.cloudhub.eu-west-1.dev.hydra.sophos.com
 fwcm-legacy-uihub.cloudhub.eu-west-1.prod.hydra.sophos.com
 fwcm-legacy-uihub.cloudhub.eu-west-1.qa.hydra.sophos.com
+fwcm-license-cloudhub-eu-west-1.dev3.hydra.sophos.com
+fwcm-license.cloudhub.eu-west-1.dev3.hydra.sophos.com
 fwcm-ms-demo-cloudstation-eu-west-1.inf.hydra.sophos.com
 fwcm-ms-demo-cloudstation-eu-west-1.qa.hydra.sophos.com
 fwcm-ms-demo.cloudstation.eu-west-1.inf.hydra.sophos.com
@@ -4781,6 +4793,7 @@ lbit5y8n.cloudstation.eu-west-1.dev.hydra.sophos.com
 lc838d5e.cloudstation.eu-central-1.qa.hydra.sophos.com
 ldy0wycr.stn100yul.ctr.sophos.com
 le0xu7yl.stn010yul.ctr.sophos.com
+leg4j3u6.cloudhub.eu-west-1.dev3.hydra.sophos.com
 legacy-siem-alt.stn010pdx.ctr.sophos.com
 legacy-siem-alt.stn010yul.ctr.sophos.com
 legacy-siem-alt.stn030bom.ctr.sophos.com
@@ -9915,11 +9928,13 @@ presto-test-il-default.cloudstation.eu-west-1.dev.hydra.sophos.com
 private-public-gateway-api-cloudstation-eu-west-1.inf.hydra.sophos.com
 processor-cloudstation-eu-west-1.dev.hydra.sophos.com
 processor.cloudstation.eu-west-1.dev.hydra.sophos.com
+prod-exclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 prod-np20rvfy.cloudhub.eu-west-1.inf.hydra.sophos.com
 prod.cms.hitmanpro.com
 prod.cms.home.sophos.com
 prod.cms.sophos.com
 prod.packages.sophos.com
+prodexclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 prodxgatp.feedback.sophos.com
 programs.sophos.com
 proofpoint.reflexion.net
@@ -11194,6 +11209,7 @@ test-policy.cloudstation.us-west-2.qa.hydra.sophos.com
 test-policy.stn010yul.ctr.sophos.com
 test-sea.sophos.com
 test-secure.test.sophos.com
+test-stn015hio.stn010pdx.ctr.sophos.com
 test-support.sophos.com
 test-swa.sophos.com
 test-template-sl-cloudstation-eu-central-1.qa.hydra.sophos.com
@@ -11421,6 +11437,7 @@ twgqk16u.cloudhub.eu-west-1.dev.hydra.sophos.com
 twrk2ixf.stn010yul.ctr.sophos.com
 twxrom1v.cloudstation.eu-central-1.prod.hydra.sophos.com
 txnhks2m.stn100yul.ctr.sophos.com
+txps54yw.stn010yul.ctr.sophos.com
 tyo1.ff.labs.sophos.com
 tyo2.ff.labs.sophos.com
 tyo3.ff.labs.sophos.com
@@ -11853,6 +11870,7 @@ wwwradar-sync.reflexion.net
 wwwworigin-tw.sophos.com
 wx-euc1.prod.hydra.sophos.com
 wx-euw1.prod.hydra.sophos.com
+wx-use2.prod.hydra.sophos.com
 wx-usw2.prod.hydra.sophos.com
 wxnpxnzx.cloudstation.eu-west-1.dev.hydra.sophos.com
 wy7achyb.stn010yul.ctr.sophos.com
@@ -13052,12 +13070,14 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 2018-mail-cloudstation-eu-central-1.inf.hydra.sophos.com
 2018.fwcm-ms-demo.cloudstation.eu-west-1.inf.hydra.sophos.com
 2018.v1713vht.cloudstation.eu-west-1.inf.hydra.sophos.com
+2018m2d0m5g5.cloudstation.eu-west-1.inf.hydra.sophos.com
 2018wccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
 2019-api-cloudstation-eu-west-1.inf.hydra.sophos.com
 2019-m92a6ab1.cloudstation.eu-west-1.inf.hydra.sophos.com
 2019-utm.feedback.sophos.com
 2019.account-correlation-cloudhub-eu-west-1.inf.hydra.sophos.com
 2019.dsml-email-eng-v1-app-new-eu-west-1.inf.hydra.sophos.com
+2019email-delivery-cloudstation-eu-west-1.inf.hydra.sophos.com
 2019public-gateway-api-cloudstation-eu-central-1.inf.hydra.sophos.com
 2019.7g5y1qz0.cloudstation.eu-west-1.inf.hydra.sophos.com
 2019.734bfjlr.cloudstation.eu-west-1.inf.hydra.sophos.com
@@ -13067,6 +13087,9 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 2020.api-cloudstation-us-east-1.inf.hydra.sophos.com
 2020.ztna-config.cloudstation.eu-west-1.inf.hydra.sophos.com
 2021.wccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
+2021exclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
+2022-191ms2my.cloudstation.eu-west-1.inf.hydra.sophos.com
+2022-exclusions-manager.cloudstation.eu-west-1.inf.hydra.sophos.com
 2022.dsml-email-eng-v1-app-new-eu-west-1.inf.hydra.sophos.com
 2022.messaging-router-cloudhub-eu-west-1.inf.hydra.sophos.com
 2022.mtr-test-v1-eu-west-1.inf.hydra.sophos.com

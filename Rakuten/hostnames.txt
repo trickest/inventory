@@ -57,11 +57,13 @@ apps.fr.shopping.rakuten.com
 apps.global.rakuten.com
 archive.apps.global.rakuten.com
 articles.fr.shopping.rakuten.com
+artifacts-observability.sixthsense.rakuten.com
 assetsdev-gateway-api.apps.global.rakuten.com
 auth-observability.sixthsense.rakuten.com
 authenticator.account.rakuten.com
 autodiscover.m.rakuten.com
 autodiscover.mail.rakuten.com
+autodiscover.mist.rakuten.com
 autodiscover.rakuten.com
 awsping-serv-ich.apps.global.rakuten.com
 backup-ping-serv-ich.apps.global.rakuten.com
@@ -141,6 +143,7 @@ defaultrmsdk.apps.global.rakuten.com
 demo-dev-gateway-api.apps.global.rakuten.com
 dev-a-ftp.merchantcentral.global.rakuten.com
 dev-api.europe.pay.rakuten.com
+dev-artifacts-observability.sixthsense.rakuten.com
 dev-auth-observability.sixthsense.rakuten.com
 dev-cit-ext.global.rakuten.com
 dev-developers.rakuten.com
@@ -153,6 +156,7 @@ dev-gateway-api.apps.global.rakuten.com
 dev-http-collector-observability.sixthsense.rakuten.com
 dev-infovault-tool.global.rakuten.com
 dev-infovault.global.rakuten.com
+dev-jp-federation-sso.account.rakuten.com
 dev-jp-token-mutual.id.global.rakuten.com
 dev-jp-token.id.global.rakuten.com
 dev-m-ftp.merchantcentral.global.rakuten.com
@@ -196,6 +200,7 @@ downloadsrmsdk.apps.global.rakuten.com
 e.ap.accounts.global.rakuten.com
 e.na.accounts.global.rakuten.com
 east-japan.api.point.global.rakuten.com
+ebates-stg.api.search-suggest.rakuten.com
 ebates.api.search-suggest.rakuten.com
 edi.api.rakuten.com
 editorial.fr.shopping.rakuten.com
@@ -207,10 +212,12 @@ englishrmsdk.apps.global.rakuten.com
 enrmsdk.apps.global.rakuten.com
 enterpriseenrollment.mail.rakuten.com
 enterpriseenrollment.rakuten.com
+enterpriseregistration.mail.rakuten.com
 enterpriseregistration.rakuten.com
 errordev-gateway-api.apps.global.rakuten.com
 ethereal-solutions-llc-jewels.shopmanager.rakuten.com
 etherealdirectdeals.search.borderless.rakuten.com
+eu-lb.accounts.global.rakuten.com
 eu-rmsdk.apps.global.rakuten.com
 eu.account.rakuten.com
 eu.accounts.global.rakuten.com
@@ -233,6 +240,7 @@ external.apps.global.rakuten.com
 extranet-rmsdk.apps.global.rakuten.com
 extranetping-serv-ich.apps.global.rakuten.com
 fbs.origin.rakuten.com
+federation-sso-jp.account.rakuten.com
 federation-sso.account.rakuten.com
 files-rmsdk.apps.global.rakuten.com
 find.payment.global.rakuten.com
@@ -249,6 +257,7 @@ gateway-api.global.gs.rakuten.com
 gateway-api.global.rakuten.com
 gateway-api.golf.gs.rakuten.com
 gateway-api.point-service.global.rakuten.com
+gateway-member.insight.rakuten.com
 gateway.apps.global.rakuten.com
 gatewayping-serv-ich.apps.global.rakuten.com
 gatewayrmsdk.apps.global.rakuten.com
@@ -274,10 +283,12 @@ hostping-serv-ich.apps.global.rakuten.com
 http-collector-observability.sixthsense.rakuten.com
 idrouter-ap-pre.accounts.global.rakuten.com
 idrouter-eu-pre.accounts.global.rakuten.com
+idrouter-eu-prod.accounts.global.rakuten.com
 idrouter-pre.accounts.global.gs.rakuten.com
 idrouter-pre.accounts.global.rakuten.com
 idrouter-prod.accounts.global.gs.rakuten.com
 idrouter-prod.accounts.global.rakuten.com
+idrouter-rid-pre.accounts.global.rakuten.com
 idrouter-rid-prod.accounts.global.rakuten.com
 idrouter-us-pre.accounts.global.rakuten.com
 idrouter-us-prod.accounts.global.rakuten.com
@@ -300,6 +311,7 @@ info-ping-serv-ich.apps.global.rakuten.com
 info.marketing.rakuten.com
 informsdk.apps.global.rakuten.com
 infovault.global.rakuten.com
+ingest.api.geo-platform.global.rakuten.com
 insight.rakuten.com
 internalrmsdk.apps.global.rakuten.com
 intranet-ping-serv-ich.apps.global.rakuten.com
@@ -327,6 +339,7 @@ jumbo-ap-pre.accounts.global.rakuten.com
 jumbo-ap-prod.accounts.global.rakuten.com
 jumbo-pre.accounts.global.rakuten.com
 jumbo-prod.accounts.global.rakuten.com
+jumbo-rid-prod.accounts.global.rakuten.com
 jumbo-us-pre.accounts.global.rakuten.com
 lab-rmsdk.apps.global.rakuten.com
 lbrmsdk.apps.global.rakuten.com
@@ -474,6 +487,7 @@ new-rmsdk.apps.global.rakuten.com
 new-stg.api.rms.global.rakuten.com
 new-travel.rakuten.com
 new2-redirect.global.rakuten.com
+newsletter.fr.shopping.rakuten.com
 newsletter.rakuten.com
 nodermsdk.apps.global.rakuten.com
 ns11.rakuten.com
@@ -489,6 +503,7 @@ old-api-stg.businessportal.global.rakuten.com
 old-api.point.global.rakuten.com
 old-api.travel.rakuten.com
 old-articles.fr.shopping.rakuten.com
+old-bo.fr.shopping.rakuten.com
 old-boext.fr.shopping.rakuten.com
 old-businessportal.global.rakuten.com
 old-consent.accounts.global.rakuten.com
@@ -514,6 +529,7 @@ old-payment-stg.global.rakuten.com
 old-payment.global.rakuten.com
 old-point.rakuten.com
 old-pre-prod.businessportal.global.rakuten.com
+old-prerelease.token-jp.id.global.rakuten.com
 old-preview.fr.shopping.rakuten.com
 old-qa-external-token.id.global.rakuten.com
 old-qa.token.id.global.rakuten.com
@@ -525,6 +541,7 @@ old-rid-prod-us-lb.accounts.global.rakuten.com
 old-rsp.fr.shopping.rakuten.com
 old-s001.tw.ias.global.rakuten.com
 old-sandbox.fr.shopping.rakuten.com
+old-st-external-token.id.global.rakuten.com
 old-st.token.id.global.rakuten.com
 old-stg-feature-preview.login.account.rakuten.com
 old-stg-panel-message-member.insight.rakuten.com
@@ -571,6 +588,7 @@ paymentsrmsdk.apps.global.rakuten.com
 payvault-dev.global.rakuten.com
 payvault-stg.global.rakuten.com
 payvault-tool-user-api.global.rakuten.com
+payvault-tool-user.global.rakuten.com
 payvault.global.rakuten.com
 ping-serv-gen.apps.global.rakuten.com
 ping-serv-ich.apps.global.rakuten.com
@@ -643,9 +661,11 @@ qa-http-collector-observability.sixthsense.rakuten.com
 qa-jp-federation-sso.account.rakuten.com
 qa-jp-token-mutual.id.global.rakuten.com
 qa-jp-token.id.global.rakuten.com
+qa-observability.sixthsense.rakuten.com
 qa-publisher-portal.rmp.rakuten.com
 qa-s-api.rmp.rakuten.com
 qa-s-bid.rmp.rakuten.com
+qa-s-cache.rmp.rakuten.com
 qa-s-cdn.rmp.rakuten.com
 qa-s-clk.rmp.rakuten.com
 qa-s-cs.rmp.rakuten.com
@@ -654,6 +674,7 @@ qa-static.rakuten.com
 qa-token-mutual.id.global.rakuten.com
 qa.go.rakuten.com
 qa.sixthsense.rakuten.com
+qa.social.account.rakuten.com
 qa.token.id.global.rakuten.com
 qa1-static.rakuten.com
 qa1-www.rakuten.com
@@ -784,6 +805,7 @@ st-idrouter.accounts.global.rakuten.com
 st-jp-federation-sso.account.rakuten.com
 st-jp-token-mutual.id.global.rakuten.com
 st-jp-token.id.global.rakuten.com
+st-token-mutual.id.global.rakuten.com
 st.authenticator.account.rakuten.com
 st.social.account.rakuten.com
 stage-rmsdk.apps.global.rakuten.com
@@ -794,6 +816,7 @@ static-editors.fr.shopping.rakuten.com
 static-preview.fr.shopping.rakuten.com
 static.fr.shopping.rakuten.com
 static.rakuten.com
+staticmob.fr.shopping.rakuten.com
 staticrmsdk.apps.global.rakuten.com
 stay.rakuten.com
 stg-akita-api.account.rakuten.com
@@ -805,6 +828,8 @@ stg-api.lite-bot.accounts.global.rakuten.com
 stg-api.lite-deactivate.accounts.global.rakuten.com
 stg-api.point-service.global.rakuten.com
 stg-artifacts-observability.sixthsense.rakuten.com
+stg-auth-observability.sixthsense.rakuten.com
+stg-blacklist.api.global.rakuten.com
 stg-cn-member.insight.rakuten.com
 stg-developers.rakuten.com
 stg-docs.sixthsense.rakuten.com
@@ -823,6 +848,8 @@ stg-http-collector-observability.sixthsense.rakuten.com
 stg-idrouter.accounts.global.rakuten.com
 stg-infovault-tool.global.rakuten.com
 stg-infovault.global.rakuten.com
+stg-ingest.api.geo-platform.global.rakuten.com
+stg-jp-token-mutual.id.global.rakuten.com
 stg-jp-token.id.global.rakuten.com
 stg-jp.admin.baas.global.rakuten.com
 stg-jpe-token.id.global.rakuten.com
@@ -832,6 +859,7 @@ stg-manage.travel.rakuten.com
 stg-mp-admin.businessportal.global.rakuten.com
 stg-observability.sixthsense.rakuten.com
 stg-panel-message-member.insight.rakuten.com
+stg-pay-token.id.global.rakuten.com
 stg-payguard.global.rakuten.com
 stg-payvault-tool-user-api.global.rakuten.com
 stg-payvault-tool-user.global.rakuten.com
@@ -864,11 +892,14 @@ stg-test.authenticator.account.rakuten.com
 stg-test.consent.accounts.global.rakuten.com
 stg-test.jp.account.rakuten.com
 stg-test.login.account.rakuten.com
+stg-token-mutual.id.global.rakuten.com
 stg-travel.rakuten.com
 stg-us.sso.global.rakuten.com
 stg-www.europe.pay.rakuten.com
+stg.api.enterprise.blockchain-lab.rakuten.com
 stg.api.rms.global.rakuten.com
 stg.api.thirdparty.fraudcheck.global.rakuten.com
+stg.api.wallet.blockchain-lab.rakuten.com
 stg.authenticator.account.rakuten.com
 stg.businessportal.global.rakuten.com
 stg.consent.accounts.global.rakuten.com
@@ -876,6 +907,7 @@ stg.gateway-api.global.rakuten.com
 stg.jp.account.rakuten.com
 stg.jp.api.rse.global.rakuten.com
 stg.login.account.rakuten.com
+stg.merchantcentral.global.rakuten.com
 stg.payment.businessportal.global.rakuten.com
 stg.payment.global.rakuten.com
 stg.s001.sandbox.ias.global.rakuten.com
@@ -935,6 +967,7 @@ vcs-exp04.vcon.rakuten.com
 view.card.newsletter.rakuten.com
 view.emails.rakuten.com
 view.marketplace.emails.rakuten.com
+view.newsletter.fr.shopping.rakuten.com
 view.newsletter.rakuten.com
 vpnrmsdk.apps.global.rakuten.com
 vps-rmsdk.apps.global.rakuten.com
@@ -957,3 +990,4 @@ zoro.shopmanager.rakuten.com
 1und1.rcp.symphony.rakuten.com
 1und1.symphony.rakuten.com
 2021dev-gateway-api.apps.global.rakuten.com
+7600066.mail.fr.shopping.rakuten.com

@@ -21,6 +21,7 @@ access.athena.bitdefender.net
 access.oem-central-stage.bitdefender.com
 account.bitdefender.com
 accounts.oem-central-stage.bitdefender.com
+agent-fra-001.kdn.bitdefender.net
 agent-iow-001.kdn.bitdefender.net
 agent-nvi-002.kdn.bitdefender.net
 aip-central.bitdefender.net
@@ -49,6 +50,9 @@ apigw.mdr.bitdefender.com
 apigw.mdrt.bitdefender.com
 app-dev.czt.bitdefender.com
 app-dev.mdrt.bitdefender.com
+app-prod.customerzone.bitdefender.com
+app-prod.mdr.bitdefender.com
+app-stage.czt.bitdefender.com
 app-stage.mdrt.bitdefender.com
 app-test.czt.bitdefender.com
 app-test.mdrt.bitdefender.com
@@ -59,6 +63,7 @@ arca.bitdefender.com
 assets.athena.bitdefender.net
 athena.bitdefender.net
 att-nca-ga-push.bitdefender.net
+att-nca-ga.nimbus.bitdefender.net
 att-nca-push.bitdefender.net
 att-nca.nimbus.bitdefender.net
 att-nvi.nimbus.bitdefender.net
@@ -137,16 +142,20 @@ cloudgz-wbs.gcp.gravityzone.bitdefender.com
 cloudgz-wbs.gravityzone.bitdefender.com
 cloudgz.gcp.gravityzone.bitdefender.com
 cloudgz.gravityzone.bitdefender.com
+cloudirl-ecs.gcp.gravityzone.bitdefender.com
 cloudirl-ecs.gravityzone.bitdefender.com
 cloudirl-wbs-endpoints.gcp.gravityzone.bitdefender.com
 cloudirl-wbs-endpoints.gravityzone.bitdefender.com
+cloudirl-wbs-int.gcp.gravityzone.bitdefender.com
 cloudirl-wbs.gcp.gravityzone.bitdefender.com
+cloudirl-wbs.gravityzone.bitdefender.com
 cloudirl.gcp.gravityzone.bitdefender.com
 cloudirl.gravityzone.bitdefender.com
 cloudjp-ecs.gravityzone.bitdefender.com
 cloudjp-wbs-endpoints.gravityzone.bitdefender.com
 cloudjp-wbs-int.gravityzone.bitdefender.com
 cloudjp-wbs.gravityzone.bitdefender.com
+cloudjp.gravityzone.bitdefender.com
 clueful.bitdefender.net
 clueful.hq.vdc.bitdefender.net
 community.bitdefender.com
@@ -206,6 +215,8 @@ emc.services.bitdefender.com
 enterprise.bitdefender.com
 ents.bitdefender.com
 eu-download.cdn.bitdefender.net
+eu-irl-lurker-input.gcp.gravityzone.bitdefender.com
+eu-irl-lurker-input.gravityzone.bitdefender.com
 eu-lurker-input.gcp.gravityzone.bitdefender.com
 eu-lurker-input.gravityzone.bitdefender.com
 eu-tc.gcp.gravityzone.bitdefender.com
@@ -233,9 +244,13 @@ forum.bitdefender.com
 fra-dns.bitdefender.net
 frams.bitdefender.com
 free.bitdefender.com
+frontproxy-stg.bmdrt.bitdefender.com
+frontproxy.bmdr.bitdefender.com
 frontproxy.bmdrt.bitdefender.com
 ftp.bbu.gts.bitdefender.net
 ftp.rbx.ovh.bitdefender.net
+ftp.wdc.slr.bitdefender.net
+ftp.wdc1.vdc.bitdefender.net
 ftp1.wdc1.vdc.bitdefender.net
 ftp2.bbu.gts.bitdefender.net
 ftp2.wdc1.vdc.bitdefender.net
@@ -256,6 +271,7 @@ helpgz.bitdefender.com
 hive3.bitdefender.com
 hive4.wdc1.slr.bitdefender.net
 hive5.wdc1.slr.bitdefender.net
+horizon.buh.gts.bitdefender.net
 hotforsecurity.bitdefender.com
 hq.nimbus.bitdefender.net
 https-pt-m-wikipedia-org6-7.bitdefender.net
@@ -279,6 +295,8 @@ it-logstash-bbu-gts-dmz.bitdefender.net
 ivanti-60013e4c-1d97-4269-b5b7-625530f25c30.2d7dd.cdn.bitdefender.net
 jenkins.athena.bitdefender.net
 jina.bitdefender.com
+jp-irl-lurker-input.gcp.gravityzone.bitdefender.com
+jp-lurker-input.gravityzone.bitdefender.com
 karma.bitdefender.net
 kb.bitdefender.com
 kubernetes.default.svc.mcr.bitdefender.net
@@ -297,6 +315,7 @@ lon-dns.bitdefender.net
 lsems.gravityzone.bitdefender.com
 lv2-lb.bitdefender.com
 lv2.bitdefender.com
+lv2.gravityzone.bitdefender.com
 lyncdiscover.bitdefender.com
 m.bitdefender.com
 mail.bitdefender.com
@@ -316,8 +335,14 @@ mirror.bitdefender.com
 misp-feed.bitdefender.com
 mobicomapi.bitdefender.com
 mogabi.bitdefender.com
+moon-eu.bmdr.bitdefender.com
+moon-eu.bmdrt.bitdefender.com
+moon-stg.bmdrt.bitdefender.com
 moon-us.bmdr.bitdefender.com
 moon.customerzone.bitdefender.com
+moon.czt.bitdefender.com
+msft-tenants.bmdr.bitdefender.com
+msft-tenants.bmdrt.bitdefender.com
 msp.bitdefender.com
 mx-alpha.bitdefender.com
 mx-beta.bitdefender.net
@@ -374,6 +399,7 @@ onpremises.gravityzone.bitdefender.com
 orangefr-central.bitdefender.net
 orangenimbus-02.bbu.gts.bitdefender.net
 orangenimbus.bbu.dsd.bitdefender.net
+orangenimbus.bbu.gts.bitdefender.net
 orangesecurity.bbu.dsd.bitdefender.net
 orangesecurity.bbu.gts.bitdefender.net
 orbit.io.bitdefender.com
@@ -388,6 +414,7 @@ pan.bitdefender.com
 parentaladvisor.bitdefender.com
 part1.hq.cog.vdc.bitdefender.net
 part1.hq.vdc.bitdefender.net
+part2.hq.cog.vdc.bitdefender.net
 part2.hq.vdc.bitdefender.net
 partner-marketing.bitdefender.com
 partners-lb.bitdefender.com
@@ -403,7 +430,9 @@ preferences.oem-central-stage.bitdefender.com
 prometheus-eu.bmdr.bitdefender.com
 prometheus-eu.bmdrt.bitdefender.com
 prometheus-stg.bmdr.bitdefender.com
+prometheus-stg.bmdrt.bitdefender.com
 prometheus-us.bmdr.bitdefender.com
+prometheus.mdrt.bitdefender.com
 public.customerzone.bitdefender.com
 public.czt.bitdefender.com
 push-hello.bitdefender.com
@@ -439,6 +468,8 @@ sales-edr.gravityzone.bitdefender.com
 sales.bitdefender.com
 sampleupload.bitdefender.com
 sandbox-portal-eu-gcp.gravityzone.bitdefender.com
+sandbox-portal-eu.gravityzone.bitdefender.com
+sandbox-portal-stg-gcp.gravityzone.bitdefender.com
 sandbox-portal-us-gcp.gravityzone.bitdefender.com
 sandbox-portal-us.gravityzone.bitdefender.com
 sandbox-portal.gravityzone.bitdefender.com
@@ -487,7 +518,9 @@ speartip-576538bd-75b2-421e-a67e-fd2072c9acfa.2d7dd.cdn.bitdefender.net
 ss-ap-northeast-1-lb.cloud.bitdefender.net
 ss-ap-northeast-1.cloud.bitdefender.net
 ss-ap-south-1-lb.cloud.bitdefender.net
+ss-ap-south-1.cloud.bitdefender.net
 ss-ap-southeast-1-lb.cloud.bitdefender.net
+ss-ap-southeast-1.cloud.bitdefender.net
 ss-ap-southeast-2-lb.cloud.bitdefender.net
 ss-ap-southeast-2.cloud.bitdefender.net
 ss-ca-central-1-lb.cloud.bitdefender.net
@@ -499,11 +532,15 @@ ss-eu-west-1.cloud.bitdefender.net
 ss-eu-west-2.cloud.bitdefender.net
 ss-eu-west-3-lb.cloud.bitdefender.net
 ss-eu-west-3.cloud.bitdefender.net
+ss-sa-east-1-lb.cloud.bitdefender.net
 ss-sa-east-1.cloud.bitdefender.net
 ss-us-east-1-lb.cloud.bitdefender.net
+ss-us-east-2-lb.cloud.bitdefender.net
 ss-us-east-2.cloud.bitdefender.net
 ss-us-west-1-lb.cloud.bitdefender.net
 ss-us-west-1.cloud.bitdefender.net
+ss-us-west-2-lb.cloud.bitdefender.net
+ss-us-west-2.cloud.bitdefender.net
 ssems.gravityzone.bitdefender.com
 sstats.bitdefender.com
 stage-tcomapi.bitdefender.com
@@ -552,6 +589,7 @@ unices.bitdefender.com
 update-cloud.2d585.cdn.bitdefender.net
 update-lb.bitdefender.com
 update-onprem.2d585.cdn.bitdefender.net
+update-relay.internal.2d585.cdn.bitdefender.net
 update-solarwinds-mav.2d585.cdn.bitdefender.net
 update-solarwinds.2d585.cdn.bitdefender.net
 update.bitdefender.com
@@ -565,6 +603,7 @@ upgr-midgress-22.fra.htz.bitdefender.net
 upgr-midgress-23.fra.htz.bitdefender.net
 upgr-midgress-24.fra.htz.bitdefender.net
 upgr-mmxiii-p-rgr.bitdefender.net
+upgr-mmxiii-p-rp.bitdefender.net
 upgr-mmxiii-p-rpqc.bitdefender.net
 upgr-mmxiii-p.cdn.bitdefender.net
 upgr-mmxiii-rgr.bitdefender.net
@@ -580,6 +619,7 @@ upgr-mmxv.cdn.bitdefender.net
 upgr-mmxvi-p.cdn.bitdefender.net
 upgr-mmxvi.cdn.bitdefender.net
 upgr-mmxvii-cl-av.2d8cd.cdn.bitdefender.net
+upgr-mmxvii-cl-is.2d8cd.cdn.bitdefender.net
 upgr-mmxvii-cl-ts-p.2d8cd.cdn.bitdefender.net
 upgr-mmxvii-cl-ts.2d8cd.cdn.bitdefender.net
 upgr-mmxvii-pc.2d8cd.cdn.bitdefender.net
@@ -660,3 +700,5 @@ zemana-2a56bdb2-17ce-4b85-b8f5-f756f21d8121.2d7dd.cdn.bitdefender.net
 4.bitdefender.com
 15.bitdefender.com
 149.bitdefender.com
+2019vpn.athena.bitdefender.net
+2020-vpn.athena.bitdefender.net
