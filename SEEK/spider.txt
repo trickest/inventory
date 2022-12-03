@@ -39,6 +39,7 @@ https://app.certsy.com/static/js/main.b8488afb.js
 https://app.certsy.com/static/js/main.d06cfd15.js
 https://app.certsy.com/static/js/main.d298d150.js
 https://app.certsy.com/static/js/main.d522e903.js
+https://app.certsy.com/static/js/main.d8b35996.js
 https://app.certsy.com/static/js/main.e340be70.js
 https://app.certsy.com/static/js/main.f4b31f70.js
 https://app.certsy.com/static/js/main.fa1f95a6.js
@@ -137,6 +138,7 @@ https://app.certsynonprod.com/static/js/main.20b7c00c.js
 https://app.certsynonprod.com/static/js/main.32bbd5b5.js
 https://app.certsynonprod.com/static/js/main.42fe7540.js
 https://app.certsynonprod.com/static/js/main.4b98964f.js
+https://app.certsynonprod.com/static/js/main.51678546.js
 https://app.certsynonprod.com/static/js/main.5f1b5e51.js
 https://app.certsynonprod.com/static/js/main.c21850ed.js
 https://app.certsynonprod.com/static/js/main.d25295a5.js
@@ -810,10 +812,15 @@ https://developer.seek.com/graphql/playground/mock-objects#webhook-subscriptions
 https://developer.seek.com/graphql/seek-api-conventions
 https://developer.seek.com/graphql/seek-api-conventions#cursor-based-pagination
 https://developer.seek.com/graphql/seek-api-conventions#enums-and-code-lists
+https://developer.seek.com/graphql/seek-api-conventions#event-polling
+https://developer.seek.com/graphql/seek-api-conventions#http-request-batching
 https://developer.seek.com/graphql/seek-api-conventions#mutation-conflicts
 https://developer.seek.com/graphql/seek-api-conventions#object-identifiers
+https://developer.seek.com/graphql/seek-api-conventions#operation-complexity
 https://developer.seek.com/graphql/seek-api-conventions#request-limits
 https://developer.seek.com/graphql/seek-api-conventions#scheme-identifiers
+https://developer.seek.com/graphql/seek-api-conventions#string-lengths
+https://developer.seek.com/graphql/seek-api-conventions#text-encoding
 https://developer.seek.com/introduction
 https://developer.seek.com/introduction#multi-market-support
 https://developer.seek.com/introduction#technology
@@ -852,6 +859,7 @@ https://developer.seek.com/introduction/release-notes#positionprofileclosed-even
 https://developer.seek.com/introduction/release-notes#postedpositionprofileseekcreatedbyselfindicator-field
 https://developer.seek.com/introduction/release-notes#profile-apply
 https://developer.seek.com/introduction/release-notes#profile-apply-extensions
+https://developer.seek.com/introduction/release-notes#relaxed-string-length-limits
 https://developer.seek.com/introduction/release-notes#replay-events-prior-to-subscription
 https://developer.seek.com/introduction/release-notes#replay-webhook-subscriptions
 https://developer.seek.com/introduction/release-notes#self-query
@@ -986,6 +994,7 @@ https://developer.seek.com/schema/#/named-type/CreateWebhookSubscription_Subscri
 https://developer.seek.com/schema/#/named-type/CreateWebhookSubscription_SubscriptionInput/field/schemeId
 https://developer.seek.com/schema/#/named-type/CreateWebhookSubscription_SubscriptionInput/field/signingAlgorithmCode
 https://developer.seek.com/schema/#/named-type/CurrencyMinorUnit
+https://developer.seek.com/schema/#/named-type/EmailInput/field/address
 https://developer.seek.com/schema/#/named-type/Event
 https://developer.seek.com/schema/#/named-type/EventsFilterInput/field/subscriptionId
 https://developer.seek.com/schema/#/named-type/HiringOrganization
@@ -1096,6 +1105,7 @@ https://developer.seek.com/schema/static/7-405a298eeae8534a4187.js
 https://developer.seek.com/schema/static/757-24704551065fd89eb0ea.js
 https://developer.seek.com/schema/static/757-fe62fc6de2584a7865ec.js
 https://developer.seek.com/schema/static/992-268b4eeb90d4c75a830f.js
+https://developer.seek.com/schema/static/992-80f786763524109d9d60.js
 https://developer.seek.com/schema/static/992-cabe226d486a702f4536.js
 https://developer.seek.com/schema/static/main-448d2219d029b9571d34.js
 https://developer.seek.com/schema/static/main-67908078ecff85e6e043.js
@@ -1122,6 +1132,7 @@ https://developer.seek.com/static/838-1183b457c69dd138642a.js
 https://developer.seek.com/static/891-6afb550deaa82ea9be36.js
 https://developer.seek.com/static/891-9295fc2f552a15c722f8.js
 https://developer.seek.com/static/94-0886960de4442cd75f11.js
+https://developer.seek.com/static/94-86a4f1204f367128339e.js
 https://developer.seek.com/static/a9db28cf9e5b2a9fb9b3ab8dc3d8504d.pdf
 https://developer.seek.com/static/e25622c3ee540a9a427ae6b3bb0ec00f.fig
 https://developer.seek.com/static/main-000d534ef884861e0ac0.js
@@ -1136,6 +1147,7 @@ https://developer.seek.com/static/main-6832d027aff765f6562a.js
 https://developer.seek.com/static/main-7133d1c43924bd98334e.js
 https://developer.seek.com/static/main-956cf2fb4ed46fe0bb48.js
 https://developer.seek.com/static/main-a4e14114bf8b91fcd045.js
+https://developer.seek.com/static/main-acbabd2b07f9cb320816.js
 https://developer.seek.com/static/main-beb08fbd4d5062397f07.js
 https://developer.seek.com/static/main-c55f37c136c3ee606fda.js
 https://developer.seek.com/static/main-fc36611331fd1bb0a80b.js
@@ -1144,6 +1156,7 @@ https://developer.seek.com/static/runtime-67ca166227336971dda4.js
 https://developer.seek.com/static/runtime-8858dc659e811d231a93.js
 https://developer.seek.com/static/runtime-98bf7728cf99f57f63ad.js
 https://developer.seek.com/static/runtime-9cdacf7aae851353558b.js
+https://developer.seek.com/static/runtime-aa9ba8799a41432fd51b.js
 https://developer.seek.com/static/runtime-c08e7e57fe70a77001b6.js
 https://developer.seek.com/use-cases/application-export
 https://developer.seek.com/use-cases/application-export#implementation-options
@@ -1412,6 +1425,7 @@ https://devportal.seek.com.au/static/vendors~main-388e6e7e49428dd26de9.js
 https://devportal.seek.com.au/static/vendors~main-44bb4e2d245c9f192ebe.js
 https://devportal.seek.com.au/static/vendors~main-5c7ee0ba20498ff88870.js
 https://devportal.seek.com.au/static/vendors~main-73c7508e975aaece002d.js
+https://devportal.seek.com.au/static/vendors~main-b5f2fc4e761960c3ce2d.js
 https://devportal.seek.com.au/terms/apply-with-seek
 https://devportal.seek.com.au/terms/overview
 https://devportal.seek.com.au/terms/overview/
@@ -1597,6 +1611,7 @@ https://manage.developer.seek.com/static/main-5b7363be4afa5cd5186b.js
 https://manage.developer.seek.com/static/main-6bc6949f215fb41e523d.js
 https://manage.developer.seek.com/static/main-711f5c89aa32c977c40b.js
 https://manage.developer.seek.com/static/main-907c4a61c7fdaba2bf74.js
+https://manage.developer.seek.com/static/main-92ddbdd933f3ce45ee0d.js
 https://manage.developer.seek.com/static/main-a694ce221a8f729d3084.js
 https://manage.developer.seek.com/static/main-c08926428b047b1dd712.js
 https://manage.developer.seek.com/static/main-c1c36c3ef02cfb64e2f0.js
@@ -1629,6 +1644,7 @@ https://manage.developer.staging.seek.com/static/main-5b7363be4afa5cd5186b.js
 https://manage.developer.staging.seek.com/static/main-6bc6949f215fb41e523d.js
 https://manage.developer.staging.seek.com/static/main-711f5c89aa32c977c40b.js
 https://manage.developer.staging.seek.com/static/main-907c4a61c7fdaba2bf74.js
+https://manage.developer.staging.seek.com/static/main-92ddbdd933f3ce45ee0d.js
 https://manage.developer.staging.seek.com/static/main-a694ce221a8f729d3084.js
 https://manage.developer.staging.seek.com/static/main-c08926428b047b1dd712.js
 https://manage.developer.staging.seek.com/static/main-c1c36c3ef02cfb64e2f0.js
@@ -1754,9 +1770,11 @@ https://talent.seek.com.au/static/hirer-product-purchase-ui/280-9585583340f48228
 https://talent.seek.com.au/static/hirer-product-purchase-ui/280-c205f5c647c933d48d94.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/280-d97ec5cd29fe93a2ab6d.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/532-0ce86f9ce12f115f21ea.js
+https://talent.seek.com.au/static/hirer-product-purchase-ui/990-db0180adec00fcd0fc6c.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/en-translations-14e761fbb88d3c5cdc7d.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/en-translations-525e3ee48d2ed93b88ce.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/main-9038ae3094362600e872.js
+https://talent.seek.com.au/static/hirer-product-purchase-ui/main-9d61735892be65361d35.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/main-a0614eb5ec82fad09add.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/main-fd78f88f99de2a61f1d9.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/runtime-342366456dd556bd320c.js
@@ -1902,9 +1920,11 @@ https://talent.seek.com.au:8443/static/hirer-jobs-list/runtime-15630d6bb26b7d062
 https://talent.seek.com.au:8443/static/hirer-jobs-list/runtime-87bb16dac0838b1b0ca7.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/280-853d69ba108251bb9d1c.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/532-0ce86f9ce12f115f21ea.js
+https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/990-db0180adec00fcd0fc6c.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/en-translations-14e761fbb88d3c5cdc7d.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/en-translations-525e3ee48d2ed93b88ce.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/main-9038ae3094362600e872.js
+https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/main-9d61735892be65361d35.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/main-a0614eb5ec82fad09add.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/runtime-342366456dd556bd320c.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/runtime-a12f5531af6cad63385a.js
@@ -1965,6 +1985,7 @@ https://talentsearch.seek.com.au/runtime-2edb05af7a5005e5b104.js
 https://talentsearch.seek.com.au/runtime-883b6c9aa7abc0a0cc09.js
 https://talentsearch.seek.com.au/runtime-c403b418e028153565a3.js
 https://talentsearch.seek.com.au/runtime-c69f47a1313f7024c7d3.js
+https://talentsearch.seek.com.au/runtime-de630a6bb3ce02ea350a.js
 https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.seek.com.au%2Fdetail%2Fvideos%2Ffeatured-videos%3A%2Fvideo%2F6108989314001%2Fseek-small-change-%257C-the-power-of-workplace-giving&via=@seekjobs&related=@seekjobs
 https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.seek.com.au%2Fdetail%2Fvideos%2Ffeatured-videos%3A%2Fvideo%2F6147292205001%2Fseek-code-like-a-girl-%257C-code-your-own-way&via=@seekjobs&related=@seekjobs
 https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.seek.com.au%2Fdetail%2Fvideos%2Ffeatured-videos%3A%2Fvideo%2F6156522555001%2Fseek-volunteer-%257C-thank-you&via=@seekjobs&related=@seekjobs
@@ -2451,6 +2472,7 @@ https://devportal.seek.com.au/static/vendors~main-388e6e7e49428dd26de9.js
 https://devportal.seek.com.au/static/vendors~main-44bb4e2d245c9f192ebe.js
 https://devportal.seek.com.au/static/vendors~main-5c7ee0ba20498ff88870.js
 https://devportal.seek.com.au/static/vendors~main-73c7508e975aaece002d.js
+https://devportal.seek.com.au/static/vendors~main-b5f2fc4e761960c3ce2d.js
 https://devportal.seek.com.au/terms/apply-with-seek
 https://devportal.seek.com.au/terms/overview
 https://devportal.seek.com.au/terms/overview/
@@ -2600,9 +2622,11 @@ https://talent.seek.com.au/static/hirer-product-purchase-ui/280-9585583340f48228
 https://talent.seek.com.au/static/hirer-product-purchase-ui/280-c205f5c647c933d48d94.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/280-d97ec5cd29fe93a2ab6d.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/532-0ce86f9ce12f115f21ea.js
+https://talent.seek.com.au/static/hirer-product-purchase-ui/990-db0180adec00fcd0fc6c.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/en-translations-14e761fbb88d3c5cdc7d.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/en-translations-525e3ee48d2ed93b88ce.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/main-9038ae3094362600e872.js
+https://talent.seek.com.au/static/hirer-product-purchase-ui/main-9d61735892be65361d35.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/main-a0614eb5ec82fad09add.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/main-fd78f88f99de2a61f1d9.js
 https://talent.seek.com.au/static/hirer-product-purchase-ui/runtime-342366456dd556bd320c.js
@@ -2748,9 +2772,11 @@ https://talent.seek.com.au:8443/static/hirer-jobs-list/runtime-15630d6bb26b7d062
 https://talent.seek.com.au:8443/static/hirer-jobs-list/runtime-87bb16dac0838b1b0ca7.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/280-853d69ba108251bb9d1c.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/532-0ce86f9ce12f115f21ea.js
+https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/990-db0180adec00fcd0fc6c.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/en-translations-14e761fbb88d3c5cdc7d.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/en-translations-525e3ee48d2ed93b88ce.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/main-9038ae3094362600e872.js
+https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/main-9d61735892be65361d35.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/main-a0614eb5ec82fad09add.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/runtime-342366456dd556bd320c.js
 https://talent.seek.com.au:8443/static/hirer-product-purchase-ui/runtime-a12f5531af6cad63385a.js
@@ -2811,6 +2837,7 @@ https://talentsearch.seek.com.au/runtime-2edb05af7a5005e5b104.js
 https://talentsearch.seek.com.au/runtime-883b6c9aa7abc0a0cc09.js
 https://talentsearch.seek.com.au/runtime-c403b418e028153565a3.js
 https://talentsearch.seek.com.au/runtime-c69f47a1313f7024c7d3.js
+https://talentsearch.seek.com.au/runtime-de630a6bb3ce02ea350a.js
 https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.seek.com.au%2Fdetail%2Fvideos%2Ffeatured-videos%3A%2Fvideo%2F6108989314001%2Fseek-small-change-%257C-the-power-of-workplace-giving&via=@seekjobs&related=@seekjobs
 https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.seek.com.au%2Fdetail%2Fvideos%2Ffeatured-videos%3A%2Fvideo%2F6147292205001%2Fseek-code-like-a-girl-%257C-code-your-own-way&via=@seekjobs&related=@seekjobs
 https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.seek.com.au%2Fdetail%2Fvideos%2Ffeatured-videos%3A%2Fvideo%2F6156522555001%2Fseek-volunteer-%257C-thank-you&via=@seekjobs&related=@seekjobs
