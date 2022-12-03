@@ -10,6 +10,10 @@ a.111022311.eu-fr2.e2e.certificate-manager.test.cloud.ibm.com
 a.111022313.us-east.e2e.certificate-manager.test.cloud.ibm.com
 a.111022314.eu-de.e2e.certificate-manager.test.cloud.ibm.com
 a.11102233.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
+a.11222311.au-syd.e2e.certificate-manager.test.cloud.ibm.com
+a.11222311.eu-de.e2e.certificate-manager.test.cloud.ibm.com
+a.11222311.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
+a.11222311.us-east.e2e.certificate-manager.test.cloud.ibm.com
 a.1332036.eu-de.e2e.certificate-manager.test.cloud.ibm.com
 a.1332037.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
 a.1332038.preprod.e2e.certificate-manager.test.cloud.ibm.com
@@ -287,6 +291,7 @@ account-broker-lon05.testsvcs.cloud5.ibm.com
 account-ec-services.test.yourlearning.ibm.com
 account-ftp.sandbox.maximomro.ibmiot.ibm.com
 account-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
+account-uats.whi.imaging.watson-health.ibm.com
 account-webmail.messaging.dal13-1.wiotp.sl.hursley.ibm.com
 account.cloud.mgapp.ibm.com
 account.kafka.svc10.us-south.eventstreams.cloud.ibm.com
@@ -413,6 +418,7 @@ adminns10.whi.imaging.watson-health.ibm.com
 adminorion.eu-de.devops.cloud.ibm.com
 adminprivate.mon01.devops.cloud.ibm.com
 adminuats-staging.whi.imaging.watson-health.ibm.com
+adminuats.whi.imaging.watson-health.ibm.com
 advantage.ibm.com
 advisemob.austin.ibm.com
 advitsvc.cloud.mgapp.ibm.com
@@ -479,6 +485,7 @@ alme3.almaden.ibm.com
 alpha-a93e5454-lp-omega.ums.services.video.ibm.com
 alpha-a93e5457-lp-omega.ums.services.video.ibm.com
 alpha-api.eu-gb.cf.cloud.ibm.com
+alpha-api.par01-prd.k8s.sec.ibm.com
 alpha-asp.whi.imaging.watson-health.ibm.com
 alpha-blue-stage.support.w3.cloud.ibm.com
 alpha-broker-lon05.testsvcs.cloud5.ibm.com
@@ -751,6 +758,7 @@ api-stage.managed-solutions.cloud.ibm.com
 api-stage.supply-chain.ibm.com
 api-test.managed-solutions.cloud.ibm.com
 api-test.rmc.test.cloud.ibm.com
+api-uats.whi.imaging.watson-health.ibm.com
 api-wdc.dns-svcs.test.cloud.ibm.com
 api-wdc.sec.ibm.com
 api-wdc04.testsvcs.cloud2.ibm.com
@@ -1408,6 +1416,7 @@ api.wdc03-prd-ocp-01.cl.sec.ibm.com
 api2.eu-gb.logging.cloud.ibm.com
 api2.us-south.logging.test.cloud.ibm.com
 apiapi.eu-gb.cf.test.cloud.ibm.com
+apiasp.whi.imaging.watson-health.ibm.com
 apiblue-stage.support.w3.cloud.ibm.com
 apicdn-internal.beta.insights.ibm.com
 apicdn-internal.dev.insights.ibm.com
@@ -1664,6 +1673,7 @@ assets.us-south.logging.cloud.ibm.com
 assets.us-south.logging.test.cloud.ibm.com
 assets.w3.insights.ibm.com
 assets2.accelerator.ibm.com
+assetsapi.par01-prd.k8s.sec.ibm.com
 assetsasp.whi.imaging.watson-health.ibm.com
 assetsdemo-dal12.ace.ibm.com
 assetsdemo-dal13.ace.ibm.com
@@ -3050,6 +3060,7 @@ auth-beta.insights.ibm.com
 auth-broker-lon04.testsvcs.cloud2.ibm.com
 auth-dashboard.support.w3.cloud.ibm.com
 auth-ec-services.test.yourlearning.ibm.com
+auth-eu-gb-lon04.ace.ibm.com
 auth-ext-lb.edst.ibm.com
 auth-git.eu-de-bluemix-net.devops.cloud.ibm.com
 auth-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -3075,6 +3086,7 @@ auth.cloudpak.security.ibm.com
 auth.de.quantum-computing.ibm.com
 auth.dev-de.quantum-computing.ibm.com
 auth.dynamicpricing.ibm.com
+auth.falcon-staging-remote-gw.apic.test.cloud.ibm.com
 auth.jet.ace.ibm.com
 auth.kafka.svc10.us-south.eventstreams.cloud.ibm.com
 auth.mas.wiotp.sl.hursley.ibm.com
@@ -3321,6 +3333,7 @@ beta.clinicaldevelopment.ibm.com
 beta.console.ap-north.apiconnect.cloud.ibm.com
 beta.dev-ce-bcdr.codeengine.dev.cloud.ibm.com
 beta.dynamicpricing.ibm.com
+beta.falcon-staging-remote-gw.apic.test.cloud.ibm.com
 beta.insights.ibm.com
 beta.jp-osa.devops.cloud.ibm.com
 beta.kafka.svc02.us-east.eventstreams.cloud.ibm.com
@@ -4955,6 +4968,7 @@ concourse3.sl1374195.sl.edst.ibm.com
 conductor.ibm.com
 config-a92ccb5b-lp-omega.ums.services.video.ibm.com
 config-api.testsvcs.cloud3.ibm.com
+config-api.us-south.cf.cloud.ibm.com
 config-blue-stage.support.w3.cloud.ibm.com
 config-dashboard.support.w3.cloud.ibm.com
 config-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -4998,12 +5012,14 @@ confluence-private.mon01.devops.cloud.ibm.com
 confluence-test.wce.ibm.com
 confluence-testdr.wce.ibm.com
 confluence-uaa.eu-gb.cf.test.cloud.ibm.com
+confluence-uats.whi.imaging.watson-health.ibm.com
 confluence.a93e5452-lp-omega.ums.services.video.ibm.com
 confluence.cloud.cmas.ibm.com
 confluence.cloud.mgapp.ibm.com
 confluence.csirt.ibm.com
 confluence.jp-osa.devops.cloud.ibm.com
 confluence.wce.ibm.com
+confluenceapi.dev29.us-south.mdm.dev.watson.cloud.ibm.com
 confluenceasp.whi.imaging.watson-health.ibm.com
 confluenceblue-stage.support.w3.cloud.ibm.com
 confluencekafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -5206,6 +5222,7 @@ crm.clientvantage.ibm.com
 crm.debater.res.ibm.com
 crm.dynamicpricing.ibm.com
 crmblue-stage.support.w3.cloud.ibm.com
+cros.watson.ibm.com
 crowdtest.us-south.proxy.serviceendpoint.test.cloud.ibm.com
 crt-event-ingest.services.video.ibm.com
 cs-aas-3.sdad.sl.edst.ibm.com
@@ -5521,6 +5538,7 @@ dal09-dev-agg-01b.sec.ibm.com
 dal09-dev-aiscratch-01a.sec.ibm.com
 dal09-dev-ansgal-01a.sec.ibm.com
 dal09-dev-anshub-01a.sec.ibm.com
+dal09-dev-anstst-01a.sec.ibm.com
 dal09-dev-aurahap-01a.sec.ibm.com
 dal09-dev-aurahap-01b.sec.ibm.com
 dal09-dev-bastion-01a.sec.ibm.com
@@ -5793,6 +5811,7 @@ dba.ideas.ibm.com
 dbbeta.ums.services.video.ibm.com
 dbblue-stage.support.w3.cloud.ibm.com
 dbgddpedgenodebm01.podc.sl.edst.ibm.com
+dbms-asp.whi.imaging.watson-health.ibm.com
 dbms-blue-stage.support.w3.cloud.ibm.com
 dbms-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 dbms.kafka.svc10.us-south.eventstreams.cloud.ibm.com
@@ -6141,6 +6160,7 @@ debug-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 debug-mail.cn.cloudidentity.ibm.com
 debug-ns10.whi.imaging.watson-health.ibm.com
 debug.kafka.svc10.us-south.eventstreams.cloud.ibm.com
+debugapi.au-syd.cf.cloud.ibm.com
 debugblue-stage.support.w3.cloud.ibm.com
 debugkafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 debugmail.cn.cloudidentity.ibm.com
@@ -6327,6 +6347,7 @@ dev-de.quantum-computing.ibm.com
 dev-demo-dal12.ace.ibm.com
 dev-elkjop.ca.analytics.ibm.com
 dev-isolation.codeengine.dev.cloud.ibm.com
+dev-kafka.svc01.br-sao.eventstreams.cloud.ibm.com
 dev-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 dev-mail.cn.cloudidentity.ibm.com
 dev-pam.sec.ibm.com
@@ -8622,6 +8643,7 @@ el01.podc.sl.edst.ibm.com
 el02.podc.sl.edst.ibm.com
 el03.podc.sl.edst.ibm.com
 el04.podc.sl.edst.ibm.com
+elasticbeanstalk-asp.whi.imaging.watson-health.ibm.com
 elasticbeanstalk-blue-stage.support.w3.cloud.ibm.com
 elasticbeanstalk-dashboard.support.w3.cloud.ibm.com
 elasticbeanstalk-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -8702,6 +8724,7 @@ error-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 error.blog-a92ccb29-lp-live.ums.services.video.ibm.com
 error.kafka.svc10.us-south.eventstreams.cloud.ibm.com
 error.rxn.res.ibm.com
+errorasp.whi.imaging.watson-health.ibm.com
 errorblue-stage.support.w3.cloud.ibm.com
 errorengineering.uats-staging.us.imaging.watson-health.ibm.com
 errorkafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -8907,6 +8930,7 @@ eu-gb.language-translator.watson.cloud.ibm.com
 eu-gb.machine-learning.ibm.com
 eu-gb.metrics-router.dev.cloud.ibm.com
 eu-gb.ml.cloud.ibm.com
+eu-gb.monitoring-reg.test.cloud.ibm.com
 eu-gb.monitoring.cloud.ibm.com
 eu-gb.monitoring.test.cloud.ibm.com
 eu-gb.mq.cloud.ibm.com
@@ -10471,6 +10495,7 @@ giaswebportal.austin.ibm.com
 gigya.ibm.com
 giswww.pok.ibm.com
 git.eu-de-bluemix-net.devops.cloud.ibm.com
+git.eu-gb-bluemix-net.devops.cloud.ibm.com
 git.kafka.svc02.us-east.eventstreams.cloud.ibm.com
 git.ng-bluemix-net.devops.cloud.ibm.com
 git.time.ibm.com
@@ -11335,6 +11360,7 @@ ingest-sysdigr-dev-poc.monitoring-reg.dev.cloud.ibm.com
 ingest.au-syd.monitoring.cloud.ibm.com
 ingest.eu-de.monitoring.cloud.ibm.com
 ingest.eu-fr2.monitoring.cloud.ibm.com
+ingest.eu-gb.monitoring-reg.test.cloud.ibm.com
 ingest.eu-gb.monitoring.cloud.ibm.com
 ingest.eu-gb.monitoring.test.cloud.ibm.com
 ingest.jp-osa.dev.sysdig-secure.test.cloud.ibm.com
@@ -11342,6 +11368,7 @@ ingest.jp-tok.dev.monitoring.test.cloud.ibm.com
 ingest.jp-tok.dev.sysdig-secure.test.cloud.ibm.com
 ingest.jp-tok.monitoring.cloud.ibm.com
 ingest.mon-dev-01.monitoring-reg.dev.cloud.ibm.com
+ingest.mon-dev-03.monitoring-reg.dev.cloud.ibm.com
 ingest.private.au-syd.atracker.cloud.ibm.com
 ingest.private.au-syd.atracker.dev.cloud.ibm.com
 ingest.private.au-syd.monitoring.cloud.ibm.com
@@ -11760,6 +11787,7 @@ internal.us-east.containers.cloud.ibm.com
 internal.us-south.containers.cloud.ibm.com
 internalapi.serviceendpoint.cloud.ibm.com
 internalapi.serviceendpoint.test.cloud.ibm.com
+internalasp.whi.imaging.watson-health.ibm.com
 internaldashboard.support.w3.cloud.ibm.com
 internalelkjop.ca.analytics.ibm.com
 internalkafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -11945,6 +11973,7 @@ jenkins-asp.whi.imaging.watson-health.ibm.com
 jenkins-bastion.bastionx.cloud.ibm.com
 jenkins-blue-stage.support.w3.cloud.ibm.com
 jenkins-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
+jenkins-ns10.whi.imaging.watson-health.ibm.com
 jenkins-redhat-slave1.vpnaasdev.cloud.ibm.com
 jenkins.console.test.cloud.ibm.com
 jenkins.eu.maximomro.ibmiot.ibm.com
@@ -11955,6 +11984,7 @@ jenkinsblue-stage.support.w3.cloud.ibm.com
 jenkinskafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 jenkinsmail.cn.cloudidentity.ibm.com
 jenkinsuats-staging.whi.imaging.watson-health.ibm.com
+jenkinsuats.whi.imaging.watson-health.ibm.com
 jet-dal12.ace.ibm.com
 jet-dal13.ace.ibm.com
 jet.ace.ibm.com
@@ -12963,6 +12993,7 @@ logs-console-staging06.stage.qradar.ibm.com
 logs-console-win01.dev.qradar.ibm.com
 logs-devtest-dal13.ace.ibm.com
 logs-edgy-dg-console.dev.qradar.ibm.com
+logs-edgy-liquid03-con-vm.dev.qradar.ibm.com
 logs-edgy-mon01-console-fah02.dev.qradar.ibm.com
 logs-edgy-mon01-jakub-dev-4221-console.dev.qradar.ibm.com
 logs-edgy-mon01-lesg1-console-vm.dev.qradar.ibm.com
@@ -13209,6 +13240,7 @@ maxregion01.noeamt.sl.edst.ibm.com
 maxsandpilot.noeamt.sl.edst.ibm.com
 maxwex01.noeamt.sl.edst.ibm.com
 mcmsproxynode01.sl1217515.sl.edst.ibm.com
+mdm-pprd-2.eu-de.serviceendpoint.cloud.ibm.com
 mdm-pstg-1.us-south.serviceendpoint.cloud.ibm.com
 mdm.mdmsfr.iacs.ibm.com
 mdm1.edst.ibm.com
@@ -15707,6 +15739,7 @@ private.us-east.certificate-manager.cloud.ibm.com
 private.us-east.compare-comply.watson.cloud.ibm.com
 private.us-east.containers.cloud.ibm.com
 private.us-east.discovery.watson.cloud.ibm.com
+private.us-east.enterprise.cloud.ibm.com
 private.us-east.globalcatalog.cloud.ibm.com
 private.us-east.globalcatalog.test.cloud.ibm.com
 private.us-east.iam.cloud.ibm.com
@@ -15725,6 +15758,7 @@ private.us-east.resource-controller.cloud.ibm.com
 private.us-east.resource-controller.test.cloud.ibm.com
 private.us-east.settings.watson.cloud.ibm.com
 private.us-east.speech-to-text.watson.cloud.ibm.com
+private.us-east.support-center.cloud.ibm.com
 private.us-east.support-center.test.cloud.ibm.com
 private.us-east.text-to-speech.watson.cloud.ibm.com
 private.us-east.tone-analyzer.watson.cloud.ibm.com
@@ -15809,6 +15843,7 @@ private.us-south.settings.watson.cloud.ibm.com
 private.us-south.speech-to-text.dev.watson.cloud.ibm.com
 private.us-south.speech-to-text.test.watson.cloud.ibm.com
 private.us-south.speech-to-text.watson.cloud.ibm.com
+private.us-south.support-center.cloud.ibm.com
 private.us-south.support-center.test.cloud.ibm.com
 private.us-south.text-to-speech.dev.watson.cloud.ibm.com
 private.us-south.text-to-speech.test.watson.cloud.ibm.com
@@ -16400,6 +16435,8 @@ s.10102207.dev.e2e.certificate-manager.test.cloud.ibm.com
 s.101022310.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
 s.101022313.us-east.e2e.certificate-manager.test.cloud.ibm.com
 s.111022312.ca-tor.e2e.certificate-manager.test.cloud.ibm.com
+s.1122231.ca-tor.e2e.certificate-manager.test.cloud.ibm.com
+s.1122239.us-east.e2e.certificate-manager.test.cloud.ibm.com
 s.1332030.au-syd.e2e.certificate-manager.test.cloud.ibm.com
 s.13320310.eu-de.e2e.certificate-manager.test.cloud.ibm.com
 s.13320310.preprod.e2e.certificate-manager.test.cloud.ibm.com
@@ -16431,6 +16468,8 @@ s.1692236.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
 s.1692239.eu-de.e2e.certificate-manager.test.cloud.ibm.com
 s.19102232.eu-fr2.e2e.certificate-manager.test.cloud.ibm.com
 s.19102239.jp-osa.e2e.certificate-manager.test.cloud.ibm.com
+s.2122213.dev.e2e.certificate-manager.test.cloud.ibm.com
+s.2122217.dev.e2e.certificate-manager.test.cloud.ibm.com
 s.2592202.dev.e2e.certificate-manager.test.cloud.ibm.com
 s.2592232.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
 s.2592233.au-syd.e2e.certificate-manager.test.cloud.ibm.com
@@ -16449,6 +16488,7 @@ s.2792239.jp-osa.e2e.certificate-manager.test.cloud.ibm.com
 s.28112216.dev.e2e.certificate-manager.test.cloud.ibm.com
 s.3102202.dev.e2e.certificate-manager.test.cloud.ibm.com
 s.4102236.us-south.e2e.certificate-manager.test.cloud.ibm.com
+s.452033.us-east.e2e.certificate-manager.test.cloud.ibm.com
 s.51022311.eu-fr2.e2e.certificate-manager.test.cloud.ibm.com
 s.51022313.us-south.e2e.certificate-manager.test.cloud.ibm.com
 s.5102232.us-east.e2e.certificate-manager.test.cloud.ibm.com
@@ -16469,6 +16509,7 @@ s05p-cp4s-pw-01.sec.ibm.com
 s1ng.ibm.com
 s2s-appliance.vpnaas.cloud.ibm.com
 s2s-appliance.vpnaasdev.cloud.ibm.com
+s3-asp.whi.imaging.watson-health.ibm.com
 s3-blue-stage.support.w3.cloud.ibm.com
 s3-espn-ff-trade.events.ibm.com
 s3-g11n-edit-idd.events.ibm.com
@@ -17953,6 +17994,7 @@ staging-a92ccb29-lp-live.ums.services.video.ibm.com
 staging-account.cloud.mgapp.ibm.com
 staging-admin.zenhub.ibm.com
 staging-advitsvc.cloud.mgapp.ibm.com
+staging-api.au-syd.cf.cloud.ibm.com
 staging-cms.cloud.mgapp.ibm.com
 staging-console.cloud.mgapp.ibm.com
 staging-core.cloud.mgapp.ibm.com
@@ -17971,6 +18013,7 @@ staging-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 staging-login.cloud.mgapp.ibm.com
 staging-mail.cn.cloudidentity.ibm.com
 staging-my.cloud.mgapp.ibm.com
+staging-ns10.whi.imaging.watson-health.ibm.com
 staging-opsdashboard.ai-apps-comms.ibm.com
 staging-services.cloud.mgapp.ibm.com
 staging-status.ai-apps-comms.ibm.com
@@ -19114,6 +19157,7 @@ upload.kafka.svc04.eu-gb.eventstreams.cloud.ibm.com
 upload.kafka.svc05.us-south.eventstreams.cloud.ibm.com
 upload.kafka.svc10.us-south.eventstreams.cloud.ibm.com
 upload.srw.ca.analytics.ibm.com
+uploadasp.whi.imaging.watson-health.ibm.com
 uploadblue-stage.support.w3.cloud.ibm.com
 uploadelkjop.ca.analytics.ibm.com
 uploadkafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -19151,6 +19195,7 @@ us-east.console.test.automation.ibm.com
 us-east.containers.cloud.ibm.com
 us-east.devopsinsights.cloud.ibm.com
 us-east.discovery.watson.cloud.ibm.com
+us-east.enterprise.cloud.ibm.com
 us-east.freemium.cloud.ibm.com
 us-east.functions.cloud.ibm.com
 us-east.git.cloud.ibm.com
@@ -19182,6 +19227,7 @@ us-east.secrets-manager.cloud.ibm.com
 us-east.settings.watson.cloud.ibm.com
 us-east.speech-to-text.preprod.watson.cloud.ibm.com
 us-east.speech-to-text.watson.cloud.ibm.com
+us-east.support-center.cloud.ibm.com
 us-east.support-center.test.cloud.ibm.com
 us-east.text-to-speech.preprod.watson.cloud.ibm.com
 us-east.text-to-speech.watson.cloud.ibm.com
@@ -19318,6 +19364,7 @@ us-south.speech-to-text.dev.watson.cloud.ibm.com
 us-south.speech-to-text.test.watson.cloud.ibm.com
 us-south.speech-to-text.watson.cloud.ibm.com
 us-south.stage1.machine-learning.ibm.com
+us-south.support-center.cloud.ibm.com
 us-south.support-center.test.cloud.ibm.com
 us-south.text-to-speech.dev.watson.cloud.ibm.com
 us-south.text-to-speech.test.watson.cloud.ibm.com
@@ -19400,6 +19447,7 @@ userkafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 usermail.cn.cloudidentity.ibm.com
 userns10.whi.imaging.watson-health.ibm.com
 userorion.us-south.devops.dev.cloud.ibm.com
+users-asp.whi.imaging.watson-health.ibm.com
 users-dashboard.support.w3.cloud.ibm.com
 users-elkjop.ca.analytics.ibm.com
 users-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
@@ -19499,6 +19547,7 @@ v1.kafka.svc04.eu-gb.eventstreams.cloud.ibm.com
 v1.kafka.svc05.us-south.eventstreams.cloud.ibm.com
 v1.kafka.svc10.us-south.eventstreams.cloud.ibm.com
 v1.sandbox.maximomro.ibmiot.ibm.com
+v1asp.whi.imaging.watson-health.ibm.com
 v1blue-stage.support.w3.cloud.ibm.com
 v1kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 v1mail.cn.cloudidentity.ibm.com
@@ -19853,6 +19902,7 @@ wch-mlb-sjc03.watsoncommerce.ibm.com
 wcp-glb.podc.sl.edst.ibm.com
 wcp-test-ams.podc.sl.edst.ibm.com
 wd-payslip-usa.dwehrit.ibm.com
+wdc-cp4s-dc-02.sec.ibm.com
 wdc-cp4s-pw-02.sec.ibm.com
 wdc-p-oosi-01a.sec.ibm.com
 wdc-p-rdcb-01a.sec.ibm.com
@@ -21733,6 +21783,7 @@ zyc2-vpn-user.zurich.ibm.com
 2018.a93e5452-lp-omega.ums.services.video.ibm.com
 2018.fun.cloud.ibm.com
 2018.jp-osa.devops.cloud.ibm.com
+2018api-lon05.testsvcs.cloud5.ibm.com
 2018asp.whi.imaging.watson-health.ibm.com
 2018blog-a92ccb29-lp-live.ums.services.video.ibm.com
 2018blue-stage.support.w3.cloud.ibm.com
@@ -21751,17 +21802,21 @@ zyc2-vpn-user.zurich.ibm.com
 2018.2018-uats-staging.whi.imaging.watson-health.ibm.com
 2019-2018-uats-staging.whi.imaging.watson-health.ibm.com
 2019-asp.whi.imaging.watson-health.ibm.com
+2019-ftp.messaging.dal13-1.wiotp.sl.hursley.ibm.com
 2019-gatewayurl3420.maximomro.ibmiot.ibm.com
 2019-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 2019-mail.eu-gb.machine-learning.ibm.com
 2019-ns10.whi.imaging.watson-health.ibm.com
+2019-private.dev29.us-south.mdm.dev.watson.cloud.ibm.com
 2019-sftp.test.yourlearning.ibm.com
 2019-ssh.au-syd.cf.cloud.ibm.com
+2019.apigw.test.cloud.ibm.com
 2019.dynamicpricing.ibm.com
 2019.kafka.svc03.eu-de.eventstreams.cloud.ibm.com
 2019.kafka.svc10.us-south.eventstreams.cloud.ibm.com
 2019.sandbox.eu.maximomro.ibmiot.ibm.com
 2019alphabackup-api-a92ccb29-lp-live.ums.services.video.ibm.com
+2019asp.whi.imaging.watson-health.ibm.com
 2019blog-a92ccb29-lp-live.ums.services.video.ibm.com
 2019broker-wdc07.testsvcs.cloud5.ibm.com
 2019cdn-internal.insights.ibm.com
@@ -21770,9 +21825,12 @@ zyc2-vpn-user.zurich.ibm.com
 2019jet-dal13.ace.ibm.com
 2019mail.cn.cloudidentity.ibm.com
 2019ns20.whi.imaging.watson-health.ibm.com
+2019private.dev29.us-south.mdm.dev.watson.cloud.ibm.com
 2019uats.whi.imaging.watson-health.ibm.com
 2019.2018-uats-staging.whi.imaging.watson-health.ibm.com
+2020-api-lon06.testsvcs.cloud5.ibm.com
 2020-api.au-syd.cf.cloud.ibm.com
+2020-api.eu-de.cf.cloud.ibm.com
 2020-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 2020-kafka.svc10.us-south.eventstreams.cloud.ibm.com
 2020-mail.eu-gb.machine-learning.ibm.com
@@ -21782,6 +21840,7 @@ zyc2-vpn-user.zurich.ibm.com
 2020.br-sao.devops.cloud.ibm.com
 2020.jp-osa.devops.cloud.ibm.com
 2020.vipuats.whi.imaging.watson-health.ibm.com
+2020.watsonmarketinginsights.ibm.com
 2020asp.whi.imaging.watson-health.ibm.com
 2020eu-gb-lon06.ace.ibm.com
 2020kafka.svc01.ca-tor.eventstreams.cloud.ibm.com
@@ -21792,6 +21851,7 @@ zyc2-vpn-user.zurich.ibm.com
 2020ssh.au-syd.cf.cloud.ibm.com
 2020wikiasp.whi.imaging.watson-health.ibm.com
 2021-api.eu.maximomro.ibmiot.ibm.com
+2021-asp.whi.imaging.watson-health.ibm.com
 2021-broker-wdc04.testsvcs.cloud5.ibm.com
 2021-kafka.svc01.jp-tok.eventstreams.cloud.ibm.com
 2021-kafka.svc09.us-south.eventstreams.cloud.ibm.com
@@ -21800,6 +21860,7 @@ zyc2-vpn-user.zurich.ibm.com
 2021.dev-isolation.codeengine.dev.cloud.ibm.com
 2021.kafka.svc10.us-south.eventstreams.cloud.ibm.com
 2021.private.mon01.devops.cloud.ibm.com
+2021app.istalentmatchinghub.ibm.com
 2021asp.whi.imaging.watson-health.ibm.com
 2021blue-stage.support.w3.cloud.ibm.com
 2021bundles.yourlearning.ibm.com
@@ -21958,6 +22019,12 @@ zyc2-vpn-user.zurich.ibm.com
 1122224.us-east.e2e.certificate-manager.test.cloud.ibm.com
 1122227.us-south.e2e.certificate-manager.test.cloud.ibm.com
 1122228.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
+1122230.eu-de.e2e.certificate-manager.test.cloud.ibm.com
+1122230.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
+1122231.au-syd.e2e.certificate-manager.test.cloud.ibm.com
+1122232.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
+1122237.ca-tor.e2e.certificate-manager.test.cloud.ibm.com
+1122237.eu-fr2.e2e.certificate-manager.test.cloud.ibm.com
 1212010.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
 1212011.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
 1212012.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
@@ -22092,6 +22159,8 @@ zyc2-vpn-user.zurich.ibm.com
 2021456-1y2ao51cr5sn955b6eqtskji5.bastionx.cloud.ibm.com
 2051458-9qq67ve8re25zcs873h6b4ena.bastionx.cloud.ibm.com
 2051458-x391t9fua0qpy7115c6zwm6qo.bastionx.cloud.ibm.com
+2122213.dev.e2e.certificate-manager.test.cloud.ibm.com
+2122217.dev.e2e.certificate-manager.test.cloud.ibm.com
 2212126.au-syd.e2e.certificate-manager.test.cloud.ibm.com
 2212126.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
 2212127.us-east.e2e.certificate-manager.test.cloud.ibm.com
@@ -22380,7 +22449,12 @@ zyc2-vpn-user.zurich.ibm.com
 11102239.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
 11222113.dev.e2e.certificate-manager.test.cloud.ibm.com
 11222210.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
+11222211.au-syd.e2e.certificate-manager.test.cloud.ibm.com
 11222213.eu-de.e2e.certificate-manager.test.cloud.ibm.com
+11222310.ca-tor.e2e.certificate-manager.test.cloud.ibm.com
+11222312.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
+11222313.us-east.e2e.certificate-manager.test.cloud.ibm.com
+11222314.jp-tok.e2e.certificate-manager.test.cloud.ibm.com
 12120110.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
 12120311.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
 12120312.eu-gb.e2e.certificate-manager.test.cloud.ibm.com
