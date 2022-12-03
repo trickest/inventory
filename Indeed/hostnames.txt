@@ -35,6 +35,7 @@ active.eu-west-1.prod.vault.indeed.tech
 active.us-east-2.dev.vault.indeed.tech
 active.us-east-2.inf.vault.indeed.tech
 active.us-east-2.infra.vault.indeed.tech
+active.us-east-2.primary.vault.indeed.tech
 active.us-east-2.prod.vault.indeed.tech
 active.us-east-2.qa.vault.indeed.tech
 active.us-east-2.stage.vault.indeed.tech
@@ -339,6 +340,7 @@ au.pdxprod1.indeed.com
 au.sydprod.indeed.com
 au.sydprod1.indeed.com
 au.yulprod1.indeed.com
+aus.cluster.indeed.com
 auth.dev.intraproxy.indeed.tech
 auth.dyn.indeed.com
 auth.hub.indeed.tech
@@ -521,6 +523,7 @@ c10.s3.indeed.com
 c11.s3.indeed.com
 c12.s3.indeed.com
 c13.s3.indeed.com
+c14.s3.indeed.com
 c15.s3.indeed.com
 c16.s3.indeed.com
 c17.s3.indeed.com
@@ -653,6 +656,7 @@ ch.pdxprod1.indeed.com
 ch.sydprod1.indeed.com
 ch.yulprod1.indeed.com
 challenge.indeed.com
+chaos-mesh.awscmhdev.k8s.indeed.tech
 chat-inquiry-qa.indeed.com
 chat-inquiry.cmhqa1.k8s.indeed.tech
 chat-inquiry.cmhqa2.k8s.indeed.tech
@@ -782,12 +786,14 @@ consul.ca-central-1.prod.consul.indeed.tech
 consul.cmhdev1.dev.consul.indeed.tech
 consul.cmhdev1.infra.consul.indeed.tech
 consul.cmhdev2.dev.consul.indeed.tech
+consul.cmhdev2.infra.consul.indeed.tech
 consul.cmhprod3.prod.consul.indeed.tech
 consul.cmhqa1.k8s.indeed.tech
 consul.cmhqa2.qa.consul.indeed.tech
 consul.eu-west-1.prod.consul.indeed.tech
 consul.indeed.tech
 consul.us-east-2.infra.consul.indeed.tech
+consul.us-east-2.primary.consul.indeed.tech
 consul.us-east-2.prod.consul.indeed.tech
 consul.us-east-2.qa.consul.indeed.tech
 consul.us-east-2.stage.consul.indeed.tech
@@ -1260,6 +1266,7 @@ europe-inquiry.apis.indeed.com
 europe-jobalerts.api.indeed.com
 europe-jobalerts.apis.indeed.com
 europe-jsna-agw.tf2.indeed.com
+europe-jsna.api.indeed.com
 europe-jsna.apis.indeed.com
 europe-mock.api.indeed.com
 europe-mock.apis.indeed.com
@@ -1555,6 +1562,7 @@ hk.sydprod1.indeed.com
 hk.yulprod1.indeed.com
 hkg-micro.apply.indeed.com
 hkg.apply.indeed.com
+holiday-api.indeed.com
 honeydew.indeed.com
 hopkins.ce.indeed.com
 hosting.mdml.qa.indeed.tech
@@ -1711,6 +1719,7 @@ indeed.hu.tf2.indeed.com
 indeed.jp.tf2.indeed.com
 indeed.my.tf2.indeed.com
 indeed.net.tf2.indeed.com
+indeed.nl.tf2.indeed.com
 indeed.org.tf2.indeed.com
 indeed.pk.tf2.indeed.com
 indeed.pt.tf2.indeed.com
@@ -2515,6 +2524,7 @@ oceania-mock.api.indeed.com
 oceania-mock.apis.indeed.com
 oceania-one-graph.api.indeed.com
 oceania-one-graph.apis.indeed.com
+oceania-profile-resume-graphql.api.indeed.com
 oceania-profile-resume-graphql.apis.indeed.com
 oceania.apply.tf2.indeed.com
 oceania.autocomplete.tf2.indeed.com
@@ -3337,6 +3347,7 @@ sec-eng-iam.awscmhqa2.k8s.indeed.tech
 sec-eng-issuer-grpc.awscmhqa2.k8s.indeed.tech
 sec-eng-issuer-test-vault.awscmhqa2.k8s.indeed.tech
 sec-eng-issuer.awscmhqa2.k8s.indeed.tech
+seckibana.corp.indeed.com
 secure-cf.indeed.com
 secure-profile-viewer.cmhprod1.k8s.indeed.tech
 secure-profile-viewer.cmhqa3.k8s.indeed.tech
@@ -3699,6 +3710,7 @@ tws-nps.cmhqa3.k8s.indeed.tech
 twsnps.cmhqa1.k8s.indeed.tech
 twsnps.cmhqa2.k8s.indeed.tech
 twsnps.cmhqa3.k8s.indeed.tech
+ua.canary.indeed.com
 ua.conv.indeed.com
 ua.dubprod1.indeed.com
 ua.indeed.com
@@ -3747,6 +3759,7 @@ uy.nrtprod1.indeed.com
 uy.pdxprod1.indeed.com
 uy.sydprod1.indeed.com
 uy.yulprod1.indeed.com
+v3.support.indeed.com
 vault.ap-northeast-1.prod.vault.indeed.tech
 vault.ap-northeast-1.qa.vault.indeed.tech
 vault.ap-southeast-2.prod.vault.indeed.tech
@@ -3762,6 +3775,8 @@ vault.eu-west-1.prod.vault.indeed.tech
 vault.indeed.tech
 vault.us-east-2.dev.vault.indeed.tech
 vault.us-east-2.inf.vault.indeed.tech
+vault.us-east-2.infra.vault.indeed.tech
+vault.us-east-2.primary.vault.indeed.tech
 vault.us-east-2.prod.vault.indeed.tech
 vault.us-east-2.qa.vault.indeed.tech
 vault.us-east-2.stage.vault.indeed.tech
@@ -3883,6 +3898,7 @@ xenup.cmhqa2.k8s.indeed.tech
 xenup.cmhqa3.k8s.indeed.tech
 xenup.corp.indeed.com
 xmon.indeed.com
+xoa.corp.indeed.com
 yellowhat-v2.cmhqa1.k8s.indeed.tech
 yellowhat.cmhqa1.k8s.indeed.tech
 yesindeed.corp.indeed.com
