@@ -8,6 +8,7 @@ http://status.custody.coinbase.com/
 http://status.custody.coinbase.com/history
 http://status.custody.coinbase.com/history.atom
 http://status.custody.coinbase.com/history.rss
+http://status.custody.coinbase.com/incidents/b6zmk14df7cl
 http://status.custody.coinbase.com/incidents/f38jq3cgwmjb
 http://status.custody.coinbase.com/incidents/qz1br12l2l5c
 http://status.custody.coinbase.com/incidents/txsp37wzbx3z
@@ -52,8 +53,10 @@ https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#384c4a595b5d4a154b
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#394d4b585a5c4b144a4c4949564b4d795a5650575b584a5c175a5654064a4c5b535c5a4d047a78126a58555c4a127057484c504b40
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#3b4f495a585e4916484e4b4b54494f7b58545255595a485e1558545604484e59515e584f06787a10685a575e481072554a4e524942
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#3f4b4d5e5c5a4d124c4a4f4f504d4b7f5c5056515d5e4c5a115c5052004c4a5d555a5c4b027c7e146c5e535a4c1476514e4a564d46
+https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#413533202224336c323431312e333501222e282f232032246f222e2c7e3234232b2422357c02006a12202d24326a082f3034283338
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#4e3a3c2f2d2b3c633d3b3e3e213c3a0e2d2127202c2f3d2b602d2123713d3b2c242b2d3a730d0f651d2f222b3d6507203f3b273c37
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#582c2a393b3d2a752b2d2828372a2c183b3731363a392b3d763b3735672b2d3a323d3b2c651b19730b39343d2b731136292d312a21
+https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#611513000204134c121411110e131521020e080f030012044f020e0c5e1214030b0402155c22204a32000d04124a280f1014081318
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#681c1a090b0d1a451b1d1818071a1c280b0701060a091b0d460b0705571b1d0a020d0b1c552b29433b09040d1b432106191d011a11
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#6b1f190a080e1946181e1b1b04191f2b08040205090a180e4508040654181e09010e081f56282a40380a070e184022051a1e021912
 https://app.analytics.coinbase.com/cdn-cgi/l/email-protection#7501071416100758060005051a070135161a1c1b171406105b161a184a0600171f1016014836345e26141910065e3c1b04001c070c
@@ -603,6 +606,8 @@ https://docs.cloud.coinbase.com/assets/js/main.1cdf58f3.js
 https://docs.cloud.coinbase.com/assets/js/main.2d429f1e.js
 https://docs.cloud.coinbase.com/assets/js/main.63774887.js
 https://docs.cloud.coinbase.com/assets/js/main.73e18daf.js
+https://docs.cloud.coinbase.com/assets/js/main.d68f0741.js
+https://docs.cloud.coinbase.com/assets/js/runtime~main.2be49cb0.js
 https://docs.cloud.coinbase.com/assets/js/runtime~main.36d65809.js
 https://docs.cloud.coinbase.com/assets/js/runtime~main.3a41f6a6.js
 https://docs.cloud.coinbase.com/assets/js/runtime~main.8c14d006.js
@@ -1068,6 +1073,8 @@ https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22a
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22O9MRKD4-jef02b6ZDkh8xg%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16708670780001445796612&rv=1670532930000
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22c8FWcq6ws3EjH_zNPfd6kA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%22beb61bcf-76a7-438b-b31c-17c67f38f0a9%22%2C%22formFactor%22%3A%22SMALL%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%22dac365b6-5d20-4348-ba41-f024498228f8%22%2C%22publishedChangelistNum%22%3A%2226%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Inner%22%2C%22viewType%22%3A%22Published%22%7D
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22c8FWcq6ws3EjH_zNPfd6kA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16708670780001445796612&rv=1671033776000
+https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22eZkw4x01XXPb7hMJ7c1FkA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%22beb61bcf-76a7-438b-b31c-17c67f38f0a9%22%2C%22formFactor%22%3A%22SMALL%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%22dac365b6-5d20-4348-ba41-f024498228f8%22%2C%22publishedChangelistNum%22%3A%2226%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Inner%22%2C%22viewType%22%3A%22Published%22%7D
+https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22eZkw4x01XXPb7hMJ7c1FkA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16713929320001445796612&rv=1671033776000
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22hbTEwhbbYL_X9UNm1wViIA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%22beb61bcf-76a7-438b-b31c-17c67f38f0a9%22%2C%22formFactor%22%3A%22SMALL%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%22dac365b6-5d20-4348-ba41-f024498228f8%22%2C%22publishedChangelistNum%22%3A%2225%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Inner%22%2C%22viewType%22%3A%22Published%22%7D
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22hbTEwhbbYL_X9UNm1wViIA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16703364770001445796612&rv=1668786374000
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22qZKxM54so2C6yjcz-S4lPA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%22beb61bcf-76a7-438b-b31c-17c67f38f0a9%22%2C%22formFactor%22%3A%22SMALL%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%22dac365b6-5d20-4348-ba41-f024498228f8%22%2C%22publishedChangelistNum%22%3A%2226%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Inner%22%2C%22viewType%22%3A%22Published%22%7D
@@ -1078,6 +1085,7 @@ https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22a
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22slqgF11HMFqni89aR7mmxA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16703364770001445796612&rv=1668786374000
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22xedUPIileUYrCHWEurylLg%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%22beb61bcf-76a7-438b-b31c-17c67f38f0a9%22%2C%22formFactor%22%3A%22SMALL%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%22dac365b6-5d20-4348-ba41-f024498228f8%22%2C%22publishedChangelistNum%22%3A%2226%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Inner%22%2C%22viewType%22%3A%22Published%22%7D
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22xedUPIileUYrCHWEurylLg%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16713376950001445796612&rv=1671033776000
+https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22xedUPIileUYrCHWEurylLg%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16713929320001445796612&rv=1671033776000
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22wlLnZvhAshR7p-QD7LB6JQ%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22L93ZNWvFSC8_l_L4k5PjOA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%22beb61bcf-76a7-438b-b31c-17c67f38f0a9%22%2C%22formFactor%22%3A%22SMALL%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%22dac365b6-5d20-4348-ba41-f024498228f8%22%2C%22publishedChangelistNum%22%3A%2225%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Inner%22%2C%22viewType%22%3A%22Published%22%7D
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22wlLnZvhAshR7p-QD7LB6JQ%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22L93ZNWvFSC8_l_L4k5PjOA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/resources.js?pv=16703364770001445796612&rv=1668786374000
 https://institutional.coinbase.com/s/sfsites/l/%7B%22mode%22%3A%22PROD%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22wlLnZvhAshR7p-QD7LB6JQ%22%7D%2C%22apce%22%3A1%2C%22apck%22%3A%22fIRx93AhVbmji7Mp3ftgLA%22%2C%22mlr%22%3A1%2C%22pathPrefix%22%3A%22%22%2C%22dns%22%3A%22c%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22601638718%22%7D/bootstrap.js?aura.attributes=%7B%22ac%22%3A%22%22%2C%22authenticated%22%3A%22false%22%2C%22brandingSetId%22%3A%22beb61bcf-76a7-438b-b31c-17c67f38f0a9%22%2C%22formFactor%22%3A%22SMALL%22%2C%22isHybrid%22%3A%22false%22%2C%22language%22%3A%22en_US%22%2C%22pageId%22%3A%22dac365b6-5d20-4348-ba41-f024498228f8%22%2C%22publishedChangelistNum%22%3A%2225%22%2C%22schema%22%3A%22Published%22%2C%22themeLayoutType%22%3A%22Inner%22%2C%22viewType%22%3A%22Published%22%7D
@@ -1295,6 +1303,7 @@ https://status.pro.coinbase.com/incidents/0wlctt3qmhxp
 https://status.pro.coinbase.com/incidents/3sdpftmysppj
 https://status.pro.coinbase.com/incidents/4hp4lddj4pcd
 https://status.pro.coinbase.com/incidents/5rpgx9z0ptmt
+https://status.pro.coinbase.com/incidents/7cn77zq18srn
 https://status.pro.coinbase.com/incidents/833vw51pdn71
 https://status.pro.coinbase.com/incidents/92p85v68ktv5
 https://status.pro.coinbase.com/incidents/g7bs6lw0vcdt
@@ -1530,9 +1539,12 @@ https://www-marketing.coinbase.com/price/aventus
 https://www-marketing.coinbase.com/price/benqi
 https://www-marketing.coinbase.com/price/binance-usd
 https://www-marketing.coinbase.com/price/bitcoin
+https://www-marketing.coinbase.com/price/bluzelle
 https://www-marketing.coinbase.com/price/bnb
 https://www-marketing.coinbase.com/price/cardano
+https://www-marketing.coinbase.com/price/celer-network
 https://www-marketing.coinbase.com/price/coti
+https://www-marketing.coinbase.com/price/cryptex-finance
 https://www-marketing.coinbase.com/price/dai
 https://www-marketing.coinbase.com/price/dextools
 https://www-marketing.coinbase.com/price/dia
@@ -1549,6 +1561,7 @@ https://www-marketing.coinbase.com/price/hex
 https://www-marketing.coinbase.com/price/hopr
 https://www-marketing.coinbase.com/price/idex
 https://www-marketing.coinbase.com/price/jupiter
+https://www-marketing.coinbase.com/price/kryll
 https://www-marketing.coinbase.com/price/lcx
 https://www-marketing.coinbase.com/price/lido-dao
 https://www-marketing.coinbase.com/price/liquity
@@ -1619,6 +1632,7 @@ https://www.coinbase.com/browse
 https://www.coinbase.com/bytes/archive/ethereum-merge-rally-explained
 https://www.coinbase.com/bytes/archive/ethereums-next-5-upgrades
 https://www.coinbase.com/bytes/archive/the-ethereum-merge-has-begun
+https://www.coinbase.com/bytes/archive/what-happens-after-ethereum-merge
 https://www.coinbase.com/careers
 https://www.coinbase.com/careers/belonging-at-coinbase
 https://www.coinbase.com/careers/interviewing-at-coinbase
@@ -1643,6 +1657,7 @@ https://www.coinbase.com/institutional/research-insights/research/weekly-market-
 https://www.coinbase.com/learn
 https://www.coinbase.com/learn/crypto-basics
 https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain
+https://www.coinbase.com/learn/crypto-basics/what-is-a-bull-or-bear-market
 https://www.coinbase.com/learn/crypto-basics/what-is-a-fork
 https://www.coinbase.com/learn/crypto-basics/what-is-a-private-key
 https://www.coinbase.com/learn/crypto-basics/what-is-a-smart-contract
