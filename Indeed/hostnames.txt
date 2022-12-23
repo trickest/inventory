@@ -299,6 +299,7 @@ arc.awsnrtqa.k8s.indeed.tech
 arc.awspdx.k8s.indeed.tech
 arc.awssyd.k8s.indeed.tech
 arc.awsyul.k8s.indeed.tech
+arc.cmhprod2.k8s.indeed.tech
 arc.cmhprod3.k8s.indeed.tech
 arc.cmhqa1.k8s.indeed.tech
 arc.indeed.tech
@@ -1091,6 +1092,7 @@ e-invoicing-engine-prod.awscmhinfra2.k8s.indeed.tech
 e-invoicing-engine-stg.awscmhqa2.k8s.indeed.tech
 e-invoicing-engine-uat.awscmhinfra2.k8s.indeed.tech
 e-invoicing-task-manager-qa.awscmhqa2.k8s.indeed.tech
+e-invoicing-task-manager-stg.awscmhqa2.k8s.indeed.tech
 e-invoicing-task-manager-uat.awscmhinfra2.k8s.indeed.tech
 e-invoicing.dev.indeed.tech
 e-invoicing.indeed.tech
@@ -1144,6 +1146,7 @@ eda-sbs-qa.cmhqa1.k8s.indeed.tech
 eda-sbs-raven.cmhqa1.k8s.indeed.tech
 edenprairie.ce.indeed.com
 edge-envoy-crossdc-ingress.awscmh2.k8s.indeed.tech
+edge-envoy-crossdc-ingress.awscmh3.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmh4.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmhdev.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmhdev2.k8s.indeed.tech
@@ -1153,6 +1156,7 @@ edge-envoy-crossdc-ingress.awscmhstage.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awsdub.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awsnrtqa.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awspdx.k8s.indeed.tech
+edge-envoy-crossdc-ingress.awssyd.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awsyul.k8s.indeed.tech
 edge-envoy-crossdc-ingress.cmhqa1.k8s.indeed.tech
 edge-envoy-crossdc-ingress.cmhqa2.k8s.indeed.tech
@@ -1400,6 +1404,7 @@ flappybird.awscmhqa3.k8s.indeed.tech
 flappybird.awscmhstage.k8s.indeed.tech
 flappybird.awsnrt2.k8s.indeed.tech
 flappybird.awsnrtqa.k8s.indeed.tech
+flappybird.awssyd.k8s.indeed.tech
 flappybird.cmhprod1.k8s.indeed.tech
 flappybird.cmhprod2.k8s.indeed.tech
 flappybird.cmhprod3.k8s.indeed.tech
@@ -1966,10 +1971,12 @@ jobsearchservice-europe-canary.awsdub.k8s.indeed.tech
 jobsearchservice-global-canary.awscmh4.k8s.indeed.tech
 jobsearchservice-global-canary.awsyul.k8s.indeed.tech
 jobsearchservice-global-flat.awscmh3.k8s.indeed.tech
+jobsearchservice-global.awscmh4.k8s.indeed.tech
 jobsearchservice-global.awspdx.k8s.indeed.tech
 jobsearchservice-us-canary.awscmh4.k8s.indeed.tech
 jobsearchservice-us-canary.awspdx.k8s.indeed.tech
 jobsearchservice-us-flat.awscmh3.k8s.indeed.tech
+jobsearchservice-us.awscmh3.k8s.indeed.tech
 jobsmap.com.tf2.indeed.com
 jobspotter-mturk.indeed.com
 jobspotter.indeed.com
@@ -2040,6 +2047,7 @@ kafdrop-ntfspl.awscmh2.k8s.indeed.tech
 kafdrop-ntfspl.awscmhqa2.k8s.indeed.tech
 kafdrop-shared.awscmh2.k8s.indeed.tech
 kafdrop-shared.awscmhqa2.k8s.indeed.tech
+kafdrop-ubs.awscmh2.k8s.indeed.tech
 kafdrop-ubs.awscmhqa2.k8s.indeed.tech
 kafka-connect-prod.dataeng.indeed.tech
 kafka-connect-qa.dataeng.indeed.tech
@@ -2372,6 +2380,7 @@ marvlet.awscmhdev.k8s.indeed.tech
 marvlet.awscmhqa2.k8s.indeed.tech
 marvlet.awscmhqa3.k8s.indeed.tech
 marvlet.awscmhstage.k8s.indeed.tech
+marvlet.awsdub.k8s.indeed.tech
 marvlet.awsnrt2.k8s.indeed.tech
 marvlet.cmhprod3.k8s.indeed.tech
 marvlet.cmhqa2.k8s.indeed.tech
@@ -2534,6 +2543,7 @@ ng.nrtprod1.indeed.com
 ng.pdxprod1.indeed.com
 ng.sydprod1.indeed.com
 ng.yulprod1.indeed.com
+nginx-argocd-mgroot.awscmhdev.k8s.indeed.tech
 nginx-example.awscmhqa2.k8s.indeed.tech
 nginx-mgroot.awscmhdev.k8s.indeed.tech
 nl.canary.indeed.com
@@ -2988,8 +2998,10 @@ qp-mongo-bmo.awscmh2.k8s.indeed.tech
 qp-mongo-bmo.awscmhqa2.k8s.indeed.tech
 qp-mongo-budget-tool-advertiser-s.awscmhqa2.k8s.indeed.tech
 qp-mongo-career-guide-iql-cards.awscmh2.k8s.indeed.tech
+qp-mongo-career-guide-url-route-c.awscmhqa2.k8s.indeed.tech
 qp-mongo-cobra-cobra.awscmhqa2.k8s.indeed.tech
 qp-mongo-code-intelligence-botbas.awscmhqa2.k8s.indeed.tech
+qp-mongo-code-intelligence-melllv.awscmh2.k8s.indeed.tech
 qp-mongo-conductor-mongo.awscmhqa2.k8s.indeed.tech
 qp-mongo-content-tracking-mongo-s.awscmh2.k8s.indeed.tech
 qp-mongo-content-tracking-mongo.awscmh2.k8s.indeed.tech
@@ -3005,6 +3017,7 @@ qp-mongo-delivery-insights-blaza2.awscmh2.k8s.indeed.tech
 qp-mongo-dossier-data.awscmh2.k8s.indeed.tech
 qp-mongo-dremr-attachments-shard0.awscmhqa2.k8s.indeed.tech
 qp-mongo-dremr-lookup-v2-shard0.awscmhqa2.k8s.indeed.tech
+qp-mongo-dremr-lookup-v2-shard1.awscmhqa2.k8s.indeed.tech
 qp-mongo-dremr-messages-shard0.awscmh2.k8s.indeed.tech
 qp-mongo-dremr-messages-shard1.awscmh2.k8s.indeed.tech
 qp-mongo-dremr-messages-shard2.awscmh2.k8s.indeed.tech
@@ -3018,6 +3031,7 @@ qp-mongo-ecp-byoc-invites.awscmh2.k8s.indeed.tech
 qp-mongo-eevee-mongodb.awscmhqa2.k8s.indeed.tech
 qp-mongo-email-validation-service.awscmh2.k8s.indeed.tech
 qp-mongo-employer-iris.awscmh2.k8s.indeed.tech
+qp-mongo-employer-iris.awscmhqa2.k8s.indeed.tech
 qp-mongo-employer-onboarding.awscmhqa2.k8s.indeed.tech
 qp-mongo-employment-length-db.awscmh2.k8s.indeed.tech
 qp-mongo-entbid-qa.awscmhqa2.k8s.indeed.tech
@@ -3040,6 +3054,7 @@ qp-mongo-indeed-referral-assistdb.awscmh2.k8s.indeed.tech
 qp-mongo-indeed-referral-assistdb.awscmhqa2.k8s.indeed.tech
 qp-mongo-indeedapply-pub-nrtprod1.awscmh2.k8s.indeed.tech
 qp-mongo-indeedapply-pub-sjc.awscmh2.k8s.indeed.tech
+qp-mongo-indeedcentral-templates.awscmh2.k8s.indeed.tech
 qp-mongo-irl-events-store.awscmhqa2.k8s.indeed.tech
 qp-mongo-itamanagerservicedb.awscmh2.k8s.indeed.tech
 qp-mongo-itamanagerservicedb.awscmhqa2.k8s.indeed.tech
@@ -3080,6 +3095,9 @@ qp-mongo-ownershipdb.awscmhqa2.k8s.indeed.tech
 qp-mongo-partner-delivery.awscmh2.k8s.indeed.tech
 qp-mongo-phonerdb.awscmh2.k8s.indeed.tech
 qp-mongo-photosdb.awscmh2.k8s.indeed.tech
+qp-mongo-profio-sa.awscmhqa2.k8s.indeed.tech
+qp-mongo-profio-sb.awscmh2.k8s.indeed.tech
+qp-mongo-profio-se.awscmh2.k8s.indeed.tech
 qp-mongo-prr-db.awscmh2.k8s.indeed.tech
 qp-mongo-prr-db.awscmhqa2.k8s.indeed.tech
 qp-mongo-public-analytics-paws-ca.awscmh2.k8s.indeed.tech
@@ -3087,6 +3105,7 @@ qp-mongo-public-analytics-paws-ca.awscmhqa2.k8s.indeed.tech
 qp-mongo-qnadb.awscmh2.k8s.indeed.tech
 qp-mongo-qnadb.awscmhqa2.k8s.indeed.tech
 qp-mongo-qualification-feedback-s.awscmh2.k8s.indeed.tech
+qp-mongo-qualification-feedback-s.awscmhqa2.k8s.indeed.tech
 qp-mongo-qurldb.awscmhqa2.k8s.indeed.tech
 qp-mongo-raven-campaigns.awscmh2.k8s.indeed.tech
 qp-mongo-raven-campaigns.awscmhqa2.k8s.indeed.tech
@@ -3109,17 +3128,21 @@ qp-mongo-rezemp-hiring-projects-2.awscmh2.k8s.indeed.tech
 qp-mongo-rezemp-hiring-projects-3.awscmh2.k8s.indeed.tech
 qp-mongo-rezemp-hiring-projects-s.awscmh2.k8s.indeed.tech
 qp-mongo-rezemp-purchases.awscmh2.k8s.indeed.tech
+qp-mongo-rezemp-purchases.awscmhqa2.k8s.indeed.tech
 qp-mongo-rezemp-subscriptions.awscmh2.k8s.indeed.tech
 qp-mongo-rezemp-subscriptions.awscmhqa2.k8s.indeed.tech
 qp-mongo-rhone.awscmh2.k8s.indeed.tech
+qp-mongo-rhone.awscmhqa2.k8s.indeed.tech
 qp-mongo-rich-media-moderation-db.awscmh2.k8s.indeed.tech
 qp-mongo-rich-media-moderation-db.awscmhqa2.k8s.indeed.tech
 qp-mongo-ruleresult.awscmh2.k8s.indeed.tech
 qp-mongo-ruleresult.awscmhqa2.k8s.indeed.tech
 qp-mongo-salary.awscmh2.k8s.indeed.tech
+qp-mongo-salary.awscmhqa2.k8s.indeed.tech
 qp-mongo-salaryfinder-qa.awscmhqa2.k8s.indeed.tech
 qp-mongo-seg-lokiceptor.awscmhqa2.k8s.indeed.tech
 qp-mongo-segexotelcalldata.awscmhqa2.k8s.indeed.tech
+qp-mongo-segment-selector-servic2.awscmhqa2.k8s.indeed.tech
 qp-mongo-segmetadata.awscmhqa2.k8s.indeed.tech
 qp-mongo-segnotifications.awscmhqa2.k8s.indeed.tech
 qp-mongo-segphonecandidates.awscmh2.k8s.indeed.tech
@@ -3130,10 +3153,14 @@ qp-mongo-string-db-test.awscmhqa2.k8s.indeed.tech
 qp-mongo-string-db.awscmh2.k8s.indeed.tech
 qp-mongo-string-db.awscmhqa2.k8s.indeed.tech
 qp-mongo-sub.awscmh2.k8s.indeed.tech
+qp-mongo-sub.awscmhqa2.k8s.indeed.tech
 qp-mongo-taas-targeting-config.awscmhqa2.k8s.indeed.tech
+qp-mongo-taxonomy-management-syst.awscmhqa2.k8s.indeed.tech
 qp-mongo-taxonomy-override-system.awscmhqa2.k8s.indeed.tech
 qp-mongo-textmaster.awscmh2.k8s.indeed.tech
 qp-mongo-tmn-jobs-stream-store.awscmh2.k8s.indeed.tech
+qp-mongo-vrec-shortlist-qa.awscmhqa2.k8s.indeed.tech
+qp-mongo-wayfinder-configuration.awscmh2.k8s.indeed.tech
 qp-mongo-wayfinder-configuration.awscmhqa2.k8s.indeed.tech
 qp-mongo-whatsapp-preferences.awscmhqa2.k8s.indeed.tech
 qp-mongo-yawbi-webapp-test.awscmhqa2.k8s.indeed.tech
@@ -3318,6 +3345,7 @@ revsys-portal-prod.awscmhinfra2.k8s.indeed.tech
 revsys-portal-qa.awscmhqa2.k8s.indeed.tech
 revsys-portal-stg.awscmhqa2.k8s.indeed.tech
 revsys-portal-uat.awscmhinfra2.k8s.indeed.tech
+revsys-ui-uat.awscmhinfra2.k8s.indeed.tech
 rezalert-enqueuer.cmhqa1.k8s.indeed.tech
 rezalert-sender.cmhqa1.k8s.indeed.tech
 rezcandidatepreferences.cmhqa1.k8s.indeed.tech
@@ -3528,9 +3556,16 @@ sjc.apply.indeed.com
 skap-employers.indeed.com
 skooner.awsbom.k8s.indeed.tech
 skooner.awscmh2.k8s.indeed.tech
+skooner.awscmh3.k8s.indeed.tech
+skooner.awscmh4.k8s.indeed.tech
+skooner.awscmhdev.k8s.indeed.tech
 skooner.awscmhdev2.k8s.indeed.tech
 skooner.awscmhqa3.k8s.indeed.tech
+skooner.awsdub.k8s.indeed.tech
+skooner.awsnrt.k8s.indeed.tech
 skooner.awsnrt2.k8s.indeed.tech
+skooner.awsnrtinfra.k8s.indeed.tech
+skooner.awsnrtqa.k8s.indeed.tech
 skyhopper-qa.indeed.com
 skyhopper-stage.indeed.com
 skyhopper.awscmhstage.k8s.indeed.tech
@@ -3956,6 +3991,7 @@ wendigo.awscmhstage.k8s.indeed.tech
 wendigo.cmhqa1.k8s.indeed.tech
 wes.corp.indeed.com
 wfa.tf2.indeed.com
+wgrata-logstash-proxy.awscmhqa2.k8s.indeed.tech
 whatsapp-template-callback-qa.indeed.com
 whatsapp-template-callback.cmhqa1.k8s.indeed.tech
 whatsapp-template-callback.indeed.com
@@ -4000,10 +4036,12 @@ xds--qa.awscmhqa3.k8s.indeed.tech
 xds--qa.awsnrtqa.k8s.indeed.tech
 xds--qa.cmhqa1.k8s.indeed.tech
 xds-tls-testing.awscmhqa2.k8s.indeed.tech
+xds-tls-testing.awscmhqa3.k8s.indeed.tech
 xds-tls-testing.awscmhstage.k8s.indeed.tech
 xds-tls-testing.awsnrtqa.k8s.indeed.tech
 xds-tls-testing.cmhqa1.k8s.indeed.tech
 xds-tls-testing.cmhqa2.k8s.indeed.tech
+xds-tls-testing.cmhqa3.k8s.indeed.tech
 xds-tls-testing.stage.k8s.indeed.tech
 xds-user-dev.awscmhqa3.k8s.indeed.tech
 xenup.cmhprod1.k8s.indeed.tech
