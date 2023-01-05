@@ -322,6 +322,8 @@ argo-workflows.awscmh4.k8s.indeed.tech
 argo-workflows.awscmhdev2.k8s.indeed.tech
 argo-workflows.awscmhinfra2.k8s.indeed.tech
 argo-workflows.awscmhqa3.k8s.indeed.tech
+argo-workflows.awsnrt.k8s.indeed.tech
+argo-workflows.awsnrtinfra.k8s.indeed.tech
 argo-workflows.awsnrtqa.k8s.indeed.tech
 argo-workflows.awssyd.k8s.indeed.tech
 argocd.butterfly.indeed.tech
@@ -1751,6 +1753,7 @@ indapply-events-api.awscmhqa3.k8s.indeed.tech
 indapply-expectations-api.awscmhqa3.k8s.indeed.tech
 indapply-file-service.awscmhqa3.k8s.indeed.tech
 indapply-gradle-cache.awscmhqa2.k8s.indeed.tech
+indapply-load-test.qa.indeed.tech
 indapply-pact-broker.awscmhqa2.k8s.indeed.tech
 indapply-publication-service.awscmhqa3.k8s.indeed.tech
 indapply-quality-api.awscmhqa3.k8s.indeed.tech
@@ -1758,6 +1761,7 @@ indapply-rabbitmq.awscmhqa2.k8s.indeed.tech
 indapply-test-nginx.awscmhqa2.k8s.indeed.tech
 indapply-test-nginx.awsnrtqa.k8s.indeed.tech
 indeed-cast.indeed.com
+indeed-cmh-alb.indeed.com
 indeed-cmhprod-alb.indeed.com
 indeed-cmhprod.indeed.com
 indeed-easy.indeed.com
@@ -1774,11 +1778,13 @@ indeed.ca.tf2.indeed.com
 indeed.ch.tf2.indeed.com
 indeed.cl.tf2.indeed.com
 indeed.co.hu.tf2.indeed.com
+indeed.co.il.tf2.indeed.com
 indeed.co.in.tf2.indeed.com
 indeed.co.kr.tf2.indeed.com
 indeed.co.nl.tf2.indeed.com
 indeed.co.uk.tf2.indeed.com
 indeed.co.ve.tf2.indeed.com
+indeed.co.za.tf2.indeed.com
 indeed.com
 indeed.com.ar.tf2.indeed.com
 indeed.com.au
@@ -1794,6 +1800,7 @@ indeed.com.my.tf2.indeed.com
 indeed.com.pe
 indeed.com.pe.tf2.indeed.com
 indeed.com.ph
+indeed.com.ph.tf2.indeed.com
 indeed.com.pk
 indeed.com.pk.tf2.indeed.com
 indeed.com.pt.tf2.indeed.com
@@ -1844,6 +1851,7 @@ indeedhire-jobseeker.indeed.com
 indeedhire.com.tf2.indeed.com
 indeedigloo.com.tf2.indeed.com
 indeedindia.co.in.tf2.indeed.com
+indeedjobs.com.tf2.indeed.com
 indeedlearn.indeed.com
 indeedmessages.com.tf2.indeed.com
 indeedone-employers.indeed.com
@@ -3022,6 +3030,7 @@ qp-mongo-agg-sherlock.awscmh2.k8s.indeed.tech
 qp-mongo-apiserver-cmh.awscmh2.k8s.indeed.tech
 qp-mongo-applyeverywheredb.awscmh2.k8s.indeed.tech
 qp-mongo-applyeverywheredb.awscmhqa2.k8s.indeed.tech
+qp-mongo-applyeverywhereevents-10.awscmh2.k8s.indeed.tech
 qp-mongo-applyeverywhereevents-s3.awscmh2.k8s.indeed.tech
 qp-mongo-applyeverywhereevents-s4.awscmhqa2.k8s.indeed.tech
 qp-mongo-applyeverywhereevents-s5.awscmh2.k8s.indeed.tech
