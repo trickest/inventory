@@ -21,7 +21,6 @@ access-grafana.k8s-prod.getaws.arubanetworks.com
 access-lb1.devicemanager.central.arubanetworks.com
 access-prod.devicemanager.central.arubanetworks.com
 access.2019.devicemanager.central.arubanetworks.com
-access.acc-lb.devicemanager.central.arubanetworks.com
 access.acceptatieio.api.devicemanager.central.arubanetworks.com
 access.access-backup-db.devicemanager.central.arubanetworks.com
 access.access.access-backup-db.devicemanager.central.arubanetworks.com
@@ -71,6 +70,7 @@ account-networkauth-lb.devicemanager.central.arubanetworks.com
 account.20192018.devicemanager.central.arubanetworks.com
 account.acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 account.acc-lb.devicemanager.central.arubanetworks.com
+account.access-api-dev.prod.devicemanager.central.arubanetworks.com
 account.access-backup-db.devicemanager.central.arubanetworks.com
 account.alpha-adminaws.devicemanager.central.arubanetworks.com
 account.alpha-db.devicemanager.central.arubanetworks.com
@@ -1344,6 +1344,7 @@ zones-learncentral.arubanetworks.com
 104.36.248.83.static-ip.arubanetworks.com
 2018-acc-lb.devicemanager.central.arubanetworks.com
 2018-acceptatieio.api.devicemanager.central.arubanetworks.com
+2018-access-api-dev.prod.devicemanager.central.arubanetworks.com
 2018-assets.cpdb1-archive.devicemanager.central.arubanetworks.com
 2018-backup.devicemanager.central.arubanetworks.com
 2018-beta-backup.devicemanager.central.arubanetworks.com
@@ -1354,6 +1355,7 @@ zones-learncentral.arubanetworks.com
 2018-prod-assetsbackup.devicemanager.central.arubanetworks.com
 2018-users-beta-db.devicemanager.central.arubanetworks.com
 2018.acceptatie-api.devicemanager.central.arubanetworks.com
+2018.access-api-dev.prod.devicemanager.central.arubanetworks.com
 2018.alpha-staginglb2.devicemanager.central.arubanetworks.com
 2018.altlb.devicemanager.central.arubanetworks.com
 2018.assets-cache.devicemanager.central.arubanetworks.com
@@ -1413,6 +1415,7 @@ zones-learncentral.arubanetworks.com
 2019.devicemanager.central.arubanetworks.com
 2019.elasticbeanstalk.lb2.devicemanager.central.arubanetworks.com
 2019.users-beta-db.devicemanager.central.arubanetworks.com
+2019access-api-dev.prod.devicemanager.central.arubanetworks.com
 2019access-backup-db.devicemanager.central.arubanetworks.com
 2019api-db1-archive.devicemanager.central.arubanetworks.com
 2019aws.devicemanager.central.arubanetworks.com
@@ -1461,7 +1464,6 @@ zones-learncentral.arubanetworks.com
 2020.2018db1-lb.devicemanager.central.arubanetworks.com
 2021-2018.devicemanager.central.arubanetworks.com
 2021-20192018.devicemanager.central.arubanetworks.com
-2021-acc-lb.devicemanager.central.arubanetworks.com
 2021-adminaws.devicemanager.central.arubanetworks.com
 2021-assets-cache.devicemanager.central.arubanetworks.com
 2021-beta-alpha-staginglb2.devicemanager.central.arubanetworks.com
@@ -1473,6 +1475,7 @@ zones-learncentral.arubanetworks.com
 2021-internal-prod.devicemanager.central.arubanetworks.com
 2021.acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 2021.acc-lb.devicemanager.central.arubanetworks.com
+2021.access-api-dev.prod.devicemanager.central.arubanetworks.com
 2021.access.access-backup-db.devicemanager.central.arubanetworks.com
 2021.access.apps-api.devicemanager.central.arubanetworks.com
 2021.alpha.cache.devicemanager.central.arubanetworks.com
