@@ -108,6 +108,7 @@
 [RCE]http://rss.seek.com.au/JobSearch?function=247&nation=3000&SearchType=browse
 [RCE]http://rss.seek.com.au:80/JobSearch?DateRange=777&SearchType=rss&isExec=True
 [RCE]http://rss.seek.com.au:80/rss.aspx?catfunction=246&Keywords=&RM=exec&RMO=model-exec&RUS=NINEMSNEXEC_USR&RID=550bf03a-3977-430f-8633-e6ef195030bd
+[RCE]https://graphql.seek.com/graphql?query=%7B%0A++version%0A%7D
 [REDIRECT]http://rss.seek.com.au/JobSearch?DateRange=777&Page=10&industry=6362&nation=3000&SearchType=rss&isExec=True
 [REDIRECT]http://rss.seek.com.au/JobSearch?Page=10&industry=6362&nation=3000
 [REDIRECT]http://rss.seek.com.au:80/JobSearch?DateRange=777&Page=2&SearchType=rss&Keywords=
@@ -174,6 +175,7 @@
 [SQLI]http://rss.seek.com.au:80/rss.aspx?catoccupation=1343&Keywords=&RM=main&RMO=model-main&RUS=SEEKMAIN_USR&RID=09b5405c-dce1-4c1d-bde9-8cab14942969
 [SQLI]http://rss.seek.com.au:80/rss.aspx?catworktype=242&catindustry=1202&catoccupation=1390&Keywords=&RM=main&RMO=model-main&RUS=SEEKMAIN_USR&RID=37752637-1f32-4819-9d50-4aa61dda983e
 [SQLI]http://rss.seek.com.au:80/rss.aspx?catworktype=242,243,244,245&catindustry=1210&Keywords=&RM=main&RMO=model-main&RUS=SEEKMAIN_USR&RID=246a5134-15de-49cd-bf28-b67279bf1f48
+[SQLI]https://graphql.seek.com/graphql?query=%7B%0A++version%0A%7D
 [SSRF]http://rss.seek.com.au/JobSearch?DateRange=777&AdvertiserID=1630%2c2184&SearchType=rss&isExec=True
 [SSRF]http://rss.seek.com.au/JobSearch?DateRange=777&Page=10&industry=6362&nation=3000&SearchType=rss&isExec=True
 [SSRF]http://rss.seek.com.au/JobSearch?DateRange=777&function=247&nation=3000&SearchType=rss&isExec=True
@@ -331,3 +333,4 @@
 [XSS]http://rss.seek.com.au:80/rss.aspx?catworktype=242&catindustry=1202&catoccupation=1390&Keywords=&RM=main&RMO=model-main&RUS=SEEKMAIN_USR&RID=37752637-1f32-4819-9d50-4aa61dda983e
 [XSS]http://rss.seek.com.au:80/rss.aspx?catworktype=242&catindustry=1220
 [XSS]http://rss.seek.com.au:80/rss.aspx?catworktype=242,243,244,245&catindustry=1210&Keywords=&RM=main&RMO=model-main&RUS=SEEKMAIN_USR&RID=246a5134-15de-49cd-bf28-b67279bf1f48
+[XSS]https://graphql.seek.com/graphql?query=%7B%0A++version%0A%7D
