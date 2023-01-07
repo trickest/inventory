@@ -552,6 +552,8 @@
 [LFI]http://reviews.store.sony.com:80/5050hosted-en_us/XZLC6506*/reviews.djs?format=embeddedhtml&page=2&scrollToTop=true
 [LFI]http://reviews.store.sony.com:80/5050hosted-en_us/XZUC6806*/reviews.djs?format=embeddedhtml&page=10&scrollToTop=true
 [LFI]http://reviews.store.sony.com:80/5050hosted-en_us/ZSBTG900/reviews.djs?format=embeddedhtml&page=2&scrollToTop=true
+[LFI]https://dbiz.sel.sony.com/idm/ResetPassword.jsp?appName=ServicesPLUS
+[LFI]https://dbiz.sel.sony.com/idm/ws/Registration.jsp?appName=DS
 [RCE]http://reviews.store.sony.com/5050/8198552921666382666/smp-n200-reviews/reviews.htm?sort=rating&dir=asc
 [RCE]http://reviews.store.sony.com:80/5050/100DMR47RS4/none-16x-dvd-r-recordable-dvd-media-4-7gb-100-pack-spindle-reviews/reviews.htm?sort=rating&dir=asc
 [RCE]http://reviews.store.sony.com:80/5050/11033346/mdr-210lp-reviews/reviews.htm?sort=rating&dir=asc
@@ -1488,6 +1490,8 @@
 [SQLI]http://reviews.store.sony.com:80/5050/srf18/none-portable-am-fm-radio-reviews/reviews.htm?sort=featured
 [SQLI]http://reviews.store.sony.com:80/5050/srf18/none-portable-am-fm-radio-reviews/reviews.htm?sort=rating&dir=asc
 [SQLI]http://xtrasdirect.sel.sony.com:80/cgi-bin/compass.cgi?level=cart&srcid=WWWCONS&dest=AC-V16
+[SQLI]https://dbiz.sel.sony.com/idm/ResetPassword.jsp?appName=ServicesPLUS
+[SQLI]https://dbiz.sel.sony.com/idm/ws/Registration.jsp?appName=DS
 [SSRF]http://reviews.store.sony.com/5050/11027477/submission.htm?user=__USERID__&return=https%3a%2f%2fstore.sony.com%2fwebapp%2fwcs%2fstores%2fservlet%2fProductDisplay%3fstoreId%3d10151%26catalogId%3d10551%26langId%3d-1%26productId%3d11027477
 [SSRF]http://reviews.store.sony.com/5050/11040813/writereview.htm?format=embedded&return=https%3A%2F%2Fstore.sony.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProductDisplay%3FstoreId%3D10151%26catalogId%3D10551%26langId%3D-1%26productId%3D11040813&user=__USERID__
 [SSRF]http://reviews.store.sony.com/5050/8198552921666382666/smp-n200-reviews/reviews.htm?sort=rating&dir=asc
@@ -2047,6 +2051,8 @@
 [SSTI]http://reviews.store.sony.com:80/5050/badgedefinition.htm?badgeName=PowerPlayer&contentType=review
 [SSTI]http://reviews.store.sony.com:80/5050/product/8198552921666532151/HostedSubmissionFrame.htm?bvdisplaycode=5050&bvappcode=rr&bvproductid=8198552921666532151&bvpage=http%3A%2F%2Freviews.store.sony.com%2F5050%2F8198552921666532151%2Fsubmitreview.htm%3Fformat%3Dembedded%26sessionparams%3D__BVSESSIONPARAMS__%26return%3D__RETURN__%26user%3D__USERID__%26authsourcetype%3D__AUTHTYPE__&bvcontenttype=REVIEW_SUBMISSION&bvauthenticateuser=true
 [SSTI]http://xtrasdirect.sel.sony.com:80/cgi-bin/compass.cgi?level=cart&srcid=WWWCONS&dest=AC-V16
+[SSTI]https://dbiz.sel.sony.com/idm/ResetPassword.jsp?appName=ServicesPLUS
+[SSTI]https://dbiz.sel.sony.com/idm/ws/Registration.jsp?appName=DS
 [XSS]http://reviews.store.sony.com/5050hosted-en_us/share.htm?site=Facebook&url=http%3A%2F%2Freviews.store.sony.com%2F5050hosted-en_us%2F8198552921666483159%2Fxbr-65hx950-reviews%2Freviews.htm%3FreviewID%3D37933036&title=__TITLE__&robot=__ROBOT__&image=http%3A%2F%2Fstore.sony.com%2Fwcsstore%2FSonyStyleStorefrontAssetStore%2Fimg%2F195x128%2FXBR65HX950.jpg
 [XSS]http://reviews.store.sony.com:80/5050/8198552921665370677/kdl-32l4000-reviews/reviews.htm?page=2
 [XSS]http://reviews.store.sony.com:80/5050/8198552921665405479/kdl-52w4100-reviews/reviews.htm?page=2
@@ -2518,3 +2524,5 @@
 [XSS]http://xtrasdirect.sel.sony.com:80/cgi-bin/compass.cgi?level=cart&dest=INT-W1
 [XSS]http://xtrasdirect.sel.sony.com:80/cgi-bin/compass.cgi?level=cart&srcid=WWWCONS&dest=AC-V16
 [XSS]http://xtrasdirect.sel.sony.com:80/cgi-bin/compass.cgi?level=prod
+[XSS]https://dbiz.sel.sony.com/idm/ResetPassword.jsp?appName=ServicesPLUS
+[XSS]https://dbiz.sel.sony.com/idm/ws/Registration.jsp?appName=DS

@@ -2,8 +2,11 @@
 [LFI]https://safetyreport.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsafetyreport.uber.com%2Faustin%2F&format=xml
 [REDIRECT]https://safetyreport.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsafetyreport.uber.com%2Faustin%2F
 [REDIRECT]https://safetyreport.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsafetyreport.uber.com%2Faustin%2F&format=xml
+[REDIRECT]https://team.uber.com/wp-login.php?redirect_to=http%3A%2F%2Fteam.uber.com%2F&reauth=1
 [SSRF]https://safetyreport.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsafetyreport.uber.com%2Faustin%2F
 [SSRF]https://safetyreport.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsafetyreport.uber.com%2Faustin%2F&format=xml
+[SSRF]https://team.uber.com/wp-login.php?redirect_to=http%3A%2F%2Fteam.uber.com%2F&reauth=1
 [XSS]https://safetyreport.uber.com/?p=118
 [XSS]https://safetyreport.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsafetyreport.uber.com%2Faustin%2F
 [XSS]https://safetyreport.uber.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsafetyreport.uber.com%2Faustin%2F&format=xml
+[XSS]https://team.uber.com/?p=16830

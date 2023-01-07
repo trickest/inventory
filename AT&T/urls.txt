@@ -1750,10 +1750,12 @@
 [IDOR]http://www.um.att.com:80/servlet/EmailServlet;jsessionid=E664AD4D690B2B2260D52898626F38A1?
 [IDOR]http://www.um.att.com:80/servlet/EmailServlet;jsessionid=E7E871C4B422BB36930B25E27507D679?Action=Home&Lang=EN
 [IDOR]http://www.um.att.com:80/servlet/EmailServlet?Action=ReadMail&Lang=EN&Folder=INBOX%3A1&UID=299
+[IDOR]https://marketplace.att.com/products?type=devkit&esheet=51739942&newsitemid=20180109005421&lan=en-US&anchor=AT&T+IoT+Marketplace&index=2&md5=c561e80ed42a317a381085053ca93bce
 [IDOR]https://youshare.att.com/saml/login;jsessionid=63CC6829ABDB930893780F06E4D0F0F7?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2FaFpONOJ6sgVA0JcSbtrWgo
 [IDOR]https://youshare.att.com/saml/login;jsessionid=68C871B97B686550087F401B83EB03F8?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2F2F2ujG16h7EacmkWobX4eK
 [IDOR]https://youshare.att.com/saml/login;jsessionid=A99A4E031A7D737118D74E356974438D?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2F0NOVNhGjGz8o0RvzFbluQS
 [IDOR]https://youshare.att.com/saml/login;jsessionid=FA22E57E0D849F454EE538A1E07A077B?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2FmM9lAP65MHSgO2X63tkvdT
+[LFI]http://disasterrelief.att.com/Error.html?aspxerrorpath=/robots.txt
 [LFI]http://reviews.wireless.att.com///logging?page=http%3A//web.archive.org/web/20081210165439/http%3A//reviews.wireless.att.com//4773/sku980158/reviews.htm%3Fformat%3Dembedded
 [LFI]http://reviews.wireless.att.com//logging?page=http%3A//replay.web.archive.org/20100520022916/http%3A//reviews.wireless.att.com/4773ab_split/sku4270255/reviews.htm%3Fformat%3Dembedded
 [LFI]http://reviews.wireless.att.com/4773/share.htm?site=DelIcioUs&url=http%3A%2F%2Freviews.wireless.att.com%2F4773%2Fsku4980540%2Freview%2F19631810%2Fredirect.htm&title=__TITLE__&robot=__ROBOT__
@@ -2752,6 +2754,7 @@
 [LFI]http://www.um.att.com:80/servlet/EmailServlet?Action=ViewFolder&Folder=INBOX:1&Refresh=false&Lang=EN&FilterType=MimeTypeFilter:email
 [LFI]http://www.um.att.com:80/servlet/EmailServlet?Action=ViewFolder&Lang=EN&Folder=INBOX%3a1&Refresh=false
 [LFI]http://www.um.att.com:80/servlet/EmailServlet?Action=ViewFolder&Lang=EN&Folder=INBOX&Sort=%2d1
+[LFI]https://marketplace.att.com/products?type=devkit&esheet=51739942&newsitemid=20180109005421&lan=en-US&anchor=AT&T+IoT+Marketplace&index=2&md5=c561e80ed42a317a381085053ca93bce
 [LFI]https://um.att.com/servlet/AddressBookServlet?Action=NonSubPage&PageTemplate=helpcenterfaqum.html&OuterTemplate=helptemplate.html
 [LFI]https://www.um.att.com/servlet/AddressBookServlet?Action=NonSubPage&PageTemplate=learnaboutum.html
 [RCE]http://reviews.wireless.att.com/4773/sku1070075/blackberry-blackberry-curve-8310-red-reviews/reviews.htm?sort=rating&dir=asc
@@ -2930,6 +2933,7 @@
 [RCE]http://reviews.wireless.att.com:80/4773/sku7280328/lg-powermat-wireless-charging-quick-circle-folio-case-pma-lg-g3-black-reviews/reviews.htm?sort=helpfulness&dir=asc
 [RCE]http://reviews.wireless.att.com:80/4773/sku980645/superior-armband-apple-iphone-reviews/reviews.htm?sort=helpfulness&dir=asc
 [RCE]http://www.um.att.com:80/7Lhcn6jLpJSadorFBUWReQ==
+[RCE]https://marketplace.att.com/oauth/platform/callback?code=
 [RCE]https://www.um.att.com/dcscripts/widgetfunctions.7.3a07.js
 [RCE]https://www.um.att.com/dcscripts/widgetfunctions.7.4a06.js
 [RCE]https://www.um.att.com/dcscripts/widgetfunctions.7.4a06p3.js
@@ -2941,6 +2945,7 @@
 [RCE]https://www.um.att.com/dcscripts/widgetfunctions.7.4a12.js
 [RCE]https://www.um.att.com/dcscripts/widgetfunctions.7.4a22.js
 [RCE]https://www.um.att.com/dcscripts/widgetfunctions.8.1.06-03.js
+[REDIRECT]http://disasterrelief.att.com/Error.html?aspxerrorpath=/robots.txt
 [REDIRECT]http://reviews.wireless.att.com///logging?page=http%3A//web.archive.org/web/20081210165439/http%3A//reviews.wireless.att.com//4773/sku980158/reviews.htm%3Fformat%3Dembedded
 [REDIRECT]http://reviews.wireless.att.com//logging?page=http%3A//replay.web.archive.org/20100520022916/http%3A//reviews.wireless.att.com/4773ab_split/sku4270255/reviews.htm%3Fformat%3Dembedded
 [REDIRECT]http://reviews.wireless.att.com/4773/share.htm?site=DelIcioUs&url=http%3A%2F%2Freviews.wireless.att.com%2F4773%2Fsku4980540%2Freview%2F19631810%2Fredirect.htm&title=__TITLE__&robot=__ROBOT__
@@ -7953,10 +7958,12 @@
 [SQLI]http://www.um.att.com:80/servlet/EmailServlet;jsessionid=E7E871C4B422BB36930B25E27507D679?Action=Home&Lang=EN
 [SQLI]http://www.um.att.com:80/servlet/EmailServlet?Action=ReadMail&Lang=EN&Folder=INBOX%3A1&UID=299
 [SQLI]http://www.um.att.com:80/servlet/EmailServlet?Action=ViewFolder&Lang=EN&Folder=INBOX&Sort=%2d1
+[SQLI]https://marketplace.att.com/products?type=devkit&esheet=51739942&newsitemid=20180109005421&lan=en-US&anchor=AT&T+IoT+Marketplace&index=2&md5=c561e80ed42a317a381085053ca93bce
 [SQLI]https://youshare.att.com/saml/login;jsessionid=63CC6829ABDB930893780F06E4D0F0F7?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2FaFpONOJ6sgVA0JcSbtrWgo
 [SQLI]https://youshare.att.com/saml/login;jsessionid=68C871B97B686550087F401B83EB03F8?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2F2F2ujG16h7EacmkWobX4eK
 [SQLI]https://youshare.att.com/saml/login;jsessionid=A99A4E031A7D737118D74E356974438D?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2F0NOVNhGjGz8o0RvzFbluQS
 [SQLI]https://youshare.att.com/saml/login;jsessionid=FA22E57E0D849F454EE538A1E07A077B?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2FmM9lAP65MHSgO2X63tkvdT
+[SSRF]http://disasterrelief.att.com/Error.html?aspxerrorpath=/robots.txt
 [SSRF]http://reviews.wireless.att.com///logging?page=http%3A//web.archive.org/web/20081210165439/http%3A//reviews.wireless.att.com//4773/sku980158/reviews.htm%3Fformat%3Dembedded
 [SSRF]http://reviews.wireless.att.com//logging?page=http%3A//replay.web.archive.org/20100520022916/http%3A//reviews.wireless.att.com/4773ab_split/sku4270255/reviews.htm%3Fformat%3Dembedded
 [SSRF]http://reviews.wireless.att.com/4773/share.htm?site=DelIcioUs&url=http%3A%2F%2Freviews.wireless.att.com%2F4773%2Fsku4980540%2Freview%2F19631810%2Fredirect.htm&title=__TITLE__&robot=__ROBOT__
@@ -10390,6 +10397,7 @@
 [SSTI]http://www.um.att.com:80/servlet/EmailServlet;jsessionid=E664AD4D690B2B2260D52898626F38A1?
 [SSTI]http://www.um.att.com:80/servlet/EmailServlet;jsessionid=E7E871C4B422BB36930B25E27507D679?Action=Home&Lang=EN
 [SSTI]http://www.um.att.com:80/servlet/EmailServlet?Action=ReadMail&Lang=EN&Folder=INBOX%3A1&UID=299
+[SSTI]https://marketplace.att.com/products?type=devkit&esheet=51739942&newsitemid=20180109005421&lan=en-US&anchor=AT&T+IoT+Marketplace&index=2&md5=c561e80ed42a317a381085053ca93bce
 [SSTI]https://um.att.com/servlet/AddressBookServlet?Action=NonSubPage&PageTemplate=helpcenterfaqum.html&OuterTemplate=helptemplate.html
 [SSTI]https://www.um.att.com/servlet/AddressBookServlet?Action=NonSubPage&PageTemplate=learnaboutum.html
 [SSTI]https://youshare.att.com/saml/login;jsessionid=63CC6829ABDB930893780F06E4D0F0F7?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2FaFpONOJ6sgVA0JcSbtrWgo
@@ -12105,6 +12113,10 @@
 [XSS]http://www.um.att.com:80/wp7wuyMNaYxYd37ySu18DQ==
 [XSS]http://www.um.att.com:80/xket2fq13BdQqwdP8JIU9Q==
 [XSS]http://www.um.att.com:80/y3lyGEY9G8nm1Inm0Xc0JQ==
+[XSS]https://marketplace.att.com/products/att-control-center-try-before-you-buy?_gl=1*pnhd9p*_gcl_dc*R0NMLjE1NTkzMjEwMzguQ1A3WHpfT2F4dUlDRldPalpRb2RTM1VFeEE.
+[XSS]https://marketplace.att.com/products?tags=connectivity
+[XSS]https://marketplace.att.com/products?tags=connectivity&tags=lte-m&tags=lte-na&tags=lte-intl
+[XSS]https://marketplace.att.com/products?type=devkit&esheet=51739942&newsitemid=20180109005421&lan=en-US&anchor=AT&T+IoT+Marketplace&index=2&md5=c561e80ed42a317a381085053ca93bce
 [XSS]https://youshare.att.com/saml/login;jsessionid=63CC6829ABDB930893780F06E4D0F0F7?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2FaFpONOJ6sgVA0JcSbtrWgo
 [XSS]https://youshare.att.com/saml/login;jsessionid=68C871B97B686550087F401B83EB03F8?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2F2F2ujG16h7EacmkWobX4eK
 [XSS]https://youshare.att.com/saml/login;jsessionid=A99A4E031A7D737118D74E356974438D?redirectTo=https%3A%2F%2Fyoushare.att.com%2Fview%2F0NOVNhGjGz8o0RvzFbluQS
