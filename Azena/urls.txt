@@ -1,9 +1,11 @@
 [IDOR]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&client_id=iotstore-devcon&redirect_uri=https%3A%2F%2Fconsole.azena.com%2Fdc%2Fsso%2Flogin&state=9af4433a-cbee-4ea9-af28-fd076893bfb7&login=true&scope=openid
+[IDOR]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=0zdMCfSQYnTF332I6-drgkR-bpw&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=7d4Cf3jEWb-pEVhprhxlegwcBiMIXJfSOtNbEEGTpC4
 [IDOR]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=6DMIf70_owBqMNRwWDYCbNrFwcQ&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=fw4UfD8qrJe0Jr8Qel16IwHp8_vFlLvPaSYpKWLIxxU
 [IDOR]https://www.azena.com/&esheet=52582658&newsitemid=20220222005262&lan=en-US&anchor=Azena&index=2&md5=f2293762a90140322dec11aca0b6703a
 [LFI]http://www.azena.com:80/cgi-bin/apexec.pl?etype=odp&passurl=/Arts/Comics/Manga/Titles/Gunsmith_Cats
 [LFI]http://www.azena.com:80/r-signup.pl?type=fast
 [LFI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&client_id=iotstore-devcon&redirect_uri=https%3A%2F%2Fconsole.azena.com%2Fdc%2Fsso%2Flogin&state=9af4433a-cbee-4ea9-af28-fd076893bfb7&login=true&scope=openid
+[LFI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=0zdMCfSQYnTF332I6-drgkR-bpw&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=7d4Cf3jEWb-pEVhprhxlegwcBiMIXJfSOtNbEEGTpC4
 [LFI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=6DMIf70_owBqMNRwWDYCbNrFwcQ&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=fw4UfD8qrJe0Jr8Qel16IwHp8_vFlLvPaSYpKWLIxxU
 [LFI]https://store.azena.com/shop/api/products?page=0&sortBy=publishDate
 [LFI]https://store.azena.com:443/shop/?sortBy=publishDate&useCases=Traffic%20analysis&utm_content=162524962&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
@@ -18,6 +20,7 @@
 [LFI]https://www.azena.com/en/webinar/start-your-innovation-journey-with-future-proof-ai-solutions-0?utm_campaign=App%20Challenge%202.0&utm_content=190463301&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/fime-2022?utm_campaign=Healthcare%20Campaign%202022&utm_content=215251715&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
 [LFI]https://www.azena.com/hs-fs/hubfs/2020-05-27_11h49_16.png?width=1920&name=2020-05-27_11h49_16.png
+[LFI]https://www.azena.com/hs-fs/hubfs/302-3022217_roger-berry-avatar-placeholder.png?width=100&height=100&name=302-3022217_roger-berry-avatar-placeholder.png
 [LFI]https://www.azena.com/hs-fs/hubfs/Ajay%20Kattiege.jfif?width=100&height=100&name=Ajay%20Kattiege.jfif
 [LFI]https://www.azena.com/hs-fs/hubfs/Andr%C3%A9.png?width=100&height=100&name=Andr%C3%A9.png
 [LFI]https://www.azena.com/hs-fs/hubfs/Assets/CTAs/Traffic-Landing-Page-CTA-(1).jpg?width=1200&name=Traffic-Landing-Page-CTA-(1).jpg
@@ -77,11 +80,13 @@
 [LFI]https://www.azena.com/insights/85-startups-revolutionizing-ai-computer-vision?utm_content=198407961&utm_medium=social&utm_source=twitter&hss_channel=tw-848662052361179136
 [LFI]https://www.azena.com/insights/ai-based-intellivision-products?utm_content=195165721&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/aiot-video-surveillance?utm_content=207748977&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[LFI]https://www.azena.com/insights/applications-of-artificial-intelligence-in-the-oil-and-gas-industry?utm_content=225291435&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/c-link?utm_content=205163561&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/empower-your-cameras-with-ai-video-analytics?utm_content=187058358&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/get-more-out-of-your-camera-system?utm_content=195163974&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/goodvision?utm_content=193240466&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/how-ai-is-transforming-the-oil-and-gas?utm_content=214087323&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[LFI]https://www.azena.com/insights/how-artificial-intelligence-is-transforming-retail?utm_content=223705480&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
 [LFI]https://www.azena.com/insights/how-azena-ensures-cybersecurity-for-its-iot-video-systems?utm_content=191341216&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/how-smart-iot-cameras-will-take-smoke-detection-to-the-next-level?utm_content=182630218&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/impact-circles-at-azena?utm_content=208591958&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
@@ -90,6 +95,7 @@
 [LFI]https://www.azena.com/insights/my-linh-leu?utm_content=206058811&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/nicole-skrzydel?utm_content=209724048&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/not-underestimate-smart-cameras-public?utm_content=182630418&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[LFI]https://www.azena.com/insights/our-iot-heroes-kirill-bushminkin-engineer-cloud-components?utm_content=226788445&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/our-iot-heroes-matthias-hahn?utm_content=217053275&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/smart-security-cameras-stadium-operations?utm_campaign=Stadiums%20Campaign%202021&utm_content=195151029&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [LFI]https://www.azena.com/insights/smart-traffic-flow-management?utm_campaign=Traffic%20Campaign%202021&utm_content=214832055&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
@@ -110,6 +116,7 @@
 [RCE]https://store.azena.com:443/shop/?query=sparkline&sortBy=relevance
 [REDIRECT]http://www.azena.com:80/cgi-bin/apexec.pl?etype=odp&passurl=/Arts/Comics/Manga/Titles/Gunsmith_Cats
 [REDIRECT]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&client_id=iotstore-devcon&redirect_uri=https%3A%2F%2Fconsole.azena.com%2Fdc%2Fsso%2Flogin&state=9af4433a-cbee-4ea9-af28-fd076893bfb7&login=true&scope=openid
+[REDIRECT]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=0zdMCfSQYnTF332I6-drgkR-bpw&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=7d4Cf3jEWb-pEVhprhxlegwcBiMIXJfSOtNbEEGTpC4
 [REDIRECT]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=6DMIf70_owBqMNRwWDYCbNrFwcQ&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=fw4UfD8qrJe0Jr8Qel16IwHp8_vFlLvPaSYpKWLIxxU
 [REDIRECT]https://store.azena.com/shop/api/products?page=0&sortBy=publishDate
 [REDIRECT]https://support.azena.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJUMV9RTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCAafWNVTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSItL2hjL2VuLXVzL2FydGljbGVzLzM2MDA0NDc2MDIxMy1PUy0xLTItMgY7CFQ6CXJhbmtpCA%3D%3D--30d0d78109972c8368bdad17784097a05635e248
@@ -120,11 +127,13 @@
 [REDIRECT]https://www.azena.com/_hcms/forms//embed/v3/form/4890158/b99994f3-b10e-4b4f-9be4-2b6477c2e529?callback=hs_reqwest_0&hutk=
 [REDIRECT]https://www.azena.com/insights/85-startups-revolutionizing-ai-computer-vision?hs_preview=vwtWguaK-63547916852
 [SQLI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&client_id=iotstore-devcon&redirect_uri=https%3A%2F%2Fconsole.azena.com%2Fdc%2Fsso%2Flogin&state=9af4433a-cbee-4ea9-af28-fd076893bfb7&login=true&scope=openid
+[SQLI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=0zdMCfSQYnTF332I6-drgkR-bpw&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=7d4Cf3jEWb-pEVhprhxlegwcBiMIXJfSOtNbEEGTpC4
 [SQLI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=6DMIf70_owBqMNRwWDYCbNrFwcQ&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=fw4UfD8qrJe0Jr8Qel16IwHp8_vFlLvPaSYpKWLIxxU
 [SQLI]https://store.azena.com/shop/?query=FLOW&sortBy=relevance
 [SQLI]https://store.azena.com:443/shop/?query=sparkline&sortBy=relevance
 [SQLI]https://www.azena.com/&esheet=52582658&newsitemid=20220222005262&lan=en-US&anchor=Azena&index=2&md5=f2293762a90140322dec11aca0b6703a
 [SQLI]https://www.azena.com/hs-fs/hubfs/2020-05-27_11h49_16.png?width=1920&name=2020-05-27_11h49_16.png
+[SQLI]https://www.azena.com/hs-fs/hubfs/302-3022217_roger-berry-avatar-placeholder.png?width=100&height=100&name=302-3022217_roger-berry-avatar-placeholder.png
 [SQLI]https://www.azena.com/hs-fs/hubfs/Ajay%20Kattiege.jfif?width=100&height=100&name=Ajay%20Kattiege.jfif
 [SQLI]https://www.azena.com/hs-fs/hubfs/Andr%C3%A9.png?width=100&height=100&name=Andr%C3%A9.png
 [SQLI]https://www.azena.com/hs-fs/hubfs/Assets/CTAs/Traffic-Landing-Page-CTA-(1).jpg?width=1200&name=Traffic-Landing-Page-CTA-(1).jpg
@@ -178,6 +187,7 @@
 [SQLI]https://www.azena.com/insights/85-startups-revolutionizing-ai-computer-vision?hs_preview=vwtWguaK-63547916852
 [SSRF]http://www.azena.com:80/cgi-bin/apexec.pl?etype=odp&passurl=/Arts/Comics/Manga/Titles/Gunsmith_Cats
 [SSRF]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&client_id=iotstore-devcon&redirect_uri=https%3A%2F%2Fconsole.azena.com%2Fdc%2Fsso%2Flogin&state=9af4433a-cbee-4ea9-af28-fd076893bfb7&login=true&scope=openid
+[SSRF]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=0zdMCfSQYnTF332I6-drgkR-bpw&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=7d4Cf3jEWb-pEVhprhxlegwcBiMIXJfSOtNbEEGTpC4
 [SSRF]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=6DMIf70_owBqMNRwWDYCbNrFwcQ&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=fw4UfD8qrJe0Jr8Qel16IwHp8_vFlLvPaSYpKWLIxxU
 [SSRF]https://store.azena.com/shop/api/products?page=0&sortBy=publishDate
 [SSRF]https://support.azena.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJUMV9RTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCAafWNVTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSItL2hjL2VuLXVzL2FydGljbGVzLzM2MDA0NDc2MDIxMy1PUy0xLTItMgY7CFQ6CXJhbmtpCA%3D%3D--30d0d78109972c8368bdad17784097a05635e248
@@ -188,6 +198,7 @@
 [SSRF]https://www.azena.com/_hcms/forms//embed/v3/form/4890158/b99994f3-b10e-4b4f-9be4-2b6477c2e529?callback=hs_reqwest_0&hutk=
 [SSRF]https://www.azena.com/insights/85-startups-revolutionizing-ai-computer-vision?hs_preview=vwtWguaK-63547916852
 [SSTI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&client_id=iotstore-devcon&redirect_uri=https%3A%2F%2Fconsole.azena.com%2Fdc%2Fsso%2Flogin&state=9af4433a-cbee-4ea9-af28-fd076893bfb7&login=true&scope=openid
+[SSTI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=0zdMCfSQYnTF332I6-drgkR-bpw&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=7d4Cf3jEWb-pEVhprhxlegwcBiMIXJfSOtNbEEGTpC4
 [SSTI]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=6DMIf70_owBqMNRwWDYCbNrFwcQ&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=fw4UfD8qrJe0Jr8Qel16IwHp8_vFlLvPaSYpKWLIxxU
 [SSTI]https://store.azena.com:443/shop/?sortBy=publishDate&useCases=Traffic%20analysis&utm_content=162524962&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
 [SSTI]https://www.azena.com/&esheet=52582658&newsitemid=20220222005262&lan=en-US&anchor=Azena&index=2&md5=f2293762a90140322dec11aca0b6703a
@@ -202,6 +213,7 @@
 [SSTI]https://www.azena.com/en/webinar/start-your-innovation-journey-with-future-proof-ai-solutions-0?utm_campaign=App%20Challenge%202.0&utm_content=190463301&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/fime-2022?utm_campaign=Healthcare%20Campaign%202022&utm_content=215251715&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
 [SSTI]https://www.azena.com/hs-fs/hubfs/2020-05-27_11h49_16.png?width=1920&name=2020-05-27_11h49_16.png
+[SSTI]https://www.azena.com/hs-fs/hubfs/302-3022217_roger-berry-avatar-placeholder.png?width=100&height=100&name=302-3022217_roger-berry-avatar-placeholder.png
 [SSTI]https://www.azena.com/hs-fs/hubfs/Ajay%20Kattiege.jfif?width=100&height=100&name=Ajay%20Kattiege.jfif
 [SSTI]https://www.azena.com/hs-fs/hubfs/Andr%C3%A9.png?width=100&height=100&name=Andr%C3%A9.png
 [SSTI]https://www.azena.com/hs-fs/hubfs/Assets/CTAs/Traffic-Landing-Page-CTA-(1).jpg?width=1200&name=Traffic-Landing-Page-CTA-(1).jpg
@@ -261,11 +273,13 @@
 [SSTI]https://www.azena.com/insights/85-startups-revolutionizing-ai-computer-vision?utm_content=198407961&utm_medium=social&utm_source=twitter&hss_channel=tw-848662052361179136
 [SSTI]https://www.azena.com/insights/ai-based-intellivision-products?utm_content=195165721&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/aiot-video-surveillance?utm_content=207748977&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[SSTI]https://www.azena.com/insights/applications-of-artificial-intelligence-in-the-oil-and-gas-industry?utm_content=225291435&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/c-link?utm_content=205163561&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/empower-your-cameras-with-ai-video-analytics?utm_content=187058358&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/get-more-out-of-your-camera-system?utm_content=195163974&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/goodvision?utm_content=193240466&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/how-ai-is-transforming-the-oil-and-gas?utm_content=214087323&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[SSTI]https://www.azena.com/insights/how-artificial-intelligence-is-transforming-retail?utm_content=223705480&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
 [SSTI]https://www.azena.com/insights/how-azena-ensures-cybersecurity-for-its-iot-video-systems?utm_content=191341216&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/how-smart-iot-cameras-will-take-smoke-detection-to-the-next-level?utm_content=182630218&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/impact-circles-at-azena?utm_content=208591958&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
@@ -274,6 +288,7 @@
 [SSTI]https://www.azena.com/insights/my-linh-leu?utm_content=206058811&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/nicole-skrzydel?utm_content=209724048&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/not-underestimate-smart-cameras-public?utm_content=182630418&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[SSTI]https://www.azena.com/insights/our-iot-heroes-kirill-bushminkin-engineer-cloud-components?utm_content=226788445&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/our-iot-heroes-matthias-hahn?utm_content=217053275&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/smart-security-cameras-stadium-operations?utm_campaign=Stadiums%20Campaign%202021&utm_content=195151029&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [SSTI]https://www.azena.com/insights/smart-traffic-flow-management?utm_campaign=Traffic%20Campaign%202021&utm_content=214832055&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
@@ -293,6 +308,7 @@
 [XSS]http://www.azena.com:80/cgi-bin/apexec.pl?etype=odp&passurl=/Arts/Comics/Manga/Titles/Gunsmith_Cats
 [XSS]http://www.azena.com:80/r-signup.pl?type=fast
 [XSS]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&client_id=iotstore-devcon&redirect_uri=https%3A%2F%2Fconsole.azena.com%2Fdc%2Fsso%2Flogin&state=9af4433a-cbee-4ea9-af28-fd076893bfb7&login=true&scope=openid
+[XSS]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=0zdMCfSQYnTF332I6-drgkR-bpw&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=7d4Cf3jEWb-pEVhprhxlegwcBiMIXJfSOtNbEEGTpC4
 [XSS]https://sso.azena.com/auth/realms/sast/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=developer-portal&state=6DMIf70_owBqMNRwWDYCbNrFwcQ&redirect_uri=https%3A%2F%2Fdocs.azena.com%3A443%2Fdeveloper%2Foidccallback&nonce=fw4UfD8qrJe0Jr8Qel16IwHp8_vFlLvPaSYpKWLIxxU
 [XSS]https://store.azena.com/shop/?query=FLOW&sortBy=relevance
 [XSS]https://store.azena.com/shop/api/products?page=0&sortBy=publishDate
@@ -326,6 +342,7 @@
 [XSS]https://www.azena.com/fime-2022?hss_channel=lcp-11807892
 [XSS]https://www.azena.com/fime-2022?utm_campaign=Healthcare%20Campaign%202022&utm_content=215251715&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
 [XSS]https://www.azena.com/hs-fs/hubfs/2020-05-27_11h49_16.png?width=1920&name=2020-05-27_11h49_16.png
+[XSS]https://www.azena.com/hs-fs/hubfs/302-3022217_roger-berry-avatar-placeholder.png?width=100&height=100&name=302-3022217_roger-berry-avatar-placeholder.png
 [XSS]https://www.azena.com/hs-fs/hubfs/Ajay%20Kattiege.jfif?width=100&height=100&name=Ajay%20Kattiege.jfif
 [XSS]https://www.azena.com/hs-fs/hubfs/Andr%C3%A9.png?width=100&height=100&name=Andr%C3%A9.png
 [XSS]https://www.azena.com/hs-fs/hubfs/Assets/CTAs/Traffic-Landing-Page-CTA-(1).jpg?width=1200&name=Traffic-Landing-Page-CTA-(1).jpg
@@ -392,6 +409,8 @@
 [XSS]https://www.azena.com/insights/ai-based-intellivision-products?utm_content=195165721&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/aiot-video-surveillance?hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/aiot-video-surveillance?utm_content=207748977&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[XSS]https://www.azena.com/insights/applications-of-artificial-intelligence-in-the-oil-and-gas-industry?hss_channel=tw-1044357381516333057
+[XSS]https://www.azena.com/insights/applications-of-artificial-intelligence-in-the-oil-and-gas-industry?utm_content=225291435&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/c-link?hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/c-link?utm_content=205163561&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/empower-your-cameras-with-ai-video-analytics?hss_channel=tw-1044357381516333057
@@ -401,6 +420,8 @@
 [XSS]https://www.azena.com/insights/goodvision?hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/goodvision?utm_content=193240466&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/how-ai-is-transforming-the-oil-and-gas?utm_content=214087323&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[XSS]https://www.azena.com/insights/how-artificial-intelligence-is-transforming-retail?hss_channel=lcp-11807892
+[XSS]https://www.azena.com/insights/how-artificial-intelligence-is-transforming-retail?utm_content=223705480&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11807892
 [XSS]https://www.azena.com/insights/how-azena-ensures-cybersecurity-for-its-iot-video-systems?hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/how-azena-ensures-cybersecurity-for-its-iot-video-systems?utm_content=191341216&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/how-smart-iot-cameras-will-take-smoke-detection-to-the-next-level?hss_channel=tw-1044357381516333057
@@ -418,6 +439,8 @@
 [XSS]https://www.azena.com/insights/nicole-skrzydel?utm_content=209724048&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/not-underestimate-smart-cameras-public?hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/not-underestimate-smart-cameras-public?utm_content=182630418&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
+[XSS]https://www.azena.com/insights/our-iot-heroes-kirill-bushminkin-engineer-cloud-components?hss_channel=tw-1044357381516333057
+[XSS]https://www.azena.com/insights/our-iot-heroes-kirill-bushminkin-engineer-cloud-components?utm_content=226788445&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/our-iot-heroes-matthias-hahn?hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/our-iot-heroes-matthias-hahn?utm_content=217053275&utm_medium=social&utm_source=twitter&hss_channel=tw-1044357381516333057
 [XSS]https://www.azena.com/insights/smart-security-cameras-stadium-operations?hss_channel=tw-1044357381516333057

@@ -10,6 +10,8 @@
 [IDOR]http://www.eat.ch:80/fr/bewertung.php?shopId=1015
 [IDOR]http://www.eat.ch:80/fr/index.php?gclid=CjwKEAiA64uyBRCVmKyT2vuAjzgSJADfINB6Az35jSSh9dn-ngNnic4OfFXQo21oIgMrPFFmMCX2JRoC6Lnw_wcB
 [IDOR]http://www.eat.ch:80/fr/menu.php?kurier_id=122
+[IDOR]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=driver-chat-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190127190800%2Fhttps%3A%2F%2Fchat.scoober.com%2F&state=0cebcc40-6817-4782-8e7f-24ecd2f31266&response_mode=fragment&response_type=code&scope=openid&nonce=21b44bb7-ae4e-459e-857f-964f7802fe9a
+[IDOR]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=forecast-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190610125700%2Fhttps%3A%2F%2Fforecast.scoober.com%2F&state=f1b030f1-6fc8-45fb-8694-6db863f83fce&nonce=02304eb8-e88e-4551-8c10-c7676de2fd98&response_mode=fragment&response_type=code&scope=openid
 [IDOR]https://cmpv2.bistro.sk/wrapper/v2/get_messages?requestUUID=190852bc-93c4-4fae-bf17-65edf5013db9&hasCsp=true&env=prod
 [IDOR]https://rest.bistro.sk/search/scroll?location[ref]=street&location[searchableName]=Bansk%C3%A1+Bystrica,+Na+Trosk%C3%A1ch&scrollId=99c6ab42-ca83-4d4c-b36b-df4931bd12fb
 [IDOR]https://www.bistro.sk/20-zlava-na-rozne-jedla/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=535924f6bc45a&a_bid=bcef4345
@@ -208,6 +210,7 @@
 [IDOR]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina-zilinska-lehota/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [IDOR]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [IDOR]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/ulica/zilina-mojsova-lucka/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
+[IDOR]https://www.bistro.sk/donaska-banska-bystrica/?filter%5Bcuisine%5D=azijska-kuchyna&?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [IDOR]https://www.bistro.sk/donaska-banska-bystrica/?search%5BsortCriterion%5D=sortDeliveryTime&utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [IDOR]https://www.bistro.sk/donaska-banska-bystrica/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [IDOR]https://www.bistro.sk/donaska-bezlepkova/kosice/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=549928c1182e4&a_bid=bcef4345
@@ -3332,6 +3335,8 @@
 [LFI]http://www.eat.ch/app/piwik/piwik.php?idsite=1
 [LFI]http://www.eat.ch/app/piwik/piwik.php?idsite=1&rec=1&url=http%3A%2F%2Fweb.archive.org%2Fweb%2F20101220201505%2Fhttp%3A%2F%2Fwww.eat.ch%2F&res=1920x1080&h=16&m=34&s=33&cookie=1&urlref=http%3A%2F%2Fweb.archive.org%2Fweb%2F20100901000000*%2Fhttp%3A%2F%2Feat.ch&rand=0.3999228123575449&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&action_name=Pizza%2C%20Pizzakurier%2C%20Lieferdienst%20in%20Z%C3%BCrich%2C%20St.%20Gallen%2C%20Bern%2C%20Basel%20-%20Online%20bestellen
 [LFI]http://www.eat.ch:80/?site=classic
+[LFI]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=driver-chat-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190127190800%2Fhttps%3A%2F%2Fchat.scoober.com%2F&state=0cebcc40-6817-4782-8e7f-24ecd2f31266&response_mode=fragment&response_type=code&scope=openid&nonce=21b44bb7-ae4e-459e-857f-964f7802fe9a
+[LFI]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=forecast-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190610125700%2Fhttps%3A%2F%2Fforecast.scoober.com%2F&state=f1b030f1-6fc8-45fb-8694-6db863f83fce&nonce=02304eb8-e88e-4551-8c10-c7676de2fd98&response_mode=fragment&response_type=code&scope=openid
 [LFI]https://m.bistro.sk/blog/?page=2
 [LFI]https://m.bistro.sk/blog/kategoria/ku-kavicke/?page=11
 [LFI]https://m.bistro.sk/donaska-bratislava/?page=2
@@ -3538,6 +3543,8 @@
 [LFI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina-zilinska-lehota/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [LFI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [LFI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/ulica/zilina-mojsova-lucka/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
+[LFI]https://www.bistro.sk/donaska-banska-bystrica/?filter%5Bcuisine%5D=azijska-kuchyna&?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
+[LFI]https://www.bistro.sk/donaska-banska-bystrica/?page=2
 [LFI]https://www.bistro.sk/donaska-banska-bystrica/?search%5BsortCriterion%5D=sortDeliveryTime&utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [LFI]https://www.bistro.sk/donaska-banska-bystrica/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [LFI]https://www.bistro.sk/donaska-bezlepkova/kosice/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=549928c1182e4&a_bid=bcef4345
@@ -6660,6 +6667,8 @@
 [REDIRECT]http://www.eat.ch:80/google.php?geocodeAddress=Teufenerstrasse+143,+9012,+St.+Gallen,+Schweiz&kurier=Me+&+Ro&logo=sunan-thai-restaurant.png
 [REDIRECT]http://www.eat.ch:80/google.php?geocodeAddress=Wasgenring+104,+4055,+Basel,+Schweiz&kurier=Pacman's+Pizza-+&+Steakkurier&logo=pacman-s-pizza--steakkurier.png
 [REDIRECT]http://www.eat.ch:80/google.php?geocodeAddress=Z%C3%BCrcherstrasse+3,+9500,+Wil,+Schweiz&kurier=Kreisel+Imbiss+&+Pizzeria&logo=kreisel-imbiss-pizzeria.png
+[REDIRECT]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=driver-chat-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190127190800%2Fhttps%3A%2F%2Fchat.scoober.com%2F&state=0cebcc40-6817-4782-8e7f-24ecd2f31266&response_mode=fragment&response_type=code&scope=openid&nonce=21b44bb7-ae4e-459e-857f-964f7802fe9a
+[REDIRECT]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=forecast-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190610125700%2Fhttps%3A%2F%2Fforecast.scoober.com%2F&state=f1b030f1-6fc8-45fb-8694-6db863f83fce&nonce=02304eb8-e88e-4551-8c10-c7676de2fd98&response_mode=fragment&response_type=code&scope=openid
 [REDIRECT]https://m.bistro.sk/?utm_medium=link&affiliate_open=1
 [REDIRECT]https://m.bistro.sk/blog/?page=2
 [REDIRECT]https://m.bistro.sk/blog/kategoria/ku-kavicke/?page=11
@@ -6667,6 +6676,7 @@
 [REDIRECT]https://m.bistro.sk/donaska-presov/?page=2
 [REDIRECT]https://www.bistro.sk/?utm_source=affiliate&utm_medium=link&utm_campaign=odporuc-v2&utm_content=button-vyskusat-bistro&affiliate_open=1
 [REDIRECT]https://www.bistro.sk/blog/kategoria/ku-kavicke/?page=10
+[REDIRECT]https://www.bistro.sk/donaska-banska-bystrica/?page=2
 [REDIRECT]https://www.bistro.sk/donaska-bratislava/?page=2
 [REDIRECT]https://www.bistro.sk/donaska-presov/?page=2
 [REDIRECT]https://www.bistro.sk/donaska-zilina/?page=2
@@ -6686,6 +6696,8 @@
 [SQLI]http://www.eat.ch:80/fr/bewertung.php?shopId=1015
 [SQLI]http://www.eat.ch:80/fr/index.php?gclid=CjwKEAiA64uyBRCVmKyT2vuAjzgSJADfINB6Az35jSSh9dn-ngNnic4OfFXQo21oIgMrPFFmMCX2JRoC6Lnw_wcB
 [SQLI]http://www.eat.ch:80/fr/menu.php?kurier_id=122
+[SQLI]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=driver-chat-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190127190800%2Fhttps%3A%2F%2Fchat.scoober.com%2F&state=0cebcc40-6817-4782-8e7f-24ecd2f31266&response_mode=fragment&response_type=code&scope=openid&nonce=21b44bb7-ae4e-459e-857f-964f7802fe9a
+[SQLI]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=forecast-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190610125700%2Fhttps%3A%2F%2Fforecast.scoober.com%2F&state=f1b030f1-6fc8-45fb-8694-6db863f83fce&nonce=02304eb8-e88e-4551-8c10-c7676de2fd98&response_mode=fragment&response_type=code&scope=openid
 [SQLI]https://cmpv2.bistro.sk/wrapper/v2/get_messages?requestUUID=190852bc-93c4-4fae-bf17-65edf5013db9&hasCsp=true&env=prod
 [SQLI]https://rest.bistro.sk/search/scroll?location[ref]=street&location[searchableName]=Bansk%C3%A1+Bystrica,+Na+Trosk%C3%A1ch&scrollId=99c6ab42-ca83-4d4c-b36b-df4931bd12fb
 [SQLI]https://www.bistro.sk/20-zlava-na-rozne-jedla/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=535924f6bc45a&a_bid=bcef4345
@@ -6884,6 +6896,7 @@
 [SQLI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina-zilinska-lehota/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [SQLI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [SQLI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/ulica/zilina-mojsova-lucka/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
+[SQLI]https://www.bistro.sk/donaska-banska-bystrica/?filter%5Bcuisine%5D=azijska-kuchyna&?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [SQLI]https://www.bistro.sk/donaska-banska-bystrica/?search%5BsortCriterion%5D=sortDeliveryTime&utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [SQLI]https://www.bistro.sk/donaska-banska-bystrica/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [SQLI]https://www.bistro.sk/donaska-bezlepkova/kosice/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=549928c1182e4&a_bid=bcef4345
@@ -9968,6 +9981,8 @@
 [SSRF]http://www.eat.ch:80/?site=classic
 [SSRF]http://www.eat.ch:80/en/password_reset.php?return=bestellung
 [SSRF]http://www.eat.ch:80/fr/password_reset.php?return=bestellung
+[SSRF]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=driver-chat-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190127190800%2Fhttps%3A%2F%2Fchat.scoober.com%2F&state=0cebcc40-6817-4782-8e7f-24ecd2f31266&response_mode=fragment&response_type=code&scope=openid&nonce=21b44bb7-ae4e-459e-857f-964f7802fe9a
+[SSRF]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=forecast-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190610125700%2Fhttps%3A%2F%2Fforecast.scoober.com%2F&state=f1b030f1-6fc8-45fb-8694-6db863f83fce&nonce=02304eb8-e88e-4551-8c10-c7676de2fd98&response_mode=fragment&response_type=code&scope=openid
 [SSRF]https://m.bistro.sk/?utm_medium=link&affiliate_open=1
 [SSRF]https://m.bistro.sk/blog/?page=2
 [SSRF]https://m.bistro.sk/blog/kategoria/ku-kavicke/?page=11
@@ -9977,6 +9992,7 @@
 [SSRF]https://www.bistro.sk/autocomplete/?debug=0&delete_submit_cookies=YES
 [SSRF]https://www.bistro.sk/autocomplete/?term=Bra&debug=0&lang=sk
 [SSRF]https://www.bistro.sk/blog/kategoria/ku-kavicke/?page=10
+[SSRF]https://www.bistro.sk/donaska-banska-bystrica/?page=2
 [SSRF]https://www.bistro.sk/donaska-bratislava/?page=2
 [SSRF]https://www.bistro.sk/donaska-presov/?page=2
 [SSRF]https://www.bistro.sk/donaska-zilina/?page=2
@@ -10050,6 +10066,8 @@
 [SSTI]http://www.eat.ch:80/fr/bewertung.php?shopId=1015
 [SSTI]http://www.eat.ch:80/fr/index.php?gclid=CjwKEAiA64uyBRCVmKyT2vuAjzgSJADfINB6Az35jSSh9dn-ngNnic4OfFXQo21oIgMrPFFmMCX2JRoC6Lnw_wcB
 [SSTI]http://www.eat.ch:80/fr/menu.php?kurier_id=122
+[SSTI]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=driver-chat-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190127190800%2Fhttps%3A%2F%2Fchat.scoober.com%2F&state=0cebcc40-6817-4782-8e7f-24ecd2f31266&response_mode=fragment&response_type=code&scope=openid&nonce=21b44bb7-ae4e-459e-857f-964f7802fe9a
+[SSTI]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=forecast-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190610125700%2Fhttps%3A%2F%2Fforecast.scoober.com%2F&state=f1b030f1-6fc8-45fb-8694-6db863f83fce&nonce=02304eb8-e88e-4551-8c10-c7676de2fd98&response_mode=fragment&response_type=code&scope=openid
 [SSTI]https://cmpv2.bistro.sk/wrapper/v2/get_messages?requestUUID=190852bc-93c4-4fae-bf17-65edf5013db9&hasCsp=true&env=prod
 [SSTI]https://rest.bistro.sk/search/scroll?location[ref]=street&location[searchableName]=Bansk%C3%A1+Bystrica,+Na+Trosk%C3%A1ch&scrollId=99c6ab42-ca83-4d4c-b36b-df4931bd12fb
 [SSTI]https://www.bistro.sk/20-zlava-na-rozne-jedla/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=535924f6bc45a&a_bid=bcef4345
@@ -10252,6 +10270,7 @@
 [SSTI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina-zilinska-lehota/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [SSTI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [SSTI]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/ulica/zilina-mojsova-lucka/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
+[SSTI]https://www.bistro.sk/donaska-banska-bystrica/?filter%5Bcuisine%5D=azijska-kuchyna&?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [SSTI]https://www.bistro.sk/donaska-banska-bystrica/?search%5BsortCriterion%5D=sortDeliveryTime&utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [SSTI]https://www.bistro.sk/donaska-banska-bystrica/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [SSTI]https://www.bistro.sk/donaska-bezlepkova/kosice/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=549928c1182e4&a_bid=bcef4345
@@ -13437,6 +13456,8 @@
 [XSS]http://www.eat.ch:80/google.php?geocodeAddress=Wasgenring+104,+4055,+Basel,+Schweiz&kurier=Pacman's+Pizza-+&+Steakkurier&logo=pacman-s-pizza--steakkurier.png
 [XSS]http://www.eat.ch:80/google.php?geocodeAddress=Z%C3%BCrcherstrasse+3,+9500,+Wil,+Schweiz&kurier=Kreisel+Imbiss+&+Pizzeria&logo=kreisel-imbiss-pizzeria.png
 [XSS]https://at.citymeal.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=604912044
+[XSS]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=driver-chat-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190127190800%2Fhttps%3A%2F%2Fchat.scoober.com%2F&state=0cebcc40-6817-4782-8e7f-24ecd2f31266&response_mode=fragment&response_type=code&scope=openid&nonce=21b44bb7-ae4e-459e-857f-964f7802fe9a
+[XSS]https://auth.scoober.com/auth/realms/scoober/protocol/openid-connect/auth?client_id=forecast-app&redirect_uri=https%3A%2F%2Fweb.archive.org%2Fweb%2F20190610125700%2Fhttps%3A%2F%2Fforecast.scoober.com%2F&state=f1b030f1-6fc8-45fb-8694-6db863f83fce&nonce=02304eb8-e88e-4551-8c10-c7676de2fd98&response_mode=fragment&response_type=code&scope=openid
 [XSS]https://cmpv2.bistro.sk/wrapper/v2/get_messages?requestUUID=190852bc-93c4-4fae-bf17-65edf5013db9&hasCsp=true&env=prod
 [XSS]https://img.bistro.sk/foto/MTI1eDEyNQ==/bis/sh_logo_1677_1.jpg?st=4_0wJW2IVVRFKFprZPJ2pSR9vymmWDB8Hxb74jlLIRU&ts=1609887276&e=0
 [XSS]https://img.bistro.sk/foto/MTI1eDEyNS9iaXM=/sh_logo_1000_1.jpg?st=CQnaVxj7PlIcPd93QU0LqOamWLme5R5esfug-FgwDVw&ts=1637153252&e=0
@@ -13468,6 +13489,24 @@
 [XSS]https://s.bistro.sk/bis/m_q6pm5u_reklam.pdf?st=M2efuHLXw9FfdXwBV5Qgpm008EBQYv3zCkCmGuZCLYU&ts=1612523920&e=0
 [XSS]https://s.bistro.sk/bis/m_qvi81a_bistro.pdf?st=uevMXuU02AqF1TLOsAG8M2aGt6Plmf8m7BwCxgU6JoE&ts=1625817505&e=0
 [XSS]https://s.bistro.sk/bis/m_qvjasa_reklam.pdf?st=jRCKv0zJ-ZoOZRw5jSMmhuEZ9jN_symePD8Vy6DlqEA&ts=1625089115&e=0
+[XSS]https://tracker.scoober.com/0ca7b67d33d1fc7cf89b639b35fe89469b04cf50f79c212c7b8c096075f4516a?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/30d4c40591eef1ae713080f617b01fd70cb4dfa39d8c7ad5d700a7d442cddb38?lang=en&timezone=Europe/Amsterdam
+[XSS]https://tracker.scoober.com/3d344727d172a15dd3ebd01ca0712085db222bb5c310fa9b843d08e2865e5b2d?lang=en&timezone=Europe/Copenhagen
+[XSS]https://tracker.scoober.com/45e92e8dd55f746c344513823388ef62d57ffed3af664ec5ca112606534337dd?lang=nl&timezone=Europe/Amsterdam
+[XSS]https://tracker.scoober.com/50bd535b8c551ee14dd75a773d1daa1fa461bbdcafbaa82b6083a570ab45e55b?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/571ac40f4d3fc44f3d8f865240d36afdadf010ea8be4efe638a206b15f93c194?lang=nl&timezone=Europe/Amsterdam
+[XSS]https://tracker.scoober.com/5a5385fbdc57af32c11711da2b34c4f791c268a820d593ce03d9ddb7b010ff1d?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/5de1314c7ad415a6c5e76aecc843390d27cd6428e1390edd7d255360a0bc5f58?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/928a09fb6ba6fe062e7a1c8ced776080ce295418d8366561772bcf95dba6aa96?lang=en&timezone=Europe/Zurich
+[XSS]https://tracker.scoober.com/a259b420886d8c1d5aba4d28ec5017d0d7f3f2e1a55a7886044980fdc186abc2?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/acd4e2f28e0e4bf73f6c21844f6f1cd2ef462d512ebaec3cd361d626b5429e49?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/adfb1d54e3d9ffa7edd27f907a9989db81fdbe95a35e982fea4c70dfd0362f97?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/b814b08fad4f7673346e29c16e74be36ea3166d8dddb95464d1381a0ba82b3c5?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/c9e58d1e980397b9c2d5b3965a99addd8b742c2aadbac57defb7bfcee33733c4?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/cc229ee631ffcd9d74b879c99a63661cd75338e235cb431f5bb1ba10867fdec2?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/d3a005177726fabc64230fe16953bfc99b12e20badb9e18ec7ae2a47a702f92d?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/dfb38e04d9755a3dd70fc7b1fe47a567c596cd791a201008363f58a091f8d42f?lang=de&timezone=Europe/Berlin
+[XSS]https://tracker.scoober.com/e36d85c49e558f8ce0bd81a393cf4425fedd05141ab7b5ee9d42de348d69e664?lang=de&timezone=Europe/Berlin
 [XSS]https://www.bistro.sk/20-zlava-na-rozne-jedla/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=535924f6bc45a&a_bid=bcef4345
 [XSS]https://www.bistro.sk/20-zlava-na-rozne-jedla/banska-bystrica/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=535924f6bc45a&a_bid=bcef4345&chan=zlk
 [XSS]https://www.bistro.sk/20-zlava-na-rozne-jedla/banska-bystrica/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
@@ -13679,6 +13718,8 @@
 [XSS]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina-zilinska-lehota/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [XSS]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [XSS]https://www.bistro.sk/donaska-balkanska-kuchyna/zilina/ulica/zilina-mojsova-lucka/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
+[XSS]https://www.bistro.sk/donaska-banska-bystrica/?filter%5Bcuisine%5D=azijska-kuchyna&?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
+[XSS]https://www.bistro.sk/donaska-banska-bystrica/?page=2
 [XSS]https://www.bistro.sk/donaska-banska-bystrica/?search%5BsortCriterion%5D=sortDeliveryTime&utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5fca1f3e826ee&a_bid=bcef4345
 [XSS]https://www.bistro.sk/donaska-banska-bystrica/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=5bf3d08766eef&a_bid=bcef4345
 [XSS]https://www.bistro.sk/donaska-bezlepkova/kosice/?utm_source=aff&utm_medium=dognet&utm_campaign=dognet-kamp&utm_content=link&a_aid=549928c1182e4&a_bid=bcef4345
