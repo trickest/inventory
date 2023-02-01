@@ -52,6 +52,7 @@ https://api.hackerone.com/customer-reference#custom_remediation_guidance
 https://api.hackerone.com/customer-reference#error
 https://api.hackerone.com/customer-reference#group
 https://api.hackerone.com/customer-reference#invitation
+https://api.hackerone.com/customer-reference#invitation-member
 https://api.hackerone.com/customer-reference#member
 https://api.hackerone.com/customer-reference#organization
 https://api.hackerone.com/customer-reference#organization-member
@@ -110,6 +111,9 @@ https://api.hackerone.com/customer-resources/#assets-import-assets-with-csv-file
 https://api.hackerone.com/customer-resources/#assets-retrieve-an-assets-import
 https://api.hackerone.com/customer-resources/#assets-update-asset
 https://api.hackerone.com/customer-resources/#organizations
+https://api.hackerone.com/customer-resources/#organizations-create-an-invitation
+https://api.hackerone.com/customer-resources/#organizations-get-all-groups
+https://api.hackerone.com/customer-resources/#organizations-get-all-members
 https://api.hackerone.com/customer-resources/#organizations-get-all-organization-member-groups
 https://api.hackerone.com/customer-resources/#organizations-get-all-organization-members
 https://api.hackerone.com/customer-resources/#programs-get-payment-transactions
@@ -122,6 +126,7 @@ https://api.hackerone.com/customer-resources/#reports-upload-attachments
 https://api.hackerone.com/getting-started
 https://api.hackerone.com/getting-started-hacker-api
 https://api.hackerone.com/getting-started-hacker-api/#rate-limits
+https://api.hackerone.com/getting-started/#error-responses
 https://api.hackerone.com/getting-started/#rate-limits
 https://api.hackerone.com/hacker-reference
 https://api.hackerone.com/hacker-reference#activity
@@ -149,6 +154,7 @@ https://api.hackerone.com/hacker-resources/#reports-change-state
 https://api.hackerone.com/reference/#report
 https://api.hackerone.com/use-cases
 https://api.hackerone.com/use-cases#assets-management-importing-existing-assets
+https://api.hackerone.com/use-cases#organization-management-get-all-the-organization-groups-and-their-members
 https://api.hackerone.com/webhooks
 https://api.hackerone.com/webhooks/#events
 https://consent.trustarc.com/notice?domain=hackerone.com&c=teconsent&js=nj&noticeType=bb%E2%80%8B%E2%80%8B&gtm=1
@@ -551,6 +557,7 @@ https://www.hackerone.com/attack-resistance-report-2022?utm_source=website&utm_m
 https://www.hackerone.com/attack-surface-review
 https://www.hackerone.com/aws.amazon.com/compliance
 https://www.hackerone.com/best-practices/jedoxs-journey-hackerone-qa-cto-vladislav-malicevic
+https://www.hackerone.com/blog
 https://www.hackerone.com/blog/100-hacking-tools-and-resources
 https://www.hackerone.com/blog/AndroidHackingMonth-qa-with-bagipro
 https://www.hackerone.com/blog/Introducing-Hacker101-CTF
@@ -974,15 +981,18 @@ https://www.hackerone.com/sites/default/files/2022-09/DPA%20July%202022_pre%20si
 https://www.hackerone.com/sites/default/files/2022-11/H1-Customer-DPA-November-2022.pdf
 https://www.hackerone.com/sites/default/files/2022-11/HAC_HackerOne%20Asset_Solution%20Brief_L2R3%20(1).pdf
 https://www.hackerone.com/sites/default/files/2023-01/HAC_Pentest-Solution-Brief-HackerOne_L1R5.pdf
+https://www.hackerone.com/sites/default/files/js/js_-4-xXeI1DvC_HE1gurQIn-I3kcpljOc3q0pfzEBUfUI.js
 https://www.hackerone.com/sites/default/files/js/js_0BPuh4XtgtLuXWB6tibLubUDRPFBXTTTlT1LVer2Hvg.js
 https://www.hackerone.com/sites/default/files/js/js_0TocX8pd8d_LX6xbhuNH3tYqmONlNRnCLnwT4bdK7ls.js
 https://www.hackerone.com/sites/default/files/js/js_2VJenpzT-SmS-Sjh7enxrEMPm9xQF33xZrw6NQPX4pc.js
 https://www.hackerone.com/sites/default/files/js/js_2fsETmVppnoijnVvYN8lDVojW-c6_RJ3l8OQ1jx23pI.js
 https://www.hackerone.com/sites/default/files/js/js_5StUju4qVHZ_OpVhGkTz5CE2N5VgGIqIK2R4zNNDUOU.js
 https://www.hackerone.com/sites/default/files/js/js_6KpZ5CC3n7WWHO1FbEFMPpfiJv3-LNhbcExoSh55OJM.js
+https://www.hackerone.com/sites/default/files/js/js_7Yeu4eXKqTtYM7JSGOeIEvLC4c0vHHZw3h6iGhoR2CU.js
 https://www.hackerone.com/sites/default/files/js/js_8yucgJ0r-v4M1IVKb-b6hO3NiVksn7Lr2GZSdyq2EdM.js
 https://www.hackerone.com/sites/default/files/js/js_9Pn6WECOjRABjAwe14gNXb31y5u2iw6LaqXWK9nUrjY.js
 https://www.hackerone.com/sites/default/files/js/js_9PoHaejCSH1bZ0EAbjxV79_TczebqUDaE0anse6RUN0.js
+https://www.hackerone.com/sites/default/files/js/js_AukwR9bSJLf7CwgQDLI8fgfWm12owh6UeZ-cCYmM8-E.js
 https://www.hackerone.com/sites/default/files/js/js_B2JsLQH8BiKUydVCN3Jt03dBt75EHZGyjaMjy5pfm48.js
 https://www.hackerone.com/sites/default/files/js/js_CBX6B52n87D2NvTUNuYoQwsrsR0lGMmPhLDbvkyZb7g.js
 https://www.hackerone.com/sites/default/files/js/js_EGpGLHpfntEqb8B6CjrkHG88GZnB7KnWztsr-1L9ivo.js
@@ -998,14 +1008,22 @@ https://www.hackerone.com/sites/default/files/js/js_RkcmOQ9Xf7w7rZmcNSUq0E-IcJ6E
 https://www.hackerone.com/sites/default/files/js/js_RnlyE0LiIhjq2m0kdPh1iIKkDUg8Npaym0TJP8AH5eg.js
 https://www.hackerone.com/sites/default/files/js/js_SaH74vF8QHXfUAEePWK8XLTmfYHInlpfHtqnJg9LsgM.js
 https://www.hackerone.com/sites/default/files/js/js_SwqLFBDlTHXdiAxCPPHEVFyRH59cxIxSOdxH9MFy2NU.js
+https://www.hackerone.com/sites/default/files/js/js_YyOWimVcDHY6cwvU0XWv5Fw82bETvjRKZ24bu_0MYhQ.js
+https://www.hackerone.com/sites/default/files/js/js_ZnEk2aOQcpb8wtSUTNiIVAWpRegfDxhj5k5YT5mSaqE.js
 https://www.hackerone.com/sites/default/files/js/js__qguhQcIDOCzYE4j70QyFTZO650xe2dfV7c8pS218QQ.js
+https://www.hackerone.com/sites/default/files/js/js__wNnkk8XjH8XAL34W8WK_Ptm9qBuOOhovMhU-Mp5Z-k.js
+https://www.hackerone.com/sites/default/files/js/js_c7-i-NSBKgag6_o2GUVyMxUimjZMZlwy5BiBNz9zPxo.js
 https://www.hackerone.com/sites/default/files/js/js_cJLI7yNUs-u6rgOStG7YdzG5nI2qsWlPpnkfvUDpzMY.js
+https://www.hackerone.com/sites/default/files/js/js_dkfdKjI_gzUHW84OFs_qBJBPHJ5eHVNmeeb7-oBdLoI.js
 https://www.hackerone.com/sites/default/files/js/js_fK_dLxXG2J1f82F77U8XAn-RVEvAJSZDTELmPTt0z_0.js
 https://www.hackerone.com/sites/default/files/js/js_fdWJxJty_QBPmt-d3IoUREHc2XgrS4sHi_ks7CS7kBU.js
 https://www.hackerone.com/sites/default/files/js/js_gvjajv9QDdtZnqxVejfZcJ0dTaktpvNS1m3y9KGPm5A.js
 https://www.hackerone.com/sites/default/files/js/js_luuHuDgI6atKXdfMaY04712MHxNUMZ8_x9uXYW6MxxY.js
 https://www.hackerone.com/sites/default/files/js/js_tTuREaBRH-bhEQt988oMFDkyyyjU9w9p2ZOqVMHHHBE.js
 https://www.hackerone.com/sites/default/files/js/js_tUroX8tnRd1_w2GRfknRvOqKe9Vk09MhUTWCzWHMH2w.js
+https://www.hackerone.com/sites/default/files/js/js_ta7gIBtbmpvN-XJMk6s6WrTSt4uotdJIS8W1PWd5Lfs.js
+https://www.hackerone.com/sites/default/files/js/js_tiiRM86588hYhXMEUptcsoIYO4Y0j94y4uJQPW5nnYQ.js
+https://www.hackerone.com/sites/default/files/js/js_tzLI_n3LIN2olmKPZqiFguJWNFl9UsSBOxf8vHXFtY4.js
 https://www.hackerone.com/sites/default/files/js/js_wv6WPoFtvOUjwfuATnRfT_M48EWruDC7K4NsVo0GMuw.js
 https://www.hackerone.com/sites/default/files/js/js_xybVVOts7lexptZgjVZQqjCTpCnZ9B4VgFQVwoNDwb8.js
 https://www.hackerone.com/sites/default/files/js/js_y_3Sg8VT_jyVlU8DBW_O4bXU6yQAUFZ0E0paWElfK5Y.js
@@ -1035,6 +1053,7 @@ https://www.hackerone.com/vulnerability-and-security-testing-blog?page=0
 https://www.hackerone.com/vulnerability-and-security-testing-blog?page=1
 https://www.hackerone.com/vulnerability-and-security-testing-blog?page=66
 https://www.hackerone.com/vulnerability-and-security-testing-blog?page=67
+https://www.hackerone.com/vulnerability-and-security-testing-blog?page=68
 https://www.hackerone.com/vulnerability-and-security-testing-blog?page=7
 https://www.hackerone.com/vulnerability-and-security-testing-blog?page=8
 https://www.hackerone.com/vulnerability-disclosure
@@ -1045,6 +1064,7 @@ https://www.hackerone.com/vulnerability-management
 https://www.hackerone.com/vulnerability-management/5-articles-get-you-speed-bug-bounty-programs
 https://www.hackerone.com/vulnerability-management/5-secrets-mature-vulnerability-management-program
 https://www.hackerone.com/vulnerability-management/announcing-hackerone-api
+https://www.hackerone.com/vulnerability-management/beyond-vdp-how-challenge-brings-proactive-security-your-agency
 https://www.hackerone.com/vulnerability-management/cisos-do-you-know-security-risks-your-organizations-next-ma
 https://www.hackerone.com/vulnerability-management/hackerone-expands-integrations-ecosystem-connect-and-defend-customers
 https://www.hackerone.com/vulnerability-management/hackerone-integrates-servicenow-streamline-vulnerability-lifecycle
@@ -1079,6 +1099,7 @@ https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fhackerone-appoints-dawn-mitchell-as-chief-people-officer&title=HackerOne%20Appoints%20Dawn%20Mitchell%20as%20Chief%20People%20Officer&summary=HackerOne%20Appoints%20Dawn%20Mitchell%20as%20Chief%20People%20Officer%0Aejames%40hackerone.com%0AThu%2C%2008%2F18%2F2022%20-%2009%3A55%0ARead%20more%20about%20HackerOne%20Appoints%20Dawn%20Mitchell%20as%20Chief%20People%20OfficerAugust%2018%2C%202022
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fhackerone-s-pentest-as-a-service-enhancements-streamline-secure-testing-for-large-enterprises-and-digital-innovators&title=HackerOne%E2%80%99s%20Pentest%20as%20a%20Service%20Enhancements%20Streamline%20Secure%20Testing%20for%20Large%20Enterprises%20and%20Digital%20Innovators&summary=%0A%09%0A%09%0A%0A%09%09%09%09%09%09%09%09%09%09%0A%09%0ASeptember%2028%2C%202022HackerOne%E2%80%99s%20Pentest%20as%20a%20Service%20Enhancements%20Streamline%20Secure%20Testing%20for%20Large%20Enterprises%20and%20Digital%20InnovatorsRead%20more
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps&title=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps&summary=%0A%09%0A%09%0A%0A%09%09%09%09%09%09%09%09%09%09%0A%09%0AOctober%2013%2C%202022Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20GapsRead%20more
+https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps&title=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps&summary=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0A%0Aalice%40hackerone.com%0A%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps&title=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps&summary=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0Aalice%40hackerone.com%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fcustomer-story%2Fhow-hired-builds-customer-trust-with-hackerone-pentest&title=How%20Hired%20Builds%20Customer%20Trust%20With%20Hackerone%20Pentest&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Fannouncing-the-hackerone-2022-attack-resistance-report-a-security-survey-how-to-close-your-organizations-attack-resistance-gap&title=Announcing%20the%20HackerOne%202022%20Attack%20Resistance%20Report%3A%20A%20Security%20Survey%E2%80%94How%20to%20Close%20Your%20Organization%27s%20Attack%20Resistance%20Gap&summary=Today%2C%20HackerOne%20published%20The%202022%20Attack%20Resistance%20Report%3A%20A%20HackerOne%20Security%20Survey.%20Our%20research%20revealed%20an%20increasing%20gap%E2%80%94the%20attack%20resistance%20gap%E2%80%94between%20what%20organizations%20can%20defend...
@@ -1124,6 +1145,7 @@ mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20h
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AIntroducing%20Unified%20HackerOne%20Scope%20Management%20with%20Burp%20Suite%20Support%0AThis%20post%20will%20start%20with%20the%20basics%20of%20defining%20scope%20and%20how%20ethical%20hackers%20and%20testers%20use%20it%20in%20their%20testing%20workflow.%20If%20you%E2%80%99re%20already%20familiar%20with%20Burp%20Suite%20and%20the%20general%20idea%20of...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Fintroducing-unified-hackerone-scope-management-with-burp-suite-support
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0ALet%E2%80%99s%20Celebrate%20the%20Hacker%20Community%0AOctober%20is%20Cybersecurity%20Awareness%20Month%2C%20but%20at%20HackerOne%2C%20we%E2%80%99ve%20decided%20it%20should%20be%20Hacker%20Awareness%20Month.%20We%20want%20to%20spend%20October%20celebrating%20the%20individuals%20that%20drive%20our%20platform%20%E2%80%94...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Flet-s-celebrate-the-hacker-community
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0A%0A%09%0A%09%0A%0A%09%09%09%09%09%09%09%09%09%09%0A%09%0AOctober%2013%2C%202022Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20GapsRead%20more%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps
+mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0A%0Aalice%40hackerone.com%0A%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0Aalice%40hackerone.com%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AThe%202022%20Attack%20Resistance%20Report%0AUnderstanding%20where%20the%20critical%20flaws%20lie%20within%20your%20organization%E2%80%99s%20attack%20surface%20is%20critical%E2%80%94but%20complicated.%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2F2022-attack-resistance-report
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AUse%20Hackerone%E2%80%99s%20Enhanced%20Pentest%20as%20a%20Service%20to%20Streamline%20Security%20Testing%0ANew%20capabilities%20improve%20pentesting%20to%20increase%20attack%20resistance%0A%0AThe%20enhanced%20features%20drive%20robust%20security%20testing%20practices%20with%20the%20ability%20to%20launch%2C%20test%2C%20identify%2C%20retest%2C%20and%20fix...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Fuse-hackerone-s-enhanced-pentest-as-a-service-to-streamline-security-testing
