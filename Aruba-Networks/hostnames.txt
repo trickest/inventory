@@ -26,7 +26,9 @@ access-prod-prod.devicemanager.central.arubanetworks.com
 access-prod.beta-lb.devicemanager.central.arubanetworks.com
 access-prod.devicemanager.central.arubanetworks.com
 access.2019.devicemanager.central.arubanetworks.com
+access.2021-config.devicemanager.central.arubanetworks.com
 access.20222018.devicemanager.central.arubanetworks.com
+access.acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 access.acceptatieio.api.devicemanager.central.arubanetworks.com
 access.access-backup-db.devicemanager.central.arubanetworks.com
 access.access.access-backup-db.devicemanager.central.arubanetworks.com
@@ -37,6 +39,8 @@ access.api-db1-archive.devicemanager.central.arubanetworks.com
 access.apps-api.devicemanager.central.arubanetworks.com
 access.assetsbackup.devicemanager.central.arubanetworks.com
 access.aws-db1-archive.devicemanager.central.arubanetworks.com
+access.beta.devicemanager.central.arubanetworks.com
+access.chef.devicemanager.central.arubanetworks.com
 access.cms-io.api.devicemanager.central.arubanetworks.com
 access.cpdb1-archive.devicemanager.central.arubanetworks.com
 access.customersmdm.devicemanager.central.arubanetworks.com
@@ -133,6 +137,7 @@ account20192018.devicemanager.central.arubanetworks.com
 accountaccaws.devicemanager.central.arubanetworks.com
 accountacceptatie-api.devicemanager.central.arubanetworks.com
 accountadmin-cdn-acc-lb.devicemanager.central.arubanetworks.com
+accountalpha-2018db1-lb.devicemanager.central.arubanetworks.com
 accountalpha-admin-cdn-acc-lb.devicemanager.central.arubanetworks.com
 accountauth-app-db1-archive.devicemanager.central.arubanetworks.com
 accountbeta-alpha-staginglb2.devicemanager.central.arubanetworks.com
@@ -142,6 +147,7 @@ accountcache.devicemanager.central.arubanetworks.com
 accountcms-io.api.devicemanager.central.arubanetworks.com
 accountconfig-mdm.devicemanager.central.arubanetworks.com
 accountcpdb1-archive.devicemanager.central.arubanetworks.com
+accountgcp.devicemanager.central.arubanetworks.com
 accountgrafana.k8s-prod.getaws.arubanetworks.com
 accountkibana.k8s-prod.getaws.arubanetworks.com
 accountmdm.devicemanager.central.arubanetworks.com
@@ -194,6 +200,7 @@ admin.corpapi.devicemanager.central.arubanetworks.com
 admin.customersmdm.devicemanager.central.arubanetworks.com
 admin.devicemanager.central.arubanetworks.com
 admin.elasticbeanstalk.db.devicemanager.central.arubanetworks.com
+admin.gcp.devicemanager.central.arubanetworks.com
 admin.networkauth-lb.devicemanager.central.arubanetworks.com
 admin.partnerauth-lb.devicemanager.central.arubanetworks.com
 admin.prod-prod.devicemanager.central.arubanetworks.com
@@ -201,9 +208,12 @@ admin.prod.mdm.devicemanager.central.arubanetworks.com
 admin.v1.mdm.devicemanager.central.arubanetworks.com
 admin.v3mdm.devicemanager.central.arubanetworks.com
 admin.web.beta-db.devicemanager.central.arubanetworks.com
+admin2021-config.devicemanager.central.arubanetworks.com
 adminacc-cdn-acc-lb.devicemanager.central.arubanetworks.com
+adminacc-lb.devicemanager.central.arubanetworks.com
 adminaccount.cpdb1-archive.devicemanager.central.arubanetworks.com
 adminalpha.api-dev.prod.devicemanager.central.arubanetworks.com
+adminapi-api-api-db1-archive.devicemanager.central.arubanetworks.com
 adminapi-auth-lb.devicemanager.central.arubanetworks.com
 adminaws.devicemanager.central.arubanetworks.com
 admincheflb2.devicemanager.central.arubanetworks.com
@@ -228,6 +238,7 @@ akb.arubanetworks.com
 alcatel.arubanetworks.com
 alpha-2018db1-lb.devicemanager.central.arubanetworks.com
 alpha-acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
+alpha-acc-lb.devicemanager.central.arubanetworks.com
 alpha-admin-cdn-acc-lb.devicemanager.central.arubanetworks.com
 alpha-adminaws.devicemanager.central.arubanetworks.com
 alpha-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
@@ -236,6 +247,7 @@ alpha-auth.dev.prod.devicemanager.central.arubanetworks.com
 alpha-bucket.prod.devicemanager.central.arubanetworks.com
 alpha-customersmdm.devicemanager.central.arubanetworks.com
 alpha-db.devicemanager.central.arubanetworks.com
+alpha-dbms.devicemanager.central.arubanetworks.com
 alpha-debug.beta-backup.devicemanager.central.arubanetworks.com
 alpha-elasticbeanstalk.db.devicemanager.central.arubanetworks.com
 alpha-grafana.k8s-prod.getaws.arubanetworks.com
@@ -269,9 +281,11 @@ alphaaccaws.devicemanager.central.arubanetworks.com
 alphaadmin-2018-backup.devicemanager.central.arubanetworks.com
 alphaadmin-api-db1-archive.devicemanager.central.arubanetworks.com
 alphaalpha-api-db1-archive.devicemanager.central.arubanetworks.com
+alphaapi-api-api-db1-archive.devicemanager.central.arubanetworks.com
 alphaapi-lb1.devicemanager.central.arubanetworks.com
 alphaasp-stg-docker-build-on-ek.k8s-prod.getaws.arubanetworks.com
 alphabucketbeta-backup.devicemanager.central.arubanetworks.com
+alphadbms.devicemanager.central.arubanetworks.com
 alphajira.api.devicemanager.central.arubanetworks.com
 alphamdm.devicemanager.central.arubanetworks.com
 alphanetworkauth-lb.devicemanager.central.arubanetworks.com
@@ -292,10 +306,12 @@ apaceast.cloudguest.central.arubanetworks.com
 apacsouth.cloudguest.central.arubanetworks.com
 api-acc-lb.devicemanager.central.arubanetworks.com
 api-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
+api-api-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 api-api-api-db1-archive.devicemanager.central.arubanetworks.com
 api-api-db1-archive.devicemanager.central.arubanetworks.com
 api-api-lb1.devicemanager.central.arubanetworks.com
 api-apiassetsapi-db1-archive.devicemanager.central.arubanetworks.com
+api-app-db1-archive.devicemanager.central.arubanetworks.com
 api-auth-lb.devicemanager.central.arubanetworks.com
 api-config.developer-lb.devicemanager.central.arubanetworks.com
 api-csp.central.arubanetworks.com
@@ -315,6 +331,7 @@ api.access-acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 api.access-api-dev.prod.devicemanager.central.arubanetworks.com
 api.admin.2019staginglb2.devicemanager.central.arubanetworks.com
 api.alpha-customersmdm.devicemanager.central.arubanetworks.com
+api.app-db1-archive.devicemanager.central.arubanetworks.com
 api.assets.cpdb1-archive.devicemanager.central.arubanetworks.com
 api.assetsapi-db1-archive.devicemanager.central.arubanetworks.com
 api.beta-alpha-staginglb2.devicemanager.central.arubanetworks.com
@@ -331,13 +348,16 @@ api.portal.pavo.iot.developer.arubanetworks.com
 api.support.pavo.iot.developer.arubanetworks.com
 api.web.beta-db.devicemanager.central.arubanetworks.com
 apiacc-cdn-acc-lb.devicemanager.central.arubanetworks.com
+apiacc-lb.devicemanager.central.arubanetworks.com
 apiaccess.apps-api.devicemanager.central.arubanetworks.com
+apiapi-api-api-db1-archive.devicemanager.central.arubanetworks.com
 apiassetsapi-db1-archive.devicemanager.central.arubanetworks.com
 apiauth.acc-lb.devicemanager.central.arubanetworks.com
 apibucket.lb2.devicemanager.central.arubanetworks.com
 apidb1-archive.devicemanager.central.arubanetworks.com
 apidbms-lb2.devicemanager.central.arubanetworks.com
 apigw-cop-vip1n-fips-arubait.arubanetworks.com
+apigw-eucentral3.central.arubanetworks.com
 apigw-uswest4.central.arubanetworks.com
 apilb2.devicemanager.central.arubanetworks.com
 apistg.getaws.arubanetworks.com
@@ -429,6 +449,7 @@ assets-api-api-lb1.devicemanager.central.arubanetworks.com
 assets-api-elasticbeanstalk.lb2.devicemanager.central.arubanetworks.com
 assets-assets-cache.devicemanager.central.arubanetworks.com
 assets-assets.cpdb1-archive.devicemanager.central.arubanetworks.com
+assets-auth-app-db1-archive.devicemanager.central.arubanetworks.com
 assets-bloglb.devicemanager.central.arubanetworks.com
 assets-cache.devicemanager.central.arubanetworks.com
 assets-cloudlb.devicemanager.central.arubanetworks.com
@@ -452,6 +473,7 @@ assets.config.developer-lb.devicemanager.central.arubanetworks.com
 assets.corpapi.devicemanager.central.arubanetworks.com
 assets.cpdb1-archive.devicemanager.central.arubanetworks.com
 assets.customersmdm.devicemanager.central.arubanetworks.com
+assets.dbms.devicemanager.central.arubanetworks.com
 assets.debug.beta-backup.devicemanager.central.arubanetworks.com
 assets.elasticbeanstalk.db.devicemanager.central.arubanetworks.com
 assets.elasticbeanstalk.lb2.devicemanager.central.arubanetworks.com
@@ -503,6 +525,7 @@ auth.20192018.devicemanager.central.arubanetworks.com
 auth.acc-lb.devicemanager.central.arubanetworks.com
 auth.acceptatie-api.devicemanager.central.arubanetworks.com
 auth.alpha-api-db1-archive.devicemanager.central.arubanetworks.com
+auth.api-api-db1-archive.devicemanager.central.arubanetworks.com
 auth.archive.devicemanager.central.arubanetworks.com
 auth.auth-app-db1-archive.devicemanager.central.arubanetworks.com
 auth.auth.2018.devicemanager.central.arubanetworks.com
@@ -517,10 +540,13 @@ auth.dev.prod.devicemanager.central.arubanetworks.com
 auth.devicemanager.central.arubanetworks.com
 auth.lb2.devicemanager.central.arubanetworks.com
 auth.prod-assetsbackup.devicemanager.central.arubanetworks.com
+authacc-lb.devicemanager.central.arubanetworks.com
 authaccess.access-backup-db.devicemanager.central.arubanetworks.com
 authaltlb.devicemanager.central.arubanetworks.com
+authapi-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 authapi-db1-archive.devicemanager.central.arubanetworks.com
 authbucketbeta-backup.devicemanager.central.arubanetworks.com
+authdbms.devicemanager.central.arubanetworks.com
 authjenkins-prod.devicemanager.central.arubanetworks.com
 authjira.api.devicemanager.central.arubanetworks.com
 authlb.devicemanager.central.arubanetworks.com
@@ -545,6 +571,7 @@ b2btest.arubanetworks.com
 backup-2019staginglb2.devicemanager.central.arubanetworks.com
 backup-acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 backup-access.apps-api.devicemanager.central.arubanetworks.com
+backup-api-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 backup-corpapi.devicemanager.central.arubanetworks.com
 backup-db.devicemanager.central.arubanetworks.com
 backup-es.master.k8s-prod.getaws.arubanetworks.com
@@ -558,6 +585,7 @@ backup.alpha-admin-cdn-acc-lb.devicemanager.central.arubanetworks.com
 backup.alpha-customersmdm.devicemanager.central.arubanetworks.com
 backup.api-api-db1-archive.devicemanager.central.arubanetworks.com
 backup.assets.elasticbeanstalk.db.devicemanager.central.arubanetworks.com
+backup.beta.devicemanager.central.arubanetworks.com
 backup.bucket.prod.devicemanager.central.arubanetworks.com
 backup.cache.devicemanager.central.arubanetworks.com
 backup.customersmdm.devicemanager.central.arubanetworks.com
@@ -567,6 +595,7 @@ backup.jenkins.devicemanager.central.arubanetworks.com
 backup.lb2.devicemanager.central.arubanetworks.com
 backup.minerva.api.devicemanager.central.arubanetworks.com
 backup20222018.devicemanager.central.arubanetworks.com
+backupacc-lb.devicemanager.central.arubanetworks.com
 backupadmin-2018-backup.devicemanager.central.arubanetworks.com
 backupadmin.2019staginglb2.devicemanager.central.arubanetworks.com
 backupapi-auth-lb.devicemanager.central.arubanetworks.com
@@ -613,6 +642,7 @@ beta.alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 beta.api-api-db1-archive.devicemanager.central.arubanetworks.com
 beta.api-db1-archive.devicemanager.central.arubanetworks.com
 beta.apidb1-archive.devicemanager.central.arubanetworks.com
+beta.app-db1-archive.devicemanager.central.arubanetworks.com
 beta.assetsdb1-archive.devicemanager.central.arubanetworks.com
 beta.aws.devicemanager.central.arubanetworks.com
 beta.beta-db.devicemanager.central.arubanetworks.com
@@ -625,6 +655,7 @@ beta.corpapi.devicemanager.central.arubanetworks.com
 beta.database-lb.devicemanager.central.arubanetworks.com
 beta.db.devicemanager.central.arubanetworks.com
 beta.dbms-lb2.devicemanager.central.arubanetworks.com
+beta.dbms.devicemanager.central.arubanetworks.com
 beta.debug-cilb.devicemanager.central.arubanetworks.com
 beta.devicemanager.central.arubanetworks.com
 beta.elasticbeanstalk.lb2.devicemanager.central.arubanetworks.com
@@ -637,9 +668,12 @@ beta20222018.devicemanager.central.arubanetworks.com
 betaacc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 betaaccess.access-backup-db.devicemanager.central.arubanetworks.com
 betaaltlb.devicemanager.central.arubanetworks.com
+betaapi-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 betaapi-db1-archive.devicemanager.central.arubanetworks.com
 betaapi-dev.prod.devicemanager.central.arubanetworks.com
+betaapp-db1-archive.devicemanager.central.arubanetworks.com
 betaassets.cpdb1-archive.devicemanager.central.arubanetworks.com
+betaauth-app-db1-archive.devicemanager.central.arubanetworks.com
 betabeta-backup.devicemanager.central.arubanetworks.com
 betabeta-debug-cilb.devicemanager.central.arubanetworks.com
 betacache.devicemanager.central.arubanetworks.com
@@ -701,6 +735,7 @@ bucketminerva.api.devicemanager.central.arubanetworks.com
 bucketnetworkauth-lb.devicemanager.central.arubanetworks.com
 ca.cloudguest.central.arubanetworks.com
 cache-acc-lb.devicemanager.central.arubanetworks.com
+cache-api-api-db1-archive.devicemanager.central.arubanetworks.com
 cache-cloud.aws.devicemanager.central.arubanetworks.com
 cache-db1-archive.devicemanager.central.arubanetworks.com
 cache-developer-lb.devicemanager.central.arubanetworks.com
@@ -824,6 +859,7 @@ config-v1.mdm.devicemanager.central.arubanetworks.com
 config.access-api-dev.prod.devicemanager.central.arubanetworks.com
 config.access.apps-api.devicemanager.central.arubanetworks.com
 config.apidb1-archive.devicemanager.central.arubanetworks.com
+config.app-db1-archive.devicemanager.central.arubanetworks.com
 config.archive.devicemanager.central.arubanetworks.com
 config.aws.devicemanager.central.arubanetworks.com
 config.bloglb.devicemanager.central.arubanetworks.com
@@ -901,10 +937,12 @@ dashboard1.baikal.arubanetworks.com
 dashboard2.baikal.arubanetworks.com
 data-acc-lb.devicemanager.central.arubanetworks.com
 data-apidb1-archive.devicemanager.central.arubanetworks.com
+data-auth-app-db1-archive.devicemanager.central.arubanetworks.com
 data-developer-lb.devicemanager.central.arubanetworks.com
 data-grafana.k8s-prod.getaws.arubanetworks.com
 data-mdm.devicemanager.central.arubanetworks.com
 data.alpha-customersmdm.devicemanager.central.arubanetworks.com
+data.api-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 data.api-db1-archive.devicemanager.central.arubanetworks.com
 data.assets-cache.devicemanager.central.arubanetworks.com
 data.aws.devicemanager.central.arubanetworks.com
@@ -922,6 +960,7 @@ db1-archive.devicemanager.central.arubanetworks.com
 db1-lb.devicemanager.central.arubanetworks.com
 db1apps-api.devicemanager.central.arubanetworks.com
 dbmdm.devicemanager.central.arubanetworks.com
+dbms-acc-lb.devicemanager.central.arubanetworks.com
 dbms-api-api-lb1.devicemanager.central.arubanetworks.com
 dbms-beta-alpha-staginglb2.devicemanager.central.arubanetworks.com
 dbms-beta-db.devicemanager.central.arubanetworks.com
@@ -939,11 +978,13 @@ dbms.devicemanager.central.arubanetworks.com
 dbmsbeta-alpha-staginglb2.devicemanager.central.arubanetworks.com
 dbmsbeta-db.devicemanager.central.arubanetworks.com
 dbmscloudlb.devicemanager.central.arubanetworks.com
+dbmsdbms.devicemanager.central.arubanetworks.com
 dbsconnectapi.devicemanager.central.arubanetworks.com
 dcie-sip13.arubanetworks.com
 dcs1-aryaka-gw.arubanetworks.com
 dcs1-ext-gw1-lo0.arubanetworks.com
 dcs1-ext-gw2-lo0.arubanetworks.com
+debug-acc-lb.devicemanager.central.arubanetworks.com
 debug-api-auth-lb.devicemanager.central.arubanetworks.com
 debug-beta-alpha-staginglb2.devicemanager.central.arubanetworks.com
 debug-cilb.devicemanager.central.arubanetworks.com
@@ -960,7 +1001,9 @@ debugapi-dev.prod.devicemanager.central.arubanetworks.com
 debugdeveloper-lb.devicemanager.central.arubanetworks.com
 debugv3beta-db.devicemanager.central.arubanetworks.com
 defaultdb1-archive.devicemanager.central.arubanetworks.com
+demo-api-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 demo-prod.devicemanager.central.arubanetworks.com
+demo.alpha-2018db1-lb.devicemanager.central.arubanetworks.com
 demo.alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 demo.alpha.cache.devicemanager.central.arubanetworks.com
 demo.beta-lb.devicemanager.central.arubanetworks.com
@@ -971,6 +1014,7 @@ demo.clearpass.arubanetworks.com
 demo.config-lb.devicemanager.central.arubanetworks.com
 demo.db.devicemanager.central.arubanetworks.com
 demo.dbms-lb2.devicemanager.central.arubanetworks.com
+demo.dbms.devicemanager.central.arubanetworks.com
 demo.debug.beta-backup.devicemanager.central.arubanetworks.com
 demo.v3beta-db.devicemanager.central.arubanetworks.com
 demo1.central.arubanetworks.com
@@ -979,9 +1023,11 @@ democorpapi.devicemanager.central.arubanetworks.com
 demolab.arubanetworks.com
 demos.arubanetworks.com
 deploy-db1-archive.devicemanager.central.arubanetworks.com
+dev-api-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 dev-prod2018db1-lb.devicemanager.central.arubanetworks.com
 dev-ssows.arubanetworks.com
 dev-v2.arubanetworks.com
+dev-v3.arubanetworks.com
 dev.20192018.devicemanager.central.arubanetworks.com
 dev.access-backup-db.devicemanager.central.arubanetworks.com
 dev.access.accountslb1.devicemanager.central.arubanetworks.com
@@ -1028,10 +1074,12 @@ ecs-gateway.arubanetworks.com
 edata.arubanetworks.com
 edelweiss8.arubanetworks.com
 edservs.arubanetworks.com
+elasticbeanstalk-api-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 elasticbeanstalk-api-api-lb1.devicemanager.central.arubanetworks.com
 elasticbeanstalk-minerva.api.devicemanager.central.arubanetworks.com
 elasticbeanstalk.20192018.devicemanager.central.arubanetworks.com
 elasticbeanstalk.acceptatie-api.devicemanager.central.arubanetworks.com
+elasticbeanstalk.alpha-2018db1-lb.devicemanager.central.arubanetworks.com
 elasticbeanstalk.api-lb1.devicemanager.central.arubanetworks.com
 elasticbeanstalk.db.devicemanager.central.arubanetworks.com
 elasticbeanstalk.debug.beta-backup.devicemanager.central.arubanetworks.com
@@ -1049,6 +1097,7 @@ engineering-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 engineering.access-backup-db.devicemanager.central.arubanetworks.com
 engineering.apidb1-archive.devicemanager.central.arubanetworks.com
 engineering.aws.devicemanager.central.arubanetworks.com
+engineering.dbms.devicemanager.central.arubanetworks.com
 engineering.debug.beta-backup.devicemanager.central.arubanetworks.com
 engineering.developer-lb.devicemanager.central.arubanetworks.com
 engineeringapidb1-archive.devicemanager.central.arubanetworks.com
@@ -1060,6 +1109,7 @@ error-config.customersmdm.devicemanager.central.arubanetworks.com
 error.2018.devicemanager.central.arubanetworks.com
 error.access.apps-api.devicemanager.central.arubanetworks.com
 error.accmdm.devicemanager.central.arubanetworks.com
+error.dbms.devicemanager.central.arubanetworks.com
 errorlb2.devicemanager.central.arubanetworks.com
 es.master.k8s-prod.getaws.arubanetworks.com
 est.arubanetworks.com
@@ -1159,6 +1209,7 @@ internal-portal.central.arubanetworks.com
 internal-prod.devicemanager.central.arubanetworks.com
 internal-signup.central.arubanetworks.com
 internal-ui.central.arubanetworks.com
+internal.api-api-db1-archive.devicemanager.central.arubanetworks.com
 internal.api-db1-archive.devicemanager.central.arubanetworks.com
 internal.app-db1-archive.devicemanager.central.arubanetworks.com
 internal.beta-db.devicemanager.central.arubanetworks.com
@@ -1182,6 +1233,7 @@ janusdemo.arubanetworks.com
 jenkins-acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 jenkins-acceptatie-api.devicemanager.central.arubanetworks.com
 jenkins-alpha-customersmdm.devicemanager.central.arubanetworks.com
+jenkins-auth-app-db1-archive.devicemanager.central.arubanetworks.com
 jenkins-config.customersmdm.devicemanager.central.arubanetworks.com
 jenkins-grafana.k8s-prod.getaws.arubanetworks.com
 jenkins-prod.devicemanager.central.arubanetworks.com
@@ -1389,6 +1441,7 @@ private-backup.customersmdm.devicemanager.central.arubanetworks.com
 private-cpdb1-archive.devicemanager.central.arubanetworks.com
 private-lb1.devicemanager.central.arubanetworks.com
 private.beta-backup.devicemanager.central.arubanetworks.com
+prod-acc-lb.devicemanager.central.arubanetworks.com
 prod-ap-northeast-1-ingest.logs.cloudops.arubanetworks.com
 prod-ap-northeast-1.logs.cloudops.arubanetworks.com
 prod-ap-south-1.logs.cloudops.arubanetworks.com
@@ -1418,8 +1471,10 @@ prod.apidb1-archive.devicemanager.central.arubanetworks.com
 prod.assetsdb1-archive.devicemanager.central.arubanetworks.com
 prod.beta-backup.devicemanager.central.arubanetworks.com
 prod.beta-lb.devicemanager.central.arubanetworks.com
+prod.chef.devicemanager.central.arubanetworks.com
 prod.devicemanager.central.arubanetworks.com
 prod.error.access.apps-api.devicemanager.central.arubanetworks.com
+prod.grafana.k8s-prod.getaws.arubanetworks.com
 prod.jenkins.k8s-stg.getaws.arubanetworks.com
 prod.logs.cloudguest.central.arubanetworks.com
 prod.mdm.devicemanager.central.arubanetworks.com
@@ -1428,6 +1483,7 @@ prod0vpn.netinsight.arubanetworks.com
 prod1-api.netinsight.arubanetworks.com
 prod2018db1-lb.devicemanager.central.arubanetworks.com
 prodacc-cdn-acc-lb.devicemanager.central.arubanetworks.com
+prodacc-lb.devicemanager.central.arubanetworks.com
 prodalpha-db.devicemanager.central.arubanetworks.com
 prodcloud.aws.devicemanager.central.arubanetworks.com
 prodcpdb1-archive.devicemanager.central.arubanetworks.com
@@ -1572,6 +1628,7 @@ system-error.2018.devicemanager.central.arubanetworks.com
 system-minerva.api.devicemanager.central.arubanetworks.com
 system.apidb1-archive.devicemanager.central.arubanetworks.com
 system.db.devicemanager.central.arubanetworks.com
+system.dbms.devicemanager.central.arubanetworks.com
 tac-ftp.arubanetworks.com
 tacbutler.hkg.getaws.arubanetworks.com
 tacloganalyzer-dev.arubanetworks.com
@@ -1727,6 +1784,7 @@ zones-learncentral.arubanetworks.com
 2018-database-lb.devicemanager.central.arubanetworks.com
 2018-elasticbeanstalk.lb2.devicemanager.central.arubanetworks.com
 2018-error.2018.devicemanager.central.arubanetworks.com
+2018-gcp.devicemanager.central.arubanetworks.com
 2018-gcp.lb2.devicemanager.central.arubanetworks.com
 2018-networkauth-lb.devicemanager.central.arubanetworks.com
 2018-prod-assetsbackup.devicemanager.central.arubanetworks.com
@@ -1749,6 +1807,7 @@ zones-learncentral.arubanetworks.com
 2018.bucket.lb2.devicemanager.central.arubanetworks.com
 2018.bucket.prod.devicemanager.central.arubanetworks.com
 2018.cache-db1-archive.devicemanager.central.arubanetworks.com
+2018.chef.devicemanager.central.arubanetworks.com
 2018.chef.prod.devicemanager.central.arubanetworks.com
 2018.cloud.aws.devicemanager.central.arubanetworks.com
 2018.debug.beta-backup.devicemanager.central.arubanetworks.com
@@ -1771,6 +1830,7 @@ zones-learncentral.arubanetworks.com
 2018account.networkauth-lb.devicemanager.central.arubanetworks.com
 2018admin-2018-backup.devicemanager.central.arubanetworks.com
 2018alpha-2018db1-lb.devicemanager.central.arubanetworks.com
+2018alpha-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 2018alpha.api-dev.prod.devicemanager.central.arubanetworks.com
 2018api-dev.prod.devicemanager.central.arubanetworks.com
 2018auth-lb.devicemanager.central.arubanetworks.com
@@ -1791,6 +1851,7 @@ zones-learncentral.arubanetworks.com
 2018v3beta-db.devicemanager.central.arubanetworks.com
 2018web.beta-db.devicemanager.central.arubanetworks.com
 2018.2018.devicemanager.central.arubanetworks.com
+2018.2021-config.devicemanager.central.arubanetworks.com
 2019-acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
 2019-acc-lb.devicemanager.central.arubanetworks.com
 2019-access-prod.devicemanager.central.arubanetworks.com
@@ -1799,6 +1860,7 @@ zones-learncentral.arubanetworks.com
 2019-alpha-2018db1-lb.devicemanager.central.arubanetworks.com
 2019-alpha.20192018.devicemanager.central.arubanetworks.com
 2019-api-db1-archive.devicemanager.central.arubanetworks.com
+2019-app-db1-archive.devicemanager.central.arubanetworks.com
 2019-assets.elasticbeanstalk.db.devicemanager.central.arubanetworks.com
 2019-assetsapi-db1-archive.devicemanager.central.arubanetworks.com
 2019-aws.devicemanager.central.arubanetworks.com
@@ -1821,6 +1883,7 @@ zones-learncentral.arubanetworks.com
 2019.acceptatieio.api.devicemanager.central.arubanetworks.com
 2019.access-backup-db.devicemanager.central.arubanetworks.com
 2019.admin-2018-backup.devicemanager.central.arubanetworks.com
+2019.api-api-api-db1-archive.devicemanager.central.arubanetworks.com
 2019.assets-cache.devicemanager.central.arubanetworks.com
 2019.auth.acc-lb.devicemanager.central.arubanetworks.com
 2019.aws-db1-archive.devicemanager.central.arubanetworks.com
@@ -1846,7 +1909,9 @@ zones-learncentral.arubanetworks.com
 2019access-api-dev.prod.devicemanager.central.arubanetworks.com
 2019access-backup-db.devicemanager.central.arubanetworks.com
 2019access-prod.beta-lb.devicemanager.central.arubanetworks.com
+2019alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 2019alpha.api-dev.prod.devicemanager.central.arubanetworks.com
+2019api-api-db1-archive.devicemanager.central.arubanetworks.com
 2019api-db1-archive.devicemanager.central.arubanetworks.com
 2019aws.devicemanager.central.arubanetworks.com
 2019backup-db.devicemanager.central.arubanetworks.com
@@ -1867,6 +1932,7 @@ zones-learncentral.arubanetworks.com
 2019staginglb2.devicemanager.central.arubanetworks.com
 2019system.db.devicemanager.central.arubanetworks.com
 2019.2018db1-lb.devicemanager.central.arubanetworks.com
+2019.2021-config.devicemanager.central.arubanetworks.com
 2020-2018cache.devicemanager.central.arubanetworks.com
 2020-20192018.devicemanager.central.arubanetworks.com
 2020-20222018.devicemanager.central.arubanetworks.com
@@ -1895,6 +1961,7 @@ zones-learncentral.arubanetworks.com
 2020.acceptatieio.api.devicemanager.central.arubanetworks.com
 2020.access.apps-api.devicemanager.central.arubanetworks.com
 2020.adminaws.devicemanager.central.arubanetworks.com
+2020.alpha-alpha-api-db1-archive.devicemanager.central.arubanetworks.com
 2020.alpha.cache.devicemanager.central.arubanetworks.com
 2020.apiassetsapi-db1-archive.devicemanager.central.arubanetworks.com
 2020.assetsdb1-archive.devicemanager.central.arubanetworks.com
@@ -1921,7 +1988,9 @@ zones-learncentral.arubanetworks.com
 2020access-backup-db.devicemanager.central.arubanetworks.com
 2020admin-cdn-acc-lb.devicemanager.central.arubanetworks.com
 2020alpha.cache.devicemanager.central.arubanetworks.com
+2020api-api-api-db1-archive.devicemanager.central.arubanetworks.com
 2020api-api-db1-archive.devicemanager.central.arubanetworks.com
+2020app-db1-archive.devicemanager.central.arubanetworks.com
 2020assets.elasticbeanstalk.db.devicemanager.central.arubanetworks.com
 2020assetsbackup.devicemanager.central.arubanetworks.com
 2020auth-app-db1-archive.devicemanager.central.arubanetworks.com
@@ -1942,11 +2011,14 @@ zones-learncentral.arubanetworks.com
 2021-2018.devicemanager.central.arubanetworks.com
 2021-2018.mdm.devicemanager.central.arubanetworks.com
 2021-20192018.devicemanager.central.arubanetworks.com
+2021-acc-lb.devicemanager.central.arubanetworks.com
 2021-accept.connectapi.devicemanager.central.arubanetworks.com
 2021-adminaws.devicemanager.central.arubanetworks.com
 2021-alpha.api-dev.prod.devicemanager.central.arubanetworks.com
+2021-api-api-db1-archive.devicemanager.central.arubanetworks.com
 2021-api.internal-prod.devicemanager.central.arubanetworks.com
 2021-assets-cache.devicemanager.central.arubanetworks.com
+2021-auth-app-db1-archive.devicemanager.central.arubanetworks.com
 2021-beta-alpha-staginglb2.devicemanager.central.arubanetworks.com
 2021-beta-debug-cilb.devicemanager.central.arubanetworks.com
 2021-cache.devicemanager.central.arubanetworks.com
@@ -1969,6 +2041,7 @@ zones-learncentral.arubanetworks.com
 2021.access.access-backup-db.devicemanager.central.arubanetworks.com
 2021.access.apps-api.devicemanager.central.arubanetworks.com
 2021.alpha.cache.devicemanager.central.arubanetworks.com
+2021.app-db1-archive.devicemanager.central.arubanetworks.com
 2021.assets-cache.devicemanager.central.arubanetworks.com
 2021.auth-lb.devicemanager.central.arubanetworks.com
 2021.backup-db.devicemanager.central.arubanetworks.com
@@ -1987,13 +2060,16 @@ zones-learncentral.arubanetworks.com
 2021acceptatie-api.devicemanager.central.arubanetworks.com
 2021alpha-2018db1-lb.devicemanager.central.arubanetworks.com
 2021api-db1-archive.devicemanager.central.arubanetworks.com
+2021app-db1-archive.devicemanager.central.arubanetworks.com
 2021backup.devicemanager.central.arubanetworks.com
 2021beta-backup.devicemanager.central.arubanetworks.com
 2021bloglb.devicemanager.central.arubanetworks.com
 2021bucket-cilb.devicemanager.central.arubanetworks.com
 2021bucketbeta-backup.devicemanager.central.arubanetworks.com
+2021chef.devicemanager.central.arubanetworks.com
 2021cms-io.api.devicemanager.central.arubanetworks.com
 2021data-developer-lb.devicemanager.central.arubanetworks.com
+2021dbms.devicemanager.central.arubanetworks.com
 2021debug.beta-backup.devicemanager.central.arubanetworks.com
 2021grafana.k8s-prod.getaws.arubanetworks.com
 2021internal-prod.devicemanager.central.arubanetworks.com
@@ -2005,11 +2081,13 @@ zones-learncentral.arubanetworks.com
 2022-acc-lb.devicemanager.central.arubanetworks.com
 2022-access-api-dev.prod.devicemanager.central.arubanetworks.com
 2022-alpha.api-dev.prod.devicemanager.central.arubanetworks.com
+2022-app-db1-archive.devicemanager.central.arubanetworks.com
 2022-assetsapi-db1-archive.devicemanager.central.arubanetworks.com
 2022-backup.cache.devicemanager.central.arubanetworks.com
 2022-backup.customersmdm.devicemanager.central.arubanetworks.com
 2022-bucket-beta-backup.devicemanager.central.arubanetworks.com
 2022-bucketbeta-backup.devicemanager.central.arubanetworks.com
+2022-chef.devicemanager.central.arubanetworks.com
 2022-clients-corporate-lb.devicemanager.central.arubanetworks.com
 2022-config.devicemanager.central.arubanetworks.com
 2022-internal-prod.devicemanager.central.arubanetworks.com
@@ -2045,8 +2123,10 @@ zones-learncentral.arubanetworks.com
 2022.networkauth-lb.devicemanager.central.arubanetworks.com
 2022.staginglb2.devicemanager.central.arubanetworks.com
 2022acc-cdn-acc-lb.devicemanager.central.arubanetworks.com
+2022acc-lb.devicemanager.central.arubanetworks.com
 2022acceptatie-io.api.devicemanager.central.arubanetworks.com
 2022apiassetsapi-db1-archive.devicemanager.central.arubanetworks.com
+2022app-db1-archive.devicemanager.central.arubanetworks.com
 2022auth.acc-lb.devicemanager.central.arubanetworks.com
 2022backup-db.devicemanager.central.arubanetworks.com
 2022beta-backup.devicemanager.central.arubanetworks.com
@@ -2069,6 +2149,8 @@ zones-learncentral.arubanetworks.com
 20182019staginglb2.devicemanager.central.arubanetworks.com
 20192018.devicemanager.central.arubanetworks.com
 20212018.beta-lb.devicemanager.central.arubanetworks.com
+20212021-config.devicemanager.central.arubanetworks.com
 20222018.devicemanager.central.arubanetworks.com
+20222021-config.devicemanager.central.arubanetworks.com
 201820222018.devicemanager.central.arubanetworks.com
 202020222018.devicemanager.central.arubanetworks.com
