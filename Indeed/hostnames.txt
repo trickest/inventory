@@ -23,6 +23,7 @@ active-ads-generator.cmhprod2.k8s.indeed.tech
 active-ads-generator.cmhprod3.k8s.indeed.tech
 active.ap-northeast-1.prod.vault.indeed.tech
 active.ap-northeast-1.qa.vault.indeed.tech
+active.ap-south-1.prod.vault.indeed.tech
 active.ap-southeast-2.prod.vault.indeed.tech
 active.ca-central-1.prod.vault.indeed.tech
 active.cmh.prod.vault.indeed.tech
@@ -94,6 +95,7 @@ address-validation.indeed.com
 adh.indeed.com
 adjustment-service.awscmhstage.k8s.indeed.tech
 admin.chatbot.indeed.com
+admin2.irx.indeed.com
 adminer-prod.awscmhinfra2.k8s.indeed.tech
 adminer-qa.awscmhqa2.k8s.indeed.tech
 adminer-stg.awscmhqa2.k8s.indeed.tech
@@ -247,6 +249,7 @@ apis.indeed.com
 apis.qa.indeed.tech
 apms.indeed.com
 app-coronadelmar.logmetrics.ext.indeed.com
+app.irx.indeed.com
 app.stmeetings.ce.indeed.com
 application-outcomes-api.cmhqa1.k8s.indeed.tech
 application.cmhqa1.k8s.indeed.tech
@@ -332,10 +335,12 @@ argo-workflows.awscmh4.k8s.indeed.tech
 argo-workflows.awscmhdev2.k8s.indeed.tech
 argo-workflows.awscmhinfra2.k8s.indeed.tech
 argo-workflows.awscmhqa3.k8s.indeed.tech
+argo-workflows.awsdub.k8s.indeed.tech
 argo-workflows.awsnrt.k8s.indeed.tech
 argo-workflows.awsnrtinfra.k8s.indeed.tech
 argo-workflows.awsnrtqa.k8s.indeed.tech
 argo-workflows.awssyd.k8s.indeed.tech
+argo-workflows.awsyul.k8s.indeed.tech
 argocd.butterfly.indeed.tech
 argocd.butterfly.prod.indeed.tech
 arr-language-tool-prod.awscmhinfra2.k8s.indeed.tech
@@ -406,6 +411,7 @@ aws-migration.cmhqa3.k8s.indeed.tech
 awscmh2.k8s.indeed.tech
 awsforestlake.ce.indeed.com
 b.indeed.com
+backend.irx.indeed.com
 background-employers.indeed.com
 background.indeed.com
 backstage-qa.awscmhinfra2.k8s.indeed.tech
@@ -454,6 +460,7 @@ beholder.cmhprod3.k8s.indeed.tech
 beholder.cmhqa1.k8s.indeed.tech
 beseen.com.tf2.indeed.com
 beseen.indeed.com
+beseen.indeed.com.tf2.indeed.com
 bestpianotips.pages.indeed.tech
 better-tableau.cmhprod1.k8s.indeed.tech
 better-tableau.cmhprod2.k8s.indeed.tech
@@ -547,6 +554,7 @@ bulk-edit-tool-neo.cmhqa3.k8s.indeed.tech
 bullseye.cmhprod3.k8s.indeed.tech
 bullseye.cmhqa3.k8s.indeed.tech
 business-process-map.cmhqa3.k8s.indeed.tech
+c-0.use2.qa.logsvc.indeed.tech
 c-ischools.ce.indeed.com
 c.indeed.com
 c01.s3.indeed.com
@@ -613,7 +621,19 @@ c63.s3.indeed.com
 c64.s3.indeed.com
 c66.s3.indeed.com
 c67.s3.indeed.com
+c68.s3.indeed.com
+c69.s3.indeed.com
+c70.s3.indeed.com
+c71.s3.indeed.com
+c72.s3.indeed.com
+c73.s3.indeed.com
+c74.s3.indeed.com
+c75.s3.indeed.com
+c76.s3.indeed.com
+c78.s3.indeed.com
+c79.s3.indeed.com
 ca.canary.indeed.com
+ca.cmhprod.indeed.com
 ca.conv.indeed.com
 ca.dubprod1.indeed.com
 ca.indeed.com
@@ -1182,6 +1202,7 @@ eda-grafana.awscmhqa2.k8s.indeed.tech
 eda-sbs-qa.cmhqa1.k8s.indeed.tech
 eda-sbs-raven.cmhqa1.k8s.indeed.tech
 edenprairie.ce.indeed.com
+edge-envoy-crossdc-ingress.awsbom.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmh2.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmh3.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awscmh4.k8s.indeed.tech
@@ -1219,6 +1240,7 @@ edge-envoy-ingress.cmhqa1.k8s.indeed.tech
 edge-envoy-ingress.cmhqa3.k8s.indeed.tech
 edge-envoy-ingress.pdxprod1.k8s.indeed.tech
 edina.ce.indeed.com
+edu-qna-api.indeed.com
 education-api.indeed.com
 eeo-data-pipeline-api.cmhqa1.k8s.indeed.tech
 eg.canary.indeed.com
@@ -1232,6 +1254,7 @@ eg.yulprod1.indeed.com
 ehj-candidate-delivery.indeed.com
 eight-by-eight.awscmhstage.k8s.indeed.tech
 eintracht.indeed.com
+einvoicing.indeed.tech
 einvoicing.stage.indeed.tech
 eip.indeed.com
 eisley.awscmhstage.k8s.indeed.tech
@@ -1651,6 +1674,7 @@ hiringevent.indeed.com
 hiringinsights-draw-plugin.cmhqa1.k8s.indeed.tech
 hiringinsights-draw-plugin.cmhqa2.k8s.indeed.tech
 hiringinsights-draw-plugin.cmhqa3.k8s.indeed.tech
+hiringscience.indeed.com
 hk.canary.indeed.com
 hk.conv.indeed.com
 hk.dubprod1.indeed.com
@@ -1851,6 +1875,7 @@ indeed.fr.tf2.indeed.com
 indeed.help.tf2.indeed.com
 indeed.hk.tf2.indeed.com
 indeed.hu.tf2.indeed.com
+indeed.ie.tf2.indeed.com
 indeed.jp.tf2.indeed.com
 indeed.lu.tf2.indeed.com
 indeed.me.tf2.indeed.com
@@ -1864,11 +1889,13 @@ indeed.ph.tf2.indeed.com
 indeed.pk.tf2.indeed.com
 indeed.pt.tf2.indeed.com
 indeed.sg.tf2.indeed.com
+indeed.sm.tf2.indeed.com
 indeed.tech
 indeed.tech.tf2.indeed.com
 indeed.tw.tf2.indeed.com
 indeed.uk.tf2.indeed.com
 indeed2-cmhprod.indeed.com
+indeedads.com.tf2.indeed.com
 indeedbot.com.tf2.indeed.com
 indeedbot.indeed.com
 indeedchat.indeed.com
@@ -1904,6 +1931,7 @@ insights.indeed.com
 insights.indeed.tech
 internal-vip-proxy-service.indeed.com
 internal-vip-proxy-service.indeed.tech
+internal.awscmh2.k8s.indeed.tech
 internal.cmhqa1.k8s.indeed.tech
 internalmobility.indeed.com
 interview-evaluator-tenant1.indeed.com
@@ -2216,6 +2244,7 @@ kibana-metataxo.prod.indeed.tech
 kibana-metataxo.qa.indeed.tech
 kibana-modrules.prod.indeed.tech
 kibana-modrules.qa.indeed.tech
+kibana-modrulesjunior.qa.indeed.tech
 kibana-mrp-emp-quality-bumblebee.qa.indeed.tech
 kibana-opslogs.prod.indeed.tech
 kibana-ospreyjunior.prod.indeed.tech
@@ -2600,6 +2629,7 @@ my.conv.indeed.com
 my.dubprod1.indeed.com
 my.dyn.indeed.com
 my.indeed.com
+my.irx.indeed.com
 my.nrtprod1.indeed.com
 my.pdxprod1.indeed.com
 my.sjcprod.indeed.com
@@ -2607,6 +2637,7 @@ my.sydprod1.indeed.com
 my.tf2.indeed.com
 my.yulprod1.indeed.com
 myhr.ext.indeed.com
+myindeedjobs.com.tf2.indeed.com
 myitsupport.ext.indeed.com
 myjobs-alt.indeed.com
 myjobs-locust.awscmhinfra.k8s.indeed.tech
@@ -2962,6 +2993,7 @@ pres.tf2.indeed.com
 press.ext.indeed.com
 press.indeed.com
 presto-interactive.k8s.awscmh3.indeed.tech
+presto-prod.aws.indeed.tech
 presto-stage.k8s.awscmh3.indeed.tech
 presto.indeed.tech
 presto.interactive.indeed.tech
@@ -3558,8 +3590,10 @@ rserve.indeed.tech
 rserver.corp.indeed.com
 rss.indeed.com
 rss.tf2.indeed.com
+rstudio-connect.awscmhqa2.k8s.indeed.tech
 rstudio-pm.awscmhqa2.k8s.indeed.tech
 rstudio-workbench.awscmh2.k8s.indeed.tech
+rstudio-workbench.awscmhqa2.k8s.indeed.tech
 rsvp.indeed.com
 ru.canary.indeed.com
 ru.conv.indeed.com
@@ -3702,8 +3736,19 @@ signup-employers.indeed.com
 sigsci-go-poc.awscmhqa2.k8s.indeed.tech
 sigscitest.indeed.com
 sigscitest.tf2.indeed.com
+simplyhired.be.tf2.indeed.com
+simplyhired.ca.tf2.indeed.com
 simplyhired.co.in.tf2.indeed.com
+simplyhired.co.uk.tf2.indeed.com
+simplyhired.com.ar.tf2.indeed.com
+simplyhired.com.au.tf2.indeed.com
+simplyhired.com.br.tf2.indeed.com
 simplyhired.com.tf2.indeed.com
+simplyhired.de.tf2.indeed.com
+simplyhired.ie.tf2.indeed.com
+simplyhired.jp.tf2.indeed.com
+simplyhired.nl.tf2.indeed.com
+simplyhired.pt.tf2.indeed.com
 sjc-micro.apply.indeed.com
 sjc.apply.indeed.com
 skap-employers.indeed.com
@@ -3743,6 +3788,7 @@ sml-csr.ext.indeed.com
 sms.indeed.com
 snajjar-hello.awscmhqa3.k8s.indeed.tech
 snyk.awscmhinfra2.k8s.indeed.tech
+snykb.awscmhinfra2.k8s.indeed.tech
 snykjira.awscmhinfra2.k8s.indeed.tech
 sohat.cmhqa1.k8s.indeed.tech
 sohat.cmhqa2.k8s.indeed.tech
@@ -3753,6 +3799,7 @@ solo-stage.indeed.com
 solo.cmhqa2.k8s.indeed.tech
 solo.cmhqa3.k8s.indeed.tech
 solo.indeed.com
+sonar-prod.indeed.tech
 sonar-test.qa.indeed.tech
 sonar.indeed.tech
 sonar.qa.indeed.tech
@@ -4005,6 +4052,7 @@ tridistrict.ce.indeed.com
 trk.indeed.com
 trucker.indeed.com
 truckers.indeed.com
+tryindeed.com.au.tf2.indeed.com
 tryindeed.com.tf2.indeed.com
 tryouts.indeed.com
 tw.canary.indeed.com
@@ -4080,6 +4128,7 @@ v1.cpc.ext.indeed.com
 v3.support.indeed.com
 vault.ap-northeast-1.prod.vault.indeed.tech
 vault.ap-northeast-1.qa.vault.indeed.tech
+vault.ap-south-1.prod.vault.indeed.tech
 vault.ap-southeast-2.prod.vault.indeed.tech
 vault.awscmhinfra.k8s.indeed.tech
 vault.ca-central-1.prod.vault.indeed.tech
