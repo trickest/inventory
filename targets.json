@@ -33,10 +33,12 @@
         ]
      },
      {
-        "name":"Paypal",
+        "name":"PayPal",
         "domains":[
            "paypal.com",
-           "xoom.com"
+           "xoom.com",
+           "paydiant.com",
+           "braintreepayments.com"
         ],
         "url_filters":[
            
@@ -87,7 +89,7 @@
         ]
      },
      {
-        "name":"Hackerone",
+        "name":"HackerOne",
         "domains":[
            "hackerone.com",
            "hacker101.com",
@@ -172,7 +174,7 @@
         ]
      },
      {
-        "name":"Palantir",
+        "name":"Palantir Public",
         "domains":[
            "palantir.com",
            "palantir.tech",
@@ -201,7 +203,7 @@
         ]
      },
      {
-        "name":"Dell",
+        "name":"Dell Technologies Application Bug Bounty",
         "domains":[
            "dell.com",
            "delltechnologies.com"
@@ -260,7 +262,7 @@
         ]
      },
      {
-        "name":"Playstation",
+        "name":"PlayStation",
         "domains":[
            "playstation.com",
            "playstation.net",
@@ -294,7 +296,7 @@
         ]
      },
      {
-        "name":"EpicGames",
+        "name":"Epic Games",
         "domains":[
            "epicgames.com",
            "rocketleague.com",
@@ -393,17 +395,7 @@
         ]
      },
      {
-        "name":"SoundCloud",
-        "domains":[
-           "soundcloud.com",
-           "soundcloud.org"
-        ],
-        "url_filters":[
-           
-        ]
-     },
-     {
-        "name":"Rakuten",
+        "name":"Rakuten VDP",
         "domains":[
            "rakuten.com"
         ],
@@ -412,7 +404,7 @@
         ]
      },
      {
-        "name":"Yahoo",
+        "name":"Yahoo!",
         "domains":[
            "yahoo.com"
         ],
@@ -443,7 +435,7 @@
         ]
      },
      {
-        "name":"Acorns-Grow",
+        "name":"Acorns Grow, Inc.",
         "domains":[
            "acorns.com"
         ],
@@ -452,7 +444,7 @@
         ]
      },
      {
-        "name":"AMEX-Global-Business-Travel",
+        "name":"AMEX - Global Business Travel Vulnerability Disclosure Program",
         "domains":[
            "amexgbt.com",
            "amexglobalbusinesstravel.com",
@@ -484,7 +476,7 @@
         ]
      },
      {
-        "name":"Arrow-Electronics",
+        "name":"Arrow Electronics VDP",
         "domains":[
            "aepetsche.com",
            "arrow.cn",
@@ -507,7 +499,7 @@
         ]
      },
      {
-        "name":"Aruba-Networks",
+        "name":"Aruba Networks Public Program",
         "domains":[
            "arubanetworks.com"
         ],
@@ -521,38 +513,6 @@
            "app.asana.com",
            "asana.biz",
            "asana.plus"
-        ],
-        "url_filters":[
-           
-        ]
-     },
-     {
-        "name":"Arrow-Electronics",
-        "domains":[
-           "aepetsche.com",
-           "arrow.cn",
-           "arrow.com",
-           "aspencore.com",
-           "chip1stop.com",
-           "eetimes.com",
-           "einfochips.com",
-           "elektroda.pl",
-           "immixgroup.com",
-           "powerandsignal.com",
-           "richardsonrfpd.com",
-           "siliconexpert.com",
-           "transim.com",
-           "verical.com",
-           "xsp.arrow.com"
-        ],
-        "url_filters":[
-           
-        ]
-     },
-     {
-        "name":"Aruba-Networks",
-        "domains":[
-           "arubanetworks.com"
         ],
         "url_filters":[
            
@@ -578,7 +538,7 @@
         ]
      },
      {
-        "name":"Bureau-of-Land-Management",
+        "name":"Bureau of Land Management",
         "domains":[
            "abandonedmines.gov",
            "blm.gov",
@@ -589,7 +549,7 @@
         ]
      },
      {
-        "name":"Cash-App",
+        "name":"Cash App",
         "domains":[
            "cash.app",
            "cashstaging.app",
@@ -602,7 +562,7 @@
         ]
      },
      {
-        "name":"Cengage",
+        "name":"Cengage VDP",
         "domains":[
            "cengage.com"
         ],
@@ -611,7 +571,7 @@
         ]
      },
      {
-        "name":"Cisco-Meraki",
+        "name":"Cisco Meraki",
         "domains":[
            "ikarem.io",
            "meraki.com",
@@ -622,7 +582,7 @@
         ]
      },
      {
-        "name":"Coca-Cola-Company",
+        "name":"The Coca-Cola Company Vulnerability Disclosure Program",
         "domains":[
            "appletiser.com",
            "barqs.com",
@@ -670,7 +630,7 @@
         ]
      },
      {
-        "name":"CoinDCX",
+        "name":"CoinDCX Managed Bug Bounty",
         "domains":[
            "coindcx.com",
            "dcxstage.com"
@@ -680,7 +640,7 @@
         ]
      },
      {
-        "name":"Comcast-Xfinity",
+        "name":"Comcast Xfinity Vulnerability Disclosure Program",
         "domains":[
            "comcast.com",
            "sys.comcast.net",
@@ -691,7 +651,7 @@
         ]
      },
      {
-        "name":"Credit-Karma",
+        "name":"Credit Karma",
         "domains":[
            "creditkarma.com"
         ],
@@ -810,7 +770,7 @@
         ]
       },
       {
-        "name":"CM",
+        "name":"CM.com",
         "domains":[
                "cm.com"
          ],
@@ -819,7 +779,7 @@
          ]
       },
       {
-        "name":"CanadaPost-Purolator",
+        "name":"Canada Post + Purolator - Responsible Disclosure Program",
         "domains":[
                "canadapost-postescanada.ca",
                "postescanada-canadapost.ca",
@@ -830,7 +790,7 @@
          ]
       },
       {
-        "name":"DPG-Media",
+        "name":"DPG Media",
         "domains":[
                "dpgmedia.be",
                "dpgmedia.nl"
@@ -849,7 +809,7 @@
          ]
       },
       {
-        "name":"De-Morgen",
+        "name":"De Morgen",
         "domains":[
             "demorgen.be"
          ],
@@ -873,7 +833,7 @@
          ]
       },
       {
-        "name":"Gulp",
+        "name":"GULP",
         "domains":[
             "gulp.ch",
             "gulp.de"
@@ -883,7 +843,7 @@
          ]
       },
       {
-        "name":"DoD",
+        "name":"U.S. Dept Of Defense",
         "domains":[
          "af.mil",
          "osd.mil",
