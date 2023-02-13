@@ -6,11 +6,11 @@ github-4.database.windows.net
 github-api.azurewebsites.net
 github-app.azurewebsites.net
 github-audit.azurewebsites.net
+github-docs.azurewebsites.net
 github-events.azurewebsites.net
 github-functions.azurewebsites.net
 github-secret.azurewebsites.net
 github-test.azurewebsites.net
-github.azurewebsites.net
 github.eastus.cloudapp.azure.com
 github1.azurewebsites.net
 github2.azurewebsites.net
@@ -23,7 +23,6 @@ githubevents.azurewebsites.net
 githubfunctions.azurewebsites.net
 githubmain.database.windows.net
 githubnet.azurewebsites.net
-githubrepo.azurewebsites.net
 githubreports.database.windows.net
 githubstats.azurewebsites.net
 githubtest.azurewebsites.net
@@ -46,7 +45,6 @@ http://cf-github.s3.amazonaws.com/
 http://contactgithub.s3.amazonaws.com/
 http://data-github.s3.amazonaws.com/
 http://debug-github.s3.amazonaws.com/
-http://github-1.s3.amazonaws.com/
 http://github-2016.s3.amazonaws.com/
 http://github-2017.s3.amazonaws.com/
 http://github-2018.s3.amazonaws.com/
@@ -83,7 +81,6 @@ http://github-ml.s3.amazonaws.com/
 http://github-ops.s3.amazonaws.com/
 http://github-packages.s3.amazonaws.com/
 http://github-photos.s3.amazonaws.com/
-http://github-pictures.s3.amazonaws.com/
 http://github-preview.s3.amazonaws.com/
 http://github-prod.s3.amazonaws.com/
 http://github-project.s3.amazonaws.com/
@@ -100,7 +97,6 @@ http://github-staging.s3.amazonaws.com/
 http://github-static.s3.amazonaws.com/
 http://github-stats.s3.amazonaws.com/
 http://github-storage.s3.amazonaws.com/
-http://github-syslog.s3.amazonaws.com/
 http://github-temp.s3.amazonaws.com/
 http://github-terraform.s3.amazonaws.com/
 http://github-test.s3.amazonaws.com/
@@ -112,15 +108,18 @@ http://github-users.s3.amazonaws.com/
 http://github.assets.s3.amazonaws.com/
 http://github.backup.s3.amazonaws.com/
 http://github.com.s3.amazonaws.com/
+http://github.photos.s3.amazonaws.com/
 http://github.s3.amazonaws.com/
 http://github.test.s3.amazonaws.com/
 http://github1.s3.amazonaws.com/
+http://githubalpha.s3.amazonaws.com/
 http://githubapp.s3.amazonaws.com/
 http://githubartifacts.s3.amazonaws.com/
 http://githubassets.s3.amazonaws.com/
 http://githubbackup.s3.amazonaws.com/
 http://githubbackups.s3.amazonaws.com/
 http://githubbak.s3.amazonaws.com/
+http://githubbeta.s3.amazonaws.com/
 http://githubbucket.s3.amazonaws.com/
 http://githubbuild.s3.amazonaws.com/
 http://githubcache.s3.amazonaws.com/
@@ -133,8 +132,10 @@ http://githubexport.s3.amazonaws.com/
 http://githubfiles.s3.amazonaws.com/
 http://githubimages.s3.amazonaws.com/
 http://githublogs.s3.amazonaws.com/
+http://githubmain.s3.amazonaws.com/
 http://githubmedia.s3.amazonaws.com/
 http://githubphotos.s3.amazonaws.com/
+http://githubprod.s3.amazonaws.com/
 http://githubprojects.s3.amazonaws.com/
 http://githubrepo.s3.amazonaws.com/
 http://githubresources.s3.amazonaws.com/
@@ -178,7 +179,6 @@ http://storage.googleapis.com/github-images
 http://storage.googleapis.com/github-ios
 http://storage.googleapis.com/github-logs
 http://storage.googleapis.com/github-org
-http://storage.googleapis.com/github-prod
 http://storage.googleapis.com/github-project
 http://storage.googleapis.com/github-projects
 http://storage.googleapis.com/github-public
