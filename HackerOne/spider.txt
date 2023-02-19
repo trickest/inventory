@@ -49,6 +49,7 @@ https://api.hackerone.com/customer-reference#custom-field-input
 https://api.hackerone.com/customer-reference#custom-field-value
 https://api.hackerone.com/customer-reference#custom-remediation-guidance
 https://api.hackerone.com/customer-reference#custom_remediation_guidance
+https://api.hackerone.com/customer-reference#eligibility-setting
 https://api.hackerone.com/customer-reference#error
 https://api.hackerone.com/customer-reference#group
 https://api.hackerone.com/customer-reference#invitation
@@ -118,10 +119,13 @@ https://api.hackerone.com/customer-resources/#assets-retrieve-an-assets-import
 https://api.hackerone.com/customer-resources/#assets-update-asset
 https://api.hackerone.com/customer-resources/#organizations
 https://api.hackerone.com/customer-resources/#organizations-create-an-invitation
+https://api.hackerone.com/customer-resources/#organizations-get-all-eligibility-settings
 https://api.hackerone.com/customer-resources/#organizations-get-all-groups
 https://api.hackerone.com/customer-resources/#organizations-get-all-members
 https://api.hackerone.com/customer-resources/#organizations-get-all-organization-member-groups
 https://api.hackerone.com/customer-resources/#organizations-get-all-organization-members
+https://api.hackerone.com/customer-resources/#organizations-get-all-programs
+https://api.hackerone.com/customer-resources/#organizations-get-eligibility-setting
 https://api.hackerone.com/customer-resources/#organizations-get-group
 https://api.hackerone.com/customer-resources/#organizations-get-member
 https://api.hackerone.com/customer-resources/#organizations-get-pending-invitations
@@ -677,10 +681,13 @@ https://twitter.com/share?text=Introducing%20Unified%20HackerOne%20Scope%20Manag
 https://twitter.com/share?text=Let%E2%80%99s%20Celebrate%20the%20Hacker%20Community&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Flet-s-celebrate-the-hacker-community&via=Hacker0x01
 https://twitter.com/share?text=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps&via=Hacker0x01
 https://twitter.com/share?text=Outsmart%20Cybercriminals%20with%20Proactive%20Attack%20Surface%20Management&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Foutsmart-cybercriminals-with-proactive-attack-surface-management&via=Hacker0x01
+https://twitter.com/share?text=Report%3A%20Seven%20Hacker%20Recon%20Secrets&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fe-book%2Fseven-hacker-recon-secrets&via=Hacker0x01
 https://twitter.com/share?text=Seven%20Hacker%20Recon%20Secrets&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fe-book%2Fseven-hacker-recon-secrets&via=Hacker0x01
 https://twitter.com/share?text=The%202022%20Attack%20Resistance%20Report%20-%20Understanding%20where%20the%20critical%20flaws%20lie%20within%20your%20organiz...&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2F2022-attack-resistance-report&via=Hacker0x01
 https://twitter.com/share?text=The%20State%20of%20Vulnerability%20Disclosure%20Usage%20in%20Global%20Consumer%20IoT%20in%202022&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fthe-state-of-vulnerability-disclosure-usage-in-global-consumer-iot-in-2022&via=Hacker0x01
 https://twitter.com/share?text=Use%20Hackerone%E2%80%99s%20Enhanced%20Pentest%20as%20a%20Service%20to%20Streamline%20Security%20Testing&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Fuse-hackerone-s-enhanced-pentest-as-a-service-to-streamline-security-testing&via=Hacker0x01
+https://twitter.com/share?text=eBook%3A%20Executive%20Guide%20to%20Human%20Security%20Testing&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fexecutive-guide-to-human-security-testing&via=Hacker0x01
+https://twitter.com/share?text=eBook%3A%20Outsmart%20Cybercriminals%20with%20Proactive%20Attack%20Surface%20Management&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Foutsmart-cybercriminals-with-proactive-attack-surface-management&via=Hacker0x01
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2F
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fhackerone-appoints-dawn-mitchell-as-chief-people-officer
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fhackerone-s-pentest-as-a-service-enhancements-streamline-secure-testing-for-large-enterprises-and-digital-innovators
@@ -701,6 +708,7 @@ https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fr
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fone-pager%2Fhackerone-attack-resistance-gap-security-testing-tools-2
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2F2022-attack-resistance-report
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2F6th-annual-hacker-powered-security-report
+https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fexecutive-guide-to-human-security-testing
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Foutsmart-cybercriminals-with-proactive-attack-surface-management
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fthe-state-of-vulnerability-disclosure-usage-in-global-consumer-iot-in-2022
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fwistia-webinars%2Fapp-security-testing-benchmarks-how-does-your-methodology-stack-up
@@ -904,6 +912,7 @@ https://www.hackerone.com/events/minimizing-your-risk-exposure-proactive-attack-
 https://www.hackerone.com/events/mitigate-risk-cloud-ethical-hackers-and-devops
 https://www.hackerone.com/events/nordic-cyber-summit-2022
 https://www.hackerone.com/events/outsmart-cybercriminals
+https://www.hackerone.com/events/rsa-conference-2023
 https://www.hackerone.com/events/sector-2022
 https://www.hackerone.com/events?page=0%2C0
 https://www.hackerone.com/events?page=0%2C1
@@ -939,6 +948,7 @@ https://www.hackerone.com/hackerone-community-blog/making-things-right
 https://www.hackerone.com/hackerone-community-blog/meeting-mediation-team-h1-702
 https://www.hackerone.com/hackerone-community-blog/rise-internet-bug-bounty
 https://www.hackerone.com/hackerone-community-blog/ten-rules-be-successful-your-bug-bounty-career
+https://www.hackerone.com/hackerone-community-blog/view-other-side-security-analysts-perspective-bug-bounty-triage
 https://www.hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702
 https://www.hackerone.com/hackerone-community-blog?page=0
 https://www.hackerone.com/hackerone-community-blog?page=1
@@ -953,6 +963,8 @@ https://www.hackerone.com/hackers
 https://www.hackerone.com/hackers/hacker101
 https://www.hackerone.com/hacktivity
 https://www.hackerone.com/hacktivitycon
+https://www.hackerone.com/index.php/customer-hub/Hyatt
+https://www.hackerone.com/index.php/penetration-testing/bug-bounty-vs-penetration-testing-differences-explained
 https://www.hackerone.com/internet-bug-bounty
 https://www.hackerone.com/knowledge-center
 https://www.hackerone.com/knowledge-center/16-types-cybersecurity-attacks-and-how-prevent-them
@@ -1111,6 +1123,7 @@ https://www.hackerone.com/resources/latest-news-insights/6th-annual-hacker-power
 https://www.hackerone.com/resources/latest-news-insights/announcing-the-hackerone-2022-attack-resistance-report-a-security-survey-how-to-close-your-organizations-attack-resistance-gap
 https://www.hackerone.com/resources/latest-news-insights/corb3nik-introduces-caido
 https://www.hackerone.com/resources/latest-news-insights/corb3nik-introduces-his-tool-caido
+https://www.hackerone.com/resources/latest-news-insights/executive-guide-to-human-security-testing
 https://www.hackerone.com/resources/latest-news-insights/introducing-hackerone-assets
 https://www.hackerone.com/resources/latest-news-insights/newly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps
 https://www.hackerone.com/resources/latest-news-insights/outsmart-cybercriminals-with-proactive-attack-surface-management
@@ -1314,6 +1327,7 @@ https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps&title=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps&summary=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0A%0Aalice%40hackerone.com%0A%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps&title=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps&summary=Newly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0Aalice%40hackerone.com%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fcustomer-story%2Fhow-hired-builds-customer-trust-with-hackerone-pentest&title=How%20Hired%20Builds%20Customer%20Trust%20With%20Hackerone%20Pentest&summary=
+https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fe-book%2Fseven-hacker-recon-secrets&title=Report%3A%20Seven%20Hacker%20Recon%20Secrets&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fe-book%2Fseven-hacker-recon-secrets&title=Seven%20Hacker%20Recon%20Secrets&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Fannouncing-the-hackerone-2022-attack-resistance-report-a-security-survey-how-to-close-your-organizations-attack-resistance-gap&title=Announcing%20the%20HackerOne%202022%20Attack%20Resistance%20Report%3A%20A%20Security%20Survey%E2%80%94How%20to%20Close%20Your%20Organization%27s%20Attack%20Resistance%20Gap&summary=Today%2C%20HackerOne%20published%20The%202022%20Attack%20Resistance%20Report%3A%20A%20HackerOne%20Security%20Survey.%20Our%20research%20revealed%20an%20increasing%20gap%E2%80%94the%20attack%20resistance%20gap%E2%80%94between%20what%20organizations%20can%20defend...
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Fannouncing-the-results-of-hack-u-s&title=Announcing%20the%20Results%20of%20Hack%20U.S.&summary=HackerOne%20met%20with%20Katie%20Savage%2C%20Deputy%20Chief%20Digital%20%26%20Artificial%20Intelligence%20Officer%20at%20DDS%2C%20and%20Melissa%20Vice%2C%20Director%2C%20DoD%20VDP%20at%20DC3%20from%20the%20organizing%20teams%20of%20Hack%20U.S.%20to%20discuss%20the...
@@ -1330,7 +1344,9 @@ https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fone-pager%2Fhackerone-attack-resistance-gap-security-testing-tools-2&title=HackerOne%20Attack%20Resistance%20Gap%20-%20Security%20Testing%20Tools&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2F2022-attack-resistance-report&title=The%202022%20Attack%20Resistance%20Report&summary=Understanding%20where%20the%20critical%20flaws%20lie%20within%20your%20organization%E2%80%99s%20attack%20surface%20is%20critical%E2%80%94but%20complicated.
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2F6th-annual-hacker-powered-security-report&title=6th%20Annual%20Hacker%20Powered%20Security%20Report&summary=
+https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fexecutive-guide-to-human-security-testing&title=eBook%3A%20Executive%20Guide%20to%20Human%20Security%20Testing&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Foutsmart-cybercriminals-with-proactive-attack-surface-management&title=Outsmart%20Cybercriminals%20with%20Proactive%20Attack%20Surface%20Management&summary=
+https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Foutsmart-cybercriminals-with-proactive-attack-surface-management&title=eBook%3A%20Outsmart%20Cybercriminals%20with%20Proactive%20Attack%20Surface%20Management&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fthe-state-of-vulnerability-disclosure-usage-in-global-consumer-iot-in-2022&title=The%20State%20of%20Vulnerability%20Disclosure%20Usage%20in%20Global%20Consumer%20IoT%20in%202022&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.hackerone.com%2Fresources%2Fwistia-webinars%2Fapp-security-testing-benchmarks-how-does-your-methodology-stack-up&title=App%20Security%20Testing%20Benchmarks%E2%80%94How%20Does%20Your%20Methodology%20Stack%20Up&summary=
 https://www.linkedin.com/shareArticle?mini=true&url=https://www.hackerone.com/resources/customer-story/how-hired-builds-customer-trust-with-hackerone-pentest&title=How%20Hired%20Builds%20Customer%20Trust%20With%20Hackerone%20Pentest&summary=
@@ -1363,10 +1379,13 @@ mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20h
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0A%0Aalice%40hackerone.com%0A%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0ANewly%20Introduced%20HackerOne%20Assets%20Goes%20Beyond%20Attack%20Surface%20Management%20To%20Close%20Security%20Gaps%0Aalice%40hackerone.com%0AThu%2C%2010%2F13%2F2022%20-%2001%3A56%0ARead%20more%20about%20Newly%20Introduced%20HackerOne%20Assets%20Goes...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fall-press-releases%2Fnewly-introduced-hackerone-assets-goes-beyond-attack-surface-management-to-close-security-gaps
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AOutsmart%20Cybercriminals%20with%20Proactive%20Attack%20Surface%20Management%0A%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Foutsmart-cybercriminals-with-proactive-attack-surface-management
+mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AReport%3A%20Seven%20Hacker%20Recon%20Secrets%0A%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fe-book%2Fseven-hacker-recon-secrets
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0ASeven%20Hacker%20Recon%20Secrets%0A%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fe-book%2Fseven-hacker-recon-secrets
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AThe%202022%20Attack%20Resistance%20Report%0AUnderstanding%20where%20the%20critical%20flaws%20lie%20within%20your%20organization%E2%80%99s%20attack%20surface%20is%20critical%E2%80%94but%20complicated.%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2F2022-attack-resistance-report
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AThe%20State%20of%20Vulnerability%20Disclosure%20Usage%20in%20Global%20Consumer%20IoT%20in%202022%0A%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fthe-state-of-vulnerability-disclosure-usage-in-global-consumer-iot-in-2022
 mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AUse%20Hackerone%E2%80%99s%20Enhanced%20Pentest%20as%20a%20Service%20to%20Streamline%20Security%20Testing%0ANew%20capabilities%20improve%20pentesting%20to%20increase%20attack%20resistance%0A%0AThe%20enhanced%20features%20drive%20robust%20security%20testing%20practices%20with%20the%20ability%20to%20launch%2C%20test%2C%20identify%2C%20retest%2C%20and%20fix...%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Fhackerone%2Fuse-hackerone-s-enhanced-pentest-as-a-service-to-streamline-security-testing
+mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AeBook%3A%20Executive%20Guide%20to%20Human%20Security%20Testing%0A%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Fexecutive-guide-to-human-security-testing
+mailto:?to=&subject=Content%20from%20my%20Hub%21&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0AeBook%3A%20Outsmart%20Cybercriminals%20with%20Proactive%20Attack%20Surface%20Management%0A%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2Freporting%2Foutsmart-cybercriminals-with-proactive-attack-surface-management
 mailto:?to=&subject=HackerOne%27s%20Hub%20has%20been%20shared%20with%20you&body=Check%20out%20what%27s%20happening%20on%20HackerOne%27s%20Hub%0A%0Ahttps%3A%2F%2Fwww.hackerone.com%2Fresources%2F
 mailto:feedback@hackerone.com
 mailto:h1-codeofconduct@hackerone.com
