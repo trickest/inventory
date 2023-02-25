@@ -1385,6 +1385,7 @@ zixvpm13.reflexion.net
 0m0z9kgy.cloudstation.us-west-2.qa.hydra.sophos.com
 0oi0uczo.cloudstation.us-west-2.qa.hydra.sophos.com
 0os3hhk5.cloudstation.eu-west-1.inf.hydra.sophos.com
+0p2rp3je.cloudstation.us-west-2.qa.hydra.sophos.com
 0pjzo3zk.stn030bom.ctr.sophos.com
 0pn6fw4f.stn010yul.ctr.sophos.com
 0q1coyiy.cloudstation.us-west-2.prod.hydra.sophos.com
@@ -1532,7 +1533,6 @@ account-correlation.cloudhub.eu-west-1.prod.hydra.sophos.com
 account-correlation.cloudhub.eu-west-1.qa.hydra.sophos.com
 account-correlation.cloudstation.eu-west-1.dev.hydra.sophos.com
 account-health-check-alt.stn000cmh.ctr.sophos.com
-account-health-check-alt.stn010pdx.ctr.sophos.com
 account-health-check-alt.stn010yul.ctr.sophos.com
 account-health-check-alt.stn030gru.ctr.sophos.com
 account-health-check-alt.stn030hnd.ctr.sophos.com
@@ -1552,7 +1552,6 @@ account-health-check.cloudstation.eu-west-1.prod.hydra.sophos.com
 account-health-check.cloudstation.us-west-2.prod.hydra.sophos.com
 account-health-check.cloudstation.us-west-2.qa.hydra.sophos.com
 account-health-check.stn000cmh.ctr.sophos.com
-account-health-check.stn010pdx.ctr.sophos.com
 account-health-check.stn010yul.ctr.sophos.com
 account-health-check.stn030gru.ctr.sophos.com
 account-health-check.stn030hnd.ctr.sophos.com
@@ -1875,6 +1874,7 @@ api-cloudstation-us-west-2.dev3.hydra.sophos.com
 api-cloudstation-us-west-2.prod.hydra.sophos.com
 api-cloudstation-us-west-2.qa.hydra.sophos.com
 api-endpoint-query-cloudstation-eu-west-1.inf.hydra.sophos.com
+api-eu01-next.inf.central.sophos.com
 api-eu01.central.sophos.com
 api-eu01.dev.central.sophos.com
 api-eu01.dev3.central.sophos.com
@@ -1992,6 +1992,7 @@ api0cyxeuh0-cloudstation-eu-west-6.inf.hydra.sophos.com
 api1.central.sophos.com
 api1.dev3.hydra.sophos.com
 api1.qa.central.sophos.com
+api1.stn000cmh.ctr.sophos.com
 api1.stn010pdx.ctr.sophos.com
 api1.stn030bom.ctr.sophos.com
 api1.stn030hnd.ctr.sophos.com
@@ -2201,10 +2202,12 @@ au.analysis.sophos.com
 au.emailencryption.sophos.com
 au.sandbox.sophos.com
 au.sophos.com
+audit-producer-alt.stn010yul.ctr.sophos.com
 audit-producer-cloudhub-eu-west-1.dev.hydra.sophos.com
 audit-producer-cloudhub-eu-west-1.inf.hydra.sophos.com
 audit-producer.cloudhub.eu-west-1.dev.hydra.sophos.com
 audit-producer.cloudhub.eu-west-1.inf.hydra.sophos.com
+audit-producer.stn010yul.ctr.sophos.com
 auecgyp9.cloudstation.eu-central-1.qa.hydra.sophos.com
 aug8q9r8.stn030bom.ctr.sophos.com
 auth-19xon399.cloudstation.eu-west-1.inf.hydra.sophos.com
@@ -2546,7 +2549,6 @@ bos-lyncedge.sophos.com
 bos-vpn.sophos.com
 boxzl9qk.cloudstation.eu-central-1.qa.hydra.sophos.com
 bpk7c7vl.stn010pdx.ctr.sophos.com
-bpun2zeb.cloudstation.eu-central-1.qa.hydra.sophos.com
 bqfhvavr.stn030syd.ctr.sophos.com
 bqgoz279.stn030bom.ctr.sophos.com
 brand.sophos.com
@@ -2663,7 +2665,6 @@ cf-outbound-cloudstation-eu-west-1.inf.hydra.sophos.com
 cfcpf9rl.stn010yul.ctr.sophos.com
 cfe25bil.cloudstation.eu-central-1.prod.hydra.sophos.com
 cfr-report-gtr-alt.stn010yul.ctr.sophos.com
-cfr-report-gtr-alt.stn030hnd.ctr.sophos.com
 cfr-report-gtr-cloudstation-eu-central-1.prod.hydra.sophos.com
 cfr-report-gtr-cloudstation-eu-central-1.qa.hydra.sophos.com
 cfr-report-gtr-cloudstation-eu-west-1.dev.hydra.sophos.com
@@ -2677,7 +2678,6 @@ cfr-report-gtr.cloudstation.eu-west-1.prod.hydra.sophos.com
 cfr-report-gtr.cloudstation.us-west-2.prod.hydra.sophos.com
 cfr-report-gtr.cloudstation.us-west-2.qa.hydra.sophos.com
 cfr-report-gtr.stn010yul.ctr.sophos.com
-cfr-report-gtr.stn030hnd.ctr.sophos.com
 cfr-reporting-hub-cloudhub-eu-west-1.dev.hydra.sophos.com
 cfr-reporting-hub-cloudhub-eu-west-1.prod.hydra.sophos.com
 cfr-reporting-hub-cloudhub-eu-west-1.qa.hydra.sophos.com
@@ -2710,7 +2710,6 @@ cfs-inbound.stn030syd.ctr.sophos.com
 cfs-inbound.stn100yul.ctr.sophos.com
 cfs-outbound-alt.stn000cmh.ctr.sophos.com
 cfs-outbound-alt.stn030bom.ctr.sophos.com
-cfs-outbound-alt.stn030hnd.ctr.sophos.com
 cfs-outbound-alt.stn030syd.ctr.sophos.com
 cfs-outbound-alt.stn100hnd.ctr.sophos.com
 cfs-outbound-alt.stn100syd.ctr.sophos.com
@@ -2733,7 +2732,6 @@ cfs-outbound.cloudstation.us-west-2.prod.hydra.sophos.com
 cfs-outbound.cloudstation.us-west-2.qa.hydra.sophos.com
 cfs-outbound.stn000cmh.ctr.sophos.com
 cfs-outbound.stn030bom.ctr.sophos.com
-cfs-outbound.stn030hnd.ctr.sophos.com
 cfs-outbound.stn030syd.ctr.sophos.com
 cfs-outbound.stn100hnd.ctr.sophos.com
 cfs-outbound.stn100syd.ctr.sophos.com
@@ -2941,7 +2939,6 @@ csmv58fuql.cloudstation.eu-west-1.inf.hydra.sophos.com
 cswitch-alerts-alt.stn010yul.ctr.sophos.com
 cswitch-alerts-alt.stn100yul.ctr.sophos.com
 cswitch-alerts-cloudstation-eu-central-1.prod.hydra.sophos.com
-cswitch-alerts-cloudstation-eu-central-1.qa.hydra.sophos.com
 cswitch-alerts-cloudstation-eu-west-1.dev.hydra.sophos.com
 cswitch-alerts-cloudstation-eu-west-1.prod.hydra.sophos.com
 cswitch-alerts-cloudstation-us-east-2.prod.hydra.sophos.com
@@ -3105,7 +3102,6 @@ data-mobile-trf-alt.stn030gru.ctr.sophos.com
 data-mobile-trf-alt.stn030hnd.ctr.sophos.com
 data-mobile-trf-alt.stn030syd.ctr.sophos.com
 data-mobile-trf-alt.stn100bom.ctr.sophos.com
-data-mobile-trf-alt.stn100hnd.ctr.sophos.com
 data-mobile-trf-alt.stn100syd.ctr.sophos.com
 data-mobile-trf-alt.stn100yul.ctr.sophos.com
 data-mobile-trf-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -3130,7 +3126,6 @@ data-mobile-trf.stn030gru.ctr.sophos.com
 data-mobile-trf.stn030hnd.ctr.sophos.com
 data-mobile-trf.stn030syd.ctr.sophos.com
 data-mobile-trf.stn100bom.ctr.sophos.com
-data-mobile-trf.stn100hnd.ctr.sophos.com
 data-mobile-trf.stn100syd.ctr.sophos.com
 data-mobile-trf.stn100yul.ctr.sophos.com
 data-proxy-api-alt.stn010yul.ctr.sophos.com
@@ -3283,7 +3278,6 @@ dc4j72eh.cloudstation.us-east-2.prod.hydra.sophos.com
 dc80wi8y.cloudstation.eu-west-1.prod.hydra.sophos.com
 dc8utsaq.cloudstation.eu-central-1.prod.hydra.sophos.com
 dca7dtxr.cloudstation.eu-west-1.prod.hydra.sophos.com
-ddd1olfk.cloudstation.eu-west-1.dev.hydra.sophos.com
 ddf3mjc9.cloudstation.eu-central-1.qa.hydra.sophos.com
 ddmg94st.stn030bom.ctr.sophos.com
 de.analysis.sophos.com
@@ -4323,7 +4317,6 @@ delivery-director-alt.stn030bom.ctr.sophos.com
 delivery-director-alt.stn030hnd.ctr.sophos.com
 delivery-director-alt.stn030syd.ctr.sophos.com
 delivery-director-alt.stn100bom.ctr.sophos.com
-delivery-director-alt.stn100hnd.ctr.sophos.com
 delivery-director-alt.stn100syd.ctr.sophos.com
 delivery-director-alt.stn100yul.ctr.sophos.com
 delivery-director-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -4347,7 +4340,6 @@ delivery-director.stn030bom.ctr.sophos.com
 delivery-director.stn030hnd.ctr.sophos.com
 delivery-director.stn030syd.ctr.sophos.com
 delivery-director.stn100bom.ctr.sophos.com
-delivery-director.stn100hnd.ctr.sophos.com
 delivery-director.stn100syd.ctr.sophos.com
 delivery-director.stn100yul.ctr.sophos.com
 delta-test-v1-eu-central-1.prod.hydra.sophos.com
@@ -4401,6 +4393,8 @@ dev.mv58fuql.cloudstation.eu-west-1.inf.hydra.sophos.com
 dev.myutm.sophos.com
 dev.packages.sophos.com
 dev.staysafe.sophos.com
+dev1.test.analysis.sophos.com
+dev2.test.analysis.sophos.com
 dev3.hmr.sophos.com
 devapi.cloudstation.eu-west-1.inf.hydra.sophos.com
 devedi.sophos.com
@@ -4427,6 +4421,7 @@ device-manager.cloudstation.us-west-2.qa.hydra.sophos.com
 devmail-cloudstation-eu-central-1.inf.hydra.sophos.com
 dflyxgp3.stn100gru.ctr.sophos.com
 dfz710i5.stn030gru.ctr.sophos.com
+dgbgwx4o.stn100gru.ctr.sophos.com
 dgmfcpxg.cloudstation.us-east-2.prod.hydra.sophos.com
 dgw8dlva.cloudstation.eu-west-1.prod.hydra.sophos.com
 di19q65c.stn100yul.ctr.sophos.com
@@ -4684,9 +4679,12 @@ e60s9whw.cloudstation.us-west-2.qa.hydra.sophos.com
 e71hdpc1.cloudstation.us-west-2.qa.hydra.sophos.com
 e87cylc9.cloudstation.eu-central-1.qa.hydra.sophos.com
 ea-data-cloudstation-eu-central-1.prod.hydra.sophos.com
+ea-data-cloudstation-eu-central-1.qa.hydra.sophos.com
+ea-data-cloudstation-eu-west-1.dev.hydra.sophos.com
 ea-data-cloudstation-eu-west-1.prod.hydra.sophos.com
 ea-data-cloudstation-us-west-2.prod.hydra.sophos.com
 ea-data.stn010pdx.ctr.sophos.com
+ea-data.stn030bom.ctr.sophos.com
 ea-data.stn100bom.ctr.sophos.com
 ea-data.stn100gru.ctr.sophos.com
 ea-data.stn100hnd.ctr.sophos.com
@@ -4763,7 +4761,6 @@ email-delivery.stn100syd.ctr.sophos.com
 email-spam-20220304.stn030bom.ctr.sophos.com
 email-spam-20220304.stn030gru.ctr.sophos.com
 email-spam-20220304.stn100bom.ctr.sophos.com
-email-spam-20220426.stn100hnd.ctr.sophos.com
 email-telemetry-alt.stn010yul.ctr.sophos.com
 email-telemetry-alt.stn030bom.ctr.sophos.com
 email-telemetry-alt.stn030syd.ctr.sophos.com
@@ -5364,7 +5361,6 @@ firewall-cr-trf-2-alt.stn030bom.ctr.sophos.com
 firewall-cr-trf-2-alt.stn030gru.ctr.sophos.com
 firewall-cr-trf-2-alt.stn030hnd.ctr.sophos.com
 firewall-cr-trf-2-alt.stn030syd.ctr.sophos.com
-firewall-cr-trf-2-alt.stn100bom.ctr.sophos.com
 firewall-cr-trf-2-alt.stn100hnd.ctr.sophos.com
 firewall-cr-trf-2-alt.stn100syd.ctr.sophos.com
 firewall-cr-trf-2-alt.stn100yul.ctr.sophos.com
@@ -5385,7 +5381,6 @@ firewall-cr-trf-2.stn030bom.ctr.sophos.com
 firewall-cr-trf-2.stn030gru.ctr.sophos.com
 firewall-cr-trf-2.stn030hnd.ctr.sophos.com
 firewall-cr-trf-2.stn030syd.ctr.sophos.com
-firewall-cr-trf-2.stn100bom.ctr.sophos.com
 firewall-cr-trf-2.stn100hnd.ctr.sophos.com
 firewall-cr-trf-2.stn100syd.ctr.sophos.com
 firewall-cr-trf-2.stn100yul.ctr.sophos.com
@@ -5404,7 +5399,6 @@ firewall-cr-trf.cloudstation.us-east-2.prod.hydra.sophos.com
 firewall-cr-trf.cloudstation.us-west-2.prod.hydra.sophos.com
 firewall-cr-trf.cloudstation.us-west-2.qa.hydra.sophos.com
 firewall-monitor-alt.stn010yul.ctr.sophos.com
-firewall-monitor-alt.stn030hnd.ctr.sophos.com
 firewall-monitor-alt.stn030syd.ctr.sophos.com
 firewall-monitor-alt.stn100yul.ctr.sophos.com
 firewall-monitor-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -5424,7 +5418,6 @@ firewall-monitor.cloudstation.us-east-2.prod.hydra.sophos.com
 firewall-monitor.cloudstation.us-west-2.prod.hydra.sophos.com
 firewall-monitor.cloudstation.us-west-2.qa.hydra.sophos.com
 firewall-monitor.stn010yul.ctr.sophos.com
-firewall-monitor.stn030hnd.ctr.sophos.com
 firewall-monitor.stn030syd.ctr.sophos.com
 firewall-monitor.stn100yul.ctr.sophos.com
 firewallsizing-internal.sophos.com
@@ -5437,6 +5430,7 @@ fkizx7x4.cloudstation.us-east-1.qa.hydra.sophos.com
 fku6ku5a.stn030yul.ctr.sophos.com
 fl5j3td8.cloudstation.eu-central-1.prod.hydra.sophos.com
 flarloy7.cloudstation.eu-central-1.prod.hydra.sophos.com
+fleet-manager-alt.stn010yul.ctr.sophos.com
 fleet-manager-alt.stn030bom.ctr.sophos.com
 fleet-manager-alt.stn030gru.ctr.sophos.com
 fleet-manager-alt.stn030hnd.ctr.sophos.com
@@ -5463,6 +5457,7 @@ fleet-manager.cloudstation.eu-west-1.prod.hydra.sophos.com
 fleet-manager.cloudstation.us-east-2.prod.hydra.sophos.com
 fleet-manager.cloudstation.us-west-2.prod.hydra.sophos.com
 fleet-manager.cloudstation.us-west-2.qa.hydra.sophos.com
+fleet-manager.stn010yul.ctr.sophos.com
 fleet-manager.stn030bom.ctr.sophos.com
 fleet-manager.stn030gru.ctr.sophos.com
 fleet-manager.stn030hnd.ctr.sophos.com
@@ -5551,7 +5546,6 @@ fwcm-aggregation.cloudhub.eu-west-1.dev.hydra.sophos.com
 fwcm-aggregation.cloudhub.eu-west-1.prod.hydra.sophos.com
 fwcm-aggregation.cloudhub.eu-west-1.qa.hydra.sophos.com
 fwcm-aggregation.cloudstation.eu-west-1.dev.hydra.sophos.com
-fwcm-config-alt.stn100hnd.ctr.sophos.com
 fwcm-config-alt.stn100yul.ctr.sophos.com
 fwcm-config-cloudstation-eu-central-1.prod.hydra.sophos.com
 fwcm-config-cloudstation-eu-central-1.qa.hydra.sophos.com
@@ -5567,7 +5561,6 @@ fwcm-config.cloudstation.eu-west-1.prod.hydra.sophos.com
 fwcm-config.cloudstation.us-east-2.prod.hydra.sophos.com
 fwcm-config.cloudstation.us-west-2.prod.hydra.sophos.com
 fwcm-config.cloudstation.us-west-2.qa.hydra.sophos.com
-fwcm-config.stn100hnd.ctr.sophos.com
 fwcm-config.stn100yul.ctr.sophos.com
 fwcm-device-sync-alt.stn010yul.ctr.sophos.com
 fwcm-device-sync-alt.stn030syd.ctr.sophos.com
@@ -5607,7 +5600,6 @@ fwcm-group-config.cloudstation.us-east-2.prod.hydra.sophos.com
 fwcm-group-config.cloudstation.us-west-2.prod.hydra.sophos.com
 fwcm-group-config.cloudstation.us-west-2.qa.hydra.sophos.com
 fwcm-group-config.stn010yul.ctr.sophos.com
-fwcm-group-config.stn030hnd.ctr.sophos.com
 fwcm-group-config.stn030syd.ctr.sophos.com
 fwcm-group-config.stn100yul.ctr.sophos.com
 fwcm-group-confighub-cloudhub-eu-west-1.dev.hydra.sophos.com
@@ -5617,7 +5609,6 @@ fwcm-group-confighub.cloudhub.eu-west-1.dev.hydra.sophos.com
 fwcm-group-confighub.cloudhub.eu-west-1.prod.hydra.sophos.com
 fwcm-group-confighub.cloudhub.eu-west-1.qa.hydra.sophos.com
 fwcm-heartbeat-alt.stn010yul.ctr.sophos.com
-fwcm-heartbeat-alt.stn030hnd.ctr.sophos.com
 fwcm-heartbeat-alt.stn030syd.ctr.sophos.com
 fwcm-heartbeat-alt.stn100yul.ctr.sophos.com
 fwcm-heartbeat-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -5635,7 +5626,6 @@ fwcm-heartbeat.cloudstation.us-east-2.prod.hydra.sophos.com
 fwcm-heartbeat.cloudstation.us-west-2.prod.hydra.sophos.com
 fwcm-heartbeat.cloudstation.us-west-2.qa.hydra.sophos.com
 fwcm-heartbeat.stn010yul.ctr.sophos.com
-fwcm-heartbeat.stn030hnd.ctr.sophos.com
 fwcm-heartbeat.stn030syd.ctr.sophos.com
 fwcm-heartbeat.stn100yul.ctr.sophos.com
 fwcm-hub-msdemo-cloudhub-eu-west-1.dev.hydra.sophos.com
@@ -5800,7 +5790,6 @@ gjgw74us.cloudstation.eu-west-1.dev.hydra.sophos.com
 gkdur19l.hub010pdx.ctr.sophos.com
 gksir7m1.cloudstation.us-west-2.qa.hydra.sophos.com
 glco4hp8.cloudstation.us-west-2.prod.hydra.sophos.com
-global-search-cloudstation-eu-central-1.qa.hydra.sophos.com
 global-search-cloudstation-us-west-2.qa.hydra.sophos.com
 gm444gci.cloudstation.us-east-2.prod.hydra.sophos.com
 gm9iy13t.stn030bom.ctr.sophos.com
@@ -5837,10 +5826,10 @@ group-manager-cloudhub-eu-west-1.prod.hydra.sophos.com
 group-manager.cloudhub.eu-west-1.prod.hydra.sophos.com
 gthckhb9.cloudstation.eu-west-1.dev.hydra.sophos.com
 guoohv84.cloudhub.eu-west-1.qa.hydra.sophos.com
+gvdjzbek.stn100yul.ctr.sophos.com
 gw-uk.sophos.com
 gw.ca.sophos.com
 gwnyupzn.cloudstation.us-east-2.prod.hydra.sophos.com
-gwt2bjgw.hub010pdx.ctr.sophos.com
 gygkrm3b.cloudstation.eu-west-1.dev.hydra.sophos.com
 gzcbn13o.stn010yul.ctr.sophos.com
 gzp7x4ol.cloudstation.eu-central-1.qa.hydra.sophos.com
@@ -5910,7 +5899,6 @@ hqct9r55.cloudstation.eu-west-1.dev.hydra.sophos.com
 hqkarrf4.stn010yul.ctr.sophos.com
 hriqio92.cloudstation.eu-central-1.qa.hydra.sophos.com
 hru-alt.stn000cmh.ctr.sophos.com
-hru-alt.stn030hnd.ctr.sophos.com
 hru-alt.stn030syd.ctr.sophos.com
 hru-alt.stn100hnd.ctr.sophos.com
 hru-alt.stn100syd.ctr.sophos.com
@@ -5928,7 +5916,6 @@ hru.cloudstation.eu-west-1.prod.hydra.sophos.com
 hru.cloudstation.us-east-2.prod.hydra.sophos.com
 hru.cloudstation.us-west-2.prod.hydra.sophos.com
 hru.stn000cmh.ctr.sophos.com
-hru.stn030hnd.ctr.sophos.com
 hru.stn030syd.ctr.sophos.com
 hru.stn100hnd.ctr.sophos.com
 hru.stn100syd.ctr.sophos.com
@@ -6219,6 +6206,7 @@ jp.sophos.com
 jpa9iikz.cloudstation.us-west-2.qa.hydra.sophos.com
 jpbxypbz.cloudhub.eu-west-1.qa.hydra.sophos.com
 jpd4tauy.stn100bom.ctr.sophos.com
+jpz293qj.stn100hnd.ctr.sophos.com
 jr3rn7fa.stn030gru.ctr.sophos.com
 jr56c0l3.cloudstation.eu-central-1.prod.hydra.sophos.com
 jrkod6z9.cloudstation.us-west-2.qa.hydra.sophos.com
@@ -6236,6 +6224,7 @@ jw60dft6.cloudstation.eu-west-1.prod.hydra.sophos.com
 jwcfnt92.stn030bom.ctr.sophos.com
 jwq5da51.cloudstation.eu-west-1.prod.hydra.sophos.com
 jwzh0l5t.stn010yul.ctr.sophos.com
+jxcbf8p9.cloudhub.eu-west-1.dev.hydra.sophos.com
 jxywgbc6.stn030bom.ctr.sophos.com
 jzfpbknv.stn100hnd.ctr.sophos.com
 jzp4srrx.cloudstation.us-west-2.prod.hydra.sophos.com
@@ -6414,6 +6403,7 @@ legacya4p87kc6.cloudstation.eu-west-1.inf.hydra.sophos.com
 lemongrass.sophos.com
 lficzmqg.cloudstation.us-east-2.prod.hydra.sophos.com
 lfj4xred.cloudstation.eu-west-1.dev.hydra.sophos.com
+lg2v7ss5.stn010yul.ctr.sophos.com
 lgf6ur3d.cloudstation.eu-west-1.dev.hydra.sophos.com
 lhjfnybk.cloudstation.eu-west-1.prod.hydra.sophos.com
 license-manager-cloudhub-eu-west-1.dev3.hydra.sophos.com
@@ -6505,6 +6495,7 @@ live-term-broker-alt.stn100syd.ctr.sophos.com
 live-term-broker-cloudstation-eu-central-1.prod.hydra.sophos.com
 live-term-broker-cloudstation-eu-central-1.qa.hydra.sophos.com
 live-term-broker-cloudstation-eu-west-1.dev.hydra.sophos.com
+live-term-broker-cloudstation-eu-west-1.inf.hydra.sophos.com
 live-term-broker-cloudstation-eu-west-1.prod.hydra.sophos.com
 live-term-broker-cloudstation-us-east-2.prod.hydra.sophos.com
 live-term-broker-cloudstation-us-west-2.prod.hydra.sophos.com
@@ -6512,6 +6503,7 @@ live-term-broker-cloudstation-us-west-2.qa.hydra.sophos.com
 live-term-broker.cloudstation.eu-central-1.prod.hydra.sophos.com
 live-term-broker.cloudstation.eu-central-1.qa.hydra.sophos.com
 live-term-broker.cloudstation.eu-west-1.dev.hydra.sophos.com
+live-term-broker.cloudstation.eu-west-1.inf.hydra.sophos.com
 live-term-broker.cloudstation.eu-west-1.prod.hydra.sophos.com
 live-term-broker.cloudstation.us-east-2.prod.hydra.sophos.com
 live-term-broker.cloudstation.us-west-2.prod.hydra.sophos.com
@@ -6527,6 +6519,7 @@ live-term-broker.stn100syd.ctr.sophos.com
 live-terminal-eu-central-1.prod.hydra.sophos.com
 live-terminal-eu-central-1.qa.hydra.sophos.com
 live-terminal-eu-west-1.dev.hydra.sophos.com
+live-terminal-eu-west-1.inf.hydra.sophos.com
 live-terminal-eu-west-1.prod.hydra.sophos.com
 live-terminal-us-east-2.prod.hydra.sophos.com
 live-terminal-us-west-2.prod.hydra.sophos.com
@@ -6549,7 +6542,6 @@ lkmgcjlc.cloudstation.eu-central-1.qa.hydra.sophos.com
 ll-auth-downloads.sophos.com
 ll1kmj6f.cloudstation.eu-central-1.qa.hydra.sophos.com
 llhohhi5.cloudhub.eu-west-1.dev.hydra.sophos.com
-lm59kzop.stn100hnd.ctr.sophos.com
 lmhjsp50.cloudstation.eu-central-1.qa.hydra.sophos.com
 lnd3swan.cloudstation.us-east-2.prod.hydra.sophos.com
 lnkyx0t4.cloudstation.us-east-1.inf.hydra.sophos.com
@@ -9648,6 +9640,7 @@ my.sophos.com
 my1c4ys9.stn030hnd.ctr.sophos.com
 mya4p87kc6.cloudstation.eu-west-1.inf.hydra.sophos.com
 mycivilservice.sophos.com
+mydb03bp.cloudstation.us-west-2.qa.hydra.sophos.com
 mymq0ahu.cloudstation.eu-west-1.prod.hydra.sophos.com
 mymv58fuql.cloudstation.eu-west-1.inf.hydra.sophos.com
 mysophos-static-prod.sophos.com
@@ -9660,7 +9653,6 @@ mzt7ipn5.stn100yul.ctr.sophos.com
 n254yw2t.cloudstation.eu-west-1.dev.hydra.sophos.com
 n2yx3g8y.cloudstation.eu-west-1.dev.hydra.sophos.com
 n3efr5vf.cloudstation.eu-west-1.prod.hydra.sophos.com
-n3qk1kx3.stn010yul.ctr.sophos.com
 n47g4ene.cloudstation.eu-west-1.dev.hydra.sophos.com
 n55txryv.cloudstation.eu-west-1.prod.hydra.sophos.com
 n5bq8zqo.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -9671,6 +9663,7 @@ n8bdhwmp.stn030syd.ctr.sophos.com
 n8kkivx6.stn000cmh.ctr.sophos.com
 n8vu0zet.cloudstation.eu-west-1.dev.hydra.sophos.com
 n8wd833s.stn030hnd.ctr.sophos.com
+n911ib5b.stn010yul.ctr.sophos.com
 na-chassis-smoke-ms-cloudstation-eu-west-1.inf.hydra.sophos.com
 nakedsecurity.sophos.com
 nase.sophos.com
@@ -9682,7 +9675,6 @@ nchan-poc-cloudstation-eu-west-1.dev.hydra.sophos.com
 nchan-poc.cloudstation.eu-west-1.dev.hydra.sophos.com
 ncl34ikm.cloudstation.eu-west-1.dev.hydra.sophos.com
 ndno7jip.stn100yul.ctr.sophos.com
-ndr-worker-v1.stn100hnd.ctr.sophos.com
 nds10mu8.cloudstation.eu-central-1.prod.hydra.sophos.com
 ndv0frep.cloudhub.eu-west-1.qa.hydra.sophos.com
 network-ftp.sophos.com
@@ -9768,7 +9760,6 @@ nta-push-rest.stn030bom.ctr.sophos.com
 nta-push-rest.stn100gru.ctr.sophos.com
 nta-push-rest.stn100hnd.ctr.sophos.com
 nta-push-rest.stn100syd.ctr.sophos.com
-nta-push-ws.cloudstation.eu-central-1.qa.hydra.sophos.com
 nta-push-ws.cloudstation.eu-west-1.dev.hydra.sophos.com
 nta-push-ws.stn010pdx.ctr.sophos.com
 nta-push-ws.stn010yul.ctr.sophos.com
@@ -9867,7 +9858,6 @@ o8oq3mvf.cloudstation.us-east-2.prod.hydra.sophos.com
 o8pfndcv.cloudstation.eu-west-1.inf.hydra.sophos.com
 o8vr81hj.stn100yul.ctr.sophos.com
 o97cw6xp.stn100yul.ctr.sophos.com
-oafy3ejr.stn010yul.ctr.sophos.com
 oak05lr0-cloudhub-eu-west-1.dev.hydra.sophos.com
 oamvkyo9.stn100syd.ctr.sophos.com
 oan0x23c.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -9881,11 +9871,13 @@ oe7rir2u.stn100gru.ctr.sophos.com
 ofxfpue9.cloudstation.us-east-1.dev.hydra.sophos.com
 og3ihmcl.cloudstation.eu-central-1.prod.hydra.sophos.com
 ogk892ta.cloudstation.eu-central-1.prod.hydra.sophos.com
+ogt9y767.stn010pdx.ctr.sophos.com
 ohmgqckd.cloudstation.eu-west-1.dev.hydra.sophos.com
 ohrz8tkh.cloudstation.eu-central-1.qa.hydra.sophos.com
 ohs6wsza.cloudstation.eu-west-1.prod.hydra.sophos.com
 oj8le1ti.cloudstation.eu-west-1.prod.hydra.sophos.com
 ojicqgl4.cloudstation.us-west-2.prod.hydra.sophos.com
+ojq5aueh.cloudstation.eu-west-1.dev.hydra.sophos.com
 ok9clw6t.cloudhub.eu-west-1.inf.hydra.sophos.com
 olgcvpx6.cloudstation.eu-central-1.qa.hydra.sophos.com
 olj35wzo.cloudstation.us-west-2.prod.hydra.sophos.com
@@ -9934,6 +9926,7 @@ optix-ctrail-trf.cloudstation.eu-west-1.prod.hydra.sophos.com
 optix-ctrail-trf.cloudstation.us-west-2.prod.hydra.sophos.com
 optix-ctrail-trf.stn100syd.ctr.sophos.com
 optix-ctrail-trf.stn100yul.ctr.sophos.com
+optix-parquet-agg-alt.stn010yul.ctr.sophos.com
 optix-parquet-agg-alt.stn100bom.ctr.sophos.com
 optix-parquet-agg-alt.stn100gru.ctr.sophos.com
 optix-parquet-agg-alt.stn100hnd.ctr.sophos.com
@@ -9948,6 +9941,7 @@ optix-parquet-agg.cloudstation.eu-west-1.dev.hydra.sophos.com
 optix-parquet-agg.cloudstation.eu-west-1.prod.hydra.sophos.com
 optix-parquet-agg.cloudstation.us-east-2.prod.hydra.sophos.com
 optix-parquet-agg.cloudstation.us-west-2.prod.hydra.sophos.com
+optix-parquet-agg.stn010yul.ctr.sophos.com
 optix-parquet-agg.stn100bom.ctr.sophos.com
 optix-parquet-agg.stn100gru.ctr.sophos.com
 optix-parquet-agg.stn100hnd.ctr.sophos.com
@@ -10037,7 +10031,6 @@ parquet-aggregator-alt.stn030hnd.ctr.sophos.com
 parquet-aggregator-alt.stn030syd.ctr.sophos.com
 parquet-aggregator-alt.stn030yul.ctr.sophos.com
 parquet-aggregator-alt.stn100bom.ctr.sophos.com
-parquet-aggregator-alt.stn100hnd.ctr.sophos.com
 parquet-aggregator-alt.stn100syd.ctr.sophos.com
 parquet-aggregator-alt.stn100yul.ctr.sophos.com
 parquet-aggregator-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -10190,7 +10183,6 @@ phishing-series.stn030bom.ctr.sophos.com
 phishing-series.stn100bom.ctr.sophos.com
 phishing-series.stn100syd.ctr.sophos.com
 phishing-series.stn100yul.ctr.sophos.com
-ping-global-alt.hub010pdx.ctr.sophos.com
 ping-global-cloudhub-eu-west-1.dev.hydra.sophos.com
 ping-global-cloudhub-eu-west-1.dev3.hydra.sophos.com
 ping-global-cloudhub-eu-west-1.inf.hydra.sophos.com
@@ -10201,7 +10193,6 @@ ping-global.cloudhub.eu-west-1.dev3.hydra.sophos.com
 ping-global.cloudhub.eu-west-1.inf.hydra.sophos.com
 ping-global.cloudhub.eu-west-1.prod.hydra.sophos.com
 ping-global.cloudhub.eu-west-1.qa.hydra.sophos.com
-ping-global.hub010pdx.ctr.sophos.com
 ping-regional-alt.stn000cmh.ctr.sophos.com
 ping-regional-alt.stn010pdx.ctr.sophos.com
 ping-regional-alt.stn010yul.ctr.sophos.com
@@ -10354,7 +10345,6 @@ presto-qee-ems-1a.cloudstation.us-east-2.prod.hydra.sophos.com
 presto-qee-ems-1a.cloudstation.us-west-2.prod.hydra.sophos.com
 presto-qee-ems-1a.stn010pdx.ctr.sophos.com
 presto-qee-ems-1a.stn030gru.ctr.sophos.com
-presto-qee-ems-1a.stn030hnd.ctr.sophos.com
 presto-qee-ems-1a.stn100gru.ctr.sophos.com
 presto-qee-ems-1a.stn100yul.ctr.sophos.com
 presto-qee-ems.cloudstation.eu-central-1.qa.hydra.sophos.com
@@ -10364,7 +10354,6 @@ presto-qee-ems.cloudstation.us-east-2.prod.hydra.sophos.com
 presto-qee-ems.cloudstation.us-west-2.prod.hydra.sophos.com
 presto-qee-ems.stn010pdx.ctr.sophos.com
 presto-qee-ems.stn030gru.ctr.sophos.com
-presto-qee-ems.stn030hnd.ctr.sophos.com
 presto-qee-ems.stn100gru.ctr.sophos.com
 presto-qee-ems.stn100yul.ctr.sophos.com
 presto-qee-firewall-1a.cloudstation.eu-central-1.prod.hydra.sophos.com
@@ -10413,7 +10402,6 @@ presto-qee-gbl-search-1a.stn030gru.ctr.sophos.com
 presto-qee-gbl-search-1a.stn030hnd.ctr.sophos.com
 presto-qee-gbl-search-1a.stn100bom.ctr.sophos.com
 presto-qee-gbl-search-1a.stn100gru.ctr.sophos.com
-presto-qee-gbl-search-1a.stn100hnd.ctr.sophos.com
 presto-qee-gbl-search-1a.stn100yul.ctr.sophos.com
 presto-qee-gbl-search.cloudstation.eu-central-1.qa.hydra.sophos.com
 presto-qee-gbl-search.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -10426,7 +10414,6 @@ presto-qee-gbl-search.stn030gru.ctr.sophos.com
 presto-qee-gbl-search.stn030hnd.ctr.sophos.com
 presto-qee-gbl-search.stn100bom.ctr.sophos.com
 presto-qee-gbl-search.stn100gru.ctr.sophos.com
-presto-qee-gbl-search.stn100hnd.ctr.sophos.com
 presto-qee-gbl-search.stn100yul.ctr.sophos.com
 presto-qee-mtr-1a.cloudstation.eu-central-1.qa.hydra.sophos.com
 presto-qee-mtr-1a.cloudstation.eu-west-1.prod.hydra.sophos.com
@@ -10441,6 +10428,7 @@ presto-qee-mtr-1a.stn030syd.ctr.sophos.com
 presto-qee-mtr-1a.stn100bom.ctr.sophos.com
 presto-qee-mtr-1a.stn100hnd.ctr.sophos.com
 presto-qee-mtr-1a.stn100syd.ctr.sophos.com
+presto-qee-mtr-1a.stn100yul.ctr.sophos.com
 presto-qee-mtr-1b.cloudstation.us-east-1.qa.hydra.sophos.com
 presto-qee-mtr.cloudstation.eu-central-1.qa.hydra.sophos.com
 presto-qee-mtr.cloudstation.eu-west-1.prod.hydra.sophos.com
@@ -10457,7 +10445,6 @@ presto-qee-mtr.stn100hnd.ctr.sophos.com
 presto-qee-mtr.stn100syd.ctr.sophos.com
 presto-qee-sisense-1a.cloudstation.eu-west-1.dev.hydra.sophos.com
 presto-qee-sisense.cloudstation.eu-west-1.dev.hydra.sophos.com
-presto-qee-sisense.stn010yul.ctr.sophos.com
 presto-qee-ti-1a.cloudstation.eu-central-1.prod.hydra.sophos.com
 presto-qee-ti-1a.cloudstation.eu-central-1.qa.hydra.sophos.com
 presto-qee-ti-1a.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -10613,6 +10600,7 @@ psjjuymr.stn030hnd.ctr.sophos.com
 psr5tkb3.stn100bom.ctr.sophos.com
 pstu23gr.cloudstation.eu-west-1.dev.hydra.sophos.com
 pszz18p9.cloudstation.eu-west-1.prod.hydra.sophos.com
+ptoq760w.cloudstation.eu-west-1.prod.hydra.sophos.com
 public-gateway-api-cloudstation-eu-central-1.dev.hydra.sophos.com
 public-gateway-api-cloudstation-eu-central-1.inf.hydra.sophos.com
 public-gateway-api-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -10662,6 +10650,7 @@ public-rca.stn100bom.ctr.sophos.com
 public-rca.stn100gru.ctr.sophos.com
 public-rca.stn100hnd.ctr.sophos.com
 public-rca.stn100syd.ctr.sophos.com
+public-rca.stn100yul.ctr.sophos.com
 pug583lu.cloudstation.eu-central-1.prod.hydra.sophos.com
 puzzles.sophos.com
 pv8sp3tr.cloudstation.us-east-2.prod.hydra.sophos.com
@@ -10690,7 +10679,6 @@ q4h6balf.stn030syd.ctr.sophos.com
 q4jhf39q.cloudstation.eu-west-1.prod.hydra.sophos.com
 q55bf0b6.stn030bom.ctr.sophos.com
 q5b4agne-cloudstation-eu-west-1.inf.hydra.sophos.com
-q5q9hctg.stn100hnd.ctr.sophos.com
 q73n6zw1.stn100yul.ctr.sophos.com
 q7ryv9u3.cloudstation.eu-west-1.inf.hydra.sophos.com
 q8y6u17o.stn100hnd.ctr.sophos.com
@@ -10709,7 +10697,6 @@ qdveu51y.stn100hnd.ctr.sophos.com
 qee-alt.stn010pdx.ctr.sophos.com
 qee-alt.stn010yul.ctr.sophos.com
 qee-alt.stn030gru.ctr.sophos.com
-qee-alt.stn030hnd.ctr.sophos.com
 qee-alt.stn100bom.ctr.sophos.com
 qee-alt.stn100hnd.ctr.sophos.com
 qee-alt.stn100syd.ctr.sophos.com
@@ -10733,7 +10720,6 @@ qee.cloudstation.us-west-2.qa.hydra.sophos.com
 qee.stn010pdx.ctr.sophos.com
 qee.stn010yul.ctr.sophos.com
 qee.stn030gru.ctr.sophos.com
-qee.stn030hnd.ctr.sophos.com
 qee.stn100bom.ctr.sophos.com
 qee.stn100hnd.ctr.sophos.com
 qee.stn100syd.ctr.sophos.com
@@ -10752,6 +10738,7 @@ qi99f3re.cloudstation.eu-central-1.prod.hydra.sophos.com
 qilf6t76.cloudstation.us-east-2.prod.hydra.sophos.com
 qisvy4ga.cloudstation.eu-west-1.dev.hydra.sophos.com
 qj49zagv.stn010yul.ctr.sophos.com
+qkmyc9tm.stn010yul.ctr.sophos.com
 qm1klflm.cloudhub.eu-west-1.prod.hydra.sophos.com
 qm4a0ysy.stn100yul.ctr.sophos.com
 qmgl6kqi.stn010yul.ctr.sophos.com
@@ -10775,7 +10762,6 @@ qv9gtxg5.cloudstation.us-east-2.prod.hydra.sophos.com
 qvhipr5a.stn030syd.ctr.sophos.com
 qwb3rff3.stn010yul.ctr.sophos.com
 qy2q5vk9.stn100syd.ctr.sophos.com
-qyqfrku7.stn030hnd.ctr.sophos.com
 r0dkw204.cloudstation.eu-central-1.qa.hydra.sophos.com
 r0s0gwv5.stn100hnd.ctr.sophos.com
 r0yjbxcb.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -10822,8 +10808,8 @@ rca-upload.stn030hnd.ctr.sophos.com
 rca-upload.stn030syd.ctr.sophos.com
 rca-upload.stn100bom.ctr.sophos.com
 rca-upload.stn100gru.ctr.sophos.com
+rca-upload.stn100hnd.ctr.sophos.com
 rca-upload.stn100syd.ctr.sophos.com
-rca-upload.stn100yul.ctr.sophos.com
 rdcarwhc.cloudstation.us-west-2.qa.hydra.sophos.com
 rdccl6ch.cloudstation.us-west-2.prod.hydra.sophos.com
 rdy6wqzb.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -10930,6 +10916,7 @@ research.sophos.com
 rest-3.id.sophos.com
 rest-staging-3.id.sophos.com
 rest.globalrep.labs.sophos.com
+rest.labrules.labs.sophos.com
 rest.sofa.labs.sophos.com
 rf2jichs.cloudstation.us-east-2.prod.hydra.sophos.com
 rflassnm.stn100syd.ctr.sophos.com
@@ -10942,7 +10929,6 @@ rhoo8235.cloudstation.us-west-2.qa.hydra.sophos.com
 rip8nmn4.stn010yul.ctr.sophos.com
 ripgf40q.cloudstation.eu-west-1.dev.hydra.sophos.com
 risc1zg1.stn100syd.ctr.sophos.com
-rjcghlca.stn100hnd.ctr.sophos.com
 rk66zmtq.stn010yul.ctr.sophos.com
 rkaywhel.stn100syd.ctr.sophos.com
 rkun7cat.cloudstation.us-west-2.qa.hydra.sophos.com
@@ -11019,6 +11005,7 @@ sai-xdr-prq-agg-alt.stn030bom.ctr.sophos.com
 sai-xdr-prq-agg-alt.stn030hnd.ctr.sophos.com
 sai-xdr-prq-agg-alt.stn030syd.ctr.sophos.com
 sai-xdr-prq-agg-alt.stn100bom.ctr.sophos.com
+sai-xdr-prq-agg-alt.stn100yul.ctr.sophos.com
 sai-xdr-prq-agg-cloudstation-eu-west-1.dev.hydra.sophos.com
 sai-xdr-prq-agg-cloudstation-us-east-2.prod.hydra.sophos.com
 sai-xdr-prq-agg-cloudstation-us-west-2.qa.hydra.sophos.com
@@ -11028,6 +11015,7 @@ sai-xdr-prq-agg.stn010yul.ctr.sophos.com
 sai-xdr-prq-agg.stn030bom.ctr.sophos.com
 sai-xdr-prq-agg.stn030hnd.ctr.sophos.com
 sai-xdr-prq-agg.stn100bom.ctr.sophos.com
+sai-xdr-prq-agg.stn100yul.ctr.sophos.com
 sales.sophos.com
 saleschat.sophos.com
 salesvigilante.esp.sophos.com
@@ -11599,7 +11587,6 @@ staging-id.sophos.com
 staging-ping-global.cloudhub.eu-west-1.inf.hydra.sophos.com
 staging-wccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
 staging.analysis.sophos.com
-staging.atp.feedback.sophos.com
 staging.optix.sophos.com
 staging.sandbox.sophos.com
 start-proxy.d.inf.hydra.sophos.com
@@ -11700,6 +11687,7 @@ t0s5py2r.stn100syd.ctr.sophos.com
 t0wf559v-cloudstation-eu-west-1.inf.hydra.sophos.com
 t1bprnv1.cloudstation.eu-central-1.prod.hydra.sophos.com
 t2726g2u.stn010yul.ctr.sophos.com
+t2nnczbb.stn010yul.ctr.sophos.com
 t3iv8iw6.cloudstation.eu-west-1.dev.hydra.sophos.com
 t3l4scsd.cloudstation.eu-central-1.qa.hydra.sophos.com
 t5ksk703.stn000cmh.ctr.sophos.com
@@ -11866,6 +11854,7 @@ tenant-directory.stn030bom.ctr.sophos.com
 tenant-directory.stn030gru.ctr.sophos.com
 tenant-directory.stn030syd.ctr.sophos.com
 tenant-directory.stn100bom.ctr.sophos.com
+tenant-directory.stn100gru.ctr.sophos.com
 tenant-directory.stn100syd.ctr.sophos.com
 tenant-directory.stn100yul.ctr.sophos.com
 test-aa-cert-cloudhub-eu-west-1.dev.hydra.sophos.com
@@ -12092,6 +12081,7 @@ topic-manager-cloudstation-eu-central-1.prod.hydra.sophos.com
 topic-manager-cloudstation-eu-central-1.qa.hydra.sophos.com
 topic-manager-cloudstation-eu-west-1.dev.hydra.sophos.com
 topic-manager-cloudstation-eu-west-1.prod.hydra.sophos.com
+topic-manager-cloudstation-us-east-1.dev.hydra.sophos.com
 topic-manager-cloudstation-us-east-1.prod.hydra.sophos.com
 topic-manager-cloudstation-us-east-2.prod.hydra.sophos.com
 topic-manager-cloudstation-us-west-2.prod.hydra.sophos.com
@@ -12100,6 +12090,7 @@ topic-manager.cloudstation.eu-central-1.prod.hydra.sophos.com
 topic-manager.cloudstation.eu-central-1.qa.hydra.sophos.com
 topic-manager.cloudstation.eu-west-1.dev.hydra.sophos.com
 topic-manager.cloudstation.eu-west-1.prod.hydra.sophos.com
+topic-manager.cloudstation.us-east-1.dev.hydra.sophos.com
 topic-manager.cloudstation.us-east-1.prod.hydra.sophos.com
 topic-manager.cloudstation.us-east-2.prod.hydra.sophos.com
 topic-manager.cloudstation.us-west-2.prod.hydra.sophos.com
@@ -12118,10 +12109,8 @@ tpcs896z.stn030syd.ctr.sophos.com
 tq2as4nf.stn100yul.ctr.sophos.com
 tq3j1s2v.cloudstation.eu-west-1.prod.hydra.sophos.com
 tqpcu1js.stn100bom.ctr.sophos.com
-trace-telemetry-alt.stn030hnd.ctr.sophos.com
 trace-telemetry-cloudstation-eu-west-1.dev.hydra.sophos.com
 trace-telemetry.cloudstation.eu-west-1.dev.hydra.sophos.com
-trace-telemetry.stn030hnd.ctr.sophos.com
 track.m2d0m5g5.cloudstation.eu-west-1.inf.hydra.sophos.com
 training.sophos.com
 trh5hevu.stn010yul.ctr.sophos.com
@@ -12130,7 +12119,6 @@ trust.sophos.com
 trysfm.sophos.com
 ts2ekldo.cloudstation.us-west-2.prod.hydra.sophos.com
 ts34z00t.cloudstation.eu-west-1.prod.hydra.sophos.com
-tsq7ab7c.stn030hnd.ctr.sophos.com
 tt0dwb54.eu-central-1.qa.o365.sophos.com
 tt8d6i3n.stn030gru.ctr.sophos.com
 ttme82lp.stn030yul.ctr.sophos.com
@@ -12182,7 +12170,6 @@ uat.sophos.com
 ubdyohir.cloudstation.eu-west-1.qa.hydra.sophos.com
 udvg5b3r.stn030gru.ctr.sophos.com
 ueehe2j2.stn030bom.ctr.sophos.com
-ug49tmli.cloudhub.eu-west-1.dev.hydra.sophos.com
 uhe3r703.stn100yul.ctr.sophos.com
 ui-regression-cloudstation-eu-central-1.qa.hydra.sophos.com
 ui-regression-cloudstation-eu-west-1.dev.hydra.sophos.com
@@ -12254,7 +12241,6 @@ userm2d0m5g5.cloudstation.eu-west-1.inf.hydra.sophos.com
 users-public-gateway-api-cloudstation-eu-west-1.inf.hydra.sophos.com
 userspublic-gateway-api-cloudstation-eu-west-1.inf.hydra.sophos.com
 userswccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
-uso314t2.stn100bom.ctr.sophos.com
 usproxy.d.inf.hydra.sophos.com
 utm-cloudstation-eu-central-1.dev.hydra.sophos.com
 utm-cloudstation-eu-central-1.prod.hydra.sophos.com
@@ -12322,6 +12308,7 @@ ve4th2x4.stn100bom.ctr.sophos.com
 vegca0it.cloudstation.eu-west-1.dev.hydra.sophos.com
 vf9tv3vf.cloudstation.us-west-2.qa.hydra.sophos.com
 vfcp5k5v.cloudstation.eu-central-1.qa.hydra.sophos.com
+vfmz7n42.hub010pdx.ctr.sophos.com
 vfwnzhcv.cloudstation.us-east-2.prod.hydra.sophos.com
 vin-sample-cloudstation-eu-west-1.dev.hydra.sophos.com
 vin-sample-cloudstation-us-west-2.qa.hydra.sophos.com
@@ -12378,7 +12365,6 @@ w0jc6n6z.cloudstation.eu-central-1.qa.hydra.sophos.com
 w0p27e7r.cloudhub.eu-west-1.qa.hydra.sophos.com
 w0we129q.cloudstation.us-west-2.qa.hydra.sophos.com
 w2n1ktwy.stn030hnd.ctr.sophos.com
-w2yycnec.stn100hnd.ctr.sophos.com
 w3i8g5e3.stn030syd.ctr.sophos.com
 w3o71syb.stn100yul.ctr.sophos.com
 w3veja4w.stn030bom.ctr.sophos.com
@@ -12394,6 +12380,7 @@ w8bq63hq.stn100hnd.ctr.sophos.com
 w9cdbqvd.cloudstation.us-west-2.qa.hydra.sophos.com
 w9qurgr2.stn010yul.ctr.sophos.com
 wadsworth.sophos.com
+waistzqg.ca-central-1.dev.o365.sophos.com
 wbbfj8x3.cloudstation.eu-central-1.qa.hydra.sophos.com
 wbfvyxoi.cloudstation.us-west-2.prod.hydra.sophos.com
 wccsaacp-cloudstation-eu-west-1.inf.hydra.sophos.com
@@ -12491,7 +12478,6 @@ wj9ffm6w.stn000cmh.ctr.sophos.com
 wlm159ic.stn100syd.ctr.sophos.com
 wmfe4xbr.stn100syd.ctr.sophos.com
 wmultbsp.cloudstation.us-east-2.prod.hydra.sophos.com
-wno5keeo.stn030hnd.ctr.sophos.com
 wns00sod.cloudstation.eu-west-1.inf.hydra.sophos.com
 wo7xnb1y.cloudstation.eu-west-1.dev.hydra.sophos.com
 wolverineandthexmen.sophos.com
@@ -12500,7 +12486,6 @@ wp.test-central-ms-cloudhub-eu-west-1.inf.hydra.sophos.com
 wp.test-cloud-assets.sophos.com
 wp3abortion.sophos.com
 wp4fve3y.cloudhub.eu-west-1.dev.hydra.sophos.com
-wp75ua7n.stn100hnd.ctr.sophos.com
 wpsioxo9.cloudstation.eu-central-1.qa.hydra.sophos.com
 wpv.labs.sophos.com
 wpxhvmob.stn000cmh.ctr.sophos.com
@@ -12619,8 +12604,8 @@ xaumnaa0.cloudstation.eu-west-1.dev.hydra.sophos.com
 xc20ox37.cloudstation.us-east-2.prod.hydra.sophos.com
 xco0dgqt.cloudstation.us-west-2.qa.hydra.sophos.com
 xcw4pos8.cloudstation.eu-west-1.dev.hydra.sophos.com
-xdi-worker-shared.ap-northeast-1.prod.o365.sophos.com
 xdi-worker-shared.ap-south-1.prod.o365.sophos.com
+xdi-worker-shared.ca-central-1.dev.o365.sophos.com
 xdi-worker-shared.eu-central-1.qa.o365.sophos.com
 xdi-worker-shared.eu-west-1.dev.o365.sophos.com
 xdi-worker-shared.us-west-2.qa.o365.sophos.com
@@ -12878,7 +12863,6 @@ xgemail-msghistory.stn100syd.ctr.sophos.com
 xgemail-msghistory.stn100yul.ctr.sophos.com
 xgemail-msgstats-cloudstation-eu-west-1.dev.hydra.sophos.com
 xgemail-msgstats.cloudstation.eu-west-1.dev.hydra.sophos.com
-xgemail-msgstats.stn100hnd.ctr.sophos.com
 xgemail-omp-alt.stn000cmh.ctr.sophos.com
 xgemail-omp-alt.stn010yul.ctr.sophos.com
 xgemail-omp-alt.stn030syd.ctr.sophos.com
@@ -12977,6 +12961,7 @@ xh2df48q.cloudstation.us-west-2.qa.hydra.sophos.com
 xhaf6a2e.cloudstation.eu-central-1.qa.hydra.sophos.com
 xhblbt3t-cloudstation-eu-west-1.inf.hydra.sophos.com
 xhe2zimj.stn030syd.ctr.sophos.com
+xintg1f9.cloudstation.us-east-1.dev.hydra.sophos.com
 xipgo0g8.cloudstation.us-west-2.qa.hydra.sophos.com
 xj44ayf6.eu-west-1.dev.o365.sophos.com
 xkvycsvg.cloudstation.us-east-2.prod.hydra.sophos.com
@@ -12992,6 +12977,7 @@ xqtesd8q.stn010pdx.ctr.sophos.com
 xr2ur971.cloudstation.us-west-2.qa.hydra.sophos.com
 xr3znbqm.cloudstation.eu-west-1.dev.hydra.sophos.com
 xrbc77l1.stn100yul.ctr.sophos.com
+xrhqsms1.stn100yul.ctr.sophos.com
 xrncf38m.stn010yul.ctr.sophos.com
 xsxa3hnw.cloudstation.us-west-2.qa.hydra.sophos.com
 xt63jmcd.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -12999,6 +12985,7 @@ xuatbpgm.stn030syd.ctr.sophos.com
 xv68z6xn.cloudstation.eu-central-1.prod.hydra.sophos.com
 xv7zaj8t.cloudstation.us-west-2.prod.hydra.sophos.com
 xvqlvm88.stn010yul.ctr.sophos.com
+xvzhwmko.stn100syd.ctr.sophos.com
 xw4hyjsl.cloudstation.eu-west-1.prod.hydra.sophos.com
 xx5k69zv.cloudstation.eu-west-1.dev.hydra.sophos.com
 xy7l02yf.cloudstation.us-east-2.prod.hydra.sophos.com
@@ -13068,7 +13055,6 @@ yrs8pvw7.cloudstation.eu-central-1.prod.hydra.sophos.com
 ys2uluix.stn010yul.ctr.sophos.com
 ys7py9wj.ap-southeast-2.qa.o365.sophos.com
 ysytan6t.stn030yul.ctr.sophos.com
-ytf45u61.stn010pdx.ctr.sophos.com
 ytnfroce.stn010yul.ctr.sophos.com
 yvgxcg6v.cloudstation.eu-west-1.dev.hydra.sophos.com
 yxhtx0f2.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -13104,7 +13090,6 @@ zg1uit6f.cloudstation.eu-west-1.inf.hydra.sophos.com
 zgg5wmmj.stn100syd.ctr.sophos.com
 zh0vb40o.cloudstation.us-west-2.prod.hydra.sophos.com
 zh3xnn7g.cloudstation.eu-central-1.prod.hydra.sophos.com
-zh4jv3sy.cloudstation.eu-central-1.qa.hydra.sophos.com
 zhj54eti.cloudstation.eu-central-1.prod.hydra.sophos.com
 zhrxlq6n.cloudstation.us-east-2.prod.hydra.sophos.com
 zi6cuwpt.cloudstation.us-west-2.qa.hydra.sophos.com
@@ -13182,10 +13167,12 @@ ztna-parquet-agg-alt.stn100hnd.ctr.sophos.com
 ztna-parquet-agg-alt.stn100syd.ctr.sophos.com
 ztna-parquet-agg-alt.stn100yul.ctr.sophos.com
 ztna-parquet-agg-cloudstation-eu-central-1.prod.hydra.sophos.com
+ztna-parquet-agg-cloudstation-eu-west-1.dev.hydra.sophos.com
 ztna-parquet-agg-cloudstation-eu-west-1.prod.hydra.sophos.com
 ztna-parquet-agg-cloudstation-us-east-2.prod.hydra.sophos.com
 ztna-parquet-agg-cloudstation-us-west-2.prod.hydra.sophos.com
 ztna-parquet-agg.cloudstation.eu-central-1.prod.hydra.sophos.com
+ztna-parquet-agg.cloudstation.eu-west-1.dev.hydra.sophos.com
 ztna-parquet-agg.cloudstation.eu-west-1.prod.hydra.sophos.com
 ztna-parquet-agg.cloudstation.us-east-2.prod.hydra.sophos.com
 ztna-parquet-agg.cloudstation.us-west-2.prod.hydra.sophos.com
@@ -13205,7 +13192,6 @@ ztna-proxy.cloudstation.us-east-2.prod.hydra.sophos.com
 ztna-proxy.cloudstation.us-west-2.prod.hydra.sophos.com
 ztna-proxy.cloudstation.us-west-2.qa.hydra.sophos.com
 ztna-push-rest.cloudstation.eu-central-1.qa.hydra.sophos.com
-ztna-push-rest.cloudstation.eu-west-1.dev.hydra.sophos.com
 ztna-push-rest.cloudstation.eu-west-1.prod.hydra.sophos.com
 ztna-push-rest.cloudstation.us-west-2.qa.hydra.sophos.com
 ztna-push-ws.cloudstation.eu-central-1.prod.hydra.sophos.com
@@ -13417,7 +13403,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 3pv12p0c.cloudstation.eu-west-1.prod.hydra.sophos.com
 3q5ewdu4.cloudstation.eu-central-1.prod.hydra.sophos.com
 3qll5np7.stn030syd.ctr.sophos.com
-3rqgt8me.cloudstation.eu-west-1.dev.hydra.sophos.com
 3tavhbw2.cloudhub.eu-west-1.dev.hydra.sophos.com
 3u2wweeb.cloudstation.eu-west-1.prod.hydra.sophos.com
 3uitq38f.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -13430,6 +13415,7 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 3ygyhm9u.cloudstation.eu-central-1.qa.hydra.sophos.com
 04cejuh2.stn100hnd.ctr.sophos.com
 4a0z0phm.stn030bom.ctr.sophos.com
+4anwbkir.cloudstation.eu-west-1.dev.hydra.sophos.com
 4aq4g8se.stn100yul.ctr.sophos.com
 4b66n669.cloudhub.eu-west-1.prod.hydra.sophos.com
 4b6gbyx6.stn100bom.ctr.sophos.com
@@ -13437,7 +13423,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 4c0xlmlm.cloudstation.us-west-2.prod.hydra.sophos.com
 4cj2z8xw.cloudhub.eu-west-1.dev3.hydra.sophos.com
 4cu701dc.cloudstation.eu-central-1.prod.hydra.sophos.com
-4d6rmtds.stn030hnd.ctr.sophos.com
 4d9812i0.stn030hnd.ctr.sophos.com
 4dhk5ah9.cloudstation.us-east-2.prod.hydra.sophos.com
 4djefwky.cloudstation.eu-central-1.prod.hydra.sophos.com
@@ -13467,7 +13452,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 4oswm70d.us-east-2.prod.o365.sophos.com
 4p1mhjug.stn010yul.ctr.sophos.com
 4pnexhj5.cloudstation.eu-central-1.qa.hydra.sophos.com
-4pqdib62.stn100hnd.ctr.sophos.com
 4pr33ts6.cloudstation.eu-central-1.qa.hydra.sophos.com
 4qmkbnc4.cloudstation.eu-west-1.prod.hydra.sophos.com
 4r6hwdau.cloudhub.eu-west-1.prod.hydra.sophos.com
@@ -13493,7 +13477,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 5cn7wfwl.cloudstation.us-west-2.qa.hydra.sophos.com
 5cvagae6.cloudstation.us-east-2.prod.hydra.sophos.com
 5cvlrirh.cloudstation.us-west-2.prod.hydra.sophos.com
-5djswu83.stn030hnd.ctr.sophos.com
 5ds38v1j.cloudstation.eu-central-1.prod.hydra.sophos.com
 5dwi46vz.cloudhub.eu-west-1.dev.hydra.sophos.com
 5f4qac0q.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -13508,7 +13491,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 5mlfsohz-cloudstation-eu-west-1.dev.hydra.sophos.com
 5npxv31y.cloudstation.eu-west-1.inf.hydra.sophos.com
 5nuvkqr9.cloudstation.eu-west-1.qa.hydra.sophos.com
-5o4wnpfs.stn030hnd.ctr.sophos.com
 5ojrhw18.cloudstation.eu-central-1.qa.hydra.sophos.com
 5peo0v7x.stn100hnd.ctr.sophos.com
 5puyazqe.stn030gru.ctr.sophos.com
@@ -13670,7 +13652,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 8wbboh92.stn100gru.ctr.sophos.com
 8x67m01v.stn100hnd.ctr.sophos.com
 8yg82324.cloudstation.eu-central-1.qa.hydra.sophos.com
-8z8psv6w.stn100hnd.ctr.sophos.com
 8zp0ipua.cloudstation.us-east-2.prod.hydra.sophos.com
 8zpm19ra.cloudstation.eu-west-1.dev.hydra.sophos.com
 9a5oluwq.cloudstation.eu-west-1.dev.hydra.sophos.com
@@ -13695,7 +13676,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 9hb58hdb.cloudstation.eu-central-1.qa.hydra.sophos.com
 9hll3kj8.stn030gru.ctr.sophos.com
 9id0r493.cloudstation.eu-west-1.inf.hydra.sophos.com
-9isnq0bq.stn030hnd.ctr.sophos.com
 9iyafq5z.cloudstation.eu-west-1.qa.hydra.sophos.com
 9jgiwtnd.ca-central-1.prod.o365.sophos.com
 9jm9113v.stn100hnd.ctr.sophos.com
@@ -13728,7 +13708,6 @@ zzko1v1v.cloudstation.us-west-2.prod.hydra.sophos.com
 9vshqiya-cloudhub-eu-west-1.inf.hydra.sophos.com
 9vszy0vw.stn030gru.ctr.sophos.com
 9wg2k0z6.cloudhub.eu-west-1.prod.hydra.sophos.com
-9x0o9260.ap-northeast-1.prod.o365.sophos.com
 9xfh9fx2.stn100yul.ctr.sophos.com
 9ycju982.stn030bom.ctr.sophos.com
 9yoeq5jv.stn010yul.ctr.sophos.com

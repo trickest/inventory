@@ -1,3 +1,4 @@
+aardvark.chatbot.indeed.com
 aarp.indeed.com
 about.indeed.com
 abroad.indeed.com
@@ -310,6 +311,7 @@ c73.s3.indeed.com
 c74.s3.indeed.com
 c75.s3.indeed.com
 c76.s3.indeed.com
+c77.s3.indeed.com
 c78.s3.indeed.com
 c79.s3.indeed.com
 ca.canary.indeed.com
@@ -1257,7 +1259,6 @@ my.sydprod1.indeed.com
 my.tf2.indeed.com
 my.yulprod1.indeed.com
 myhr.ext.indeed.com
-myindeed.com.tf2.indeed.com
 myindeedjobs.com.tf2.indeed.com
 myitsupport.ext.indeed.com
 myjobs-alt.indeed.com
@@ -1483,6 +1484,7 @@ primary.myjobs.tf2.indeed.com
 prime.corp.indeed.com
 prime.indeed.com
 prime.indeed.com.tf2.indeed.com
+primejobs.co.tf2.indeed.com
 primejobs.indeed.com
 priorlake-savage.ce.indeed.com
 pris.chatbot.indeed.com
@@ -1690,7 +1692,6 @@ shukatsu.indeed.com
 signup-employers.indeed.com
 sigscitest.indeed.com
 sigscitest.tf2.indeed.com
-simplyhired.at.tf2.indeed.com
 simplyhired.be.tf2.indeed.com
 simplyhired.ca.tf2.indeed.com
 simplyhired.ch.tf2.indeed.com
@@ -1701,13 +1702,11 @@ simplyhired.com.au.tf2.indeed.com
 simplyhired.com.br.tf2.indeed.com
 simplyhired.com.tf2.indeed.com
 simplyhired.de.tf2.indeed.com
-simplyhired.es.tf2.indeed.com
 simplyhired.fr.tf2.indeed.com
 simplyhired.ie.tf2.indeed.com
 simplyhired.jp.tf2.indeed.com
 simplyhired.nl.tf2.indeed.com
 simplyhired.pt.tf2.indeed.com
-simplyhired.ru.tf2.indeed.com
 sjc-micro.apply.indeed.com
 sjc.apply.indeed.com
 skap-employers.indeed.com
@@ -2152,6 +2151,7 @@ api.us-east-2.qa.consul.indeed.tech
 api.us-east-2.stage.consul.indeed.tech
 api.us-west-2.prod.consul.indeed.tech
 api.wombat.indeed.tech
+apidocs.chatbot.indeed.tech
 apis.qa.indeed.tech
 application-outcomes-api.cmhqa1.k8s.indeed.tech
 application.cmhqa1.k8s.indeed.tech
@@ -2202,7 +2202,6 @@ argo-cd-test-mgroot.awscmhqa2.k8s.indeed.tech
 argo-cd-test.awscmhqa2.k8s.indeed.tech
 argo-wf.awscmh2.k8s.indeed.tech
 argo-wf.awscmhqa2.k8s.indeed.tech
-argo-workflows.awsbom.k8s.indeed.tech
 argo-workflows.awscmh2.k8s.indeed.tech
 argo-workflows.awscmh3.k8s.indeed.tech
 argo-workflows.awscmh4.k8s.indeed.tech
@@ -2216,6 +2215,7 @@ argo-workflows.awsnrtqa.k8s.indeed.tech
 argo-workflows.awssyd.k8s.indeed.tech
 argo-workflows.awsyul.k8s.indeed.tech
 argo-worldview.indeed.tech
+argo-worldview.infra.indeed.tech
 argocd.butterfly.indeed.tech
 argocd.butterfly.prod.indeed.tech
 arr-language-tool-prod.awscmhinfra2.k8s.indeed.tech
@@ -2234,8 +2234,6 @@ astromech.cmhprod2.k8s.indeed.tech
 astromech.cmhprod3.k8s.indeed.tech
 ats-goodtimes-client.cmhqa1.k8s.indeed.tech
 auth.dev.intraproxy.indeed.tech
-auth.dev1.hub.indeed.tech
-auth.dev1.intraproxy.indeed.tech
 auth.hub.indeed.tech
 auth.intraproxy.indeed.tech
 auth.mdml.prod.indeed.tech
@@ -2330,7 +2328,9 @@ bulk-edit-tool-neo.cmhqa3.k8s.indeed.tech
 bullseye.cmhprod3.k8s.indeed.tech
 bullseye.cmhqa3.k8s.indeed.tech
 business-process-map.cmhqa3.k8s.indeed.tech
-c-0.euw1.logsvc.indeed.tech
+c-0.apne1.logsvc.indeed.tech
+c-0.apse2.logsvc.indeed.tech
+c-0.cac1.logsvc.indeed.tech
 c-0.use2.qa.logsvc.indeed.tech
 cache.pages.stage.indeed.tech
 cadence-web-qa.awscmhqa2.k8s.indeed.tech
@@ -2398,6 +2398,7 @@ cloudops-qa.indeed.tech
 cloudops.indeed.tech
 cloudqa.assessments.indeed.tech
 cloudvm-service.cmhqa1.k8s.indeed.tech
+cluster-oidc-discovery.indeed.tech
 cmd-ss.qa.indeed.tech
 cmd.cmhprod3.k8s.indeed.tech
 cmd.cmhqa3.k8s.indeed.tech
@@ -2410,6 +2411,7 @@ cmi-d2i-jsi-interview-service.cmhqa3.k8s.indeed.tech
 cmi-metadata.cmhqa1.k8s.indeed.tech
 cmi-universal-resume.cmhqa1.k8s.indeed.tech
 cmp-insights-service.cmhqa1.k8s.indeed.tech
+code-primary.indeed.tech
 code-with-me-relay-1.codewithme.awscmhqa2.k8s.indeed.tech
 code-with-me-relay-2.codewithme.awscmhqa2.k8s.indeed.tech
 code.ap-northeast-1.indeed.tech
@@ -2538,8 +2540,8 @@ derbydaily.pages.indeed.tech
 dev.compliance.indeed.tech
 dev.intraproxy.indeed.tech
 dev.okrs.indeed.tech
-dev1.hub.indeed.tech
-dev1.intraproxy.indeed.tech
+dev2.hub.indeed.tech
+dev2.intraproxy.indeed.tech
 developer-portal.cmhqa1.k8s.indeed.tech
 developer-readme.qa.indeed.tech
 devnav.awscmh2.k8s.indeed.tech
@@ -2664,7 +2666,6 @@ edge-envoy-crossdc-ingress.awsnrtqa.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awspdx.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awssyd.k8s.indeed.tech
 edge-envoy-crossdc-ingress.awsyul.k8s.indeed.tech
-edge-envoy-crossdc-ingress.cmhprod3.k8s.indeed.tech
 edge-envoy-crossdc-ingress.cmhqa1.k8s.indeed.tech
 edge-envoy-crossdc-ingress.cmhqa2.k8s.indeed.tech
 edge-envoy-crossdc-ingress.cmhqa3.k8s.indeed.tech
@@ -2691,6 +2692,7 @@ edge-envoy-ingress.cmhqa3.k8s.indeed.tech
 edge-envoy-ingress.pdxprod1.k8s.indeed.tech
 eeo-data-pipeline-api.cmhqa1.k8s.indeed.tech
 eight-by-eight.awscmhstage.k8s.indeed.tech
+einvoicing-api.awscmh2.k8s.indeed.tech
 einvoicing.indeed.tech
 einvoicing.stage.indeed.tech
 eisley.awscmhstage.k8s.indeed.tech
@@ -2798,6 +2800,7 @@ flex-backend.indeed.tech
 flex-backend.qa.indeed.tech
 flex-core-staging-uk.qa.indeed.tech
 flex-core-staging-us.qa.indeed.tech
+flex-growthbook.indeed.tech
 flex-im-slackbot.indeed.tech
 flex-matching-api-uk.indeed.tech
 flex-matching-api-uk.qa.indeed.tech
@@ -2808,6 +2811,7 @@ flex-matching-api.qa.indeed.tech
 flex-pay-integrations.cmhqa1.k8s.indeed.tech
 flex-processor.cmhprod1.k8s.indeed.tech
 flex-processor.cmhqa1.k8s.indeed.tech
+flex-python-demo.indeed.tech
 flex-workflow.cmhprod1.k8s.indeed.tech
 flex-workflow.cmhqa2.k8s.indeed.tech
 flexo-exporter.awscmhinfra2.k8s.indeed.tech
@@ -3201,7 +3205,6 @@ kibana-metataxo.qa.indeed.tech
 kibana-modrules.prod.indeed.tech
 kibana-modrules.qa.indeed.tech
 kibana-modrulesjunior.qa.indeed.tech
-kibana-monitoring-alerting.qa.indeed.tech
 kibana-mrp-emp-quality-bumblebee.qa.indeed.tech
 kibana-opslogs.prod.indeed.tech
 kibana-ospreyjunior.prod.indeed.tech
@@ -3247,6 +3250,7 @@ kion.indeed.tech
 kion.qa.indeed.tech
 kubecost-api.indeed.tech
 kubecost.indeed.tech
+kubeflow-dev.butterfly.indeed.tech
 kubeflow.butterfly.prod.indeed.tech
 kubernetes--qa.indeed.tech
 kubernetes.indeed.tech
@@ -3323,7 +3327,6 @@ marvin.infra.indeed.tech
 marvin.qa.indeed.tech
 marvin.stage.indeed.tech
 marvlet.awsbom.k8s.indeed.tech
-marvlet.awscmh1.k8s.indeed.tech
 marvlet.awscmh3.k8s.indeed.tech
 marvlet.awscmhdev.k8s.indeed.tech
 marvlet.awscmhqa2.k8s.indeed.tech
@@ -3455,6 +3458,7 @@ one-graph.cmhprod2.k8s.indeed.tech
 one-graph.cmhprod3.k8s.indeed.tech
 one-graph.cmhqa1.k8s.indeed.tech
 one-graph.cmhqa3.k8s.indeed.tech
+onegraph-router.awscmhqa3.k8s.indeed.tech
 opademo.awscmhqa3.k8s.indeed.tech
 opensource.indeed.tech
 orc.indeed.tech
@@ -3713,6 +3717,7 @@ qp-mongo-indeedapply-pub-nrtprod1.awscmh2.k8s.indeed.tech
 qp-mongo-indeedapply-pub-sjc.awscmh2.k8s.indeed.tech
 qp-mongo-indeedcentral-templates.awscmh2.k8s.indeed.tech
 qp-mongo-iplus-conv-platform.awscmhqa2.k8s.indeed.tech
+qp-mongo-irl-events-store.awscmh2.k8s.indeed.tech
 qp-mongo-irl-events-store.awscmhqa2.k8s.indeed.tech
 qp-mongo-itamanagerservicedb.awscmh2.k8s.indeed.tech
 qp-mongo-itamanagerservicedb.awscmhqa2.k8s.indeed.tech
@@ -4032,6 +4037,7 @@ sandbox.assessments.indeed.tech
 sbs-app2.cmhqa1.k8s.indeed.tech
 scaling.events.cmhprod1.k8s.indeed.tech
 scaling.events.cmhprod2.k8s.indeed.tech
+schema-management.nbus.indeed.tech
 schema-management.nbus.qa.indeed.tech
 schema-management.nbus.staging.indeed.tech
 schemaregistry-profio.awscmh2.k8s.indeed.tech
@@ -4137,17 +4143,13 @@ spd.cmhqa2.k8s.indeed.tech
 spd.cmhqa3.k8s.indeed.tech
 speedtest-backend.ap-northeast-1.indeed.tech
 speedtest-backend.ap-southeast-2.indeed.tech
-speedtest-backend.ca-central-1.indeed.tech
 speedtest-backend.eu-west-1.indeed.tech
 speedtest-backend.indeed.tech
 speedtest-backend.us-east-2.indeed.tech
 speedtest-backend.us-east-2.infra.indeed.tech
-speedtest-backend.us-west-2.indeed.tech
 speedtest.ap-northeast-1.indeed.tech
 speedtest.ap-northeast-1.infra.indeed.tech
 speedtest.ap-southeast-2.indeed.tech
-speedtest.ca-central-1.indeed.tech
-speedtest.eu-west-1.indeed.tech
 speedtest.indeed.tech
 speedtest.us-east-2.indeed.tech
 speedtest.us-east-2.infra.indeed.tech
