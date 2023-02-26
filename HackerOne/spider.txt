@@ -83,9 +83,11 @@ https://api.hackerone.com/customer-resources
 https://api.hackerone.com/customer-resources#analytics-get-analytics-data-preview
 https://api.hackerone.com/customer-resources#assets-retrieve-an-assets-import
 https://api.hackerone.com/customer-resources#get-awarded-swag
+https://api.hackerone.com/customer-resources#organizations-create-group
 https://api.hackerone.com/customer-resources#organizations-create-member-group
 https://api.hackerone.com/customer-resources#organizations-get-pending-invitations
 https://api.hackerone.com/customer-resources#organizations-get-your-organizations
+https://api.hackerone.com/customer-resources#organizations-update-group
 https://api.hackerone.com/customer-resources#organizations-update-member
 https://api.hackerone.com/customer-resources#organizations-update-member-group
 https://api.hackerone.com/customer-resources#programs
@@ -130,6 +132,7 @@ https://api.hackerone.com/customer-resources/#organizations-get-group
 https://api.hackerone.com/customer-resources/#organizations-get-member
 https://api.hackerone.com/customer-resources/#organizations-get-pending-invitations
 https://api.hackerone.com/customer-resources/#organizations-remove-a-member
+https://api.hackerone.com/customer-resources/#organizations-remove-member
 https://api.hackerone.com/customer-resources/#programs-get-payment-transactions
 https://api.hackerone.com/customer-resources/#reports-add-participant
 https://api.hackerone.com/customer-resources/#reports-change-state
@@ -172,6 +175,7 @@ https://api.hackerone.com/use-cases#organization-management-get-all-the-organiza
 https://api.hackerone.com/use-cases#organization-management-get-all-the-organization-groups-and-their-members
 https://api.hackerone.com/use-cases#organization-management-get-all-the-organization-members-and-their-groups-access
 https://api.hackerone.com/use-cases#organization-management-list-pending-invitations
+https://api.hackerone.com/use-cases#organizations-get-all-eligibility-settings
 https://api.hackerone.com/webhooks
 https://api.hackerone.com/webhooks/#events
 https://consent.trustarc.com/notice?domain=hackerone.com&c=teconsent&js=nj&noticeType=bb%E2%80%8B%E2%80%8B&gtm=1
@@ -183,6 +187,7 @@ https://docs.hackerone.com/accessibility
 https://docs.hackerone.com/accessibility/
 https://docs.hackerone.com/accessibility/vpat.html
 https://docs.hackerone.com/app-50cfd7d4f647ed14de19.js
+https://docs.hackerone.com/app-796aaed1a6e9c5a04509.js
 https://docs.hackerone.com/app-e8fee250d5af24d6b0b5.js
 https://docs.hackerone.com/app-f3711c6dedc9b799e7ee.js
 https://docs.hackerone.com/changelog
@@ -197,6 +202,7 @@ https://docs.hackerone.com/component---src-pages-index-js-fe0bf805a35b6cf66aed.j
 https://docs.hackerone.com/component---src-templates-hackers-js-1db5ef14e897a0e856b7.js
 https://docs.hackerone.com/component---src-templates-hackers-js-79666a38939d40d13a25.js
 https://docs.hackerone.com/component---src-templates-organizations-js-2f427732d8f08e979e32.js
+https://docs.hackerone.com/component---src-templates-organizations-js-dc09a2d196c1aaf8a935.js
 https://docs.hackerone.com/component---src-templates-programs-js-0a6bc48bff00daba7446.js
 https://docs.hackerone.com/component---src-templates-programs-js-123f73a74fac9a3ef289.js
 https://docs.hackerone.com/component---src-templates-programs-js-3906d67dfce25919305b.js
@@ -611,6 +617,7 @@ https://docs.hackerone.com/webpack-runtime-60ef75b34a9fc16d4a33.js
 https://docs.hackerone.com/webpack-runtime-65b4ab3605783f8d6767.js
 https://docs.hackerone.com/webpack-runtime-736bb15ea8470cf84700.js
 https://docs.hackerone.com/webpack-runtime-a2084329ac856c40fbb2.js
+https://docs.hackerone.com/webpack-runtime-b7f6bf7baeb18462fb3e.js
 https://docs.hackerone.com/webpack-runtime-bc7ef4446085eabcdea1.js
 https://docs.hackerone.com/webpack-runtime-beca078ada422718e361.js
 https://github.com/Hacker0x01/docs.hackerone.com/edit/master/docs/accessibility/vpat.md
@@ -860,6 +867,7 @@ https://www.hackerone.com/customer-stories/how-ethical-hackers-help-watson-addre
 https://www.hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community
 https://www.hackerone.com/customer-stories/how-wix-improves-their-security-posture-ethical-hackers
 https://www.hackerone.com/customer-stories/nine-months-dib-vdp-pilot-nearly-1000-valid-vulnerabilities-have-been-identified
+https://www.hackerone.com/customer-stories/robinhood-goes-long-bug-bounty-qa-ian-carroll-and-ashwarya
 https://www.hackerone.com/customer-stories/tiktok-celebrates-one-year-bug-bounty
 https://www.hackerone.com/customer-stories?field_tag_target_id=All&field_industry_type_target_id=All&combine=&page=1
 https://www.hackerone.com/customers
@@ -879,6 +887,7 @@ https://www.hackerone.com/ethical-hacker/pentesting-basics-video-series-launched
 https://www.hackerone.com/ethical-hacker/recap-hcktivitycon-2020
 https://www.hackerone.com/ethical-hacker/security-engineer-and-hacker-share-their-experiences-security-assessments
 https://www.hackerone.com/ethical-hacker/thank-you-hacker-community-hackerone
+https://www.hackerone.com/ethical-hacker/what-does-belgiums-new-legal-framework-hacking-mean-me
 https://www.hackerone.com/ethical-hacker?page=0
 https://www.hackerone.com/ethical-hacker?page=1
 https://www.hackerone.com/ethical-hacker?page=22
@@ -898,11 +907,13 @@ https://www.hackerone.com/events/cybersecurity-served-neat
 https://www.hackerone.com/events/devsecops-closing-security-gap-developers
 https://www.hackerone.com/events/first-step-understanding-your-attack-surface-vulnerability-disclosure
 https://www.hackerone.com/events/forrester-security-risk
+https://www.hackerone.com/events/fs-isac-2023
 https://www.hackerone.com/events/gartner-security-and-risk-management-summit
 https://www.hackerone.com/events/gartner-security-risk-management-summit-2022
 https://www.hackerone.com/events/hackerones-winter-networking-drinks
 https://www.hackerone.com/events/how-pentest-service-ptaas-fits-modern-application-security-strategy
 https://www.hackerone.com/events/how-use-your-vulnerabilities-train-your-developers-security
+https://www.hackerone.com/events/iot-security-landscape-webinar
 https://www.hackerone.com/events/live-analysis-2021-hacker-powered-security-report
 https://www.hackerone.com/events/live-analysis-2022-hacker-powered-security-report-insights-and-takeaways
 https://www.hackerone.com/events/measure-and-close-security-gaps-across-your-attack-surface
@@ -942,6 +953,7 @@ https://www.hackerone.com/hackerone-community-blog/hacker-afk-rhynorater
 https://www.hackerone.com/hackerone-community-blog/hacker-afk-thearchangel
 https://www.hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards
 https://www.hackerone.com/hackerone-community-blog/hacker-success-managers
+https://www.hackerone.com/hackerone-community-blog/hackerone-was-proud-sponsor-bug-hunt
 https://www.hackerone.com/hackerone-community-blog/hacking-sun-and-snow-h1-303-colorado
 https://www.hackerone.com/hackerone-community-blog/lets-celebrate-hacker-community
 https://www.hackerone.com/hackerone-community-blog/making-things-right
@@ -1198,6 +1210,7 @@ https://www.hackerone.com/sites/default/files/js/js_2VJenpzT-SmS-Sjh7enxrEMPm9xQ
 https://www.hackerone.com/sites/default/files/js/js_2fsETmVppnoijnVvYN8lDVojW-c6_RJ3l8OQ1jx23pI.js
 https://www.hackerone.com/sites/default/files/js/js_2nrQvMeN7-UiDTpvJ3GUwcaoYW3QOwfPQPUnrZyRus8.js
 https://www.hackerone.com/sites/default/files/js/js_4_O88J1W2XZ9bfNbI6LwKcfQ466mKgn9C2aAj3fNogI.js
+https://www.hackerone.com/sites/default/files/js/js_4_eDlIAev17FphhtpVtuvoftbj2YXp9JLwryCUVXzrw.js
 https://www.hackerone.com/sites/default/files/js/js_5StUju4qVHZ_OpVhGkTz5CE2N5VgGIqIK2R4zNNDUOU.js
 https://www.hackerone.com/sites/default/files/js/js_6KpZ5CC3n7WWHO1FbEFMPpfiJv3-LNhbcExoSh55OJM.js
 https://www.hackerone.com/sites/default/files/js/js_7Yeu4eXKqTtYM7JSGOeIEvLC4c0vHHZw3h6iGhoR2CU.js
@@ -1209,12 +1222,15 @@ https://www.hackerone.com/sites/default/files/js/js_B2JsLQH8BiKUydVCN3Jt03dBt75E
 https://www.hackerone.com/sites/default/files/js/js_C-5Xm0bH3IRZtqPDWPr8Ga4sby1ARHgF6iBlpL4UHao.js
 https://www.hackerone.com/sites/default/files/js/js_CBX6B52n87D2NvTUNuYoQwsrsR0lGMmPhLDbvkyZb7g.js
 https://www.hackerone.com/sites/default/files/js/js_EGpGLHpfntEqb8B6CjrkHG88GZnB7KnWztsr-1L9ivo.js
+https://www.hackerone.com/sites/default/files/js/js_Eg81BCd6hjePGU9AMccJBoexuprug_RInk5dI29FKQQ.js
 https://www.hackerone.com/sites/default/files/js/js_FmFVDVpPD5jhlC_LD8T-XAnERFk1_-Zp3AGxHFO_IJQ.js
 https://www.hackerone.com/sites/default/files/js/js_FmXlM1vm8EreGkfJ_L9hN-IBq0XfK38Iz5v3V_Lc81k.js
 https://www.hackerone.com/sites/default/files/js/js_Gr1b6AKMFAiWdtS_Q2NDhRqMY3Z5I8bkPyGGfBhn2h4.js
 https://www.hackerone.com/sites/default/files/js/js_HsYZOR8fC2Lz94TtFu53nu3Oz8Hi6ldFPShqbexmcR4.js
 https://www.hackerone.com/sites/default/files/js/js_Ikd9nsZ0AFAesOLgcgjc7F6CRoODbeqOn7SVbsXgALQ.js
+https://www.hackerone.com/sites/default/files/js/js_Jevvb1Mm2ZPkHZWDjLCIhrFCLoFtnol4xvxUXV1ShHA.js
 https://www.hackerone.com/sites/default/files/js/js_MHv9SHpamg6rN3eCQqPjEAwxmzuzt4mL3jRSsavlVEI.js
+https://www.hackerone.com/sites/default/files/js/js_NRe-hZ07eiFRt1gRJK2zue5BfPQe92f5H_XATmL_1Ag.js
 https://www.hackerone.com/sites/default/files/js/js_O5g8K8JPSmjO7VagiRgUerxT6LsurMYF9ZrrtSS_9To.js
 https://www.hackerone.com/sites/default/files/js/js_OT2rb_JxEVg4vw8q_yWHvylXkN2H6Bu5OStUf8S72XI.js
 https://www.hackerone.com/sites/default/files/js/js_Qr3_tkT53M-B2j8WqVBBK83WC8GahU7VrHoZhLubu5s.js
@@ -1296,6 +1312,7 @@ https://www.hackerone.com/vulnerability-management/how-hackerone-helps-vulnerabi
 https://www.hackerone.com/vulnerability-management/how-hackers-can-help-reduce-your-organizations-application-risk-aws
 https://www.hackerone.com/vulnerability-management/introducing-hackerone-assets
 https://www.hackerone.com/vulnerability-management/introducing-hackerone-assets-0
+https://www.hackerone.com/vulnerability-management/level-your-bug-bounty-effectiveness-3-keys-launch-successful-program
 https://www.hackerone.com/vulnerability-management/nintendo-launches-vulnerability-reward-program-nintendo-3ds
 https://www.hackerone.com/vulnerability-management/one-month-learnings-flo-healths-bug-bounty-program-qa-ciso-leo-cunningham
 https://www.hackerone.com/vulnerability-management/organizations-paid-hackers-235-million-these-10-vulnerabilities-one-year
