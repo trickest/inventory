@@ -2,7 +2,7 @@
 #
 # get_inventory_files Company file_type
 # get_inventory_files Apple hostnames
-# get_inventory_files SnapChat urls | tee snap_urls.txt
+# get_inventory_files Snapchat urls | tee snap_urls.txt
 #
 #
 # File types: hostnames, servers, spider, urls, and cloud
