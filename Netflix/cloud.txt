@@ -1,4 +1,5 @@
 apinetflix.azurewebsites.net
+dbnetflix.database.windows.net
 http://netflix-01.s3.amazonaws.com/
 http://netflix-2019.s3.amazonaws.com/
 http://netflix-administrator.s3.amazonaws.com/
@@ -11,6 +12,7 @@ http://netflix-backup.s3.amazonaws.com/
 http://netflix-backups.s3.amazonaws.com/
 http://netflix-beta.s3.amazonaws.com/
 http://netflix-bucket.s3.amazonaws.com/
+http://netflix-cloud.s3.amazonaws.com/
 http://netflix-data.s3.amazonaws.com/
 http://netflix-dev.s3.amazonaws.com/
 http://netflix-downloads.s3.amazonaws.com/
@@ -20,10 +22,10 @@ http://netflix-git.s3.amazonaws.com/
 http://netflix-gitlab.s3.amazonaws.com/
 http://netflix-images.s3.amazonaws.com/
 http://netflix-img.s3.amazonaws.com/
+http://netflix-internal.s3.amazonaws.com/
 http://netflix-logs.s3.amazonaws.com/
 http://netflix-logstash.s3.amazonaws.com/
 http://netflix-media.s3.amazonaws.com/
-http://netflix-ml.s3.amazonaws.com/
 http://netflix-ops.s3.amazonaws.com/
 http://netflix-prod.s3.amazonaws.com/
 http://netflix-production.s3.amazonaws.com/
@@ -32,13 +34,15 @@ http://netflix-reports.s3.amazonaws.com/
 http://netflix-s3.s3.amazonaws.com/
 http://netflix-scripts.s3.amazonaws.com/
 http://netflix-staging.s3.amazonaws.com/
+http://netflix-storage.s3.amazonaws.com/
+http://netflix-store.s3.amazonaws.com/
 http://netflix-temp.s3.amazonaws.com/
 http://netflix-templates.s3.amazonaws.com/
 http://netflix-test.s3.amazonaws.com/
+http://netflix-uploads.s3.amazonaws.com/
 http://netflix-users.s3.amazonaws.com/
 http://netflix-web.s3.amazonaws.com/
 http://netflix.2022.s3.amazonaws.com/
-http://netflix.cloud.s3.amazonaws.com/
 http://netflix.club.s3.amazonaws.com/
 http://netflix.com.au.s3.amazonaws.com/
 http://netflix.com.s3.amazonaws.com/
@@ -48,6 +52,7 @@ http://netflix1.s3.amazonaws.com/
 http://netflix2.s3.amazonaws.com/
 http://netflix9.s3.amazonaws.com/
 http://netflixblog.s3.amazonaws.com/
+http://netflixbucket.s3.amazonaws.com/
 http://netflixdata.s3.amazonaws.com/
 http://netflixhelp.s3.amazonaws.com/
 http://netflixhub.s3.amazonaws.com/
@@ -106,10 +111,10 @@ http://us-central1-netflix-stats.cloudfunctions.net/
 https://apinetflix.firebaseio.com/.json
 https://app-netflix.firebaseio.com/.json
 https://appnetflix.firebaseio.com/.json
+https://com-netflix.firebaseio.com/.json
 https://dev-netflix.firebaseio.com/.json
 https://netflix-0.firebaseio.com/.json
 https://netflix-2018.firebaseio.com/.json
-https://netflix-2020.firebaseio.com/.json
 https://netflix-3.firebaseio.com/.json
 https://netflix-8.firebaseio.com/.json
 https://netflix-android.firebaseio.com/.json
@@ -136,7 +141,6 @@ https://netflix0.firebaseio.com/.json
 https://netflix01.firebaseio.com/.json
 https://netflixusers.firebaseio.com/.json
 https://project-netflix.firebaseio.com/.json
-https://website-netflix.firebaseio.com/.json
 netflix-api.database.windows.net
 netflix.azurewebsites.net
 netflix.database.windows.net
