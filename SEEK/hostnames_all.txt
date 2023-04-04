@@ -8,7 +8,6 @@ kafka3-staging.aips-internal.com
 kafka4-staging.aips-internal.com
 kafka5-staging.aips-internal.com
 kafka6-staging.aips-internal.com
-matesgdiego.aips-internal.com
 presto-bm-prod.aips-internal.com
 presto-bm-staging.aips-internal.com
 thanos-frontend.prod.aips-internal.com
@@ -34,8 +33,6 @@ homelandsecurity.certsy.com
 homemadeidea.certsy.com
 matomo.certsy.com
 notifications.certsy.com
-sasius.certsy.com
-searchwherebuy.certsy.com
 status.certsy.com
 wbssoexte.certsy.com
 welcometotheprison.certsy.com
@@ -44,7 +41,6 @@ worse.certsy.com
 www-test.autodiscover.certsy.com
 www.certsy.com
 www.disfor.certsy.com
-www.mm.certsy.com
 zendesk1.certsy.com
 zendesk2.certsy.com
 zendesk3.certsy.com
@@ -61,7 +57,6 @@ docs-dev.certsynonprod.com
 docs.certsynonprod.com
 hirer.certsynonprod.com
 matomo.certsynonprod.com
-memeya.certsynonprod.com
 my2-preview.certsynonprod.com
 myec.certsynonprod.com
 myh1.certsynonprod.com
@@ -73,7 +68,6 @@ www.certsynonprod.com
 gitlab.jobapi.io
 nexus.jobapi.io
 api.jobapi.net
-confidence-med.jobapi.net
 dev0-bm-sjc04-us.jobapi.net
 dev1-bm-sjc04-us.jobapi.net
 dev1-bm-syd01-au.jobapi.net
@@ -104,7 +98,6 @@ lb0-bm-syd01-au.jobapi.net
 lb1-bm-sjc04-us.jobapi.net
 lb1-bm-syd01-au.jobapi.net
 monitor0-bm-sjc04-us.jobapi.net
-natural-language-classifier.jobapi.net
 partner-portal.jobapi.net
 pipeweed-staging.jobapi.net
 prometheus-aips.jobapi.net
@@ -136,7 +129,6 @@ search8-bm-syd01-au.jobapi.net
 search9-bm-syd01-au.jobapi.net
 sol-lb.jobapi.net
 sol.jobapi.net
-v1-search-au.jobapi.net
 webapp.api.jobapi.net
 www.jackwangthong.jobapi.net
 www.sukulenty.jobapi.net
@@ -209,6 +201,7 @@ b2b.saved-searches.discover.dev.outfra.xyz
 b2bhsa-dev.discover.dev.outfra.xyz
 backupdevelhsa-dev.discover.dev.outfra.xyz
 backuphsa-dev.discover.dev.outfra.xyz
+backuplambda.candidate.prod.outfra.xyz
 backups-hsa-dev.discover.dev.outfra.xyz
 backups.lambda.candidate.prod.outfra.xyz
 backupshsa-dev.discover.dev.outfra.xyz
@@ -238,6 +231,7 @@ cijobsearch-api-scala-web.jobsearch.dev.outfra.xyz
 clients.edge.onlineauth.prod.outfra.xyz
 cloud-hsa-dev.discover.dev.outfra.xyz
 cloud-production.sg.grr.prod.outfra.xyz
+cm-attachment-service.candidatemanagement.dev.outfra.xyz
 cms-hsa-dev.discover.dev.outfra.xyz
 cms-saved-searches.discover.dev.outfra.xyz
 cms.lambda.candidate.prod.outfra.xyz
@@ -358,12 +352,14 @@ roleinsights.corpincubator.dev.outfra.xyz
 saved-searches.discover.dev.outfra.xyz
 saved-searches.discover.prod.outfra.xyz
 seek-canonical-url-api.discover.dev.outfra.xyz
+sg.aips-personalisation.dev.outfra.xyz
 skl-outcome.ga.prod.outfra.xyz
 smtp-batch.sg.noti-platform.dev.outfra.xyz
 smtp-batch.sg.noti-platform.prod.outfra.xyz
 smtp.sg.noti-platform.dev.outfra.xyz
 smtp.sg.noti-platform.prod.outfra.xyz
 sonarr.grr.dev.outfra.xyz
+status.noti.dev.outfra.xyz
 tableau-dev.dw.prod.outfra.xyz
 tableau.dw.dev.outfra.xyz
 tableau.dw.prod.outfra.xyz
@@ -389,6 +385,7 @@ whoami.gantryclassroom.dev.outfra.xyz
 worldbank.outfra.xyz
 worldclassroom.outfra.xyz
 www.herc.outfra.xyz
+2019.production.sg.grr.prod.outfra.xyz
 2019hsa-dev.discover.dev.outfra.xyz
 2019production.sg.grr.prod.outfra.xyz
 2019saved-searches.discover.dev.outfra.xyz
@@ -465,9 +462,10 @@ argocd.ap-southeast-1.development.external.seek.com
 argocd.ap-southeast-1.development.internal.seek.com
 argocd.ap-southeast-1.production.external.seek.com
 argocd.ap-southeast-1.production.internal.seek.com
+argocd.ap-southeast-1.test.external.seek.com
 argocd.ap-southeast-1.test.internal.seek.com
+argocd.ap-southeast-2.development.external.seek.com
 argocd.ap-southeast-2.development.internal.seek.com
-argocd.ap-southeast-2.production.external.seek.com
 argocd.ap-southeast-2.production.internal.seek.com
 argocd.ap-southeast-2.sandbox.external.seek.com
 argocd.ap-southeast-2.sandbox.internal.seek.com
@@ -574,6 +572,7 @@ edge-cloudflare.staging.seek.com.au
 edge-cloudfront.staging.seek.com.au
 edge.staging.seek.com.au
 elasticbeanstalk-argocd.ap-southeast-2.sandbox.internal.seek.com
+em.s.seek.com
 em.s.seek.com.au
 email.ga.seek.com.au
 email.hirer.s.seek.com.au
@@ -612,6 +611,7 @@ help.seek.com.au
 help.sg.employer.seek.com
 help.th.employer.seek.com
 herc.cloud.seek.com.au
+hk.employer.seek.com
 hk.employer.staging.seek.com
 home.cloud.seek.com.au
 horizon.cloud.seek.com.au
@@ -644,6 +644,7 @@ int-talent.seek.com.au
 int-talent.staging.seek.com.au
 int-www.seek.com.au
 int-www.staging.seek.com.au
+intervue.seek.com.au
 intl.cloud.seek.com.au
 inyoung99.cloud.seek.com.au
 iot.mb.cloud.seek.com.au
@@ -655,6 +656,7 @@ jobs.seek.com.au
 jobs.staging.seek.com.au
 jobsboard.seek.com.au
 jobsearch-api.cloud.seek.com.au
+kjjmusic.seek.com.au
 law.cloud.seek.com.au
 lboro.cloud.seek.com.au
 leaver.cloud.seek.com.au
@@ -668,7 +670,6 @@ lum-prod.cloud.seek.com.au
 m.cloud.seek.com.au
 m.seek.com.au
 m.sg.seek.com
-ma-mersd.seek.com.au
 manage.developer.seek.com
 manage.developer.staging.seek.com
 mapi.cloud.seek.com.au
@@ -683,6 +684,7 @@ mta.email.seek.com.au
 mta2.email.seek.com.au
 mta3.email.seek.com.au
 my.cloud.seek.com.au
+my.employer.seek.com
 myaccount.cloud.seek.com.au
 noti.spf.seek.com.au
 ntu.cloud.seek.com.au
@@ -715,6 +717,8 @@ origin.test.sg-dev.seek.com
 ox.cloud.seek.com.au
 packages.cloud.seek.com.au
 pages.email.seek.com.au
+panels.seek.com
+panels.staging.seek.com
 panoptotech.cloud.seek.com.au
 partners.cloud.seek.com.au
 pay.seek.com.au
@@ -748,6 +752,7 @@ secure.info.seek.com
 seek.com
 seek.com.au
 select-region.cloud.seek.com.au
+sg.employer.seek.com
 sg.employer.staging.seek.com
 shoppers.cloud.seek.com.au
 smtp-api-oauth.sg.seek.com
@@ -778,18 +783,23 @@ test-ingress.ap-southeast-2.development.external.seek.com
 test.api.seek.com.au
 test.test.sg-dev.seek.com
 th.employer.seek.com
+th.employer.staging.seek.com
 theseeker.seek.com.au
 tracking.dev-engineering.cloud.seek.com.au
 tracking.engineering.cloud.seek.com.au
 trinet.cloud.seek.com.au
+unified-access.seek.com
 unified.seek.com
 uniofbath.cloud.seek.com.au
+url.employer.seek.com
 url.jobsdb.unified.s.seek.com
 url.jobstreet.unified.s.seek.com
 url.recs.jobsdb.unified.s.seek.com
 url.recs.jobstreet.unified.s.seek.com
 url.search.jobsdb.unified.s.seek.com
 url.search.jobstreet.unified.s.seek.com
+url.seek.com
+url.talentsearch.seek.com
 us4.cloud.seek.com.au
 user.cloud.seek.com.au
 uwe.cloud.seek.com.au
@@ -802,13 +812,11 @@ w.seek.com.au
 walker-logistics.seek.com.au
 web.cloud.seek.com.au
 webadv-prod.cloud.seek.com.au
-webcast16-tmp-normal-useast1a.seek.com.au
 webservices.seek.com.au
 whois.cloud.seek.com.au
 whysettle.seek.com.au
 wiki.cloud.seek.com.au
 wildcard.sg.seek.com
-writetowealth.seek.com.au
 ww.seek.com.au
 www.ccdinfmi.seek.com
 www.cloud.seek.com.au
@@ -992,6 +1000,7 @@ int-talent.seek.com.au
 int-talent.staging.seek.com.au
 int-www.seek.com.au
 int-www.staging.seek.com.au
+intervue.seek.com.au
 intl.cloud.seek.com.au
 inyoung99.cloud.seek.com.au
 iot.mb.cloud.seek.com.au
@@ -1002,6 +1011,7 @@ jobs.seek.com.au
 jobs.staging.seek.com.au
 jobsboard.seek.com.au
 jobsearch-api.cloud.seek.com.au
+kjjmusic.seek.com.au
 law.cloud.seek.com.au
 lboro.cloud.seek.com.au
 leaver.cloud.seek.com.au
@@ -1012,7 +1022,6 @@ login.cloud.seek.com.au
 lum-prod.cloud.seek.com.au
 m.cloud.seek.com.au
 m.seek.com.au
-ma-mersd.seek.com.au
 mapi.cloud.seek.com.au
 market.cloud.seek.com.au
 mb.cloud.seek.com.au
@@ -1103,12 +1112,10 @@ w.seek.com.au
 walker-logistics.seek.com.au
 web.cloud.seek.com.au
 webadv-prod.cloud.seek.com.au
-webcast16-tmp-normal-useast1a.seek.com.au
 webservices.seek.com.au
 whois.cloud.seek.com.au
 whysettle.seek.com.au
 wiki.cloud.seek.com.au
-writetowealth.seek.com.au
 ww.seek.com.au
 www.cloud.seek.com.au
 www.seek.com.au
@@ -1515,7 +1522,6 @@ arceeeee.sol-data.com
 archap.sol-data.com
 archipope.sol-data.com
 archives.legislature.state.sol-data.com
-arcworld.sol-data.com
 arf.sol-data.com
 ariskemenn.demo.sol-data.com
 arizonahighway.sol-data.com
@@ -1642,7 +1648,6 @@ aviaaa.sol-data.com
 avitusnet.sol-data.com
 awcmpool01.staging.sol-data.com
 aws-gouldguides.sol-data.com
-aws-welcomeforward.sol-data.com
 awsjumphost1.sol-data.com
 axure.sol-data.com
 ayhhql01.corp.sol-data.com
@@ -1658,7 +1663,6 @@ b100-dtoc.sol-data.com
 b11b.sol-data.com
 b12-1a.sol-http-10-production.sol-data.com
 b23d.sol-data.com
-b2bpbzml-msc.sol-data.com
 b33.sol-data.com
 b3living.sol-data.com
 b726-2.sol-data.com
@@ -1995,7 +1999,6 @@ casdonline-sapphire.sol-data.com
 casimir.sol-data.com
 castlemassageglc.sol-data.com
 catacombe.sol-data.com
-catalogopremi.sol-data.com
 catatan-lamers.sol-data.com
 catcatcat.sol-data.com
 catchv.sol-data.com
@@ -2369,7 +2372,6 @@ ddyjsase28.sol-data.com
 de.houseofnight.internal.sol-data.com
 de.ikariam.sol-data.com
 de.nostale.sol-data.com
-de.wolfteam.sol-data.com
 deakali.sol-data.com
 deal-centre.sol-data.com
 dealercare.sol-data.com
@@ -3023,6 +3025,7 @@ freebsd69-8.sol-data.com
 freebsd74.sol-data.com
 freeserial-keys.sol-data.com
 freetemplate.sol-data.com
+freshfield5.blog96.sol-data.com
 freshmoviequotes.sol-data.com
 friendsbcom51.sol-data.com
 frightnight.sol-data.com
@@ -3449,6 +3452,7 @@ host-214-14-72-99.staging.sol-data.com
 host-214-14-79-35.corp.sol-data.com
 host-214-18-101-10.sol-data.com
 host-214-18-111-36.sol-http-1-production.sol-data.com
+host-214-18-111-94.sol-data.com
 host-214-18-119-46.internal.sol-data.com
 host-214-18-122-71.sol-data.com
 host-214-18-122-89.sol-data.com
@@ -3605,6 +3609,7 @@ https-es-wikipedia-org-50.sol-data.com
 https-es-wikipedia-org-8-8.sol-data.com
 https-es-wikipedia-org1-4.sol-data.com
 https-es-wikipedia-org18.sol-data.com
+https-es-wikipedia-org7-7.sol-data.com
 https-fonts-googleapis-com-02.sol-data.com
 https-instabridge-com-4-1.sol-data.com
 https-instabridge-com30.sol-data.com
@@ -3771,6 +3776,7 @@ inxapp.sol-data.com
 iorg-fba-edge-shv-02-mxp1.sol-data.com
 ip-153-29.sol-data.com
 ip-153-94.corp.sol-data.com
+ip-155-51.sol-data.com
 ip-164-47.sol-data.com
 ipaltrata.sol-data.com
 ipark-media.sol-data.com
@@ -3847,7 +3853,6 @@ istmsite.sol-data.com
 isusinet1.sol-data.com
 isuzu-trooper-5.sol-data.com
 it-story.sol-data.com
-it.godofwar.sol-data.com
 itabatisque.sol-data.com
 itabuna-news.sol-data.com
 italianofacile.sol-data.com
@@ -4069,7 +4074,6 @@ kgothic-sp.sol-data.com
 kharkivska.sol-data.com
 khcn.sol-data.com
 khcpl.sol-data.com
-kherson.sol-data.com
 khlee03.sol-data.com
 khuyenmai.sol-data.com
 kia-elan-4.sol-data.com
@@ -4240,7 +4244,6 @@ lifx.sol-data.com
 lightdotgg.sol-data.com
 lightning.sol-data.com
 lightningsystems.sol-data.com
-lightspeed.sol-data.com
 lilium-blogger.sol-data.com
 lillemor.sol-data.com
 lillianko.sol-data.com
@@ -4284,7 +4287,6 @@ lon3-artistinsightscass-a3.sol-data.com
 lon3-login-a14.sol-data.com
 lon3-playgenservice-a1.sol-data.com
 lon3-puppetrepo-a1.sol-data.com
-lon3-riemann-a3.sol-data.com
 lon3-searchlink-a3.sol-data.com
 lon3-socialchartsdb-a4.sol-data.com
 lon3-user2cassandra-a1.sol-data.com
@@ -4300,6 +4302,7 @@ los-grandes-misterios-de-yhwh.sol-data.com
 loto7.sol-data.com
 lottrynew.sol-data.com
 loupglace.sol-data.com
+love-bug-again.sol-data.com
 lovelybike.sol-data.com
 luastanah.sol-data.com
 lucidez.js.sol-data.com
@@ -4340,6 +4343,7 @@ m.concerts.sol-data.com
 m.csonline.sol-data.com
 m.downtownsubaru.sol-data.com
 m.heidiskaker.sol-data.com
+m.humanidades33.sol-data.com
 m.js-classic-cars-saint-leonard.sol-data.com
 m.manualykestazeni.sol-data.com
 m.mojedietatko.sol-data.com
@@ -4610,6 +4614,7 @@ mooncatyao.sol-data.com
 moonlandingwasfaked.sol-data.com
 moonlightcocktail.sol-data.com
 moray.sol-data.com
+morcatazaujimavosti.sol-data.com
 moreyps.sol-data.com
 mosinternships.sol-data.com
 mother3.sol-data.com
@@ -4749,7 +4754,6 @@ mydeal-ge4-servicehosting.sol-data.com
 mydesktop-central05.us-west-2.sol-data.com
 mydesktop-central06u.sol-data.com
 mydesktop-east03u.sol-data.com
-mydesktop.sol-data.com
 mydesktopintl02.sol-data.com
 mydesktopintl21.sol-data.com
 mydigitallife-dev.sol-data.com
@@ -4939,7 +4943,6 @@ neuesccs.sol-data.com
 new-co.staging.sol-data.com
 new-daais.corp.sol-data.com
 new-e41.com.sol-data.com
-new-kherson.sol-data.com
 new-tutelec.espe.sol-data.com
 new.www.matematika5.sol-data.com
 newcastle.au.sol-data.com
@@ -5215,7 +5218,6 @@ p55-streams-china.sol-data.com
 p58-fmipmail.sol-data.com
 p58-iwmb7.sol-data.com
 p59-smtp.sol-data.com
-p60-metrics.sol-data.com
 p63-notesws.sol-data.com
 p64-mobilebackup-china.sol-data.com
 p65-ckcoderouter.sol-data.com
@@ -5278,6 +5280,7 @@ partnersol-http-1-staging.sol-data.com
 partnersstaging.sol-data.com
 parul.sol-data.com
 passport-photo.sol-data.com
+passwordhashdifferent.sol-data.com
 pastel.api-staging.sol-data.com
 patch29.sol-data.com
 pathwest.sol-data.com
@@ -5504,7 +5507,6 @@ pueblochieftain.co.internal.sol-data.com
 puli.sol-data.com
 pulvillus.sol-data.com
 purevpn-software-for-windows.en.sol-data.com
-purinmoon.sol-data.com
 purpleplutonium.sol-data.com
 putas-latinas.sol-data.com
 puyoquedoujou.sol-data.com
@@ -5859,7 +5861,6 @@ sensitive.sol-data.com
 sensors-0-6.sol-data.com
 sensors03.sol-data.com
 separation.sol-data.com
-serenityteen.sol-data.com
 seroter.sol-data.com
 serveroldsystem.sol-data.com
 serverwww.washington.sol-data.com
@@ -6444,6 +6445,7 @@ udai.sol-data.com
 udestroyedme.sol-data.com
 ue2aoqvt.sol-data.com
 uearningcentradingcents.sol-data.com
+uescb-cmc-13-con.sol-data.com
 ufa-turizm.sol-data.com
 ugc-gallery.sol-data.com
 ugstudents.smeal.sol-data.com
@@ -6469,6 +6471,7 @@ uncover-spikegames.sol-data.com
 uncoveron.sol-data.com
 unirecruit.sol-data.com
 unitedinternet.staging.sol-data.com
+unitedpic.sol-data.com
 universityofmiami.sol-data.com
 unknown-72-30-59-x.sol-data.com
 unknown-98-139-205-x.sol-data.com
@@ -6573,7 +6576,6 @@ v2update-chat-blog54.js.sol-data.com
 v2update-chat.js.sol-data.com
 v3-a23-13-136-68.sol-http-10-production.sol-data.com
 v3-nwks.sol-http-10-production.sol-data.com
-v3.dt-receiver.staging.sol-data.com
 v3.www.wpc.ncep.sol-data.com
 v369-171-232-62.sol-http-1-staging.sol-data.com
 v3nonsensequiz.internal.sol-data.com
@@ -6769,6 +6771,7 @@ waizudorcus.blog.sol-data.com
 waka-unipa.itp.sol-data.com
 wakame.sol-data.com
 waken.api-staging.sol-data.com
+wakiwakidonn.blog97.sol-data.com
 waku1.api.sol-data.com
 wakudan.sol-data.com
 walallalla.sol-data.com
@@ -7150,7 +7153,6 @@ webshopstein.sol-data.com
 website-archive.sol-data.com
 websiteuncover.sol-http-2-production.sol-data.com
 websocket-gw-test.sol-data.com
-websol-http-7-production.sol-data.com
 webspectra.chem.sol-data.com
 webspheremq.sol-data.com
 webstage.sol-data.com
@@ -7837,6 +7839,7 @@ www.administracao.sol-data.com
 www.afonsoveiculos.sol-data.com
 www.afro.sol-data.com
 www.ag-luenen.sol-data.com
+www.agep-gbip.sol-data.com
 www.agodi.sol-data.com
 www.ahiqo.sol-data.com
 www.aikawa-h.sol-data.com
@@ -7909,6 +7912,7 @@ www.bcms-bcsd-id.sol-data.com
 www.bd.sol-data.com
 www.beartracks.sol-data.com
 www.becaseducacionsuperior.sol-data.com
+www.becasprogresar.sol-data.com
 www.bei.sol-data.com
 www.bere.sol-data.com
 www.besiege.sol-data.com
@@ -7927,6 +7931,7 @@ www.bohr.sol-data.com
 www.bookmarks.sol-data.com
 www.borders.sol-data.com
 www.bpssc.sol-data.com
+www.brasileirosnomundo.sol-data.com
 www.bres.sol-data.com
 www.bsg.sol-data.com
 www.bsphcl.sol-data.com
@@ -8190,7 +8195,6 @@ www.fceqyn.sol-data.com
 www.fch.sol-data.com
 www.feagri.sol-data.com
 www.febf.sol-data.com
-www.fem.sol-data.com
 www.ff.sol-data.com
 www.fhbes.sol-data.com
 www.fhjh.sol-data.com
@@ -8247,12 +8251,10 @@ www.genzou.sol-data.com
 www.geogra.sol-data.com
 www.geointa.sol-data.com
 www.geosciences.sol-data.com
-www.get.sol-data.com
 www.gfx.sol-data.com
 www.giurisprudenza.sol-data.com
 www.givatayim.sol-data.com
 www.gjovik.sol-data.com
-www.gloucester.sol-data.com
 www.gmacro.sol-data.com
 www.gms.sol-data.com
 www.go.sol-data.com
@@ -8260,7 +8262,6 @@ www.gobiernodigital.sol-data.com
 www.goldmine.sol-data.com
 www.golfminna.sol-data.com
 www.gorod.sol-data.com
-www.governo.sol-data.com
 www.govtjobs.sol-data.com
 www.graco.c.sol-data.com
 www.gradpost.sol-data.com
@@ -8656,7 +8657,6 @@ www.palaciomineria.sol-data.com
 www.palmira.sol-data.com
 www.panama.sol-data.com
 www.panasonic.sol-data.com
-www.parc-feyssine.sol-data.com
 www.parks.state.sol-data.com
 www.pascal.sol-data.com
 www.past.sol-data.com
@@ -8849,7 +8849,6 @@ www.spiewniklegii.sol-data.com
 www.spitzer.sol-data.com
 www.srte.sol-data.com
 www.sses.sol-data.com
-www.ssl01.sol-data.com
 www.sso.sol-data.com
 www.stahuj.sol-data.com
 www.starlight.sol-data.com
@@ -9156,6 +9155,7 @@ yeagar.sol-data.com
 yechis.sol-data.com
 yeheslite.corp.sol-data.com
 yemekanne.sol-data.com
+yossocial.sol-data.com
 yotaspa.sol-data.com
 youngjustice.sol-data.com
 yourcbcsay.sol-data.com
