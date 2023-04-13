@@ -1,5 +1,4 @@
 apitwitter.azurewebsites.net
-databasetwitter.database.windows.net
 dev-twitter.azurewebsites.net
 functions-twitter.database.windows.net
 http://apptwitter.s3.amazonaws.com/
@@ -41,7 +40,6 @@ http://storage.googleapis.com/twitter-backup
 http://storage.googleapis.com/twitter-backups
 http://storage.googleapis.com/twitter-bucket
 http://storage.googleapis.com/twitter-data
-http://storage.googleapis.com/twitter-database
 http://storage.googleapis.com/twitter-db
 http://storage.googleapis.com/twitter-development
 http://storage.googleapis.com/twitter-files
@@ -81,7 +79,6 @@ http://test-twitter.s3.amazonaws.com/
 http://test.twitter.s3.amazonaws.com/
 http://testtwitter.s3.amazonaws.com/
 http://twitter-01.s3.amazonaws.com/
-http://twitter-1.s3.amazonaws.com/
 http://twitter-admin.s3.amazonaws.com/
 http://twitter-analytics.s3.amazonaws.com/
 http://twitter-android.s3.amazonaws.com/
@@ -113,7 +110,6 @@ http://twitter-logs.s3.amazonaws.com/
 http://twitter-media.s3.amazonaws.com/
 http://twitter-mobile.s3.amazonaws.com/
 http://twitter-photos.s3.amazonaws.com/
-http://twitter-pics.s3.amazonaws.com/
 http://twitter-pictures.s3.amazonaws.com/
 http://twitter-prod.s3.amazonaws.com/
 http://twitter-production.s3.amazonaws.com/
@@ -130,7 +126,6 @@ http://twitter-test.s3.amazonaws.com/
 http://twitter-uploads.s3.amazonaws.com/
 http://twitter-users.s3.amazonaws.com/
 http://twitter-videos.s3.amazonaws.com/
-http://twitter.bucket.s3.amazonaws.com/
 http://twitter.com.s3.amazonaws.com/
 http://twitter.s3.amazonaws.com/
 http://twitter.storage.s3.amazonaws.com/
@@ -199,6 +194,7 @@ https://twitter-stats.firebaseio.com/.json
 https://twitter2.firebaseio.com/.json
 https://twitterdatabase.firebaseio.com/.json
 https://twitterios.firebaseio.com/.json
+https://twitterproject.blob.core.windows.net/test/?restype=container&comp=list
 https://twittersupport.firebaseio.com/.json
 test-twitter.azurewebsites.net
 testtwitter.azurewebsites.net
@@ -211,6 +207,7 @@ twitter.database.windows.net
 twitter1.azurewebsites.net
 twitter2.azurewebsites.net
 twitterapi.azurewebsites.net
+twitterapp.azurewebsites.net
 twitterapp.database.windows.net
 twitterdata.database.windows.net
 twitterdatabase.database.windows.net
