@@ -1,120 +1,101 @@
 <h1 align="center">Inventory <a href="https://twitter.com/intent/tweet?text=Inventory%20-%20Asset%20Inventory%20of%20public%20bug%20bounty%20programs.%20https://github.com/trickest/inventory%20by%20%40trick3st&hashtags=security,bugbounty,bugbountytips,assets,infosec,cybersecurity,recon,reconnaissance"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
-<h3 align="center">Asset Inventory of public bug bounty programs.</h3>
+<h3 align="center">Attack Surface Management of public bug bounty programs.</h3>
 
-The data we collect here includes hostnames, URLs, web servers, cloud assets, and more.
+The data we collect here includes DNS and Web Server data of public bug bounty projects.
 
 Our aim with this project is to:
 
+- Monitor [over 800](targets.json) companies for new assets
 - help bug bounty hunters get up and running on new programs as quickly as possible.
 - give security teams better visibility into their assets.
 - reduce the load and noise that some programs face from automated tools (we run them on schedule, and give the results to everyone)
-
-## Directory And Workflows Structure
-
-[<img src="screenshots/inventory-graph.png" />](https://trickest-access.paperform.co/)
 
 [<img src="screenshots/banner.png" />](https://trickest-access.paperform.co/)
 
 ## How it works
 
-A few [Trickest](https://trickest.com) workflows pick up these targets, collect data on them, enrich it, clean it up, and push it to this repository. 
+The setup consists of two workflows
 
-#### Inventory 2.0 - Hostnames
+* Inventory 3.0 - Targets
+* Inventory 3.0
 
-![Trickest Workflow - Hostnames](screenshots/inventory-hostnames.png "Trickest Workflow - Inventory 2.0 - Hostnames")
+### Inventory 3.0 - Targets
 
-  - Get the list of domains from [targets.json](https://raw.githubusercontent.com/trickest/inventory/main/targets.json)
-  - Use [subfinder](https://github.com/projectdiscovery/subfinder) and [amass](https://github.com/OWASP/Amass) to collect subdomains from passive OSINT sources (Thanks [ProjectDiscovery](https://github.com/projectdiscovery), [hakluke](https://github.com/hakluke), [OWASP](https://github.com/OWASP), and [Jeff Foley](https://github.com/caffix)!)
-  - Create words from passive results gathered in previous steps
-  - Find already resolved hostnames to [dsieve](https://github.com/trickest/dsieve) to collect their `main environments` (e.g. foo.admin.example.com -> admin.example.com)
-  - Get a pre-defined `wordlist`
-  - Combine everything into one `wordlist`.
-  - Use [mksub](https://github.com/trickest/mksub) to merge the `wordlist` and the `main environments` along with `root-domains` and generate DNS names.
-  - Resolve DNS names using [puredns](https://github.com/d3mondev/puredns) (Thanks [d3mondev](https://github.com/d3mondev)!).
-  - Generate permutations using [gotator](https://github.com/Josue87/gotator) (Thanks [Josue87](https://github.com/Josue87)!).
-  - Resolve permutated DNS names using [puredns](https://github.com/d3mondev/puredns).
-  - Push hostnames update
+This workflow streamlines the consolidation of bug bounty program data from various sources, ensuring a comprehensive and organized view. Let's break it down:
 
-#### Inventory 2.0 - Servers
+1. **Data collection**: The workflow fetches data from two important sources:
+   - [Bounty Targets Data](https://github.com/arkadiyt/bounty-targets-data): This repository contains a wealth of bug bounty program information.
+   - [Chaos Public Bug Bounty Programs](https://github.com/projectdiscovery/public-bugbounty-programs): It provides additional valuable bug bounty program data.
 
-![Trickest Workflow - Servers](screenshots/inventory-servers.png "Trickest Workflow - Inventory 2.0 - Hostnames")
+2. **Data transformation**: The collected data undergoes transformation using Python scripts. The scripts convert the data into a specific format, ensuring consistency and ease of analysis. You can find the detailed data format in the [targets.json](targets.json) file.
 
-  - Probe previously found [hostnames](#Hostnames) using [httpx](https://github.com/projectdiscovery/httpx) to find live web servers on specific ports (`80,443,8080,5000,3000,8443,8000,4080,8888`) and, for each one, collect its:
-      - HTTP Title
-      - Status Code
-      - Content Length
-      - Content Security Policy
-      - Content Type
-      - Final Redirect Location
-      - Webserver
-      - Technology
-      - IP Addresses
-      - CNAME
-  - Parse httpx's output and organize it into files for easier navigation
-  - Push to the repository
+3. **Program merging**: To avoid duplication, the workflow merges programs with the same URL together. This consolidation eliminates redundancies and presents a unified view of bug bounty programs.
 
----
+4. **Community program inclusion**: The workflow incorporates an additional set of programs from the [community.json](community.json) file. These programs are merged with the existing dataset, enhancing its coverage and diversity.
 
-#### Inventory 2.0 - URLs
+5. **Final output**: The workflow generates a final consolidated JSON file, [targets.json](targets.json), which encompasses all the merged bug bounty program data. This file serves as a valuable resource for bug bounty researchers, providing a centralized and comprehensive view of programs.
 
-![Trickest Workflow - Urls](screenshots/inventory-urls.png "Trickest Workflow - Inventory 2.0 - Hostnames")
+![Trickest Targets](screenshots/inventory-3.0-targets.png)
 
-  - Collect URLs using newly found [hostnames](#Hostnames) with [gauplus](https://github.com/bp0lr/gauplus) (Thanks [bp0lr](https://github.com/bp0lr)!)
-  - Deduplicate with [urldedupe](https://github.com/ameenmaali/urldedupe) (Thanks [ameenmaali](https://github.com/ameenmaali))
-  - Use [gf](https://github.com/tomnomnom/gf) and [gf-patterns](https://github.com/1ndianl33t/Gf-Patterns) to categorize newly found URLs. (Thanks [tomnomnom](https://github.com/tomnomnom),[1ndianl33t](https://github.com/1ndianl33t)!)
-  - Use `prefix-file-lines` to add a prefix for each of the vulnerability
-    - IDOR
-    - XSS
-    - RCE
-    - SQLI
-    - SSTI
-    - SSRF
-    - REDIRECT
-    - LFI
-  - Push to the repository
-
-#### Inventory 2.0 - Spider
-
-![Trickest Workflow - Urls](screenshots/inventory-spider.png "Trickest Workflow - Inventory 2.0 - Hostnames")
-
-- For each target:
-    - Spider URL in batches with [hakrawler](https://github.com/hakluke/hakrawler) (Thanks [hakluke](https://github.com/hakluke)!)
-    - Push to the repository
----
-
-#### Inventory 2.0 - Cloud
+**Note**: The screenshot above provides a visual representation of the workflow.
 
 
-![Trickest Workflow - Cloud](screenshots/inventory-cloud.png "Trickest Workflow - Inventory 2.0 - Hostnames")
+### Inventory 3.0
 
-  - Collect cloud resources using [cloud_enum](https://github.com/initstring/cloud_enum) (Thanks [initstring](https://github.com/initstring/cloud_enum)!)
-  - Collected resources include
-      - AWS S3 Buckets 
-      - AWS Apps
-      - Azure Websites
-      - Azure Databases
-      - Azure Containers
-      - Azure VMs
-      - GCP Firebase Databases
-      - GCP App Enginee Apps
-      - GCP Cloud Functions
-      - GCP Storage Buckets
-  - Use [S3Scanner](https://github.com/sa7mon/S3Scanner) to bruteforce S3-compatible buckets (using the hostnames collected to seed the wordlist)
-  - Collected buckets include:
-      - AWS S3 buckets
-      - DigitalOcean Spaces
-      - DreamHost Buckets
-      - Linode Buckets
-      - Scaleway Buckets
-      - Wasabi Buckets
-  - Save each type of resource to its own file for easier navigation.
+1. **Gathering the tagets**: Get the list of domains from [targets.json](targets.json), and extract program names.
 
+2. **Making workflow run in parallel**: Extracted program names are connected `file-splitter` node to make the whole workflow distributed per program
+
+![Trickest Parsing Targets](screenshots/inventory-3.0-parsing-targets.png)
+
+
+3. **Passive Enumeration**: 
+   * Use [subfinder](https://github.com/projectdiscovery/subfinder), [vita](https://github.com/junnlikestea/vita), [findomain](https://github.com/Findomain/Findomain) to get passive enumeration data.
+   * Use [mksub](https://github.com/trickest/mksub) to create a custom list of potential subdomains
+   * Resolve with [puredns](https://github.com/d3mondev/puredns) and [trickest resolvers](https://github.com/trickest/resolvers)
+   * Generate custom-wordlists from passive results with custom bash script
+
+![Trickest Passive Enumeration](screenshots/inventory-3.0-passive.png)
+
+4. **Active Enumeration**
+   * Use passive enumeration data and create a new bruteforce wordlist 
+   * Use [dsieve](https://github.com/trickest/dsieve) to get environments per subdomain level
+   * Generate new potential subdomains with [mksub](https://github.com/trickest/mksub) and custom wordlist, with additional [level2.txt wordlist](https://github.com/trickest/wordlists/blob/main/inventory/levels/level2.txt)
+   * Resolve again with [puredns](https://github.com/d3mondev/puredns)
+ 
+
+![Trickest Active Enumeration](screenshots/inventory-3.0-environments.png)
+
+5. **Permutations**
+   * Merge active and passive results from previous steps
+   * Extract environments per subdomain level again
+   * Use [alterx](https://github.com/projectdiscovery/alterx) to generate permutations and resolve with [puredns](https://github.com/d3mondev/puredns)
+
+![Trickest Permutations](screenshots/inventory-3.0-permutations.png)
+
+6. **Collecting previous results**
+   * Use python script that will get all of the previous `hostnames.txt` per program
+   * Use [anew](https://github.com/tomnomnom/anew) to get the new hostnames found 
+   * zip active, passive, permutations per program to be pushed to repository
+
+![Trickest Previous Results](screenshots/inventory-3.0-previous-results.png)
+
+7. **Reporting**
+   * Use [dnsx](https://github.com/projectdiscovery/dnsx) to resolve found hostnames and python script for `dns-report.csv`; mark newly found domains coming from [anew](https://github.com/tomnomnom/anew) with `[x]`
+   * Use [httpx](https://github.com/projectdiscovery/httpx) to gather web servers and python script for `server-report.csv
+   * Push to the repository
+
+![Trickest Reporting](screenshots/inventory-3.0-reporting.png "Trickest Workflow - Inventory 3.0 - Targets")
+
+### Final workflow
+
+![Trickest Inventory 3.0 Workflow](screenshots/inventory-3.0.png "Trickest Workflow - Inventory 3.0 - Targets")
 ---
 
 > **Note**: As described, almost everything in this repository is generated automatically. We carefully designed the workflows (and continue to develop them) to ensure the results are as accurate as possible.
 
 ## Contribution
-All contributions/ideas/suggestions are welcome! If you want to add/edit a target/workflow, feel free to create a new ticket via [GitHub issues](https://github.com/trickest/inventory/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
+All contributions/ideas/suggestions are welcome! If you want to add/edit a target/workflow, feel free to send us a PR with new targets through [community.json](community.json), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
 
 ## Build your own workflows!
 We believe in the value of tinkering. Sign up for a demo on [trickest.com](https://trickest.com) to customize this workflow to your use case, get access to many more workflows, or build your own from scratch!
