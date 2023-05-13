@@ -1,7 +1,7 @@
 <h1 align="center">Inventory <a href="https://twitter.com/intent/tweet?text=Inventory%20-%20Asset%20Inventory%20of%20public%20bug%20bounty%20programs.%20https://github.com/trickest/inventory%20by%20%40trick3st&hashtags=security,bugbounty,bugbountytips,assets,infosec,cybersecurity,recon,reconnaissance"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a></h1>
 <h3 align="center">Attack Surface Management of public bug bounty programs.</h3>
 
-The data we collect here includes DNS and Web Server data of public bug bounty projects.
+The data we collect here includes DNS and Web Server data of public bug bounty programs.
 
 Our aim with this project is to:
 
