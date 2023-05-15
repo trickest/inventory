@@ -1,8 +1,10 @@
 new,host,a,aaaa,soa,status_code,cdn,cdn-name,cname,caa
-,app.bugv.io,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-,autodiscover.bugv.io,"52.98.239.104, 52.98.229.136, 40.99.148.120, 40.99.148.88, 52.98.229.88, 52.98.239.120, 52.98.240.24, 52.98.229.184","2603:1026:c0e:877::8, 2603:1026:c0e:862::8, 2603:1026:c0e:34::8, 2603:1026:c0e:80f::8, 2603:1026:c0e:80c::8, 2603:1026:c0e:86f::8, 2603:1026:c0e:871::8, 2603:1026:c0e:875::8","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",
+,app.bugv.io,"188.114.96.3, 188.114.97.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
+,autodiscover.bugv.io,"52.97.229.216, 52.98.240.88, 52.98.239.136","2603:1026:c0e:80e::8, 2603:1026:c0e:80f::8, 2603:1026:c0e:872::8","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",
 ,blog.bugv.io,65.2.153.178,,"kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,docs.bugv.io,"104.18.3.117, 104.18.2.117","2606:4700::6812:275, 2606:4700::6812:375","dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,hosting.gitbook.io,"digicert.com, letsencrypt.org, pki.goog"
-,enterpriseenrollment.bugv.io,13.74.111.192,,"ns1-201.azure-dns.com, msnhst.microsoft.com",NOERROR,True,azure,"enterpriseenrollment.manage.microsoft.com, manage-pe.trafficmanager.net, pexsucpeu01.northeurope.cloudapp.azure.com",
+,docs.bugv.io,"104.18.2.117, 104.18.3.117","2606:4700::6812:275, 2606:4700::6812:375","dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,hosting.gitbook.io,"pki.goog, letsencrypt.org, digicert.com"
+,enterpriseenrollment.bugv.io,52.236.189.96,,"ns1-201.azure-dns.com, msnhst.microsoft.com",NOERROR,True,azure,"enterpriseenrollment.manage.microsoft.com, manage-pe.trafficmanager.net, pexsucpeu02.westeurope.cloudapp.azure.com",
+,enterpriseregistration.bugv.io,20.190.137.40,,"tm1.dns-tm.com, hostmaster.trafficmanager.net",NOERROR,True,azure,"enterpriseregistration.windows.net, adrs.privatelink.msidentity.com, www.tm.prd.adrs.trafficmanager.net",
+,stage.bugv.io,18.141.137.21,,"kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
 ,status.bugv.io,142.132.140.101,,"haley.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,statuspage.betteruptime.com,letsencrypt.org
-,www.bugv.io,"104.21.63.62, 172.67.143.224","2606:4700:3030::ac43:8fe0, 2606:4700:3035::6815:3f3e","kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
+,www.bugv.io,"172.67.143.224, 104.21.63.62","2606:4700:3035::6815:3f3e, 2606:4700:3030::ac43:8fe0","kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
