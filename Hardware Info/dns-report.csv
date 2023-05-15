@@ -1,0 +1,12 @@
+new,host,a,aaaa,soa,has_internal_ips,internal_ips,status_code,cname,ns,cdn,cdn-name,txt,caa
+[x],debug-systemsite-doc-corporate.aa.hwigroup.com,0.0.0.0,::,"fake-for-negative-caching.adguard.com, hostmaster.debug-systemsite-doc-corporate.aa.hwigroup.com",True,0.0.0.0,NOERROR,,,,,,
+[x],mobilemaster.ab.hwigroup.com,0.0.0.0,::,"fake-for-negative-caching.adguard.com, hostmaster.mobilemaster.ab.hwigroup.com",True,0.0.0.0,NOERROR,,,,,,
+[x],mrd.ab.hwigroup.com,0.0.0.0,::,"fake-for-negative-caching.adguard.com, hostmaster.mrd.ab.hwigroup.com",True,0.0.0.0,NOERROR,,,,,,
+[x],tor82-140-pdb.ab.hwigroup.com,0.0.0.0,::,"fake-for-negative-caching.adguard.com, hostmaster.tor82-140-pdb.ab.hwigroup.com",True,0.0.0.0,NOERROR,,,,,,
+[x],ug16-bucketsystem.ab.hwigroup.com,0.0.0.0,::,"fake-for-negative-caching.adguard.com, hostmaster.ug16-bucketsystem.ab.hwigroup.com",True,0.0.0.0,NOERROR,,,,,,
+,aa.hwigroup.com,"35.205.232.200, 205.251.192.213, 205.251.194.189, 205.251.197.104, 205.251.198.207",,"ns-1743.awsdns-25.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,,"ns-213.awsdns-26.com, ns-701.awsdns-23.net, ns-1384.awsdns-45.org, ns-1743.awsdns-25.co.uk",True,google,,
+,ab.hwigroup.com,"99.86.4.43, 99.86.4.98, 99.86.4.18, 99.86.4.34","2600:9000:2057:3e00:6:4638:58c0:93a1, 2600:9000:2057:4600:6:4638:58c0:93a1, 2600:9000:2057:4c00:6:4638:58c0:93a1, 2600:9000:2057:ac00:6:4638:58c0:93a1, 2600:9000:2057:da00:6:4638:58c0:93a1, 2600:9000:2057:ea00:6:4638:58c0:93a1, 2600:9000:2057:ec00:6:4638:58c0:93a1, 2600:9000:2057:1400:6:4638:58c0:93a1","ns-1743.awsdns-25.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,,"ns-213.awsdns-26.com, ns-701.awsdns-23.net, ns-1384.awsdns-45.org, ns-1743.awsdns-25.co.uk",True,cloudfront,,amazon.com
+,admin.hwigroup.com,87.233.92.27,,"ns-365.awsdns-45.com, awsdns-hostmaster.amazon.com",,,NOERROR,nlwebserverssl.hwigroup.com,,,,,
+,cygnus.hwigroup.com,87.233.92.3,,"ns-365.awsdns-45.com, awsdns-hostmaster.amazon.com",,,NOERROR,,,,,v=spf1 ip4:87.233.92.0/27 ip4:213.239.154.0/26 ip6:2001:9a8:0:e::/64 include:_spf.google.com include:aspmx.pardot.com -all,
+,t.hwigroup.com,"54.155.59.45, 54.78.247.68, 46.137.133.41",,"ns-157.awsdns-19.com, awsdns-hostmaster.amazon.com",,,NOERROR,hardware-sst.data.dpgmedia.cloud,,,,,
+,taurus.hwigroup.com,,,"ns-365.awsdns-45.com, awsdns-hostmaster.amazon.com",,,NOERROR,,,,,,
