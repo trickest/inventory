@@ -1,20 +1,21 @@
-new,host,a,cname,soa,caa,status_code,mx,ns,txt,cdn,cdn-name
-,aab.aax.com,,difubc9tfwyu6.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,aax.com,"13.224.163.9, 13.224.163.81, 13.224.163.85, 13.224.163.113",,"pdns11.domaincontrol.com, dns.jomax.net","letsencrypt.org, amazon.com",NOERROR,"aspmx.l.google.com, alt2.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, alt3.aspmx.l.google.com","pdns12.domaincontrol.com, pdns11.domaincontrol.com","v=spf1 include:spf.mailjet.com include:_spf.google.com include:amazonses.com ~all, google-site-verification=SLYLsOpummJGQ7Sx_f7GTjq4wYNQBXsSMnzV6_SUER0, google-site-verification=fknB01yCWrvETHI_nFslU_wiA4t_B61STaNQ1le2tkg",True,cloudfront
-,academy.aax.com,128.199.110.195,,"pdns11.domaincontrol.com, dns.jomax.net",,NOERROR,,,,,
-,account.aax.com,,d11qb0r7wkt25.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,anniv.aax.com,,d2mhruwqoog3ki.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,app.aax.com,,dwx83pf8348i0.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,blog.aax.com,128.199.110.195,,"pdns11.domaincontrol.com, dns.jomax.net",,NOERROR,,,,,
-,file.aax.com,,d2yuq1231yasxc.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,gaming.aax.com,,d3v7slqf71c8r1.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,hkb.aax.com,47.57.13.249,8fa4l0iz123j16z2.aliyunddos0030.com,"vip5.alidns.com, hostmaster.hichina.com",,NOERROR,,,,,
-,invest.aax.com,,d3ellg8nm12fvk.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,microsoft.aax.com,,,,,NOERROR,,,,,
-,pass9.aax.com,,,,,NOERROR,,,,,
-,sg.aax.com,"167.89.118.83, 167.89.118.52, 167.89.123.124, 167.89.123.54",sendgrid.net,"ns10.dnsmadeeasy.com, dns.dnsmadeeasy.com","amazonaws.com, godaddy.com",NOERROR,"mx.sendgrid.net, mx2.sendgrid.net","ns10.dnsmadeeasy.com, ns14.dnsmadeeasy.com, ns12.dnsmadeeasy.com, ns13.dnsmadeeasy.com, ns11.dnsmadeeasy.com, ns15.dnsmadeeasy.com","p8bnb2lp424dkl3c4io1aemiei, mailru-verification: 2e3995fa8a7d00e0, google-site-verification=1UEf8ey-RibUjY6gnpqIZFjWNqMknmeyeHz1zTmj0DE, v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 include:ab.sendgrid.net ~all",,
-,testnet.aax.com,,,"pdns11.domaincontrol.com, dns.jomax.net",,NOERROR,,,,,
-,trade.aax.com,,dqel384twcy48.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,trends.aax.com,"76.76.21.61, 76.76.21.93",cname.vercel-dns.com,"dns1.p07.nsone.net, hostmaster.nsone.net","globalsign.com, sectigo.com, letsencrypt.org",NOERROR,,,,,
-,widget.aax.com,,d2zrqf9g0mnhrd.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
-,www.aax.com,,d3d5lgdd46a6g9.cloudfront.net,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,NOERROR,,,,,
+new,host,a,mx,soa,ns,txt,caa,status_code,cdn,cdn-name,cname
+[x],oa.aax.com,52.220.28.203,,"pdns11.domaincontrol.com, dns.jomax.net",,,,NOERROR,,,
+,aab.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,difubc9tfwyu6.cloudfront.net
+,aax.com,"13.224.163.81, 13.224.163.85, 13.224.163.113, 13.224.163.9","alt2.aspmx.l.google.com, aspmx.l.google.com, alt1.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com","pdns11.domaincontrol.com, dns.jomax.net","pdns11.domaincontrol.com, pdns12.domaincontrol.com","v=spf1 include:spf.mailjet.com include:_spf.google.com include:amazonses.com ~all, google-site-verification=SLYLsOpummJGQ7Sx_f7GTjq4wYNQBXsSMnzV6_SUER0, google-site-verification=fknB01yCWrvETHI_nFslU_wiA4t_B61STaNQ1le2tkg","letsencrypt.org, amazon.com",NOERROR,True,cloudfront,
+,academy.aax.com,128.199.110.195,,"pdns11.domaincontrol.com, dns.jomax.net",,,,NOERROR,,,
+,account.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d11qb0r7wkt25.cloudfront.net
+,anniv.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d2mhruwqoog3ki.cloudfront.net
+,app.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,dwx83pf8348i0.cloudfront.net
+,blog.aax.com,128.199.110.195,,"pdns11.domaincontrol.com, dns.jomax.net",,,,NOERROR,,,
+,cdn.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,dwx83pf8348i0.cloudfront.net
+,deeplink.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d3d5lgdd46a6g9.cloudfront.net
+,file.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d2yuq1231yasxc.cloudfront.net
+,gaming.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d3v7slqf71c8r1.cloudfront.net
+,go.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d1xihcx6x7quv2.cloudfront.net
+,hkb.aax.com,47.57.13.249,,"vip5.alidns.com, hostmaster.hichina.com",,,,NOERROR,,,8fa4l0iz123j16z2.aliyunddos0030.com
+,invest.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d3ellg8nm12fvk.cloudfront.net
+,sg.aax.com,"167.89.123.54, 167.89.123.124, 167.89.118.83, 167.89.118.52","mx2.sendgrid.net, mx.sendgrid.net","ns10.dnsmadeeasy.com, dns.dnsmadeeasy.com",,"p8bnb2lp424dkl3c4io1aemiei, v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 include:ab.sendgrid.net ~all, google-site-verification=1UEf8ey-RibUjY6gnpqIZFjWNqMknmeyeHz1zTmj0DE, mailru-verification: 2e3995fa8a7d00e0","amazonaws.com, godaddy.com",NOERROR,,,sendgrid.net
+,testnet.aax.com,184.168.131.241,,"pdns11.domaincontrol.com, dns.jomax.net","pdns12.domaincontrol.com, pdns11.domaincontrol.com",,,NOERROR,,,
+,trends-svc.aax.com,128.199.110.195,,"pdns11.domaincontrol.com, dns.jomax.net",,,,NOERROR,,,
+,widget.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d2zrqf9g0mnhrd.cloudfront.net
+,www.aax.com,,,"ns-418.awsdns-52.com, hostmaster.cloudfront.net",,,,NOERROR,,,d3d5lgdd46a6g9.cloudfront.net
