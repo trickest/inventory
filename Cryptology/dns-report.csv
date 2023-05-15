@@ -1,0 +1,49 @@
+new,host,a,cname,mx,soa,ns,txt,caa,status_code,cdn,cdn-name,aaaa
+[x],admin.cryptology.com,"18.155.129.115, 18.155.129.124, 18.155.129.14, 18.155.129.114",,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],affiliate.cryptology.com,"18.65.39.91, 18.65.39.62, 18.65.39.119, 18.65.39.114",,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],api-sandbox.cryptology.com,"104.20.239.127, 172.67.19.233, 104.20.240.127",api-sandbox.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:f07f, 2606:4700:10::ac43:13e9, 2606:4700:10::6814:ef7f"
+[x],bapi-sandbox.cryptology.com,"172.67.19.233, 104.20.240.127, 104.20.239.127",bapi-sandbox.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f, 2606:4700:10::ac43:13e9"
+[x],bapi.cryptology.com,"104.20.240.127, 104.20.239.127, 172.67.19.233",bapi.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::ac43:13e9, 2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f"
+[x],bstream-sandbox.cryptology.com,"172.67.19.233, 104.20.240.127, 104.20.239.127",spot-api-sandbox.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f, 2606:4700:10::ac43:13e9"
+[x],bstream.cryptology.com,"104.20.240.127, 172.67.19.233, 104.20.239.127",spot-api.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,
+[x],collector.prod.cryptology.com,,,,"ns-446.awsdns-55.com, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],contracts-api.cryptology.com,"172.67.19.233, 104.20.239.127, 104.20.240.127",contracts-api.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f, 2606:4700:10::ac43:13e9"
+[x],dashboard.dev.cryptology.com,"18.195.0.254, 3.74.208.146, 52.59.34.10",,,"ns-340.awsdns-42.com, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],dev.cryptology.com,,,,"ns-340.awsdns-42.com, awsdns-hostmaster.amazon.com","ns-1164.awsdns-17.org, ns-1559.awsdns-02.co.uk, ns-340.awsdns-42.com, ns-610.awsdns-12.net",,,NOERROR,,,
+[x],docker.cryptology.com,94.130.140.227,,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],docs.cryptology.com,"143.204.215.92, 143.204.215.7, 143.204.215.93, 143.204.215.70",,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],email.cryptology.com,"34.110.180.34, 205.251.194.74, 205.251.197.202",mailgun.org,"mxb.mailgun.org, mxa.mailgun.org","ns-586.awsdns-09.net, awsdns-hostmaster.amazon.com","ns-1482.awsdns-57.org, ns-1614.awsdns-09.co.uk, ns-133.awsdns-16.com, ns-586.awsdns-09.net","google-site-verification=FIGVOKZm6lQFDBJaiC2DdwvBy8TInunoGCt-1gnL4PA, v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all, 8f7088gv5932jxw9lwwd1b6ttx2pw2ds","digicert.com, letsencrypt.org, ;",NOERROR,True,google,
+[x],exchange.cryptology.com,,,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],futures.cryptology.com,"18.66.147.106, 18.66.147.22, 18.66.147.23, 18.66.147.111",,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],futures.staging.cryptology.com,"143.204.89.84, 143.204.89.104, 143.204.89.127, 143.204.89.45",,,"ns-520.awsdns-01.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],go.cryptology.com,52.72.49.79,,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],grafana.dev.cryptology.com,"52.59.34.10, 3.74.208.146, 18.195.0.254",,,"ns-340.awsdns-42.com, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],grafana.prod.cryptology.com,"52.58.59.153, 52.58.215.173, 52.29.218.135",,,"ns-446.awsdns-55.com, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],grafana.staging.cryptology.com,"52.28.214.108, 52.29.233.120, 35.156.14.65",,,"ns-520.awsdns-01.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],mail.blog.cryptology.com,34.90.77.219,,,"ns1.siteground.net, root.gnldm1002.siteground.biz",,,,NOERROR,True,google,
+[x],mail.cryptology.com,,,"aspmx.l.google.com, aspmx2.googlemail.com, aspmx3.googlemail.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,v=spf1 include:_spf.google.com  ~all,,NOERROR,,,
+[x],marketdata-sandbox.cryptology.com,,marketdata-sandbox.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,,,
+[x],mobile-api.cryptology.com,"13.225.78.6, 13.225.78.37, 13.225.78.91, 13.225.78.94",dnqhyjumsgha6.cloudfront.net,,"ns-610.awsdns-12.net, awsdns-hostmaster.amazon.com","ns-1442.awsdns-52.org, ns-1955.awsdns-52.co.uk, ns-456.awsdns-57.com, ns-610.awsdns-12.net",,,NOERROR,True,cloudfront,"2600:9000:21f3:a000:e:9b03:df80:93a1, 2600:9000:21f3:cc00:e:9b03:df80:93a1, 2600:9000:21f3:1a00:e:9b03:df80:93a1, 2600:9000:21f3:9c00:e:9b03:df80:93a1, 2600:9000:21f3:6200:e:9b03:df80:93a1, 2600:9000:21f3:0:e:9b03:df80:93a1, 2600:9000:21f3:7c00:e:9b03:df80:93a1, 2600:9000:21f3:3a00:e:9b03:df80:93a1"
+[x],octopus-dev-ws.cryptology.com,"172.67.19.233, 104.20.239.127, 104.20.240.127",octopus-dev-ws.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::ac43:13e9, 2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f"
+[x],octopus-prod-ws.cryptology.com,,octopus-prod-ws.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::ac43:13e9, 2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f"
+[x],octopus-sandbox.cryptology.com,,octopus-sandbox.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:ef7f, 2606:4700:10::ac43:13e9, 2606:4700:10::6814:f07f"
+[x],octopus.cryptology.com,"104.20.239.127, 172.67.19.233, 104.20.240.127",octopus.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::ac43:13e9, 2606:4700:10::6814:ef7f, 2606:4700:10::6814:f07f"
+[x],otc-pe-api-partner.cryptology.com,"104.20.240.127, 172.67.19.233, 104.20.239.127",otc-pe-api-partner.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:ef7f, 2606:4700:10::6814:f07f, 2606:4700:10::ac43:13e9"
+[x],ovpn.cryptology.com,185.150.117.222,,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],ovpn2.cryptology.com,195.201.138.130,,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],payments-dev-otc-pe-api-client.cryptology.com,"104.20.240.127, 172.67.19.233, 104.20.239.127",payments-dev-otc-pe-api-client.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::ac43:13e9, 2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f"
+[x],payments-staging-otc-pe-api-client.cryptology.com,"104.20.240.127, 172.67.19.233, 104.20.239.127",payments-staging-otc-pe-api-client.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f, 2606:4700:10::ac43:13e9"
+[x],payments-staging-otc-pe-api-partner.cryptology.com,"172.67.19.233, 104.20.239.127, 104.20.240.127",payments-staging-otc-pe-api-partner.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::ac43:13e9, 2606:4700:10::6814:ef7f, 2606:4700:10::6814:f07f"
+[x],processing-dev.cryptology.com,"104.20.239.127, 172.67.19.233, 104.20.240.127",processing-dev.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::6814:ef7f, 2606:4700:10::6814:f07f, 2606:4700:10::ac43:13e9"
+[x],prod.cryptology.com,,,,"ns-446.awsdns-55.com, awsdns-hostmaster.amazon.com","ns-1353.awsdns-41.org, ns-1638.awsdns-12.co.uk, ns-446.awsdns-55.com, ns-934.awsdns-52.net",,,NOERROR,,,
+[x],promo.cryptology.com,104.160.64.15,squeeze.gr8.com,,"ns0.dnsmadeeasy.com, dns.dnsmadeeasy.com",,,,NOERROR,,,
+[x],pypi.cryptology.com,"18.65.39.30, 18.65.39.6, 18.65.39.80, 18.65.39.51",,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],sentry-latest.cryptology.com,23.88.113.47,,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],sentry-prod.cryptology.com,23.88.113.47,,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],sentry.dev.cryptology.com,116.203.222.152,,,"ns-340.awsdns-42.com, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
+[x],spot-api-sandbox.cryptology.com,"104.20.240.127, 172.67.19.233, 104.20.239.127",spot-api-sandbox.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700:10::ac43:13e9, 2606:4700:10::6814:f07f, 2606:4700:10::6814:ef7f"
+[x],spot-api.cryptology.com,"104.20.240.127, 104.20.239.127, 172.67.19.233",spot-api.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,
+[x],sse-prod.cryptology.com,"172.67.19.233, 104.20.239.127, 104.20.240.127",sse-prod.cryptology.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,,NOERROR,True,cloudflare,
+[x],staging.cryptology.com,"143.204.89.84, 143.204.89.104, 143.204.89.127, 143.204.89.45",,,"ns-520.awsdns-01.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],web.staging.cryptology.com,"143.204.89.104, 143.204.89.84, 143.204.89.45, 143.204.89.127",,,"ns-520.awsdns-01.net, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,
+[x],www.git.cryptology.com,94.130.140.227,git.cryptology.com,,"ns-778.awsdns-33.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,
