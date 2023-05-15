@@ -1,7 +1,6 @@
-new,host,soa,status_code,a,aaaa,cname,mx,ns,txt
-[x],blog.observu.com,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,37.48.122.137,,,,,
-[x],bounces.observu.com,"ns-1855.awsdns-39.co.uk, awsdns-hostmaster.amazon.com",NOERROR,205.251.195.7,2600:9000:5305:5100::1,sparkpostmail.com,smtp.sparkpostmail.com,"ns-304.awsdns-38.com, ns-1855.awsdns-39.co.uk, ns-1361.awsdns-42.org, ns-775.awsdns-32.net","202302022219254qla4yzx4awoxw73s19xih2o24lp6tgsj8j3sdxwoboq1lpkyr, v=spf1 exists:%{i}._spf.sparkpostmail.com ~all, google-site-verification=yCMV3z3BhBaINi0V033HnfTi9xkQjpIZ4DM4ywSlwUs"
-[x],do-ams-checker-1.servers.observu.com,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,80.240.130.103,,,,,
-[x],do-nyc-checker-1.servers.observu.com,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,162.243.25.107,,,,,
-[x],m.observu.com,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
-[x],www.observu.com,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,52.45.110.95,,,,,
+new,host,a,soa,status_code,aaaa,cname,mx,ns,txt
+,blog.observu.com,37.48.122.137,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,
+,bounces.observu.com,205.251.195.7,"ns-1855.awsdns-39.co.uk, awsdns-hostmaster.amazon.com",NOERROR,2600:9000:5305:5100::1,sparkpostmail.com,smtp.sparkpostmail.com,"ns-775.awsdns-32.net, ns-1855.awsdns-39.co.uk, ns-304.awsdns-38.com, ns-1361.awsdns-42.org","v=spf1 exists:%{i}._spf.sparkpostmail.com ~all, google-site-verification=yCMV3z3BhBaINi0V033HnfTi9xkQjpIZ4DM4ywSlwUs, 202302022219254qla4yzx4awoxw73s19xih2o24lp6tgsj8j3sdxwoboq1lpkyr"
+,do-ams-checker-1.servers.observu.com,80.240.130.103,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,
+,do-nyc-checker-1.servers.observu.com,162.243.25.107,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,
+,www.observu.com,52.45.110.95,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,
