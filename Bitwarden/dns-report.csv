@@ -1,0 +1,42 @@
+new,host,a,aaaa,soa,status_code,cdn,cdn-name,mx,ns,txt,caa,cname
+[x],staging-help.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,admin.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,adr.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,api.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,assets.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,bitwarden.com,199.232.194.22,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,fastly,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt2.aspmx.l.google.com","rose.ns.cloudflare.com, igor.ns.cloudflare.com","h1-domain-verification=qhyNWpPNpjZeDLwbHo51AG1rqfQPD5qG9R8hvCmAdPB82MKQ, MS=ms10313433, v=spf1 include:spf.braintreegateway.com include:_spf.google.com include:amazonses.com include:_spf.freshsales.io include:22371289.spf07.hubspotemail.net -all, h1-domain-verification=EjLrcRwtpQU1iHokYvvNt79uhuwHR92BxrRG6pmohr1w5fk7, brave-ledger-verification=f8b96f2d0f5fd1db7ac8753f8d38b219911e5d32b0f955537479416ac5f53a20, google-site-verification=02PtJycFi417SDMgi-3vPDRsgJP98CCWVXdenimqMv0, MS=C8E6AF80F5B0DD0B5AD483EDFDB8C55CB3A9B468","amazon.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, amazontrust.com, awstrust.com, amazonaws.com, globalsign.com, comodoca.com",
+,cdn.qa.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,community.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,company.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,components.bitwarden.com,34.120.230.5,,"ns-314.awsdns-39.com, awsdns-hostmaster.amazon.com",NOERROR,True,google,,,,,"domains.chromatic.com, chromatic.domains.qloaked.com"
+,contributing-internal.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,dd.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,demo.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,forms.bitwarden.com,"104.18.23.9, 104.18.22.9",,"ns1.cloudflare.net, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,"customdomain.typeform.com, customdomain.typeform.com.cdn.cloudflare.net"
+,func.bitwarden.com,"188.114.98.229, 188.114.99.229","2a06:98c1:3122:e000::5, 2a06:98c1:3123:e000::5","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,func2.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,fwdkim1.bitwarden.com,"99.86.91.122, 99.86.91.64, 99.86.91.65, 99.86.91.125",,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,"mxa.freshdesk.com, mxb.freshdesk.com, mx.sendgrid.net","ns-1213.awsdns-23.org, ns-1972.awsdns-54.co.uk, ns-285.awsdns-35.com, ns-519.awsdns-00.net",v=spf1 include:sendgrid.net include:fdspfus.freshemail.io include:fdspfeuc.freshemail.io include:fdspfind.freshemail.io include:fdspfaus.freshemail.io ~all,,spfmx1.domainkey.freshemail.io
+,help.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,icons.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,lewebapp.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,mail.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,maillink.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,mobileapp.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,notifications.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,o1.mail1.bitwarden.com,168.245.34.88,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,pdf-convert.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,preview.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,push.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,selfhost.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,send.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,sso.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,staging-website.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,start.bitwarden.com,"199.60.103.227, 199.60.103.29","2606:2c40::c73c:67e3, 2606:2c40::c73c:671d","jerry.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,"22371289.group39.sites.hubspot.net, group39.sites.hscoscdn30.net"
+,status.bitwarden.com,,,"ns-332.awsdns-41.com, awsdns-hostmaster.amazon.com",NOERROR,,,"in1-smtp.messagingengine.com, in2-smtp.messagingengine.com",,,"mailto:support@hund.io, awstrust.com, letsencrypt.org","bitwarden.hund.io, hund.io"
+,support.bitwarden.com,"54.209.94.247, 54.211.116.217, 34.200.204.41, 3.221.114.3, 34.199.31.154",,"ns-350.awsdns-43.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,"amazon.com, letsencrypt.org","6d1b44927b08cbaaca8760d3b8f61f84.freshdesk.com, fwfd-use1-lb247.freshdesk.com"
+,test.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,vault-staging.bitwarden.com,"104.18.13.33, 104.18.12.33","2606:4700::6812:d21, 2606:4700::6812:c21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,vault.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,web-vault.bitwarden.com,"104.18.12.33, 104.18.13.33","2606:4700::6812:c21, 2606:4700::6812:d21","igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,www.bitwarden.com,199.232.18.22,2a04:4e42:41::534,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,,"bitwarden.gatsbyjs.io, dualstack.eu-na.gatsbyjs.map.fastly.net"
+,www.blog.bitwarden.com,,,"igor.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
