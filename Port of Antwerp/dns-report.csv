@@ -1,0 +1,32 @@
+new,host,a,cname,caa,status_code,cdn,cdn-name,soa,ns,aaaa,mx,txt
+,admin.droneportal-test.portofantwerp.com,20.71.75.76,poa-uat.unifly.tech,letsencrypt.org,NOERROR,,,"ns1-06.azure-dns.com, azuredns-hostmaster.microsoft.com",,,,
+,admin.droneportal.portofantwerp.com,20.76.27.235,poa-prd.unifly.tech,letsencrypt.org,NOERROR,,,"ns1-06.azure-dns.com, azuredns-hostmaster.microsoft.com",,,,
+,autodiscover.portofantwerp.com,"40.99.150.8, 40.99.150.72, 52.98.243.56, 40.99.149.216","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,NOERROR,,,"ns1-ms-acdc.office.com, hostmaster.microsoft.com",,"2603:1026:c0d:c2b::8, 2603:1026:c0d:c2f::8, 2603:1026:c0d:803::8, 2603:1026:c0d:82f::8",,
+,bedrijvengids.portofantwerp.com,94.107.237.236,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,c-point.be,,,,NOERROR,,,"ns1.haven.antwerpen.be, noc.portofantwerp.com",,,cpoint-be0c.mail.protection.outlook.com,"_globalsign-domain-verification=80xq-yurLLPEjf_vZGxZR6HQK5sgA6MUQgxnXmuNCj, v=spf1 ip4:94.107.237.204 ip4:188.118.8.13 include:spf.protection.outlook.com -all, 1fCOrzJ6IeRMV/VUwyLpaDJab2ebi5Yt4AIvHBXQS6MsuY+o11xs9OAFo9Su83DCvCiFo2+3e0TzVsqDxMqlbw==, MS=ms85223564"
+,dasp-d1.portofantwerp.com,188.118.8.22,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,dasp-m1.portofantwerp.com,94.107.237.224,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,droneportal.portofantwerp.com,,poa-prd.unifly.tech,letsencrypt.org,NOERROR,,,"ns1-06.azure-dns.com, azuredns-hostmaster.microsoft.com",,,,
+,events.portofantwerp.com,,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com","ns1.haven.antwerpen.be, ns2.haven.antwerpen.be",,events-portofantwerp-com.mail.protection.outlook.com,
+,future-acc.portofantwerp.com,"52.49.25.102, 54.246.210.44",yamblastaging.com,"amazon.com, amazonaws.com, amazontrust.com, awstrust.com, globalsign.com, letsencrypt.org",NOERROR,,,"ns-1969.awsdns-54.co.uk, awsdns-hostmaster.amazon.com","ns-434.awsdns-54.com, ns-892.awsdns-47.net, ns-1228.awsdns-25.org, ns-1969.awsdns-54.co.uk",,,
+,gitlab-d1.portofantwerp.com,188.118.8.52,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,gitlab.portofantwerp.com,94.107.237.228,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,hmobctrl-d1.portofantwerp.com,188.118.8.82,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,lyncdiscover.portofantwerp.com,52.112.193.16,webdir.online.lync.com,,NOERROR,,,"admin.nsatc.net, dns.level3.net",,2603:1027:0:3::e,,
+,mail-d1.portofantwerp.com,188.118.8.61,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,mail.portofantwerp.com,188.118.8.29,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,mail-portofantwerp-com.mail.protection.outlook.com,v=spf1 include:customers.clickdimensions.com ~all
+,mam-m1.portofantwerp.com,94.107.237.227,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,netmonitor.portofantwerp.com,188.118.8.7,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,newsroom.portofantwerp.com,"172.66.40.152, 172.66.43.104",customers.prezly.com,"mailto:admin@prezly.com, amazon.com, comodoca.com, digicert.com, entrust.net, globalsign.com, letsencrypt.org, pki.goog, sectigo.com",NOERROR,True,cloudflare,,,,,
+,opendata-stg.portofantwerp.com,52.166.182.144,,letsencrypt.org,NOERROR,True,azure,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,relay.portofantwerp.com,"94.107.237.200, 188.118.8.8",,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,v=spf1 a ip4:94.107.237.200 ip4:188.118.8.8 -all
+,sapsupport.portofantwerp.com,188.118.8.53,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,sentry.droneportal-test.portofantwerp.com,20.71.75.76,poa-uat.unifly.tech,letsencrypt.org,NOERROR,,,"ns1-06.azure-dns.com, azuredns-hostmaster.microsoft.com",,,,
+,sentry.droneportal.portofantwerp.com,20.76.27.235,poa-prd.unifly.tech,letsencrypt.org,NOERROR,,,"ns1-06.azure-dns.com, azuredns-hostmaster.microsoft.com",,,,
+,surveys.portofantwerp.com,77.241.93.24,,letsencrypt.org,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,v=spf1 include:wappmail.com -all
+,usa.portofantwerp.com,217.111.147.8,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,vsbctrunk-d1.portofantwerp.com,188.118.8.43,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,vsbctrunk-m1.portofantwerp.com,94.107.237.218,,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
+,web.mail.portofantwerp.com,,"analytics-eu.clickdimensions.com, prodeu-fabric-appgw.northeurope.cloudapp.azure.com",,NOERROR,True,azure,"ns1-201.azure-dns.com, msnhst.microsoft.com",,,,
+,web2.mail.portofantwerp.com,52.159.97.111,"analytics.clickdimensions.com, produs-fabric-appgw.northcentralus.cloudapp.azure.com",,NOERROR,,,"ns1-02.azure-dns.com, msnhst.microsoft.com",,,,
+,webmail.portofantwerp.com,94.107.237.236,mail-d1.portofantwerp.com,,NOERROR,,,"ns2.haven.antwerpen.be, noc.portofantwerp.com",,,,
