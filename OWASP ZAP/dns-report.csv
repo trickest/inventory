@@ -1,0 +1,5 @@
+new,host,a,aaaa,soa,status_code,cdn,cdn-name,has_internal_ips,internal_ips,mx,ns,txt
+,aws.zaproxy.org,169.254.169.254,,"cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,True,169.254.169.254,,,
+,cfu.zaproxy.org,"172.67.129.53, 104.21.1.121","2606:4700:3035::6815:179, 2606:4700:3037::ac43:8135","cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,news.zaproxy.org,"172.67.129.53, 104.21.1.121","2606:4700:3037::ac43:8135, 2606:4700:3035::6815:179","cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,zaproxy.org,"172.67.129.53, 104.21.1.121","2606:4700:3035::6815:179, 2606:4700:3037::ac43:8135","cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,"eforward1.registrar-servers.com, eforward2.registrar-servers.com, eforward3.registrar-servers.com, eforward4.registrar-servers.com, eforward5.registrar-servers.com","cloe.ns.cloudflare.com, owen.ns.cloudflare.com",v=spf1 include:spf.efwd.registrar-servers.com ~all
