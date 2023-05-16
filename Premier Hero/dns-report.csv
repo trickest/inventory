@@ -1,9 +1,11 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,cname
-[x],api.premierhero.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,
-[x],autodiscover.premierhero.com,"52.98.240.72, 52.98.240.8, 52.98.239.136, 40.99.148.88, 52.98.229.152, 52.98.240.56, 52.98.240.24, 52.98.240.104","2603:1026:c0e:865::8, 2603:1026:c0e:86d::8, 2603:1026:c0e:20::8","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com"
-[x],blog.premierhero.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,
-[x],enterpriseenrollment.premierhero.com,20.91.147.72,,"ns1-07.azure-dns.com, azuredns-hostmaster.microsoft.com",NOERROR,,,"enterpriseenrollment.manage.microsoft.com, manage-pe.trafficmanager.net, pexsucpeu03.swedencentral.cloudapp.azure.com"
-[x],enterpriseregistration.premierhero.com,20.190.137.40,,"internal.akadns.net, hostmaster.akamai.com",NOERROR,True,azure,"enterpriseregistration.windows.net, adrs.privatelink.msidentity.com, www.tm.prd.adrs.akadns.net"
-[x],sip.premierhero.com,52.112.64.140,2603:1037:0:15::c,"admin.nsatc.net, dns.level3.net",NOERROR,,,sipdir.online.lync.com
-[x],uat.premierhero.com,15.207.231.192,,"kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,
-[x],www.premierhero.com,"188.114.96.3, 188.114.97.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","kay.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,
+new,host,a,aaaa,mx,soa,ns,txt,status_code,cdn,cdn-name,cname
+,api.premierhero.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3",,"kay.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+,autodiscover.premierhero.com,"52.98.241.200, 52.98.241.168, 40.99.214.40, 52.97.135.104","2603:1026:c0d:20::8, 2603:1026:c0d:70::8, 2603:1026:c0d:2a::8, 2603:1026:c0d:74::8, 2603:1026:c0d:76::8, 2603:1026:c0d:72::8, 2603:1026:c0d:6a::8, 2603:1026:c0d:73::8",,"ns1-ms-acdc.office.com, hostmaster.microsoft.com, ns1-34.azure-dns.com, azuredns-hostmaster.microsoft.com",,,NOERROR,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com"
+,blog.premierhero.com,"188.114.97.13, 188.114.96.13","2a06:98c1:3120::d, 2a06:98c1:3121::d",,"kay.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+,dev.premierhero.com,15.207.187.210,,,"kay.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,,,
+,enterpriseregistration.premierhero.com,20.190.137.40,,,"internal.akadns.net, hostmaster.akamai.com",,,NOERROR,True,azure,"enterpriseregistration.windows.net, adrs.privatelink.msidentity.com, www.tm.prd.adrs.akadns.net"
+,lyncdiscover.premierhero.com,52.112.196.45,2603:1027:0:48::21,,"admin.nsatc.net, dns.level3.net",,,NOERROR,,,webdir.online.lync.com
+,premierhero.com,"188.114.97.0, 188.114.96.0","2a06:98c1:3120::, 2a06:98c1:3121::",premierhero-com.mail.protection.outlook.com,"kay.ns.cloudflare.com, dns.cloudflare.com","kay.ns.cloudflare.com, rick.ns.cloudflare.com","MS=ms40854168, v=spf1 include:spf.protection.outlook.com -all",NOERROR,True,cloudflare,
+,sip.premierhero.com,52.112.70.75,"2603:1037::b, 2603:1037:0:7::b, 2603:1037:0:5::b, 2603:1037:0:15::c, 2603:1037:0:2::b, 2603:1037:0:a::b, 2603:1037:0:c::f, 2603:1037:0:6::b",,"admin.nsatc.net, dns.level3.net",,,NOERROR,,,sipdir.online.lync.com
+,uat.premierhero.com,15.207.231.192,,,"kay.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,,,
+,www.premierhero.com,"188.114.96.3, 188.114.97.3","2a06:98c1:3120::3, 2a06:98c1:3121::3",,"kay.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
