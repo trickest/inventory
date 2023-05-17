@@ -261,6 +261,7 @@ cloudservices.fireeye.com
 cloudtest.fireeye.com
 cloudvisory-dev.cloud.aws.apps.fireeye.com
 cloudvisory.apps.fireeye.com
+cloudwhitelisting.apps.fireeye.com
 cm01.access.ork.selabs.fireeye.com
 cm01.access.tyo.selabs.fireeye.com
 cm01.staff.access.ork.selabs.fireeye.com
@@ -361,6 +362,8 @@ darwin.apps.fireeye.com
 darwin.delta2.apps.fireeye.com
 darwin.prd01-usw2.apps.fireeye.com
 darwin.test02-usw2.apps.fireeye.com
+delta14.apps.fireeye.com
+delta2.apps.fireeye.com
 delta5-kub-test.delta5kub.apps.fireeye.com
 demo.apps.fireeye.com
 design.fireeye.com
@@ -386,6 +389,7 @@ dev.security.cis.apps.fireeye.com
 dev.selabs.fireeye.com
 dev.services.fireeye.com
 dev.viz.cis.apps.fireeye.com
+dev01.helix.apps.fireeye.com
 dev02.endpoint.fireeye.com
 dev1-identity.fireeye.com
 dev1.fireeye.com
@@ -428,6 +432,7 @@ drone.sre.apps.fireeye.com
 dronerunner.copss01.concord.apps.fireeye.com
 drop.fireeye.com
 ds.apps.fireeye.com
+dss3.cis.apps.fireeye.com
 dtitap-stage.fireeye.com
 dtitap.fireeye.com
 duo.sre-dev01.apps.fireeye.com
@@ -650,11 +655,14 @@ hc-api.selabs.fireeye.com
 healthcheck.fireeye.com
 helix-integrations.cloud.aws.apps.fireeye.com
 helix.ap.fireeye.com
+helix.apps.fireeye.com
 helix.eu.fireeye.com
 helix.us.fireeye.com
 hermes.fireeye.com
 hex01.helix.apps.fireeye.com
 hex03.helix.apps.fireeye.com
+hex05.helix.apps.fireeye.com
+hex07.helix.apps.fireeye.com
 hex9jyygxy6fhrw-cms.helix.apps.fireeye.com
 hexbbg774-hxdmz-ssh-1.helix.apps.fireeye.com
 hexbfb653-hxdmz-ssh-1.dev01.helix.apps.fireeye.com
@@ -1115,6 +1123,7 @@ illuminator.fireeye.com
 images.apps.fireeye.com
 infra-drone.try.sre.apps.fireeye.com
 ingest.apps.fireeye.com
+int.helix.apps.fireeye.com
 intelapi.use1.services.fireeye.com
 intelcontext.fireeye.com
 intelligence-dev.fireeye.com
@@ -1406,6 +1415,7 @@ pov0.fireeye.com
 pov3.fireeye.com
 pov9.fireeye.com
 prd.arb.svpc.apps.fireeye.com
+prd01-usw2.apps.fireeye.com
 prd03.apps.fireeye.com
 prd10.apps.fireeye.com
 problem.fireeye.com
@@ -1422,6 +1432,7 @@ prod65de.fireeye.com
 prod65fr.fireeye.com
 prod65jp.fireeye.com
 prod65kr.fireeye.com
+production-sagw-k8s.glb.fireeye.com
 projects.fireeye.com
 proposals.fireeye.com
 protect.fireeye.com
@@ -1770,8 +1781,10 @@ terraform-dev.ops.fireeye.com
 terraform.ops.fireeye.com
 test-learn.fireeye.com
 test.fireeye.com
+test02-usw2.apps.fireeye.com
 testaem.fireeye.com
 testcommunity.fireeye.com
+testds.cis.apps.fireeye.com
 testlink.eng.fireeye.com
 testrail.eng.fireeye.com
 tfe-dev.ops.fireeye.com
@@ -1973,6 +1986,7 @@ www.access.ork.selabs.fireeye.com
 www.access.ork.training.fireeye.com
 www.access.sfo.selabs.fireeye.com
 www.access.sfo.training.fireeye.com
+www.ahatest.fireeye.com
 www.aiws-dev3.fireeye.com
 www.aiws-dev4.fireeye.com
 www.aiws-dev5.fireeye.com
@@ -1998,10 +2012,12 @@ www.bmw-uat.fireeye.com
 www.bpsys.fireeye.com
 www.build-cloud.eng.fireeye.com
 www.cloud-stage.fireeye.com
+www.cloudservices.fireeye.com
 www.community.fireeye.com
 www.connect.fireeye.com
 www.console.ap.fireeye.com
 www.csportal.fireeye.com
+www.cyberark.fireeye.com
 www.dev-idp.fireeye.com
 www.dev.helix.us.fireeye.com
 www.docs.eng.fireeye.com
@@ -2025,6 +2041,8 @@ www.firelog.prod.services.fireeye.com
 www.fireproof.fireeye.com
 www.ghe.eng.fireeye.com
 www.healthcheck.fireeye.com
+www.helix.ap.fireeye.com
+www.helix.eu.fireeye.com
 www.identity.fireeye.com
 www.idp.ap.fireeye.com
 www.idp.fireeye.com
@@ -2033,12 +2051,16 @@ www.intranet.fireeye.com
 www.invotasdev.fireeye.com
 www.jarvis.flare.fireeye.com
 www.jira-sandbox.eng.fireeye.com
+www.jira.eng.fireeye.com
 www.labmanager.selabs.fireeye.com
 www.lifecare.fireeye.com
 www.magma.fireeye.com
 www.malwarebarn.fireeye.com
 www.map.flare.fireeye.com
 www.mcube.fireeye.com
+www.md.fireeye.com
+www.mddemo.fireeye.com
+www.mdstage.fireeye.com
 www.metrics-api.apps.fireeye.com
 www.mil.fireeye.com
 www.myaccounts-uat.fireeye.com
@@ -2053,13 +2075,17 @@ www.partners-vpn.fireeye.com
 www.partners.fireeye.com
 www.pkg.selabs.fireeye.com
 www.politemail.fireeye.com
+www.portal-dti.fireeye.com
 www.portal.ork.training.fireeye.com
 www.portal.sfo.training.fireeye.com
 www.proxy.flare.fireeye.com
 www.qa-idp.fireeye.com
+www.qa.api.darwin.test02-usw2.apps.fireeye.com
+www.rat.eng.fireeye.com
 www.remotesupport.fireeye.com
 www.rm.fireeye.com
 www.schema.ap.fireeye.com
+www.secretserver.fireeye.com
 www.servicedesk.fireeye.com
 www.sfb-inba-webext.fireeye.com
 www.sfb-irco-webext.fireeye.com
@@ -2074,6 +2100,7 @@ www.sfo.selabs.fireeye.com
 www.sjc.training.fireeye.com
 www.sjc1-corp-nx01-ssl.fireeye.com
 www.smf-infr-splunk-srch-prod-1.cso.fireeye.com
+www.srv-aedb-sbc.fireeye.com
 www.srv-defr-sbc.fireeye.com
 www.srv-inba-adir2.fireeye.com
 www.srv-inba-dc01e.fireeye.com
@@ -2088,6 +2115,7 @@ www.srv-usmi-sbc.fireeye.com
 www.srv-usva-adir2.fireeye.com
 www.srv-usva-ecn01.fireeye.com
 www.srv-usva-sbc.fireeye.com
+www.staging.helix.eu.fireeye.com
 www.staging.intelligence.fireeye.com
 www.staticunity.fireeye.com
 www.stg-idp.fireeye.com
@@ -2095,6 +2123,7 @@ www.sts.fireeye.com
 www.swarm.eng.fireeye.com
 www.syd-vpn.fireeye.com
 www.test.fireeye.com
+www.testlink.eng.fireeye.com
 www.testrail.eng.fireeye.com
 www.tfs.fireeye.com
 www.tyo.selabs.fireeye.com
@@ -2104,6 +2133,8 @@ www.virtuallabs.fireeye.com
 www.vochat.glb.fireeye.com
 www.vpneng-blr.fireeye.com
 www.vpneng-east.fireeye.com
+www.vpneng-i.fireeye.com
+www.vpneng-sca.fireeye.com
 www.webanalytics.fireeye.com
 www.whitelist.fireeye.com
 www.wiki-sandbox.eng.fireeye.com
