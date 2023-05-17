@@ -1,3 +1,10 @@
-new,host,a,soa,status_code,cdn,cdn-name
-[x],build.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure
-[x],genasys.tech,,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,,
+new,host,a,soa,status_code,cdn,cdn-name,ns,txt,cname,mx
+[x],mail.blangyimmobilier.fr,91.216.107.237,"ns1.lws-hosting.biz, hostmaster.blangyimmobilier.fr",NOERROR,,,,,,
+[x],mail.yooupshop.hu,185.111.89.224,"ns1.tarhelypark.hu, cpanel-alert.ezit.hu",NOERROR,,,,,,
+[x],www.blangyimmobilier.fr,"193.37.145.67, 91.216.107.237","ns1.lws-hosting.biz, hostmaster.blangyimmobilier.fr",NOERROR,,,"ns2.lws-hosting.biz, ns1.lws-hosting.biz",,blangyimmobilier.fr,mail.blangyimmobilier.fr
+[x],www.yooupshop.hu,185.187.73.57,"ns0.unas.eu, domain.unas.eu",NOERROR,,,"ns1.unas.eu, ns0.unas.eu",,upstore.unas.hu,mail.upstore.unas.hu
+,build-temp.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,,,
+,build-test.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,,,
+,build.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,,,
+,genasys.tech,"129.232.249.177, 169.239.219.110, 169.239.216.110, 51.195.136.240, 156.38.246.4","ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,,,"ns3.tld-ns.net, ns4.tld-ns.com, ns1.tld-ns.net, ns2.tld-ns.com","MS=ms12378053, detectify-verification=735b12311a5d5fd2f1edded33b8f077f",,
+,portal.genasys.tech,102.133.132.134,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,Probely=2d97371a-b8be-4e13-b37c-19ef913cfda1,,
