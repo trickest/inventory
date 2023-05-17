@@ -1,24 +1,31 @@
-new,host,a,soa,ns,has_internal_ips,internal_ips,status_code,cdn,cdn-name,cname,txt,caa,mx,aaaa
-,a.sales.range.co,34.149.61.18,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",,,,NOERROR,True,google,www.aptracking1.com,"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/leadgenie/tracking-api-rails",,,
-,admin.back.range.co,10.1.2.32,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,True,10.1.2.32,NOERROR,,,,,,,
-,admin.range.co,"13.32.121.67, 13.32.121.103, 13.32.121.40, 13.32.121.114","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,consumer.back.range.co,"10.1.1.81, 10.1.2.65","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,True,"10.1.1.81, 10.1.2.65",NOERROR,,,,,,,
-,d.sales.range.co,"18.209.131.43, 54.85.128.104, 18.235.9.115","ns-834.awsdns-40.net, awsdns-hostmaster.amazon.com",,,,NOERROR,,,custom-tracking.salesloft.com,,"digicert.com, letsencrypt.org, pki.goog, comodoca.com",,
-,faq.range.co,"99.84.208.92, 99.84.208.61, 99.84.208.66, 99.84.208.106","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,gfx.range.co,"13.32.99.17, 13.32.99.39, 13.32.99.97, 13.32.99.9","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,go.range.co,"13.32.27.62, 13.32.27.91, 13.32.27.109, 13.32.27.111","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,help.range.co,"18.66.112.49, 18.66.112.105, 18.66.112.80, 18.66.112.7","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,icebreaker.back.range.co,"10.1.3.115, 10.1.1.8","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,True,"10.1.3.115, 10.1.1.8",NOERROR,,,,,,,
-,icebreaker.range.co,"13.227.219.37, 13.227.219.60, 13.227.219.69, 13.227.219.87","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,in.range.co,"54.210.126.186, 54.211.197.30, 44.195.218.233","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,,,,,,,
-,leadtime.range.co,"104.18.22.42, 104.18.23.42","james.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,leadtime.circle.so,,,,"2606:4700::6812:172a, 2606:4700::6812:162a"
-,msteams.range.co,"143.204.215.52, 143.204.215.15, 143.204.215.109, 143.204.215.46","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,MS=ms69642511,,,
-,mta-sts.range.co,"108.157.214.92, 108.157.214.63, 108.157.214.58, 108.157.214.25","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,nlp.back.range.co,10.1.3.194,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com","ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",True,10.1.3.194,NOERROR,,,,,,,
-,o1.ptr5640.range.co,149.72.50.24,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com","ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",,,NOERROR,,,,,,,
-,policy.range.co,"18.66.97.60, 18.66.97.13, 18.66.97.127, 18.66.97.99","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,range.co,"143.204.215.15, 143.204.215.105, 143.204.215.25, 143.204.215.90","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com","ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",,,NOERROR,True,cloudfront,,"facebook-domain-verification=zwboivih5ckxvm5r3jwws5kphlnlf9, google-site-verification=1L058XFel48KAAhxxIMgEoLwTFU4sgy_JuHrH5vas8A, google-site-verification=BDofLRQSKB0SjJuqztRKN4viKqTAMovcqEr1jFxoFeM, v=spf1 include:emsd1.com include:sendgrid.net include:_spf.google.com include:amazonses.com include:20958872.spf10.hubspotemail.net -all","amazon.com, sectigo.com","aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com",
-,rt.range.co,"52.22.151.161, 3.215.241.1, 44.207.253.26","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com","ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",,,NOERROR,,,,,,,
-,seg-api.range.co,"108.156.60.44, 108.156.60.123, 108.156.60.8, 108.156.60.119","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com","ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",,,NOERROR,True,cloudfront,,,,,
-,www.range.co,"13.226.153.14, 13.226.153.120, 13.226.153.87, 13.226.153.79","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,True,cloudfront,,,,,
-,zoom.range.co,"18.213.97.93, 3.218.16.111, 34.226.228.63","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,,,NOERROR,,,,,,,
+new,host,a,soa,status_code,cname,mx,ns,txt,has_internal_ips,internal_ips,caa,cdn,cdn-name
+[x],admin.back.range.co,10.1.2.32,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,True,10.1.2.32,,,
+[x],admin.range.co,"13.32.121.114, 13.32.121.67, 13.32.121.103, 13.32.121.40","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],consumer.back.range.co,"10.1.2.65, 10.1.1.81","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,True,"10.1.2.65, 10.1.1.81",,,
+[x],d.sales.range.co,"18.209.131.43, 18.235.9.115, 54.85.128.104","ns-834.awsdns-40.net, awsdns-hostmaster.amazon.com",NOERROR,custom-tracking.salesloft.com,,,,,,"pki.goog, comodoca.com, digicert.com, letsencrypt.org",,
+[x],dashboard.oceanet.eu,80.74.79.72,"ns1.pulsation.fr, hostmaster.pulsation.fr",NOERROR,,,,,,,,,
+[x],faq.range.co,"99.84.208.106, 99.84.208.66, 99.84.208.61, 99.84.208.92","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],gfx.range.co,"99.84.191.92, 99.84.191.21, 99.84.191.17, 99.84.191.127","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],go.range.co,"13.32.27.62, 13.32.27.91, 13.32.27.109, 13.32.27.111","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],help.range.co,"18.66.112.80, 18.66.112.105, 18.66.112.49, 18.66.112.7","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],icebreaker.back.range.co,"10.1.3.115, 10.1.1.8","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,True,"10.1.3.115, 10.1.1.8",,,
+[x],icebreaker.range.co,,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],imprimeriemm-2.test.oceanet.eu,,"ns1.pulsation.fr, root.pulsation.fr",NOERROR,imprimeriemm-2.pulsation.fr,,,,,,,,
+[x],in.range.co,"54.211.197.30, 44.195.218.233, 54.210.126.186","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,,
+[x],labs.range.co,,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],ldap.oceanet.eu,80.74.67.83,"ns1.pulsation.fr, hostmaster.pulsation.fr",NOERROR,,,,,,,,,
+[x],leadtime.range.co,,"james.ns.cloudflare.com, dns.cloudflare.com",NOERROR,leadtime.circle.so,,,,,,,True,cloudflare
+[x],media.oceanet.eu,80.74.71.242,"ns1.pulsation.fr, hostmaster.pulsation.fr",NOERROR,,,,,,,,,
+[x],meet.range.co,"108.138.7.60, 108.138.7.15, 108.138.7.29, 108.138.7.79","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],msteams.range.co,"108.157.214.78, 108.157.214.127, 108.157.214.123, 108.157.214.46","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,MS=ms69642511,,,,True,cloudfront
+[x],mta-sts.range.co,,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],mysql.oceanet.eu,,"ns1.pulsation.fr, hostmaster.pulsation.fr",NOERROR,,,,,,,,,
+[x],nlp.back.range.co,10.1.3.194,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,True,10.1.3.194,,,
+[x],o1.ptr5640.range.co,,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,,
+[x],policy.range.co,,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],rt.range.co,"44.207.253.26, 52.22.151.161, 3.215.241.1","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,,
+[x],seg-cdn.range.co,"18.173.233.74, 18.173.233.24, 18.173.233.117, 18.173.233.100","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],shop.oceanet.eu,80.74.71.249,"ns1.pulsation.fr, hostmaster.pulsation.fr",NOERROR,,,,,,,,,
+[x],www.oceanet.eu,185.4.44.101,"ns1.pulsation.fr, hostmaster.pulsation.fr",NOERROR,oceanet.eu,oceanet-eu.mail.protection.outlook.com,"ns2.pulsation.fr, ns1.pulsation.fr, ns3.pulsation.fr","v=spf1 include:spf.protection.outlook.com ~all, MS=ms63987960, _globalsign-domain-verification=aEaKLIdfRwIWXDpA5ZOakLifow9EDuxt8iYHQTuin4",,,,,
+[x],www.range.co,"108.138.7.112, 108.138.7.23, 108.138.7.101, 108.138.7.42","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,cloudfront
+[x],zoom.range.co,"3.218.16.111, 18.213.97.93, 34.226.228.63","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,,
