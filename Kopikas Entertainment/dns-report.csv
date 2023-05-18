@@ -1,13 +1,13 @@
-new,host,a,soa,status_code,aaaa,cdn,cdn-name,mx,ns,txt,cname
-[x],affiliates.slots.io,185.103.217.110,"austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
-[x],aws.slots.io,"104.19.147.9, 104.19.146.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9209, 2606:4700::6813:9309",True,cloudflare,,,,
-[x],cdn.slots.io,"104.19.146.9, 104.19.147.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9209, 2606:4700::6813:9309",True,cloudflare,,,,
-[x],dashboard.slots.io,185.103.217.110,"austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
-[x],m.slots.io,185.103.217.110,"austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
-[x],monkey.slots.io,"104.19.147.9, 104.19.146.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9209, 2606:4700::6813:9309",True,cloudflare,,,,
-[x],partners.slots.io,"104.19.147.9, 104.19.146.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9309, 2606:4700::6813:9209",True,cloudflare,,,,
-[x],partnersapi.slots.io,"104.19.146.9, 104.19.147.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9309, 2606:4700::6813:9209",True,cloudflare,,,,
-[x],play.slots.io,"104.18.23.172, 104.18.22.172","hank.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6812:17ac, 2606:4700::6812:16ac",True,cloudflare,,,,play-slots-io.bf-cname-lpsrv.net
-[x],slots.io,"104.19.147.9, 104.19.146.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9209, 2606:4700::6813:9309",True,cloudflare,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com","dara.ns.cloudflare.com, austin.ns.cloudflare.com","uu9qRxXxvBnaPVtGNpdbMC, v=spf1 include:_spf.google.com ~all, google-site-verification=r6MrnEMQVLU-YfF6TEKhJuV1cFCABA59b4mtpGnvdck, google-site-verification=sB9WUbxVqpcfwFWJx1jsRe9LAkKLR5mb7-R5OLGM-Mw, google-site-verification=sD_qH0obCUnpRKTxaWo6NDyPeTg9LB1dOIv8kM1EkQM",
-[x],staging.slots.io,"104.19.147.9, 104.19.146.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9309, 2606:4700::6813:9209",True,cloudflare,,,,
-[x],staging2.slots.io,"104.19.146.9, 104.19.147.9","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6813:9309, 2606:4700::6813:9209",True,cloudflare,,,,
+new,host,a,aaaa,mx,soa,ns,txt,status_code,cdn,cdn-name,cname
+[x],affiliate.slots.io,185.103.217.110,,,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,,,
+[x],affiliates.slots.io,185.103.217.110,,,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,,,
+[x],cdn.slots.io,"104.19.146.9, 104.19.147.9","2606:4700::6813:9209, 2606:4700::6813:9309",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+[x],click.slots.io,"104.19.147.9, 104.19.146.9","2606:4700::6813:9209, 2606:4700::6813:9309",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+[x],m.slots.io,185.103.217.110,,,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,,,
+[x],monkey.slots.io,"104.19.146.9, 104.19.147.9","2606:4700::6813:9309, 2606:4700::6813:9209",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+[x],partners.slots.io,"104.19.146.9, 104.19.147.9","2606:4700::6813:9209, 2606:4700::6813:9309",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+[x],partnersapi.slots.io,"104.19.147.9, 104.19.146.9","2606:4700::6813:9209, 2606:4700::6813:9309",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+[x],play.slots.io,"104.18.23.172, 104.18.22.172","2606:4700::6812:16ac, 2606:4700::6812:17ac",,"hank.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,play-slots-io.bf-cname-lpsrv.net
+[x],slots.io,"104.19.147.9, 104.19.146.9","2606:4700::6813:9209, 2606:4700::6813:9309","aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","austin.ns.cloudflare.com, dns.cloudflare.com","dara.ns.cloudflare.com, austin.ns.cloudflare.com","google-site-verification=sD_qH0obCUnpRKTxaWo6NDyPeTg9LB1dOIv8kM1EkQM, v=spf1 include:_spf.google.com ~all, google-site-verification=sB9WUbxVqpcfwFWJx1jsRe9LAkKLR5mb7-R5OLGM-Mw, uu9qRxXxvBnaPVtGNpdbMC, google-site-verification=r6MrnEMQVLU-YfF6TEKhJuV1cFCABA59b4mtpGnvdck",NOERROR,True,cloudflare,
+[x],staging.slots.io,"104.19.147.9, 104.19.146.9","2606:4700::6813:9209, 2606:4700::6813:9309",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
+[x],staging2.slots.io,"104.19.146.9, 104.19.147.9","2606:4700::6813:9309, 2606:4700::6813:9209",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,
