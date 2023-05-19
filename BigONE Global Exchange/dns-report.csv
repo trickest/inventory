@@ -1,17 +1,17 @@
-new,host,a,cname,soa,status_code,cdn,cdn-name,mx,ns,txt
-[x],big.one,"92.122.215.51, 92.122.215.8",,"a1-144.akam.net, hostmaster.big.one",NOERROR,,,"aspmx2.googlemail.com, aspmx3.googlemail.com, alt2.aspmx.l.google.com, aspmx.l.google.com, alt1.aspmx.l.google.com","a5-67.akam.net, a8-67.akam.net, a10-67.akam.net, a22-67.akam.net, a1-144.akam.net, a13-67.akam.net","google-site-verification=8Mdh-mfk888Hs9RFNrysE4X3ilOsSG-59QUrn9WflhI, k381kbzsynfdtrtnly2gsw0jgzvrs9zy, v=spf1 include:_spf.google.com -all"
-[x],bigone.com,"104.126.37.176, 104.126.37.145",,"a1-144.akam.net, hostmaster.bigone.com",NOERROR,,,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, aspmx2.googlemail.com, aspmx3.googlemail.com","a5-67.akam.net, a8-67.akam.net, a1-144.akam.net, a10-67.akam.net, a13-67.akam.net, a22-67.akam.net","k381kbzsynfdtrtnly2gsw0jgzvrs9zy, v=spf1 include:_spf.google.com -all, google-site-verification=Dsbf0kOcCDHVf-rpYPpiXwvbfUNer8fmrl8hAjOIpPA"
-[x],deposit.bigone.com,34.80.77.219,,"a1-144.akam.net, hostmaster.bigone.com",NOERROR,True,google,,,
-[x],eos.bigone.com,"2.23.7.32, 2.23.7.43","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],info-api.big.one,104.126.37.145,"b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],info-api.bigone.com,104.126.37.145,"b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],info.bigone.com,"2.16.241.86, 2.16.241.72","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],one.bigone.com,"92.122.215.51, 92.122.215.8","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],open.big.one,"23.12.147.173, 23.12.147.165","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],open.bigone.com,104.126.37.145,"b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],otc.big.one,104.126.37.145,"b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],otc.bigone.com,"2.18.63.16, 2.18.63.42","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],www.big.one,,"b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-[x],www.bigone.com,"2.23.7.32, 2.23.7.43","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,
-,bigbones4.cb.kount.com,195.46.39.1,,,NOERROR,,,,,
-,bigmoney.odoo.com,141.94.74.34,,"ns0.odoo.com, admin.odoo.com",NOERROR,,,,,
+new,host,a,cname,soa,status_code,mx,ns,txt
+,api.big.one,"23.213.161.205, 23.213.161.197","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,big.one,"92.122.215.51, 92.122.215.8",,"a1-144.akam.net, hostmaster.big.one",NOERROR,"aspmx.l.google.com, aspmx2.googlemail.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, aspmx3.googlemail.com","a8-67.akam.net, a22-67.akam.net, a5-67.akam.net, a10-67.akam.net, a13-67.akam.net, a1-144.akam.net","k381kbzsynfdtrtnly2gsw0jgzvrs9zy, v=spf1 include:_spf.google.com -all, google-site-verification=8Mdh-mfk888Hs9RFNrysE4X3ilOsSG-59QUrn9WflhI"
+,bigmoney.odoo.com,141.94.74.34,,"ns0.odoo.com, admin.odoo.com",NOERROR,,,
+,bigone.com,"23.213.161.197, 23.213.161.205",,"a1-144.akam.net, hostmaster.bigone.com",NOERROR,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, aspmx2.googlemail.com, aspmx3.googlemail.com","a5-67.akam.net, a8-67.akam.net, a1-144.akam.net, a10-67.akam.net, a13-67.akam.net, a22-67.akam.net","k381kbzsynfdtrtnly2gsw0jgzvrs9zy, v=spf1 include:_spf.google.com -all, google-site-verification=Dsbf0kOcCDHVf-rpYPpiXwvbfUNer8fmrl8hAjOIpPA"
+,eos.bigone.com,"95.101.111.138, 95.101.111.155","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,info-api.big.one,"96.16.54.179, 96.16.54.171","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,info-api.bigone.com,"92.122.215.8, 92.122.215.51","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,info.big.one,"92.122.215.51, 92.122.215.8","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,info.bigone.com,"23.43.58.168, 23.43.58.152","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,one.bigone.com,"23.53.43.34, 23.53.43.90","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,open.big.one,"23.213.161.205, 23.213.161.197","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,open.bigone.com,"104.126.37.152, 104.126.37.145","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,otc.big.one,,"b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,otc.bigone.com,"2.16.187.97, 2.16.187.32","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,www.big.one,"96.16.54.171, 96.16.54.179","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
+,www.bigone.com,"2.16.187.97, 2.16.187.32","b1.run.edgekey.net, e38332.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,
