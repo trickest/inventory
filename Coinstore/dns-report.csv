@@ -1,0 +1,17 @@
+new,host,a,cname,mx,soa,txt,caa,status_code,has_internal_ips,internal_ips,ns,cdn,cdn-name,aaaa
+,api-futures.coinstore.com,10.244.11.58,coinstore-inner-7baadc7bae00a360.elb.ap-northeast-1.amazonaws.com,,"ns-660.awsdns-18.net, awsdns-hostmaster.amazon.com",,,NOERROR,True,10.244.11.58,,,,
+,autodiscover.coinstore.com,"52.98.229.136, 40.99.148.104, 52.98.240.24","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,"ns1-ms-acdc.office.com, hostmaster.microsoft.com",,,NOERROR,,,,,,"2603:1026:c0e:863::8, 2603:1026:c0e:873::8, 2603:1026:c0e:34::8"
+,coinstore.com,"18.160.18.31, 18.160.18.115, 18.160.18.122, 18.160.18.5, 205.251.193.199, 205.251.194.78, 205.251.196.86, 205.251.198.64",,coinstore-com.mail.eo.outlook.com,"ns-1600.awsdns-08.co.uk, awsdns-hostmaster.amazon.com",v=spf1 include:spf.protection.outlook.com include:mxsspf.sendpulse.com include:mail.zendesk.com -all,,NOERROR,,,"ns-590.awsdns-09.net, ns-455.awsdns-56.com, ns-1600.awsdns-08.co.uk, ns-1110.awsdns-10.org",True,cloudfront,
+,conf.coinstore.com,10.244.11.58,coinstore-inner-7baadc7bae00a360.elb.ap-northeast-1.amazonaws.com,,"ns-660.awsdns-18.net, awsdns-hostmaster.amazon.com",,,NOERROR,True,10.244.11.58,,,,
+,futures-inner.coinstore.com,10.244.11.58,coinstore-inner-7baadc7bae00a360.elb.ap-northeast-1.amazonaws.com,,"ns-660.awsdns-18.net, awsdns-hostmaster.amazon.com",,,NOERROR,True,10.244.11.58,,,,
+,futures.coinstore.com,"104.18.18.83, 104.18.19.83",futures.coinstore.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,NOERROR,,,,True,cloudflare,"2606:4700::6812:1253, 2606:4700::6812:1353"
+,h5.coinstore.com,"104.18.18.83, 104.18.19.83",h5.coinstore.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,NOERROR,,,,True,cloudflare,"2606:4700::6812:1353, 2606:4700::6812:1253"
+,imap.coinstore.com,,"imap.mxhichina.com, imap.qiye.aliyun.com",,"ns1.alibabadns.com, hostmaster.alibabadns.com",,,NOERROR,,,,,,
+,partner.coinstore.com,"104.18.18.83, 104.18.19.83",partner.coinstore.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,NOERROR,,,,True,cloudflare,"2606:4700::6812:1253, 2606:4700::6812:1353"
+,pop3.coinstore.com,47.246.146.57,"pop3.mxhichina.com, pop.qiye.aliyun.com",,"ns1.alibabadns.com, hostmaster.alibabadns.com",,,NOERROR,,,,,,
+,smtp.coinstore.com,47.246.146.57,"smtp.mxhichina.com, smtp.qiye.aliyun.com",,"ns1.alibabadns.com, hostmaster.alibabadns.com",,,NOERROR,,,,,,
+,sp-track.coinstore.com,,track.sptracki.com,,"ns-1689.awsdns-19.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,,,,,,
+,stat.coinstore.com,,"track.stat-pulse.com, pr.sendpulse.com",,"ns-181.awsdns-22.com, awsdns-hostmaster.amazon.com",,,NOERROR,,,,,,
+,support.coinstore.com,"54.144.236.172, 52.207.46.48, 18.235.72.125, 54.167.39.237, 52.72.100.244",fdus-lb73-d43.freshdesk.com,"mxa.freshdesk.com, mxb.freshdesk.com","ns-350.awsdns-43.com, awsdns-hostmaster.amazon.com",v=spf1 include:sendgrid.net include:mailgun.org ~all,"amazontrust.com, digicert.com, letsencrypt.org",NOERROR,,,,,,
+,ws-futures.coinstore.com,"104.18.18.83, 104.18.19.83",ws-futures.coinstore.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,NOERROR,,,,True,cloudflare,"2606:4700::6812:1353, 2606:4700::6812:1253"
+,ws.coinstore.com,"104.18.19.83, 104.18.18.83",ws.coinstore.com.cdn.cloudflare.net,,"ns1.cloudflare.net, dns.cloudflare.com",,,NOERROR,,,,True,cloudflare,
