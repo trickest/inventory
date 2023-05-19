@@ -1,9 +1,8 @@
-new,host,a,cname,soa,ns,status_code,cdn,cdn-name,mx,txt
-[x],blog.observu.com,37.48.122.137,,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,
-[x],bounces.observu.com,,sparkpostmail.com,"ns-1855.awsdns-39.co.uk, awsdns-hostmaster.amazon.com","ns-1855.awsdns-39.co.uk, ns-304.awsdns-38.com, ns-775.awsdns-32.net, ns-1361.awsdns-42.org",NOERROR,,,smtp.sparkpostmail.com,"v=spf1 exists:%{i}._spf.sparkpostmail.com ~all, 202302022219254qla4yzx4awoxw73s19xih2o24lp6tgsj8j3sdxwoboq1lpkyr, google-site-verification=yCMV3z3BhBaINi0V033HnfTi9xkQjpIZ4DM4ywSlwUs"
-[x],do-lnd-checker-1.servers.observu.com,159.65.84.76,,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,
-[x],do-nyc-checker-1.servers.observu.com,162.243.25.107,,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,
-[x],m.observu.com,,,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,
-[x],observu.com,52.45.110.95,,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com","ns-69.awsdns-08.com, ns-895.awsdns-47.net, ns-1526.awsdns-62.org, ns-1737.awsdns-25.co.uk",NOERROR,,,"alt2.aspmx.l.google.com, aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com","v=spf1 a mx include:_spf.google.com  -all, google-site-verification=27eKYsaLAsBo-vwZyXSPBwx2T0C4ZavosEq064GMSHM"
-[x],static.test.observu.com,"13.32.207.66, 13.32.207.203, 13.32.207.192, 13.32.207.186, 205.251.192.9, 205.251.195.10, 205.251.196.147, 205.251.199.208",d2xp7jxzfz0t6z.cloudfront.net,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com","ns-778.awsdns-33.net, ns-9.awsdns-01.com, ns-2000.awsdns-58.co.uk, ns-1171.awsdns-18.org",NOERROR,True,cloudfront,,
-[x],www.observu.com,52.45.110.95,,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,
+new,host,a,soa,status_code,mx,ns,txt,cname,cdn,cdn-name
+[x],blog.observu.com,37.48.122.137,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
+[x],bounces.observu.com,,"ns-1855.awsdns-39.co.uk, awsdns-hostmaster.amazon.com",NOERROR,smtp.sparkpostmail.com,"ns-775.awsdns-32.net, ns-304.awsdns-38.com, ns-1855.awsdns-39.co.uk, ns-1361.awsdns-42.org","v=spf1 exists:%{i}._spf.sparkpostmail.com ~all, 202302022219254qla4yzx4awoxw73s19xih2o24lp6tgsj8j3sdxwoboq1lpkyr, google-site-verification=yCMV3z3BhBaINi0V033HnfTi9xkQjpIZ4DM4ywSlwUs",sparkpostmail.com,,
+[x],do-lnd-checker-1.servers.observu.com,159.65.84.76,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
+[x],do-nyc-checker-1.servers.observu.com,162.243.25.107,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
+[x],observu.com,"52.45.110.95, 205.251.192.69, 205.251.195.127, 205.251.197.246, 205.251.198.201","ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,"alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, aspmx.l.google.com","ns-69.awsdns-08.com, ns-1737.awsdns-25.co.uk, ns-1526.awsdns-62.org, ns-895.awsdns-47.net","v=spf1 a mx include:_spf.google.com  -all, google-site-verification=27eKYsaLAsBo-vwZyXSPBwx2T0C4ZavosEq064GMSHM",,,
+[x],static.test.observu.com,"99.86.1.177, 99.86.1.38, 99.86.1.39, 99.86.1.81","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,"ns-9.awsdns-01.com, ns-778.awsdns-33.net, ns-1171.awsdns-18.org, ns-2000.awsdns-58.co.uk",,d2xp7jxzfz0t6z.cloudfront.net,True,cloudfront
+[x],www.observu.com,52.45.110.95,"ns-1526.awsdns-62.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
