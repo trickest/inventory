@@ -1,16 +1,13 @@
-new,host,a,cname,soa,status_code,aaaa,cdn,cdn-name,ns
-[x],about.core.app,"188.114.96.3, 188.114.97.3",,"nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2a06:98c1:3121::4, 2a06:98c1:3120::4",True,cloudflare,
-[x],extension.core.app,"188.114.97.0, 188.114.96.0",,"nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2a06:98c1:3120::, 2a06:98c1:3121::",True,cloudflare,
-[x],fide.core.app,"34.251.201.224, 34.253.101.190, 54.194.170.100","proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com","ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,,,
-[x],mobile.core.app,"54.194.170.100, 34.253.101.190, 34.251.201.224","proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com","ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,,,
-[x],test.core.app,"188.114.96.3, 188.114.97.3",,"nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2a06:98c1:3121::3, 2a06:98c1:3120::3",True,cloudflare,
-,core.app.sbb.ch,"18.197.58.9, 18.195.246.209, 35.157.192.67",,"ns-1304.awsdns-35.org, awsdns-hostmaster.amazon.com",NOERROR,,,,
-,encore.app-content.muslimpro.com,"192.0.78.128, 192.0.78.233",app-content.muslimpro.com,"ns1.wordpress.com, hostmaster.wordpress.com",NOERROR,,,,"ns2.wordpress.com, ns3.wordpress.com, ns1.wordpress.com"
-,fwitecore.app.fwandbox.directly.com,"52.7.171.31, 3.223.245.124, 34.239.229.38, 52.2.135.177",,"ns-1903.awsdns-45.co.uk, awsdns-hostmaster.amazon.com",NOERROR,,,,
-,jira-core.app-content.muslimpro.com,"192.0.78.233, 192.0.78.128",app-content.muslimpro.com,"ns1.wordpress.com, hostmaster.wordpress.com",NOERROR,,,,
-,monolith-qa-core-apps.linktr.ee,"44.230.124.9, 35.82.116.172, 34.215.77.78",,"ns-634.awsdns-15.net, awsdns-hostmaster.amazon.com",NOERROR,,,,"ns-1534.awsdns-63.org, ns-169.awsdns-21.com, ns-1782.awsdns-30.co.uk, ns-634.awsdns-15.net"
-,repost-core.app-content.muslimpro.com,"192.0.78.233, 192.0.78.128",app-content.muslimpro.com,"ns1.wordpress.com, hostmaster.wordpress.com",NOERROR,,,,"ns3.wordpress.com, ns2.wordpress.com, ns1.wordpress.com"
-,rest-core.app.opsgenie.com,"185.166.143.33, 185.166.143.35, 185.166.143.34",,"ns-988.awsdns-59.net, awsdns-hostmaster.amazon.com",NOERROR,,,,
-,rsa-concierge-cmacore.apple.com,17.137.160.151,rsa-concierge-cmacore.v.aaplimg.com,"a.gslb.aaplimg.com, hostmaster.apple.com",NOERROR,,,,
-,sitecore.app.acorns.com,"18.66.122.128, 18.66.122.104, 18.66.122.111, 18.66.122.27",,"ns-119.awsdns-14.com, awsdns-hostmaster.amazon.com",NOERROR,,True,cloudfront,
-,sitecore.app.sandbox.directly.com,"3.224.175.215, 52.0.241.167, 35.168.33.143, 3.232.232.251",,"ns-1903.awsdns-45.co.uk, awsdns-hostmaster.amazon.com",NOERROR,,,,
+new,host,a,soa,status_code,aaaa,cdn,cdn-name,cname,ns,txt
+,com.topjohnwu.magisk.core.app,,,NOERROR,,,,,,
+,core.app,"188.114.96.3, 188.114.97.3","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,True,cloudflare,,,v=spf1 -all
+,core.app.speakap.io,83.149.119.27,"ns-1318.awsdns-36.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
+,extension.core.app,"188.114.96.13, 188.114.97.13","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2a06:98c1:3120::d, 2a06:98c1:3121::d",True,cloudflare,,,
+,fwitecore.app.fwandbox.directly.com,"3.224.10.216, 52.200.227.66, 44.213.34.225, 34.196.71.173","ns-1903.awsdns-45.co.uk, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
+,jira-core.app-content.muslimpro.com,"192.0.78.233, 192.0.78.128","ns1.wordpress.com, hostmaster.wordpress.com",NOERROR,,,,app-content.muslimpro.com,"ns3.wordpress.com, ns1.wordpress.com, ns2.wordpress.com",
+,ledcore.apple.com,99.30.83.65,"usmsc2-extxfr-001.dns.apple.com, hostmaster.apple.com",NOERROR,,,,,,
+,mobile.core.app,"54.194.170.100, 34.253.101.190, 34.251.201.224","ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,,,"proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com",,
+,monolith-qa-core-apps.linktr.ee,"44.230.124.9, 35.82.116.172, 34.215.77.78","ns-634.awsdns-15.net, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
+,rsa-concierge-cmacore.apple.com,17.137.160.151,"a.gslb.aaplimg.com, hostmaster.apple.com",NOERROR,,,,rsa-concierge-cmacore.v.aaplimg.com,,
+,sitecore.app.acorns.com,"13.227.219.79, 13.227.219.93, 13.227.219.59, 13.227.219.7","ns-119.awsdns-14.com, awsdns-hostmaster.amazon.com",NOERROR,,True,cloudfront,,,
+,test.core.app,"104.21.12.166, 172.67.152.207","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700:3035::6815:ca6, 2606:4700:3031::ac43:98cf",True,cloudflare,,,
