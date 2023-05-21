@@ -1,25 +1,34 @@
-new,host,a,cname,soa,caa,status_code,aaaa,cdn,cdn-name
-,academy.difx.com,"172.66.43.159, 172.66.40.97",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f",True,cloudflare
-,admin-api.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,admin-test-api.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,api-docs.difx.com,"3.221.32.21, 75.101.167.250, 54.173.9.218",phs.getpostman.com,"ns-833.awsdns-40.net, awsdns-hostmaster.amazon.com",letsencrypt.org,NOERROR,,,
-,api-v2.difx.com,"172.66.43.159, 172.66.40.97",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f",True,cloudflare
-,app.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,apptest.difx.com,"172.66.43.159, 172.66.40.97",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f",True,cloudflare
-,autodiscover.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,blog.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",amazontrust.com,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,buybtc.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,docs.difx.com,"172.66.43.159, 172.66.40.97",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f",True,cloudflare
-,help.difx.com,"188.114.98.229, 188.114.99.229",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2a06:98c1:3123:e000::5, 2a06:98c1:3122:e000::5",True,cloudflare
-,lyncdiscover.difx.com,"188.114.99.229, 188.114.98.229",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2a06:98c1:3122:e000::5, 2a06:98c1:3123:e000::5",True,cloudflare
-,msoid.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f",True,cloudflare
-,prod.difx.com,,,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,,,
-,public-api.difx.com,,,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,,True,cloudflare
-,requests.difx.com,44.214.112.154,cname.canny.io,"ns-669.awsdns-19.net, awsdns-hostmaster.amazon.com",,NOERROR,2600:1f18:421f:6301:493d:b059:8519:ba82,,
-,spotdev.difx.com,"76.76.21.241, 76.76.21.98",cname.vercel-dns.com,"dns1.p07.nsone.net, hostmaster.nsone.net","letsencrypt.org, globalsign.com, sectigo.com",NOERROR,,,
-,staging-api.difx.com,"172.66.43.159, 172.66.40.97",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,staging-v2.difx.com,,,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,,,
-,staging.difx.com,"76.76.21.164, 76.76.21.9",cname.vercel-dns.com,"dns1.p07.nsone.net, hostmaster.nsone.net","letsencrypt.org, globalsign.com, sectigo.com",NOERROR,,,
-,terminal.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861",True,cloudflare
-,test-api.difx.com,,,"jobs.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f",True,cloudflare
-,www.difx.com,"76.76.21.22, 76.76.21.61",cname.vercel-dns.com,"dns1.p07.nsone.net, hostmaster.nsone.net","letsencrypt.org, sectigo.com, globalsign.com",NOERROR,,,
+new,host,a,aaaa,soa,status_code,cdn,cdn-name,cname,caa,mx,ns,txt
+,academy.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,admin-api.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,admin-test-api.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,api-docs.difx.com,"54.173.9.218, 75.101.167.250, 3.221.32.21",,"ns-833.awsdns-40.net, awsdns-hostmaster.amazon.com",NOERROR,,,phs.getpostman.com,letsencrypt.org,,,
+,api-v2.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,api.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,app-admin.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,app-docs.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,app.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,apptest.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,autodiscover.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,blog.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,amazontrust.com,,,
+,buybtc.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,difx.com,,,,NOERROR,,,,"amazontrust.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes","aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","jobs.ns.cloudflare.com, liz.ns.cloudflare.com","IR-640ef8ea54b8cc5c7dfaddd6d27ac2f32316b8f290ad7e7f45816147ebfc08c6, MS=ms55613660, google-site-verification=4FkUn-_F-PLsrn6PV8OZWnZ77ldJUY2BkRswhc5J0e0, google-site-verification=lPwXqSXK8m6fTQWK86Se4xhchnh7BLJ99qT2SIGS6EQ, google-site-verification=zYoSoZaztP_QC5KX4rpIAmciNai29atuHT0xdl7Lmwk, postman-domain-verification=3c4973bbd571876b84c1fc036560298a05cc64058c1a671e480d42d2b73c41c25ddd63e08a882d14e3ca0d785e1c4429b9ae4dcf546bbe65c29c3c7aafa2ec59, v=spf1 include:_spf.google.com ~all"
+,docs.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,futuredev.difx.com,"76.76.21.241, 76.76.21.9",,"dns1.p07.nsone.net, hostmaster.nsone.net",NOERROR,,,cname.vercel-dns.com,"sectigo.com, globalsign.com, letsencrypt.org",,,
+,futures.difx.com,"76.76.21.9, 76.76.21.241",,"dns1.p07.nsone.net, hostmaster.nsone.net",NOERROR,,,cname.vercel-dns.com,"letsencrypt.org, sectigo.com, globalsign.com",,,
+,help.difx.com,"188.114.99.229, 188.114.98.229","2a06:98c1:3123:e000::5, 2a06:98c1:3122:e000::5","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,lyncdiscover.difx.com,"188.114.98.229, 188.114.99.229","2a06:98c1:3122:e000::5, 2a06:98c1:3123:e000::5","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,media.difx.com,"172.66.40.97, 172.66.43.159",,"jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,mm.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,msoid.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,prod.difx.com,,,"jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,public-api.difx.com,"172.66.43.159, 172.66.40.97",,"jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,public-staging-api.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,requests.difx.com,44.214.112.154,2600:1f18:421f:6301:493d:b059:8519:ba82,"ns-669.awsdns-19.net, awsdns-hostmaster.amazon.com",NOERROR,,,cname.canny.io,,,,
+,spotdev.difx.com,"76.76.21.61, 76.76.21.142",,"dns1.p07.nsone.net, hostmaster.nsone.net",NOERROR,,,cname.vercel-dns.com,"sectigo.com, letsencrypt.org, globalsign.com",,,
+,staging-api.difx.com,"172.66.43.159, 172.66.40.97","2606:4700:3108::ac42:2861, 2606:4700:3108::ac42:2b9f","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,staging-v2.difx.com,,,"jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,staging.difx.com,"76.76.21.164, 76.76.21.22",,"dns1.p07.nsone.net, hostmaster.nsone.net",NOERROR,,,cname.vercel-dns.com,"letsencrypt.org, globalsign.com, sectigo.com",,,
+,terminal.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,test-api.difx.com,"172.66.40.97, 172.66.43.159","2606:4700:3108::ac42:2b9f, 2606:4700:3108::ac42:2861","jobs.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,www.difx.com,"76.76.21.9, 76.76.21.93",,"dns1.p07.nsone.net, hostmaster.nsone.net",NOERROR,,,cname.vercel-dns.com,"globalsign.com, letsencrypt.org, sectigo.com",,,
