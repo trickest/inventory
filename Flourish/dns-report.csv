@@ -1,8 +1,11 @@
-new,host,a,soa,status_code,cdn,cdn-name,mx,txt,cname,ns,caa
-,app.flourish.studio,"52.212.12.211, 63.32.21.139, 34.250.31.231","ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",NOERROR,,,"mxb.mailgun.org, mxa.mailgun.org",google-site-verification=KH6Srri6nbkbSkz9RNSTiH4zHsKxsByhjC2h9IGOy4Y,,,
-,demos.flourish.studio,,"ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
-,email.flourish.studio,34.110.180.34,"ns-586.awsdns-09.net, awsdns-hostmaster.amazon.com",NOERROR,True,google,"mxb.mailgun.org, mxa.mailgun.org","v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all, google-site-verification=FIGVOKZm6lQFDBJaiC2DdwvBy8TInunoGCt-1gnL4PA, 8f7088gv5932jxw9lwwd1b6ttx2pw2ds",mailgun.org,"ns-586.awsdns-09.net, ns-1482.awsdns-57.org, ns-1614.awsdns-09.co.uk, ns-133.awsdns-16.com","letsencrypt.org, digicert.com, ;"
-,help.flourish.studio,"50.16.45.169, 3.217.36.96, 54.81.149.43","ns-1428.awsdns-50.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,flourish-kiln.helpscoutdocs.com,,letsencrypt.org
-,icons.flourish.studio,"13.249.39.106, 13.249.39.5, 13.249.39.8, 13.249.39.123","ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
-,public.dev.flourish.studio,"18.155.129.7, 18.155.129.31, 18.155.129.3, 18.155.129.126","ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
-,tempfiles201706.flourish.studio,"52.222.174.104, 52.222.174.98, 52.222.174.36, 52.222.174.21","ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+new,host,a,mx,soa,txt,status_code,cdn,cdn-name,aaaa,cname,caa,ns
+,app.flourish.studio,"63.32.21.139, 52.30.186.127, 34.250.31.231","mxb.mailgun.org, mxa.mailgun.org","ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",google-site-verification=KH6Srri6nbkbSkz9RNSTiH4zHsKxsByhjC2h9IGOy4Y,NOERROR,,,,,,
+,developers.flourish.studio,"52.222.214.66, 52.222.214.17, 52.222.214.21, 52.222.214.56",,"ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,"2600:9000:223d:4000:a:c3c:c80:93a1, 2600:9000:223d:9e00:a:c3c:c80:93a1, 2600:9000:223d:ae00:a:c3c:c80:93a1, 2600:9000:223d:8200:a:c3c:c80:93a1, 2600:9000:223d:c00:a:c3c:c80:93a1, 2600:9000:223d:f200:a:c3c:c80:93a1, 2600:9000:223d:1c00:a:c3c:c80:93a1, 2600:9000:223d:ec00:a:c3c:c80:93a1",,,
+,fonts.xyzbmojn.net,"104.21.88.81, 172.67.174.78",,"miki.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,True,cloudflare,"2606:4700:3033::ac43:ae4e, 2606:4700:3033::6815:5851",,,
+,help.flourish.studio,"3.218.35.185, 23.21.48.221, 34.225.25.191",,"ns-1428.awsdns-50.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,flourish-kiln.helpscoutdocs.com,letsencrypt.org,
+,icons.flourish.studio,"13.224.189.35, 13.224.189.82, 13.224.189.99, 13.224.189.112",,"ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+,tempfiles201706.flourish.studio,"108.157.214.9, 108.157.214.25, 108.157.214.75, 108.157.214.120",,"ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+,tiles.flourish.studio,"13.32.99.4, 13.32.99.52, 13.32.99.90, 13.32.99.9",,"ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+,training.flourish.studio,"35.169.200.225, 54.243.250.147",,"ns-1826.awsdns-36.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,,,,"flourish-training.thinkific.com, service-ingress-nlb-aa22054cc4e377d0.elb.us-east-1.amazonaws.com",,
+,www.flourish.studio,"13.226.153.95, 13.226.153.13, 13.226.153.119, 13.226.153.57",,"ns-1905.awsdns-46.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+,xyzbmojn.net,"104.21.88.81, 172.67.174.78",,"miki.ns.cloudflare.com, dns.cloudflare.com",v=spf1 -all,NOERROR,True,cloudflare,"2606:4700:3033::6815:5851, 2606:4700:3033::ac43:ae4e",,,"miki.ns.cloudflare.com, miles.ns.cloudflare.com"
