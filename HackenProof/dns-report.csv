@@ -1,18 +1,15 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,mx,ns,txt
-,blog.hackenproof.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,dashboard-dev.hackenproof.com,"188.114.96.3, 188.114.97.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,dev-legacy.hackenproof.com,"172.67.153.137, 104.21.90.58","2606:4700:3034::ac43:9989, 2606:4700:3031::6815:5a3a","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,dev.hackenproof.com,"188.114.96.13, 188.114.97.13","2a06:98c1:3120::d, 2a06:98c1:3121::d","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,faq.hackenproof.com,"188.114.97.0, 188.114.96.0","2a06:98c1:3120::, 2a06:98c1:3121::","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,grafana-dev.hackenproof.com,"188.114.96.0, 188.114.97.0","2a06:98c1:3121::, 2a06:98c1:3120::","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,hackenproof.com,"172.67.153.137, 104.21.90.58, 108.162.195.229, 162.159.44.229, 172.64.35.229, 108.162.192.244, 172.64.32.244, 173.245.58.244","2606:4700:3031::6815:5a3a, 2606:4700:3034::ac43:9989, 2606:4700:58::a29f:2ce5, 2803:f800:50::6ca2:c3e5, 2a06:98c1:50::ac40:23e5, 2606:4700:50::adf5:3af4, 2803:f800:50::6ca2:c0f4, 2a06:98c1:50::ac40:20f4","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"inbound-smtp.eu-west-1.amazonaws.com, alt2.aspmx.l.google.com, alt1.aspmx.l.google.com","ryan.ns.cloudflare.com, rihana.ns.cloudflare.com","v=spf1 include:_spf.google.com include:amazonses.com include:servers.mcsv.net -all, google-site-verification=ptzJ4qF4bH4yojzp5e_fJ-2I1Q-NtR2xbpZ0YEXXViQ, google-site-verification=hiB3GswWwgp-_0xTrpV9OcbNnj2zak0uDfSOHxwLC3A, google-site-verification=ePGLgL9GBX_aoglTWmSbOiULuq02uI2t_DPjD4oi_cU, google-site-verification=1UcG4zgfSmyE3NY1RX-ct7XdVvCXF5mXszLGT4yFQ1M"
-,jenkins-deploy-dev.hackenproof.com,"172.67.153.137, 104.21.90.58","2606:4700:3034::ac43:9989, 2606:4700:3031::6815:5a3a","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,resources.hackenproof.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,sc.hackenproof.com,"188.114.97.0, 188.114.96.0","2a06:98c1:3121::, 2a06:98c1:3120::","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,site1.hackenproof.com,"188.114.96.3, 188.114.97.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,site2.hackenproof.com,"172.67.153.137, 104.21.90.58","2a06:98c1:3120::3, 2a06:98c1:3121::3","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,stg.hackenproof.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,upload.hackenproof.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-,vps1.hackenproof.com,85.239.53.140,,"rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,
-,wp-euw1b.hackenproof.com,34.140.3.101,,"rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,google,,,
-,wp-euw1c.hackenproof.com,,,"rihana.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,google,,,
+new,host,a,aaaa,mx,soa,ns,txt,status_code,cdn,cdn-name
+,blog.hackenproof.com,"188.114.96.13, 188.114.97.13","2a06:98c1:3121::d, 2a06:98c1:3120::d",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,dashboard-stg.hackenproof.com,"188.114.97.3, 188.114.96.3","2606:4700:3034::ac43:9989, 2606:4700:3031::6815:5a3a",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,dev-legacy.hackenproof.com,"188.114.96.13, 188.114.97.13","2a06:98c1:3121::d, 2a06:98c1:3120::d",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,grafana-dev.hackenproof.com,"172.67.153.137, 104.21.90.58","2606:4700:3034::ac43:9989, 2606:4700:3031::6815:5a3a",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,hackenproof.com,"104.21.90.58, 172.67.153.137, 108.162.195.229, 162.159.44.229, 172.64.35.229, 108.162.192.244, 172.64.32.244, 173.245.58.244","2606:4700:3031::6815:5a3a, 2606:4700:3034::ac43:9989, 2606:4700:58::a29f:2ce5, 2803:f800:50::6ca2:c3e5, 2a06:98c1:50::ac40:23e5, 2606:4700:50::adf5:3af4, 2803:f800:50::6ca2:c0f4, 2a06:98c1:50::ac40:20f4","alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, inbound-smtp.eu-west-1.amazonaws.com","rihana.ns.cloudflare.com, dns.cloudflare.com","rihana.ns.cloudflare.com, ryan.ns.cloudflare.com","google-site-verification=1UcG4zgfSmyE3NY1RX-ct7XdVvCXF5mXszLGT4yFQ1M, google-site-verification=hiB3GswWwgp-_0xTrpV9OcbNnj2zak0uDfSOHxwLC3A, google-site-verification=ePGLgL9GBX_aoglTWmSbOiULuq02uI2t_DPjD4oi_cU, v=spf1 include:_spf.google.com include:amazonses.com include:servers.mcsv.net -all, google-site-verification=ptzJ4qF4bH4yojzp5e_fJ-2I1Q-NtR2xbpZ0YEXXViQ",NOERROR,True,cloudflare
+,jenkins-deploy-dev.hackenproof.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,resources.hackenproof.com,"188.114.96.0, 188.114.97.0","2a06:98c1:3120::, 2a06:98c1:3121::",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,site1.hackenproof.com,,,,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,site2.hackenproof.com,,"2606:4700:3034::ac43:9989, 2606:4700:3031::6815:5a3a",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,stg-legacy.hackenproof.com,"188.114.97.3, 188.114.96.3","2a06:98c1:3121::3, 2a06:98c1:3120::3",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,upload.hackenproof.com,"172.67.153.137, 104.21.90.58","2606:4700:3034::ac43:9989, 2606:4700:3031::6815:5a3a",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
+,vps1.hackenproof.com,,,,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,,
+,wp-euw1b.hackenproof.com,,,,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,google
+,www.hackenproof.com,"188.114.96.3, 188.114.97.3","2a06:98c1:3121::3, 2a06:98c1:3120::3",,"rihana.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare
