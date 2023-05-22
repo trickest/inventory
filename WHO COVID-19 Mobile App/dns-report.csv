@@ -1,17 +1,14 @@
-new,host,a,aaaa,cname,soa,status_code,mx,txt,cdn,cdn-name
-,calendar.whocoronavirus.org,142.250.186.179,2a00:1450:4001:801::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,docs.whocoronavirus.org,192.178.25.179,2a00:1450:401b:814::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,drive.whocoronavirus.org,142.250.184.211,2a00:1450:4001:827::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,hack.whocoronavirus.org,34.107.254.48,,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,,,True,google
-,hackerone.whocoronavirus.org,,,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,"alt4.aspmx.l.google.com, alt2.aspmx.l.google.com, alt1.aspmx.l.google.com, aspmx.l.google.com, alt3.aspmx.l.google.com",v=spf1 include:_spf.google.com ~all,,
-,mail.whocoronavirus.org,142.250.185.147,2a00:1450:4001:810::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,plus.whocoronavirus.org,142.250.185.147,2a00:1450:4001:810::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,prod-in-dev.whocoronavirus.org,34.107.217.184,,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,,,True,google
-,sites.whocoronavirus.org,172.253.115.121,2607:f8b0:4004:c1b::79,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,slides.whocoronavirus.org,142.250.185.147,2a00:1450:4001:810::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,staging-bruno.whocoronavirus.org,,,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com",v=spf1 include:_spf.google.com ~all,,
-,staging-ipv4.whocoronavirus.org,,,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,"alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, aspmx.l.google.com, alt3.aspmx.l.google.com",v=spf1 include:_spf.google.com ~all,,
-,staging-temp.whocoronavirus.org,,,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,"alt1.aspmx.l.google.com, aspmx.l.google.com, alt4.aspmx.l.google.com, alt3.aspmx.l.google.com, alt2.aspmx.l.google.com",v=spf1 include:_spf.google.com ~all,,
-,staging.whocoronavirus.org,34.120.61.253,,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,,,True,google
-,start.whocoronavirus.org,,2a00:1450:4001:801::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
-,vault.whocoronavirus.org,172.217.4.83,2607:f8b0:4009:805::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,,,,
+new,host,a,soa,status_code,cdn,cdn-name,aaaa,cname,mx,txt
+,calendar.whocoronavirus.org,142.250.185.147,"ns1.google.com, dns-admin.google.com",NOERROR,,,2a00:1450:4001:830::2013,ghs.googlehosted.com,,
+,docs.whocoronavirus.org,192.178.25.179,"ns1.google.com, dns-admin.google.com",NOERROR,,,2a00:1450:401b:814::2013,ghs.googlehosted.com,,
+,drive.whocoronavirus.org,172.217.18.19,"ns1.google.com, dns-admin.google.com",NOERROR,,,2a00:1450:4001:830::2013,ghs.googlehosted.com,,
+,hack.whocoronavirus.org,34.107.254.48,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,True,google,,,,
+,hackerone.whocoronavirus.org,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,,,,,"alt2.aspmx.l.google.com, aspmx.l.google.com, alt1.aspmx.l.google.com, alt4.aspmx.l.google.com, alt3.aspmx.l.google.com",v=spf1 include:_spf.google.com ~all
+,sites.whocoronavirus.org,172.253.115.121,"ns1.google.com, dns-admin.google.com",NOERROR,,,2607:f8b0:4004:c06::79,ghs.googlehosted.com,,
+,slides.whocoronavirus.org,142.250.185.147,"ns1.google.com, dns-admin.google.com",NOERROR,,,2a00:1450:4001:810::2013,ghs.googlehosted.com,,
+,staging-bruno.whocoronavirus.org,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,,,,,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com",v=spf1 include:_spf.google.com ~all
+,staging-ipv4.whocoronavirus.org,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,,,,,"alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt4.aspmx.l.google.com, alt3.aspmx.l.google.com, aspmx.l.google.com",v=spf1 include:_spf.google.com ~all
+,staging-temp.whocoronavirus.org,,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,,,,,"alt2.aspmx.l.google.com, alt1.aspmx.l.google.com, aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com",v=spf1 include:_spf.google.com ~all
+,staging.whocoronavirus.org,34.120.61.253,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,True,google,,,,
+,start.whocoronavirus.org,216.58.212.147,"ns1.google.com, dns-admin.google.com",NOERROR,,,2a00:1450:4001:828::2013,ghs.googlehosted.com,,
+,vault.whocoronavirus.org,172.217.18.19,"ns1.google.com, dns-admin.google.com",NOERROR,,,2607:f8b0:4009:805::2013,ghs.googlehosted.com,,
