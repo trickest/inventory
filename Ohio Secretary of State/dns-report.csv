@@ -1,21 +1,16 @@
-new,host,a,soa,status_code,cdn,cdn-name,cname,aaaa
-[x],ldap.state.oh.us,156.63.109.52,"dns-sgm.ohio.gov, hostmaster.state.oh.us",NOERROR,,,socnd3.odn.state.oh.us,
-[x],search.state.oh.us,198.234.22.149,"dns-sgm.ohio.gov, hostmaster.state.oh.us",NOERROR,,,,
-[x],www.state.oh.us,66.144.73.125,"dns-sgm.ohio.gov, hostmaster.state.oh.us",NOERROR,,,,
-[x],www2.state.oh.us,156.63.96.228,"dns-sgm.ohio.gov, hostmaster.state.oh.us",NOERROR,,,,
-,albert.sos.state.oh.us,156.63.71.69,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,autodiscover.sos.state.oh.us,"52.97.229.216, 52.98.239.184, 52.98.229.120","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com","2603:1026:c0e:873::8, 2603:1026:c0e:80e::8, 2603:1026:c0e:863::8"
-,businesssearch.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-,cbts.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-,cogs.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-,lyncdiscover.sos.state.oh.us,52.112.192.14,"admin.nsatc.net, dns.level3.net",NOERROR,,,webdir.online.lync.com,2603:1027:0:3::e
-,maintenance.sos.state.oh.us,23.96.0.52,"ns1-201.azure-dns.com, msnhst.microsoft.com",NOERROR,True,azure,"wa-sos-maintenance.azurewebsites.net, waws-prod-blu-111.sip.azurewebsites.windows.net, waws-prod-blu-111.eastus.cloudapp.azure.com",
-,msoid.sos.state.oh.us,"20.190.160.17, 40.126.32.68, 20.190.160.14, 40.126.32.136, 40.126.32.140, 40.126.32.72, 20.190.160.20, 40.126.32.76","internal.akadns.net, hostmaster.akamai.com",NOERROR,True,azure,"clientconfig.microsoftonline-p.net, a.privatelink.msidentity.com, prda.aadg.msidentity.com, www.tm.a.prd.aadg.akadns.net",
-,olvr.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-,sip.sos.state.oh.us,52.112.192.11,"admin.nsatc.net, dns.level3.net",NOERROR,,,sipdir.online.lync.com,2603:1027:0:48::20
-,sosftp.sos.state.oh.us,156.63.71.35,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,sosmail.sos.state.oh.us,156.63.71.31,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,support.sos.state.oh.us,156.63.71.50,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,ucc.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-,vpn.sos.state.oh.us,156.63.71.253,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,www.sos.state.oh.us,"104.18.129.73, 104.18.128.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
+new,host,a,soa,status_code,cdn,cdn-name,cname,mx,ns,txt,aaaa
+[x],ldap.state.oh.us,156.63.109.52,"dns-sgm.ohio.gov, hostmaster.state.oh.us",NOERROR,,,socnd3.odn.state.oh.us,,,,
+[x],search.state.oh.us,198.234.22.149,"dns-sgm.ohio.gov, hostmaster.state.oh.us",NOERROR,,,,,,,
+[x],www.state.oh.us,66.144.73.125,"dns-sgm.ohio.gov, hostmaster.state.oh.us",NOERROR,,,,,,,
+,albert.sos.state.oh.us,156.63.71.69,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,autodiscover.sos.state.oh.us,"40.99.157.40, 40.99.149.136, 52.97.189.104, 40.99.149.168, 40.99.157.56, 40.99.149.104, 52.97.189.72, 52.97.188.72","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,,,"2603:1026:c0d:c2c::8, 2603:1026:c0d:c1c::8, 2603:1026:c0d:806::8, 2603:1026:c0d:828::8"
+,bsportal.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,businesssearch.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,cogs.sos.state.oh.us,"104.18.128.73, 104.18.129.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,msoid.sos.state.oh.us,"20.190.159.75, 20.190.159.2, 20.190.159.68, 20.190.159.64, 20.190.159.4, 20.190.159.73, 20.190.159.71, 20.190.159.0","internal.akadns.net, hostmaster.akamai.com",NOERROR,True,azure,"clientconfig.microsoftonline-p.net, a.privatelink.msidentity.com, prda.aadg.msidentity.com, www.tm.a.prd.aadg.akadns.net",,,,
+,olvr.sos.state.oh.us,"104.18.129.73, 104.18.128.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+,sos.state.oh.us,"104.18.129.73, 104.18.128.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,sos-state-oh-us.mail.protection.outlook.com,"jack.ns.cloudflare.com, gina.ns.cloudflare.com","ca3-8b8c3efc927847b2adb503fd18ab30d8, google-site-verification=-Qvp6ss3ZWqe39tvQHxN8Oc2nXhQ9YmmoHwcX-zU0Hw, v=spf1 include:spf.protection.outlook.com include:sharepointonline.com include:spf.constantcontact.com ip4:156.63.71.0/24 ip4:209.166.153.195 ip4:209.166.134.229 -all, MS=ms43775664, MS=ms87857970",
+,sosftp.sos.state.oh.us,156.63.71.35,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,sosmail.sos.state.oh.us,156.63.71.31,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,support.sos.state.oh.us,156.63.71.50,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+,www.sos.state.oh.us,"104.18.129.73, 104.18.128.73","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
