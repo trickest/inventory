@@ -1,8 +1,16 @@
-new,host,a,soa,status_code,cdn,cdn-name,txt,ns
-,build-dev.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,
-,build-temp.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,
-,build-test.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,
-,build.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,
-,genasys.tech,129.232.249.177,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,,,"detectify-verification=735b12311a5d5fd2f1edded33b8f077f, MS=ms12378053","ns3.tld-ns.net, ns4.tld-ns.com, ns1.tld-ns.net, ns2.tld-ns.com"
-,portal.genasys.tech,,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,Probely=2d97371a-b8be-4e13-b37c-19ef913cfda1,
-,staging.genasys.tech,,"ns1.tld-ns.net, dns-admin.domains.co.za",NOERROR,True,azure,,
+new,host,a,soa,ns,status_code,txt,cdn,cdn-name,cname,aaaa
+[x],api.epam.com,"13.32.99.129, 13.32.99.6, 13.32.99.126, 13.32.99.127","ns-93.awsdns-11.com, awsdns-hostmaster.amazon.com","ns-838.awsdns-40.net, ns-1524.awsdns-62.org, ns-93.awsdns-11.com, ns-1902.awsdns-45.co.uk",NOERROR,,True,cloudfront,,
+[x],cdn.epam.com,52.219.169.16,"ns-1751.awsdns-26.co.uk, awsdns-hostmaster.amazon.com","ns-1751.awsdns-26.co.uk, ns-386.awsdns-48.com, ns-859.awsdns-43.net, ns-1046.awsdns-02.org",NOERROR,,,,,
+[x],forum.epam.com,"3.220.54.114, 52.203.102.209, 3.88.75.208, 52.203.156.114, 3.223.116.177","ns-1093.awsdns-08.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,"sslevents.bizzabo.com, sslevents.ext.prod.bizzabo.com",
+[x],info.epam.com,,"ns1.cloudflare.net, dns.cloudflare.com",,NOERROR,,True,cloudflare,info.epam.com.cdn.cloudflare.net,
+[x],mail.epam.com,91.120.43.4,"a1-195.akam.net, helpdesk.epam.com",,NOERROR,,,,owabud.epam.com,
+[x],media.epam.com,"104.18.12.91, 104.18.13.91","ns1.cloudflare.net, dns.cloudflare.com",,NOERROR,,True,cloudflare,media.epam.com.cdn.cloudflare.net,
+[x],room.events.epam.com,"104.18.13.91, 104.18.12.91","ns1.cloudflare.net, dns.cloudflare.com",,NOERROR,,True,cloudflare,room.events.epam.com.cdn.cloudflare.net,"2606:4700::6812:c5b, 2606:4700::6812:d5b"
+[x],vpn.epam.com,91.120.43.17,"a1-195.akam.net, helpdesk.epam.com",,NOERROR,,,,,
+[x],www.epam.com,"18.66.112.5, 18.66.112.42, 18.66.112.57, 18.66.112.72","ns-1324.awsdns-37.org, awsdns-hostmaster.amazon.com","ns-146.awsdns-18.com, ns-1638.awsdns-12.co.uk, ns-986.awsdns-59.net, ns-1324.awsdns-37.org",NOERROR,,True,cloudfront,d14w9r7y4yycax.cloudfront.net,
+,build-dev.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",,NOERROR,,True,azure,,
+,build.genasys.tech,51.11.123.119,"ns1.tld-ns.net, dns-admin.domains.co.za",,NOERROR,,True,azure,,
+,et-18-1-7.genasys.tech,,,,NOERROR,,,,,
+,genasys.tech,129.232.249.177,"ns1.tld-ns.net, dns-admin.domains.co.za","ns3.tld-ns.net, ns2.tld-ns.com, ns4.tld-ns.com, ns1.tld-ns.net",NOERROR,"MS=ms12378053, detectify-verification=735b12311a5d5fd2f1edded33b8f077f",,,,
+,portal.genasys.tech,102.133.132.134,"ns1.tld-ns.net, dns-admin.domains.co.za",,NOERROR,Probely=2d97371a-b8be-4e13-b37c-19ef913cfda1,True,azure,,
+,staging.genasys.tech,52.178.45.6,"ns1.tld-ns.net, dns-admin.domains.co.za",,NOERROR,,True,azure,,
