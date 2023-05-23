@@ -1,8 +1,10 @@
-new,host,cname,caa,status_code,soa,cdn,cdn-name
-[x],fr.empuls.io,websites.weglot.com,"amazon.com, comodoca.com, letsencrypt.org, sectigo.com",NOERROR,,,
-[x],help.empuls.io,hosting.gitbook.io,"digicert.com, letsencrypt.org, pki.goog",NOERROR,,True,cloudflare
-[x],id.empuls.io,websites.weglot.com,"comodoca.com, letsencrypt.org, sectigo.com, amazon.com",NOERROR,,,
-[x],people.empuls.io,d6fb641a.translate-sp.weglot.io,letsencrypt.org,NOERROR,,,
-[x],th.empuls.io,websites.weglot.com,"amazon.com, comodoca.com, letsencrypt.org, sectigo.com",NOERROR,,,
-[x],usemobile.empuls.io,,,NOERROR,"ns-908.awsdns-49.net, awsdns-hostmaster.amazon.com",,
-[x],zh.empuls.io,websites.weglot.com,"comodoca.com, amazon.com, sectigo.com, letsencrypt.org",NOERROR,,,
+new,host,a,cname,soa,status_code,caa,mx,ns,txt
+,ar.empuls.io,"151.139.128.10, 151.139.128.11",websites.weglot.com,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",NOERROR,"amazon.com, comodoca.com, letsencrypt.org, sectigo.com",,,
+,blog.empuls.io,"151.139.128.10, 151.139.128.11",9be8e8b2.translate-sp.weglot.io,"elmo.ns.cloudflare.com, dns.cloudflare.com",NOERROR,letsencrypt.org,,,
+,empuls.io,"99.83.190.102, 75.2.70.75",,"ns-908.awsdns-49.net, awsdns-hostmaster.amazon.com",NOERROR,,"aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","ns-1058.awsdns-04.org, ns-1928.awsdns-49.co.uk, ns-7.awsdns-00.com, ns-908.awsdns-49.net","google-site-verification=8MzdZV5xPrdvsXYwi6E0ztrmJjYO4urn5NVQjNZXcnI, google-site-verification=9Z_smeRomLpyy0ZoeLlyBHsgocs_z0Zms5W7HJ1wFLU, google-site-verification=IWcwDpeHICjTmJYFj4u1iVM6KlTNdPELuOUbVnMRCkQ, google-site-verification=jhdPsDuneGpMqsVSCoyqbC6oejZXOv7bZY1NStC2I1o, google-site-verification=tUQ2o6a-lfMKtlHnY_yGh6pK3Ec2LjAz9qGKRD5apBw, v=spf1 include:_spf.empuls_io._d.easydmarc.pro ~all"
+,es.empuls.io,"151.139.128.10, 151.139.128.11",websites.weglot.com,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",NOERROR,,,,
+,fr.empuls.io,"151.139.128.11, 151.139.128.10",websites.weglot.com,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",NOERROR,"letsencrypt.org, sectigo.com, amazon.com, comodoca.com",,,
+,id.empuls.io,"151.139.128.11, 151.139.128.10",websites.weglot.com,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",NOERROR,,,,
+,it.empuls.io,"151.139.128.10, 151.139.128.11",websites.weglot.com,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",NOERROR,,,,
+,people.empuls.io,"151.139.128.10, 151.139.128.11",d6fb641a.translate-sp.weglot.io,,NOERROR,,,,
+,www.empuls.io,,96bf8e2b.translate-sp.weglot.io,"elmo.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
