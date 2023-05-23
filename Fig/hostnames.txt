@@ -12,6 +12,7 @@ authconfig-config-vip-svnusers.design-staging.gitlab.com
 authconfig-config-vip-svnusers.get.gravitational.io
 authconfig-config-vip-svnusers.identity.flexport.com
 authconfig-config-vip-svnusers.media.muslimpro.com
+authconfig-config-vip-svnusers.my.auvik.com
 authconfig-config-vip-svnusers.odoo.com
 authconfig-config-vip-svnusers.ops.oasiscloud.io
 authconfig-config-vip-svnusers.ppmail4.paddypower.com
@@ -49,6 +50,8 @@ config-coengvrapmssp01.get.gravitational.io
 config-coengvrapmssp01.go.ubnt.com
 config-coengvrapmssp01.host120.udemy.com
 config-coengvrapmssp01.media.muslimpro.com
+config-coengvrapmssp01.my.auvik.com
+config-coengvrapmssp01.newsletter.bitkub.com
 config-coengvrapmssp01.nl-uk.deezer.com
 config-coengvrapmssp01.ppmail4.paddypower.com
 config-coengvrapmssp01.prod.sqills.com
@@ -95,6 +98,7 @@ config-configconfig.odoo.com
 config-configmijn-repository-postgresmx.affiliate.resellerclub.com
 config-configmijn-repository-postgresmx.api.zynga.com
 config-configmijn-repository-postgresmx.assessments.indeed.tech
+config-configmijn-repository-postgresmx.gcso.cbre.com
 config-configmijn-repository-postgresmx.media.muslimpro.com
 config-configmijn-repository-postgresmx.prod.sqills.com
 config-configmijn-repository-postgresmx.resources.mongodb.com
@@ -111,6 +115,7 @@ config-configmijn-repository-postgresmx.tianma-prd-in.vivo.com
 config-configvip-db-postgresgit.accept.sqills.com
 config-configvip-db-postgresgit.api.zynga.com
 config-configvip-db-postgresgit.design-staging.gitlab.com
+config-configvip-db-postgresgit.dev.xfinityhome.com
 config-configvip-db-postgresgit.media.muslimpro.com
 config-configvip-db-postgresgit.odoo.com
 config-configvip-db-postgresgit.ppmail4.paddypower.com
@@ -137,6 +142,7 @@ config-confluence-liveaccept-domain.get.gravitational.io
 config-confluence-liveaccept-domain.host120.udemy.com
 config-confluence-liveaccept-domain.labs.coursera.org
 config-confluence-liveaccept-domain.media.muslimpro.com
+config-confluence-liveaccept-domain.newsletter.bitkub.com
 config-confluence-liveaccept-domain.ppmail4.paddypower.com
 config-confluence-liveaccept-domain.prod.sqills.com
 config-confluence-liveaccept-domain.sg-dev.seek.com
@@ -152,6 +158,7 @@ config-confluence-payments.odoo.com
 config-confluence-repositoryerpalt.api.zynga.com
 config-confluence-repositoryerpalt.assessments.indeed.tech
 config-confluence-repositoryerpalt.blog.remitano.com
+config-confluence-repositoryerpalt.dev.xfinityhome.com
 config-confluence-repositoryerpalt.events.dewarmsteweek.be
 config-confluence-repositoryerpalt.get.gravitational.io
 config-confluence-repositoryerpalt.media.muslimpro.com
@@ -197,6 +204,7 @@ config-connect.odoo.com
 config-container-www-test.alpha.eff.org
 config-container-www-test.api.zynga.com
 config-container-www-test.assessments.indeed.tech
+config-container-www-test.dev.xfinityhome.com
 config-container-www-test.discover.mongodb.com
 config-container-www-test.events.dewarmsteweek.be
 config-container-www-test.host120.udemy.com
@@ -204,6 +212,7 @@ config-container-www-test.media.muslimpro.com
 config-container-www-test.next.nos.nl
 config-container-www-test.ppmail2.paddypower.com
 config-container-www-test.prod.sqills.com
+config-container-www-test.qa.xfinityhome.com
 config-container-www-test.qwantbot-178-168-187-194.qwant.com
 config-container-www-test.sg-dev.seek.com
 config-container-www-test.shopamerica.htc.com
@@ -356,6 +365,7 @@ prodconfig.communicatie-radio.dpgmedia.be
 proddevconfig-configvip-db-postgresgit.aadds.vgz.nl
 proddevconfig-configvip-db-postgresgit.api.zynga.com
 proddevconfig-configvip-db-postgresgit.blog.remitano.com
+proddevconfig-configvip-db-postgresgit.dev.xfinityhome.com
 proddevconfig-configvip-db-postgresgit.discover.mongodb.com
 proddevconfig-configvip-db-postgresgit.get.gravitational.io
 proddevconfig-configvip-db-postgresgit.host120.udemy.com
@@ -412,6 +422,7 @@ system-config-config-vip-svnusers.api.zynga.com
 system-config-config-vip-svnusers.assessments.indeed.tech
 system-config-config-vip-svnusers.beta.eff.org
 system-config-config-vip-svnusers.blog.remitano.com
+system-config-config-vip-svnusers.dev.xfinityhome.com
 system-config-config-vip-svnusers.intra.didichuxing.com
 system-config-config-vip-svnusers.live.bitdiscovery.com
 system-config-config-vip-svnusers.media.muslimpro.com
@@ -433,6 +444,7 @@ upgradenew-config-config-vip-svnusers.design-staging.gitlab.com
 upgradenew-config-config-vip-svnusers.lyncdiscover.didichuxing.com
 upgradenew-config-config-vip-svnusers.media.muslimpro.com
 upgradenew-config-config-vip-svnusers.odoo.com
+upgradenew-config-config-vip-svnusers.pair.hackerrank.com
 upgradenew-config-config-vip-svnusers.qa.xfinityhome.com
 upgradenew-config-config-vip-svnusers.sg-dev.seek.com
 upgradenew-config-config-vip-svnusers.stage.auvik.com
@@ -449,8 +461,10 @@ usersconfig-configvip-db-postgresgit.assessments.indeed.tech
 usersconfig-configvip-db-postgresgit.blog.remitano.com
 usersconfig-configvip-db-postgresgit.cloud.tyk.io
 usersconfig-configvip-db-postgresgit.cw-dev.ecobee.com
+usersconfig-configvip-db-postgresgit.my.auvik.com
 usersconfig-configvip-db-postgresgit.newsletter.bitkub.com
 usersconfig-configvip-db-postgresgit.prod.sqills.com
+usersconfig-configvip-db-postgresgit.qa.xfinityhome.com
 usersconfig-configvip-db-postgresgit.sg-dev.seek.com
 usersconfig-configvip-db-postgresgit.shopmanager.rakuten.com
 usersconfig-configvip-db-postgresgit.stage.twilio.com
@@ -466,6 +480,7 @@ usersconfig-configvip-db-postgresgit.xi.nutanix.com
 usersstatus-account-engineering-customers-backupconfig.corp.mongodb.com
 v1-config-config-vip-svnusers.assessments.indeed.tech
 v1-config-config-vip-svnusers.builds.wealthsimple.com
+v1-config-config-vip-svnusers.dev.xfinityhome.com
 v1-config-config-vip-svnusers.events.dewarmsteweek.be
 v1-config-config-vip-svnusers.get.gravitational.io
 v1-config-config-vip-svnusers.live.bitdiscovery.com
@@ -475,6 +490,7 @@ v1-config-config-vip-svnusers.next.nos.nl
 v1-config-config-vip-svnusers.ppmail4.paddypower.com
 v1-config-config-vip-svnusers.preprod.lululemon.com
 v1-config-config-vip-svnusers.prod.sqills.com
+v1-config-config-vip-svnusers.qa.xfinityhome.com
 v1-config-config-vip-svnusers.qwantbot-178-168-187-194.qwant.com
 v1-config-config-vip-svnusers.sg-dev.seek.com
 v1-config-config-vip-svnusers.shopmanager.rakuten.com
