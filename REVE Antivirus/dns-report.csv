@@ -1,31 +1,29 @@
-new,host,a,soa,status_code,cname,ns,txt,mx
-[x],api.reveantivirus.com,191.96.12.243,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],backup.reveantivirus.com,217.172.189.154,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],connect.reveantivirus.com,188.138.75.208,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpanel.endpointcloud.reveantivirus.com,72.21.26.168,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpanel.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpanel.reveantivirus.com,72.21.26.166,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpcalendars.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpcalendars.reveantivirus.com,72.21.26.166,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpcontacts.endpointcloud.reveantivirus.com,72.21.26.168,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpcontacts.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],cpcontacts.reveantivirus.com,208.74.72.247,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],crm.reveantivirus.com,185.106.241.55,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],endpointcloud.reveantivirus.com,72.21.26.168,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,"dns1.revehosting.com, dns2.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.168 ~all,mail.endpointcloud.reveantivirus.com
-[x],ftp.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,"dns2.revehosting.com, dns1.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.167 -all,mail.info.reveantivirus.com
-[x],mail.endpointcloud.reveantivirus.com,72.21.26.168,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],mail.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,google-site-verification=kthlp1xR1NvZlmIbrcpv4D8wdzkb4868OzAOyT66dUY,
-[x],partner.reveantivirus.com,149.20.185.2,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],service.reveantivirus.com,,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],update.reveantivirus.com,,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],webdisk.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],webdisk.reveantivirus.com,208.74.72.247,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],webmail.endpointcloud.reveantivirus.com,72.21.26.168,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],webmail.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],webmail.reveantivirus.com,208.74.72.247,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],whm.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],whm.reveantivirus.com,208.74.72.247,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,,,,
-[x],www.endpointcloud.reveantivirus.com,,,NOERROR,endpointcloud.reveantivirus.com,"dns2.revehosting.com, dns1.revehosting.com",,
-[x],www.info.reveantivirus.com,72.21.26.167,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,info.reveantivirus.com,"dns1.revehosting.com, dns2.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.167 -all,mail.info.reveantivirus.com
-[x],www.reveantivirus.com,185.106.241.55,"dns1.revehosting.com, nirmal.revesoft.com",NOERROR,reveantivirus.com,"dns1.revehosting.com, dns2.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.166 -all,mail.reveantivirus.com
+new,host,a,cname,mx,soa,ns,txt,status_code
+[x],api.reveantivirus.com,191.96.12.243,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],campaign.reveantivirus.com,185.106.241.55,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],connect.reveantivirus.com,188.138.75.208,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpanel.endpointcloud.reveantivirus.com,72.21.26.168,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpanel.info.reveantivirus.com,72.21.26.167,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpanel.reveantivirus.com,72.21.26.166,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpcalendars.endpointcloud.reveantivirus.com,72.21.26.168,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpcalendars.info.reveantivirus.com,72.21.26.167,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpcalendars.reveantivirus.com,208.74.72.247,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpcontacts.info.reveantivirus.com,72.21.26.167,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],cpcontacts.reveantivirus.com,208.74.72.247,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],crm.reveantivirus.com,185.106.241.55,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],endpointcloud.reveantivirus.com,72.21.26.168,,,"dns1.revehosting.com, nirmal.revesoft.com","dns2.revehosting.com, dns1.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.168 ~all,NOERROR
+[x],info.reveantivirus.com,72.21.26.167,,mail.info.reveantivirus.com,"dns1.revehosting.com, nirmal.revesoft.com","dns2.revehosting.com, dns1.revehosting.com",v=spf1 ip4:72.21.26.163 ip4:72.21.26.167 +mx +a -all,NOERROR
+[x],myaccount.reveantivirus.com,,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],partner.reveantivirus.com,,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],reveantivirus.com,,,,"dns1.revehosting.com, nirmal.revesoft.com","dns2.revehosting.com, dns1.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.166 -all,NOERROR
+[x],update.reveantivirus.com,188.138.75.208,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],webdisk.info.reveantivirus.com,72.21.26.167,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],webdisk.reveantivirus.com,208.74.72.247,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],webmail.endpointcloud.reveantivirus.com,72.21.26.168,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],webmail.info.reveantivirus.com,72.21.26.167,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],whm.endpointcloud.reveantivirus.com,72.21.26.168,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],whm.info.reveantivirus.com,72.21.26.167,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],whm.reveantivirus.com,208.74.72.247,,,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],www.endpointcloud.reveantivirus.com,,endpointcloud.reveantivirus.com,mail.endpointcloud.reveantivirus.com,"dns1.revehosting.com, nirmal.revesoft.com",,,NOERROR
+[x],www.info.reveantivirus.com,"72.21.26.167, 185.106.241.40, 72.21.26.163",info.reveantivirus.com,mail.info.reveantivirus.com,"dns1.revehosting.com, nirmal.revesoft.com","dns1.revehosting.com, dns2.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.167 -all,NOERROR
+[x],www.reveantivirus.com,185.106.241.55,reveantivirus.com,mail.reveantivirus.com,"dns1.revehosting.com, nirmal.revesoft.com","dns1.revehosting.com, dns2.revehosting.com",v=spf1 +mx +a +ip4:72.21.26.166 -all,NOERROR
