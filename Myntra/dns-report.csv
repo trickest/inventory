@@ -1,31 +1,34 @@
-new,host,a,cname,soa,status_code,aaaa,txt,mx,ns
-[x],_spf1.myntra.com,,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,"v=spf1 ip4:210.80.140.141 ip4:210.80.140.142 ip4:20.5.80.155 ip4:20.5.82.25 ip4:52.172.156.59 ip4:52.172.156.60 ip4:104.211.243.19 ip4:104.211.245.173 ip4:20.157.92.51 ip4:20.157.92.80,  ip4:13.71.22.108 ip4:13.71.22.222 ip4:219.65.87.215 ip4:199.255.192.22 ip4:15.224.192.102 ip4:20.219.16.176 ip4:143.55.228.87 ip4:161.38.199.90 -all",,
-[x],_spf2.myntra.com,,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,v=spf1 ip4:185.136.188.88 ip4:185.136.189.88 ip4:185.136.188.108 ip4:185.136.189.108 ip4:199.166.36.0/24 ip4:208.72.90.0/24 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 -all,,
-[x],accounts.myntra.com,95.101.148.216,"accounts.myntra.com.edgekey.net, e7423.b.akamaiedge.net","n0b.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,
-[x],ads.myntra.com,2.17.152.131,"ads.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:15:2b2::1cff, 2a02:26f0:15:2be::1cff",,,
-[x],api.myntra.com,104.85.4.226,"api.myntra.com.edgekey.net, e7423.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,
-[x],apidocs.myntra.com,104.85.4.226,"apidocs.myntra.com.edgekey.net, e7423.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,
-[x],blog.myntra.com,173.223.112.217,"blog.myntra.com.edgekey.net, e7423.b.akamaiedge.net","n0b.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,
-[x],careers.myntra.com,173.223.112.217,"careers.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:c900:28b::1cff, 2a02:26f0:c900:291::1cff",,,
-[x],cdn.myntra.com,104.85.4.226,"cdn.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:b200:387::1cff, 2a02:26f0:b200:3a3::1cff",,,
-[x],life.myntra.com,104.103.65.2,"life.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2001:2030:21:183::1cff, 2001:2030:21:197::1cff, 2001:2030:21:188::1cff",,,
-[x],lyncdiscover.myntra.com,,webdir.online.lync.com,"admin.nsatc.net, dns.level3.net",NOERROR,2603:1027::e,,,"eu-a.prod1.footprint.net, eu-b.prod1.footprint.net"
-[x],mail.myntra.com,172.217.18.19,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,2a00:1450:4001:80b::2013,,,
-[x],mynt.myntra.com,,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,MS=ms41895501,,
-[x],myntra.com,,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,"MS=ms11067231, facebook-domain-verification=dvfamd6dzscnob2rj4vkv1gfd3cvq5, onetrust-domain-verification=a89f652d127f4581a48c4da39318c118, google-site-verification=Li3_-Ix-yD6auSU-S3_Z2evMkQ5mPy-ZclHyp_b03pc, h1-domain-verification=3gEcYZ9mjzVPQm6H7gsQrdHLvAXKN4jCqEDdmErUpCdxUKK6, google-site-verification=oXhgXEqRa4aHg3jpVygDtGUHfNyugvteUdqRt0tONa4, apple-domain-verification=RKHT3YXYdxjKGS7w, v=spf1 include:eu._netblocks.mimecast.com include:_spf.google.com include:_spf1.myntra.com include:_spf2.myntra.com include:amazonses.com include:spf.falconide.com -all, MS=ms46524028","eu-smtp-inbound-2.mimecast.com, eu-smtp-inbound-1.mimecast.com",
-[x],o1.sg.myntra.com,149.72.231.191,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,
-[x],o4.sg.myntra.com,149.72.72.136,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,
-[x],onedirect.myntra.com,20.204.8.74,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,
-[x],orca.myntra.com,20.198.102.16,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,
-[x],origin-partnerapi.myntra.com,20.198.102.16,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,
-[x],partnerapi.myntra.com,20.198.102.16,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,
-[x],partnerportal.myntra.com,,"partnerportal.myntra.com.edgekey.net, e7423.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,
-[x],secure.myntra.com,104.85.4.226,"secure.myntra.com.edgekey.net, e7423.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,
-[x],sip.myntra.com,52.112.65.203,sipdir.online.lync.com,"admin.nsatc.net, dns.level3.net",NOERROR,"2603:1037:0:15::c, 2603:1037::b, 2603:1037:0:5::b, 2603:1037:0:2::b, 2603:1037:0:3::b, 2603:1037:0:c::f, 2603:1037:0:7::b, 2603:1037:0:a::b",,,
-[x],sites.myntra.com,142.251.163.121,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,2607:f8b0:4004:c1b::79,,,
-[x],tech.myntra.com,173.223.112.217,"tech.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:c900:28b::1cff, 2a02:26f0:c900:291::1cff",,,
-[x],touch.myntra.com,173.223.112.217,"touch.myntra.com.edgekey.net, e7423.a.akamaiedge.net","n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,
-[x],uikit.myntra.com,104.85.4.226,"uikit.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:b200:387::1cff, 2a02:26f0:b200:3a3::1cff",,,
-[x],url41.myntra.com,23.206.208.213,"url41.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:3100:3ad::1cff, 2a02:26f0:3100:38d::1cff",,,
-[x],web1.myntra.com,54.144.128.85,,,NOERROR,,,,
-[x],www.myntra.com,104.75.88.241,"www.myntra.com.secure.edgekey.net, e7423.dsca.akamaiedge.net","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:3500:88d::1cff, 2a02:26f0:3500:884::1cff",,,
+new,host,a,soa,status_code,mx,ns,txt,aaaa,cname
+[x],_spf1.myntra.com,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,"v=spf1 ip4:210.80.140.141 ip4:210.80.140.142 ip4:20.5.80.155 ip4:20.5.82.25 ip4:52.172.156.59 ip4:52.172.156.60 ip4:104.211.243.19 ip4:104.211.245.173 ip4:20.157.92.51 ip4:20.157.92.80,  ip4:13.71.22.108 ip4:13.71.22.222 ip4:219.65.87.215 ip4:199.255.192.22 ip4:15.224.192.102 ip4:20.219.16.176 ip4:143.55.228.87 ip4:161.38.199.90 -all",,
+[x],_spf2.myntra.com,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,v=spf1 ip4:185.136.188.88 ip4:185.136.189.88 ip4:185.136.188.108 ip4:185.136.189.108 ip4:199.166.36.0/24 ip4:208.72.90.0/24 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 -all,,
+[x],accounts.myntra.com,23.35.228.227,"n0b.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"accounts.myntra.com.edgekey.net, e7423.b.akamaiedge.net"
+[x],ads.myntra.com,104.91.48.235,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2a02:26f0:d200:48d::1cff, 2a02:26f0:d200:489::1cff","ads.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],api.myntra.com,173.223.112.217,"n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"api.myntra.com.edgekey.net, e7423.a.akamaiedge.net"
+[x],blog.myntra.com,2.18.233.27,"n0b.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"blog.myntra.com.edgekey.net, e7423.b.akamaiedge.net"
+[x],careers.myntra.com,173.223.112.217,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2a02:26f0:c900:291::1cff, 2a02:26f0:c900:28b::1cff","careers.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],cdn.myntra.com,173.223.112.217,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2a02:26f0:c900:28b::1cff, 2a02:26f0:c900:291::1cff","cdn.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],developer.myntra.com,72.246.168.229,"n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"developer.myntra.com.edgekey.net, e7423.a.akamaiedge.net"
+[x],dockins.myntra.com,54.144.128.85,,NOERROR,,,,,
+[x],ea.myntra.com,104.111.216.222,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2a02:26f0:ab00:493::1cff, 2a02:26f0:ab00:4a6::1cff","ea.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],life.myntra.com,,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2600:1408:c400:384::1cff, 2600:1408:c400:390::1cff","life.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],lyncdiscover.myntra.com,52.112.192.14,"admin.nsatc.net, dns.level3.net",NOERROR,,,,2603:1027:0:48::21,webdir.online.lync.com
+[x],mail.myntra.com,172.217.18.19,"ns1.google.com, dns-admin.google.com",NOERROR,,,,,ghs.googlehosted.com
+[x],mynt.myntra.com,,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,MS=ms41895501,,
+[x],myntra.com,72.246.168.229,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,"eu-smtp-inbound-1.mimecast.com, eu-smtp-inbound-2.mimecast.com","a10-64.akam.net, a3-64.akam.net, a1-183.akam.net, a20-67.akam.net, a12-66.akam.net, a11-65.akam.net","onetrust-domain-verification=a89f652d127f4581a48c4da39318c118, MS=ms11067231, h1-domain-verification=3gEcYZ9mjzVPQm6H7gsQrdHLvAXKN4jCqEDdmErUpCdxUKK6, apple-domain-verification=RKHT3YXYdxjKGS7w, v=spf1 include:eu._netblocks.mimecast.com include:_spf.google.com include:_spf1.myntra.com include:_spf2.myntra.com include:amazonses.com include:spf.falconide.com -all, facebook-domain-verification=dvfamd6dzscnob2rj4vkv1gfd3cvq5, google-site-verification=Li3_-Ix-yD6auSU-S3_Z2evMkQ5mPy-ZclHyp_b03pc, MS=ms46524028, google-site-verification=oXhgXEqRa4aHg3jpVygDtGUHfNyugvteUdqRt0tONa4",,
+[x],o1.sg.myntra.com,149.72.231.191,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,,
+[x],o3.sg.myntra.com,149.72.247.72,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,,
+[x],o4.sg.myntra.com,149.72.72.136,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,,
+[x],onedirect.myntra.com,20.204.8.74,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,,
+[x],origin-partnerapi.myntra.com,20.198.102.16,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,,
+[x],partnerapi.myntra.com,20.198.102.16,"a1-183.akam.net, hostmaster.akamai.com",NOERROR,,,,,
+[x],partnerportal.myntra.com,104.75.88.241,"n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"partnerportal.myntra.com.edgekey.net, e7423.a.akamaiedge.net"
+[x],pps.myntra.com,104.91.48.235,"n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"pps.myntra.com.edgekey.net, e7423.a.akamaiedge.net"
+[x],secure.myntra.com,23.206.208.213,"n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"secure.myntra.com.edgekey.net, e7423.a.akamaiedge.net"
+[x],sip.myntra.com,52.112.192.11,"admin.nsatc.net, dns.level3.net",NOERROR,,,,2603:1027:0:48::20,sipdir.online.lync.com
+[x],sites.myntra.com,142.250.186.83,"ns1.google.com, dns-admin.google.com",NOERROR,,,,2a00:1450:4001:828::2013,ghs.googlehosted.com
+[x],tech.myntra.com,23.62.24.177,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2600:1408:7400:290::1cff, 2600:1408:7400:283::1cff, 2600:1408:7400:29c::1cff, 2600:1408:7400:29a::1cff","tech.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],touch.myntra.com,104.87.84.225,"n0a.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,,"touch.myntra.com.edgekey.net, e7423.a.akamaiedge.net"
+[x],uikit.myntra.com,104.75.88.241,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2a02:26f0:3500:884::1cff, 2a02:26f0:3500:88d::1cff","uikit.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],url41.myntra.com,104.75.88.241,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2a02:26f0:3500:884::1cff, 2a02:26f0:3500:88d::1cff","url41.myntra.com.edgekey.net, e7423.dsca.akamaiedge.net"
+[x],webmail.blog.myntra.com,54.144.128.85,,NOERROR,,,,,
+[x],www.myntra.com,104.75.88.241,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,,"2a02:26f0:3500:884::1cff, 2a02:26f0:3500:88d::1cff","www.myntra.com.secure.edgekey.net, e7423.dsca.akamaiedge.net"
