@@ -1,11 +1,11 @@
-new,host,soa,status_code
-[x],admin.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],api.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],cdn.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],db-staging.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],staging-admin.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],staging-api.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],staging-app.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],staging-db.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],staging.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
-[x],www.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR
+new,host,soa,status_code,a,aaaa,mx,ns,txt,caa
+[x],admin.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],api.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],cdn.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],db-staging.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"108.162.193.242, 172.64.33.242, 173.245.59.242, 108.162.192.195, 172.64.32.195, 173.245.58.195","2606:4700:58::adf5:3bf2, 2803:f800:50::6ca2:c1f2, 2a06:98c1:50::ac40:21f2, 2606:4700:50::adf5:3ac3, 2803:f800:50::6ca2:c0c3, 2a06:98c1:50::ac40:20c3","mx1.improvmx.com, mx2.improvmx.com","trey.ns.cloudflare.com, meera.ns.cloudflare.com",v=spf1 include:_spf.google.com include:spf.improvmx.com -all,"letsencrypt.org, digicert.com; cansignhttpexchanges=yes, comodoca.com, mailto:security@railto.com, pki.goog; cansignhttpexchanges=yes"
+[x],staging-admin.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],staging-api.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],staging-app.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],staging-db.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+[x],staging.railto.com,"meera.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
