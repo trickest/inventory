@@ -1,13 +1,13 @@
-new,host,soa,ns,status_code,a,mx,txt,cdn,cdn-name,aaaa,cname
-,allin.movilepay.com,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com","ns3.auinmeio.com.br, ns2.auinmeio.com.br, nsmaster.auinmeio.com.br, nsmaster2.auinmeio.com.br",NOERROR,187.45.233.232,mx42.allin.com.br,v=spf1 include:spf1.auinmeio.com.br include:spf2.auinmeio.com.br ~all,,,,
-,e.allin.allin.movilepay.com,"henrik.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,186.202.41.26,,,,,,clique.auinmeio.com.br
-,img.allin.allin.movilepay.com,"henrik.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"177.153.231.26, 177.153.231.25",,,,,,img.auinmeio.com.br
-,img.allin.movilepay.com,"henrik.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"177.153.231.25, 177.153.231.26",,,,,,img.auinmeio.com.br
-,movilepay.com,"ns-435.awsdns-54.com, awsdns-hostmaster.amazon.com","ns-1819.awsdns-35.co.uk, ns-435.awsdns-54.com, ns-968.awsdns-57.net, ns-1477.awsdns-56.org",NOERROR,"13.32.99.77, 13.32.99.88, 13.32.99.89, 13.32.99.55","aspmx2.googlemail.com, aspmx3.googlemail.com, aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","google-site-verification=XI99xvIV-OYndEi69a26PJTRrJ0R4OM3LFvx_-iWKjA, v=spf1 a mx include:spf1.auinmeio.com.br include:spf2.auinmeio.com.br ~all, facebook-domain-verification=pspj6xnvd00dcvsz5hfqfdu1lzpxdf, google-site-verification=ERwStSY-w3Dy3u9xo584J-6BxgGWWV0x-jeT4pTBJpo",True,cloudfront,,
-,movilepay.com.br,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com","ns-1702.awsdns-20.co.uk, ns-23.awsdns-02.com, ns-1007.awsdns-61.net, ns-1227.awsdns-25.org",NOERROR,,,,,,,
-,o1.ptr4993.movilepay.com.br,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",,NOERROR,149.72.148.127,,,,,,
-,pm03-1.allin.movilepay.com,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com",,NOERROR,177.70.232.67,,,,,,
-,pm04-1.allin.movilepay.com,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com",,NOERROR,179.109.233.233,,,,,,
-,r.allin.movilepay.com,"henrik.ns.cloudflare.com, dns.cloudflare.com",,NOERROR,"177.153.231.106, 177.153.231.107",,,,,,r.auinmeio.com.br
-,www.allin.movilepay.com,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com",,NOERROR,187.45.233.232,,,,,,
-,www.movilepay.com,"n0cn.akamaiedge.net, hostmaster.akamai.com",,NOERROR,"2.16.204.73, 2.16.204.72",,,,,"2a02:26f0:1d00::17da:e111, 2a02:26f0:1d00::17da:e10a","www.movilepay.com.edgekey.net, e27065.dscb.akamaiedge.net, e27065.dscb.akamaiedge.net.0.1.cn.akamaiedge.net"
+new,host,a,cname,soa,status_code,aaaa,ns,mx,txt,cdn,cdn-name
+[x],movilepay.com,"13.32.99.88, 13.32.99.89, 13.32.99.77, 13.32.99.55",,"ns-435.awsdns-54.com, awsdns-hostmaster.amazon.com",NOERROR,,"ns-1819.awsdns-35.co.uk, ns-1477.awsdns-56.org, ns-435.awsdns-54.com, ns-968.awsdns-57.net","aspmx2.googlemail.com, alt2.aspmx.l.google.com, alt1.aspmx.l.google.com, aspmx.l.google.com, aspmx3.googlemail.com","v=spf1 a mx include:spf1.auinmeio.com.br include:spf2.auinmeio.com.br ~all, google-site-verification=XI99xvIV-OYndEi69a26PJTRrJ0R4OM3LFvx_-iWKjA, facebook-domain-verification=pspj6xnvd00dcvsz5hfqfdu1lzpxdf, google-site-verification=ERwStSY-w3Dy3u9xo584J-6BxgGWWV0x-jeT4pTBJpo",True,cloudfront
+[x],movilepay.com.br,,,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",NOERROR,,"ns-23.awsdns-02.com, ns-1007.awsdns-61.net, ns-1227.awsdns-25.org, ns-1702.awsdns-20.co.uk",,,,
+,allin.movilepay.com,187.45.233.232,,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com",NOERROR,,"ns3.auinmeio.com.br, ns2.auinmeio.com.br, nsmaster.auinmeio.com.br, nsmaster2.auinmeio.com.br",mx42.allin.com.br,v=spf1 include:spf1.auinmeio.com.br include:spf2.auinmeio.com.br ~all,,
+,e.allin.allin.movilepay.com,186.202.41.26,clique.auinmeio.com.br,"henrik.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+,e.allin.movilepay.com,186.202.41.26,clique.auinmeio.com.br,"henrik.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+,img.allin.movilepay.com,"177.153.231.25, 177.153.231.26",img.auinmeio.com.br,"henrik.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+,o1.ptr4993.movilepay.com.br,149.72.148.127,,"ns-1007.awsdns-61.net, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
+,pm03-1.allin.movilepay.com,177.70.232.67,,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com",NOERROR,,,,,,
+,pm04-1.allin.movilepay.com,179.109.233.233,,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com",NOERROR,,,,,,
+,r.allin.movilepay.com,"177.153.231.107, 177.153.231.106",r.auinmeio.com.br,"henrik.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+,www.allin.movilepay.com,187.45.233.232,,"nsmaster.auinmeio.com.br, root.server.allin.movilepay.com",NOERROR,,,,,,
+,www.movilepay.com,"2.19.120.7, 2.19.120.25","www.movilepay.com.edgekey.net, e27065.dscb.akamaiedge.net","n0dscb.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2a02:26f0:280:4::213:7847, 2a02:26f0:280:4::213:7860",,,,,
