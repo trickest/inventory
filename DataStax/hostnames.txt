@@ -44,7 +44,7 @@
 0tinzx5ctu.security.datastax.com
 0ww6.security.datastax.com
 0zyxwvuts.security.datastax.com
-Binary file (standard input) matches
+Binary file in/python-script-3/output.txt matches
 a-162-150-162-34.security.datastax.com
 a-162-150-171-16.security.datastax.com
 a-96-118-177-84.security.datastax.com
@@ -812,6 +812,7 @@ alertmanager.bellburnell.staging.streaming.datastax.com
 alertmanager.bellburnell.streaming.datastax.com
 alertmanager.ds-dev-aws-ue2.dev.streaming.datastax.com
 alertmanager.ds-prod-aws-useast2.streaming.datastax.com
+alertmanager.ds-test-aws-ue2.staging.streaming.datastax.com
 alertmanager.ds-uat-aws-useast2.staging.streaming.datastax.com
 alertmanager.ect.cluster-c.staging.streaming.datastax.com
 alertmanager.ect.cluster-d.staging.streaming.datastax.com
@@ -1050,6 +1051,7 @@ amoctriggers.security.datastax.com
 amp-apm.security.datastax.com
 amp-eng-sg-l7-1.security.datastax.com
 amp-fn1-ph03.security.datastax.com
+amp-mdb06.security.datastax.com
 amp1-4.security.datastax.com
 amp1-55.security.datastax.com
 ampersand.security.datastax.com
@@ -1441,6 +1443,10 @@ apps-mesosphere.security.datastax.com
 apps-repository-postgresmx.security.datastax.com
 apps-switchtower-gfs-br-1.security.datastax.com
 apps-ylboost.security.datastax.com
+apps.apollo-dev.datastax.com
+apps.apollo-stage.datastax.com
+apps.apollo-test.datastax.com
+apps.apollo.datastax.com
 appsassociates-privacy.security.datastax.com
 appsatt.security.datastax.com
 appsconfig-redirect.security.datastax.com
@@ -1555,7 +1561,6 @@ artetaurino.security.datastax.com
 arthub.security.datastax.com
 artichoke-cs.security.datastax.com
 articitsupport.security.datastax.com
-artifactory-datastax-com.jfrog.com
 artifactory-devops.security.datastax.com
 artifactory-nyc3.security.datastax.com
 artifactory.datastax.com
@@ -3304,6 +3309,7 @@ bid47qx.security.datastax.com
 bid47rg.security.datastax.com
 bid47rl.security.datastax.com
 bid47s8.security.datastax.com
+bid47sp.security.datastax.com
 bid47tc.security.datastax.com
 bid47td.security.datastax.com
 bid47tf.security.datastax.com
@@ -3648,6 +3654,7 @@ bt--eudevportal-vipt.security.datastax.com
 bt--eukiteworks-vip.security.datastax.com
 bt--euportal-vipt.security.datastax.com
 bt--euuatportal-a-vip.security.datastax.com
+bt-trends.www.datastax.com
 bta.security.datastax.com
 btc.security.datastax.com
 btdownload.security.datastax.com
@@ -3843,6 +3850,7 @@ ca01siphw02.security.datastax.com
 caas-rest-api.astra.datastax.com
 caas-rest-api.cloud.datastax.com
 caas-rest-api.dev.cloud.datastax.com
+caas-rest-api.feat.cloud.datastax.com
 caas-rest-api.gov-prod.cloud.datastax.com
 caas-rest-api.ingress.us-east-2.dev.apps.paas.datastax.com
 caas-rest-api.ingress.us-east-2.feat.apps.paas.datastax.com
@@ -4648,6 +4656,7 @@ clobba.security.datastax.com
 clone.security.datastax.com
 cloud-apps-organizations.cloud.datastax.com
 cloud-apps-organizations.dev.cloud.datastax.com
+cloud-apps-organizations.feat.cloud.datastax.com
 cloud-apps-organizations.ingress.us-east-2.dev.apps.paas.datastax.com
 cloud-apps-organizations.ingress.us-east-2.feat.apps.paas.datastax.com
 cloud-apps-organizations.ingress.us-east-2.prod.apps.paas.datastax.com
@@ -4659,6 +4668,7 @@ cloud-billing.ingress.us-east-2.feat.apps.paas.datastax.com
 cloud-billing.ingress.us-gov-east-1.gov-prod.apps.paas.datastax.com
 cloud-feature-manager.cloud.datastax.com
 cloud-feature-manager.dev.cloud.datastax.com
+cloud-feature-manager.feat.cloud.datastax.com
 cloud-feature-manager.ingress.us-east-2.dev.apps.paas.datastax.com
 cloud-feature-manager.ingress.us-east-2.feat.apps.paas.datastax.com
 cloud-feature-manager.ingress.us-east-2.prod.apps.paas.datastax.com
@@ -4691,6 +4701,7 @@ cloud-platform-eks.test.cloud.datastax.com
 cloud-platform.cloud.datastax.com
 cloud-platform.dev.cloud.datastax.com
 cloud-platform.dev.tools.paas.datastax.com
+cloud-platform.feat.cloud.datastax.com
 cloud-platform.ingress.us-east-1.dev.tools.paas.datastax.com
 cloud-platform.ingress.us-east-1.feat.tools.paas.datastax.com
 cloud-platform.ingress.us-east-1.prod.tools.paas.datastax.com
@@ -4698,11 +4709,15 @@ cloud-platform.ingress.us-east-2.dev.apps.paas.datastax.com
 cloud-platform.ingress.us-east-2.feat.apps.paas.datastax.com
 cloud-platform.ingress.us-east-2.nonprod.auth.paas.datastax.com
 cloud-platform.ingress.us-east-2.prod.apps.paas.datastax.com
+cloud-platform.ingress.us-east-2.prod.auth.paas.datastax.com
 cloud-platform.ingress.us-east-2.stage.apps.paas.datastax.com
 cloud-platform.ingress.us-east-2.test.apps.paas.datastax.com
 cloud-platform.paas.datastax.com
 cloud-platform.stage.cloud.datastax.com
 cloud-platform.test.cloud.datastax.com
+cloud-platform.tools-dev.paas.datastax.com
+cloud-platform.tools-feat.cloud.datastax.com
+cloud-platform.tools-feat.paas.datastax.com
 cloud-portal.security.datastax.com
 cloud-provider-azure.security.datastax.com
 cloud-session.gov-prod.cloud.datastax.com
@@ -4716,6 +4731,7 @@ cloud.ingress.us-east-2.feat.apps.paas.datastax.com
 cloud13.security.datastax.com
 cloudapi-dal2.security.datastax.com
 cloudbees-core.datastax.com
+cloudcrypto.security.datastax.com
 cloudedgeray-cloudgaming-shv-01-gig2.security.datastax.com
 cloudedgeray.security.datastax.com
 cloudely.security.datastax.com
@@ -5350,6 +5366,7 @@ cph.security.datastax.com
 cpip-assets.security.datastax.com
 cpip.security.datastax.com
 cpmail-vpn.security.datastax.com
+cpoizat.security.datastax.com
 cpp-cdap-ft.security.datastax.com
 cpp-prod-2.security.datastax.com
 cppm1.security.datastax.com
@@ -5792,6 +5809,10 @@ dasa-privacy.security.datastax.com
 dash01.security.datastax.com
 dashboard-dev.cloud.datastax.com
 dashboard-qa.security.datastax.com
+dashboard.apollo-dev.datastax.com
+dashboard.apollo-stage.datastax.com
+dashboard.apollo-test.datastax.com
+dashboard.apollo.datastax.com
 dashboardadminuiuat.security.datastax.com
 dashboards-next.security.datastax.com
 dashqa.security.datastax.com
@@ -5935,6 +5956,10 @@ db-failover-orchestrator.security.datastax.com
 db-prod1-restricted.security.datastax.com
 db-prod2-restricted.security.datastax.com
 db-srv01f.security.datastax.com
+db.apollo-dev.datastax.com
+db.apollo-stage.datastax.com
+db.apollo-test.datastax.com
+db.apollo.datastax.com
 db02.security.datastax.com
 db0crzr.security.datastax.com
 db1-assets-postmanbackups-www-test.security.datastax.com
@@ -5977,6 +6002,7 @@ dbms-access-madebyan.security.datastax.com
 dbms-alphalog-docs.security.datastax.com
 dbms-api-cp-csimgshare.security.datastax.com
 dbms-archivetemp-examplestunnel-mx.security.datastax.com
+dbms-authapiproduction.security.datastax.com
 dbms-awsgitvpn.security.datastax.com
 dbms-backup-legacy-new-oceania.security.datastax.com
 dbms-chefengineeringuploadstemp-exchangedns.security.datastax.com
@@ -6142,6 +6168,7 @@ deber3-bbisp-gw1.security.datastax.com
 debian-mirror.datastax.com
 debian-public.datastax.com
 debian-qa.datastax.com
+debian-test.datastax.com
 debian.datastax.com
 deborah.security.datastax.com
 debrewer.security.datastax.com
@@ -6591,6 +6618,7 @@ devp29-secure01a.security.datastax.com
 devp3-secure01a.security.datastax.com
 devp30-secure01a.security.datastax.com
 devpmast.security.datastax.com
+devpreferences.docs-test.datastax.com
 devpreferencescoddcaltsms.security.datastax.com
 devprivatev3-aws-loginaccept-domain.security.datastax.com
 devprivatev3.security.datastax.com
@@ -6864,6 +6892,7 @@ downloads-it.security.datastax.com
 downloads-qa.datastax.com
 downloads-satellite.datastax.com
 downloads-staging.datastax.com
+downloads-test.datastax.com
 downloads-v2.security.datastax.com
 downloads.datastax.com
 downloadsandroidmikael2.security.datastax.com
@@ -7553,6 +7582,7 @@ engineeringdev-demosystemsite-doc-corporate.security.datastax.com
 engineeringdocker-repository-postgresmx.security.datastax.com
 engineeringedge.security.datastax.com
 engineeringerrorchat.security.datastax.com
+engineeringimages-clients-stats-corp.docs.datastax.com
 engineeringinternal-daanapaani.security.datastax.com
 engineeringjedi.security.datastax.com
 engineeringjenkinssecure-infomediaconfig-helpdesk.security.datastax.com
@@ -8286,6 +8316,7 @@ fbri2-1.security.datastax.com
 fbsb8-1.security.datastax.com
 fbts2-1.security.datastax.com
 fbts4-1.security.datastax.com
+fbtv1-1.security.datastax.com
 fbud6-2.security.datastax.com
 fc-quality-dashboard-dub.security.datastax.com
 fcac2-1.security.datastax.com
@@ -9622,6 +9653,7 @@ grafana.dmc-us-east-1.infra-test.datastax.com
 grafana.dmc-us-east-1.infra.datastax.com
 grafana.ds-dev-aws-ue2.dev.streaming.datastax.com
 grafana.ds-prod-aws-useast2.streaming.datastax.com
+grafana.ds-test-aws-ue2.staging.streaming.datastax.com
 grafana.ds-uat-aws-useast2.staging.streaming.datastax.com
 grafana.ect.cluster-c.staging.streaming.datastax.com
 grafana.ect.cluster-d.staging.streaming.datastax.com
@@ -9748,6 +9780,7 @@ gsp-tk09-ssl.security.datastax.com
 gsp10-ms12-a03-ssl.security.datastax.com
 gsp10-ssl-ms12a05.security.datastax.com
 gsp10-ssl-pv51a01.security.datastax.com
+gsp10-st14-pod05-r02.security.datastax.com
 gsp10-st14-pod05.security.datastax.com
 gsp10.security.datastax.com
 gsp11-sl01-ssl.security.datastax.com
@@ -10083,6 +10116,7 @@ h-135-197-254-77.security.datastax.com
 h-135-197-254-79.security.datastax.com
 h-135-197-254-80.security.datastax.com
 h-135-197-254-85.security.datastax.com
+h-135-197-254-87.security.datastax.com
 h-135-197-254-88.security.datastax.com
 h-135-197-254-90.security.datastax.com
 h-135-197-254-92.security.datastax.com
@@ -11542,6 +11576,7 @@ http-www-olx-co-za1-8.security.datastax.com
 http-www-olx-co-za3-4.security.datastax.com
 http-www-olx-co-za49.security.datastax.com
 http-www-olx-co-za5-1.security.datastax.com
+http-www-olx-co-za6-4.security.datastax.com
 http-www-olx-co-za6-6.security.datastax.com
 http-www-olx-co-za65.security.datastax.com
 http-www-olx-co-za67.security.datastax.com
@@ -12252,6 +12287,7 @@ il0.security.datastax.com
 ilb-edp.security.datastax.com
 ilepythontutorial-nb.security.datastax.com
 ilhfa1-asavpn-fw2.security.datastax.com
+illinois.security.datastax.com
 ilogsauth-mirror-my-oceania.security.datastax.com
 ilovecakes.security.datastax.com
 ilsvpnfwa.security.datastax.com
@@ -12349,6 +12385,7 @@ infr.security.datastax.com
 infra-chef-test-01.security.datastax.com
 infra-ci-01.security.datastax.com
 infra-desktop-01.security.datastax.com
+infra-dev.datastax.com
 infra-mgr.dmc-us-east-1.infra-dev.datastax.com
 infra-sentry-01.security.datastax.com
 infra-test.security.datastax.com
@@ -12361,6 +12398,7 @@ ingestion1.security.datastax.com
 ingestors-test.security.datastax.com
 ingmarie.security.datastax.com
 ingress-prime1-beta.security.datastax.com
+ingress.us-east-1.dev.apps.paas.datastax.com
 inhealthgroup.security.datastax.com
 inhyd1-sls.security.datastax.com
 init-kt-prod.security.datastax.com
@@ -12387,6 +12425,7 @@ insightlabut1.security.datastax.com
 insights.cloud.datastax.com
 insights.dev.cloud-tools.datastax.com
 insights.dev.cloud.datastax.com
+insights.feat.cloud.datastax.com
 insights.ingress.us-east-2.feat.apps.paas.datastax.com
 insights.ingress.us-east-2.prod.apps.paas.datastax.com
 insights.prod.cloud-tools.datastax.com
@@ -12615,6 +12654,7 @@ ip-150-61.security.datastax.com
 ip-150-72.security.datastax.com
 ip-150-74.security.datastax.com
 ip-150-8.security.datastax.com
+ip-150-81.goto.datastax.com
 ip-150-84.security.datastax.com
 ip-150-92.security.datastax.com
 ip-152-17.security.datastax.com
@@ -13846,6 +13886,7 @@ kafka-backend.security.datastax.com
 kafka-bridge.security.datastax.com
 kafka-connect-qa.security.datastax.com
 kafka-ds-prod-aws-useast2.streaming.datastax.com
+kafka-ds-test-aws-ue2.staging.streaming.datastax.com
 kafka-ds-test-aws-useast2.staging.streaming.datastax.com
 kafka-gcp-australiase1.streaming.datastax.com
 kafka-gcp-europewest1.streaming.datastax.com
@@ -14662,6 +14703,7 @@ lon3-artistinsightsindex-a5.security.datastax.com
 lon3-bartenderservice-a3.security.datastax.com
 lon3-bartenderservice-a4.security.datastax.com
 lon3-bartenderservice-a8.security.datastax.com
+lon3-bartenderservice2-a4.security.datastax.com
 lon3-bartenderservice2-a5.security.datastax.com
 lon3-bartenderstorage-b4.security.datastax.com
 lon3-bartenderstorage-b6.security.datastax.com
@@ -14892,6 +14934,7 @@ luie.security.datastax.com
 lum.security.datastax.com
 lumea.security.datastax.com
 lumin.security.datastax.com
+luna-dev.datastax.com
 luna.datastax.com
 luna.ingress.us-east-2.dev.apps.paas.datastax.com
 luna.ingress.us-east-2.feat.apps.paas.datastax.com
@@ -17830,6 +17873,8 @@ plant.security.datastax.com
 plaotxfe-dns-01-public.security.datastax.com
 plaotxfe.security.datastax.com
 platform-apps-us-east-2.infra-dev.datastax.com
+platform-apps-us-east-2.infra-test.datastax.com
+platform-apps-us-east-2.infra.datastax.com
 platform-apps-us-east-2.security.datastax.com
 platform-console.security.datastax.com
 platform-splunk-dev-pub.security.datastax.com
@@ -18658,6 +18703,7 @@ prometheus.bellburnell.streaming.datastax.com
 prometheus.dev.cloud.datastax.com
 prometheus.ds-dev-aws-ue2.dev.streaming.datastax.com
 prometheus.ds-prod-aws-useast2.streaming.datastax.com
+prometheus.ds-test-aws-ue2.staging.streaming.datastax.com
 prometheus.ds-uat-aws-useast2.staging.streaming.datastax.com
 prometheus.ect.cluster-c.staging.streaming.datastax.com
 prometheus.ect.cluster-d.staging.streaming.datastax.com
@@ -19795,6 +19841,7 @@ rollsroyce-galaxie-3.security.datastax.com
 rollsroyce-lucerne-1.security.datastax.com
 rollsroyce-lumina-1.security.datastax.com
 romail.security.datastax.com
+roman-us-west-2.infra-dev.datastax.com
 roman.paas.datastax.com
 romania-coxreporting-emerald.security.datastax.com
 romaniansoftware.security.datastax.com
@@ -19830,6 +19877,7 @@ rpgateway-prf.security.datastax.com
 rpillow.security.datastax.com
 rpm-edcstg.security.datastax.com
 rpm-qa.datastax.com
+rpm-test.datastax.com
 rpm.datastax.com
 rpmmq.security.datastax.com
 rpmmq11-dev.security.datastax.com
@@ -20051,6 +20099,7 @@ rwei.security.datastax.com
 rwsgvsf.security.datastax.com
 rxe-0-1-4.security.datastax.com
 rxe-0-1-8.security.datastax.com
+rxe-2-1-1.security.datastax.com
 rxe-6-1-1.security.datastax.com
 rxe-7-1-3.security.datastax.com
 ryabchikov.security.datastax.com
@@ -21428,6 +21477,7 @@ spiked-mystique-1.security.datastax.com
 spikeislandcork.security.datastax.com
 spin-gate-8085.ingress.us-east-1.prod.tools.paas.datastax.com
 spin-gate.cloud-tools.datastax.com
+spin.cloud-tools.datastax.com
 spinnaker-api-origin.cloud-tools.datastax.com
 spinnaker-api.cloud-tools.datastax.com
 spinnaker-gate.cloud-tools.datastax.com
@@ -22283,6 +22333,11 @@ studebaker-hearse-9.security.datastax.com
 studebaker-xuv-5.security.datastax.com
 student-qa1.security.datastax.com
 student.security.datastax.com
+studio.apollo-dev.datastax.com
+studio.apollo-stage.datastax.com
+studio.apollo-test.datastax.com
+studio.apollo.datastax.com
+studio.dev.cloud.datastax.com
 studiowebware.security.datastax.com
 studying.security.datastax.com
 studyinturkey4arab.security.datastax.com
@@ -22600,6 +22655,7 @@ tc-forms-perf-qydc.security.datastax.com
 tc02p-iil.security.datastax.com
 tc03p-or.security.datastax.com
 tc05p-or.security.datastax.com
+tc07p-or.security.datastax.com
 tcc.security.datastax.com
 tcd-bucket01.security.datastax.com
 tcg.security.datastax.com
@@ -22848,6 +22904,7 @@ teslavision-1mn1-120-x267-m3.security.datastax.com
 teslavision-1mn2-120-x267-m3.security.datastax.com
 teslavision-camera5.security.datastax.com
 test-app.dev.cloud.datastax.com
+test-app.feat.cloud.datastax.com
 test-app.feat.paas.datastax.com
 test-app.ingress.us-east-1.dev.apps.paas.datastax.com
 test-app.ingress.us-east-1.feat.tools.paas.datastax.com
@@ -24160,6 +24217,7 @@ tyobz-asavpn1.security.datastax.com
 tyrannosaurusrex-color.security.datastax.com
 u03-c02.security.datastax.com
 u06.security.datastax.com
+u07-c01.security.datastax.com
 u09-c01.security.datastax.com
 u18-c01.security.datastax.com
 u2f.security.datastax.com
@@ -24740,6 +24798,7 @@ usercenter.security.datastax.com
 userchefweb.security.datastax.com
 userconfig.security.datastax.com
 userconnectloginaccept-domain.security.datastax.com
+usercontainer-corporate.security.datastax.com
 userdata-m.security.datastax.com
 userdebug-new-configconfluence.security.datastax.com
 userdefault.security.datastax.com
@@ -25266,6 +25325,7 @@ v4upload.security.datastax.com
 v4users-userv2-apibeta.security.datastax.com
 v4v3-privateinternal-devaltproduction.security.datastax.com
 v4video-logsstreaming.security.datastax.com
+v4vipstatus-prod-db1site.security.datastax.com
 v4winrar.security.datastax.com
 v4ww01-b2bmy-oceania.security.datastax.com
 v6.security.datastax.com
@@ -25543,6 +25603,7 @@ visitdatfbapps.security.datastax.com
 visitenglandreporting.security.datastax.com
 visitspe.security.datastax.com
 visual.security.datastax.com
+visualfx.security.datastax.com
 visualizingrussian.security.datastax.com
 vithya.security.datastax.com
 vitor05.security.datastax.com
@@ -25853,6 +25914,7 @@ wdg.security.datastax.com
 wealth-fin-dev.security.datastax.com
 weaspalpc.security.datastax.com
 weatherbox.security.datastax.com
+web-alpha-awspaymentsstorage.security.datastax.com
 web-app.security.datastax.com
 web-authapp-tempcontainer-corporate.security.datastax.com
 web-aws-loginaccept-domain.security.datastax.com
@@ -25923,6 +25985,7 @@ webapp-m.security.datastax.com
 webapp-temp-exchangedns.security.datastax.com
 webapplb01d.security.datastax.com
 webapps.security.datastax.com
+webasr.infra.datastax.com
 webattach-v6.security.datastax.com
 webattachmentsks.security.datastax.com
 webauthjenkinsv2.security.datastax.com
@@ -26440,6 +26503,7 @@ www-naij-com-7.security.datastax.com
 www-naij-com-8-0.security.datastax.com
 www-naij-com-90.security.datastax.com
 www-naij-com-92.security.datastax.com
+www-naij-com0.security.datastax.com
 www-naij-com1-8.security.datastax.com
 www-naij-com1-9.security.datastax.com
 www-naij-com57.security.datastax.com
@@ -27890,6 +27954,7 @@ zzb.security.datastax.com
 35-30-5.security.datastax.com
 35-6-5.security.datastax.com
 35-7-0-4.security.datastax.com
+35-7-0.security.datastax.com
 35-7-9-4.security.datastax.com
 35-70-44.security.datastax.com
 35-73-92.security.datastax.com
