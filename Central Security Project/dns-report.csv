@@ -1,10 +1,12 @@
-new,host,a,aaaa,cname,soa,status_code,cdn,cdn-name,mx,ns,txt,caa
-,central-s3.maven.org,151.101.36.129,,a.prod.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,
-,ipv6.repo1.maven.org,146.75.116.209,2a04:4e42:8e::209,dualstack.sonatype.map.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,
-,maven.org,"108.156.22.93, 108.156.22.70, 108.156.22.25, 108.156.22.24",,,"ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,"alt2.aspmx.l.google.com, aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com","ns-1965.awsdns-53.co.uk, ns-763.awsdns-31.net, ns-88.awsdns-11.com, ns-1159.awsdns-16.org","v=spf1 -all, adobe-idp-site-verification=12b60633b0ad74996a3b714607dee55c91d8675d698e38523181ea6e59861602, google-site-verification=2DAKh3_zVRXO77GkkQVvImhtFB0MykXwQ7mii0NIS1k, google-site-verification=B1acI_wziT1zGWV-fxiLDSUXqT86kRJJWQn_nhw3JuY, google-site-verification=kIoywd3rJK77Y3K-43bLXjCjaM3SbICRAFqblaisa5s",
-,repo.apache.maven.org,146.75.120.215,2a04:4e42:8e::215,maven.map.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,"ns1.fastly.net, ns2.fastly.net, ns3.fastly.net, ns4.fastly.net",,
-,search-aws.maven.org,,,search-maven-org-prod-env.us-east-1.elasticbeanstalk.com,"ns-59.awsdns-07.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,
-,search-stage.maven.org,"99.86.4.110, 99.86.4.70, 99.86.4.74, 99.86.4.113",,,"ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,"ns-1159.awsdns-16.org, ns-1965.awsdns-53.co.uk, ns-763.awsdns-31.net, ns-88.awsdns-11.com",,
-,staging.repo1.maven.org,146.75.120.209,2a04:4e42:8e::209,dualstack.sonatype.map.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,
-,status.maven.org,52.215.192.132,,68grm88cvpc8.stspg-customer.com,"ns-1711.awsdns-21.co.uk, awsdns-hostmaster.amazon.com",NOERROR,,,,,,"globalsign.com;, letsencrypt.org"
-,www.maven.org,"108.138.64.68, 108.138.64.104, 108.138.64.126, 108.138.64.50",,,"ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,
+new,host,a,soa,status_code,cdn,cdn-name,mx,ns,txt,aaaa,cname,caa
+[x],maven.org,"99.86.4.70, 99.86.4.74, 99.86.4.110, 99.86.4.113","ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com","ns-88.awsdns-11.com, ns-763.awsdns-31.net, ns-1159.awsdns-16.org, ns-1965.awsdns-53.co.uk","v=spf1 -all, google-site-verification=2DAKh3_zVRXO77GkkQVvImhtFB0MykXwQ7mii0NIS1k, google-site-verification=B1acI_wziT1zGWV-fxiLDSUXqT86kRJJWQn_nhw3JuY, google-site-verification=kIoywd3rJK77Y3K-43bLXjCjaM3SbICRAFqblaisa5s, adobe-idp-site-verification=12b60633b0ad74996a3b714607dee55c91d8675d698e38523181ea6e59861602",,,
+,central-s3.maven.org,146.75.120.129,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,,a.prod.fastly.net,
+,insecure.repo1.maven.org,151.101.36.204,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,,nonssl.global.fastly.net,
+,ipv6.repo1.maven.org,151.101.44.209,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:b::209,dualstack.sonatype.map.fastly.net,
+,repo.apache.maven.org,151.101.36.215,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:9::215,maven.map.fastly.net,
+,repo1.maven.org,146.75.120.209,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:8e::209,dualstack.sonatype.map.fastly.net,
+,search-stage.maven.org,"99.86.4.70, 99.86.4.74, 99.86.4.110, 99.86.4.113","ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
+,search.maven.org,"54.172.147.226, 34.206.144.62","ns-59.awsdns-07.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,"search-aws.maven.org, search-maven-org-prod-env.us-east-1.elasticbeanstalk.com",
+,staging.repo1.maven.org,151.101.84.209,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:3a::209,dualstack.sonatype.map.fastly.net,
+,status.maven.org,,"ns-1711.awsdns-21.co.uk, awsdns-hostmaster.amazon.com",NOERROR,,,,"ns-1098.awsdns-09.org, ns-1711.awsdns-21.co.uk, ns-441.awsdns-55.com, ns-817.awsdns-38.net",,,68grm88cvpc8.stspg-customer.com,"globalsign.com;, letsencrypt.org"
+,www.maven.org,"99.86.4.110, 99.86.4.113, 99.86.4.74, 99.86.4.70","ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
