@@ -1,18 +1,17 @@
-new,host,a,soa,status_code,aaaa,cname,mx,txt,cdn,cdn-name,ns
-,app-eu.worklytics.co,142.250.184.243,"ns1.google.com, dns-admin.google.com",NOERROR,2a00:1450:4001:82f::2013,ghs.googlehosted.com,,,,,
-,app.worklytics.co,192.178.25.179,"ns1.google.com, dns-admin.google.com",NOERROR,2a00:1450:401b:814::2013,ghs.googlehosted.com,,,,,
-,calendar.worklytics.co,142.250.74.211,"ns1.google.com, dns-admin.google.com",NOERROR,2a00:1450:4001:831::2013,ghs.googlehosted.com,,,,,
-,drive.worklytics.co,142.250.203.115,"ns1.google.com, dns-admin.google.com",NOERROR,2a00:1450:400a:808::2013,ghs.googlehosted.com,,,,,
-,in.worklytics.co,142.251.40.115,"ns1.google.com, dns-admin.google.com",NOERROR,2607:f8b0:4006:81f::2013,ghs.googlehosted.com,,,,,
-,intl.worklytics.co,142.251.163.121,"ns1.google.com, dns-admin.google.com",NOERROR,2607:f8b0:4004:c1b::79,ghs.googlehosted.com,,,,,
-,mail.worklytics.co,142.250.185.83,"ns1.google.com, dns-admin.google.com",NOERROR,2a00:1450:4001:80e::2013,ghs.googlehosted.com,,,,,
-,o1.send.worklytics.co,168.245.43.43,"ns-cloud-e1.googledomains.com, dns-admin.google.com",NOERROR,,,,,,,
-,send.worklytics.co,,"aisha.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,u1745227.wl228.sendgrid.net,mx.sendgrid.net,v=spf1 ip4:168.245.43.43 -all,,,
-,trust.worklytics.co,"104.22.26.212, 172.67.27.232, 104.22.27.212","austin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700:10::6816:1bd4, 2606:4700:10::6816:1ad4, 2606:4700:10::ac43:1be8",5d35fec00a606c1d1e5334ad.cname.vantatrust.com,,,True,cloudflare,
-,vault.worklytics.co,,,NOERROR,2602:fcbc:0:3::11,,,,,,
-,worklytics.co,"99.83.190.102, 75.2.70.75","ns-cloud-e1.googledomains.com, dns-admin.google.com",NOERROR,,,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt4.aspmx.l.google.com, alt3.aspmx.l.google.com, alt2.aspmx.l.google.com","1password-site-verification=2ONJDEGK75E2BMLLNOTNSEVJTE, google-site-verification=O3cyKLLcmj3i-234ERsu45Tei6eT-nV5xpaFLXfUSzE, MS=ms75021220, proxy-ssl.webflow.com, v=spf1 include:_spf.google.com include:mail.zendesk.com include:servers.mcsv.net ip4:138.197.98.122 ~all",,,"ns-cloud-e3.googledomains.com, ns-cloud-e2.googledomains.com, ns-cloud-e1.googledomains.com, ns-cloud-e4.googledomains.com"
-,www.worklytics.co,,"ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,"proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com",,,,,
-,zendesk1.worklytics.co,"162.159.138.6, 162.159.128.7","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail1.zendesk.com,mail.zendesk.com,v=spf1 include:_netblocks.zdsys.com ~all,True,cloudflare,
-,zendesk2.worklytics.co,"162.159.128.7, 162.159.138.6","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail2.zendesk.com,mail.zendesk.com,v=spf1 include:_netblocks.zdsys.com ~all,True,cloudflare,
-,zendesk3.worklytics.co,"184.72.174.126, 3.213.143.227, 34.235.62.90","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail3.zendesk.com,mail.zendesk.com,v=spf1 include:_netblocks.zdsys.com ~all,True,cloudflare,"ns-1213.awsdns-23.org, ns-1858.awsdns-40.co.uk, ns-444.awsdns-55.com, ns-754.awsdns-30.net"
-,zendesk4.worklytics.co,"3.213.143.227, 34.235.62.90, 184.72.174.126","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail4.zendesk.com,mail.zendesk.com,v=spf1 include:_netblocks.zdsys.com ~all,True,cloudflare,"ns-1213.awsdns-23.org, ns-1858.awsdns-40.co.uk, ns-444.awsdns-55.com, ns-754.awsdns-30.net"
+new,host,a,mx,soa,ns,txt,status_code,aaaa,cname,cdn,cdn-name
+[x],worklytics.co,"75.2.70.75, 99.83.190.102","alt3.aspmx.l.google.com, alt2.aspmx.l.google.com, alt1.aspmx.l.google.com, aspmx.l.google.com, alt4.aspmx.l.google.com","ns-cloud-e1.googledomains.com, dns-admin.google.com","ns-cloud-e2.googledomains.com, ns-cloud-e4.googledomains.com, ns-cloud-e1.googledomains.com, ns-cloud-e3.googledomains.com","MS=ms75021220, proxy-ssl.webflow.com, google-site-verification=O3cyKLLcmj3i-234ERsu45Tei6eT-nV5xpaFLXfUSzE, v=spf1 include:_spf.google.com include:mail.zendesk.com include:servers.mcsv.net ip4:138.197.98.122 ~all, 1password-site-verification=2ONJDEGK75E2BMLLNOTNSEVJTE",NOERROR,,,,
+,app-eu.worklytics.co,172.217.16.211,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2a00:1450:4001:80b::2013,ghs.googlehosted.com,,
+,app.worklytics.co,192.178.25.179,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2a00:1450:401b:814::2013,ghs.googlehosted.com,,
+,calendar.worklytics.co,142.250.181.243,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2a00:1450:4001:82a::2013,ghs.googlehosted.com,,
+,drive.worklytics.co,142.250.185.115,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2a00:1450:4001:80f::2013,ghs.googlehosted.com,,
+,groups.worklytics.co,172.217.18.19,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2a00:1450:4001:80b::2013,ghs.googlehosted.com,,
+,in.worklytics.co,142.250.65.179,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2607:f8b0:4006:80e::2013,ghs.googlehosted.com,,
+,intl.worklytics.co,142.251.163.121,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2607:f8b0:4004:c1b::79,ghs.googlehosted.com,,
+,mail.worklytics.co,172.217.18.19,,"ns1.google.com, dns-admin.google.com",,,NOERROR,2a00:1450:4001:80b::2013,ghs.googlehosted.com,,
+,o1.send.worklytics.co,168.245.43.43,,"ns-cloud-e1.googledomains.com, dns-admin.google.com",,,NOERROR,,,,
+,send.worklytics.co,,mx.sendgrid.net,"aisha.ns.cloudflare.com, dns.cloudflare.com",,v=spf1 ip4:168.245.43.43 -all,NOERROR,,u1745227.wl228.sendgrid.net,,
+,trust.worklytics.co,"104.22.26.212, 172.67.27.232, 104.22.27.212",,"austin.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,"2606:4700:10::ac43:1be8, 2606:4700:10::6816:1bd4, 2606:4700:10::6816:1ad4",5d35fec00a606c1d1e5334ad.cname.vantatrust.com,True,cloudflare
+,vault.worklytics.co,,,,,,NOERROR,,,,
+,www.worklytics.co,,,"ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",,,NOERROR,,"proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com",,
+,zendesk1.worklytics.co,"162.159.138.6, 162.159.128.7",mail.zendesk.com,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",,v=spf1 include:_netblocks.zdsys.com ~all,NOERROR,,mail1.zendesk.com,True,cloudflare
+,zendesk2.worklytics.co,"162.159.138.6, 162.159.128.7",mail.zendesk.com,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",,v=spf1 include:_netblocks.zdsys.com ~all,NOERROR,,mail2.zendesk.com,True,cloudflare
