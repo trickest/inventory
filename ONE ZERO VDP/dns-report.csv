@@ -1,14 +1,16 @@
-new,host,soa,status_code,a,cdn,cdn-name,aaaa,cname,mx,ns,txt
-,admin.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.22.154, 104.18.23.154",True,cloudflare,,,,,
-,app.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.22.154, 104.18.23.154",True,cloudflare,,,,,
-,autodiscover.onezerobank.com,"ns1-34.azure-dns.com, azuredns-hostmaster.microsoft.com, ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,"52.98.241.200, 40.99.150.104, 40.99.150.24, 40.99.150.120, 40.99.150.8, 52.98.171.232, 52.98.152.248, 40.99.149.216",,,"2603:1026:c0d:6b::8, 2603:1026:c0d:70::8, 2603:1026:c0d:20::8, 2603:1026:c0d:6a::8, 2603:1026:c0d:77::8, 2603:1026:c0d:75::8, 2603:1026:c0d:76::8, 2603:1026:c0d:72::8","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,,
-,commugen.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,
-,en.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.23.154, 104.18.22.154",True,cloudflare,,,,,
-,itcc.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,
-,links.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.22.154, 104.18.23.154",True,cloudflare,,,,,
-,marketing.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,"mxa-0074c501.gslb.pphosted.com, mxb-0074c501.gslb.pphosted.com",,v=spf1 include:spf.protection.outlook.com -all
-,mft.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.22.154, 104.18.23.154",True,cloudflare,,,,,
-,onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.23.154, 104.18.22.154",True,cloudflare,,,"mxa-0074c501.gslb.pphosted.com, mxb-0074c501.gslb.pphosted.com","kenneth.ns.cloudflare.com, aida.ns.cloudflare.com","atlassian-domain-verification=Ynzf50HVhAodrsPcnaPMGyweI1BT3PeNfXiqzY6TGWg30aMQg86110mPBn/JbIks, ppe-6f6fe3aa01c7bb59df9caa4fd6df201fadea6673, v=spf1 include:spf1.onezerobank.com include:spf2.onezerobank.com -all, Dynatrace-site-verification=03a03839-75cd-4d60-89b8-8a89c6421c47__8v2hcstsgr41gpd0h2noqbs885, MS=ms10989507, ZOOM_verify_5Ftv8vef7fWwRDeuinK69x"
-,pki.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.22.154, 104.18.23.154",True,cloudflare,,,,,
-,spf2.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,
-,store.onezerobank.com,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"104.18.22.154, 104.18.23.154",True,cloudflare,,,,,
+new,host,a,soa,status_code,cdn,cdn-name,aaaa,cname,txt,mx
+,admin.onezerobank.com,"104.18.23.154, 104.18.22.154","aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,app.onezerobank.com,"104.18.22.154, 104.18.23.154","aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,autodiscover.marketing.onezerobank.com,"52.98.228.56, 52.98.243.8, 52.98.242.248, 52.98.241.168, 52.98.243.56, 52.98.241.200, 52.98.241.184, 40.99.150.88","ns1-ms-acdc.office.com, hostmaster.microsoft.com, ns1-34.azure-dns.com, azuredns-hostmaster.microsoft.com",NOERROR,,,"2603:1026:c0d:82f::8, 2603:1026:c0d:82c::8, 2603:1026:c0d:c2b::8, 2603:1026:c0d:c1d::8","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,
+,autodiscover.onezerobank.com,"52.97.190.40, 52.98.240.24, 52.98.239.120","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,"2603:1026:c0e:863::8, 2603:1026:c0e:80f::8, 2603:1026:c0e:872::8","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,
+,commugen.onezerobank.com,,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+,en.onezerobank.com,"104.18.23.154, 104.18.22.154","aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,itcc.onezerobank.com,,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+,links.onezerobank.com,"104.18.23.154, 104.18.22.154","aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,marketing.onezerobank.com,,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,v=spf1 include:spf.protection.outlook.com -all,"mxb-0074c501.gslb.pphosted.com, mxa-0074c501.gslb.pphosted.com"
+,mft.onezerobank.com,"104.18.23.154, 104.18.22.154","aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,spf1.onezerobank.com,,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,v=spf1 a:dispatch-eu.ppe-hosted.com ip4:2.53.8.137 ip4:2.52.77.59 -all,
+,spf2.onezerobank.com,,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,v=spf1 include:spf.emailsignatures365.com include:spf.protection.outlook.com -all,
+,store.onezerobank.com,"104.18.22.154, 104.18.23.154","aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,vpn.onezerobank.com,,"aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
+,www.onezerobank.com,"188.114.98.229, 188.114.99.229","aida.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
