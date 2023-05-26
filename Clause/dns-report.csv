@@ -1,8 +1,12 @@
-new,host,a,soa,status_code,cdn,cdn-name
-,admin.clausestaging.com,"52.35.112.94, 54.244.24.252","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,
-,blog.clausestaging.com,"18.165.98.10, 18.165.98.112, 18.165.98.107, 18.165.98.99","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront
-,callback.clausestaging.com,"44.238.65.52, 44.226.221.14","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,
-,callbacks.clausestaging.com,"18.66.97.67, 18.66.97.47, 18.66.97.42, 18.66.97.115","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront
-,hub.clausestaging.com,,"ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront
-,tasks.clausestaging.com,"52.11.6.147, 34.217.154.169","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,
-,www.clausestaging.com,"18.164.68.72, 18.164.68.17, 18.164.68.103, 18.164.68.8","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront
+new,host,a,soa,status_code,cdn,cdn-name,aaaa,cname,caa,mx,ns,txt
+[x],clausestaging.com,"13.32.121.44, 13.32.121.76, 13.32.121.82, 13.32.121.22","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,amazon.com,inbound-smtp.us-west-2.amazonaws.com,"ns-1074.awsdns-06.org, ns-1702.awsdns-20.co.uk, ns-579.awsdns-08.net, ns-128.awsdns-16.com",v=spf1 -all
+,admin.clausestaging.com,"34.216.235.45, 54.244.24.252","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
+,api.clausestaging.com,"34.218.17.62, 34.212.60.195","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
+,blog.clausestaging.com,"18.165.98.10, 18.165.98.112, 18.165.98.107, 18.165.98.99","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
+,callback.clausestaging.com,"44.226.221.14, 44.238.65.52","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
+,callbacks.clausestaging.com,"18.66.97.42, 18.66.97.67, 18.66.97.115, 18.66.97.47","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
+,get.clausestaging.com,,"internal.akadns.net, hostmaster.akamai.com",NOERROR,,,,"us18-ae851adb-8cf0074fca045ba81651ad9ea.pages.mailchi.mp, terminator.capstone.com.akadns.net",,,,
+,login.clausestaging.com,"104.18.102.2, 104.18.103.2","kolton.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700::6812:6602, 2606:4700::6812:6702",staging-clause-cd-tekqmlymzm05bg5h.edge.tenants.auth0.com,"letsencrypt.org, digicert.com",,,
+,svc-helper-api.clausestaging.com,"54.191.185.231, 52.37.110.16","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
+,tasks.clausestaging.com,"34.217.154.169, 52.11.6.147","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
+,www.clausestaging.com,"143.204.98.52, 143.204.98.117, 143.204.98.86, 143.204.98.49","ns-128.awsdns-16.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
