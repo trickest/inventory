@@ -1,14 +1,15 @@
-new,host,a,soa,status_code,cdn,cdn-name,mx,ns,txt,caa,cname,has_internal_ips,internal_ips
-[x],a.sales.range.co,34.149.61.18,"ns-cloud-d1.googledomains.com, cloud-dns-hostmaster.google.com",NOERROR,True,google,,,"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/leadgenie/tracking-api-rails",,www.aptracking1.com,,
-[x],admin.back.range.co,10.1.2.32,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,10.1.2.32
-[x],api.range.co,"3.223.7.172, 3.213.20.127, 184.73.43.57","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,,
-[x],help.range.co,"108.138.85.44, 108.138.85.10, 108.138.85.127, 108.138.85.85","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,,
-[x],icebreaker.back.range.co,"10.1.1.8, 10.1.3.115","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,True,"10.1.1.8, 10.1.3.115"
-[x],icebreaker.range.co,"18.66.122.45, 18.66.122.89, 18.66.122.94, 18.66.122.113","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,,
-[x],in.range.co,"44.195.218.233, 54.210.126.186, 54.211.197.30","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,,
-[x],labs.range.co,"18.66.97.93, 18.66.97.53, 18.66.97.112, 18.66.97.15","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,,
-[x],msteams.range.co,"52.222.139.102, 52.222.139.58, 52.222.139.7, 52.222.139.116","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,MS=ms69642511,,,,
-[x],range.co,"52.85.242.114, 52.85.242.23, 52.85.242.75, 52.85.242.59","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,"aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net, ns-1171.awsdns-18.org","facebook-domain-verification=zwboivih5ckxvm5r3jwws5kphlnlf9, google-site-verification=1L058XFel48KAAhxxIMgEoLwTFU4sgy_JuHrH5vas8A, google-site-verification=BDofLRQSKB0SjJuqztRKN4viKqTAMovcqEr1jFxoFeM, v=spf1 include:emsd1.com include:sendgrid.net include:_spf.google.com include:amazonses.com include:20958872.spf10.hubspotemail.net -all","sectigo.com, amazon.com",,,
-[x],seg-api.range.co,"13.32.121.67, 13.32.121.12, 13.32.121.10, 13.32.121.38","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,,
-[x],seg-cdn.range.co,"54.192.111.43, 54.192.111.59, 54.192.111.72, 54.192.111.66","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,"ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",,,,,
-[x],www.range.co,"52.84.45.106, 52.84.45.7, 52.84.45.117, 52.84.45.25","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,"ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",,,,,
+new,host,a,soa,ns,status_code,cdn,cdn-name,cname,caa,has_internal_ips,internal_ips
+[x],admin.back.range.co,10.1.2.32,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,,True,10.1.2.32
+[x],admin.range.co,"13.32.121.103, 13.32.121.67, 13.32.121.40, 13.32.121.114","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+[x],d.sales.range.co,"3.222.7.36, 34.200.103.172, 3.93.29.37","ns-834.awsdns-40.net, awsdns-hostmaster.amazon.com",,NOERROR,,,custom-tracking.salesloft.com,"comodoca.com, letsencrypt.org, digicert.com, pki.goog",,
+[x],help.range.co,"108.138.85.85, 108.138.85.44, 108.138.85.10, 108.138.85.127","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+[x],icebreaker.range.co,"18.66.122.45, 18.66.122.89, 18.66.122.94, 18.66.122.113","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+[x],in.range.co,"44.195.218.233, 54.210.126.186, 54.211.197.30","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,,,
+[x],labs.range.co,"18.66.97.93, 18.66.97.15, 18.66.97.53, 18.66.97.112","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+[x],mta-sts.range.co,"108.156.46.28, 108.156.46.35, 108.156.46.107, 108.156.46.120","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+[x],o1.ptr5640.range.co,,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,,,
+[x],range.co,,,"ns-178.awsdns-22.com, ns-797.awsdns-35.net, ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk",NOERROR,True,cloudfront,,,,
+[x],seg-api.range.co,"108.157.229.109, 108.157.229.74, 108.157.229.44, 108.157.229.90","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+[x],seg-cdn.range.co,"108.157.229.34, 108.157.229.17, 108.157.229.121, 108.157.229.65","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,True,cloudfront,,,,
+[x],www.range.co,"99.86.91.57, 99.86.91.13, 99.86.91.2, 99.86.91.111","ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com","ns-1171.awsdns-18.org, ns-1559.awsdns-02.co.uk, ns-178.awsdns-22.com, ns-797.awsdns-35.net",NOERROR,True,cloudfront,,,,
+[x],zoom.range.co,,"ns-1171.awsdns-18.org, awsdns-hostmaster.amazon.com",,NOERROR,,,,,,
