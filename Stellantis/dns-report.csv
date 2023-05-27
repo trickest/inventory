@@ -1,32 +1,43 @@
-new,host,a,soa,status_code,cname,ns,cdn,cdn-name,txt,aaaa,mx
-[x],auth.driveuconnect.eu,151.91.35.133,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],authsmtp.driveuconnect.eu,81.88.48.66,"ns1.register.it, hostmaster.register.it",NOERROR,authsmtp.register.it,,,,v=spf1 include:spf.webapps.net ~all,,
-[x],cert-auth.driveuconnect.eu,151.91.35.134,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],cert.driveuconnect.eu,151.91.35.134,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],driveuconnect.com,"206.198.145.71, 129.9.76.16, 129.9.108.16","ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,,"ns1.extra.chrysler.com, ns2.extra.chrysler.com",,,google-site-verification=KEQn7Ad1TtJ74ahJfS-5TPy-iVIkpqcAr0w87wHdjnY,,
-[x],driveuconnect.eu,82.112.205.252,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,"dns1.p09.nsone.net, dns2.p09.nsone.net, dns3.p09.nsone.net, dns4.p09.nsone.net",,,"MS=ms30601986, c59kt70396y5kdrvy6bphsf4sc62152q, hnzqr5gsdjqvpyrmv6ky4df66jf38yxs, google-site-verification=DZQUuUpVgkChVZ7RVQeGBoYVXJjFmUSvqEOEzFzt30c, v=spf1 ip4:151.92.83.0/24 ip4:129.35.112.0/21 ip4:129.35.123.160/27 ip4:151.88.176.0/24 ip4:129.35.117.23 ip4:129.35.117.24 ip4:151.92.2.0/24 ip4:129.35.112.0/21 ip4:129.35.123.160/27 include:smtp.fiatgroup.com mx mx:esmtp.fiat.com include:_netblocks.eloq, ua.c om -all, ua.com include:spf.protection.outlook.com include:_spf.google.com  -all\""",,driveuconnect-eu.mail.protection.outlook.com
-[x],duc-pre.driveuconnect.eu,156.54.71.108,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],e.driveuconnect.com,206.198.145.71,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,,,,,v=spf1 ip4:129.33.239.83 -all,,"reply.e.driveuconnect.com, mail7126.e.driveuconnect.com"
-[x],ecodrive.driveuconnect.eu,156.54.71.109,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],login-dev.driveuconnect.eu,"18.65.39.19, 18.65.39.124, 18.65.39.82, 18.65.39.16","ns-1237.awsdns-26.org, awsdns-hostmaster.amazon.com",NOERROR,"960465638963.gigya-api.com, d319e83a2fntln.cloudfront.net","ns-1237.awsdns-26.org, ns-903.awsdns-48.net, ns-408.awsdns-51.com, ns-1995.awsdns-57.co.uk",True,cloudfront,,,
-[x],mail7126.e.driveuconnect.com,129.33.239.83,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,,,,,v=spf1 ip4:129.33.239.83 -all,,mail7126.e.driveuconnect.com
-[x],mauth.driveuconnect.eu,151.91.35.174,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],mcert-auth.driveuconnect.eu,,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],mcert.driveuconnect.eu,151.91.35.175,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],open.e.driveuconnect.com,,"ns1.acoustic-adm.com, awsdns-hostmaster.amazon.com",NOERROR,open.rm02.net,"ns2.extra.chrysler.com, ns1.extra.chrysler.com",,,,,
-[x],pre-ecodrive.driveuconnect.eu,156.54.71.111,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],reply.e.driveuconnect.com,74.112.69.40,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,,,,,v=spf1 a ip4:129.33.239.83 -all,,reply.e.driveuconnect.com
-[x],test-aem-origin.driveuconnect.com,"52.89.198.117, 35.83.105.232","ns-1643.awsdns-13.co.uk, awsdns-hostmaster.amazon.com",NOERROR,stellantis-test-65-brands.adobecqms.net,,,,,,
-[x],test-aem.driveuconnect.com,"23.50.57.50, 23.50.57.49","n0dscx.akamaiedge-staging.net, hostmaster.akamai.com",NOERROR,"test-aem.driveuconnect.com.edgekey-staging.net, e26912.dscx.akamaiedge-staging.net",,,,,"2a02:26f0:e0::1732:3622, 2a02:26f0:e0::1732:3620",
-[x],test.driveuconnect.com,"2.18.29.147, 2.18.29.233","n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"test.driveuconnect.com.edgekey.net, e127722.dscx.akamaiedge.net",,,,,"2a02:26f0:d200::6855:f93a, 2a02:26f0:d200::6855:f920",
-[x],test.login.driveuconnect.com,129.9.176.39,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,,,,,,,
-[x],test2.driveuconnect.com,"23.50.55.42, 23.50.55.43","n0dscx.akamaiedge-staging.net, hostmaster.akamai.com",NOERROR,"test2.driveuconnect.com.edgekey-staging.net, e27530.dscx.akamaiedge-staging.net",,,,,"2a02:26f0:e0::1732:3629, 2a02:26f0:e0::1732:3620",
-[x],uat-preview-origin.driveuconnect.com,"67.202.28.196, 54.156.102.148","ns-1119.awsdns-11.org, awsdns-hostmaster.amazon.com",NOERROR,"preview-stellantis-us-stg-65-brands.adobecqms.net, stellantis-us-stg-65-brands-prev-1152747572.us-east-1.elb.amazonaws.com",,,,,,
-[x],uat-preview.driveuconnect.com,"23.50.55.42, 23.50.55.51","n0dscx.akamaiedge-staging.net, hostmaster.akamai.com",NOERROR,"uat-preview.driveuconnect.com.edgekey-staging.net, e26912.dscx.akamaiedge-staging.net",,,,,"2a02:26f0:3100::1732:372a, 2a02:26f0:3100::1732:3733",
-[x],uat.driveuconnect.com,"95.101.74.138, 95.101.74.156","n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"uat.driveuconnect.com.edgekey.net, e127722.dscx.akamaiedge.net",,,,,"2a02:26f0:c900:9::5f65:4a8a, 2a02:26f0:c900:9::5f65:4a9c",
-[x],web3-www.driveuconnect.com,34.234.113.11,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,,,,,,,
-[x],www-b2caem654-origin.driveuconnect.com,,"ns-1643.awsdns-13.co.uk, awsdns-hostmaster.amazon.com",NOERROR,stellantis-us-prod-65-brands-b.adobecqms.net,,,,,,
-[x],www-b2caem654-preview-origin.driveuconnect.com,"54.84.24.253, 52.21.95.13","ns-1119.awsdns-11.org, awsdns-hostmaster.amazon.com",NOERROR,"preview-stellantis-us-prod-65-brands.adobecqms.net, stellantis-us-prod-65-brands-pre-1197554651.us-east-1.elb.amazonaws.com",,,,,,
-[x],www.driveuconnect.eu,82.112.205.252,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],www.ecodrive.driveuconnect.eu,,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
-[x],www.racpilot.driveuconnect.eu,212.31.252.96,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,
+new,host,soa,status_code,a,cname,ns,cdn,cdn-name,aaaa,mx,txt
+[x],auth.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,151.91.35.133,,,,,,,
+[x],authsmtp.driveuconnect.eu,"ns1.register.it, hostmaster.register.it",NOERROR,81.88.48.66,authsmtp.register.it,,,,,,v=spf1 include:spf.webapps.net ~all
+[x],autodiscover.driveuconnect.eu,"ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,"52.97.189.104, 40.99.157.8, 40.99.149.136, 40.99.149.104, 40.99.157.24, 40.99.157.40, 52.97.188.72, 40.99.149.184","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,,,"2603:1026:c0d:829::8, 2603:1026:c0d:c1d::8, 2603:1026:c0d:c06::8, 2603:1026:c0d:c28::8",,
+[x],cert-auth.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,151.91.35.134,,,,,,,
+[x],cert.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,151.91.35.134,,,,,,,
+[x],connectedservices.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,82.112.205.252,,,,,,,
+[x],dev.login.driveuconnect.com,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,129.9.176.34,,,,,,,
+[x],driveuconnect.com,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,"206.198.145.71, 129.9.76.16, 129.9.108.16",,"ns1.extra.chrysler.com, ns2.extra.chrysler.com",,,,,google-site-verification=KEQn7Ad1TtJ74ahJfS-5TPy-iVIkpqcAr0w87wHdjnY
+[x],driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,82.112.205.252,,"dns1.p09.nsone.net, dns2.p09.nsone.net, dns3.p09.nsone.net, dns4.p09.nsone.net",,,,driveuconnect-eu.mail.protection.outlook.com,"MS=ms30601986, c59kt70396y5kdrvy6bphsf4sc62152q, hnzqr5gsdjqvpyrmv6ky4df66jf38yxs, google-site-verification=DZQUuUpVgkChVZ7RVQeGBoYVXJjFmUSvqEOEzFzt30c, v=spf1 ip4:151.92.83.0/24 ip4:129.35.112.0/21 ip4:129.35.123.160/27 ip4:151.88.176.0/24 ip4:129.35.117.23 ip4:129.35.117.24 ip4:151.92.2.0/24 ip4:129.35.112.0/21 ip4:129.35.123.160/27 include:smtp.fiatgroup.com mx mx:esmtp.fiat.com include:_netblocks.eloq, ua.c om -all, ua.com include:spf.protection.outlook.com include:_spf.google.com  -all\"""
+[x],duc-pre.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,156.54.71.108,,,,,,,
+[x],e.driveuconnect.com,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,206.198.145.71,,,,,,"reply.e.driveuconnect.com, mail7126.e.driveuconnect.com",v=spf1 ip4:129.33.239.83 -all
+[x],ecodrive.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,156.54.71.109,,,,,,,
+[x],ftp.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,82.112.205.252,driveuconnect.eu,"dns1.p09.nsone.net, dns2.p09.nsone.net, dns3.p09.nsone.net, dns4.p09.nsone.net",,,,driveuconnect-eu.mail.protection.outlook.com,"google-site-verification=DZQUuUpVgkChVZ7RVQeGBoYVXJjFmUSvqEOEzFzt30c, v=spf1 ip4:151.92.83.0/24 ip4:129.35.112.0/21 ip4:129.35.123.160/27 ip4:151.88.176.0/24 ip4:129.35.117.23 ip4:129.35.117.24 ip4:151.92.2.0/24 ip4:129.35.112.0/21 ip4:129.35.123.160/27 include:smtp.fiatgroup.com mx mx:esmtp.fiat.com include:_netblocks.eloq, ua.c om -all, c59kt70396y5kdrvy6bphsf4sc62152q, ua.com include:spf.protection.outlook.com include:_spf.google.com  -all\"", MS=ms30601986, hnzqr5gsdjqvpyrmv6ky4df66jf38yxs"
+[x],links.e.driveuconnect.com,"ns1.acoustic-adm.com, awsdns-hostmaster.amazon.com",NOERROR,54.243.36.171,recp.rm02.net,,,,,,
+[x],login-dev.driveuconnect.eu,"ns-1237.awsdns-26.org, awsdns-hostmaster.amazon.com",NOERROR,"108.156.46.125, 108.156.46.41, 108.156.46.99, 108.156.46.7","960465638963.gigya-api.com, d319e83a2fntln.cloudfront.net","ns-1237.awsdns-26.org, ns-408.awsdns-51.com, ns-903.awsdns-48.net, ns-1995.awsdns-57.co.uk",True,cloudfront,,,
+[x],login.driveuconnect.com,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,129.9.48.69,,,,,,,
+[x],m.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,20.47.97.150,,,True,azure,,,
+[x],mail7126.e.driveuconnect.com,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,129.33.239.83,,,,,,mail7126.e.driveuconnect.com,v=spf1 ip4:129.33.239.83 -all
+[x],mauth.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,151.91.35.174,,,,,,,
+[x],mcert-auth.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,151.91.35.175,,,,,,,
+[x],mcert.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,151.91.35.175,,,,,,,
+[x],open.e.driveuconnect.com,"ns1.acoustic-adm.com, awsdns-hostmaster.amazon.com",NOERROR,,open.rm02.net,,,,,,
+[x],pre-connectedservices.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,82.112.205.251,,,,,,,
+[x],racpilot.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,,,,,,,,
+[x],reply.e.driveuconnect.com,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,74.112.69.40,,,,,,reply.e.driveuconnect.com,v=spf1 a ip4:129.33.239.83 -all
+[x],test-aem-origin.driveuconnect.com,"ns-1643.awsdns-13.co.uk, awsdns-hostmaster.amazon.com",NOERROR,"35.83.105.232, 52.89.198.117",stellantis-test-65-brands.adobecqms.net,,,,,,
+[x],test-aem.driveuconnect.com,"n0dscx.akamaiedge-staging.net, hostmaster.akamai.com",NOERROR,"23.50.55.42, 23.50.55.51","test-aem.driveuconnect.com.edgekey-staging.net, e26912.dscx.akamaiedge-staging.net",,,,"2a02:26f0:3100::1732:372a, 2a02:26f0:3100::1732:3733",,
+[x],test.driveuconnect.com,"n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2.16.241.163, 2.16.241.140","test.driveuconnect.com.edgekey.net, e127722.dscx.akamaiedge.net",,,,"2a02:26f0:480:c::210:f18c, 2a02:26f0:480:c::210:f1a3",,
+[x],test2-aem-origin.driveuconnect.com,"ns-1643.awsdns-13.co.uk, awsdns-hostmaster.amazon.com",NOERROR,"52.25.20.60, 35.165.249.221",stellantis-test2-65-brands.adobecqms.net,,,,,,
+[x],test2.driveuconnect.com,"n0dscx.akamaiedge-staging.net, hostmaster.akamai.com",NOERROR,"23.50.55.42, 23.50.55.43","test2.driveuconnect.com.edgekey-staging.net, e27530.dscx.akamaiedge-staging.net",,,,"2a02:26f0:3100::1732:372b, 2a02:26f0:3100::1732:372a",,
+[x],uat-aem-origin.driveuconnect.com,"ns-1643.awsdns-13.co.uk, awsdns-hostmaster.amazon.com",NOERROR,"52.206.157.160, 107.20.235.178",stellantis-us-stg-65-brands.adobecqms.net,,,,,,
+[x],uat-aem.driveuconnect.com,"n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"23.12.147.28, 23.12.147.30","uat-aem.driveuconnect.com.edgekey.net, e26912.dscx.akamaiedge.net",,,,"2600:1408:7400::17de:4fa1, 2600:1408:7400::17de:4ff1",,
+[x],uat-preview-origin.driveuconnect.com,"ns-1119.awsdns-11.org, awsdns-hostmaster.amazon.com",NOERROR,"52.7.49.15, 54.156.102.148","preview-stellantis-us-stg-65-brands.adobecqms.net, stellantis-us-stg-65-brands-prev-1152747572.us-east-1.elb.amazonaws.com",,,,,,
+[x],uat-preview.driveuconnect.com,"n0dscx.akamaiedge-staging.net, hostmaster.akamai.com",NOERROR,"23.50.55.42, 23.50.55.51","uat-preview.driveuconnect.com.edgekey-staging.net, e26912.dscx.akamaiedge-staging.net",,,,"2a02:26f0:3100::1732:3733, 2a02:26f0:3100::1732:372a",,
+[x],uat.driveuconnect.com,"n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"88.221.24.27, 88.221.24.88","uat.driveuconnect.com.edgekey.net, e127722.dscx.akamaiedge.net",,,,"2a02:26f0:fe00::213:c22b, 2a02:26f0:fe00::213:c253",,
+[x],web3-www.driveuconnect.com,"ns1.extra.chrysler.com, dns-dhcp-team.chrysler.com",NOERROR,34.234.113.11,,,,,,,
+[x],www-b2caem654-origin.driveuconnect.com,"ns-1643.awsdns-13.co.uk, awsdns-hostmaster.amazon.com",NOERROR,"54.226.8.153, 3.94.243.50",stellantis-us-prod-65-brands-b.adobecqms.net,,,,,,
+[x],www-preview.driveuconnect.com,"n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"2.16.187.41, 2.16.187.146","www-preview.driveuconnect.com.edgekey.net, e26912.dscx.akamaiedge.net",,,,"2a02:26f0:ab00::214:8f91, 2a02:26f0:ab00::214:b4a1",,
+[x],www.driveuconnect.com,"n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"80.239.137.138, 80.239.137.144","www.driveuconnect.com.edgekey.net, e88184.dscx.akamaiedge.net",,,,"2001:2030:22::3e73:fd43, 2001:2030:22::3e73:fd99",,
+[x],www.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,82.112.205.252,,,,,,,4cz1690bhb122gvp1ssm60g99byxx714
+[x],www.e.driveuconnect.com,"n0dscx.akamaiedge.net, hostmaster.akamai.com",NOERROR,"92.123.104.20, 92.123.104.26","www.driveuconnect.com, www.driveuconnect.com.edgekey.net, e88184.dscx.akamaiedge.net",,,,"2a02:26f0:3500:1b::1724:a38c, 2a02:26f0:3500:1b::1724:a398",,
+[x],www.ecodrive.driveuconnect.eu,"dns1.p09.nsone.net, hostmaster.nsone.net",NOERROR,156.54.71.109,,,,,,,
