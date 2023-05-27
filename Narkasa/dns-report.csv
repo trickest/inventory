@@ -1,9 +1,9 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,mx,ns,txt
-[x],api.narkasa.com,"172.67.128.224, 104.21.2.72","2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-[x],apidocs.narkasa.com,"104.21.2.72, 172.67.128.224","2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-[x],core.narkasa.com,13.80.99.163,,"tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,azure,,,
-[x],identity.narkasa.com,"172.67.128.224, 104.21.2.72","2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-[x],narkasa.com,"104.21.2.72, 172.67.128.224","2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,narkasa-com.mail.protection.outlook.com,"tricia.ns.cloudflare.com, woz.ns.cloudflare.com","facebook-domain-verification=st2qq0eezh6y2qyxovrdpi77vd6c1z, v=spf1 include:spf.protection.outlook.com include:sendgrid.net -all, MS=ms32684383"
-[x],s2.narkasa.com,168.63.107.195,,"tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,azure,,,
-[x],support.narkasa.com,"104.21.2.72, 172.67.128.224","2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
-[x],www.narkasa.com,"104.21.2.72, 172.67.128.224","2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+new,host,a,soa,status_code,cdn,cdn-name,aaaa,mx,ns,txt
+[x],api.narkasa.com,"104.21.2.72, 172.67.128.224","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248",,,
+[x],apidocs.narkasa.com,"104.21.2.72, 172.67.128.224","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248",,,
+[x],core.narkasa.com,13.80.99.163,"tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,azure,,,,
+[x],identity.narkasa.com,"104.21.2.72, 172.67.128.224","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248",,,
+[x],narkasa.com,"104.21.2.72, 172.67.128.224","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248",narkasa-com.mail.protection.outlook.com,"tricia.ns.cloudflare.com, woz.ns.cloudflare.com","MS=ms32684383, facebook-domain-verification=st2qq0eezh6y2qyxovrdpi77vd6c1z, v=spf1 include:spf.protection.outlook.com include:sendgrid.net -all"
+[x],s2.narkasa.com,168.63.107.195,"tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,azure,,,,
+[x],support.narkasa.com,"172.67.128.224, 104.21.2.72","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248",,,
+[x],www.narkasa.com,"172.67.128.224, 104.21.2.72","tricia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700:3035::ac43:80e0, 2606:4700:3030::6815:248",,,
