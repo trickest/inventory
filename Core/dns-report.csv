@@ -1,8 +1,6 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,cname
-,com.photoai.core.app,,,,NOERROR,,,
-,com.topjohnwu.magisk.core.app,,,,NOERROR,,,
-,extension.core.app,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,
-,fide.core.app,"54.194.170.100, 34.251.201.224, 34.253.101.190",,"ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,,"proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com"
-,mob.lib.core.app,,,,NOERROR,,,
-,mobile.core.app,"34.251.201.224, 34.253.101.190, 54.194.170.100",,"ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,,"proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com"
-,www.core.app,"188.114.97.3, 188.114.96.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,
+new,host,a,aaaa,soa,status_code,cdn,cdn-name,cname,ns,txt
+[x],core.app,"188.114.97.3, 188.114.96.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,"nile.ns.cloudflare.com, rihana.ns.cloudflare.com",v=spf1 -all
+,extension.core.app,"188.114.96.3, 188.114.97.3","2a06:98c1:3121::3, 2a06:98c1:3120::3","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+,fide.core.app,"54.194.170.100, 34.251.201.224, 34.253.101.190",,"ns-1078.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,,"proxy-ssl.webflow.com, proxy-ssl-geo.webflow.com",,
+,test.core.app,"188.114.96.3, 188.114.97.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+,www.core.app,"104.21.12.166, 172.67.152.207","2606:4700:3035::6815:ca6, 2606:4700:3031::ac43:98cf","nile.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
