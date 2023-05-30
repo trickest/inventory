@@ -1,11 +1,11 @@
-new,host,a,soa,status_code,cdn,cdn-name,mx,ns,txt,aaaa,cname,caa
-[x],airdrop.virtuswap.io,"13.225.78.25, 13.225.78.102, 13.225.78.71, 13.225.78.61","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
-[x],airdropapi.virtuswap.io,34.228.197.110,"ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
-[x],api-stage.virtuswap.io,"13.224.189.17, 13.224.189.5, 13.224.189.106, 13.224.189.55","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
-[x],api.virtuswap.io,"143.204.98.106, 143.204.98.51, 143.204.98.84, 143.204.98.69","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
-[x],discourse.virtuswap.io,3.224.117.241,"ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
-[x],docs.virtuswap.io,"104.18.2.117, 104.18.3.117","dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,"2606:4700::6812:275, 2606:4700::6812:375",virtuswap.gitbook.io,"pki.goog, letsencrypt.org, digicert.com"
-[x],integration.virtuswap.io,"13.32.121.69, 13.32.121.76, 13.32.121.57, 13.32.121.68","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
-[x],lpstage.virtuswap.io,"143.204.98.28, 143.204.98.8, 143.204.98.61, 143.204.98.86","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
-[x],stage.virtuswap.io,"13.32.99.93, 13.32.99.73, 13.32.99.78, 13.32.99.71","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
-[x],virtuswap.io,"18.65.39.23, 18.65.39.53, 18.65.39.5, 18.65.39.33","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,"alt2.aspmx.l.google.com, alt1.aspmx.l.google.com, alt3.aspmx.l.google.com, aspmx.l.google.com, alt4.aspmx.l.google.com","ns-88.awsdns-11.com, ns-1041.awsdns-02.org, ns-2010.awsdns-59.co.uk, ns-926.awsdns-51.net",v=spf1 include:_spf.google.com -all,,,
+new,host,a,soa,status_code,cdn,cdn-name,aaaa,cname,caa,ns,txt
+[x],airdrop.virtuswap.io,"13.225.78.25, 13.225.78.71, 13.225.78.61, 13.225.78.102","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+[x],airdropapi.virtuswap.io,34.228.197.110,"ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,
+[x],api-stage.virtuswap.io,"143.204.231.88, 143.204.231.101, 143.204.231.94, 143.204.231.14","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+[x],api.virtuswap.io,"18.164.68.76, 18.164.68.116, 18.164.68.18, 18.164.68.21","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+[x],docs.virtuswap.io,"104.18.2.117, 104.18.3.117","dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"2606:4700::6812:275, 2606:4700::6812:375",virtuswap.gitbook.io,"letsencrypt.org, pki.goog, digicert.com",,
+[x],integration.virtuswap.io,"13.32.121.69, 13.32.121.76, 13.32.121.57, 13.32.121.68","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+[x],lpstage.virtuswap.io,"143.204.98.28, 143.204.98.86, 143.204.98.8, 143.204.98.61","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+[x],stage.virtuswap.io,"13.32.99.78, 13.32.99.73, 13.32.99.93, 13.32.99.71","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+[x],testnet.virtuswap.io,"13.224.189.27, 13.224.189.120, 13.224.189.97, 13.224.189.112","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,
+[x],virtuswap.io,"13.225.63.35, 13.225.63.101, 13.225.63.46, 13.225.63.127","ns-1041.awsdns-02.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,"ns-926.awsdns-51.net, ns-2010.awsdns-59.co.uk, ns-1041.awsdns-02.org, ns-88.awsdns-11.com",v=spf1 include:_spf.google.com -all
