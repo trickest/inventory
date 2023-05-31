@@ -1,12 +1,9 @@
-new,host,a,soa,status_code,cdn,cdn-name,mx,ns,txt,aaaa,cname,caa
-[x],maven.org,"99.86.4.70, 99.86.4.74, 99.86.4.110, 99.86.4.113","ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,"aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com","ns-88.awsdns-11.com, ns-763.awsdns-31.net, ns-1159.awsdns-16.org, ns-1965.awsdns-53.co.uk","v=spf1 -all, google-site-verification=2DAKh3_zVRXO77GkkQVvImhtFB0MykXwQ7mii0NIS1k, google-site-verification=B1acI_wziT1zGWV-fxiLDSUXqT86kRJJWQn_nhw3JuY, google-site-verification=kIoywd3rJK77Y3K-43bLXjCjaM3SbICRAFqblaisa5s, adobe-idp-site-verification=12b60633b0ad74996a3b714607dee55c91d8675d698e38523181ea6e59861602",,,
-,central-s3.maven.org,146.75.120.129,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,,a.prod.fastly.net,
-,insecure.repo1.maven.org,151.101.36.204,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,,nonssl.global.fastly.net,
-,ipv6.repo1.maven.org,151.101.44.209,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:b::209,dualstack.sonatype.map.fastly.net,
-,repo.apache.maven.org,151.101.36.215,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:9::215,maven.map.fastly.net,
-,repo1.maven.org,146.75.120.209,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:8e::209,dualstack.sonatype.map.fastly.net,
-,search-stage.maven.org,"99.86.4.70, 99.86.4.74, 99.86.4.110, 99.86.4.113","ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
-,search.maven.org,"54.172.147.226, 34.206.144.62","ns-59.awsdns-07.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,"search-aws.maven.org, search-maven-org-prod-env.us-east-1.elasticbeanstalk.com",
-,staging.repo1.maven.org,151.101.84.209,"ns1.fastly.net, hostmaster.fastly.com",NOERROR,True,fastly,,,,2a04:4e42:3a::209,dualstack.sonatype.map.fastly.net,
-,status.maven.org,,"ns-1711.awsdns-21.co.uk, awsdns-hostmaster.amazon.com",NOERROR,,,,"ns-1098.awsdns-09.org, ns-1711.awsdns-21.co.uk, ns-441.awsdns-55.com, ns-817.awsdns-38.net",,,68grm88cvpc8.stspg-customer.com,"globalsign.com;, letsencrypt.org"
-,www.maven.org,"99.86.4.110, 99.86.4.113, 99.86.4.74, 99.86.4.70","ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
+new,host,a,cname,soa,caa,status_code,aaaa,cdn,cdn-name,ns,mx,txt
+[x],maven.org,"99.86.4.113, 99.86.4.70, 99.86.4.74, 99.86.4.110",,"ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,,True,cloudfront,"ns-88.awsdns-11.com, ns-763.awsdns-31.net, ns-1159.awsdns-16.org, ns-1965.awsdns-53.co.uk","aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com","v=spf1 -all, google-site-verification=2DAKh3_zVRXO77GkkQVvImhtFB0MykXwQ7mii0NIS1k, google-site-verification=B1acI_wziT1zGWV-fxiLDSUXqT86kRJJWQn_nhw3JuY, google-site-verification=kIoywd3rJK77Y3K-43bLXjCjaM3SbICRAFqblaisa5s, adobe-idp-site-verification=12b60633b0ad74996a3b714607dee55c91d8675d698e38523181ea6e59861602"
+,central-s3.maven.org,199.232.16.129,a.prod.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",,NOERROR,,True,fastly,,,
+,repo.apache.maven.org,146.75.120.215,maven.map.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",,NOERROR,2a04:4e42:8d::215,True,fastly,,,
+,repo1.maven.org,146.75.116.209,dualstack.sonatype.map.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",,NOERROR,2a04:4e42:8d::209,True,fastly,,,
+,search.maven.org,"54.172.147.226, 34.206.144.62","search-aws.maven.org, search-maven-org-prod-env.us-east-1.elasticbeanstalk.com","ns-59.awsdns-07.com, awsdns-hostmaster.amazon.com",,NOERROR,,,,,,
+,staging.repo1.maven.org,146.75.120.209,dualstack.sonatype.map.fastly.net,"ns1.fastly.net, hostmaster.fastly.com",,NOERROR,2a04:4e42:8e::209,True,fastly,"ns1.fastly.net, ns2.fastly.net, ns3.fastly.net, ns4.fastly.net",,
+,status.maven.org,52.215.192.132,68grm88cvpc8.stspg-customer.com,"ns-1711.awsdns-21.co.uk, awsdns-hostmaster.amazon.com","globalsign.com;, letsencrypt.org",NOERROR,,,,,,
+,www.maven.org,"13.225.34.64, 13.225.34.100, 13.225.34.97, 13.225.34.101",,"ns-1965.awsdns-53.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,,True,cloudfront,,,
