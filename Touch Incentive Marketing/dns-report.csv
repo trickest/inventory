@@ -1,12 +1,6 @@
-new,host,a,soa,status_code,cname,aaaa,ns
-[x],access.ups.com,"153.2.228.50, 153.2.224.50","resolve01.sslra.com, internet.ups.com",NOERROR,,,
-[x],api.ups.com,153.2.104.101,"ww-gslb-adns.dmz-gslb.ups.com, netman.ups.com, mah-gslb-adns.dmz-gslb.ups.com",NOERROR,api.dmz-gslb.ups.com,,
-[x],app.ups.com,208.94.20.12,"resolve01.sslra.com, internet.ups.com",NOERROR,,,
-[x],develop.touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,
-[x],developer.ups.com,104.75.89.177,"n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,"developer.ups.com.edgekey.net, e13626.dsca.akamaiedge.net","2a02:26f0:3500:88b::353a, 2a02:26f0:3500:885::353a",
-[x],image.ups.com,"23.55.161.63, 23.55.161.47","n0g1.akamai.net, hostmaster.akamai.com",NOERROR,"img.ed4.net, instantconfig.ed4.net, instantconfig.ed4.net.mdc.edgesuite.net, a1819.g1.akamai.net",,
-[x],mail.bbtec.net,221.111.75.55,"bb001.bbtec.net, noc.bbtec.net",NOERROR,,,
-[x],my.ups.com,"153.2.224.50, 153.2.228.50","resolve01.sslra.com, internet.ups.com",NOERROR,,,
-[x],proxy.ups.com,,"resolve01.sslra.com, internet.ups.com",NOERROR,,,"cmtu.mt.ns.els-gms.att.net, nsa.ups.com, ns3-auth.sprintlink.net, ns2-auth.sprintlink.net, cbru.br.ns.els-gms.att.net, ns1-auth.sprintlink.net, nsb.ups.com"
-[x],web.ups.com,153.2.245.181,"ww-gslb-adns.dmz-gslb.ups.com, netman.ups.com, mah-gslb-adns.dmz-gslb.ups.com",NOERROR,web.dmz-gslb.ups.com,,
-[x],www.bbtec.net,210.169.211.72,"bb001.bbtec.net, noc.bbtec.net",NOERROR,,,
+new,host,a,soa,status_code,aaaa,mx,ns,txt,cname
+[x],autodiscover.touchincentive.com,"40.99.214.40, 52.98.152.184, 40.99.150.8, 52.98.228.56","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com"
+[x],develop.touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,
+[x],staging.touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,
+[x],touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,2a00:1c98:1000:1054:0:2:ef80:8252,touchincentive-com.mail.protection.outlook.com,"ns0.transip.net, ns1.transip.nl, ns2.transip.eu","MS=ms66297414, Sendinblue-code:457e932edb4fcb02e82a7e4540a763e8, v=spf1 ip4:176.62.173.26/32 ip4:195.95.198.0/23 ip4:185.37.22.3 ip4:194.123.75.2 include:amazonses.com include:spf.mtaroutes.com include:spf.transsmart.com include:spf.mandrillapp.com include:authsmtp.com include:spf.protection.outlook.com include:spf.sen, dinblue.com -all",
+[x],www.touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,2a00:1c98:1000:1054:0:2:ef80:8252,,,,
