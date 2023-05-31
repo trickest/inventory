@@ -1,12 +1,6 @@
 new,host,a,aaaa,soa,status_code,cdn,cdn-name,mx,ns,txt,cname
-[x],hakka.finance,"104.21.79.161, 172.67.146.149","2a06:98c1:3120::, 2a06:98c1:3121::","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"mxa.mailgun.org, mxb.mailgun.org","audrey.ns.cloudflare.com, colin.ns.cloudflare.com","google-site-verification=nLMKCTyFyUyDV3lF3UQTh3euO6oUSfSggt9fLZhhXx4, v=spf1 include:mailgun.org include:spf.mandrillapp.com -all, wallet-connect-dns-verification=72ff7e71713d10198787933283045b669f165b550920c807d9bba175f22bb866",
-[x],igain.finance,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"spool.mail.gandi.net, fb.mail.gandi.net","colin.ns.cloudflare.com, audrey.ns.cloudflare.com",v=spf1 include:_mailcust.gandi.net -all,
-,achievement.hakka.finance,"172.67.146.149, 104.21.79.161","2606:4700:3034::6815:4fa1, 2606:4700:3030::ac43:9295","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-,api.hakka.finance,172.217.16.147,2a00:1450:4001:82f::2013,"ns1.google.com, dns-admin.google.com",NOERROR,,,,,,ghs.googlehosted.com
-,grafana.hakka.finance,"188.114.97.13, 188.114.96.13","2a06:98c1:3121::d, 2a06:98c1:3120::d","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-,harvesters.hakka.finance,"104.21.79.161, 172.67.146.149","2a06:98c1:3120::, 2a06:98c1:3121::","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-,ig-legacy.igain.finance,"104.21.74.244, 172.67.207.241","2606:4700:3033::6815:4af4, 2606:4700:3032::ac43:cff1","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-,igain.hakka.finance,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-,intelligence.hakka.finance,"188.114.97.12, 188.114.96.12","2a06:98c1:3121::c, 2a06:98c1:3120::c","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-,tvl.hakka.finance,142.250.185.211,2a00:1450:4001:812::2013,"ns1.google.com, dns-admin.google.com",NOERROR,,,,,,ghs.googlehosted.com
-,www.igain.finance,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+[x],igain.finance,"172.67.207.241, 104.21.74.244, 108.162.195.75, 162.159.44.75, 172.64.35.75, 108.162.194.66, 162.159.38.66, 172.64.34.66","2606:4700:3033::6815:4af4, 2606:4700:3032::ac43:cff1, 2606:4700:58::a29f:2c4b, 2803:f800:50::6ca2:c34b, 2a06:98c1:50::ac40:234b, 2606:4700:50::a29f:2642, 2803:f800:50::6ca2:c242, 2a06:98c1:50::ac40:2242","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"fb.mail.gandi.net, spool.mail.gandi.net","colin.ns.cloudflare.com, audrey.ns.cloudflare.com",v=spf1 include:_mailcust.gandi.net -all,
+,api.hakka.finance,142.250.186.115,2a00:1450:4001:80e::2013,"ns1.google.com, dns-admin.google.com",NOERROR,,,,,,ghs.googlehosted.com
+,grafana.hakka.finance,"188.114.97.13, 188.114.96.13","2a06:98c1:3120::d, 2a06:98c1:3121::d","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,igain.hakka.finance,"188.114.96.3, 188.114.97.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+,intelligence.hakka.finance,"188.114.96.3, 188.114.97.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","audrey.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
