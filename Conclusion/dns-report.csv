@@ -1,5 +1,66 @@
-new,host,a,mx,soa,ns,txt,status_code,aaaa,cname,cdn,cdn-name
-[x],bivits.com,136.243.15.109,"mx3.hostingmania.rs, mx1.hostingmania.rs, mx2.hostingmania.rs","ns1.herbiko.rs, root.server1.herbiko.rs","ns2.herbiko.rs, ns1.herbiko.rs",v=spf1 ip4:136.243.15.109 include:spf.myservers.email +a +mx +ip4:193.243.169.75 ~all,NOERROR,,,,
-[x],conclusion.nl,104.198.14.52,conclusion-nl.mail.protection.outlook.com,"ns0.transip.net, hostmaster.transip.nl","ns0.transip.net, ns1.transip.nl, ns2.transip.eu","apple-domain-verification=Y1HPSI6IdnFtuJf9, d365mktkey=gUuaveDQFfEtyXnrQm1ZZ779GCicjWTOOYgfgSExiN4x, facebook-domain-verification=561lohft2b27zv01bq10zy834ztmcq, have-i-been-pwned-verification=b4f8cf8f5f04f350e2eb956741adf3f7, google-site-verification=5drPCnRGYJ1yXi-OU9IzOfhepPsLozLZ-B-EgbuKYak, K+tAF6NLA6phJkAjXmDluUasvO7ES2f/vB3CPioilnXeXrBVwalN0O2P95b5EWuYsWR+x8kS8XPJcTzyDaiagg==, twFt1Fmya/EceTnZKhmGKpxAWci4/PcTOoWoMTctzNDnmy2lG4wRFnnCwjRGeuLsjnDiq9iQCXTbajVIeIt9dA==, atlassian-domain-verification=uFQqhokWrQezXmA1ke+ZZ7+5GSvyIcwUl1vdnjdcy1l5TTnfMkTq0NocsUZ2kVTN, v=spf1 ip4:89.20.176.166 ip4:185.52.106.5 ip4:185.52.104.5 ip4:185.108.225.23 ip4:185.108.224.4 ip4:185.108.227.96 ip4:37.97.238.204 ip4:145.131.21.153 ip4:52.49.201.246 ip4:52.49.235.189 ip4:23.21.109.197 ip4:23.21.109.212 ip4:147.160.167.0/26 include:sp, f.protection.outlook.com include:spf.virtu.nl include:spf.afas.online include:spf.topdesk.net include:mail.zendesk.com include:_spf.salesforce.com -all",NOERROR,,,True,google
-,autodiscover.conclusion.nl,"52.96.109.216, 52.96.88.72, 40.97.190.8, 52.96.109.248",,"ns1-ms-acdc.office.com, hostmaster.microsoft.com",,,NOERROR,"2603:1036:206:15::8, 2603:1036:302:481e::8, 2603:1036:302:4833::8, 2603:1036:302:4842::8","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,
-,selfservice.conclusion.nl,20.52.134.77,,"tm1.dns-tm.com, hostmaster.trafficmanager.net",,,NOERROR,,"selfservice-conclusionfutureit.msappproxy.net, 21429da9-e4ad-45f9-9a6f-cd126a64274b.tenant.runtime.msappproxy.net, cwap-eur1-runtime.routing.msappproxy.net, eur.proxy-3.appproxy.msidentity.com, www.tm.eur.proxy-3.appproxy.trafficmanager.net",,
+new,host,a,soa,status_code,aaaa,cname,cdn,cdn-name,mx,ns,txt
+[x],brandsite.conclusion.nl,40.68.122.55,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,True,azure,,,
+[x],conclusion.nl,104.198.14.52,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,True,google,conclusion-nl.mail.protection.outlook.com,"ns0.transip.net, ns1.transip.nl, ns2.transip.eu","apple-domain-verification=Y1HPSI6IdnFtuJf9, d365mktkey=gUuaveDQFfEtyXnrQm1ZZ779GCicjWTOOYgfgSExiN4x, facebook-domain-verification=561lohft2b27zv01bq10zy834ztmcq, have-i-been-pwned-verification=b4f8cf8f5f04f350e2eb956741adf3f7, google-site-verification=5drPCnRGYJ1yXi-OU9IzOfhepPsLozLZ-B-EgbuKYak, K+tAF6NLA6phJkAjXmDluUasvO7ES2f/vB3CPioilnXeXrBVwalN0O2P95b5EWuYsWR+x8kS8XPJcTzyDaiagg==, twFt1Fmya/EceTnZKhmGKpxAWci4/PcTOoWoMTctzNDnmy2lG4wRFnnCwjRGeuLsjnDiq9iQCXTbajVIeIt9dA==, atlassian-domain-verification=uFQqhokWrQezXmA1ke+ZZ7+5GSvyIcwUl1vdnjdcy1l5TTnfMkTq0NocsUZ2kVTN, v=spf1 ip4:89.20.176.166 ip4:185.52.106.5 ip4:185.52.104.5 ip4:185.108.225.23 ip4:185.108.224.4 ip4:185.108.227.96 ip4:37.97.238.204 ip4:145.131.21.153 ip4:52.49.201.246 ip4:52.49.235.189 ip4:23.21.109.197 ip4:23.21.109.212 ip4:147.160.167.0/26 include:sp, f.protection.outlook.com include:spf.virtu.nl include:spf.afas.online include:spf.topdesk.net include:mail.zendesk.com include:_spf.salesforce.com -all"
+,access.conclusion.nl,"185.108.226.71, 185.108.226.68","ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,addons.conclusion.nl,185.108.225.29,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,autodiscover.conclusion.nl,"52.96.109.136, 52.96.9.184, 52.96.35.184, 52.96.90.40","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,"2603:1036:302:505f::8, 2603:1036:302:4154::8, 2603:1036:302:4832::8, 2603:1036:302:505a::8","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,,,,
+,autodiscover.infra.conclusion.nl,185.108.226.67,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,autodiscover.workspace.conclusion.nl,"40.99.150.104, 40.99.222.184, 52.98.152.184, 52.98.152.200, 52.98.243.8, 52.98.243.40, 40.99.150.72, 40.99.150.88","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,"2603:1026:c0d:71::8, 2603:1026:c0d:76::8, 2603:1026:c0d:2a::8","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,,,,
+,autodiscoverredirect.conclusion.nl,185.108.225.41,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,car.conclusion.nl,185.108.225.12,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,ccmg.conclusion.nl,217.149.193.126,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,cct.conclusion.nl,217.149.193.100,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,cfa.conclusion.nl,217.149.193.126,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,cfit.conclusion.nl,18.198.243.11,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,conclusionfit.nl,,,conclusionfit-nl.mail.protection.outlook.com,"ns0.transip.net, ns1.transip.nl, ns2.transip.eu",v=spf1 include:spf.protection.outlook.com -all
+,checkin.conclusion.nl,,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,clc.conclusion.nl,18.198.243.11,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,conclusionlearningcenters.nl,,,,"ns0.transip.net, ns1.transip.nl, ns2.transip.eu",v=spf1 ip4:185.108.227.96 -all
+,cohesion.conclusion.nl,78.31.115.226,"ns0.transip.net, hostmaster.transip.nl",NOERROR,2001:7b8:634:4600::226,,,,,,
+,compas.conclusion.nl,87.249.107.9,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,content.infra.conclusion.nl,185.108.226.67,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,coworksservices.conclusion.nl,40.68.122.55,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,True,azure,,,
+,cpmtest.conclusion.nl,87.249.107.81,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,cpp.conclusion.nl,217.149.193.100,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,directaccess.conclusion.nl,185.108.225.11,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,eas.conclusion.nl,185.108.225.38,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,eos2.conclusion.nl,87.249.107.22,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,excellence.conclusion.nl,86.105.244.1,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,fddkim.conclusion.nl,"13.226.153.49, 13.226.153.98, 13.226.153.76, 13.226.153.73","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,spfmx1.domainkey.freshemail.io,True,cloudfront,"mxb.freshdesk.com, mx.sendgrid.net, mxa.freshdesk.com",,v=spf1 include:sendgrid.net include:fdspfus.freshemail.io include:fdspfeuc.freshemail.io include:fdspfind.freshemail.io include:fdspfaus.freshemail.io ~all
+,forward.conclusion.nl,81.30.38.94,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,ftp.conclusion.nl,80.64.240.74,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,imap.conclusion.nl,185.108.225.23,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,implementation.conclusion.nl,18.198.243.11,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,conclusionimplementation.nl,,,,,"v=DKIM1: p=, v=spf1 -all, google-site-verification=QDMVSEgEXbNy7oAK5xjEQMxOZZ-kkJeWjHciqh2Xw08"
+,insitelearning.conclusion.nl,82.94.165.46,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,intranet.conclusion.nl,81.30.38.101,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,learningsupport.conclusion.nl,"104.17.26.241, 104.17.28.241, 104.17.29.241, 104.17.25.241, 104.17.27.241","coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700::6811:1df1, 2606:4700::6811:19f1, 2606:4700::6811:1af1, 2606:4700::6811:1cf1, 2606:4700::6811:1bf1",conclusionlearningcenters.topdesk.net,True,cloudflare,,,
+,lyncdiscover.conclusion.nl,185.108.226.67,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,webext.infra.conclusion.nl,,,,,
+,missioncritical.conclusion.nl,18.198.243.11,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,conclusionmissioncritical.nl,,,conclusionmissioncritical-nl.mail.protection.outlook.com,"ns1.transip.nl, ns0.transip.net, ns2.transip.eu","v=DKIM1; p=, v=spf1 include:spf.protection.outlook.com include:_spf.spotler.email -all, MS=ms22827359"
+,music.conclusion.nl,,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,my.conclusion.nl,185.108.225.21,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,nike.conclusion.nl,,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,officewebappsprd.conclusion.nl,185.108.225.40,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,oos.infra.conclusion.nl,185.108.226.67,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,operator.conclusion.nl,89.184.172.25,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,owa.conclusion.nl,185.108.225.39,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,pbx.conclusion.nl,185.108.225.35,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,plangroep-eos-scanstraat.conclusion.nl,185.108.225.19,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,pm-bounces.conclusion.nl,138.197.30.54,"ns-1077.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,pm.mtasv.net,,,"p-pm-bounce-smtp01c-aws-useast2c.mtasv.net, p-pm-bounce-smtp01a-aws-useast2a.mtasv.net",,"mailru-verification: 7e478ddcd067e847, v=spf1 include:spf.mtasv.net -all, google-site-verification=2ltbW8iunE_pv1YaZoVYbntlT_hNyiAaBkhcO9fgZ8s, google-site-verification=pViDNqSauXskObXnIyWwa2KxIP-CAA9GWpasGALiYek"
+,selfservicetest.conclusion.nl,20.52.134.77,"tm1.dns-tm.com, hostmaster.trafficmanager.net",NOERROR,,"selfservicetest-conclusionfutureit.msappproxy.net, 21429da9-e4ad-45f9-9a6f-cd126a64274b.tenant.runtime.msappproxy.net, cwap-eur1-runtime.routing.msappproxy.net, eur.proxy-3.appproxy.msidentity.com, www.tm.eur.proxy-3.appproxy.trafficmanager.net",True,azure,,,
+,service.clc.conclusion.nl,193.172.125.133,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,sharepoint.conclusion.nl,81.30.38.96,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,sip.conclusion.nl,"185.108.226.71, 185.108.226.68","ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,smtp.infra.conclusion.nl,185.108.226.74,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,smtp1.conclusion.nl,81.30.38.79,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,smtp2.conclusion.nl,193.172.125.142,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,sts.infra.conclusion.nl,185.108.226.67,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,superoffice.conclusion.nl,78.31.115.223,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,tms.conclusion.nl,185.108.225.16,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,uren.conclusion.nl,185.108.225.27,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,vpn1.conclusion.nl,81.30.38.129,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,webmail.conclusion.nl,81.30.38.73,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,werkenbij.conclusion.nl,18.198.243.11,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,"www.werkenbijconclusion.nl, werkenbijconclusion.nl",,,,"ns0.transip.net, ns2.transip.eu, ns1.transip.nl","v=DKIM1: p=, v=spf1 -all"
+,wifi-portal.conclusion.nl,185.108.225.34,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,workspace.conclusion.nl,"104.26.5.62, 104.26.4.62, 172.67.71.230","damiete.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"2606:4700:20::681a:43e, 2606:4700:20::681a:53e, 2606:4700:20::ac43:47e6",cfit.partner.workspace365.net,True,cloudflare,,,
+,www.conclusion.nl,104.198.14.52,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,conclusion.nl,True,google,conclusion-nl.mail.protection.outlook.com,"ns1.transip.nl, ns2.transip.eu, ns0.transip.net","apple-domain-verification=Y1HPSI6IdnFtuJf9, K+tAF6NLA6phJkAjXmDluUasvO7ES2f/vB3CPioilnXeXrBVwalN0O2P95b5EWuYsWR+x8kS8XPJcTzyDaiagg==, twFt1Fmya/EceTnZKhmGKpxAWci4/PcTOoWoMTctzNDnmy2lG4wRFnnCwjRGeuLsjnDiq9iQCXTbajVIeIt9dA==, v=spf1 ip4:89.20.176.166 ip4:185.52.106.5 ip4:185.52.104.5 ip4:185.108.225.23 ip4:185.108.224.4 ip4:185.108.227.96 ip4:37.97.238.204 ip4:145.131.21.153 ip4:52.49.201.246 ip4:52.49.235.189 ip4:23.21.109.197 ip4:23.21.109.212 ip4:147.160.167.0/26 include:sp, f.protection.outlook.com include:spf.virtu.nl include:spf.afas.online include:spf.topdesk.net include:mail.zendesk.com include:_spf.salesforce.com -all, google-site-verification=5drPCnRGYJ1yXi-OU9IzOfhepPsLozLZ-B-EgbuKYak, atlassian-domain-verification=uFQqhokWrQezXmA1ke+ZZ7+5GSvyIcwUl1vdnjdcy1l5TTnfMkTq0NocsUZ2kVTN, have-i-been-pwned-verification=b4f8cf8f5f04f350e2eb956741adf3f7, d365mktkey=gUuaveDQFfEtyXnrQm1ZZ779GCicjWTOOYgfgSExiN4x, facebook-domain-verification=561lohft2b27zv01bq10zy834ztmcq"
+,www.insitelearning.conclusion.nl,82.94.165.46,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,,,
+,zendesk2.conclusion.nl,"162.159.128.7, 162.159.138.6","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail2.zendesk.com,True,cloudflare,,"ns-1213.awsdns-23.org, ns-1858.awsdns-40.co.uk, ns-444.awsdns-55.com, ns-754.awsdns-30.net",
+,zendesk3.conclusion.nl,"162.159.138.6, 162.159.128.7","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail3.zendesk.com,True,cloudflare,mail.zendesk.com,,v=spf1 include:_netblocks.zdsys.com ~all
