@@ -1,15 +1,17 @@
-new,host,a,soa,status_code,ns,cname,mx,txt,cdn,cdn-name,aaaa,caa
+new,host,a,soa,status_code,cdn,cdn-name,aaaa,mx,ns,txt,cname,caa
 [x],asset.winni.in,13.233.107.224,"ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
-[x],assets.winni.in,"96.16.54.184, 96.16.54.154","n0dscb.akamaiedge.net, hostmaster.akamai.com",NOERROR,,"assets.winni.in.edgekey.net, e89670.dscb.akamaiedge.net",,,,,"2a02:26f0:d8::1740:c31, 2a02:26f0:d8::1740:c3b",
+[x],assets.winni.in,"96.16.54.184, 96.16.54.154","n0dscb.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,"2a02:26f0:d8::1740:c31, 2a02:26f0:d8::1740:c3b",,,,"assets.winni.in.edgekey.net, e89670.dscb.akamaiedge.net",
 [x],blog.winni.in,13.127.131.77,"ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
-[x],blogassets.winni.in,"99.84.108.47, 99.84.108.70, 99.84.108.71, 99.84.108.80","ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,True,cloudfront,,
+[x],blogassets.winni.in,"13.32.121.85, 13.32.121.118, 13.32.121.39, 13.32.121.83","ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,True,cloudfront,,,,,,
+[x],content.kaspersky-labs.com,77.74.178.40,"dnsmaster.kasperskylabs.net, dnsadmin.kaspersky.com",NOERROR,,,,,,,multisite2.geo.kaspersky.com,
 [x],cust.winni.in,13.233.107.224,"ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
-[x],dmxalb.winni.in,178.250.7.13,"ns23.criteo.com, dns.criteo.com",NOERROR,,"dnsdelegation.io, gum.criteo.com, gum.fr3.vip.prod.criteo.com, gum.nl3.vip.prod.criteo.com",,,,,2a02:2638:3::c,digicert.com
-[x],staging.winni.in,"62.115.252.24, 62.115.252.51","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,"staging.winni.in.edgekey.net, e89670.dsca.akamaiedge.net",,,,,"2001:2030:21::3e73:fc18, 2001:2030:21::3e73:fc33",
-[x],staging2.winni.in,,"ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
-[x],staging3.winni.in,"15.206.113.31, 65.1.209.89","ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,"ns-1511.awsdns-60.org, ns-2040.awsdns-63.co.uk, ns-285.awsdns-35.com, ns-829.awsdns-39.net",,,,,,,
+[x],dmxalb.winni.in,178.250.7.13,"ns23.criteo.com, dns.criteo.com",NOERROR,,,2a02:2638:3::c,,,,"dnsdelegation.io, gum.criteo.com, gum.fr3.vip.prod.criteo.com, gum.nl3.vip.prod.criteo.com",digicert.com
+[x],docs.kaspersky-labs.com,"80.239.174.35, 195.27.253.3, 212.73.221.196","dnsmaster.kasperskylabs.net, dnsadmin.kaspersky.com",NOERROR,,,,,,,edge.geo.kaspersky.com,
+[x],mobile.kaspersky-labs.com,93.159.230.146,"dnsmaster.kasperskylabs.net, dnsadmin.kaspersky.com",NOERROR,,,,,"ns1.kasperskylabs.net, ns2.kasperskylabs.net, ns3.kasperskylabs.net",,,
+[x],proxy.kaspersky-labs.com,93.159.228.40,"dnsmaster.kasperskylabs.net, dnsadmin.kaspersky.com",NOERROR,,,,,,,multisite2.geo.kaspersky.com,
+[x],st.winni.in,13.233.107.224,"ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,"ns-1511.awsdns-60.org, ns-2040.awsdns-63.co.uk, ns-285.awsdns-35.com, ns-829.awsdns-39.net",,,
+[x],staging2.winni.in,"15.206.113.31, 65.2.110.122","ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
 [x],vendor.winni.in,"13.233.239.4, 13.200.0.167","ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,,
-[x],winni.in,"65.1.209.89, 15.206.113.31","ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,"ns-1511.awsdns-60.org, ns-2040.awsdns-63.co.uk, ns-285.awsdns-35.com, ns-829.awsdns-39.net",,,,,,,
-[x],zendesk1.winni.in,"162.159.138.6, 162.159.128.7","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail1.zendesk.com,mail.zendesk.com,v=spf1 include:_netblocks.zdsys.com ~all,True,cloudflare,,
-[x],zendesk3.winni.in,"162.159.128.7, 162.159.138.6","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail3.zendesk.com,mail.zendesk.com,v=spf1 include:_netblocks.zdsys.com ~all,True,cloudflare,,
-[x],zendesk4.winni.in,"162.159.138.6, 162.159.128.7","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,,mail4.zendesk.com,mail.zendesk.com,v=spf1 include:_netblocks.zdsys.com ~all,True,cloudflare,,
+[x],winni.in,"15.206.113.31, 65.2.110.122, 205.251.193.29, 205.251.199.248","ns-285.awsdns-35.com, awsdns-hostmaster.amazon.com",NOERROR,,,2600:9000:5301:1d00::1,"alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, aspmx.l.google.com","ns-2040.awsdns-63.co.uk, ns-1511.awsdns-60.org, ns-285.awsdns-35.com, ns-829.awsdns-39.net","google-site-verification=ugvGwesUpAcIhwfMDYRM2FY01c3VtH8ULBdvs-oCJQM, ahrefs-site-verification_7fac1369c4302d9253d467f2fef03f8df6a95d78c9212dfb8d10942952faaa7e, MS=747EF270474CEFCADF931F48713D50691EE69688, google-site-verification=ME46vJhEjt5ML_6y4huYpNP_2XFZbTBEbbdsIq-iDEc, 1mxx4v5tkdrld9fnzbbq2c6nff1l9l5k, google-site-verification=FeLerMmTs6YUe8-dthzM_Gfqa5D23iZJ2FZ29WXASLQ, google-site-verification=oGIfwJMHvCoMYp401QoPID_G7aUR3n4w-BZMU7irTpI, v=spf1 include:mail.zendesk.com include:amazonses.com include:winni.in ~all",,
+[x],www.winni.in,"23.213.161.220, 23.213.161.208","n0dsca.akamaiedge.net, hostmaster.akamai.com",NOERROR,,,"2a02:26f0:1700:11::b856:6793, 2a02:26f0:1700:11::b856:6798",,,,"www.winni.in.edgekey.net, e89670.dsca.akamaiedge.net",
+[x],zendesk1.winni.in,"162.159.138.6, 162.159.128.7","ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudflare,,mail.zendesk.com,,v=spf1 include:_netblocks.zdsys.com ~all,mail1.zendesk.com,
