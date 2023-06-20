@@ -139,14 +139,6 @@
       "url": "https://bugcrowd.com/bitdiscovery"
     },
     {
-      "name": "Bitget",
-      "domains": [
-        "bitget.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/bitget-og"
-    },
-    {
       "name": "Caffeine",
       "domains": [
         "caffeine.tv",
@@ -419,6 +411,22 @@
       "url": "https://bugcrowd.com/healthifyme"
     },
     {
+      "name": "HostGator Latam Bug Bounty",
+      "domains": [
+        "hostgator.com.br"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/hostgator-latam-bb"
+    },
+    {
+      "name": "HostGator Latam VDP",
+      "domains": [
+        "hostgator.com.br"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/hostgator-latam-vdp"
+    },
+    {
       "name": "HubSpot",
       "domains": [
         "growth.org",
@@ -678,14 +686,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/newfold-hostgator-india-vdp"
-    },
-    {
-      "name": "Reseller Club VDP Pro",
-      "domains": [
-        "resellerclub.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/newfold-resellerclub-vdp"
     },
     {
       "name": "Octopus",
@@ -1243,25 +1243,6 @@
       "url": "https://bugcrowd.com/xfinity-home"
     },
     {
-      "name": "Fertitta Entertainment",
-      "domains": [
-        "aquariumrestaurants.com",
-        "goldennugget.com",
-        "goriocruises.com",
-        "kemahboardwalk.com",
-        "landrysambassador.com",
-        "landrysinc.com",
-        "landrysselect.com",
-        "ldry.com",
-        "shoppostoak.com",
-        "thepostoak.com",
-        "thepostoakhotel.com",
-        "tilmanfertitta.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/fertitta_entertainment"
-    },
-    {
       "name": "OKX",
       "domains": [
         "okx.com"
@@ -1666,10 +1647,16 @@
     {
       "name": "Fossil",
       "domains": [
+        "cdgcitizen.com",
+        "cdgfossil.com",
         "fossil.com",
+        "fossil.vn",
+        "linkplatforms.com",
         "michele.com",
         "misfit.com",
+        "misfitwearables.com",
         "skagen.com",
+        "smartwatchstations.com",
         "watchstation.com",
         "zodiacwatches.com"
       ],
@@ -1748,6 +1735,21 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/hy-vee"
+    },
+    {
+      "name": "PlanetArt",
+      "domains": [
+        "cafepress.com",
+        "canvasworld.com",
+        "gifts.com",
+        "iseeme.com",
+        "mycustomcase.com",
+        "personalcreations.com",
+        "photoaffections.com",
+        "simplytoimpress.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/planetart"
     },
     {
       "name": "Fastly VDP",
@@ -2072,15 +2074,6 @@
       "url": "https://hackerone.com/anywhererealestate"
     },
     {
-      "name": "Zego",
-      "domains": [
-        "zego.com",
-        "zegocover.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/zego"
-    },
-    {
       "name": "Ohio Secretary of State",
       "domains": [
         "sos.state.oh.us"
@@ -2097,6 +2090,7 @@
         "jimdo-server.com",
         "jimdo-stable-staging.com",
         "jimdo.com",
+        "jimdo.systems",
         "jimdoapi.com",
         "jimdofree.com",
         "jimdoreseller.com",
@@ -2277,6 +2271,14 @@
       "url": "https://hackerone.com/shein"
     },
     {
+      "name": "Gener8",
+      "domains": [
+        "gener8ads.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/gener8"
+    },
+    {
       "name": "Cirrus Insight",
       "domains": [
         "cirrusinsight.com",
@@ -2396,9 +2398,11 @@
         "i2verify.com",
         "i9advantage.com",
         "i9anywhere.com",
+        "idwatchdog.com",
         "kount.com",
         "kount.net",
         "mapcity.com",
+        "mercury.com.au",
         "midigator.com",
         "talx.com",
         "wageverify.com"
@@ -2425,6 +2429,15 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/worklytics"
+    },
+    {
+      "name": "Trellix",
+      "domains": [
+        "skyhighsecurity.com",
+        "trellix.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/trellix"
     },
     {
       "name": "Allegro",
@@ -2799,13 +2812,11 @@
         "betsharedservices.io",
         "betviewapi.com",
         "bonne-terre-data-layer.com",
-        "datops.io",
-        "hestview.com",
         "msgsvc.io",
         "operationstechnology.io",
+        "paddypartners.com",
         "paddypower.com",
         "paddypower.it",
-        "plateng.io",
         "platformservices.io",
         "sbgcdn.com",
         "sbgcore.com",
@@ -2825,7 +2836,8 @@
         "skycasino.com",
         "skygamingcontent.com",
         "skypoker.com",
-        "skyvegas.com"
+        "skyvegas.com",
+        "sportinglife.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/flutteruki"
@@ -2900,6 +2912,7 @@
         "honestdollar.com",
         "marcus.co.uk",
         "marcus.com",
+        "nextcapital.com",
         "nnip.com",
         "qaglobal-liquidity.gs.com",
         "rocaton.com",
@@ -3546,7 +3559,6 @@
     {
       "name": "Magic Eden",
       "domains": [
-        "coralcube.io",
         "magiceden.dev",
         "magiceden.io",
         "magiceden.workers.dev"
@@ -3569,14 +3581,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://www.intigriti.com/programs/azena/azenaresponsibledisclosure/detail"
-    },
-    {
-      "name": "BCC",
-      "domains": [
-        "bcc.nl"
-      ],
-      "wildcard_filters": [],
-      "url": "https://www.intigriti.com/programs/bcc/bcc/detail"
     },
     {
       "name": "BMC",
@@ -3718,16 +3722,6 @@
       "url": "https://www.intigriti.com/programs/dpgm/humo/detail"
     },
     {
-      "name": "Infomaniak",
-      "domains": [
-        "drive.infomaniak.com",
-        "infomaniak.site",
-        "kchat.infomaniak.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://www.intigriti.com/programs/infomaniak/infomaniak/detail"
-    },
-    {
       "name": "InnoGames",
       "domains": [
         "igpayment.com",
@@ -3791,14 +3785,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://www.intigriti.com/programs/lansweeper/lansweeper1/detail"
-    },
-    {
-      "name": "Libelle",
-      "domains": [
-        "libelle.nl"
-      ],
-      "wildcard_filters": [],
-      "url": "https://www.intigriti.com/programs/dpgm/libelle/detail"
     },
     {
       "name": "Mobile Vikings",
@@ -4044,6 +4030,14 @@
       "url": "https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail"
     },
     {
+      "name": "Voi Scooters",
+      "domains": [
+        "voiscooters.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/voi/voiscooters/detail"
+    },
+    {
       "name": "WP Engine",
       "domains": [
         "deliciousbrains.com",
@@ -4065,7 +4059,6 @@
     {
       "name": "iBOOD.com",
       "domains": [
-        "forum.ibood.com",
         "ibood.io",
         "ibood.com"
       ],
@@ -4942,14 +4935,6 @@
       "url": "https://hackerone.com/clario"
     },
     {
-      "name": "Clause",
-      "domains": [
-        "clausestaging.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://clause.io/security"
-    },
-    {
       "name": "Clickup",
       "domains": [
         "clickup.com"
@@ -5202,6 +5187,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/curve"
+    },
+    {
+      "name": "Custellence",
+      "domains": [
+        "custellence.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://custellence.com/responsible-disclosure.html"
     },
     {
       "name": "Cuvva",
@@ -5826,14 +5819,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/genasys"
-    },
-    {
-      "name": "Gener8",
-      "domains": [
-        "gener8ads.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/gener8"
     },
     {
       "name": "Geotab",
@@ -7563,6 +7548,14 @@
       "url": "https://bugs.ikea.com/"
     },
     {
+      "name": "IMDB",
+      "domains": [
+        "imdb.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://help.imdb.com/article/imdb/general-information/how-to-report-security-issues-and-vulnerabilities/G99J5YVB8SBBMJ73?ref_=helpart_nav_14#"
+    },
+    {
       "name": "Imgur",
       "domains": [
         "imgur.com"
@@ -7960,25 +7953,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://immunefi.com/bounty/lido/"
-    },
-    {
-      "name": "Linktree",
-      "domains": [
-        "odesli.co",
-        "song.link",
-        "album.link",
-        "artist.link",
-        "pods.link",
-        "playlist.link",
-        "mylink.page",
-        "linktree-extensions.com",
-        "tr.ee",
-        "linktree.com",
-        "odesli.com",
-        "songlink.io"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/linktree"
     },
     {
       "name": "LiquidWeb",
@@ -8417,6 +8391,16 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/netgear"
+    },
+    {
+      "name": "Newegg",
+      "domains": [
+        "newegg.com",
+        "newegg.ca",
+        "neweggbusiness.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/newegg"
     },
     {
       "name": "Nextcloud",
@@ -8871,14 +8855,6 @@
       "url": "https://hackerone.com/passit"
     },
     {
-      "name": "Paymill",
-      "domains": [
-        "paymill.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://www.paymill.com/en/security/"
-    },
-    {
       "name": "Paytm",
       "domains": [
         "paytm.com",
@@ -9288,6 +9264,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://explore.researchgate.net/display/support/Security+and+vulnerability"
+    },
+    {
+      "name": "Reseller Club VDP Pro",
+      "domains": [
+        "resellerclub.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/newfold-resellerclub-vdp"
     },
     {
       "name": "ResMed",
@@ -10347,15 +10331,6 @@
       "url": "https://yeswehack.com/programs/treebal-the-eco-responsible-messaging"
     },
     {
-      "name": "Trellix VDP",
-      "domains": [
-        "trellix.com",
-        "skyhighsecurity.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/trellix"
-    },
-    {
       "name": "Trendyol",
       "domains": [
         "trendyol.com",
@@ -10919,14 +10894,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/weblate"
-    },
-    {
-      "name": "Wedbio",
-      "domains": [
-        "wedbio.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://wedbio.com/report-incident"
     },
     {
       "name": "Western Digital",
