@@ -1,24 +1,30 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,txt,cname,mx,ns,caa
-,api-proxy.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,api-server.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b563, 2606:4700::6812:b663","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,api.pexels.com,"104.18.181.99, 104.18.182.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,community.pexels.com,,,"jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,"v=spf1 include:sendgrid.net ~all, google-site-verification=2qEsRofd4YAGWbcK3Nqp-9TDfTKBKWmAe_oWRijDPvU",,,,
-,download-staging.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,download.pexels.com,"104.18.181.99, 104.18.182.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,email.pexels.com,34.110.180.34,,"ns-586.awsdns-09.net, awsdns-hostmaster.amazon.com",NOERROR,True,google,"google-site-verification=FIGVOKZm6lQFDBJaiC2DdwvBy8TInunoGCt-1gnL4PA, v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all, 8f7088gv5932jxw9lwwd1b6ttx2pw2ds",mailgun.org,"mxb.mailgun.org, mxa.mailgun.org","ns-133.awsdns-16.com, ns-1482.awsdns-57.org, ns-1614.awsdns-09.co.uk, ns-586.awsdns-09.net","digicert.com, ;, letsencrypt.org"
-,flamingo.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b563, 2606:4700::6812:b663","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,help.pexels.com,"104.16.53.111, 104.16.51.111",,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudflare,"v=spf1 include:mail.zendesk.com ~all, pod=25",pexels-help.zendesk.com,mail-pod-25.int.zendesk.com,,
-,kibana.pexels.com,"104.18.181.99, 104.18.182.99","2606:4700::6812:b563, 2606:4700::6812:b663","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,l.community.pexels.com,"104.18.181.99, 104.18.182.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,o2986.e.community.pexels.com,,"2606:4700::6812:b563, 2606:4700::6812:b663","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,platypus.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b563, 2606:4700::6812:b663","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,react.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,reacta.pexels.com,"104.18.181.99, 104.18.182.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,reactb.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,reactc.pexels.com,"104.18.181.99, 104.18.182.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,staging.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,static.pexels.com,"104.18.182.99, 104.18.181.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,www.pexels.com,"104.18.181.99, 104.18.182.99","2606:4700::6812:b663, 2606:4700::6812:b563","jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,yandex-verification: b7eb092e50965a69,,,,
-,zendesk1.pexels.com,"162.159.128.7, 162.159.138.6",,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudflare,v=spf1 include:_netblocks.zdsys.com ~all,mail1.zendesk.com,mail.zendesk.com,,
-,zendesk4.pexels.com,"162.159.138.6, 162.159.128.7",,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudflare,v=spf1 include:_netblocks.zdsys.com ~all,mail4.zendesk.com,mail.zendesk.com,,
-,zoomapp.pexels.com,,,"jake.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+new,host,a,cname,mx,soa,ns,txt,caa,status_code,cdn,cdn-name,aaaa
+[x],librarian.pexels.com,,,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,api-proxy.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,api-server.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,api.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,cf-logs.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,community.pexels.com,,,,"jake.ns.cloudflare.com, dns.cloudflare.com",,"v=spf1 include:sendgrid.net ~all, google-site-verification=2qEsRofd4YAGWbcK3Nqp-9TDfTKBKWmAe_oWRijDPvU",,NOERROR,,,
+,download-staging.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,download.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,e.community.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,elephant.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,email.pexels.com,34.102.239.211,mailgun.org,"mxa.mailgun.org, mxb.mailgun.org","ns-586.awsdns-09.net, awsdns-hostmaster.amazon.com","ns-1614.awsdns-09.co.uk, ns-133.awsdns-16.com, ns-586.awsdns-09.net, ns-1482.awsdns-57.org","google-site-verification=FIGVOKZm6lQFDBJaiC2DdwvBy8TInunoGCt-1gnL4PA, v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all, 8f7088gv5932jxw9lwwd1b6ttx2pw2ds","digicert.com, letsencrypt.org, ;",NOERROR,True,google,
+,images.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,kibana.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,l.community.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,lion.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,mantis.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,o2986.e.community.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,platypus.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,react.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,reacta.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,reactb.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,reactc.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,staging.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,static-videos.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,video.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,videos.pexels.com,"104.18.182.99, 104.18.181.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,True,cloudflare,"2606:4700::6812:b563, 2606:4700::6812:b663"
+,www.pexels.com,"104.18.181.99, 104.18.182.99",,,"jake.ns.cloudflare.com, dns.cloudflare.com",,yandex-verification: b7eb092e50965a69,,NOERROR,True,cloudflare,"2606:4700::6812:b663, 2606:4700::6812:b563"
+,zendesk1.pexels.com,"162.159.138.6, 162.159.128.7",mail1.zendesk.com,mail.zendesk.com,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",,v=spf1 include:_netblocks.zdsys.com ~all,,NOERROR,True,cloudflare,
+,zendesk2.pexels.com,"162.159.128.7, 162.159.138.6",mail2.zendesk.com,mail.zendesk.com,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",,v=spf1 include:_netblocks.zdsys.com ~all,,NOERROR,True,cloudflare,
