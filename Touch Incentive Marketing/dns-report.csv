@@ -1,6 +1,3 @@
-new,host,a,soa,status_code,aaaa,mx,ns,txt,cname
-[x],autodiscover.touchincentive.com,"40.99.214.40, 52.98.152.184, 40.99.150.8, 52.98.228.56","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,,,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com"
-[x],develop.touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,
-[x],staging.touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,,,,,
-[x],touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,2a00:1c98:1000:1054:0:2:ef80:8252,touchincentive-com.mail.protection.outlook.com,"ns0.transip.net, ns1.transip.nl, ns2.transip.eu","MS=ms66297414, Sendinblue-code:457e932edb4fcb02e82a7e4540a763e8, v=spf1 ip4:176.62.173.26/32 ip4:195.95.198.0/23 ip4:185.37.22.3 ip4:194.123.75.2 include:amazonses.com include:spf.mtaroutes.com include:spf.transsmart.com include:spf.mandrillapp.com include:authsmtp.com include:spf.protection.outlook.com include:spf.sen, dinblue.com -all",
-[x],www.touchincentive.com,176.62.173.26,"ns0.transip.net, hostmaster.transip.nl",NOERROR,2a00:1c98:1000:1054:0:2:ef80:8252,,,,
+new,host,a,aaaa,soa,status_code,cname
+[x],autodiscover.touchincentive.com,"40.99.148.120, 52.97.229.216, 52.98.240.88","2603:1026:c0e:878::8, 2603:1026:c0e:80d::8, 2603:1026:c0e:870::8","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,"autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com"
+[x],dev.touchincentive.com,176.62.173.26,2a00:1c98:1000:1054:0:2:ef80:164b,"ns0.transip.net, hostmaster.transip.nl",NOERROR,
