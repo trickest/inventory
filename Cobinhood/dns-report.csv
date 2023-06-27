@@ -1,14 +1,22 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,mx,ns
-[x],cobinhood.com,"172.66.41.7, 172.66.42.249","2606:4700:3108::ac42:2af9, 2606:4700:3108::ac42:2907","dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"aspmx2.googlemail.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, aspmx.l.google.com, aspmx3.googlemail.com","dahlia.ns.cloudflare.com, kirk.ns.cloudflare.com"
-,admin.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,api-admin.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,api-beta.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,beta.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,feed-beta.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,feed.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,go.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,live.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,slack.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,stage.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
-,test.cobinhood.com,"172.66.41.7, 172.66.42.249","2606:4700:3108::ac42:2af9, 2606:4700:3108::ac42:2907","dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-,trade.cobinhood.com,,,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,
+new,host,soa,status_code,a,cname,mx,ns,txt,caa,cdn,cdn-name,aaaa
+[x],ads.waze.com,"ns-cloud-d1.googledomains.com, dns-admin.google.com",NOERROR,35.190.21.95,biz.waze.com,,,"google-site-verification=GEQ2I38H6DPGn0qGq-rsuGHhTTJ1EvwOKoIXA3n0-B8, facebook-domain-verification=zb9fqudqhd4fgagbod9lm05m5z03c2",,True,google,
+[x],api.waze.com,"ns-cloud-d1.googledomains.com, dns-admin.google.com",NOERROR,35.241.27.187,,,,,,True,google,
+[x],client.waze.com,"ns-cloud-d1.googledomains.com, dns-admin.google.com",NOERROR,35.241.37.241,,,,,,True,google,
+[x],cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"172.66.41.7, 172.66.42.249, 108.162.193.192, 172.64.33.192, 173.245.59.192, 108.162.192.89, 172.64.32.89, 173.245.58.89",,"aspmx3.googlemail.com, alt2.aspmx.l.google.com, alt1.aspmx.l.google.com, aspmx.l.google.com, aspmx2.googlemail.com","kirk.ns.cloudflare.com, dahlia.ns.cloudflare.com",,,True,cloudflare,"2606:4700:3108::ac42:2af9, 2606:4700:3108::ac42:2907, 2606:4700:58::adf5:3bc0, 2803:f800:50::6ca2:c1c0, 2a06:98c1:50::ac40:21c0, 2606:4700:50::adf5:3a59, 2803:f800:50::6ca2:c059, 2a06:98c1:50::ac40:2059"
+[x],search.waze.com,"ns-cloud-d1.googledomains.com, dns-admin.google.com",NOERROR,34.102.158.218,,,,,,True,google,
+[x],sv011255.waze.com,"ns-cloud-d1.googledomains.com, dns-admin.google.com",NOERROR,130.211.9.172,waze.com,"aspmx2.googlemail.com, aspmx.l.google.com, aspmx3.googlemail.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","ns-cloud-d2.googledomains.com, ns-cloud-d3.googledomains.com, ns-cloud-d1.googledomains.com, ns-cloud-d4.googledomains.com","google-site-verification=N2mW-L25o-v4q4LkryQS55pL_C8CnsIL8-FpZUZtKEg, google-site-verification=k0_7da8Nm3RA9ZFG-8Nj2895hmeUdDr3RuP1vQVNyOs, v=spf1 include:_spf.google.com include:spf.mandrillapp.com include:_spf.centercode.com ~all, google-site-verification=nSaHA9lIP9L3gFJQEYxtSwHY88MBSrwRXlZ-vLztW04, 16ra/0Xa4iKpOWPnK72tHaroVGQsuMznJmDEDmBusu1C6e/4+b4E3SeTLrx5fR986eGa7tZpf7eLhzEZcUwy/E5+xOYAmRhIXkWN1AukAurkqYFfWb0GpJBDnRvh8GPeG/S+P5wLQEe/LZMD1EN0gwjPELlE/j6JzrITIHejrJjdPDdJblqYibXrV8QqKc5LyK9I6dFjwWlRtuCC91hX21YxkRz+4QIDAQAB, v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAssPYphcnIMFiOS7ol1k6dJs14MLaA1cEiw8WOe8cNnLbvtcOtGBqhQmgvGGCapKX+B18HKCUTbnduTuOmKxzAThqoqMu2F22kSSWBf5q5mL5aM7XEc7w9wKG, anodot-domain-verification=5e516ed467764a55e8927941936b7821ec572df9be836649c34dd9e23fb93d29, v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQdUTtXUOIXQ+FrspRD1S4uLnWT2EjlztTB9/3upH3HsuOArbtSJoWXFuFj7ehPG47hmvBSr0lRHIB3rpb79WfgbntQ1p4wVO9U4RYA+Cbq7M++7n2BSjvFFOkQ9IC8TWJYeOM6ECO1Namizw1EsiTzOSqHQ5D0zWZbyHKom1aWQIDAQAB, v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYDCQ5ZlVEeUdMEopVa0bdjsTo+5JTdS+25aP+kPGoFNtzNG7No+64qoX9HuZvCe7sjmUncSCV2oEbdxgJvB/ODQ5cS3Px/qaqagn/ZXUBzgbtvHSEXV+ugH52us0i/i041qd0KHa6v/82Dg5XofyuDi+QgUoBa+hcw5JsqfKssQIDAQAB",pki.goog,True,google,
+,admin.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,api-admin.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,api.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,demo-trade.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,faq.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,feed-beta.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,feed.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,go.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,live.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,stage.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,test.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"188.114.98.229, 188.114.99.229",,,,,,True,cloudflare,"2a06:98c1:3123:e000::5, 2a06:98c1:3122:e000::5"
+,trade.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,url391.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,ws.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,,,
+,www.cobinhood.com,"dahlia.ns.cloudflare.com, dns.cloudflare.com",NOERROR,"172.66.42.249, 172.66.41.7",,,,,,True,cloudflare,"2606:4700:3108::ac42:2907, 2606:4700:3108::ac42:2af9"
