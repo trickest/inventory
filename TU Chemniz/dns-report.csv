@@ -1,66 +1,179 @@
 new,host,a,ns,txt,status_code,has_internal_ips,internal_ips
-[x],852-3-5.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],azesapep.dashboard.tu-chemniz.de,"185.53.178.54, 13.248.158.159","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],dashboard.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],dict.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],edgesnaptu-http-p2-shv-01-iad3.tu-chemniz.de,185.53.178.54,,v=spf1 -all,NOERROR,,
-[x],h-135-197-255-44.tu-chemniz.de,195.46.39.1,,,NOERROR,,
-[x],h-135-207-180-49.dashboard.tu-chemniz.de,195.46.39.1,,,NOERROR,,
-[x],h135-197-239-60.dict.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],hostmaster.dashboard.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
-[x],hostmaster.hostmaster.hostmaster.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
-[x],hostmaster.hostmaster.hostmaster.www.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
-[x],hostmaster.hostmaster.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],17-121-112-152.tu-chemniz.de,,"ns1.parkingcrew.net, ns2.parkingcrew.net",,NOERROR,,
+[x],2019-internalasp.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],205-185-200-172.tu-chemniz.de,"185.53.178.54, 13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],450596g46.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],access.tu-chemniz.de,185.53.178.54,,v=spf1 -all,NOERROR,,
+[x],account-ipbetatemp-exchangedns.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],adr-mdn.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ads.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],advancedwebrankingblog.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],alasdelamusa.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],app.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],arlocallbacks-qa.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],assets.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],atl-prd-agg-04b.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],backend.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],backup.tu-chemniz.de,104.247.82.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",,NOERROR,,
+[x],blog.tu-chemniz.de,104.247.82.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",,NOERROR,,
+[x],client.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],cms.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],code.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],compute.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],conf.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],confshop.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],content.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",,NOERROR,,
+[x],core.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],delivery-253-eu-central-1.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],developers.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],dict.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],drupal.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ecx-cppm-01.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],edge-iglite-p42-shv-01-hel3.tu-chemniz.de,"185.53.178.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],edge-z-p3-shv-01-muc2.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],elasticbeanstalkbeta-filesstatscorporate.tu-chemniz.de,185.53.178.54,,v=spf1 -all,NOERROR,,
+[x],emap.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",,NOERROR,,
+[x],faq.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],final.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],gsp41-e507.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],gsp78-bm23-s20.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],h-135-207-35-11.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],hostmaster.acc.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.access.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.admin.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.administrator.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.ads.tu-chemniz.de,,,,NOERROR,,
+[x],hostmaster.app.tu-chemniz.de,,,,NOERROR,,
+[x],hostmaster.assets.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.atlas.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.backend.tu-chemniz.de,,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],hostmaster.backup.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.blog.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.blogs.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.build.tu-chemniz.de,,,,NOERROR,,
+[x],hostmaster.builds.tu-chemniz.de,127.0.0.4,,v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.client.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.cms.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.cms1.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.code.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.compute.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.conf.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.content.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.corp.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.dashboard.tu-chemniz.de,127.0.0.4,,v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.dev.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.developer.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.developers.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.dmz.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.docs.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.drupal.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.eng.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.engineering.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.faq.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.final.tu-chemniz.de,,"ns2.parkingcrew.net, ns1.parkingcrew.net",,NOERROR,,
+[x],hostmaster.grafana.tu-chemniz.de,,,,NOERROR,,
+[x],hostmaster.hostmaster.hostmaster.www.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.hostmaster.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
 [x],hostmaster.hostmaster.www.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
-[x],http-uk-ask-com-22.dict.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],mail.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],mi-intdev.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],mx00dae0.dict.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],nc4-internal-ips-services.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],novi.dict.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns01.dict.tu-chemniz.de,13.248.158.159,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns04.dict.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns06.dashboard.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns06.mail.tu-chemniz.de,,,,NOERROR,,
-[x],ns069.tu-chemniz.de,13.248.158.159,,,NOERROR,,
-[x],ns10.dashboard.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns10.www.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns11.dict.tu-chemniz.de,13.248.158.159,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns2.dashboard.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns2.dict.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns20.dashboard.tu-chemniz.de,"76.223.21.9, 13.248.158.159","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns20.www.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns22.dict.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns25.tu-chemniz.de,13.248.158.159,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns28.mail.tu-chemniz.de,195.46.39.1,,,NOERROR,,
-[x],ns32.hostmaster.tu-chemniz.de,195.46.39.1,,,NOERROR,,
-[x],ns32.www.tu-chemniz.de,"76.223.21.9, 13.248.158.159","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns33.dict.tu-chemniz.de,"13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns34.mail.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns34.www.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns36.dict.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns36.www.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns4.dashboard.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns4.dict.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns4.mail.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns43.dashboard.tu-chemniz.de,13.248.158.159,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns6.mail.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns71.dashboard.tu-chemniz.de,13.248.158.159,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns710.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns8.dict.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ns941.tu-chemniz.de,13.248.158.159,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],premierelearningcententral.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],saa.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],salecycle.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],sellercentral-internal-fe.dict.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],smartgate.tu-chemniz.de,,,v=spf1 -all,NOERROR,,
-[x],test198269612596-3.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],ulpv1229.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],web-seo-14.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],webhw.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],www-6-27.tu-chemniz.de,"185.53.178.54, 13.248.158.159","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],hostmaster.image.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.info.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.internal.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.ir.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.lab.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.legacy.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.live.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.local.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.log.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.login.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.logs.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.manager.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",,NOERROR,True,127.0.0.4
+[x],hostmaster.market.tu-chemniz.de,127.0.0.4,,v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.monitor.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.mssql.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.mta-sts.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.my.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.mysql.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.oauth.tu-chemniz.de,,"ns1.parkingcrew.net, ns2.parkingcrew.net",,NOERROR,,
+[x],hostmaster.oauth2.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.office.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.origin.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.partner.tu-chemniz.de,,"ns1.parkingcrew.net, ns2.parkingcrew.net",,NOERROR,,
+[x],hostmaster.pay.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.payment.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.plugins.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.private.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.prod.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.promotion.tu-chemniz.de,,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],hostmaster.proxy.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.public.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.qa.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.raw.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.review.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.role.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.s3.tu-chemniz.de,127.0.0.4,,v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.search.tu-chemniz.de,127.0.0.4,,v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.shop.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.shopify.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.stage.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.staging.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.stats.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.storage.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.stripe.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.tech.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.temp.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.test.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.v2.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.web.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.wordpress.tu-chemniz.de,"127.0.0.4, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.wp.tu-chemniz.de,127.0.0.4,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.www.tu-chemniz.de,127.0.0.4,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,True,127.0.0.4
+[x],hostmaster.www1.tu-chemniz.de,,,,NOERROR,,
+[x],https-en-m-wikipedia-org-96.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],iheartcoldplay.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],image.tu-chemniz.de,"185.53.178.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],info.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],k8s.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",,NOERROR,,
+[x],local.tu-chemniz.de,,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],log.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],mach131-87-127-17.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],market.tu-chemniz.de,,,v=spf1 -all,NOERROR,,
+[x],media.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],miembros-networksvn.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],monitor.tu-chemniz.de,,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],mta-sts.tu-chemniz.de,,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],musicaparaguayaletras.www.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],my.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],my857.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],mysql.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ns02.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ns026.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ns136.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ns140.tu-chemniz.de,76.223.21.9,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ns16.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ns164.tu-chemniz.de,,,,NOERROR,,
+[x],ns192.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],ns52.tu-chemniz.de,76.223.21.9,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],o1.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],origin.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],p23-fmipmail.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],prometheus.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],public.tu-chemniz.de,"104.247.82.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],review.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],rinapalma.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],service.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],shelby-silverado-5.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],shop.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],stage.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],staging.tu-chemniz.de,"185.53.178.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],stats.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],stripe.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],temp.tu-chemniz.de,185.53.178.54,"ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],tempvideo-mobilemaster-backups-www-test.mail.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],test198269612596-3.tu-chemniz.de,,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],tor299-389-pda.www.tu-chemniz.de,,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],tor61-77-vzb.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],upload-8.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
 [x],www.dict.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],zlp24984.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
-[x],zlt22794.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",,NOERROR,,
-[x],zoomdvm77mmr.dict.tu-chemniz.de,195.46.39.1,,,NOERROR,,
+[x],www.tu-chemniz.de,"185.53.178.54, 13.248.158.159, 76.223.21.9","ns1.parkingcrew.net, ns2.parkingcrew.net",v=spf1 -all,NOERROR,,
+[x],zlp13514.tu-chemniz.de,185.53.178.54,"ns2.parkingcrew.net, ns1.parkingcrew.net",v=spf1 -all,NOERROR,,
