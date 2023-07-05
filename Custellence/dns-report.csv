@@ -1,0 +1,13 @@
+new,host,cname,mx,soa,ns,txt,status_code,a,cdn,cdn-name
+[x],api.custellence.com,api.custellence.com.herokudns.com,,"dns1.p05.nsone.net, hostmaster.nsone.net",,,NOERROR,"54.73.26.109, 54.216.252.255, 108.128.72.146",,
+[x],app.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,"52.218.37.116, 52.218.90.228, 52.92.34.36, 52.218.121.220, 52.218.28.36, 52.218.97.164, 52.218.88.164, 52.218.26.68",,
+[x],bounce.custellence.com,custom-email-domain.stripe.com,feedback-smtp.us-west-2.amazonses.com,"ns-994.awsdns-60.net, awsdns-hostmaster.amazon.com","ns-994.awsdns-60.net, ns-1404.awsdns-47.org, ns-2008.awsdns-59.co.uk, ns-163.awsdns-20.com",v=spf1 include:amazonses.com ~all,NOERROR,,,
+[x],exports.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,"52.218.49.74, 52.218.84.204, 52.218.104.212, 52.218.25.140, 52.218.25.100, 52.92.3.44, 52.218.108.220, 52.92.32.44",,
+[x],gw.custellence.com,d1disfife1ajb1.cloudfront.net,,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com","ns-96.awsdns-12.com, ns-1213.awsdns-23.org, ns-1664.awsdns-16.co.uk, ns-942.awsdns-53.net",,NOERROR,"18.66.122.21, 18.66.122.53, 18.66.122.8, 18.66.122.114",True,cloudfront
+[x],mail.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,195.74.38.202,,
+[x],mail2.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,195.74.38.202,,
+[x],pop3.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,195.74.38.31,,
+[x],smtp.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,195.74.38.28,,
+[x],staging.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,"18.161.97.73, 18.161.97.61, 18.161.97.119, 18.161.97.54",True,cloudfront
+[x],stagingapi.custellence.com,stagingapi.custellence.com.herokudns.com,,"dns1.p05.nsone.net, hostmaster.nsone.net",,,NOERROR,,,
+[x],webmail.custellence.com,,,"ns-1877.awsdns-42.co.uk, awsdns-hostmaster.amazon.com",,,NOERROR,,,
