@@ -9,6 +9,7 @@ accounts.static.zynga.com
 accounts.zynga.com
 achaney.gotslots.zynga.com
 activate.zynga.com
+adfs.corp.zynga.com
 adjust.stats.zynga.com
 adjust.zynga.com
 admin-new.farm2.zynga.com
@@ -28,6 +29,7 @@ admin.dev2.mars.zynga.com
 admin.dst2.zynga.com
 admin.farm2.zynga.com
 admin.forestmobile.zynga.com
+admin.friendsy.zynga.com
 admin.gotslots.zynga.com
 admin.leaderboards.zynga.com
 admin.lt.mars.zynga.com
@@ -50,7 +52,6 @@ adteam.zynga.com
 adventure-zc.zynga.com
 adventure.zynga.com
 aheidgerken.gotslots.zynga.com
-airflow.stats.zynga.com
 ak-bdc.cdn.zynga.com
 akrao.wnks.zynga.com
 alpha.atx.zynga.com
@@ -67,6 +68,7 @@ api.admin-stg.zookeeper.zynga.com
 api.dev01.development.metadata.csr2.zynga.com
 api.payments.zynga.com
 api.poker.zynga.com
+api.solstice.zynga.com
 api.staging.metadata.csr2.zynga.com
 api.staging.zconf.zynga.com
 api.staging.zlive.zynga.com
@@ -80,7 +82,6 @@ apps.corp.zynga.com
 apse1.zynga.com
 arbor.zynga.com
 archiva.svctr.zynga.com
-arcrgis.runtime7.zynga.com
 art.zynga.com
 ash-zpn.zynga.com
 asset.csr2.zynga.com
@@ -89,8 +90,7 @@ assets.poker.zynga.com
 atg-labs.zynga.com
 atlas.svctr.zynga.com
 atlas.zynga.com
-authdata.runtime7.zynga.com
-authentication.magellan.zynga.com
+audible-ds-airflow-beta.corp.zynga.com
 authscat.gotslots.zynga.com
 auto.la-dev-hudson.zynga.com
 auto.runtime7.zynga.com
@@ -155,7 +155,6 @@ build.magellan.zynga.com
 build.prod.magellan.zynga.com
 build.test.magellan.zynga.com
 build.zynga.com
-businessportal001cons.runtime7.zynga.com
 bwf-assets.cdn.zynga.com
 bwf-s3-assets.cdn.zynga.com
 byeates.gotslots.zynga.com
@@ -199,7 +198,6 @@ castle-ca2-combined1.castle.zynga.com
 castle-ca2-combined2.castle.zynga.com
 castle.zynga.com
 castlemobile.zynga.com
-cdm-qa1.csr2.zynga.com
 cdn.draftsman.dst2.zynga.com
 cdn.draftsman.staging.dst2.zynga.com
 cdn.gotm.zynga.com
@@ -218,6 +216,7 @@ charlie.wnks.zynga.com
 charlies.wnks.zynga.com
 chma.atx.zynga.com
 ci.zyngagames.com
+cidealerlocator.wnks.zynga.com
 city-dev-08-zc1.zynga.com
 city-dev-zc1-03.zynga.com
 city.zynga.com
@@ -287,9 +286,7 @@ cominternazynga-okta-network-gateway-iadmsexeznausesase.api.zynga.com
 cominternazynga-okta-network-gateway-iads.api.zynga.com
 cominternazynga-okta-network-gateway-iadsmokebaml.api.zynga.com
 comms.zynga.com
-company.cdn.zynga.com
 company.zynga.com
-confluence.corp.zynga.com
 conqueror.cdn.zynga.com
 container-registry-proxy.zynga.com
 container-registry.zynga.com
@@ -313,7 +310,6 @@ csr2.zynga.com
 csr3-dev.zynga.com
 csr3-prod.zynga.com
 ct.zynga.com
-d518kodfhvy2n.runtime7.zynga.com
 da.casino.zynga.com
 dal1-ex-ht01.corp.zynga.com
 dal1-ex-ht02.corp.zynga.com
@@ -328,17 +324,20 @@ defx.stress.gotslots.zynga.com
 delivery.development.metadata.csr2.zynga.com
 delta.atx.zynga.com
 demo.mars.zynga.com
+demo.zlive.zynga.com
 denmark.atx.zynga.com
 destroy.zynga.com
+dev-01.farm2.zynga.com
 dev-01.theme.zynga.com
 dev-01.xcraft.zynga.com
 dev-02.farm2.zynga.com
 dev-02.frontierville2.zynga.com
 dev-02.theme.zynga.com
+dev-03.farm2.zynga.com
 dev-03.theme.zynga.com
+dev-04.farm2.zynga.com
 dev-04.theme.zynga.com
 dev-06.farm2.zynga.com
-dev-2.farm2.zynga.com
 dev-admin.gameservices.zynga.com
 dev-app.ginrummyplus.zynga.com
 dev-art.mars.zynga.com
@@ -347,6 +346,7 @@ dev-ci.mars.zynga.com
 dev-client.runtime7.zynga.com
 dev-demo.mars.zynga.com
 dev-docker.gotslots.zynga.com
+dev-jenkins.csr2.zynga.com
 dev-latency.mars.zynga.com
 dev-loc.mars.zynga.com
 dev-playtest.mars.zynga.com
@@ -427,6 +427,7 @@ dev2.mars.zynga.com
 dev2.ninjaclans.zynga.com
 dev2.ninjaclans.zynga.comninjaclans.zynga.com
 dev2.poker.zynga.com
+dev2.zynga.com
 dev3.devops.zynga.com
 dev3.farmx.zynga.com
 dev3.hititrich.zynga.com
@@ -482,6 +483,8 @@ directory.cdn.zynga.com
 directory.zynga.com
 discoloco3d.ep.zynga.com
 dl3dstaging.ep.zynga.com
+docker.payments.zynga.com
+docs.api.zynga.com
 docs.dev.zapi.zynga.com
 doliu.gotslots.zynga.com
 dot.cdn.zynga.com
@@ -505,7 +508,6 @@ ec2.zynga.com
 echo.atx.zynga.com
 echtra.zynga.com
 economy.zynga.com
-edge40.zynga.com
 egypt.atx.zynga.com
 eks-dev.gameservices.zynga.com
 eks-dev.ksoni.k8s.zynga.com
@@ -620,7 +622,6 @@ fb-zc2-client.cafe.zynga.com
 fb-zc2.alpha.staging.cityville.zynga.com
 fb-zc2.bravo.staging.cityville.zynga.com
 fb-zc2.cityville.zynga.com
-fb-zc2.themepark.zynga.com
 fb.bubblereef.zynga.com
 fb.cafeworld.zynga.com
 fb.cooking.zynga.com
@@ -702,12 +703,14 @@ fv2ce.cdn.zynga.com
 fv3.zynga.com
 ga.api.zynga.com
 games.zynga.com
+gameservices.cdn.zynga.com
 gameservices.zynga.com
 gamestorage.api.staging.zlive.zynga.com
 gameswithfriends.cdn.zynga.com
 gateway.zynga.com
 gatsby-staging.corpweb.zynga.com
 gchauhan.wnks.zynga.com
+gcp-dbmscache.api.zynga.com
 gdpr.zynga.com
 geoloc-fv.api.zynga.com
 gh.friendsy.zynga.com
@@ -745,7 +748,7 @@ grafana.magellan.zynga.com
 grafana.svctr.zynga.com
 grant-staging.zynga.com
 grant.zynga.com
-graph.magellan.zynga.com
+graph.zynga.com
 green.api.dev01.development.metadata.csr2.zynga.com
 green.api.staging.metadata.csr2.zynga.com
 green.internal.api.dev01.development.metadata.csr2.zynga.com
@@ -763,7 +766,9 @@ greyhound.staging.farmville2.zynga.com
 greyhound.staging.monster.zynga.com
 greyhound.staging.rubyrush.zynga.com
 greyhound.staging2.rubyrush.zynga.com
+greyhound.zynga.com
 guyana.atx.zynga.com
+h-135-207-181-15.api.zynga.com
 harbor.zynga.com
 harvest.zynga.com
 hekumar.wnks.zynga.com
@@ -777,14 +782,14 @@ honduras.atx.zynga.com
 hot.zynga.com
 hotel.atx.zynga.com
 hshim.dev2.poker.zynga.com
-http-press-thelancet-com.payments.zynga.com
-http-telenornews-pk06.magellan.zynga.com
-http-www-espn-com-1-3.runtime7.zynga.com
+http-innoopedia-blogspot-com02.solstice.zynga.com
 http2-check.zynga.com
 http2.api.zynga.com
 https-abs-twimg-com9-1.api.zynga.com
+https-upload-wikimedia-org67.svctr.zynga.com
 hudson.gotslots.zynga.com
 hunters.zynga.com
+iccloud.runtime7.zynga.com
 ideas.zynga.com
 identity.zynga.com
 ignore.mars.zynga.com
@@ -793,7 +798,6 @@ imagehosting.cdn.zynga.com
 imageproxy.poker.zynga.com
 imap.corp.zynga.com
 imap.zynga.com
-inboxportability.runtime7.zynga.com
 indiadev1.gotslots.zynga.com
 indiashivdev2.gotslots.zynga.com
 indiasim1.gotslots.zynga.com
@@ -803,6 +807,7 @@ internal-rubyrush.zynga.com
 internal.api.dev01.development.metadata.csr2.zynga.com
 internal.api.staging.metadata.csr2.zynga.com
 internal.api.zynga.com
+internal.bubble.zynga.com
 internal.bubblereef.zynga.com
 internal.dev.poker.zynga.com
 internal.dev1.poker.zynga.com
@@ -827,17 +832,18 @@ internal.staging.gotslots.zynga.com
 internal.stress.gotslots.zynga.com
 internal.zynga.com
 investor.zynga.com
+ip70.api.zynga.com
+ipv4-c054-mci001-ix.api.zynga.com
+ipv4-c070-lax009-ix.api.zynga.com
 iq.atg.zynga.com
+jarvis.zynga.com
 jeeverett.atx.zynga.com
 jenkins-new.dot.zynga.com
 jenkins.atx.zynga.com
 jenkins.csr2.zynga.com
 jenkins.dot.zynga.com
-jenkins.dst2.zynga.com
 jenkins.gotslots.zynga.com
-jenkins.svctr.zynga.com
 jenkins.wnks.zynga.com
-jenkins2.payments.zynga.com
 jgoodman.atx.zynga.com
 jgreen.atx.zynga.com
 jgreen.wnks.zynga.com
@@ -853,7 +859,6 @@ jshelley.gotslots.zynga.com
 jtakkar.wnks.zynga.com
 jtong.gotslots.zynga.com
 jtwing.atx.zynga.com
-justaddiceorchids.zynga.com
 jvanseader.atx.zynga.com
 k8s.zce.zynga.com
 k8s.zynga.com
@@ -863,6 +868,7 @@ kingdom.ec2.zynga.com
 kingdoms.zynga.com
 kkang.gotslots.zynga.com
 kward.gotslots.zynga.com
+kyujin.api.zynga.com
 labbeta.api.zynga.com
 labs.zynga.com
 landingpage.zynga.com
@@ -888,7 +894,6 @@ loadtest.pokern.zynga.com
 local.api.magellan.zynga.com
 localhost.zynga.com
 log-collector.svctr.zynga.com
-logs.magellan.zynga.com
 looker.mars.zynga.com
 looneytunes-dyn.cdn.zynga.com
 looneytunes.cdn.zynga.com
@@ -910,8 +915,6 @@ mail.corp.zynga.com
 mail.zynga.com
 marketing.zynga.com
 mars.cdn.zynga.com
-media-aws.api.zynga.com
-media-aws.runtime7.zynga.com
 media.zynga.com
 meet.zynga.com
 mentor-labs.zynga.com
@@ -969,10 +972,9 @@ mw2.zynga.com
 mwfb.zynga.com
 mwms.static.zynga.com
 mwms.zynga.com
+mx2-ast-sp1.api.zynga.com
 mypassword.corp.zynga.com
 na.api.zynga.com
-nagios.csr2.zynga.com
-nagios.farm2.zynga.com
 nagios.zyngagames.com
 nav3.zynga.com
 nda.zynga.com
@@ -989,6 +991,7 @@ nk.gotslots.zynga.com
 nk.production.gotslots.zynga.com
 nk.staging.gotslots.zynga.com
 nm.zynga.com
+notif.zynga.com
 nova.atx.zynga.com
 nova.wnks.zynga.com
 np.api.zynga.com
@@ -996,7 +999,6 @@ npatil.gotslots.zynga.com
 npay.svctr.zynga.com
 nsmlzynsso02.corp.zynga.com
 oak-zpn.zynga.com
-ocekmuirt.runtime7.zynga.com
 okey.zynga.com
 okeyplus-1.cdn.zynga.com
 okeyplus-2.cdn.zynga.com
@@ -1005,11 +1007,9 @@ okeyplus.cdn.zynga.com
 okeyplus.zynga.com
 okta-region-games.smokebaml.api.zynga.com
 one.assets.poker.zynga.com
-ops.payments.zynga.com
 orchestrator.canakokeyplus.zynga.com
 origin.zynga.com
 origin.zyngagames.com
-osb3.runtime7.zynga.com
 otm-staging.dst2.zynga.com
 otm.staging.dst2.zynga.com
 outreach.zynga.com
@@ -1065,7 +1065,6 @@ production.pokern.zynga.com
 production.wnks.zynga.com
 prodwww-a.corpweb.zynga.com
 profile.zynga.com
-promo.payments.zynga.com
 proto1.zbc.zynga.com
 pt-dbg-client-0.frontier.zynga.com
 qa.farmx.zynga.com
@@ -1079,16 +1078,16 @@ raven.zc-dev-01.empire.zynga.com
 rbhansali.atx.zynga.com
 rbhansali.wnks.zynga.com
 rchadha.gotslots.zynga.com
-redbuspic.zynga.com
 redirect.csr2.zynga.com
 redirect.zynga.com
+release.farm2.zynga.com
 releaseops.zynga.com
 relops.zynga.com
 report.svctr.zynga.com
 reports.zynga.com
-resourcesv2.solstice.zynga.com
 rewards.zynga.com
 risk.payments.zynga.com
+risk.zynga.com
 roadmap.ct.zynga.com
 rok.zynga.com
 rschweter.gotslots.zynga.com
@@ -1103,7 +1102,7 @@ runtime.cgt.csr2.zynga.com
 runtime.zynga.com
 runtime7.zynga.com
 rvergis.gotslots.zynga.com
-s3-access-nwttom-po-a16p.runtime7.zynga.com
+saab-gathr-qh.runtime7.zynga.com
 sandbox.payments.zynga.com
 sandbox.runtime7.zynga.com
 sanity.wnks.zynga.com
@@ -1112,7 +1111,6 @@ sbehnke.atx.zynga.com
 scarlett.zc-dev-01.empire.zynga.com
 scopp.gotslots.zynga.com
 scrabble.api.zynga.com
-sdk7-2-0.zynga.com
 search.support.zynga.com
 sec.zynga.com
 sectest.static.payments.zynga.com
@@ -1128,6 +1126,7 @@ semurphy.atx.zynga.com
 serverless.zynga.com
 servicehub.zynga.com
 services.zynga.com
+sexworker.corp.zynga.com
 sfo-ex-casht01.corp.zynga.com
 sfo-ex-casht02.corp.zynga.com
 sfo-streaming01.corp.zynga.com
@@ -1137,6 +1136,7 @@ shockwave-dev-01.zynga.com
 shockwave.zynga.com
 shop.zynga.com
 shopping.zynga.com
+shops.zynga.com
 signalling.wwf.atg.zynga.com
 sip.zynga.com
 site.zynga.com
@@ -1163,13 +1163,15 @@ sms.solstice.zynga.com
 sms.staging.solstice.zynga.com
 smtp.corp.zynga.com
 smtp.zynga.com
+snap.csr2.zynga.com
 snavelkar.wnks.zynga.com
-snow.zynga.com
+soc1.api.zynga.com
 socialgraph-admin-zc1.smac.zynga.com
 socialslots.cdn.zynga.com
 socialslots.zynga.com
 socket-proxy.poker.zynga.com
 solitaire-web.svctr.zynga.com
+solitaire.zynga.com
 solstice.zynga.com
 spades-dev.svctr.zynga.com
 spadesplus.cdn.zynga.com
@@ -1179,6 +1181,7 @@ splashtop12.p.zynga.com
 splunk.zynga.com
 spritebuilderx.wozslots.zynga.com
 sre.zynga.com
+sshaps-gamma.api.zynga.com
 ssl-websocket.ginrummyplus.zynga.com
 ssl.zynga.com
 sslprodqa.zlive.zynga.com
@@ -1192,6 +1195,7 @@ stage.proxy.support.zynga.com
 stage.zyngagames.com
 stagea.static.payments.zynga.com
 stageb.static.payments.zynga.com
+staging-admin.csr2.zynga.com
 staging-bdc.cdn.zynga.com
 staging-csr2.cdn.zynga.com
 staging-example.cloudengk8s.zynga.com
@@ -1302,6 +1306,7 @@ stg-swarm-1.perforce.zynga.com
 stg.hunters.zynga.com
 stg.poker.zynga.com
 stjohnson.gotslots.zynga.com
+store-008-qs.api.zynga.com
 store-develop.gotslotscasino.zynga.com
 store-integration.gotslotscasino.zynga.com
 store-preview.gotslotscasino.zynga.com
@@ -1319,7 +1324,6 @@ sugartown2.dev.zbc.zynga.com
 sugartown2.qa.zbc.zynga.com
 support-search.zynga.com
 support-stage.zynga.com
-support-tool.zynga.com
 support.cdn.zynga.com
 support.zynga.com
 sv2-zpn.zynga.com
@@ -1332,10 +1336,7 @@ swc-support.zynga.com
 swc.zynga.com
 swf-staging-web.zyngawithfriends.com.zynga.com
 swf-web.zyngawithfriends.com.zynga.com
-syd05-prd-kfk-02c.payments.zynga.com
 t.zynga.com
-tableau-dev.stats.zynga.com
-tableau.stats.zynga.com
 tanks.zynga.com
 tavlaplus-1.cdn.zynga.com
 tavlaplus-2.cdn.zynga.com
@@ -1355,7 +1356,6 @@ test.ginrummyplus.zynga.com
 test.okeyplus.zynga.com
 test.yuzbirplus.zynga.com
 test.zynga.com
-test1-transmetropolitan.api.zynga.com
 testappgin.svctr.zynga.com
 testrail.zynga.com
 tetris-html5.zynga.com
@@ -1363,12 +1363,12 @@ theme.zynga.com
 themepark.staging.zynga.com
 themepark.zynga.com
 thevillemobile.zynga.com
-tool.zynga.com
 toolbar.static.zynga.com
 toolbar.zynga.com
 tools.cs.zynga.com
 tools.dev.api.magellan.zynga.com
 tools.magellan.zynga.com
+tor135-321-pdb.runtime7.zynga.com
 toronto.zynga.com
 track.accounts.zynga.com
 trade.castlemobile.zynga.com
@@ -1390,14 +1390,13 @@ tvp-dev02.svctr.zynga.com
 twheeler.gotslots.zynga.com
 ua.zynga.com
 uforge.zynga.com
-uncover-stg2.runtime7.zynga.com
+updatesm.runtime7.zynga.com
 upgrademe3.dev.gotslots.zynga.com
 us-zpn.zynga.com
 use1.zynga.com
 use2.zynga.com
 user-staging.dst2.zynga.com
 usertest.tl.atg.zynga.com
-usstlcisise02-p.runtime7.zynga.com
 usw1.zynga.com
 usw2.zynga.com
 uwg-farm2-staging.cdn.zynga.com
@@ -1429,7 +1428,6 @@ vault.local.zynga.com
 vault.zynga.com
 vcse01.zynga.com
 video.atg.zynga.com
-view.zynga.com
 vii01.hititrich.zynga.com
 vii02.hititrich.zynga.com
 vpn-03.zynga.com
@@ -1437,7 +1435,6 @@ vpn-04.zynga.com
 vpn-pm1.zynga.com
 vpn-sv2.zynga.com
 vpn-sv4.zynga.com
-vx85.runtime7.zynga.com
 warfleet.zynga.com
 web-0-staging-zc2.hidden.zynga.com
 web-0-staging.alpha.hidden.zynga.com
@@ -1478,7 +1475,6 @@ website-lb.corpweb.zynga.com
 website.corpweb.zynga.com
 webslots.zynga.com
 west2-sv1-e1.zynga.com
-wf.zynga.com
 wiki-nm.corp.zynga.com
 wiki.corp.zynga.com
 wiki.zynga.com
@@ -1493,12 +1489,14 @@ wincasht01.corp.zynga.com
 wincasht02.corp.zynga.com
 wl-prod1-us-west1.atg-labs.zynga.com
 wonka.atx.zynga.com
+wonka.cdn.zynga.com
 wonkamatch.cdn.zynga.com
 wonkamatch1.cdn.zynga.com
 wonkamatch2.cdn.zynga.com
 wonkamatch3.cdn.zynga.com
 wordswithfriendslive.zynga.com
 wp-dev-lb.corpweb.zynga.com
+wpadmin.zynga.com
 wpaterson.gotslots.zynga.com
 wtf.zynga.com
 wwf-promo.zynga.com
@@ -1626,7 +1624,6 @@ zlive-staging2.cooking.zynga.com
 zlive-staging3.cooking.zynga.com
 zlive.cdn.zynga.com
 zlive.cityville.zynga.com
-zlive.hidden.zynga.com
 zlive1.cdn.zynga.com
 zlive2.cdn.zynga.com
 zlive3.cdn.zynga.com
@@ -1733,7 +1730,5 @@ zyngagames.com
 zyngaturkey-support.svctr.zynga.com
 zyntranet.corp.zynga.com
 001.app.prod.spadesplus.zynga.com
-85-9-95.runtime7.zynga.com
+86-1.api.zynga.com
 271-dco-vc3-nsabb.api.zynga.com
-515-6.api.zynga.com
-619-5.runtime7.zynga.com
