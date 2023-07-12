@@ -1,7 +1,8 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,cname,ns
-[x],alpha.yellow.org,"188.114.97.13, 188.114.96.13","2a06:98c1:3120::d, 2a06:98c1:3121::d","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-[x],forms.yellow.org,35.205.106.218,,"darwin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,google,cname.tally.so,
-[x],testnet.yellow.org,"172.67.214.224, 104.21.16.170","2606:4700:3034::ac43:d6e0, 2606:4700:3037::6815:10aa","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-[x],uat-y1337c0k.yellow.org,"188.114.96.3, 188.114.97.3","2a06:98c1:3120::3, 2a06:98c1:3121::3","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-[x],www.testnet.yellow.org,"188.114.96.0, 188.114.97.0","2a06:98c1:3120::, 2a06:98c1:3121::","gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-[x],yellow.org,,,"gina.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,"gina.ns.cloudflare.com, ivan.ns.cloudflare.com"
+new,host,a,aaaa,mx,soa,ns,txt,status_code,cdn,cdn-name,cname,caa
+[x],alpha.yellow.org,"188.114.96.3, 188.114.97.3","2a06:98c1:3121::3, 2a06:98c1:3120::3",,"gina.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,,
+[x],docs.yellow.org,"104.18.2.117, 104.18.3.117","2606:4700::6812:375, 2606:4700::6812:275",,"dahlia.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,bdc553e0b7-hosting.gitbook.io,"digicert.com, letsencrypt.org, pki.goog"
+[x],testnet.yellow.org,"188.114.97.13, 188.114.96.13","2a06:98c1:3120::d, 2a06:98c1:3121::d",,"gina.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,,
+[x],uat-y1337c0k.yellow.org,"188.114.97.0, 188.114.96.0","2a06:98c1:3121::, 2a06:98c1:3120::",,"gina.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,,
+[x],www.testnet.yellow.org,"188.114.96.3, 188.114.97.3","2a06:98c1:3121::3, 2a06:98c1:3120::3",,"gina.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,,
+[x],www.yellow.org,"188.114.97.3, 188.114.96.3","2a06:98c1:3120::3, 2a06:98c1:3121::3",,"gina.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,True,cloudflare,,
+[x],yellow.org,"188.114.97.0, 188.114.96.0","2a06:98c1:3121::, 2a06:98c1:3120::","alt2.aspmx.l.google.com, aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com, alt1.aspmx.l.google.com","gina.ns.cloudflare.com, dns.cloudflare.com","gina.ns.cloudflare.com, ivan.ns.cloudflare.com","v=spf1 include:_spf.google.com -all, google-site-verification=-oRBRZpcgrQtOndniyUoHZIk_vshzXlZ0_jUAvnffLM, google-site-verification=FhTazp-1YeYXirkDhRr4Y7qTAqV1MlqrnyB8pKOY8EM",NOERROR,True,cloudflare,,
