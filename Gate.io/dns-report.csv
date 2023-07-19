@@ -1,20 +1,18 @@
-new,host,a,cname,soa,status_code,cdn,cdn-name,txt,mx,ns,aaaa,caa
-[x],gate.io,"52.192.13.76, 18.178.82.192, 205.251.192.58, 205.251.195.6, 205.251.197.42, 205.251.198.31",,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,v=spf1 include:spf.protection.outlook.com -all,gate-io.mail.protection.outlook.com,"ns-774.awsdns-32.net, ns-1567.awsdns-03.co.uk, ns-58.awsdns-07.com, ns-1322.awsdns-37.org",,
-,api.gate.io,"104.18.18.156, 104.18.19.156","www.gate.io, www.gate.io.cdn.cloudflare.net","ns1.cloudflare.net, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,apim.gate.io,"104.18.19.156, 104.18.18.156","www.gate.io, www.gate.io.cdn.cloudflare.net","ns1.cloudflare.net, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,autodiscover.gate.io,"40.99.150.56, 52.98.152.168, 52.98.241.168, 52.97.135.104","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,,,,"2603:1026:c0d:2a::8, 2603:1026:c0d:71::8, 2603:1026:c0d:70::8",
-,cf01.gate.io,"104.18.18.156, 104.18.19.156",cf01.gate.io.cdn.cloudflare.net,"ns1.cloudflare.net, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
-,email.sendemail.gate.io,"34.110.180.34, 205.251.192.133, 205.251.194.74, 205.251.197.202, 205.251.198.78",mailgun.org,"ns-586.awsdns-09.net, awsdns-hostmaster.amazon.com",NOERROR,True,google,"google-site-verification=FIGVOKZm6lQFDBJaiC2DdwvBy8TInunoGCt-1gnL4PA, 8f7088gv5932jxw9lwwd1b6ttx2pw2ds, v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all","mxa.mailgun.org, mxb.mailgun.org","ns-1614.awsdns-09.co.uk, ns-1482.awsdns-57.org, ns-133.awsdns-16.com, ns-586.awsdns-09.net",,";, letsencrypt.org, digicert.com"
-,go.gate.io,"54.238.141.223, 35.73.201.24",,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,
-,hk.gate.io,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,google-site-verification=8Cv7XYrXTx7D37tjbkEJS3Zwffre51dS9ENza_ac0QI,,,,
-,jp.gate.io,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,google-site-verification=Icu4OR4KYIt-6PqkhPwh7tFira5lccGmem1ulYkqoRE,,,,
-,kr.gate.io,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,google-site-verification=cVqP0wUNOcIKEh1ee_9pqoNO8D6Z9I28ENIQeoY-m-U,,,,
-,pm-bounces.mail.gate.io,"3.20.135.122, 3.136.219.61, 18.118.245.208",pm.mtasv.net,"ns-1077.awsdns-06.org, awsdns-hostmaster.amazon.com",NOERROR,,,"mailru-verification: 7e478ddcd067e847, v=spf1 include:spf.mtasv.net -all, google-site-verification=pViDNqSauXskObXnIyWwa2KxIP-CAA9GWpasGALiYek, google-site-verification=2ltbW8iunE_pv1YaZoVYbntlT_hNyiAaBkhcO9fgZ8s","p-pm-bounce-smtp01a-aws-useast2a.mtasv.net, p-pm-bounce-smtp01c-aws-useast2c.mtasv.net",,,
-,sip.mail.gate.io,52.112.193.13,sipdir.online.lync.com,"admin.nsatc.net, dns.level3.net",NOERROR,,,,,,2603:1027:0:48::20,
-,static.gate.io,139.162.94.23,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,
-,support.gate.io,"104.16.53.111, 104.16.51.111, 3.113.123.113, 3.114.56.177, 54.64.235.235",gateio.zendesk.com,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",NOERROR,True,cloudflare,"pod=25, v=spf1 include:mail.zendesk.com ~all",mail-pod-25.int.zendesk.com,"ns-1213.awsdns-23.org, ns-1858.awsdns-40.co.uk, ns-444.awsdns-55.com, ns-754.awsdns-30.net",,
-,testnet.gate.io,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,
-,us.gate.io,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,
-,ventures.gate.io,"18.178.82.192, 52.192.13.76",gate.io,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,v=spf1 include:spf.protection.outlook.com -all,gate-io.mail.protection.outlook.com,"ns-1567.awsdns-03.co.uk, ns-774.awsdns-32.net, ns-1322.awsdns-37.org, ns-58.awsdns-07.com",,
-,ws.gate.io,"52.199.40.126, 52.198.68.48",,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",NOERROR,,,,,,,
-,www.gate.io,"104.18.18.156, 104.18.19.156",www.gate.io.cdn.cloudflare.net,"ns1.cloudflare.net, dns.cloudflare.com",NOERROR,True,cloudflare,,,,,
+new,host,a,cname,mx,soa,ns,txt,status_code,aaaa,cdn,cdn-name
+[x],gate.io,"18.178.82.192, 52.192.13.76, 205.251.192.58, 205.251.195.6, 205.251.197.42, 205.251.198.31",,gate-io.mail.protection.outlook.com,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com","ns-58.awsdns-07.com, ns-774.awsdns-32.net, ns-1322.awsdns-37.org, ns-1567.awsdns-03.co.uk",v=spf1 include:spf.protection.outlook.com -all,NOERROR,,,
+,api.gate.io,"104.18.19.156, 104.18.18.156","www.gate.io, www.gate.io.cdn.cloudflare.net",,"ns1.cloudflare.net, dns.cloudflare.com",,,NOERROR,,True,cloudflare
+,apim.gate.io,"104.18.18.156, 104.18.19.156","www.gate.io, www.gate.io.cdn.cloudflare.net",,"ns1.cloudflare.net, dns.cloudflare.com",,,NOERROR,,True,cloudflare
+,autodiscover.gate.io,"52.98.240.152, 52.98.229.136, 40.99.148.104, 52.98.240.24, 52.97.229.216, 52.98.239.184, 52.98.229.168, 52.98.240.120","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,"ns1-34.azure-dns.com, azuredns-hostmaster.microsoft.com, ns1-ms-acdc.office.com, hostmaster.microsoft.com",,,NOERROR,"2603:1026:c0e:86f::8, 2603:1026:c0e:80f::8, 2603:1026:c0e:86c::8, 2603:1026:c0e:86a::8, 2603:1026:c0e:862::8, 2603:1026:c0e:876::8, 2603:1026:c0e:877::8, 2603:1026:c0e:86d::8",,
+,autodiscover.mail.gate.io,"52.97.189.104, 52.97.189.72, 40.99.157.8, 40.99.149.136, 40.99.157.24, 52.97.188.72, 40.99.149.184, 40.99.149.104","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com",,"ns1-ms-acdc.office.com, hostmaster.microsoft.com",,,NOERROR,"2603:1026:c0d:75::8, 2603:1026:c0d:6b::8, 2603:1026:c0d:20::8, 2603:1026:c0d:34::8, 2603:1026:c0d:72::8, 2603:1026:c0d:76::8, 2603:1026:c0d:6a::8, 2603:1026:c0d:71::8",,
+,data.gate.io,"13.112.252.66, 18.177.160.9",,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,,NOERROR,,,
+,go.gate.io,"54.250.110.230, 54.95.171.228",,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,,NOERROR,,,
+,hk.gate.io,,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,google-site-verification=8Cv7XYrXTx7D37tjbkEJS3Zwffre51dS9ENza_ac0QI,NOERROR,,,
+,jp.gate.io,,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,google-site-verification=Icu4OR4KYIt-6PqkhPwh7tFira5lccGmem1ulYkqoRE,NOERROR,,,
+,kr.gate.io,,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,google-site-verification=cVqP0wUNOcIKEh1ee_9pqoNO8D6Z9I28ENIQeoY-m-U,NOERROR,,,
+,static.gate.io,139.162.94.23,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,,NOERROR,,,
+,support.gate.io,"104.16.53.111, 104.16.51.111",gateio.zendesk.com,mail-pod-25.int.zendesk.com,"ns-1213.awsdns-23.org, awsdns-hostmaster.amazon.com",,"pod=25, v=spf1 include:mail.zendesk.com ~all",NOERROR,,True,cloudflare
+,testnet.gate.io,"52.69.28.5, 35.77.160.154",,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com","ns-1322.awsdns-37.org, ns-1567.awsdns-03.co.uk, ns-58.awsdns-07.com, ns-774.awsdns-32.net",,NOERROR,,,
+,us.gate.io,,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,google-site-verification=EOPGWw1naIdzUzOfmhDv5huSMVujB5S7mm0dAdsEvAY,NOERROR,,,
+,ventures.gate.io,"52.192.13.76, 18.178.82.192",gate.io,gate-io.mail.protection.outlook.com,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com","ns-1322.awsdns-37.org, ns-1567.awsdns-03.co.uk, ns-58.awsdns-07.com, ns-774.awsdns-32.net",v=spf1 include:spf.protection.outlook.com -all,NOERROR,,,
+,web02.gate.io,,,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com","ns-1322.awsdns-37.org, ns-1567.awsdns-03.co.uk, ns-58.awsdns-07.com, ns-774.awsdns-32.net",google-site-verification=DSeaz53T5DgfwLme6v9tuulLxTDJXCGq5uZgDN9cgHA,NOERROR,,,
+,ws.gate.io,"52.198.68.48, 54.250.44.214",,,"ns-774.awsdns-32.net, awsdns-hostmaster.amazon.com",,,NOERROR,,,
