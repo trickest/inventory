@@ -1,10 +1,12 @@
 Binary file in/python-script-3/output.txt matches
 alon-oc3.openshift-qa.redislabs.com
-analytics.redisinsight.redislabs.com
 analyzer-dev.cs.redislabs.com
 analyzer.cs.redislabs.com
 analyzerqa.cs.redislabs.com
+api-gcp.qa.redislabs.com
+api-qa.qa.redislabs.com
 api-qa.redislabs.com
+api-staging.redislabs.com
 api-stg.redislabs.com
 api.gbn.cs.redislabs.com
 api.grafana.cs.redislabs.com
@@ -51,6 +53,7 @@ app-sm.k8s-rcp.sm-qa.qa.redislabs.com
 app-sm.mw.sm-qa.qa.redislabs.com
 app-sm.sm-poc.sm-qa.qa.redislabs.com
 app-sm1.dev-vitaly.sm-test.qa.redislabs.com
+app-staging.qa.redislabs.com
 app-staging.redislabs.com
 app-stg.redislabs.com
 app.redislabs.com
@@ -345,14 +348,15 @@ bo-sm.k8s-psc.sm-qa.qa.redislabs.com
 bo-sm.k8s-rcp.sm-qa.qa.redislabs.com
 bo-sm.sm-poc.sm-qa.qa.redislabs.com
 bo-staging.qa.redislabs.com
+bo-staging.redislabs.com
 bo-stg.redislabs.com
 bo.redislabs.com
+bootcamp.redislabs-training.redislabs.com
 bounce.redis.com
 bounce.redislabs.com
 bounce1.redis.com
 bounce1.redislabs.com
 brewdis.demo.redislabs.com
-build-dev.redislabs.com
 build.dev.redislabs.com
 c1-qa.eu-west-1-4.ec2.qa-cloud.redislabs.com
 c1-qa.us-central-1-3.qa-cloud.redislabs.com
@@ -485,6 +489,7 @@ cluster-rnd.openshift.qa.redislabs.com
 cluster1.openshift.qa.redislabs.com
 concourse.edu.redislabs.com
 connect.redislabs.com
+containerauth-antiviruspre.university.redislabs.com
 cs.redislabs.com
 csapi-dev.cs.redislabs.com
 csapi.cs.redislabs.com
@@ -493,6 +498,7 @@ danni-euwest2.openshift.qa.redislabs.com
 danni-manua.openshift.qa.redislabs.com
 dashi.cto.redislabs.com
 data.redis.com
+dciipki.university.redislabs.com
 demo-rlec.redislabs.com
 demo.redislabs.com
 demo1.jrx.demo-rlec.redislabs.com
@@ -535,6 +541,7 @@ gapp--sm.k8s-dev.sm-qa.qa.redislabs.com
 gapp-k8s-billing.qa.redislabs.com
 gapp-k8s-cloudapi.qa.redislabs.com
 gapp-qa.qa.redislabs.com
+gapp-qa.redislabs.com
 gapp-sm.dev-vitaly.sm-test.qa.redislabs.com
 gapp-sm.k8s-aa.sm-qa.qa.redislabs.com
 gapp-sm.k8s-billing-dev.sm-qa.qa.redislabs.com
@@ -558,12 +565,14 @@ get.redis.com
 grafana.cs.redislabs.com
 gsemail.redislabs.com
 gslink.redislabs.com
+gsp5-st14-pod04-r01.university.redislabs.com
 hackathons.redis.com
 hackathons.redislabs.com
 heinrich-test-openshift-3.openshift-qa.redislabs.com
 heinrich-test-openshift3-immortal.openshift-qa.redislabs.com
 hello.redis.com
 hpc.redis.com
+hw2628.redislabs.com
 images.redislabs.com
 insight.demo.redislabs.com
 internal.c1.eu-west-1-3.ec2.cloud.redislabs.com
@@ -670,6 +679,7 @@ ireland.openshift.qa.redislabs.com
 itassets.redis.com
 jenkins.dev.redislabs.com
 jenkins2.dev.redislabs.com
+jicaps.university.redislabs.com
 jrx-presos.demo.redislabs.com
 jrx.demo-rlec.redislabs.com
 jrx.demo.redislabs.com
@@ -755,25 +765,23 @@ marketplace.redislabs.com
 martinf-test.edu.redislabs.com
 meetups.redis.com
 meetups.redislabs.com
-mike06.redislabs.com
 mock.dev.redislabs.com
 modules.redislabs.com
 monitor-dev.cs.redislabs.com
 monitor.cs.redislabs.com
+monitoring.dev.redislabs.com
+monitoring.qa.redislabs.com
 monitoring.sm-qa.qa.redislabs.com
 monitoring.sm-test.qa.redislabs.com
 multidev.redis.com
 nc.cs.redislabs.com
-node1.demo-rlec.redislabs.com
+newapp.redislabs.com
 node1.demo.redislabs.com
 node1.tx.demo-rlec.redislabs.com
 node1.vikram.demo.redislabs.com
 node13.c24.us-east-mz-1.ec2.cloud.redislabs.com
 node19.c4.us-east-mz-1.ec2.cloud.redislabs.com
-node2.demo.redislabs.com
 node2.tx.demo-rlec.redislabs.com
-node3.demo-rlec.redislabs.com
-node3.demo.redislabs.com
 node3.tx.demo-rlec.redislabs.com
 node9.c20.us-east-mz-1.ec2.cloud.redislabs.com
 node9.c24.us-east-mz-1.ec2.cloud.redislabs.com
@@ -782,6 +790,7 @@ ns1.c1-qa.eu-west-1-4.ec2.qa-cloud.redislabs.com
 ns1.c1-qa.us-central-1-3.qa-cloud.redislabs.com
 ns1.c1-qa.us-east-1-1.ec2.qa-cloud.redislabs.com
 ns1.c5-qa.azure.east-us-1.qa-cloud.redislabs.com
+ns1.qa.redislabs.com
 ns1.redislabs.com
 ns2.analyzer.cs.redislabs.com
 ns2.c1-qa.eu-west-1-4.ec2.qa-cloud.redislabs.com
@@ -803,6 +812,7 @@ oc3-ran-test.openshift-qa.redislabs.com
 ocp.demo-rlec.redislabs.com
 old-wp.redislabs.com
 oldjenkins.dev.redislabs.com
+onprem.qa.redislabs.com
 openshift-qa.redislabs.com
 oscluster1.openshift.qa.redislabs.com
 oss.redis.com
@@ -815,6 +825,7 @@ pcf.demo-rlec.redislabs.com
 pcf.demo.redislabs.com
 pcf.pcf.demo.redislabs.com
 pcf.qa.redislabs.com
+ping.qa-cloud.redislabs.com
 portal.redis.com
 preferences.redis.com
 primary.cs.redislabs.com
@@ -853,7 +864,6 @@ rcp-dev-chef.dev.redislabs.com
 rcp-dev-machine.dev.redislabs.com
 rcp.docs.dev.redislabs.com
 redis-13585.c8.us-east-1-2.ec2.cloud.redislabs.com
-redis-connect.demo.redislabs.com
 redis-connect.docs.dev.redislabs.com
 redis-data-integration.docs.dev.redislabs.com
 redis.com
@@ -890,7 +900,6 @@ sonarqube.dev-prometheus.dev.redislabs.com
 sonarqube.dev.redislabs.com
 sonarqube.qa-prometheus.qa.redislabs.com
 splunk.demo.redislabs.com
-ssh.qa.redislabs.com
 st-wp.redislabs.com
 st.redislabs.com
 stage-search-service.redislabs.com
@@ -913,6 +922,7 @@ tableau-qa.redis.com
 tableau.redis.com
 tableau.redislabs.com
 tableausandbox.redis.com
+tda.demo.redislabs.com
 test-arielp.dev.redislabs.com
 test.redislabs-training.redislabs.com
 test0047e656.openshift-qa.redislabs.com
@@ -1792,6 +1802,7 @@ ticketgrabber.cs.redislabs.com
 tongb.cs.redislabs.com
 tools-dev.redislabs-training.redislabs.com
 tools.redislabs-training.redislabs.com
+tor318-grc.university.redislabs.com
 trust.redis.com
 try.redis.com
 uaa.cs.redislabs.com
@@ -1803,6 +1814,7 @@ ui.redisinsight.dev.redislabs.com
 university.redis.com
 university.redislabs.com
 us2-cluster.openshift.qa.redislabs.com
+v4-ph.university.redislabs.com
 view.redis.com
 waf-test.dev.redislabs.com
 waftest.qa.redislabs.com
@@ -1810,7 +1822,6 @@ webapi--sm.k8s-dev.sm-qa.qa.redislabs.com
 webapi-k8s-billing.qa.redislabs.com
 webapi-k8s-cloudapi.qa.redislabs.com
 webapi-qa.qa.redislabs.com
-webapi-qa.redislabs.com
 webapi-sm.dev-vitaly.sm-test.qa.redislabs.com
 webapi-sm.k8s-aa.sm-qa.qa.redislabs.com
 webapi-sm.k8s-billing-dev.sm-qa.qa.redislabs.com
@@ -1840,9 +1851,11 @@ www.keybase.redislabs-training.redislabs.com
 www.redis.com
 www.redislabs.com
 www.test00929c45.qa.redislabs.com
+xe0-3-5-7.university.redislabs.com
 yakov.qa.redislabs.com
 yuval-openshift3-east.openshift-qa.redislabs.com
 zabbix.redislabs.com
 zendesk1.redislabs.com
 zendesk2.redislabs.com
+zendesk3.redislabs.com
 zendesk4.redislabs.com
