@@ -1,24 +1,18 @@
-new,host,a,aaaa,cname,mx,soa,ns,txt,caa,status_code,cdn,cdn-name
-[x],benjamin.weblate.org,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,"coby.ns.cloudflare.com, dns.cloudflare.com",,v=spf1 a mx a:mort.cihar.com -all,,NOERROR,,
-[x],betaweb.weblate.org,,,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],cachet.weblate.org,,,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],debian.weblate.org,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,"coby.ns.cloudflare.com, dns.cloudflare.com",,v=spf1 a mx a:mort.cihar.com -all,,NOERROR,,
-[x],debug.weblate.org,,2001:1528:136:dead:beef:4242:0:30,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],demo.weblate.org,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,"coby.ns.cloudflare.com, dns.cloudflare.com",,v=spf1 a mx a:mort.cihar.com -all,,NOERROR,,
-[x],docs.weblate.org,"104.17.33.82, 104.17.32.82","2606:4700::6811:2052, 2606:4700::6811:2152",readthedocs.io,"aspmx.l.google.com, aspmx2.googlemail.com, aspmx3.googlemail.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","ivan.ns.cloudflare.com, dns.cloudflare.com","tegan.ns.cloudflare.com, ivan.ns.cloudflare.com",,"letsencrypt.org, pki.goog; cansignhttpexchanges=yes,  amazontrust.com, comodoca.com, digicert.com; cansignhttpexchanges=yes",NOERROR,True,cloudflare
-[x],dyson.weblate.org,78.47.78.238,2a01:4f8:c2c:91e2::1,dyson.weblate.cloud,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],git.weblate.org,,,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],gotify.weblate.org,,,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],helm.weblate.org,"185.199.109.153, 185.199.110.153, 185.199.111.153, 185.199.108.153","2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153",weblateorg.github.io,,"dns1.p05.nsone.net, hostmaster.nsone.net",,,"digicert.com, letsencrypt.org",NOERROR,,
-[x],hg.weblate.org,116.203.108.97,2a01:4f8:c0c:a84b::1,hosted.weblate.org,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],hosted.weblate.org,116.203.108.97,2a01:4f8:c0c:a84b::1,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],michal.meet.weblate.org,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,"coby.ns.cloudflare.com, dns.cloudflare.com",,v=spf1 a mx a:mort.cihar.com -all,,NOERROR,,
-[x],nextcloud.weblate.org,88.198.106.208,2a01:4f8:c0c:64ee::1,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],oldsupport.weblate.org,,,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],sentry.weblate.org,49.12.244.181,2a01:4f8:c012:8b49::1,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],status.weblate.org,"185.199.109.153, 185.199.111.153, 185.199.108.153, 185.199.110.153","2606:50c0:8002::153, 2606:50c0:8000::153, 2606:50c0:8003::153, 2606:50c0:8001::153",weblate-status-bot.github.io,,"ns-1622.awsdns-10.co.uk, awsdns-hostmaster.amazon.com, dns1.p05.nsone.net, hostmaster.nsone.net",,,"digicert.com, letsencrypt.org",NOERROR,,
-[x],status2.weblate.org,,,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
-[x],support.weblate.org,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,"coby.ns.cloudflare.com, dns.cloudflare.com",,v=spf1 a mx a:mort.cihar.com -all,,NOERROR,,
-[x],weblate.org,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,,mail.cihar.com,"coby.ns.cloudflare.com, dns.cloudflare.com","coby.ns.cloudflare.com, nicole.ns.cloudflare.com","facebook-domain-verification=gewan20j1o2zw7vyau06y7wpmb07w7, google-site-verification=SSd77ql2j6xSOlvDHT2pO2r3ZMQQyMVTycyse-l9i6A, site24x7-signals-domain-verification=7b4c370f5ae35f274458357730d97124, v=spf1 a mx a:mail.cihar.com a:django.cihar.com -all","mailto:info@weblate.org, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes",NOERROR,,
-[x],www.weblate.org,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,weblate.org,mail.cihar.com,"coby.ns.cloudflare.com, dns.cloudflare.com","coby.ns.cloudflare.com, nicole.ns.cloudflare.com","facebook-domain-verification=gewan20j1o2zw7vyau06y7wpmb07w7, google-site-verification=SSd77ql2j6xSOlvDHT2pO2r3ZMQQyMVTycyse-l9i6A, site24x7-signals-domain-verification=7b4c370f5ae35f274458357730d97124, v=spf1 a mx a:mail.cihar.com a:django.cihar.com -all","mailto:info@weblate.org, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes",NOERROR,,
-[x],zammad.weblate.org,,,,,"coby.ns.cloudflare.com, dns.cloudflare.com",,,,NOERROR,,
+new,host,soa,status_code,a,aaaa,cname,mx,ns,txt,caa
+[x],benjamin.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,,v=spf1 a mx a:mort.cihar.com -all,
+[x],betaweb.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+[x],care.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,157.90.23.52,2a01:4f8:c2c:9a9a::1,,,,,
+[x],debian.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,,v=spf1 a mx a:mort.cihar.com -all,
+[x],dyson.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,78.47.78.238,2a01:4f8:c2c:91e2::1,dyson.weblate.cloud,,,,
+[x],git.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+[x],gotify.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+[x],helm.weblate.org,"ns-1622.awsdns-10.co.uk, awsdns-hostmaster.amazon.com, dns1.p05.nsone.net, hostmaster.nsone.net",NOERROR,"185.199.110.153, 185.199.111.153, 185.199.108.153, 185.199.109.153","2606:50c0:8003::153, 2606:50c0:8002::153, 2606:50c0:8001::153, 2606:50c0:8000::153",weblateorg.github.io,,,,"digicert.com, letsencrypt.org"
+[x],hg.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,116.203.108.97,2a01:4f8:c0c:a84b::1,hosted.weblate.org,,,,
+[x],hosted.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,2a01:4f8:c0c:a84b::1,,,,,
+[x],nextcloud.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,88.198.106.208,2a01:4f8:c0c:64ee::1,,,,,
+[x],status.weblate.org,"ns-1622.awsdns-10.co.uk, awsdns-hostmaster.amazon.com, dns1.p05.nsone.net, hostmaster.nsone.net",NOERROR,"185.199.109.153, 185.199.110.153, 185.199.111.153, 185.199.108.153","2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8003::153, 2606:50c0:8002::153",weblate-status-bot.github.io,,,github-verification=SBZ2DQ3LnZTpdfr3ZXEpChNABuAkLaP6tJ9mXj7k,"digicert.com, letsencrypt.org"
+[x],status2.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
+[x],support.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,web.cihar.com,,,v=spf1 a mx a:mort.cihar.com -all,
+[x],weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,2001:1528:136:dead:beef:4242:0:30,,mail.cihar.com,"coby.ns.cloudflare.com, nicole.ns.cloudflare.com","facebook-domain-verification=gewan20j1o2zw7vyau06y7wpmb07w7, google-site-verification=SSd77ql2j6xSOlvDHT2pO2r3ZMQQyMVTycyse-l9i6A, site24x7-signals-domain-verification=7b4c370f5ae35f274458357730d97124, v=spf1 a mx a:mail.cihar.com a:django.cihar.com -all","mailto:info@weblate.org, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes"
+[x],www.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,77.78.107.252,2001:1528:136:dead:beef:4242:0:30,weblate.org,mail.cihar.com,"coby.ns.cloudflare.com, nicole.ns.cloudflare.com","facebook-domain-verification=gewan20j1o2zw7vyau06y7wpmb07w7, google-site-verification=SSd77ql2j6xSOlvDHT2pO2r3ZMQQyMVTycyse-l9i6A, site24x7-signals-domain-verification=7b4c370f5ae35f274458357730d97124, v=spf1 a mx a:mail.cihar.com a:django.cihar.com -all","mailto:info@weblate.org, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes"
+[x],zammad.weblate.org,"coby.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,,
