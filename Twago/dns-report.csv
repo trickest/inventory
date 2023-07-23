@@ -1,3 +1,5 @@
-new,host,a,soa,status_code,cname,mx,txt
-,elink.itprojects.talent-community.com,"52.17.61.208, 52.209.245.115","ns11.constellix.com, dns.constellix.com",NOERROR,,,
-,smtp.itprojects.talent-community.com,,"aisha.ns.cloudflare.com, dns.cloudflare.com",NOERROR,u24190309.wl060.sendgrid.net,mx.sendgrid.net,v=spf1 ip4:149.72.54.14 -all
+new,host,cname,mx,soa,txt,status_code,a
+[x],itprojects.talent-community.com,,,"ns11.constellix.com, dns.constellix.com",v=spf1 ip4:149.72.54.14 include:sendgrid.net include:_spf.google.com include:service-now.com -all,NOERROR,"52.17.61.208, 52.209.245.115"
+[x],www.talent-community.com,,,"ns11.constellix.com, dns.constellix.com",,NOERROR,"52.209.245.115, 52.17.61.208"
+,elink.itprojects.talent-community.com,,,"ns11.constellix.com, dns.constellix.com",,NOERROR,"52.209.245.115, 52.17.61.208"
+,smtp.itprojects.talent-community.com,u24190309.wl060.sendgrid.net,mx.sendgrid.net,"aisha.ns.cloudflare.com, dns.cloudflare.com",v=spf1 ip4:149.72.54.14 -all,NOERROR,
