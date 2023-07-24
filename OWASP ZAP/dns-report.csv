@@ -1,5 +1,5 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,has_internal_ips,internal_ips
-[x],alibaba.zaproxy.org,100.100.100.200,,"cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,True,100.100.100.200
-[x],cfu.zaproxy.org,"172.67.129.53, 104.21.1.121","2606:4700:3035::6815:179, 2606:4700:3037::ac43:8135","cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-[x],tel.zaproxy.org,"172.67.129.53, 104.21.1.121","2606:4700:3037::ac43:8135, 2606:4700:3035::6815:179","cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
-[x],www.zaproxy.org,"104.21.1.121, 172.67.129.53","2606:4700:3035::6815:179, 2606:4700:3037::ac43:8135","cloe.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,
+new,host,a,soa,has_internal_ips,internal_ips,status_code,aaaa,cdn,cdn-name
+[x],alibaba.zaproxy.org,100.100.100.200,"cloe.ns.cloudflare.com, dns.cloudflare.com",True,100.100.100.200,NOERROR,,,
+[x],aws.zaproxy.org,169.254.169.254,"cloe.ns.cloudflare.com, dns.cloudflare.com",True,169.254.169.254,NOERROR,,,
+[x],news.zaproxy.org,"172.67.129.53, 104.21.1.121","cloe.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,"2606:4700:3037::ac43:8135, 2606:4700:3035::6815:179",True,cloudflare
+[x],tel.zaproxy.org,"104.21.1.121, 172.67.129.53","cloe.ns.cloudflare.com, dns.cloudflare.com",,,NOERROR,"2606:4700:3037::ac43:8135, 2606:4700:3035::6815:179",True,cloudflare
