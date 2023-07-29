@@ -1,5 +1,6 @@
-new,host,a,aaaa,cname,soa,status_code,mx
-,mecenat.voiscooters.com,"216.239.38.21, 216.239.34.21, 216.239.32.21, 216.239.36.21",2a00:1450:4001:82a::2013,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,
-,privacy.voiscooters.com,,,,"ns1.hover.com, dnsmaster.hover.com",NOERROR,inbound-smtp.eu-west-1.amazonaws.com
-,www.mecenat.voiscooters.com,108.177.14.121,2a00:1450:4010:c0b::79,ghs.googlehosted.com,"ns1.google.com, dns-admin.google.com",NOERROR,
-,www.voiscooters.com,13.49.199.225,,,"ns1.hover.com, dnsmaster.hover.com",NOERROR,
+new,host,mx,soa,status_code,ns,txt,a,aaaa,cname
+[x],voiscooters.com,,"ns1.hover.com, dnsmaster.hover.com",NOERROR,"ns2.hover.com, ns1.hover.com","v=spf1 include:_spf.google.com -all, google-site-verification=s6MFYi50fhhLoKYyENEgZv3lghOfai05cgxfUPEYoiA, facebook-domain-verification=xs3la46k88j4j1km1vj1ntvddz8knv",,,
+,mecenat.voiscooters.com,,"ns1.google.com, dns-admin.google.com",NOERROR,,,"216.239.36.21, 216.239.38.21, 216.239.32.21, 216.239.34.21",2a00:1450:4001:82a::2013,ghs.googlehosted.com
+,privacy.voiscooters.com,inbound-smtp.eu-west-1.amazonaws.com,"ns1.hover.com, dnsmaster.hover.com",NOERROR,,,,,
+,www.mecenat.voiscooters.com,,"ns1.google.com, dns-admin.google.com",NOERROR,,,209.85.233.121,2a00:1450:4010:c1c::79,ghs.googlehosted.com
+,www.voiscooters.com,,"ns1.hover.com, dnsmaster.hover.com",NOERROR,,,13.49.199.225,,
