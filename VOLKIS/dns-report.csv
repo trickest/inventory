@@ -1,11 +1,13 @@
-new,host,a,aaaa,soa,status_code,cdn,cdn-name,ns,txt,cname,mx
-[x],file.volkis.com.au,"172.66.40.83, 172.66.43.173","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-[x],handbook.volkis.com.au,"172.66.43.173, 172.66.40.83","2606:4700:3108::ac42:2853, 2606:4700:3108::ac42:2bad","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-[x],news.volkis.com.au,"104.16.243.55, 104.18.201.65","2606:4700::6812:c941, 2606:4700::6810:f337","erin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,cname.beehiiv.com,
-[x],onedrive.volkis.com.au,"172.66.43.173, 172.66.40.83","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-[x],out.volk.is,"13.55.230.211, 3.25.7.151",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,,
-[x],pipe.volkis.com.au,"172.66.40.83, 172.66.43.173","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-[x],proposals.volkis.com.au,"172.66.40.83, 172.66.43.173","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
-[x],volk.is,"104.21.32.187, 172.67.223.238","2606:4700:3035::6815:20bb, 2606:4700:3032::ac43:dfee","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"kurt.ns.cloudflare.com, pat.ns.cloudflare.com",v=spf1 -all,,
-[x],volkis.com.au,"172.66.43.173, 172.66.40.83","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"kurt.ns.cloudflare.com, pat.ns.cloudflare.com","MS=ms66340232, atlassian-domain-verification=ttgQvUmNaC4ILHILmRGIYChg7rU9pKfl1T82MMK66LqM66j7ZFyq/muKfnyUjCrB, google-site-verification=BWPcI2SneoBt_ja55Ba1ZYqLsjUsYNPEeB1XMZ6-D_4, v=spf1 include:spf.protection.outlook.com -all",,volkis-com-au.mail.protection.outlook.com
-[x],www.volkis.com.au,,"2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853","kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,,
+new,host,a,aaaa,cname,soa,status_code,cdn,cdn-name,ns,txt,mx
+[x],autodiscover.volkis.com.au,"52.97.189.72, 40.99.157.8, 40.99.157.24, 40.99.149.168, 40.99.149.104, 52.97.188.72, 40.99.149.136, 40.99.157.40","2603:1026:c0d:20::8, 2603:1026:c0d:71::8, 2603:1026:c0d:2a::8","autodiscover.outlook.com, atod-g2.tm-4.office.com, autod.ms-acdc-autod.office.com","ns1-ms-acdc.office.com, hostmaster.microsoft.com",NOERROR,,,,,
+[x],handbook.volkis.com.au,"172.66.43.173, 172.66.40.83","2606:4700:3108::ac42:2853, 2606:4700:3108::ac42:2bad",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+[x],k8s.volkis.com.au,13.236.19.214,,,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,
+[x],lit-scapequote.volkis.com.au,"172.66.40.83, 172.66.43.173","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+[x],news.volkis.com.au,"104.18.201.65, 104.16.243.55","2606:4700::6812:c941, 2606:4700::6810:f337",cname.beehiiv.com,"erin.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+[x],onedrive.volkis.com.au,"172.66.43.173, 172.66.40.83","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+[x],out.volk.is,"13.55.230.211, 3.25.7.151",,,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,,,,,
+[x],pipe.volkis.com.au,"172.66.40.83, 172.66.43.173","2606:4700:3108::ac42:2853, 2606:4700:3108::ac42:2bad",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+[x],proposals.volkis.com.au,"172.66.40.83, 172.66.43.173","2606:4700:3108::ac42:2853, 2606:4700:3108::ac42:2bad",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
+[x],volk.is,"172.67.223.238, 104.21.32.187","2606:4700:3032::ac43:dfee, 2606:4700:3035::6815:20bb",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"pat.ns.cloudflare.com, kurt.ns.cloudflare.com",v=spf1 -all,
+[x],volkis.com.au,"172.66.43.173, 172.66.40.83","2606:4700:3108::ac42:2bad, 2606:4700:3108::ac42:2853",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,"kurt.ns.cloudflare.com, pat.ns.cloudflare.com","v=spf1 include:spf.protection.outlook.com -all, MS=ms66340232, atlassian-domain-verification=ttgQvUmNaC4ILHILmRGIYChg7rU9pKfl1T82MMK66LqM66j7ZFyq/muKfnyUjCrB, google-site-verification=BWPcI2SneoBt_ja55Ba1ZYqLsjUsYNPEeB1XMZ6-D_4",volkis-com-au.mail.protection.outlook.com
+[x],www.volkis.com.au,"172.66.40.83, 172.66.43.173","2606:4700:3108::ac42:2853, 2606:4700:3108::ac42:2bad",,"kurt.ns.cloudflare.com, dns.cloudflare.com",NOERROR,True,cloudflare,,,
