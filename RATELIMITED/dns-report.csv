@@ -1,6 +1,11 @@
-new,host,soa,txt,status_code,mx,ns,caa,a,cname,cdn,cdn-name
-[x],api.ratelimited.me,"ns1.he.net, hostmaster.he.net",v=spf1 -all,NOERROR,,,,,,,
-[x],b1nzy.ratelimited.me,"ns1.he.net, hostmaster.he.net",keybase-site-verification=2P31bUVY-nX5AlwYAU_0qXQZvUMLsUlbyLMp0c5rleU,NOERROR,,,,,,,
-[x],erp.ratelimited.me,"ns1.he.net, hostmaster.he.net",,NOERROR,,,,69.253.42.186,,,
-[x],george.ratelimited.me,"ns-1697.awsdns-20.co.uk, awsdns-hostmaster.amazon.com",,NOERROR,,,,35.185.44.232,george.gitlab.io,True,google
-[x],ratelimited.me,"ns1.he.net, hostmaster.he.net","have-i-been-pwned-verification=6fbc6636dcfe4176ad95d982b0a64ede, google-site-verification=Qxttd6l0Skps6cm6FX6qOAcDRsHweHOWXj1XywzpYNE, atlassian-domain-verification=a1IaZlAewAWsRbQo2OVYnOf5rjdKaeQgkOfTHjX7PZhsOzwZDYeIn4aHwQ0By2jZ, h1-domain-verification=EwwciFTVUjYGX1QW7LvxgaASbzGWiTWfZ1zrqH5fLXCLpmbs, google-site-verification=ixAT3jj4oRp8YPwcvSlE-fREz8XAmH_DYIoX1VbmL_Y, have-i-been-pwned-verification=c10c557f18516698c9ddd4ece32354e8, MS=ms42019405, v=spf1 include:stspg-customer.com include:_spf.google.com include:sendgrid.net include:mail.zendesk.com include:_spf.atlassian.net -all, keybase-site-verification=Lsz7DVth3jhesimdDhub7rVhU2EN45rUmpkH6f-Vkkw",NOERROR,"alt1.aspmx.l.google.com, alt2.aspmx.l.google.com, aspmx.l.google.com, alt3.aspmx.l.google.com, alt4.aspmx.l.google.com","ns5.he.net, ns3.he.net, ns1.he.net, ns4.he.net, ns2.he.net","mailto:george@ratelimited.me, letsencrypt.org",,,,
+new,host,a,cname,soa,status_code,cdn,cdn-name,txt,mx,ns,caa
+[x],a.ratelimited.me,,,,NOERROR,,,,,,
+[x],api.ratelimited.me,,,"ns1.he.net, hostmaster.he.net",NOERROR,,,v=spf1 -all,,,
+[x],b1nzy.ratelimited.me,,,"ns1.he.net, hostmaster.he.net",NOERROR,,,keybase-site-verification=2P31bUVY-nX5AlwYAU_0qXQZvUMLsUlbyLMp0c5rleU,,,
+[x],bulletins.ratelimited.me,,,,NOERROR,,,,,,
+[x],dicksword.ratelimited.me,,,,NOERROR,,,,,,
+[x],erp.ratelimited.me,69.253.42.186,,"ns1.he.net, hostmaster.he.net",NOERROR,,,,,,
+[x],fleet-arvest.ratelimited.me,,,,NOERROR,,,,,,
+[x],george.ratelimited.me,35.185.44.232,george.gitlab.io,"ns-1697.awsdns-20.co.uk, awsdns-hostmaster.amazon.com",NOERROR,True,google,,,,
+[x],pengu.ratelimited.me,,,,NOERROR,,,,,,
+[x],ratelimited.me,,,"ns1.he.net, hostmaster.he.net",NOERROR,,,"MS=ms42019405, h1-domain-verification=EwwciFTVUjYGX1QW7LvxgaASbzGWiTWfZ1zrqH5fLXCLpmbs, atlassian-domain-verification=a1IaZlAewAWsRbQo2OVYnOf5rjdKaeQgkOfTHjX7PZhsOzwZDYeIn4aHwQ0By2jZ, have-i-been-pwned-verification=c10c557f18516698c9ddd4ece32354e8, v=spf1 include:stspg-customer.com include:_spf.google.com include:sendgrid.net include:mail.zendesk.com include:_spf.atlassian.net -all, google-site-verification=Qxttd6l0Skps6cm6FX6qOAcDRsHweHOWXj1XywzpYNE, google-site-verification=ixAT3jj4oRp8YPwcvSlE-fREz8XAmH_DYIoX1VbmL_Y, have-i-been-pwned-verification=6fbc6636dcfe4176ad95d982b0a64ede, keybase-site-verification=Lsz7DVth3jhesimdDhub7rVhU2EN45rUmpkH6f-Vkkw","aspmx.l.google.com, alt4.aspmx.l.google.com, alt3.aspmx.l.google.com, alt1.aspmx.l.google.com, alt2.aspmx.l.google.com","ns5.he.net, ns3.he.net, ns2.he.net, ns1.he.net, ns4.he.net","mailto:george@ratelimited.me, letsencrypt.org"
