@@ -9,6 +9,14 @@
       "url": "https://bugcrowd.com/acorns"
     },
     {
+      "name": "Adore Me Vulnerability Disclosure Program",
+      "domains": [
+        "adoreme.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/adoreme-vdp"
+    },
+    {
       "name": "AMEX - Global Business Travel Vulnerability Disclosure Program",
       "domains": [
         "amexgbt.com",
@@ -59,6 +67,7 @@
         "einfochips.com",
         "elektroda.pl",
         "immixgroup.com",
+        "niccomp.com",
         "powerandsignal.com",
         "richardsonrfpd.com",
         "siliconexpert.com",
@@ -115,8 +124,7 @@
         "binance.je",
         "binance.org",
         "binance.sg",
-        "binance.us",
-        "bnbchain.org"
+        "binance.us"
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/binance"
@@ -129,22 +137,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/bitdefender"
-    },
-    {
-      "name": "BitDiscovery",
-      "domains": [
-        "bitdiscovery.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/bitdiscovery"
-    },
-    {
-      "name": "Bybit",
-      "domains": [
-        "bybit.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/bybit"
     },
     {
       "name": "Caffeine",
@@ -440,14 +432,6 @@
       "url": "https://bugcrowd.com/hubspot"
     },
     {
-      "name": "Hummingbird VDP",
-      "domains": [
-        "hummingbird.co"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/hummingbird-vdp-ess"
-    },
-    {
       "name": "iFood: Bug Bounty Program",
       "domains": [
         "movilepay.com",
@@ -455,6 +439,26 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/ifood-og"
+    },
+    {
+      "name": "Immutable Bug Bounty",
+      "domains": [
+        "immutable.com",
+        "imtbl.com",
+        "testnet.immutable.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/immutable-og"
+    },
+    {
+      "name": "Indeed",
+      "domains": [
+        "indeed.com",
+        "indeed.tech",
+        "indeedflex.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/indeed"
     },
     {
       "name": "Jora",
@@ -532,16 +536,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/lenovoresponsibledisclosure"
-    },
-    {
-      "name": "Lime",
-      "domains": [
-        "li.me",
-        "lime.bike",
-        "limeinternal.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/lime"
     },
     {
       "name": "Linktree",
@@ -638,6 +632,9 @@
         "couttscrowndependencies.com",
         "holtsmilitarybank.co.uk",
         "iombank.com",
+        "lombard.co.uk",
+        "lombard.com",
+        "managedtest.com",
         "mymoneysense.com",
         "natwest.co.uk",
         "natwest.com",
@@ -790,8 +787,10 @@
       "url": "https://bugcrowd.com/originenergy-og1"
     },
     {
-      "name": "Overstock's Vulnerability Disclosure Page!",
+      "name": "Bed Bath and Beyond",
       "domains": [
+        "bedbathandbeyond.ca",
+        "bedbathandbeyond.com",
         "handmade.com",
         "overstock.com",
         "supplieroasis.com"
@@ -833,14 +832,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/privateinternetaccess"
-    },
-    {
-      "name": "Rakuten VDP",
-      "domains": [
-        "rakuten.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/rakuten-vdp"
     },
     {
       "name": "Rapyd",
@@ -1009,9 +1000,21 @@
       "url": "https://bugcrowd.com/statuspage"
     },
     {
+      "name": "T-Mobile",
+      "domains": [
+        "api.t-mobile.com",
+        "metrobyt-mobile.com",
+        "sprint.com",
+        "t-mobile.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/t-mobile"
+    },
+    {
       "name": "Takeaway.com",
       "domains": [
         "10bis.co.il",
+        "beta.scoober.com",
         "bistro.sk",
         "citymeal.com",
         "eat.ch",
@@ -1046,7 +1049,6 @@
         "fonic.de",
         "mediamarkt.o2service.de",
         "mein.aetkasmart.de",
-        "mein.simfinity.de",
         "nettokom.de",
         "netzclub.net",
         "norma-mobil.de",
@@ -1081,6 +1083,17 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/tesla"
+    },
+    {
+      "name": "TIDAL",
+      "domains": [
+        "tdl.sh",
+        "tidal.com",
+        "tidalhifi.com",
+        "wimpmusic.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/tidal-bugbounty"
     },
     {
       "name": "Trello",
@@ -1122,77 +1135,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/underarmour"
-    },
-    {
-      "name": "Unilever Vulnerability Disclosure Program",
-      "domains": [
-        "Algida.pl",
-        "Uol-maint.unilever.com",
-        "VO5.co.uk",
-        "YoungEntrepreneursAwards.Unilever.com",
-        "axe.com",
-        "bedhead.comuk",
-        "br.recepedia.com",
-        "clearhaircare.comsg",
-        "close-up.com",
-        "conimex.nl",
-        "degreedeodorant.com",
-        "domestos.complhome.html",
-        "elidor.com.tr",
-        "folicure.com.mx",
-        "getsetclean.ininhi",
-        "glowandlovelycareers.inen",
-        "hellmanns.comuk",
-        "ingman.fi",
-        "joko.co.zaen",
-        "jornadababydove.com.br",
-        "kbright.com.sg",
-        "klondikebar.com",
-        "knorr.com",
-        "kwalitywalls.inhome.html",
-        "lifebuoy.com",
-        "lipton.com",
-        "lovehomeandplanet.com",
-        "missionsignal.fr",
-        "mx.recepedia.com",
-        "neutral.lv",
-        "pepsodent.com",
-        "promocjeunilever.pl",
-        "pureitwater.comIN",
-        "rin.in",
-        "skinsei.com",
-        "stives.com",
-        "suave.comusen",
-        "sunsilk.co.id",
-        "tiendavirtual.mutual-all.com.ar",
-        "toolkithomecare.com",
-        "tresemme.com",
-        "unilever.com",
-        "unilever.com.br",
-        "unilever.gr",
-        "unilever.ro",
-        "unileverhealth.co.za",
-        "uniquelyunilever.com",
-        "unox.nl",
-        "urbanmonkey.sk",
-        "uttcentraldb.com",
-        "vazoplintirio.gr",
-        "veksthus.knorr.no",
-        "vivaelagua.com.mx",
-        "voteuntukimpianku.com",
-        "wa-na.unileversolutions.com",
-        "wakacjezknorr.pl",
-        "wallsthailand.com",
-        "weareul.com",
-        "whatsfordinner.co.za",
-        "whitenow.com",
-        "yukmulaibijakplastik.com",
-        "yulaenergy.com",
-        "zest.com.mx",
-        "zmrzlina-misa.sk"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/unilever-vdp"
     },
     {
       "name": "United Airlines",
@@ -1266,6 +1208,125 @@
       "url": "https://bugcrowd.com/xfinity-home"
     },
     {
+      "name": "Trip.com",
+      "domains": [
+        "trip.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/trip_com"
+    },
+    {
+      "name": "Aven (Response)",
+      "domains": [
+        "aven.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/aven_response"
+    },
+    {
+      "name": "Brightspeed",
+      "domains": [
+        "brightspeed.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/brightspeed"
+    },
+    {
+      "name": "AboitizPower",
+      "domains": [
+        "aboitizpower.com",
+        "apps.sofa.csg.aboitizpower.org",
+        "cotabatolight.com",
+        "davaolight.com",
+        "enerzone.com.ph",
+        "hedcor.com",
+        "oilbu.com",
+        "snaboitiz.com",
+        "visayanelectric.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/aboitizpower_corporation"
+    },
+    {
+      "name": "Alshaya",
+      "domains": [
+        "aloyoga.ae",
+        "aloyoga.com.kw",
+        "aloyoga.com.qa",
+        "alshaya.com",
+        "alshayaenterprises.com",
+        "americaneagle.ae",
+        "americaneagle.com.bh",
+        "americaneagle.com.eg",
+        "americaneagle.com.jo",
+        "americaneagle.com.kw",
+        "americaneagle.com.qa",
+        "americaneagle.com.sa",
+        "bathandbodyworks.ae",
+        "bathandbodyworks.com.bh",
+        "bathandbodyworks.com.eg",
+        "bathandbodyworks.com.kw",
+        "bathandbodyworks.com.qa",
+        "bathandbodyworks.com.sa",
+        "bathandbodyworks.com.tr",
+        "bathandbodyworks.jo",
+        "bathandbodyworks.pl",
+        "carrier.alshaya.com",
+        "debenhams.ae",
+        "debenhams.com.kw",
+        "debenhams.sa",
+        "footlocker.ae",
+        "footlocker.com.bh",
+        "footlocker.com.eg",
+        "footlocker.qa",
+        "kidzaniakuwait-tickets.com",
+        "mothercare.ae",
+        "mothercare.com.eg",
+        "mothercare.com.kw",
+        "mothercare.com.sa",
+        "mothercare.qa",
+        "muji.ae",
+        "muji.bh",
+        "muji.com.kw",
+        "muji.com.sa",
+        "muji.qa",
+        "payless.com.kw",
+        "paylessshoes.ae",
+        "potterybarn.ae",
+        "potterybarn.com.kw",
+        "potterybarn.com.sa",
+        "potterybarnkids.ae",
+        "potterybarnkids.com.kw",
+        "potterybarnkids.com.sa",
+        "shakeshack.co.uk",
+        "shaya.com.tr",
+        "starbucks.az",
+        "starbucks.com.kz",
+        "starbucks.com.tr",
+        "starbuckscardtr.com",
+        "supplier.alshaya.com",
+        "tamanna.com",
+        "thebodyshop.com.bh",
+        "thebodyshop.com.eg",
+        "thebodyshop.com.kw",
+        "thebodyshop.com.tr",
+        "thebodyshop.pl",
+        "thebodyshop.qa",
+        "victoriassecreatbeauty.ro",
+        "victoriassecret.ae",
+        "victoriassecret.com.kw",
+        "victoriassecret.com.qa",
+        "victoriassecret.com.sa",
+        "victoriassecret.com.tr",
+        "victoriassecret.pl",
+        "westelm.ae",
+        "westelm.com.kw",
+        "westelm.com.sa"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/alshaya"
+    },
+    {
       "name": "OKX",
       "domains": [
         "okx.com"
@@ -1276,13 +1337,43 @@
     {
       "name": "Superbet",
       "domains": [
+        "luckydays.ca",
+        "luckydays.com",
         "magicjackpot.ro",
+        "spinaway.com",
         "superbet.com",
         "superbet.ro",
         "superbet.rs"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/superbet"
+    },
+    {
+      "name": "ABN AMRO Bank VDP",
+      "domains": [
+        "abnamro.be",
+        "abnamro.com",
+        "abnamro.nl",
+        "abnamro.org",
+        "abnamrocomfin.com",
+        "abnamroinvestmentsolutions.com",
+        "abnamrolease.com",
+        "alfam.nl",
+        "bethmannbank.de",
+        "new10.com",
+        "tikkie.me"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/abn_amro_vdp"
+    },
+    {
+      "name": "Boozt Fashion AB",
+      "domains": [
+        "boozt.com",
+        "booztlet.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/boozt"
     },
     {
       "name": "ONE ZERO VDP",
@@ -1730,14 +1821,6 @@
       "url": "https://hackerone.com/moonpay"
     },
     {
-      "name": "Auvik",
-      "domains": [
-        "auvik.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/auvik"
-    },
-    {
       "name": "Veeam",
       "domains": [
         "kasten.io",
@@ -1808,6 +1891,15 @@
       "url": "https://hackerone.com/fastly-vdp"
     },
     {
+      "name": "Varonis",
+      "domains": [
+        "varonis.com",
+        "varonis.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/varonis"
+    },
+    {
       "name": "ServiceNow Disclosure",
       "domains": [
         "service-now.com",
@@ -1853,7 +1945,15 @@
     {
       "name": "Zebra VDP",
       "domains": [
+        "antuit.ai",
+        "cto-si.zebra.com",
         "fetchcore-cloud.com",
+        "profitect.com",
+        "pttpro.zebra.com",
+        "zams-eu.zebra.com",
+        "zams.zebra.com",
+        "zebra.commobicontrol",
+        "zebramwe.com",
         "zebrasports.com"
       ],
       "wildcard_filters": [],
@@ -1881,7 +1981,8 @@
     {
       "name": "Aktia",
       "domains": [
-        "aktia.fi"
+        "aktia.fi",
+        "aktiawallet.fi"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/aktia"
@@ -1919,7 +2020,10 @@
     {
       "name": "Tennessee Valley Authority",
       "domains": [
-        "tva.com"
+        "mytva.com",
+        "tva-energyright.com",
+        "tva.com",
+        "tvaenergyrightsolutions.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/tennessee-valley-authority"
@@ -1955,6 +2059,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/glovo"
+    },
+    {
+      "name": "HYPR",
+      "domains": [
+        "hypr.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/hypr-corp"
     },
     {
       "name": "Mars",
@@ -2060,32 +2172,11 @@
     {
       "name": "Paystack Vulnerability Disclosure",
       "domains": [
+        "paystack.com",
         "paystackintegrations.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/paystack-vdp"
-    },
-    {
-      "name": "Nubank",
-      "domains": [
-        "cognitect.com",
-        "datomic.com",
-        "easynvest.com.br",
-        "investidores.nu",
-        "investnews.com.br",
-        "nu.com.ar",
-        "nu.com.co",
-        "nu.com.mx",
-        "nubank.com.br",
-        "nuinternational.com",
-        "nuinvest.com.br",
-        "olivia.ai",
-        "plataformatec.com",
-        "plataformatec.com.br",
-        "spinpay.com.br"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/nubank"
     },
     {
       "name": "Grindr",
@@ -2135,24 +2226,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/ohiosecretaryofstate"
-    },
-    {
-      "name": "Jimdo GmbH",
-      "domains": [
-        "jimdo-data-platform.net",
-        "jimdo-dev-staging.com",
-        "jimdo-platform.net",
-        "jimdo-server.com",
-        "jimdo-stable-staging.com",
-        "jimdo.com",
-        "jimdo.systems",
-        "jimdoapi.com",
-        "jimdofree.com",
-        "jimdoreseller.com",
-        "jimdosite.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/jimdo"
     },
     {
       "name": "8x8 Bounty",
@@ -2320,14 +2393,6 @@
       "url": "https://hackerone.com/shein"
     },
     {
-      "name": "Gener8",
-      "domains": [
-        "gener8ads.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/gener8"
-    },
-    {
       "name": "Cirrus Insight",
       "domains": [
         "cirrusinsight.com",
@@ -2405,8 +2470,18 @@
         "cainbrothers.com",
         "hellowallet.com",
         "key.com",
+        "key2businesscard.com",
+        "keyapsolutions.com",
         "keybank.com",
-        "laurelroad.com"
+        "keydirect.com",
+        "keyequipmentfinance.com",
+        "laurelroad.com",
+        "xup-onboarding.com",
+        "xuphub.com",
+        "xuppay-statement-analyzer.com",
+        "xuppay.com",
+        "xupservicing.com",
+        "xupsupport.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/keybank"
@@ -2414,10 +2489,23 @@
     {
       "name": "Thomson Reuters",
       "domains": [
+        "reuters.com",
         "thomsonreuters.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/thomsonreuters-public"
+    },
+    {
+      "name": "GoCardless Bug Bounty Program",
+      "domains": [
+        "gocardless-cicd.io",
+        "gocardless-lab.io",
+        "gocardless-staging.io",
+        "gocardless.com",
+        "gocardless.dev"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/gocardless_bbp"
     },
     {
       "name": "Equifax-vdp",
@@ -2425,7 +2513,12 @@
         "accountscore.co.uk",
         "accountscore.com",
         "accountscore.net",
+        "acertandosuascontas.com.br",
         "ansoniacreditdata.com",
+        "boavistascpc.com.br",
+        "boavistaservicos.com.br",
+        "bvsnet.com.br",
+        "certificadoboavista.com.br",
         "datacredito.com",
         "datacredito.com.do",
         "datacredito.info",
@@ -2440,6 +2533,7 @@
         "equifax.cl",
         "equifax.com",
         "equifax.com.pe",
+        "fraudday.com",
         "healthefx.net",
         "healthefx.us",
         "healthefxforms.us",
@@ -2448,12 +2542,18 @@
         "i9advantage.com",
         "i9anywhere.com",
         "idwatchdog.com",
+        "konduto.blog",
+        "konduto.com",
         "kount.com",
         "kount.net",
         "mapcity.com",
         "mercury.com.au",
         "midigator.com",
         "ntcusa.com",
+        "redeverdeamarela.com.br",
+        "scpcnet.com.br",
+        "servicodeprotecaoaocredito.com.br",
+        "seuladobom.com.br",
         "talx.com",
         "wageverify.com"
       ],
@@ -2461,7 +2561,7 @@
       "url": "https://hackerone.com/equifax"
     },
     {
-      "name": "LINE",
+      "name": "LY Corporation",
       "domains": [
         "line-apps.com",
         "line.biz",
@@ -2483,20 +2583,12 @@
     {
       "name": "Trellix",
       "domains": [
+        "fireeye.com",
         "skyhighsecurity.com",
         "trellix.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/trellix"
-    },
-    {
-      "name": "Allegro",
-      "domains": [
-        "allegro.pl.allegrosandbox.pl",
-        "allegrosandbox.pl"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/allegro"
     },
     {
       "name": "Xiaomi",
@@ -2595,6 +2687,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/mattermost"
+    },
+    {
+      "name": "Front",
+      "domains": [
+        "front.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/fronthq"
     },
     {
       "name": "Python Cryptographic Authority",
@@ -2862,12 +2962,14 @@
         "betsharedservices.io",
         "betviewapi.com",
         "bonne-terre-data-layer.com",
+        "dibz.co.uk",
         "msgsvc.io",
         "operationstechnology.io",
         "paddypartners.com",
         "paddypower.com",
         "paddypower.it",
         "platformservices.io",
+        "ppbdev.com",
         "sbgcdn.com",
         "sbgcore.com",
         "sbgorigin.com",
@@ -2979,18 +3081,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/smule"
-    },
-    {
-      "name": "LifeOmic",
-      "domains": [
-        "dev.lifeomic.com",
-        "infra.lifeomic.com",
-        "jupiterone.io",
-        "lifeomic.com",
-        "lifeomic.life"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/lifeomic"
     },
     {
       "name": "Kindred Group",
@@ -3518,21 +3608,14 @@
       "url": "https://hackerone.com/gitlab"
     },
     {
-      "name": "Twitter",
+      "name": "X (Formerly Twitter)",
       "domains": [
-        "gnip.com",
-        "mopub.com",
-        "niche.co",
-        "periscope.tv",
-        "pscp.tv",
-        "snappytv.com",
         "twimg.com",
         "twitter.com",
-        "twitterflightschool.com",
         "vine.co"
       ],
       "wildcard_filters": [],
-      "url": "https://hackerone.com/twitter"
+      "url": "https://hackerone.com/x"
     },
     {
       "name": "Cloudflare Public Bug Bounty",
@@ -3556,9 +3639,7 @@
         "simperium.com",
         "simplenote.com",
         "srvcs.tumblr.com",
-        "tumblr.com",
-        "txmblr.com",
-        "umblr.com"
+        "tumblr.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/automattic"
@@ -3642,11 +3723,35 @@
       "url": "https://www.intigriti.com/programs/randstad/bmc/detail"
     },
     {
+      "name": "Bpost",
+      "domains": [
+        "bpost.be",
+        "bpost.cloud",
+        "landmarkglobal-group.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/bpost/dummy/detail"
+    },
+    {
+      "name": "B\u00fchler Group VDP",
+      "domains": [
+        "buhlergroup.cn",
+        "buhler-datascience.ch",
+        "buhlercloud.com",
+        "buhlergroup.ai",
+        "buhlergroup.com",
+        "buhlergroup.io",
+        "buhlertest.ch"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/buhlergroup/buhlergroupvdp/detail"
+    },
+    {
       "name": "CM.com",
       "domains": [
-        "cmtelecom.com",
         "ticketing.cm.com",
-        "cm.com"
+        "cm.com",
+        "cmtelecom.com"
       ],
       "wildcard_filters": [],
       "url": "https://www.intigriti.com/programs/cmcom/cmcom/detail"
@@ -3681,14 +3786,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://www.intigriti.com/programs/dpgm/dpgmedia/detail"
-    },
-    {
-      "name": "DataCamp",
-      "domains": [
-        "datacamp.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail"
     },
     {
       "name": "De Morgen",
@@ -3769,6 +3866,14 @@
       "url": "https://www.intigriti.com/programs/dpgm/hetlaatstenieuws/detail"
     },
     {
+      "name": "Het Parool",
+      "domains": [
+        "parool.nl"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/dpgm/hetparool/detail"
+    },
+    {
       "name": "Humo",
       "domains": [
         "humo.be"
@@ -3777,7 +3882,7 @@
       "url": "https://www.intigriti.com/programs/dpgm/humo/detail"
     },
     {
-      "name": "Innogames",
+      "name": "InnoGames",
       "domains": [
         "igpayment.com",
         "innogames.de",
@@ -3884,6 +3989,16 @@
       "url": "https://www.intigriti.com/programs/randstad/monsterworldwide/detail"
     },
     {
+      "name": "Monzo Vulnerability Disclosure Program",
+      "domains": [
+        "monzo.com",
+        "monzo.me",
+        "prod-ffs.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/monzobank/monzo-vdp/detail"
+    },
+    {
       "name": "Moralis VDP",
       "domains": [
         "bigmoralis.com",
@@ -3921,6 +4036,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://www.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail"
+    },
+    {
+      "name": "Oda",
+      "domains": [
+        "oda.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/oda/oda/detail"
     },
     {
       "name": "Personio",
@@ -4031,6 +4154,16 @@
       "url": "https://www.intigriti.com/programs/dpgm/tweakers/detail"
     },
     {
+      "name": "UZ Leuven",
+      "domains": [
+        "kwsdose.be",
+        "playuzleuven.be",
+        "mir.uzleuven.be"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/uz%20leuven/uzleuven/detail"
+    },
+    {
       "name": "Uphold.com",
       "domains": [
         "uphold.com"
@@ -4066,6 +4199,14 @@
       "url": "https://www.intigriti.com/programs/dpgm/vtmgo/detail"
     },
     {
+      "name": "Veriff Bug Bounty",
+      "domains": [
+        "veriff.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/veriff/veriffbugbounty/detail"
+    },
+    {
       "name": "Vlerick Business School",
       "domains": [
         "vlerick.com"
@@ -4080,6 +4221,17 @@
       ],
       "wildcard_filters": [],
       "url": "https://www.intigriti.com/programs/voi/voiscooters/detail"
+    },
+    {
+      "name": "Voys - VoIPGRID",
+      "domains": [
+        "voipgrid.nl",
+        "voys.be",
+        "voys.co",
+        "voys.nl"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/voys/voipgrid-voys/detail"
     },
     {
       "name": "WP Engine",
@@ -4101,6 +4253,14 @@
       "url": "https://www.intigriti.com/programs/randstad/yacht/detail"
     },
     {
+      "name": "henchman.io",
+      "domains": [
+        "henchman.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://www.intigriti.com/programs/henchman/henchmanio/detail"
+    },
+    {
       "name": "iBOOD.com",
       "domains": [
         "ibood.io",
@@ -4108,15 +4268,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://www.intigriti.com/programs/iboodcom/iboodcom/detail"
-    },
-    {
-      "name": "intigriti",
-      "domains": [
-        "intigriti.com",
-        "intigriti.me"
-      ],
-      "wildcard_filters": [],
-      "url": "https://www.intigriti.com/programs/intigriti/intigriti/detail"
     },
     {
       "name": "ATG Public Bug Bounty Program",
@@ -4157,24 +4308,15 @@
       "url": "https://yeswehack.com/programs/dailymotion-public-bug-bounty"
     },
     {
-      "name": "HARMAN International - Web Applications",
+      "name": "Infomaniak Bug Bounty program",
       "domains": [
-        "jbl.com",
-        "harmanaudio.com",
-        "harmankardon.com",
-        "infinitylab.com",
-        "support.jbl.com",
-        "jbl.nl",
-        "jbl.ru",
-        "uk.jbl.com",
-        "uk.harmanaudio.com",
-        "de.jbl.com",
-        "in.jbl.com",
-        "jp.jbl.com",
-        "jbl.com.br"
+        "kdrive.infomaniak.com",
+        "kchat.infomaniak.com",
+        "vod2.infomaniak.com",
+        "infomaniak.site"
       ],
       "wildcard_filters": [],
-      "url": "https://yeswehack.com/programs/harman-international-web-applications"
+      "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program"
     },
     {
       "name": "Lazada",
@@ -4239,6 +4381,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://yeswehack.com/programs/telenor-sweden-public-bug-bounty-program"
+    },
+    {
+      "name": "VFS Global Bug Bounty Program",
+      "domains": [
+        "vfsevisa.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program"
     },
     {
       "name": "4chan",
@@ -4372,6 +4522,14 @@
       "url": "https://hackenproof.com/allbridge/allbridge"
     },
     {
+      "name": "Allegro",
+      "domains": [
+        "allegrosandbox.pl"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/allegro"
+    },
+    {
       "name": "Amazon",
       "domains": [
         "amazon.com",
@@ -4498,12 +4656,28 @@
       "url": "https://arrival.com/legal/security#purpose"
     },
     {
+      "name": "Asymetrix",
+      "domains": [
+        "asymetrix.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/asymetrix"
+    },
+    {
       "name": "AT&T",
       "domains": [
         "att.com"
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/att"
+    },
+    {
+      "name": "Aurora",
+      "domains": [
+        "aurora.plus"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/aurora"
     },
     {
       "name": "Australia Post",
@@ -4674,6 +4848,30 @@
       "url": "https://hackerone.com/bitaccess"
     },
     {
+      "name": "Bitcastle",
+      "domains": [
+        "bitcastle.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/bitcastle/bitcastle-web"
+    },
+    {
+      "name": "BitDiscovery",
+      "domains": [
+        "bitdiscovery.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/bitdiscovery"
+    },
+    {
+      "name": "Bitexen",
+      "domains": [
+        "bitexen.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/bitexen"
+    },
+    {
       "name": "Bitfinex",
       "domains": [
         "bitfinex.com"
@@ -4720,6 +4918,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackenproof.com/bitrue/bitrue"
+    },
+    {
+      "name": "Bittrex",
+      "domains": [
+        "bittrex.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/bittrex/bittrex"
     },
     {
       "name": "Bitwarden",
@@ -4800,15 +5006,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/bmwgroup"
-    },
-    {
-      "name": "Boozt Fashion",
-      "domains": [
-        "boozt.com",
-        "booztlet.com"
-      ],
-      "wildcard_filters": [],
-      "url": "https://hackerone.com/boozt"
     },
     {
       "name": "Brave Software",
@@ -4957,6 +5154,16 @@
       "url": "https://hackerone.com/cfptime"
     },
     {
+      "name": "Chainstack",
+      "domains": [
+        "chainstack.com",
+        "p2pify.com",
+        "chainstacklabs.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/chainstack/chainstack"
+    },
+    {
       "name": "Chargezoom",
       "domains": [
         "payportal.net"
@@ -4980,6 +5187,15 @@
       ],
       "wildcard_filters": [],
       "url": "https://www.checkpoint.com/white-hat/"
+    },
+    {
+      "name": "CITEX Exchange",
+      "domains": [
+        "citex.info",
+        "citex.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/citex-exchange/citex-web-and-api"
     },
     {
       "name": "cLabs",
@@ -5137,6 +5353,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackenproof.com/coinstore/coinstore"
+    },
+    {
+      "name": "CoinW",
+      "domains": [
+        "coinw.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/coinw/coinw-web-and-mobile"
     },
     {
       "name": "CompanyHub",
@@ -5451,6 +5675,14 @@
       "url": "https://hackenproof.com/dex-trade/dex-trade"
     },
     {
+      "name": "Dexalot",
+      "domains": [
+        "dexalot.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/dexalot"
+    },
+    {
       "name": "Didi",
       "domains": [
         "didichuxing.com",
@@ -5703,6 +5935,14 @@
       "url": "https://www.ecb.europa.eu/services/responsible-disclosure/html/index.nl.html"
     },
     {
+      "name": "EVAA",
+      "domains": [
+        "evaa.finance"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/evaa"
+    },
+    {
       "name": "Eventbrite",
       "domains": [
         "eventbrite.com",
@@ -5800,12 +6040,12 @@
       "url": "https://hackerone.com/filezilla"
     },
     {
-      "name": "FireEye",
+      "name": "Filmio",
       "domains": [
-        "fireeye.com"
+        "film.io"
       ],
       "wildcard_filters": [],
-      "url": "https://hackerone.com/Trellix"
+      "url": "https://hackenproof.com/filmio"
     },
     {
       "name": "FIRST",
@@ -5823,6 +6063,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/fitbit"
+    },
+    {
+      "name": "FitBurn",
+      "domains": [
+        "fitburn.ai"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/fitburn/fitburn-web-and-mobile"
     },
     {
       "name": "Flipkart",
@@ -5893,6 +6141,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/genasys"
+    },
+    {
+      "name": "Gener8",
+      "domains": [
+        "gener8ads.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/gener8"
     },
     {
       "name": "Geotab",
@@ -7646,15 +7902,6 @@
       "url": "https://www.impactguru.com/bug-bounty"
     },
     {
-      "name": "Indeed",
-      "domains": [
-        "indeed.com",
-        "indeed.tech"
-      ],
-      "wildcard_filters": [],
-      "url": "https://bugcrowd.com/indeed"
-    },
-    {
       "name": "INDmoney",
       "domains": [
         "indmoney.com",
@@ -7821,6 +8068,17 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/jd_com"
+    },
+    {
+      "name": "Jimdo",
+      "domains": [
+        "jimdo.com",
+        "jimdofree.com",
+        "jimdosite.com",
+        "jimdo-platform.net"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/jimdo"
     },
     {
       "name": "Jivochat",
@@ -8021,12 +8279,40 @@
       "url": "https://hackerone.com/lemlist"
     },
     {
+      "name": "LetsExchange",
+      "domains": [
+        "letsexchange.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/letsexchange/letsexchange-web-and-api"
+    },
+    {
       "name": "Lido Finance",
       "domains": [
         "lido.fi"
       ],
       "wildcard_filters": [],
       "url": "https://immunefi.com/bounty/lido/"
+    },
+    {
+      "name": "LifeOmic",
+      "domains": [
+        "lifeomic.life",
+        "lifeomic.com",
+        "jupiterone.io"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/lifeomic"
+    },
+    {
+      "name": "Lime",
+      "domains": [
+        "lime.bike",
+        "limeinternal.com",
+        "li.me"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/lime"
     },
     {
       "name": "LiquidWeb",
@@ -8418,6 +8704,14 @@
       "url": "https://mujs.com/security.html"
     },
     {
+      "name": "MyEtherWallet",
+      "domains": [
+        "myetherwallet.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/myetherwallet"
+    },
+    {
       "name": "Myntra",
       "domains": [
         "myntra.com"
@@ -8457,6 +8751,15 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/ncsc_uk"
+    },
+    {
+      "name": "NEAR",
+      "domains": [
+        "near.org",
+        "near.foundation"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/near"
     },
     {
       "name": "Netgear",
@@ -8508,6 +8811,14 @@
       "url": "https://ngrok.com/security/disclosure-and-reward-program"
     },
     {
+      "name": "NiceHash",
+      "domains": [
+        "nicehash.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/nicehash"
+    },
+    {
       "name": "Nike",
       "domains": [
         "nike.com",
@@ -8551,6 +8862,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://nozbe.com/bug-bounty/"
+    },
+    {
+      "name": "Nubank",
+      "domains": [
+        "nubank.com.br"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/nubank"
     },
     {
       "name": "Oasis Protocol Foundation",
@@ -8684,6 +9003,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://security.oneplus.com/"
+    },
+    {
+      "name": "OneTrust",
+      "domains": [
+        "onetrust.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/onetrust"
     },
     {
       "name": "Onfido",
@@ -9021,6 +9348,14 @@
       "url": "https://www.playtech.com/contact-us/security-inquiry"
     },
     {
+      "name": "Plisio",
+      "domains": [
+        "plisio.net"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/plisio/plisio"
+    },
+    {
       "name": "Polkalokr",
       "domains": [
         "polkalokr.com"
@@ -9124,6 +9459,14 @@
       "url": "https://protonvpn.com/blog/bug-bounty-program/"
     },
     {
+      "name": "PUMB.UA",
+      "domains": [
+        "pumb.ua"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/pumb-dot-ua"
+    },
+    {
       "name": "PureVPN",
       "domains": [
         "purevpn.com"
@@ -9181,6 +9524,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/railto"
+    },
+    {
+      "name": "Rakuten",
+      "domains": [
+        "rakuten.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/rakuten-vdp"
     },
     {
       "name": "Range",
@@ -9855,6 +10206,14 @@
       "url": "https://hackerone.com/starling_bank"
     },
     {
+      "name": "Status",
+      "domains": [
+        "status.im"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/status-dot-im/status"
+    },
+    {
       "name": "Stellantis",
       "domains": [
         "driveuconnect.com",
@@ -9919,286 +10278,6 @@
       ],
       "wildcard_filters": [],
       "url": "https://yeswehack.com/programs/swiss-post"
-    },
-    {
-      "name": "Swisscom",
-      "domains": [
-        "adunit.ch",
-        "adunit.tech",
-        "ajila.com",
-        "digital.deals",
-        "autosense.ch",
-        "blue-action.ch",
-        "blue-app.ch",
-        "blue-app.com",
-        "blue-cinema.ch",
-        "blue-cinemas.ch",
-        "blue-cinemas.com",
-        "blue-doku.ch",
-        "blue-doku.com",
-        "blue-entertainment.ch",
-        "blue-entertainment.com",
-        "blue-extra.ch",
-        "blue-extra.com",
-        "blue-family.ch",
-        "blue-family.com",
-        "blue-games.ch",
-        "blue-gaming.ch",
-        "blue-gaming.com",
-        "blue-goal.ch",
-        "blue-goal.com",
-        "blue-info.ch",
-        "blue-kino.ch",
-        "blue-kino.com",
-        "blue-league.ch",
-        "blue-league.com",
-        "blue-live.ch",
-        "blue-member.ch",
-        "blue-member.com",
-        "blue-news.ch",
-        "blue-ondemand.ch",
-        "blue-ondemand.com",
-        "blue-packages.com",
-        "blue-play.ch",
-        "blue-player.ch",
-        "blue-plus.ch",
-        "blue-ppv.ch",
-        "blue-ppv.com",
-        "blue-premium.ch",
-        "blue-serie.ch",
-        "blue-series.ch",
-        "blue-smarttv.ch",
-        "blue-smarttv.com",
-        "blue-sport.ch",
-        "blue-sports.ch",
-        "blue-streaming.ch",
-        "blue-streaming.com",
-        "blue-tv.ch",
-        "blue-vision.ch",
-        "blue-vod.ch",
-        "blue-xtra.ch",
-        "blue-xtra.com",
-        "blue-zoom.ch",
-        "blue.ch",
-        "blueaction.ch",
-        "bluecinema.ch",
-        "bluecinemas.ch",
-        "bluedoku.ch",
-        "blueentertainment.ch",
-        "bluefamily.ch",
-        "bluegames.ch",
-        "bluegaming.ch",
-        "bluegoal.ch",
-        "blueinfo.ch",
-        "bluekino.ch",
-        "blueleague.ch",
-        "bluemember.ch",
-        "bluenews.ch",
-        "blueondemand.ch",
-        "bluepackages.ch",
-        "blueplay.ch",
-        "blueplayer.ch",
-        "blueplus.ch",
-        "blueppv.ch",
-        "blueppv.com",
-        "bluepremium.ch",
-        "blueprodukte.com",
-        "blueretro.ch",
-        "blueserie.ch",
-        "blueserie.com",
-        "blueseries.ch",
-        "bluesmarttv.ch",
-        "bluesmarttv.com",
-        "bluesport.ch",
-        "bluesports.ch",
-        "bluestreaming.ch",
-        "bluetv.ch",
-        "bluevod.ch",
-        "cinebowling.ch",
-        "cinebowling.com",
-        "cinebowling.events",
-        "cinetrade.ch",
-        "first-lounge-cinema.ch",
-        "first-lounge.ch",
-        "firstlounge.ch",
-        "firstloungecinema.ch",
-        "jassfederal.ch",
-        "kino.movie",
-        "kinotheater.ch",
-        "kinotheaterag.ch",
-        "kit.ag",
-        "kitag.ch",
-        "kitag.com",
-        "kitagcinema.ch",
-        "kitagcinema.com",
-        "kitagcinemas.ch",
-        "kitagcinemas.com",
-        "sporttv.ch",
-        "sporttv.hockey",
-        "teleclub-sport.ch",
-        "teleclub-zoom.ch",
-        "teleclub.ch",
-        "teleclubnow.ch",
-        "teleclubplay.ch",
-        "teleclubsport.ch",
-        "teleclubsports.ch",
-        "teleclubzoom.ch",
-        "daura.ch",
-        "globalipaction.ch",
-        "glipac.ch",
-        "i-web.ch",
-        "jls.ch",
-        "jls.digital",
-        "ngti.nl",
-        "bluewin.ch",
-        "conextrade.com",
-        "curabill.ch",
-        "cura-med.ch",
-        "digitalassessment.ch",
-        "ealarm-safemode.ch",
-        "ealarmstarter.ch",
-        "evita.ch",
-        "h-net.ch",
-        "hcard.ch",
-        "helloclass.ch",
-        "idisign.ch",
-        "intswisscom.com",
-        "jlr-connect.ch",
-        "labnet.ch",
-        "mccip.ch",
-        "mdm-mobile.ch",
-        "medicalconnector.ch",
-        "medicalexchange.ch",
-        "medicalshare.ch",
-        "mucc-services.ch",
-        "mycloud.ch",
-        "paybillag.com",
-        "pwlan.ch",
-        "scbs.ch",
-        "scsstatic.ch",
-        "sctv.ch",
-        "securepop.ch",
-        "sinso.ch",
-        "smeoffer.ch",
-        "swisscloud.io",
-        "swisscom-alarm.ch",
-        "swisscom-flaechen.ch",
-        "swisscom-health.ch",
-        "swisscom-immobilien.ch",
-        "swisscom-learningcenter.ch",
-        "swisscom-printshop.ch",
-        "swisscom-sharespace.com",
-        "swisscom-tv.com",
-        "swisscomcloud.com",
-        "swisscom-mcc.ch",
-        "swisscom.ai",
-        "swisscom.ch",
-        "swisscom.com",
-        "swisscomras.ch",
-        "swissdigicert.ch",
-        "swisstrustdir.ch",
-        "swisstrustroom.ch",
-        "swisstrustroom.com",
-        "triamed.ch",
-        "volvo-online.ch",
-        "webtiser.ch",
-        "webtiser.com",
-        "wingo.ch",
-        "sbcdc.ch",
-        "sbcnms.ch",
-        "sbc-nms.ch",
-        "sbc-ticketing.ch",
-        "sbcstreams.ch",
-        "sbctv.ch",
-        "swisscombroadcast.com",
-        "swisscombroadcast.ch",
-        "viaas.ch",
-        "videoinsider.ch",
-        "openwt.com",
-        "openwt.io",
-        "openwt.net",
-        "swisscomdigital.tech",
-        "swisscomdigital.technology",
-        "swisscomdigitaltechnologies.com",
-        "swisscomdigitaltechnology.ch",
-        "swisscomdt.com",
-        "akupunkturvergleich.ch",
-        "apotheken-vergleich.ch",
-        "augenarztvergleich.ch",
-        "bestattungsvergleich.ch",
-        "bijouterie-vergleich.ch",
-        "bodenlegervergleich.ch",
-        "cateringvergleich.ch",
-        "coaching-vergleich.ch",
-        "coiffeurvergleich.ch",
-        "consultingvergleich.ch",
-        "digitalone.ch",
-        "directories.ch",
-        "directoriesdata.ch",
-        "druckereien-vergleich.ch",
-        "e-directories.ch",
-        "elektrikervergleich.ch",
-        "ernaehrungsberatungsvergleich.ch",
-        "etv.ch",
-        "fahrlehrervergleich.ch",
-        "fitnessstudio-vergleich.ch",
-        "floristvergleich.ch",
-        "fondue-vergleich.ch",
-        "fotografvergleich.ch",
-        "garage-vergleich.ch",
-        "gartenbauvergleich.ch",
-        "gu-vergleich.ch",
-        "hautarztvergleich.ch",
-        "immoverwaltungsvergleich.ch",
-        "informatikervergleich.ch",
-        "innenarchitektvergleich.ch",
-        "kinderarztvergleich.ch",
-        "kinderkrippen-vergleich.ch",
-        "kosmetikvergleich.ch",
-        "local.ch",
-        "localcities.ch",
-        "localsearch.ch",
-        "maler-gipser-vergleich.ch",
-        "massagevergleich.ch",
-        "metzgereivergleich.ch",
-        "multisource.ch",
-        "mycommerce.shop",
-        "nachhilfevergleich.ch",
-        "nagelstudiovergleich.ch",
-        "oeffentliches-verzeichnis.ch",
-        "optiker-vergleich.ch",
-        "osteopathievergleich.ch",
-        "pannenhilfevergleich.ch",
-        "pflegeheimvergleich.ch",
-        "physiotherapievergleich.ch",
-        "reinigungsfirmavergleich.ch",
-        "reisebuerovergleich.ch",
-        "renovero.ch",
-        "sanitaervergleich.ch",
-        "scdag.net",
-        "schreinervergleich.ch",
-        "search.ch",
-        "sospos.ch",
-        "sitefree.ch",
-        "swisslist.ch",
-        "tanzschulvergleich.ch",
-        "tennisclubvergleich.ch",
-        "tierarztvergleich.ch",
-        "umzugsfirma-vergleich.ch",
-        "veloshop-vergleich.ch",
-        "wellness-spa-vergleich.ch",
-        "websheep.com",
-        "yoga-pilates-vergleich.ch",
-        "swisscomstream.ch",
-        "zoon.ch",
-        "u-s-p.ch",
-        "united-security-providers.ch",
-        "worklink.ch",
-        "cablex.ch",
-        "itnetx.ch"
-      ],
-      "wildcard_filters": [],
-      "url": "https://www.swisscom.ch/en/about/security/bug-bounty.html"
     },
     {
       "name": "Synack",
@@ -10311,7 +10390,18 @@
         "threema.ch"
       ],
       "wildcard_filters": [],
-      "url": "https://gobugfree.com/programs/threema"
+      "url": "https://hackenproof.com/tickets-travel-network/tickets-travel-network-slash-updated-ui"
+    },
+    {
+      "name": "Tickets Travel Network",
+      "domains": [
+        "tickets.kz",
+        "tickets.ua",
+        "kissandfly.com",
+        "travelfrom.fr"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/tickets-travel-network/tickets-travel-network-slash-updated-ui"
     },
     {
       "name": "Tokopedia",
@@ -10430,6 +10520,14 @@
       "url": "https://hackerone.com/trustpilot"
     },
     {
+      "name": "TryHackMe",
+      "domains": [
+        "tryhackme.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://help.tryhackme.com/en/articles/6495946-the-bug-bounty-program"
+    },
+    {
       "name": "TTS Bug Bounty",
       "domains": [
         "data.gov",
@@ -10452,7 +10550,7 @@
         "tu-chemniz.de"
       ],
       "wildcard_filters": [],
-      "url": "https://openbugbounty.org/bugbounty/TucWebmaster"
+      "url": "https://www.openbugbounty.org/bugbounty/TucWebmaster/"
     },
     {
       "name": "Tube8",
@@ -10494,6 +10592,23 @@
       ],
       "wildcard_filters": [],
       "url": "https://bugcrowd.com/twilio"
+    },
+    {
+      "name": "Twitter",
+      "domains": [
+        "mopub.com",
+        "pscp.tv",
+        "periscope.tv",
+        "niche.co",
+        "twitterflightschool.com",
+        "twimg.com",
+        "vine.co",
+        "twitter.com",
+        "gnip.com",
+        "snappytv.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackerone.com/twitter"
     },
     {
       "name": "Tyk",
@@ -10686,6 +10801,14 @@
       "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
     },
     {
+      "name": "UACatsDivision",
+      "domains": [
+        "uacatsdivision.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/uacatsdivision"
+    },
+    {
       "name": "Udemy",
       "domains": [
         "udemy.com"
@@ -10719,6 +10842,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/unikrn"
+    },
+    {
+      "name": "Unilever",
+      "domains": [
+        "unilever.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://bugcrowd.com/unilever-vdp"
     },
     {
       "name": "Upgrade",
@@ -10833,13 +10964,12 @@
       "url": "https://hackerone.com/vanilla"
     },
     {
-      "name": "Varonis VDP",
+      "name": "VeChain",
       "domains": [
-        "varonis.com",
-        "varonis.io"
+        "vechain.org"
       ],
       "wildcard_filters": [],
-      "url": "https://hackerone.com/varonis"
+      "url": "https://hackenproof.com/vechain"
     },
     {
       "name": "Vercel",
@@ -10852,6 +10982,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://hackerone.com/vercel"
+    },
+    {
+      "name": "Vertex Protocol",
+      "domains": [
+        "vertexprotocol.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/vertex-protocol"
     },
     {
       "name": "VGZ",
@@ -11028,6 +11166,14 @@
       "url": "https://hackenproof.com/whitebit/whitebit"
     },
     {
+      "name": "WhiteMarket",
+      "domains": [
+        "white.market"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/whitemarket/whitemarket-web"
+    },
+    {
       "name": "Wickr",
       "domains": [
         "wickr.com"
@@ -11070,6 +11216,14 @@
       ],
       "wildcard_filters": [],
       "url": "https://app.intigriti.com/programs/wpengine/wpengine/detail"
+    },
+    {
+      "name": "XT",
+      "domains": [
+        "xt.com"
+      ],
+      "wildcard_filters": [],
+      "url": "https://hackenproof.com/xt/xt"
     },
     {
       "name": "Y Combinator",
