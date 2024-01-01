@@ -10,6 +10,7 @@ alertmanager.admin.us-east-2.postmates.com
 alertmanager.prod.us-west-1.postmates.com
 alertmanager.stage.us-west-2.postmates.com
 analysis.stage.us-west-2.postmates.com
+api-stage.postmates.com
 api-status.postmates.com
 api-v2.postmates.com
 api.postmates.com
@@ -102,9 +103,9 @@ drone-dev.admin.us-east-2.postmates.com
 drone.admin.us-east-2.postmates.com
 dualla.postmates.com
 e2e.us-east-1.postmates.com
-em.fleet.postmates.com
+em.app.postmates.com
+em.postmates.com
 email.postmates.com
-eml.postmates.com
 engineering.postmates.com
 eoy2018.postmates.com
 extevents.prod.us-west-1.postmates.com
@@ -192,6 +193,8 @@ knapsack-external.stage.us-west-2.postmates.com
 knowledge.postmates.com
 localhost.messages.postmates.com
 logsearch.us-west-1.postmates.com
+medialand.us-east-2.postmates.com
+medialand.webhooks.postmates.com
 merchant-data-updater-external.gke-prod.postmates.com
 merchant-data-updater-external.gke-stage.postmates.com
 merchant-data-updater-external.prod.us-west-1.postmates.com
@@ -249,7 +252,6 @@ payments-webhook.gke-prod.postmates.com
 payments-webhook.gke-stage.postmates.com
 payments-webhook.prod.us-west-1.postmates.com
 payments-webhook.stage.us-west-2.postmates.com
-payments.postmates.com
 phonemasking-1.gke-prod.postmates.com
 phonemasking-1.gke-stage.postmates.com
 phonemasking-obfuscated-1.gke-prod.postmates.com
@@ -268,7 +270,7 @@ ping-service.gke-stage.postmates.com
 ping-service.postmates.com
 ping-service.prod.us-west-1.postmates.com
 ping-service.stage.us-west-2.postmates.com
-piwik.items-static.postmates.com
+piwik.us-east-2.postmates.com
 pm-api-int.prod.us-west-1.postmates.com
 pm-api-int.stage.us-west-2.postmates.com
 pm-api-int2.stage.us-west-2.postmates.com
@@ -284,7 +286,6 @@ posi-external.gke-stage.postmates.com
 posi-external.postmates.com
 posi-external.prod.us-west-1.postmates.com
 posi-external.stage.us-west-2.postmates.com
-post.postmates.com
 postmates.com
 pr-1003.payments-api-grpc-secure.stage.us-west-2.postmates.com
 pr-1003.payments-cron.stage.us-west-2.postmates.com
@@ -1216,9 +1217,6 @@ variants.gke-stage.postmates.com
 variants.prod.us-west-1.postmates.com
 variants.stage.us-west-2.postmates.com
 vault.us-west-2.postmates.com
-videoclick.business.postmates.com
-videoclick.knowledge.postmates.com
-view.messages.postmates.com
 web.postmates.com
 webhooks.postmates.com
 work.postmates.com
