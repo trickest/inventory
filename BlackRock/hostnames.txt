@@ -101,6 +101,8 @@ apgsplunkdeploymentserverazureuspreprod.blackrock.com
 apgsplunkdeploymentserverazureusprod.blackrock.com
 apgsplunkinputs.blackrock.com
 api-dev.blackrock.com
+api-eu-staging.blackrock.com
+api-eu.blackrock.com
 api-internal-apigee-dev.azure.blackrock.com
 api-internal-apigee-prod.azure.blackrock.com
 api-internal-apigee-staging.azure.blackrock.com
@@ -367,6 +369,7 @@ bmq-ald.vng.shared.blackrock.com
 bmq-ald.wch.psh.blackrock.com
 bmq-ald.wch.shared.blackrock.com
 bmq-ext-cnb.blk.shared.blackrock.com
+bmq-ext-psh.blkmtb.blackrock.com
 bmq-ext-shared.blkmtb.blackrock.com
 bmq-ext.blk.psh.blackrock.com
 bmq-ext.blk.shared.blackrock.com
@@ -383,6 +386,8 @@ bmq-ext.met.psh.blackrock.com
 bmq-ext.shared.blackrock.com
 bmq-ssz.blackrock.com
 bmq-sszuat.blackrock.com
+bmq-swf-prod.shared.blackrock.com
+bmq-swf-tst.psh.blackrock.com
 bmq-swf.aai.ecentral.blackrock.com
 bmq-swf.avi.psh.blackrock.com
 bmq-swf.avi.shared.blackrock.com
@@ -492,6 +497,7 @@ c715.cmuat.blackrock.com
 ca.blackrock.com
 ca.ishares.com
 ca.stage-origin.ishares.com
+caixabank.blackrock.com
 cal.blackrock.com
 calstrs.blackrock.com
 campaign.blackrock.com
@@ -537,6 +543,7 @@ configmanager.blackrock.com
 connect.blackrock.com
 connect.ca.ishares.com
 content.blackrock.com
+contentsquare.blackrock.com
 coppel.blackrock.com
 coraldp011.core.blackrock.com
 coraldp012.core.blackrock.com
@@ -556,7 +563,9 @@ corbldp011.core.blackrock.com
 corbldp012.core.blackrock.com
 corbldp013.core.blackrock.com
 corbldp014.core.blackrock.com
+corbldp015.blackrock.com
 corbldp015.core.blackrock.com
+corbldp016.blackrock.com
 corbldp016.core.blackrock.com
 corbldp017.blackrock.com
 corbldp017.core.blackrock.com
@@ -614,6 +623,7 @@ cormfrc1ldp011.core.blackrock.com
 cormfrc1ldp012.core.blackrock.com
 cormien1dps011.core.blackrock.com
 cormien1dps012.core.blackrock.com
+cormien1dps511.core.blackrock.com
 cormien1ldp011.core.blackrock.com
 cormien1ldp012.core.blackrock.com
 cormien1ldp013.core.blackrock.com
@@ -940,6 +950,7 @@ devcrax001.dev.blackrock.com
 devcrax002.dev.blackrock.com
 devcrax003.dev.blackrock.com
 devcsvm003.dev.blackrock.com
+develop.blackrock.com
 developer-portal.tsz-origink.blackrock.com
 developer.blackrock.com
 developer.dev.blackrock.com
@@ -1113,7 +1124,9 @@ exmon.blackrock.com
 ext.ishares.com
 ext.stage.ishares.com
 extdns.azblkdmz.blackrock.com
+extdns.azblkeudmz.blackrock.com
 extdns.aztstdmz.blackrock.com
+extdns.blkeudmz.blackrock.com
 external.blackrock.com
 external.glbext.blackrock.com
 extldap.beneu.blackrock.com
@@ -1625,6 +1638,7 @@ pccsmtpout.blackrock.com
 pce.blackrock.com
 perf-webapi-otto.blackrock.com
 pfa.blackrock.com
+phoenix.blackrock.com
 pilot-email.blackrock.com
 pioneer.blackrock.com
 pki.blackrock.com
@@ -1769,6 +1783,8 @@ sfossl.blackrock.com
 sftp.glbext.blackrock.com
 sg.blackrock.com
 sg.ishares.com
+sg4remote.blackrock.com
+sg5remote.blackrock.com
 sgpvpn.blackrock.com
 sgs3adm001.blackrock.com
 sgs3api.blackrock.com
@@ -1781,6 +1797,7 @@ sharefiletest.blackrock.com
 sharefileuswest.blackrock.com
 sharefileuswest.glbext.blackrock.com
 sharepoint.blackrock.com
+singlife.blackrock.com
 sipmra.blackrock.com
 sipmra.glbext.blackrock.com
 sipmra.uclab.blackrock.com
@@ -1840,6 +1857,7 @@ tbzcldp011.blackrock.com
 tbzcldp012.blackrock.com
 tbzcldp012.core.blackrock.com
 tcorp.blackrock.com
+tcw.blackrock.com
 tdcsmtpout.blackrock.com
 tea.blackrock.com
 tebbldp011.tstben.blackrock.com
@@ -1870,14 +1888,18 @@ test2.blackrock.com
 test2.originb.blackrock.com
 test3.blackrock.com
 test3.originb.blackrock.com
+testadmin.ishares.com
 testapp-ewd-vpn.blackrock.com
 testapp-hal-vpn.blackrock.com
 testapp-vpn.blackrock.com
 testapp-vpn.glbext.blackrock.com
+testc.blackrock.com
+testc.ishares.com
 testdevice.blackrock.com
 testwireless.blackrock.com
 testwireless.glbext.blackrock.com
 tkmvpn.blackrock.com
+tkpremote.blackrock.com
 tkpssl.blackrock.com
 tms.blackrock.com
 tools-rc-01.ishares.com
@@ -2182,9 +2204,13 @@ www.bmq-ald.ppm.shared.blackrock.com
 www.bmq-ald.tal.shared.blackrock.com
 www.bmq-ald.wch.shared.blackrock.com
 www.bmq-sszuat.blackrock.com
+www.bmq-swf-prod.shared.blackrock.com
+www.bmq-swf-tst.psh.blackrock.com
 www.bmq-swf.bnp.psh.blackrock.com
 www.bmq-swf.daw.psh.blackrock.com
 www.bmq-swf.daw.shared.blackrock.com
+www.bmq-swf.ivz.psh.blackrock.com
+www.bmq-swf.ivz.shared.blackrock.com
 www.bmq-swf.saa.psh.blackrock.com
 www.bmq-swf.saa.shared.blackrock.com
 www.bmq-swf.wch.psh.blackrock.com
@@ -2207,6 +2233,7 @@ www.braeburn.blackrock.com
 www.bro.blackrock.com
 www.bsp.blackrock.com
 www.bwn.blackrock.com
+www.caixabank.blackrock.com
 www.cal.blackrock.com
 www.calstrs.blackrock.com
 www.capgroup.blackrock.com
@@ -2320,6 +2347,7 @@ www.jpma.blackrock.com
 www.jss-test.blackrock.com
 www.jupiter.blackrock.com
 www.kemper.blackrock.com
+www.keymaster-eu.blackrock.com
 www.kis.blackrock.com
 www.korg.blackrock.com
 www.krk.blackrock.com
@@ -2369,6 +2397,7 @@ www.padm.blackrock.com
 www.partnerre.blackrock.com
 www.pce.blackrock.com
 www.pfa.blackrock.com
+www.phoenix.blackrock.com
 www.pioneer.blackrock.com
 www.platform-jpm.blackrock.com
 www.pnc.blackrock.com
@@ -2400,6 +2429,7 @@ www.schroders.blackrock.com
 www.schwab.blackrock.com
 www.securemail.blackrock.com
 www.sgs3adm001.blackrock.com
+www.sgs3api.blackrock.com
 www.shared.blackrock.com
 www.smaa.ml.blackrock.com
 www.smam.blackrock.com
@@ -2430,6 +2460,7 @@ www.symphonygateway.blackrock.com
 www.symphonykeymanager.blackrock.com
 www.symphonykeymanagerbot.blackrock.com
 www.tcorp.blackrock.com
+www.tcw.blackrock.com
 www.tea.blackrock.com
 www.test-b2c-otto.blackrock.com
 www.test-isol.glbext.blackrock.com
@@ -2498,4 +2529,5 @@ zuul.blackrock.com
 1desk.blackrock.com
 100lbz01051.blackrock.com
 100lbz01051.glbext.blackrock.com
+315b6f0edb335294a33d07d7c72af421.ishares.com
 365monitoring.blackrock.com
