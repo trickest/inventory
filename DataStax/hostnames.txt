@@ -734,6 +734,9 @@ ahanselka-geo-primary.security.datastax.com
 ahmhealthcarfw2uc.security.datastax.com
 ahp.security.datastax.com
 ahv.security.datastax.com
+ai-chatbot.dev.cloud.datastax.com
+ai-chatbot.ingress.us-east-2.dev.apps.paas.datastax.com
+ai-chatbot.ingress.us-east-2.feat.apps.paas.datastax.com
 ai-repair.security.datastax.com
 ai-workflow.security.datastax.com
 aib.security.datastax.com
@@ -844,6 +847,7 @@ alertmanager.kd-prod-aws-apsoutheast1.streaming.datastax.com
 alertmanager.kd-prod-aws-euwest2.streaming.datastax.com
 alertmanager.kd-prod-aws-euwest3.streaming.datastax.com
 alertmanager.kd-prod-aws-uswest2.streaming.datastax.com
+alertmanager.kd-prod-azure-centralus.streaming.datastax.com
 alertmanager.kd-prod-azure-eastus.streaming.datastax.com
 alertmanager.kd-prod-azure-westus2.streaming.datastax.com
 alertmanager.kd-uat-aws-euwest2.streaming.datastax.com
@@ -3854,6 +3858,7 @@ c-ak.security.datastax.com
 c-n7k-v03-01.security.datastax.com
 c.security.datastax.com
 c03f.security.datastax.com
+c0dashboard.datastax.com
 c10-5-10-5.security.datastax.com
 c12.security.datastax.com
 c17.security.datastax.com
@@ -5491,6 +5496,7 @@ creativestudio-edcstg.security.datastax.com
 credback.security.datastax.com
 credenciado.security.datastax.com
 creditauciti.security.datastax.com
+creds-mgr-feat.ingress.us-east-2.nonprod.auth.paas.datastax.com
 creds-mgr-gov.ingress.us-east-2.nonprod.auth.paas.datastax.com
 creds-mgr-gov.security.datastax.com
 creds-mgr.ingress.us-east-2.nonprod.auth.paas.datastax.com
@@ -6916,6 +6922,7 @@ docs-aws.security.datastax.com
 docs-beta.datastax.com
 docs-postmanbackups-www-test.security.datastax.com
 docs-preview.datastax.com
+docs-stage.datastax.com
 docs-test.datastax.com
 docs.astra.datastax.com
 docs.datastax.com
@@ -8770,12 +8777,16 @@ flex-matching-api.security.datastax.com
 flexible.security.datastax.com
 flhr6-1.security.datastax.com
 flight-edc.security.datastax.com
+flightdeck.dev.cloud-tools.datastax.com
 flightdeck.dev.cloud.datastax.com
 flightdeck.ingress.us-east-2.dev.apps.paas.datastax.com
 flightdeck.ingress.us-east-2.feat.apps.paas.datastax.com
+flightdeck.ingress.us-east-2.prod.apps.paas.datastax.com
 flightdeck.ingress.us-east-2.stage.apps.paas.datastax.com
 flightdeck.ingress.us-east-2.test.apps.paas.datastax.com
+flightdeck.prod.cloud-tools.datastax.com
 flightdeck.stage.cloud.datastax.com
+flightdeck.test.cloud-tools.datastax.com
 flightdeck.test.cloud.datastax.com
 flim1-1.security.datastax.com
 flim15-2.security.datastax.com
@@ -9395,6 +9406,7 @@ gcore-r12-prod-biapps-nosso.security.datastax.com
 gcore-r12-uat-biapps-app02.security.datastax.com
 gcp-app-tempcontainer-corporate.security.datastax.com
 gcp-applications4.security.datastax.com
+gcp-astra-serverless-prod-56-us-east1.etcd.astra.datastax.com
 gcp-auth-partner.security.datastax.com
 gcp-betateamregister.security.datastax.com
 gcp-cards.security.datastax.com
@@ -9802,6 +9814,7 @@ grafana.kd-prod-aws-apsoutheast1.streaming.datastax.com
 grafana.kd-prod-aws-euwest2.streaming.datastax.com
 grafana.kd-prod-aws-euwest3.streaming.datastax.com
 grafana.kd-prod-aws-uswest2.streaming.datastax.com
+grafana.kd-prod-azure-centralus.streaming.datastax.com
 grafana.kd-prod-azure-eastus.streaming.datastax.com
 grafana.kd-prod-azure-westus2.streaming.datastax.com
 grafana.kd-uat-aws-euwest2.streaming.datastax.com
@@ -14008,6 +14021,7 @@ kabalavn.security.datastax.com
 kadegaonfpc.security.datastax.com
 kaesakuratsubuyaki.security.datastax.com
 kaf.security.datastax.com
+kafka-aws-apsouth1.streaming.datastax.com
 kafka-aws-apsoutheast1.streaming.datastax.com
 kafka-aws-eucentral1.streaming.datastax.com
 kafka-aws-euwest1.streaming.datastax.com
@@ -14036,6 +14050,7 @@ kafka-ds-prod-aws-useast2.streaming.datastax.com
 kafka-ds-test-aws-ue2.staging.streaming.datastax.com
 kafka-ds-test-aws-useast2.staging.streaming.datastax.com
 kafka-gcp-australiase1.streaming.datastax.com
+kafka-gcp-europe-west4.dev.streaming.datastax.com
 kafka-gcp-europewest1.streaming.datastax.com
 kafka-gcp-uscentral1.streaming.datastax.com
 kafka-gcp-useast1.dev.streaming.datastax.com
@@ -14058,6 +14073,7 @@ kafka-kd-prod-azure-westus2.streaming.datastax.com
 kafka-kd-uat-aws-euwest2.streaming.datastax.com
 kafka-kd-uat-aws-useast1.security.datastax.com
 kafka-kd-uat-aws-useast1.streaming.datastax.com
+kafka-kd-uat-azure-centralus.streaming.datastax.com
 kafka-kd-uat-azure-eastus.streaming.datastax.com
 kafka-kd-uat-azure-westus2.streaming.datastax.com
 kafka-koddidev-aws-euwest2.streaming.datastax.com
@@ -14066,6 +14082,7 @@ kafka-pb-aws-euwest1.streaming.datastax.com
 kafka-pb-dev-euwest1.streaming.datastax.com
 kafka-pulsar-pf-gcp-euwest2.streaming.datastax.com
 kafka-staging.security.datastax.com
+kafka.gcp-europe-west4.dev.streaming.datastax.com
 kafka2.security.datastax.com
 kafka3-staging-pkt-sjc1-us.security.datastax.com
 kafka3.security.datastax.com
@@ -15071,10 +15088,13 @@ ls-fw.security.datastax.com
 lsg-dal-ngw03-bond1.security.datastax.com
 lsg-par-ngw2-bond1.security.datastax.com
 lsgwy-aws-useast2.dev.streaming.datastax.com
+lsgwy-aws-useast2.streaming.datastax.com
+lsgwy-azure-us-west-2.dev.streaming.datastax.com
 lsgwy-azure-westus2.staging.streaming.datastax.com
 lsgwy-azure-westus2.streaming.datastax.com
 lsgwy-gcp-useast1.streaming.datastax.com
 lsgwy.aws-useast2.dev.streaming.datastax.com
+lsgwy.azure-us-west-2.dev.streaming.datastax.com
 lsgwy.azure-westus2.staging.streaming.datastax.com
 lsgwy.azure-westus2.streaming.datastax.com
 lsgwy.gcp-useast1.streaming.datastax.com
@@ -17016,6 +17036,8 @@ op-licmtest.security.datastax.com
 op1-crtrs.security.datastax.com
 opa.security.datastax.com
 open-admin.security.datastax.com
+open-assistant-ai.astra.datastax.com
+open-assistant-ai.ingress.us-east-2.test.apps.paas.datastax.com
 openag.security.datastax.com
 openapi-bc.security.datastax.com
 openapi.security.datastax.com
@@ -18822,6 +18844,7 @@ prometheus-apic.security.datastax.com
 prometheus-aws-ap-southeast-2.streaming.datastax.com
 prometheus-aws-apsouth1.streaming.datastax.com
 prometheus-aws-eucentral1.streaming.datastax.com
+prometheus-aws-euwest1.streaming.datastax.com
 prometheus-aws-useast1.staging.streaming.datastax.com
 prometheus-aws-useast1.streaming.datastax.com
 prometheus-aws-useast2.dev.streaming.datastax.com
@@ -18837,6 +18860,7 @@ prometheus-azure-westus2.staging.streaming.datastax.com
 prometheus-azure-westus2.streaming.datastax.com
 prometheus-devops.security.datastax.com
 prometheus-ds-dev-aws-ue2.dev.streaming.datastax.com
+prometheus-ds-prod-aws-useast2.streaming.datastax.com
 prometheus-ds-test-aws-useast2.staging.streaming.datastax.com
 prometheus-ds-uat-aws-useast2.security.datastax.com
 prometheus-ds-uat-aws-useast2.staging.streaming.datastax.com
@@ -18884,6 +18908,7 @@ prometheus-test.security.datastax.com
 prometheus.aws-ap-southeast-2.streaming.datastax.com
 prometheus.aws-apsouth1.streaming.datastax.com
 prometheus.aws-apsoutheast1.streaming.datastax.com
+prometheus.aws-eucentral1.streaming.datastax.com
 prometheus.aws-useast1.staging.streaming.datastax.com
 prometheus.aws-useast1.streaming.datastax.com
 prometheus.aws-useast2.dev.streaming.datastax.com
@@ -18893,8 +18918,10 @@ prometheus.aws-uswest2.streaming.datastax.com
 prometheus.azure-ause.streaming.datastax.com
 prometheus.azure-eastus.streaming.datastax.com
 prometheus.azure-us-west-2.dev.streaming.datastax.com
+prometheus.azure-westeurope.streaming.datastax.com
 prometheus.azure-westus2.staging.streaming.datastax.com
 prometheus.azure-westus2.streaming.datastax.com
+prometheus.bellburnell.dev.streaming.datastax.com
 prometheus.bellburnell.staging.streaming.datastax.com
 prometheus.bellburnell.streaming.datastax.com
 prometheus.dev.cloud.datastax.com
@@ -18909,6 +18936,7 @@ prometheus.ect.cluster-e.staging.streaming.datastax.com
 prometheus.ect.pulsar-gcp-useast1.staging.streaming.datastax.com
 prometheus.ect.pulsar-gcp-uswest1.staging.streaming.datastax.com
 prometheus.gcp-australiase1.streaming.datastax.com
+prometheus.gcp-europe-west4.dev.streaming.datastax.com
 prometheus.gcp-europewest1.streaming.datastax.com
 prometheus.gcp-uscentral1.streaming.datastax.com
 prometheus.gcp-useast1.dev.streaming.datastax.com
@@ -19102,6 +19130,8 @@ pullrequest-ui.security.datastax.com
 pulolesu2.security.datastax.com
 pulsar-admin.azure-us-west-2.dev.streaming.datastax.com
 pulsar-admin.docs.streaming.datastax.com
+pulsar-aws-ap-southeast-2.streaming.datastax.com
+pulsar-aws-apsouth1.streaming.datastax.com
 pulsar-aws-apsoutheast1.streaming.datastax.com
 pulsar-aws-eucentral1.streaming.datastax.com
 pulsar-aws-euwest1.streaming.datastax.com
@@ -19126,7 +19156,9 @@ pulsar-azure-westus2.private.staging.streaming.datastax.com
 pulsar-azure-westus2.staging.streaming.datastax.com
 pulsar-azure-westus2.streaming.datastax.com
 pulsar-cndb-gcp-useast4.dev.streaming.datastax.com
+pulsar-console.aws-apsouth1.streaming.datastax.com
 pulsar-console.aws-apsoutheast1.streaming.datastax.com
+pulsar-console.aws-eucentral1.streaming.datastax.com
 pulsar-console.aws-euwest1.streaming.datastax.com
 pulsar-console.aws-useast1.staging.streaming.datastax.com
 pulsar-console.aws-useast1.streaming.datastax.com
@@ -19179,6 +19211,7 @@ pulsar-ds-test-aws-ue2.staging.streaming.datastax.com
 pulsar-ds-test-aws-useast2.staging.streaming.datastax.com
 pulsar-ds-test-aws-useast2.streaming.datastax.com
 pulsar-gcp-australiase1.streaming.datastax.com
+pulsar-gcp-europe-west4.dev.streaming.datastax.com
 pulsar-gcp-europewest1.streaming.datastax.com
 pulsar-gcp-euwest1.streaming.datastax.com
 pulsar-gcp-uscentral1.streaming.datastax.com
@@ -19225,6 +19258,7 @@ pulsar-quera-part-awsue1.private.quera.streaming.datastax.com
 pulsar-quera-part-awsue1.quera.streaming.datastax.com
 pulsar-quera-prod-awsue1.private.quera.streaming.datastax.com
 pulsar-quera-prod-awsue1.quera.streaming.datastax.com
+pulsar.aws-ap-southeast-2.streaming.datastax.com
 pulsar.gcp-europe-west4.dev.streaming.datastax.com
 pulse-api.security.datastax.com
 pulseway.security.datastax.com
@@ -19289,6 +19323,8 @@ pv41d00ls.security.datastax.com
 pv41p00ls-gsp57-pv41.security.datastax.com
 pvcconnect.security.datastax.com
 pve.security.datastax.com
+pvt-pulsar-aws-ap-southeast-2.streaming.datastax.com
+pvt-pulsar-aws-apsouth1.streaming.datastax.com
 pvt-pulsar-aws-apsoutheast1.streaming.datastax.com
 pvt-pulsar-aws-eucentral1.streaming.datastax.com
 pvt-pulsar-aws-euwest1.streaming.datastax.com
@@ -19353,6 +19389,7 @@ pvt-pulsar-quera-int-awsue1.private.quera.streaming.datastax.com
 pvt-pulsar-quera-int-awsue1.quera.streaming.datastax.com
 pvt-pulsar-quera-part-awsue1.quera.streaming.datastax.com
 pvt-pulsar-quera-prod-awsue1.quera.streaming.datastax.com
+pvt-pulsar.gcp-europe-west4.dev.streaming.datastax.com
 pvv1.security.datastax.com
 pw2a.security.datastax.com
 pwc12.security.datastax.com
@@ -29128,5 +29165,6 @@ zzb.security.datastax.com
 982c.security.datastax.com
 994-5.security.datastax.com
 999d.security.datastax.com
+3816cab1-bcac-4fd6-b4da-8013955f3378-us-east1.studio.astra.datastax.com
 431982d4-80a6-4fa6-aa02-bf5cb3d79622-us-east1.db.astra.datastax.com
 69256424-2f1c-4798-80e2-b44c5993adba-us-east1.studio.astra.datastax.com
