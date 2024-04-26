@@ -32,7 +32,6 @@ api2.starlink.com
 app.starlink.com
 aries.starlink.com
 asset-state-cplane.svc.starlink.com
-assets-preferences-webhelplogin.analytics.starlink.com
 assets.hcaptcha.payments-test.starlink.com
 assets.hcaptcha.payments.starlink.com
 assets.hcaptcha.staging.starlink.com
@@ -49,11 +48,13 @@ aws-fgm-01.starlinkisp.net
 aws-fw-0.starlinkisp.net
 aws-fw-1.starlinkisp.net
 aws-fw-2.starlinkisp.net
+backer1-app.analytics.starlink.com
 bastion.starlinkisp.net
 bastion2.starlinkisp.net
 beta.starlink.com
 billing-api.beta.starlink.com
 billing-api.staging.starlink.com
+ccstats-qcy-c.analytics.starlink.com
 chcoilx1-oob-con4.starlinkisp.net
 commercial-invoice.staging.starlink.com
 connect.beta.starlink.com
@@ -135,7 +136,6 @@ docs.staging.space-safety.starlink.com
 e.starlink.com
 em6374.starlink.com
 email.starlink.com
-ffru7-1.analytics.starlink.com
 flink.starlinkisp.net
 frntdeu1-oob-con2.starlinkisp.net
 frntdeu1-oob-con3.starlinkisp.net
@@ -155,7 +155,6 @@ hcaptcha.payments-test.starlink.com
 hcaptcha.payments.starlink.com
 hcaptcha.staging.starlink.com
 hcaptcha.starlink.com
-health.device.starlink.com
 heineken.starlink.com
 host.starlinkisp.net
 http-api.payments-test.starlink.com
@@ -164,7 +163,6 @@ http-msoid.starlink.com
 http-my.starlink.com
 http-support.staging.starlink.com
 http-support.starlink.com
-http-www-olx-co-za91.analytics.starlink.com
 http-www.starlink.com
 https-admin.staging.starlink.com
 https-api.payments-test.starlink.com
@@ -179,6 +177,7 @@ https-sip.starlink.com
 https-support-agent.staging.starlink.com
 https-support.staging.starlink.com
 https-www.starlink.com
+icheckout.analytics.starlink.com
 idn.starlinkisp.net
 imap.starlink.com
 imgs.hcaptcha.payments-test.starlink.com
@@ -187,19 +186,20 @@ imgs.hcaptcha.staging.starlink.com
 imgs.hcaptcha.starlink.com
 ingress-private.starlinkisp.net
 ingress.starlinkisp.net
-iperf.starlinkisp.net
+ipv4-c002-eze008-telecentro-isp.analytics.starlink.com
+ipv4-c005-maa001-jio-isp.analytics.starlink.com
 jtnaidn1-mgt-fwl1.starlinkisp.net
 kafka01.starlinkisp.net
 keybox.pop.starlinkisp.net
 keybox.starlinkisp.net
 keybox.svc.starlink.com
+kibana.starlinkisp.net
 leo.starlink.com
 lga-agg-4-oobmgmt.starlinkisp.net
 lga-con-1-mgmt.starlinkisp.net
 liausmgmt2.starlinkisp.net
 librenms-tools.starlinkisp.net
 librenms.starlinkisp.net
-ligemgmt2.starlinkisp.net
 lighthouse.starlinkisp.net
 limgmt.starlinkisp.net
 liusmediator.starlinkisp.net
@@ -207,6 +207,7 @@ liusmgmt2.starlinkisp.net
 lndngbr1-oob-con1.starlinkisp.net
 lndngbr1-oob-con2.starlinkisp.net
 login.space-safety.starlink.com
+loginchat-gateway134-prod.analytics.starlink.com
 lsancax1-mgt-fwl1.starlinkisp.net
 lsancax1-mgt-pdu3b.starlinkisp.net
 lsancax1-mgt-pdu4b.starlinkisp.net
@@ -232,6 +233,7 @@ nessus.payments-test.starlink.com
 nessus.payments.starlink.com
 netbox-test.starlinkisp.net
 netbox.starlinkisp.net
+netbox.svc.starlink.com
 nothingtoseehere.starlinkisp.net
 ns1.starlink.com
 ns2.starlink.com
@@ -250,6 +252,7 @@ observium.starlinkisp.net
 ord-agg-4-oobmgmt.starlinkisp.net
 orion.starlink.com
 oxidized.starlinkisp.net
+p2-fusionapps-comn.analytics.starlink.com
 pda.starlink.com
 peering.starlinkisp.net
 per-agg-0-oobmgmt.starlinkisp.net
@@ -261,8 +264,6 @@ playbook.beta.starlink.com
 playbook.staging.starlink.com
 playbook.starlink.com
 pm-tr-1.starlinkisp.net
-pm-tr-2.starlinkisp.net
-polop1.analytics.starlink.com
 pop.starlink.com
 pop.starlinkisp.net
 pppoe.dynamic.starlink.com
@@ -282,9 +283,9 @@ report.hcaptcha.payments-test.starlink.com
 report.hcaptcha.payments.starlink.com
 report.hcaptcha.staging.starlink.com
 report.hcaptcha.starlink.com
+rosemary.analytics.starlink.com
 route-frontend.lax.svc.starlink.com
 route-frontend.sea.svc.starlink.com
-route-frontend.svc.starlink.com
 schedule-server.atl.svc.starlink.com
 schedule-server.dfw.svc.starlink.com
 schedule-server.lax.svc.starlink.com
@@ -437,7 +438,6 @@ sip.starlink.com
 smtp.starlink.com
 software-version-manager.svc.starlink.com
 space-safety.starlink.com
-ssh.device.starlink.com
 stack.starlinkisp.net
 staging.space-safety.starlink.com
 staging.starlink.com
@@ -462,6 +462,7 @@ support-api.staging.starlink.com
 support.beta.starlink.com
 support.staging.starlink.com
 support.starlink.com
+sv9.analytics.starlink.com
 sydyaus1-mgt-pdu1a.starlinkisp.net
 sydyaus1-mgt-pdu1b.starlinkisp.net
 sydyaus1-oob-con1.starlinkisp.net
@@ -477,13 +478,13 @@ test-device-244.starlinkisp.net
 test-device.starlinkisp.net
 thanos.payments.starlink.com
 tkyojpn1-mgt-fwl1.starlinkisp.net
+tmpeazx1-mgt-swc3.starlinkisp.net
 tools-01.starlinkisp.net
 tron-telemetry-at-pop.svc.starlink.com
 u5728www.starlink.com
 uk.starlink.com
 user-management-service.atl.svc.starlink.com
 user-management-service.sea.svc.starlink.com
-user-management-service.svc.starlink.com
 ux.health.starlink.com
 v4-mtu9k-sea-six.starlinkisp.net
 vault.beta.starlink.com
@@ -516,6 +517,7 @@ www.direct.starlink.com
 www.geoip.starlinkisp.net
 www.heineken.starlink.com
 www.metabase.starlink.com
+www.monitoring.payments.starlink.com
 www.observium.starlinkisp.net
 www.playbook.beta.starlink.com
 www.playbook.staging.starlink.com
@@ -531,6 +533,7 @@ www.support-agent.staging.starlink.com
 www.thanos.payments.starlink.com
 www.vault.beta.starlink.com
 www.vault.starlink.com
+zoomdvc207mmr.analytics.starlink.com
 ztp.starlinkisp.net
 2fapi.starlink.com
 25api.starlink.com
