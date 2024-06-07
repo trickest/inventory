@@ -7,6 +7,7 @@ activate.arubanetworks.com
 adhoc.arubanetworks.com
 admin.arubanetworks.com
 admin.css.arubanetworks.com
+aed-legacy.arubanetworks.com
 aed-master.eks-prod-usw1.getaws.arubanetworks.com
 aed-stg-develop.eks-prod-usw1.getaws.arubanetworks.com
 aed-stg-develop.internal.eks-stg.getaws.arubanetworks.com
@@ -15,6 +16,7 @@ aed-stg-devops.internal.eks-stg.getaws.arubanetworks.com
 aed-stg-podman.eks-stg-use1.getaws.arubanetworks.com
 aed-stg-rel-2-1.eks-prod-usw1.getaws.arubanetworks.com
 aed-stg-rel-2-1.eks-stg-use1.getaws.arubanetworks.com
+aed-stg-uat.eks-stg-use1.getaws.arubanetworks.com
 aed-stg-uat.internal.eks-stg.getaws.arubanetworks.com
 aed-stg.devops.internal.eks-stg.getaws.arubanetworks.com
 aed-stg.getaws.arubanetworks.com
@@ -89,6 +91,8 @@ ans-stg-devops.k8s-prod.getaws.arubanetworks.com
 ans-stg-emails-slow-issue.k8s-prod.getaws.arubanetworks.com
 ans-stg-hotfix-5-8-0.k8s-prod.getaws.arubanetworks.com
 ans-stg-hotfix-7-1.eks-stg-use1.getaws.arubanetworks.com
+ans-stg-hotfix-8-0-a.eks-stg-use1.getaws.arubanetworks.com
+ans-stg-hotfix-8-1-a.eks-stg-use1.getaws.arubanetworks.com
 ans-stg-load-develop.k8s-prod.getaws.arubanetworks.com
 ans-stg-load.develop.k8s-prod.getaws.arubanetworks.com
 ans-stg-load.develop.k8s-stg.getaws.arubanetworks.com
@@ -115,6 +119,7 @@ ap1.cloudguest.central.arubanetworks.com
 apac-connected.arubanetworks.com
 apac-status.central.arubanetworks.com
 apac.cloudops.arubanetworks.com
+apaceast-elb.cloudguest.central.arubanetworks.com
 apaceast.cloudguest.central.arubanetworks.com
 apaceast.cloudops.arubanetworks.com
 apacsouth.cloudguest.central.arubanetworks.com
@@ -204,6 +209,7 @@ asp-071018.develop.k8prod.getaws.arubanetworks.com
 asp-develop.k8s-prod.getaws.arubanetworks.com
 asp-documents.arubanetworks.com
 asp-hotfix-5-7-0-h.k8s-prod.getaws.arubanetworks.com
+asp-maintenance.eks-prod-usw1.getaws.arubanetworks.com
 asp-maintenance.k8s-prod.getaws.arubanetworks.com
 asp-master-kibana.dev.getaws.arubanetworks.com
 asp-master.k8s-stg.getaws.arubanetworks.com
@@ -216,6 +222,7 @@ asp-stg-asp-cs.k8s-prod.getaws.arubanetworks.com
 asp-stg-audience.k8s-prod.getaws.arubanetworks.com
 asp-stg-busy-loop.k8s-stg.getaws.arubanetworks.com
 asp-stg-code-repo-scan.k8s-prod.getaws.arubanetworks.com
+asp-stg-compsep.eks-stg-use1.getaws.arubanetworks.com
 asp-stg-cx-switch.k8s-prod.getaws.arubanetworks.com
 asp-stg-dec-qe.k8s-prod.getaws.arubanetworks.com
 asp-stg-develop.eks-prod-usw1.getaws.arubanetworks.com
@@ -229,10 +236,12 @@ asp-stg-docker-build-on-ek.eks-stg.getaws.arubanetworks.com
 asp-stg-docker-build-on-ek.k8s-prod.getaws.arubanetworks.com
 asp-stg-ds-dockerfile-chan.k8s-prod.getaws.arubanetworks.com
 asp-stg-ds-swg-rel.k8s-prod.getaws.arubanetworks.com
+asp-stg-eks-upgrade-2-6.eks-stg-usw1.getaws.arubanetworks.com
 asp-stg-emdm.k8s-prod.getaws.arubanetworks.com
 asp-stg-es-test.k8s-prod.getaws.arubanetworks.com
 asp-stg-fallout-mgmt.k8s-prod.getaws.arubanetworks.com
 asp-stg-glp-sso.eks-stg-use1.getaws.arubanetworks.com
+asp-stg-gs-11863-asp-be-pr.eks-stg-use1.getaws.arubanetworks.com
 asp-stg-gs-7187-swgroup-up.k8s-prod.getaws.arubanetworks.com
 asp-stg-hotfix-5-2-0-a.k8s-prod.getaws.arubanetworks.com
 asp-stg-hotfix-5-5-0-b.k8s-prod.getaws.arubanetworks.com
@@ -271,6 +280,8 @@ asp-stg-rel-6-1.k8s-prod.getaws.arubanetworks.com
 asp-stg-rel-6-3.k8s-prod.getaws.arubanetworks.com
 asp-stg-rel-7-1.k8s-prod.getaws.arubanetworks.com
 asp-stg-rel-7-2.eks-stg-use1.getaws.arubanetworks.com
+asp-stg-rel-8-2-rma-q.eks-stg-use1.getaws.arubanetworks.com
+asp-stg-rel-8-2-rma.eks-stg-use1.getaws.arubanetworks.com
 asp-stg-restore-file-metad.k8s-prod.getaws.arubanetworks.com
 asp-stg-uat-test.k8s-prod.getaws.arubanetworks.com
 asp-stg-uat.eks-stg-use1.getaws.arubanetworks.com
@@ -393,7 +404,13 @@ asp-stg.uat.k8s-prod.getaws.arubanetworks.com
 asp-stg.unit-testing5.k8s-prod.getaws.arubanetworks.com
 asp-va-asp-livechat.eks-stg.getaws.arubanetworks.com
 asp-va-asp-livechat.internal.eks-stg.getaws.arubanetworks.com
+asp-va-stg-develop.eks-stg-use1.getaws.arubanetworks.com
+asp-va-stg-hotfix-8-1-a.eks-stg-use1.getaws.arubanetworks.com
 asp-va-stg-rel-7-2.eks-stg-use1.getaws.arubanetworks.com
+asp-va-stg-rel-7-3.eks-stg-use1.getaws.arubanetworks.com
+asp-va-stg-rel-7-4.eks-stg-use1.getaws.arubanetworks.com
+asp-va-stg-rel-8-2.eks-stg-use1.getaws.arubanetworks.com
+asp-va-stg-uat.eks-stg-use1.getaws.arubanetworks.com
 asp.apollo-uat.k8s-prod.getaws.arubanetworks.com
 asp.apollo-v2.k8s-prod.getaws.arubanetworks.com
 asp.apollo.k8s-prod.getaws.arubanetworks.com
@@ -512,6 +529,8 @@ av13.arubanetworks.com
 aw8-datalake.netinsight.arubanetworks.com
 awes.arubanetworks.com
 awlangdev.arubanetworks.com
+awscontrl.arubanetworks.com
+awscppm.arubanetworks.com
 axis.arubanetworks.com
 azinternal.cloudops.arubanetworks.com
 b2b.arubanetworks.com
@@ -565,6 +584,7 @@ bugzilla.arubanetworks.com
 bugzillatest.arubanetworks.com
 bugzillauat.arubanetworks.com
 ca-status.central.arubanetworks.com
+ca.cloudguest.central.arubanetworks.com
 calculators.arubanetworks.com
 cap.arubanetworks.com
 captive.isb.arubanetworks.com
@@ -674,24 +694,34 @@ crashplan.arubanetworks.com
 crashplanpro.arubanetworks.com
 cricket.arubanetworks.com
 crm.clearpass.arubanetworks.com
+csaf.arubanetworks.com
 csat.arubanetworks.com
+csl-es-stg.compsep.internal.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.cx-switch.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.dass-8668-upgrade.internal.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.develop.eks-prod-usw1.getaws.arubanetworks.com
 csl-es-stg.develop.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.develop.k8s-prod.getaws.arubanetworks.com
+csl-es-stg.eks-upgrade-2-6.internal.eks-stg-usw1.getaws.arubanetworks.com
 csl-es-stg.es-test.k8s-prod.getaws.arubanetworks.com
 csl-es-stg.glp-sso.eks-stg-use1.getaws.arubanetworks.com
+csl-es-stg.glp-sso.internal.eks-stg-use1.getaws.arubanetworks.com
+csl-es-stg.gs-11863-asp-be-pr.internal.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.hotfix-7-0-csltest.k8s-prod.getaws.arubanetworks.com
 csl-es-stg.hotfix-7-0-d.k8s-prod.getaws.arubanetworks.com
 csl-es-stg.hotfix-7-1.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.hotfix-7-2-0-a.eks-stg-use1.getaws.arubanetworks.com
+csl-es-stg.hotfix-8-1-a.internal.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.issu-integration.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.podman.eks-stg.getaws.arubanetworks.com
 csl-es-stg.rebrand.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.rel-6-3.k8s-prod.getaws.arubanetworks.com
 csl-es-stg.rel-7-3.eks-stg-use1.getaws.arubanetworks.com
 csl-es-stg.rel-7-3.internal.eks-stg-use1.getaws.arubanetworks.com
+csl-es-stg.rel-8-1.internal.eks-stg-use1.getaws.arubanetworks.com
+csl-es-stg.rel-8-2-logout.internal.eks-stg-use1.getaws.arubanetworks.com
+csl-es-stg.rel-8-2-rma-q.internal.eks-stg-use1.getaws.arubanetworks.com
+csl-es-stg.rel-8-2-rma.internal.eks-stg-use1.getaws.arubanetworks.com
 csl-es.develop.k8s-prod.getaws.arubanetworks.com
 csl-es.hotfix-6-0-a.k8s-prod.getaws.arubanetworks.com
 csl-es.master.k8s-prod.getaws.arubanetworks.com
@@ -755,6 +785,7 @@ devhub.getaws.arubanetworks.com
 device-apaceast.central.arubanetworks.com
 device-apacsouth.central.arubanetworks.com
 device-ca.central.arubanetworks.com
+device-eu-d2.central.arubanetworks.com
 device-eu.central.arubanetworks.com
 device-eucentral3.central.arubanetworks.com
 device-firefly.central.arubanetworks.com
@@ -786,10 +817,12 @@ download.arubanetworks.com
 dp.arubanetworks.com
 drone.netinsight.arubanetworks.com
 drt.arubanetworks.com
+ds-ds-stg.compsep.internal.eks-stg-use1.getaws.arubanetworks.com
 ds-es-stg.6005.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.audience.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.busy-loop.k8s-stg.getaws.arubanetworks.com
 ds-es-stg.code-repo-scan.k8s-prod.getaws.arubanetworks.com
+ds-es-stg.compsep.internal.eks-stg-use1.getaws.arubanetworks.com
 ds-es-stg.cx-switch.eks-stg-use1.getaws.arubanetworks.com
 ds-es-stg.cx-switch.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.database.k8s-prod.getaws.arubanetworks.com
@@ -806,6 +839,7 @@ ds-es-stg.ds-swg-rel.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.emdm.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.es-test.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.fallout-mgmt.k8s-prod.getaws.arubanetworks.com
+ds-es-stg.gs-11863-asp-be-pr.internal.eks-stg-use1.getaws.arubanetworks.com
 ds-es-stg.gs-7187-swgroup-up.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.hotfix-5-0-0-l.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.hotfix-5-2-0-a.k8s-prod.getaws.arubanetworks.com
@@ -840,8 +874,11 @@ ds-es-stg.rel-5-9.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.rel-6-0.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.rel-7-3.eks-stg-use1.getaws.arubanetworks.com
 ds-es-stg.rel-7-3.internal.eks-stg-use1.getaws.arubanetworks.com
+ds-es-stg.rel-8-2-rma-q.internal.eks-stg-use1.getaws.arubanetworks.com
+ds-es-stg.rel-8-2-rma.internal.eks-stg-use1.getaws.arubanetworks.com
 ds-es-stg.restore-file-metad.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.rma-locale.k8s-prod.getaws.arubanetworks.com
+ds-es-stg.uat.eks-stg-use1.getaws.arubanetworks.com
 ds-es-stg.uat.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.uat2.k8s-prod.getaws.arubanetworks.com
 ds-es-stg.va-integrate.k8s-prod.getaws.arubanetworks.com
@@ -873,6 +910,7 @@ eng.arubanetworks.com
 engage.arubanetworks.com
 engg.netinsight.arubanetworks.com
 erate.arubanetworks.com
+es-issu-stg.compsep.eks-stg-use1.getaws.arubanetworks.com
 es-staging.devops-eks.internal.eks-stg.getaws.arubanetworks.com
 es-stg.6005.k8s-prod.getaws.arubanetworks.com
 es-stg.account-contacts.k8s-prod.getaws.arubanetworks.com
@@ -886,6 +924,7 @@ es-stg.ccs-polaris.k8s-prod.getaws.arubanetworks.com
 es-stg.ccs-test.k8s-prod.getaws.arubanetworks.com
 es-stg.ccs-ui.k8s-prod.getaws.arubanetworks.com
 es-stg.ccs.k8s-prod.getaws.arubanetworks.com
+es-stg.compsep.internal.eks-stg-use1.getaws.arubanetworks.com
 es-stg.cop.k8s-prod.getaws.arubanetworks.com
 es-stg.cx-switch.k8s-prod.getaws.arubanetworks.com
 es-stg.cx-switch.k8s-stg.getaws.arubanetworks.com
@@ -923,6 +962,7 @@ es-stg.feature-jimmy-1173.k8s-prod.getaws.arubanetworks.com
 es-stg.feature-jimmy-2820.k8s-prod.getaws.arubanetworks.com
 es-stg.feature-jnlp.k8s-prod.getaws.arubanetworks.com
 es-stg.global-trade.k8s-prod.getaws.arubanetworks.com
+es-stg.gs-11863-asp-be-pr.internal.eks-stg-use1.getaws.arubanetworks.com
 es-stg.gs-7187-swgroup-up.k8s-prod.getaws.arubanetworks.com
 es-stg.hotfix-3-0-1-a.k8s-prod.getaws.arubanetworks.com
 es-stg.hotfix-3-1-0-e.k8s-prod.getaws.arubanetworks.com
@@ -962,6 +1002,7 @@ es-stg.hotfix-5-8-0-e.k8s-prod.getaws.arubanetworks.com
 es-stg.hotfix-7-0-b.k8s-prod.getaws.arubanetworks.com
 es-stg.hotfix-7-0.k8s-prod.getaws.arubanetworks.com
 es-stg.hotfix-7-1.eks-stg-use1.getaws.arubanetworks.com
+es-stg.hotfix-8-1-a.internal.eks-stg-use1.getaws.arubanetworks.com
 es-stg.hotfix-july.k8s-prod.getaws.arubanetworks.com
 es-stg.hpe-sso.k8s-prod.getaws.arubanetworks.com
 es-stg.job-merge-account.k8s-prod.getaws.arubanetworks.com
@@ -997,6 +1038,8 @@ es-stg.refresh-apollo.k8s-prod.getaws.arubanetworks.com
 es-stg.rel-5-9.k8s-prod.getaws.arubanetworks.com
 es-stg.rel-6-0.k8s-prod.getaws.arubanetworks.com
 es-stg.rel-7-2.eks-stg-use1.getaws.arubanetworks.com
+es-stg.rel-8-2-rma-q.internal.eks-stg-use1.getaws.arubanetworks.com
+es-stg.rel-8-2-rma.internal.eks-stg-use1.getaws.arubanetworks.com
 es-stg.renewals.k8s-prod.getaws.arubanetworks.com
 es-stg.restore-file-metad.k8s-prod.getaws.arubanetworks.com
 es-stg.rma-jan.k8s-prod.getaws.arubanetworks.com
@@ -1014,6 +1057,7 @@ es-stg.sp-uat.k8s-prod.getaws.arubanetworks.com
 es-stg.syncrma-cronjob.k8s-prod.getaws.arubanetworks.com
 es-stg.uat-test.k8s-prod.getaws.arubanetworks.com
 es-stg.uat.eks-stg-use1.getaws.arubanetworks.com
+es-stg.uat.internal.eks-stg-use1.getaws.arubanetworks.com
 es-stg.uat.k8s-prod.getaws.arubanetworks.com
 es-stg.unit-testing5.k8s-prod.getaws.arubanetworks.com
 es-stg.va-integrate.k8s-prod.getaws.arubanetworks.com
@@ -1134,7 +1178,10 @@ gravity-ci.arubanetworks.com
 gs-external.arubanetworks.com
 gso.arubanetworks.com
 gso.getaws.arubanetworks.com
+gsso-care-stg-develop.eks-stg-use1.getaws.arubanetworks.com
 gsso-devhub-develop.eks-stg-use1.getaws.arubanetworks.com
+gsso-devhub-stg-develop.eks-stg-use1.getaws.arubanetworks.com
+gsso-devhub-stg-main.eks-stg-use1.getaws.arubanetworks.com
 guest.hkg.getaws.arubanetworks.com
 guest1.hkg.getaws.arubanetworks.com
 guest2.hkg.getaws.arubanetworks.com
@@ -1221,6 +1268,11 @@ ipv4-c011-yyz003-bellcanada-isp.arubanetworks.com
 ir.arubanetworks.com
 iris.arubanetworks.com
 isb.arubanetworks.com
+issu-es-stg.compsep.eks-stg-use1.getaws.arubanetworks.com
+issu-es-stg.glp-sso.eks-stg-use1.getaws.arubanetworks.com
+issu-es-stg.issu-integration.eks-stg-use1.getaws.arubanetworks.com
+issu-es-stg.rel-8-1.eks-stg-use1.getaws.arubanetworks.com
+issu-es.master.eks-prod-usw1.getaws.arubanetworks.com
 it.arubanetworks.com
 itools.arubanetworks.com
 jabber.arubanetworks.com
@@ -1373,6 +1425,7 @@ mailmon.dev.getaws.arubanetworks.com
 mailone.arubanetworks.com
 mapedia.arubanetworks.com
 margot.arubanetworks.com
+master.k8s-prod.getaws.arubanetworks.com
 master.netinsight.arubanetworks.com
 mdm.devicemanager.central.arubanetworks.com
 mdm.workspace.central.arubanetworks.com
@@ -1403,6 +1456,7 @@ mm-7240-mcd-001-prd.central.arubanetworks.com
 mm-7xxx-mcd-001-stg.central.arubanetworks.com
 mnp.arubanetworks.com
 mongoview.dev.getaws.arubanetworks.com
+moodle-lms.getaws.arubanetworks.com
 mspshowcase.arubanetworks.com
 mx-emailblast.arubanetworks.com
 mx01.arubanetworks.com
@@ -1411,6 +1465,7 @@ mx04.arubanetworks.com
 mx05.arubanetworks.com
 mx3.arubanetworks.com
 nae1-clone1.cloudguest.central.arubanetworks.com
+nae1-elb.cloudguest.central.arubanetworks.com
 nae1.central.arubanetworks.com
 nae1.cloudguest.central.arubanetworks.com
 nae2.central.arubanetworks.com
@@ -1458,6 +1513,7 @@ ontour.arubanetworks.com
 opengrok2.arubanetworks.com
 opengrok3.arubanetworks.com
 opengrok4.arubanetworks.com
+operations.central.arubanetworks.com
 ops.acf.central.arubanetworks.com
 optik.arubanetworks.com
 origin-www.arubanetworks.com
@@ -1576,6 +1632,7 @@ rcs1.central.arubanetworks.com
 rdgateway.arubanetworks.com
 rdsdirector.arubanetworks.com
 real.isb.arubanetworks.com
+recovery1.arubanetworks.com
 redmine.arubanetworks.com
 registry.dev.getaws.arubanetworks.com
 registry.hkg.getaws.arubanetworks.com
@@ -1788,6 +1845,7 @@ test.arubanetworks.com
 test.clearpass.arubanetworks.com
 test.dell.clearpass.arubanetworks.com
 test.webservice.clearpass.arubanetworks.com
+testest.arubanetworks.com
 testhelp.central.arubanetworks.com
 testlink.arubanetworks.com
 testprod.netinsight.arubanetworks.com
@@ -1821,6 +1879,7 @@ update-ipv4-c046-msp001-ix.activate.arubanetworks.com
 uplink.skynet.cloudops.arubanetworks.com
 us-east-1.cloudops.arubanetworks.com
 us.cpaaas.arubanetworks.com
+uswest4-elb.cloudguest.central.arubanetworks.com
 uswest4.cloudguest.central.arubanetworks.com
 uswest4.cloudops.arubanetworks.com
 validate.arubanetworks.com
