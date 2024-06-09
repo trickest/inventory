@@ -26,6 +26,7 @@ altdataviz.informatica.com
 amvpn.informatica.com
 apacftp.informatica.com
 apau1-opsinsights.dm1-apau.informaticacloud.com
+apauc1-apic.dm1-apau.informaticacloud.com
 apauc1-apigw.dm1-apau.informaticacloud.com
 apauc1-apim.dm1-apau.informaticacloud.com
 apauc1-b2bgw.dm1-apau.informaticacloud.com
@@ -36,6 +37,7 @@ apauc1-cih.dm1-apau.informaticacloud.com
 apauc1-cvm.dm1-apau.informaticacloud.com
 apauc1-dqcloud.dm1-apau.informaticacloud.com
 apauc1-dqprofile.dm1-apau.informaticacloud.com
+apauc1-gw.dm1-apau.informaticacloud.com
 apauc1-ias.dm1-apau.informaticacloud.com
 apauc1-idms.dm1-apau.informaticacloud.com
 apauc1-infaconnet.dm1-apau.informaticacloud.com
@@ -71,6 +73,7 @@ apim-qa.informaticacloud.com
 apim.informaticacloud.com
 apiregistry.informaticacloud.com
 apmserver-cdi.clt-usw1dr.eks.prod.informaticacloud.com
+apne1-apic.dm1-ap.informaticacloud.com
 apne1-apigw.dm1-ap.informaticacloud.com
 apne1-apim.dm1-ap.informaticacloud.com
 apne1-b2bgw.dm1-ap-dr.informaticacloud.com
@@ -82,6 +85,7 @@ apne1-cih.dm1-ap.informaticacloud.com
 apne1-cvm.dm1-ap.informaticacloud.com
 apne1-dqcloud.dm1-ap.informaticacloud.com
 apne1-dqprofile.dm1-ap.informaticacloud.com
+apne1-gw.dm1-ap.informaticacloud.com
 apne1-ias.dm1-ap.informaticacloud.com
 apne1-idms.dm1-ap.informaticacloud.com
 apne1-infaconn.dm1-ap.informaticacloud.com
@@ -113,6 +117,8 @@ apne2-opsinsights.dm-apne.informaticacloud.com
 apne2-sfdc-cai.dm-apne.informaticacloud.com
 apne2.dm-ap.informaticacloud.com
 apne2.dm-apne.informaticacloud.com
+app.fabric.dm1-apau.informaticacloud.com
+app.fabric.dm1-au.informaticacloud.com
 app.informatica.com
 app.informaticacloud.com
 app2.informaticacloud.com
@@ -150,6 +156,7 @@ apse1-dqcloud.dm-ap.informaticacloud.com
 apse1-dqcloud.dm1-apse.informaticacloud.com
 apse1-dqprofile.dm-ap.informaticacloud.com
 apse1-dqprofile.dm1-apse.informaticacloud.com
+apse1-gw.dm-ap.informaticacloud.com
 apse1-ias-dr.dm-ap.informaticacloud.com
 apse1-ias.dm-ap.informaticacloud.com
 apse1-ias.dm1-apse.informaticacloud.com
@@ -175,6 +182,9 @@ apse2.dm-ap.informaticacloud.com
 apvpn.informatica.com
 artifacthub.informaticacloud.com
 artifacthubapneast1.informaticacloud.com
+artifacthubdev-k8s.informaticacloud.com
+artifacthubdev-k8suseast1.informaticacloud.com
+artifacthubdev-k8suswest2.informaticacloud.com
 artifacthubdev.informaticacloud.com
 artifacthubdevuseast1.informaticacloud.com
 artifacthubdevuswest2.informaticacloud.com
@@ -206,6 +216,7 @@ au.informatica.com
 augw.informatica.com
 aulab-int-gw.informatica.com
 aulabgw.informatica.com
+austinredirects.informatica.com
 auth.informatica.com
 auth1.informatica.com
 auth2.informatica.com
@@ -362,17 +373,20 @@ bs1e1-obm.rt.informaticacloud.com
 bs1e1-sfdc.rt.informaticacloud.com
 bs1e1-test.rt.informaticacloud.com
 bs1e1.rt.informaticacloud.com
+budgetcalculator.informatica.com
 c2c.informatica.com
 ca.informatica.com
 cac2-apigw.dm1-ca.informaticacloud.com
 cac2-apim.dm1-ca.informaticacloud.com
 cac2-b2bgw.dm1-ca.informaticacloud.com
 cac2-cai.dm1-ca.informaticacloud.com
+cac2-cdv.dm1-ca.informaticacloud.com
 cac2-cih.dm1-ca.informaticacloud.com
 cac2-cvm.dm1-ca.informaticacloud.com
 cac2-dqcloud.dm1-ca.informaticacloud.com
 cac2-dqprofile.dm1-ca.informaticacloud.com
 cac2-ias.dm1-ca.informaticacloud.com
+cac2-idms.dm1-ca.informaticacloud.com
 cac2-ing.dm1-ca.informaticacloud.com
 cac2-mdm.dm1-ca.informaticacloud.com
 cac2-opsinsights.dm1-ca.informaticacloud.com
@@ -387,6 +401,7 @@ ccma.dm-us.informaticacloud.com
 cdam.dm-ap.informaticacloud.com
 cdam.dm-em.informaticacloud.com
 cdam.dm-staging.informaticacloud.com
+cdam.dm-uk.informaticacloud.com
 cdam.dm-us.informaticacloud.com
 cdgc-api.dm-ap.informaticacloud.com
 cdgc-api.dm-apne.informaticacloud.com
@@ -395,7 +410,9 @@ cdgc-api.dm-na.informaticacloud.com
 cdgc-api.dm-staging.informaticacloud.com
 cdgc-api.dm-uk.informaticacloud.com
 cdgc-api.dm-us.informaticacloud.com
+cdgc-api.dm1-apau.informaticacloud.com
 cdgc-api.dm1-apse.informaticacloud.com
+cdgc-api.dm1-au.informaticacloud.com
 cdgc-api.dm1-ca.informaticacloud.com
 cdgc-api.dm1-em.informaticacloud.com
 cdgc-api.dm1-emse.informaticacloud.com
@@ -418,7 +435,9 @@ cdgc.dm-na.informaticacloud.com
 cdgc.dm-staging.informaticacloud.com
 cdgc.dm-uk.informaticacloud.com
 cdgc.dm-us.informaticacloud.com
+cdgc.dm1-apau.informaticacloud.com
 cdgc.dm1-apse.informaticacloud.com
+cdgc.dm1-au.informaticacloud.com
 cdgc.dm1-ca.informaticacloud.com
 cdgc.dm1-em.informaticacloud.com
 cdgc.dm1-emse.informaticacloud.com
@@ -459,7 +478,9 @@ cdmp-app.dm-na.informaticacloud.com
 cdmp-app.dm-staging.informaticacloud.com
 cdmp-app.dm-uk.informaticacloud.com
 cdmp-app.dm-us.informaticacloud.com
+cdmp-app.dm1-apau.informaticacloud.com
 cdmp-app.dm1-apse.informaticacloud.com
+cdmp-app.dm1-au.informaticacloud.com
 cdmp-app.dm1-ca.informaticacloud.com
 cdmp-app.dm1-em.informaticacloud.com
 cdmp-app.dm1-emse.informaticacloud.com
@@ -492,8 +513,11 @@ cis-prod-use1.informaticacloud.com
 cis-prod-usw2.informaticacloud.com
 claire-gpt-api.dm-staging.informaticacloud.com
 claire-gpt-api.dm-us.informaticacloud.com
+claire-gpt-api.dmp-us.informaticacloud.com
 claire-gpt.dm-staging.informaticacloud.com
 claire-gpt.dm-us.informaticacloud.com
+claire-gpt.dmp-us.informaticacloud.com
+click.email.informatica.com
 cloud.informatica.com
 cloudacademy.informatica.com
 cn.informatica.com
@@ -782,6 +806,7 @@ drsfdcctetest.g.informatica.com
 eagle.informatica.com
 edc.informatica.com
 email.informatica.com
+emc1-apic.dm1-em.informaticacloud.com
 emc1-apigw.dm1-em.informaticacloud.com
 emc1-apim.dm1-em.informaticacloud.com
 emc1-b2bgw.dm1-em-dr.informaticacloud.com
@@ -793,6 +818,7 @@ emc1-cih.dm1-em.informaticacloud.com
 emc1-cvm.dm1-em.informaticacloud.com
 emc1-dqcloud.dm1-em.informaticacloud.com
 emc1-dqprofile.dm1-em.informaticacloud.com
+emc1-gw.dm1-em.informaticacloud.com
 emc1-ias.dm1-em.informaticacloud.com
 emc1-idms.dm1-em.informaticacloud.com
 emc1-infaconn.dm1-em.informaticacloud.com
@@ -805,6 +831,7 @@ emc1-testing.dm1-em.informaticacloud.com
 emc1.dm1-em.informaticacloud.com
 eme2.dm-em.informaticacloud.com
 emea.informatica.com
+emse1-apic.dm1-emse.informaticacloud.com
 emse1-apigw.dm1-emse.informaticacloud.com
 emse1-apim.dm1-emse.informaticacloud.com
 emse1-b2bgw.dm1-emse.informaticacloud.com
@@ -868,6 +895,7 @@ emw2-b2bgw.dm-em.informaticacloud.com
 emw2-b2bgw.dm2-em.informaticacloud.com
 emw2-cai.dm2-em.informaticacloud.com
 emw2-cai.dm2d-em.informaticacloud.com
+emw2-cdv.dm2-em.informaticacloud.com
 emw2-cih.dm2-em.informaticacloud.com
 emw2-cvm.dm2-em.informaticacloud.com
 emw2-dqcloud.dm2-em.informaticacloud.com
@@ -1043,7 +1071,9 @@ idmc-api.dm-na.informaticacloud.com
 idmc-api.dm-staging.informaticacloud.com
 idmc-api.dm-uk.informaticacloud.com
 idmc-api.dm-us.informaticacloud.com
+idmc-api.dm1-apau.informaticacloud.com
 idmc-api.dm1-apse.informaticacloud.com
+idmc-api.dm1-au.informaticacloud.com
 idmc-api.dm1-ca.informaticacloud.com
 idmc-api.dm1-em.informaticacloud.com
 idmc-api.dm1-emse.informaticacloud.com
@@ -1059,7 +1089,9 @@ idmcp-api.dm-na.informaticacloud.com
 idmcp-api.dm-staging.informaticacloud.com
 idmcp-api.dm-uk.informaticacloud.com
 idmcp-api.dm-us.informaticacloud.com
+idmcp-api.dm1-apau.informaticacloud.com
 idmcp-api.dm1-apse.informaticacloud.com
+idmcp-api.dm1-au.informaticacloud.com
 idmcp-api.dm1-ca.informaticacloud.com
 idmcp-api.dm1-em.informaticacloud.com
 idmcp-api.dm1-emse.informaticacloud.com
@@ -1081,7 +1113,9 @@ idmcp-mgmt.dm-na.informaticacloud.com
 idmcp-mgmt.dm-staging.informaticacloud.com
 idmcp-mgmt.dm-uk.informaticacloud.com
 idmcp-mgmt.dm-us.informaticacloud.com
+idmcp-mgmt.dm1-apau.informaticacloud.com
 idmcp-mgmt.dm1-apse.informaticacloud.com
+idmcp-mgmt.dm1-au.informaticacloud.com
 idmcp-mgmt.dm1-ca.informaticacloud.com
 idmcp-mgmt.dm1-em.informaticacloud.com
 idmcp-mgmt.dm1-emse.informaticacloud.com
@@ -1319,7 +1353,9 @@ mcc.dm-na.informaticacloud.com
 mcc.dm-staging.informaticacloud.com
 mcc.dm-uk.informaticacloud.com
 mcc.dm-us.informaticacloud.com
+mcc.dm1-apau.informaticacloud.com
 mcc.dm1-apse.informaticacloud.com
+mcc.dm1-au.informaticacloud.com
 mcc.dm1-ca.informaticacloud.com
 mcc.dm1-em.informaticacloud.com
 mcc.dm1-emse.informaticacloud.com
@@ -1374,6 +1410,7 @@ more.informatica.com
 mr1.informatica.com
 mr2.informatica.com
 mr3.informatica.com
+mta.email.informatica.com
 multistep-reasoner.models-stg.claire.informaticacloud.com
 multistep-reasoner.models.claire.informaticacloud.com
 mxgw.informatica.com
@@ -1500,6 +1537,7 @@ nbu.informatica.com
 neighborhood.informatica.com
 neo1.informatica.com
 neo2.informatica.com
+network-poc.informatica.com
 network-sit.informatica.com
 network-test.informatica.com
 network.g.informatica.com
@@ -1755,6 +1793,8 @@ psvi28excas02.informatica.com
 psvi28excas03.informatica.com
 psvi28excas04.informatica.com
 psvi28excas05.informatica.com
+psvi28sccm03.informatica.com
+psvi28sccm04.informatica.com
 psvi28smpss01.informatica.com
 psvi28smpss03.informatica.com
 psvi28smpss04.informatica.com
@@ -1903,6 +1943,7 @@ salesforce-aml-prod.informatica.com
 salesforce-aml.informatica.com
 sao.informatica.com
 sbdeloitteextract.informaticacloud.com
+sccm-rcw.informatica.com
 sccm-rwc.informatica.com
 sdeloitteextract-parallel.informaticacloud.com
 sdeloitteextract.informaticacloud.com
@@ -1935,6 +1976,8 @@ serverless.dm1-us.informaticacloud.com
 serverless.dmp-us.informaticacloud.com
 serverless.dmr-us.informaticacloud.com
 serverless.sbdeloitteextract.informaticacloud.com
+service.fabric.dm1-apau.informaticacloud.com
+service.fabric.dm1-au.informaticacloud.com
 sftp.informatica.com
 sg-sbc1.informatica.com
 sg.informatica.com
@@ -2009,6 +2052,7 @@ thc.informatica.com
 tk-sbc1.informatica.com
 tkgw.informatica.com
 tnebot.informatica.com
+tnebottest.informatica.com
 tr1.informatica.com
 tr2.informatica.com
 tr3.informatica.com
@@ -2019,6 +2063,7 @@ trainingandevents.informatica.com
 trainingportal.informatica.com
 trust-dev3.informatica.com
 trust-sit.informatica.com
+trust-stage.informatica.com
 trust.informatica.com
 trust.informaticacloud.com
 ts-sbc1.informatica.com
@@ -2043,11 +2088,14 @@ uk1-b2bgw.dm-uk.informaticacloud.com
 uk1-cai.dm-uk.informaticacloud.com
 uk1-cai.dmd-uk.informaticacloud.com
 uk1-cdsd.dm-uk.informaticacloud.com
+uk1-cdv.dm-uk.informaticacloud.com
 uk1-cih.dm-uk.informaticacloud.com
 uk1-cvm.dm-uk.informaticacloud.com
 uk1-dqcloud.dm-uk.informaticacloud.com
 uk1-dqprofile.dm-uk.informaticacloud.com
 uk1-ias.dm-uk.informaticacloud.com
+uk1-idms.dm-uk.informaticacloud.com
+uk1-infacore.dm-uk.informaticacloud.com
 uk1-ing.dm-uk.informaticacloud.com
 uk1-mdm.dm-uk.informaticacloud.com
 uk1-opsinsights.dm-uk.informaticacloud.com
@@ -2200,6 +2248,7 @@ use6-cvm.dm-us.informaticacloud.com
 use6-dqcloud.dm-us.informaticacloud.com
 use6-dqprofile.dm-us.informaticacloud.com
 use6-dsml.dm-us.informaticacloud.com
+use6-gw.dm-us.informaticacloud.com
 use6-ias.dm-us.informaticacloud.com
 use6-idms.dm-us.informaticacloud.com
 use6-infaconnect.dm-us.informaticacloud.com
@@ -2225,6 +2274,8 @@ usvpn.informatica.com
 usw.dm-deloitte-us.informaticacloud.com
 usw1-apic.dm-staging.informaticacloud.com
 usw1-apic.dm-us.informaticacloud.com
+usw1-apic.dm1-staging.informaticacloud.com
+usw1-apic.dm1-us.informaticacloud.com
 usw1-apic.dmp-us.informaticacloud.com
 usw1-apic.dmr-us.informaticacloud.com
 usw1-apigw.dm-staging.informaticacloud.com
@@ -2322,6 +2373,8 @@ usw1-dsml.dmp-us.informaticacloud.com
 usw1-dsml.dmr-us.informaticacloud.com
 usw1-gw.dm-staging.informaticacloud.com
 usw1-gw.dm-us.informaticacloud.com
+usw1-gw.dm1-staging.informaticacloud.com
+usw1-gw.dm1-us.informaticacloud.com
 usw1-gw.dmp-us.informaticacloud.com
 usw1-gw.dmr-us.informaticacloud.com
 usw1-ias.dm-staging-dr.informaticacloud.com
@@ -2520,6 +2573,7 @@ vento.informatica.com
 video.informatica.com
 videos.informatica.com
 videos.informaticacloud.com
+view.email.informatica.com
 vip.informatica.com
 vpd.informatica.com
 vpdn.informatica.com
@@ -2556,6 +2610,8 @@ www-stage.informatica.com
 www.adfs.informatica.com
 www.amvpn.informatica.com
 www.appintegration.informatica.com
+www.as-sbc1.informatica.com
+www.as-sbc2.informatica.com
 www.asv22oktap01.informatica.com
 www.attend.informatica.com
 www.au-sbc1.informatica.com
@@ -2594,6 +2650,7 @@ www.azprodedhhm4.informatica.com
 www.azprodedhpc1.informatica.com
 www.azprodedhpc2.informatica.com
 www.battlecards.informatica.com
+www.budgetcalculator.informatica.com
 www.careers.informatica.com
 www.cegw.informatica.com
 www.cloud.informatica.com
@@ -2619,6 +2676,7 @@ www.hk-sbc1.informatica.com
 www.icinp1.informaticacloud.com
 www.icinp2.informaticacloud.com
 www.icinq1.informaticacloud.com
+www.in.informatica.com
 www.infa-license-test.informatica.com
 www.infachatgpt.informatica.com
 www.informatica.com
@@ -2639,6 +2697,7 @@ www.kb-uno.informatica.com
 www.kb.informatica.com
 www.kbcrawl.informatica.com
 www.knowledge-sit.informatica.com
+www.knowledge-test.informatica.com
 www.knowledge.informatica.com
 www.krgw.informatica.com
 www.marketplace-test.informatica.com
@@ -2647,6 +2706,7 @@ www.mysupport-test.informatica.com
 www.mysupport.informatica.com
 www.mysupportlogin-test.informatica.com
 www.mysupportsecure-test.informatica.com
+www.n.informatica.com
 www.network-sit.informatica.com
 www.network-test.informatica.com
 www.oneclickdrsfdc-test.informatica.com
@@ -2672,6 +2732,8 @@ www.qyvcnt78ovoc01.informatica.com
 www.qyvrh7axnprd01.informatica.com
 www.qyvrh7dpmprd02.informatica.com
 www.qyvrh7edcprd01.informatica.com
+www.rc-sbc1.informatica.com
+www.rc-sbc2.informatica.com
 www.redirects.informatica.com
 www.search-test.informatica.com
 www.search.informatica.com
