@@ -58,6 +58,7 @@ click.app.postmates.com
 click.business.postmates.com
 click.fleet.postmates.com
 click.merchant.postmates.com
+click.messages.postmates.com
 click.postmates.com
 cs-web.prod.us-west-1.postmates.com
 cs-web.stage.us-west-2.postmates.com
@@ -96,12 +97,15 @@ developer-dashboard.gke-stage.postmates.com
 developer-dashboard.prod.us-west-1.postmates.com
 developer-dashboard.stage.us-west-2.postmates.com
 developer.postmates.com
+devsys0.postmates.com
+devsys1.postmates.com
 dir.it.us-west-2.postmates.com
 drone-dev.admin.us-east-2.postmates.com
 drone.admin.us-east-2.postmates.com
 dualla.postmates.com
 e2e.us-east-1.postmates.com
 em.app.postmates.com
+em.fleet.postmates.com
 em.postmates.com
 email.postmates.com
 eml.postmates.com
@@ -192,6 +196,7 @@ knapsack-external.stage.us-west-2.postmates.com
 knowledge.postmates.com
 localhost.messages.postmates.com
 logsearch.us-west-1.postmates.com
+medialand.help.postmates.com
 merchant-data-updater-external.gke-prod.postmates.com
 merchant-data-updater-external.gke-stage.postmates.com
 merchant-data-updater-external.prod.us-west-1.postmates.com
@@ -212,6 +217,7 @@ order.postmates.com
 ordering-admin.stage.us-west-2.postmates.com
 ordering.prod.us-west-1.postmates.com
 ordering.stage.us-west-2.postmates.com
+pages.messages.postmates.com
 paradise.postmates.com
 partner-dashboard-internal.gke-stage.postmates.com
 partner-dashboard-internal.prod.us-west-1.postmates.com
@@ -267,6 +273,7 @@ ping-service.gke-stage.postmates.com
 ping-service.postmates.com
 ping-service.prod.us-west-1.postmates.com
 ping-service.stage.us-west-2.postmates.com
+piwik.support.postmates.com
 pm-api-int.prod.us-west-1.postmates.com
 pm-api-int.stage.us-west-2.postmates.com
 pm-api-int2.stage.us-west-2.postmates.com
@@ -879,8 +886,6 @@ pr-1127.payments-api-http.stage.us-west-2.postmates.com
 pr-1127.payments-cron.stage.us-west-2.postmates.com
 pr-1127.payments-proxy.stage.us-west-2.postmates.com
 pr-1127.payments-webhook.stage.us-west-2.postmates.com
-pr-1166.payments-api-http.stage.us-west-2.postmates.com
-pr-1166.payments-proxy.stage.us-west-2.postmates.com
 pr-1167.payments-api-grpc-secure.stage.us-west-2.postmates.com
 pr-1167.payments-api-http.stage.us-west-2.postmates.com
 pr-1167.payments-cron.stage.us-west-2.postmates.com
@@ -1125,7 +1130,7 @@ pushgateway.prod.us-west-1.postmates.com
 pushgateway.stage.us-west-2.postmates.com
 raster-v1.prod.us-west-1.postmates.com
 raster-v1.stage.us-west-2.postmates.com
-rebill.merchants.postmates.com
+rotabanner.gke-stage.postmates.com
 seller-dashboard.stage.us-west-2.postmates.com
 seller-test.stage.us-west-2.postmates.com
 seller.gke-prod.postmates.com
@@ -1178,6 +1183,7 @@ sso-postmates-net.gke-prod.postmates.com
 sso-postmates-net.gke-stage.postmates.com
 sso-postmates-net.prod.us-west-1.postmates.com
 sso-postmates-net.stage.us-west-2.postmates.com
+stage.postmates.com
 stage.us-west-2.postmates.com
 stripe.postmates.com
 support.postmates.com
@@ -1199,7 +1205,6 @@ test-ingress.gke-prod.postmates.com
 test-ingress.gke-stage.postmates.com
 test-prod-cert.stage.us-west-2.postmates.com
 test.payments-webhook.gke-stage.postmates.com
-testauth.postmates.com
 tfdiff.admin.us-east-2.postmates.com
 theresa-test.postmates.com
 ufe.postmates.com
@@ -1215,8 +1220,7 @@ variants.gke-stage.postmates.com
 variants.prod.us-west-1.postmates.com
 variants.stage.us-west-2.postmates.com
 vault.us-west-2.postmates.com
-videoclick.payment-webhook.postmates.com
-view.messages.postmates.com
+videoclick.postmates.com
 web.postmates.com
 webhooks.postmates.com
 work.postmates.com
