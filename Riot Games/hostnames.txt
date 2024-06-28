@@ -10,6 +10,7 @@ admin.mdms.kr.riotgames.com
 admin.status.riotgames.com
 adobe-servicenow-integration-01.riotgames.com
 akacdn.riotgames.com
+alpha.2xko.riotgames.com
 als.i.accounts.riotgames.com
 ama.riotgames.com
 america.tas.riotgames.com
@@ -32,7 +33,6 @@ ap.authenticate.riotgames.com
 ap.identity.riotgames.com
 ap.recovery.riotgames.com
 ap1.auth.riotgames.com
-apac.api.riotgames.com
 apac.vpn.riotgames.com
 api-sandbox.loctools.riotgames.com
 api-staging.loctools.riotgames.com
@@ -92,6 +92,7 @@ atlas.i.accounts.riotgames.com
 atlassian.riotgames.com
 auctoritas.riotgames.com
 auth-alb.corp.riotgames.com
+auth.accounts.riotgames.com
 auth.console.stacklet.riotgames.com
 auth.corp.riotgames.com
 auth.esports.rpg.riotgames.com
@@ -101,7 +102,6 @@ authapi.pre.riotgames.com
 authapi.riotgames.com
 authenticate.riotgames.com
 autodiscover.riotgames.com
-automator.riotgames.com
 avcon.riotgames.com
 avi-controller.riotgames.com
 awskey.dev.api.security.riotgames.com
@@ -115,7 +115,6 @@ awskey.testriotu.api.security.riotgames.com
 awskey.testriotu.security.riotgames.com
 awsrequest.security.riotgames.com
 backend.account.riotgames.com
-backend.auth.riotgames.com
 bacon.artshare.riotgames.com
 bacon.jira.riotgames.com
 beta.developer.riotgames.com
@@ -131,7 +130,6 @@ blue.esports.riotgames.com
 blue.merch.riotgames.com
 blue.shop.riotgames.com
 bluetape.riotgames.com
-br.api.riotgames.com
 br.chat.si.riotgames.com
 br.lol.riotgames.com
 br1.api.riotgames.com
@@ -223,6 +221,7 @@ cloudflare.si.riotgames.com
 cms.riotgames.com
 cms.rsaa.riotgames.com
 cn.ekg.riotgames.com
+cn.merch.riotgames.com
 cn.riotgames.com
 collector.staging.security.riotgames.com
 communitypridehub.riotgames.com
@@ -238,6 +237,7 @@ confstage.riotgames.com
 conftest.riotgames.com
 console.stacklet.riotgames.com
 corp.riotgames.com
+creators.riotgames.com
 crowd.riotgames.com
 ctf.riotgames.com
 cubejs.stacklet.riotgames.com
@@ -245,9 +245,9 @@ dailin.riotgames.com
 data-staging.riotgames.com
 data.riotgames.com
 deployjenkins.riotgames.com
-dev-api.developer.riotgames.com
 dev-api.portal.platform.riotgames.com
 dev.account-fraud.kr.riotgames.com
+dev.account-verification.int.accounts.riotgames.com
 dev.account.kr.riotgames.com
 dev.accounts-api.i.accounts.riotgames.com
 dev.accountservice.i.accounts.riotgames.com
@@ -264,6 +264,7 @@ dev.api.event.kr.riotgames.com
 dev.api.identity.kr.riotgames.com
 dev.api.keyconjurer.security.riotgames.com
 dev.api.notification.kr.riotgames.com
+dev.api.parents.accounts.riotgames.com
 dev.api.restriction.kr.riotgames.com
 dev.api.support.kr.riotgames.com
 dev.atlas.i.accounts.riotgames.com
@@ -305,6 +306,7 @@ dev.login-history.int.accounts.riotgames.com
 dev.login.support.riotgames.com
 dev.management.accounts.riotgames.com
 dev.merch.riotgames.com
+dev.parents.accounts.riotgames.com
 dev.parents.kr.riotgames.com
 dev.pas.ext.accounts.riotgames.com
 dev.pas.si.riotgames.com
@@ -354,6 +356,7 @@ dockerjenkins.riotgames.com
 docs.playersupport.riotgames.com
 docs.stacklet.riotgames.com
 download.kr.riotgames.com
+drive.riotgames.com
 drop.event.kr.riotgames.com
 drprdaprot01.riotgames.com
 dub.secure.riotgames.com
@@ -409,14 +412,13 @@ esports-geo.pas.si.riotgames.com
 esports.api.riotgames.com
 esports.riotgames.com
 esports.rpg.riotgames.com
-esportstmnt02.api.riotgames.com
 esportstmnt03.api.riotgames.com
-esportstmnt05.api.riotgames.com
-esportstmnt06.api.riotgames.com
+esportstmnt04.api.riotgames.com
 esportstopics-qa.esf.riotgames.com
 eu-admin.merch.riotgames.com
 eu.account.riotgames.com
 eu.api.account.riotgames.com
+eu.api.riotgames.com
 eu.auth.riotgames.com
 eu.authenticate.riotgames.com
 eu.dev.leagueconnect.api.riotgames.com
@@ -516,6 +518,7 @@ graph-prod.pre.riotgames.com
 graph-staging.pre.riotgames.com
 graph-test.pre.riotgames.com
 graph.pre.riotgames.com
+green.esports.riotgames.com
 green.merch.riotgames.com
 green.shop.riotgames.com
 groups.riotgames.com
@@ -528,6 +531,7 @@ groupsapi.riotgames.com
 gw.pay.riotgames.com
 hawkshot.pr.riotgames.com
 help.corp.riotgames.com
+helper.cap.riotgames.com
 hil.riotgames.com
 hil.security.riotgames.com
 hil.therealtest.hil.riotgames.com
@@ -593,6 +597,7 @@ jkt1zabbix.service.riotgames.com
 jp.dev.leagueconnect.api.riotgames.com
 jp.leagueconnect.api.riotgames.com
 jp.prod.leagueconnect.api.riotgames.com
+jp1.api.riotgames.com
 jp1.cap.riotgames.com
 jp1.chat.si.riotgames.com
 jp1.lol.riotgames.com
@@ -611,7 +616,6 @@ kr.lol.riotgames.com
 kr.merch.riotgames.com
 kr.riotgames.com
 kr1.chat.si.riotgames.com
-kr1.pay.riotgames.com
 l3cdn.riotgames.com
 la1.api.riotgames.com
 la1.cap.riotgames.com
@@ -656,7 +660,6 @@ link.email.accounts.riotgames.com
 link.mail.accounts.riotgames.com
 link.umail.accounts.riotgames.com
 links.riotgames.com
-livecdn.riotgames.com
 livejenkins.riotgames.com
 loadtest.chat.si.riotgames.com
 loadtest.ffs.si.riotgames.com
@@ -670,14 +673,12 @@ loc-permissions.riotgames.com
 loc.riotgames.com
 local.api.notification.kr.riotgames.com
 local.api.support.kr.riotgames.com
-localhost.em.riotgames.com
 location.pay.riotgames.com
 loccms-api.riotgames.com
 loccms-rnd.riotgames.com
 loccms-sandbox.riotgames.com
 loccms-staging.riotgames.com
 loccms.riotgames.com
-login.accounts.riotgames.com
 login.playersupport.riotgames.com
 login.riotgames.com
 login.support.riotgames.com
@@ -772,6 +773,7 @@ maillas15.riotgames.com
 maintenance.live.riotgames.com
 mbamss.riotgames.com
 mdms.kr.riotgames.com
+me1.api.riotgames.com
 meet.riotgames.com
 menariot.login.support.riotgames.com
 merch.br.riotgames.com
@@ -836,7 +838,6 @@ mx2.riotgames.com
 mx3.riotgames.com
 mx4.riotgames.com
 mxrg.riotgames.com
-mytest.rpg.riotgames.com
 na.account.riotgames.com
 na.api.riotgames.com
 na.auth.riotgames.com
@@ -958,6 +959,7 @@ parents.riotgames.com
 partner-api.events.kr.riotgames.com
 partner.riotgames.com
 partner1.rpg.riotgames.com
+partners.riotgames.com
 pas.geo.si.riotgames.com
 pay.riotgames.com
 pbe.edge.rms.si.riotgames.com
@@ -1055,13 +1057,11 @@ preprod.auth.accounts.riotgames.com
 preprod.authenticate.accounts.riotgames.com
 preprod.demo.accounts.riotgames.com
 preprod.email-verification.accounts.riotgames.com
-preprod.login.accounts.riotgames.com
 preprod.management.accounts.riotgames.com
 preprod.parents.accounts.riotgames.com
 preprod.signup-api.accounts.riotgames.com
 preview.api.shop.riotgames.com
 preview.dev.merch.riotgames.com
-preview.esports.riotgames.com
 preview.merch.riotgames.com
 preview.shop.riotgames.com
 privacy.riotgames.com
@@ -1073,8 +1073,10 @@ prod-ap-southeast-1.xsso.accounts.riotgames.com
 prod-ap.email-service.accounts.riotgames.com
 prod-ap.email-verification.admin.accounts.riotgames.com
 prod-ap.management.accounts.riotgames.com
+prod-apne1.account-verification.int.accounts.riotgames.com
 prod-apne1.evs-elb.accounts.riotgames.com
 prod-apne1.player-account-service-elb.accounts.riotgames.com
+prod-apse1.account-verification.int.accounts.riotgames.com
 prod-apse1.player-account-service-elb.accounts.riotgames.com
 prod-endpoint.euw1.lol.riotgames.com
 prod-eu-central-1.accounts-api.i.accounts.riotgames.com
@@ -1085,6 +1087,7 @@ prod-eu.email-verification.accounts.riotgames.com
 prod-eu.email-verification.admin.accounts.riotgames.com
 prod-eu.management.accounts.riotgames.com
 prod-eu.parents.accounts.riotgames.com
+prod-euc1.account-verification.int.accounts.riotgames.com
 prod-euc1.evs-elb.accounts.riotgames.com
 prod-euc1.player-account-service-elb.accounts.riotgames.com
 prod-us-east-1.xsso.accounts.riotgames.com
@@ -1096,6 +1099,7 @@ prod-us.email-service.accounts.riotgames.com
 prod-us.email-verification.accounts.riotgames.com
 prod-us.email-verification.admin.accounts.riotgames.com
 prod-us.management.accounts.riotgames.com
+prod-usw2.account-verification.int.accounts.riotgames.com
 prod-usw2.eventservice.int.accounts.riotgames.com
 prod-usw2.evs-elb.accounts.riotgames.com
 prod-usw2.player-account-service-elb.accounts.riotgames.com
@@ -1135,7 +1139,6 @@ prod.la1.lol.riotgames.com
 prod.la2.lol.riotgames.com
 prod.loadtest.lol.riotgames.com
 prod.login.accounts.riotgames.com
-prod.lol.riotgames.com
 prod.mgmt.dppm.si.riotgames.com
 prod.na1.lol.riotgames.com
 prod.na2.lol.riotgames.com
@@ -1589,11 +1592,9 @@ sandbox.jira.riotgames.com
 sandbox.portal.platform.riotgames.com
 sandboxjenkins.riotgames.com
 scd.patcher.riotgames.com
-scd.rpg.riotgames.com
 scotchgard.riotgames.com
 screensaver.riotgames.com
 sea.api.account.riotgames.com
-sea.api.riotgames.com
 sea.edge.rms.si.riotgames.com
 sea.ffs.si.riotgames.com
 sea.mps.si.riotgames.com
@@ -1645,6 +1646,7 @@ smtp2.riotgames.com
 solarwinds.itinfra.riotgames.com
 solarwinds.riotgames.com
 sonar.riotgames.com
+spark.riotgames.com
 spectator.kr.lol.riotgames.com
 spectator.la2.lol.riotgames.com
 spectator.na.lol.riotgames.com
@@ -1661,6 +1663,7 @@ stage-geo.mps.si.riotgames.com
 stage-geo.pas.si.riotgames.com
 stage-geo.vts.si.riotgames.com
 stage.account-fraud.kr.riotgames.com
+stage.account-verification.int.accounts.riotgames.com
 stage.account.kr.riotgames.com
 stage.accounts-api.i.accounts.riotgames.com
 stage.accountservice.int.accounts.riotgames.com
@@ -1819,6 +1822,7 @@ store.sweet2.riotgames.com
 store.tr.lol.riotgames.com
 store.trsa.lol.riotgames.com
 store.w.lol.riotgames.com
+support-developer.riotgames.com
 support-leagueoflegends.riotgames.com
 support-legendsofruneterra.riotgames.com
 support-riot.riotgames.com
@@ -1832,7 +1836,6 @@ support.privacy.kr.riotgames.com
 support.riotgames.com
 support2.riotgames.com
 supportal.riotgames.com
-survey.riotgames.com
 swarm.p4.riotgames.com
 swarmdev.p4.riotgames.com
 swarmtest.p4.riotgames.com
@@ -1841,9 +1844,9 @@ syd.vpn.riotgames.com
 syd1.secure.riotgames.com
 syd1zabbix.service.riotgames.com
 symbols.engops.riotgames.com
-symbols.rpg.riotgames.com
 sysdig.security.riotgames.com
 talon.riotgames.com
+tanium.riotgames.com
 tas.perf.riotgames.com
 tas.riotgames.com
 tas.staging.riotgames.com
@@ -2107,4 +2110,5 @@ xsso.riotgames.com
 zendesk1.riotgames.com
 zendesk2.riotgames.com
 zendesk3.riotgames.com
+zendesk4.riotgames.com
 2xko.riotgames.com
