@@ -2,6 +2,7 @@
 a-0.19-a3000001.c170081.177a.2b42.2f4a.210.0.nwd17kab8ewj4vb8qb2wg716mt.avqs.trellix.com
 a.backend.sjc.training.fireeye.com
 a.lab.training.trellix.com
+a.staging.sjc.training.fireeye.com
 access.alliances.selabs.fireeye.com
 access.ash.selabs.fireeye.com
 access.dev.selabs.fireeye.com
@@ -79,6 +80,7 @@ api-cws.us-west-2.manage.trellix.com
 api-dev.intelligence.fireeye.com
 api-dev.services.fireeye.com
 api-docs-feiam-qa00.iam.apps.fireeye.com
+api-docs-feiam-stg00-gc.iam.apps.fireeye.com
 api-docs.ap.fireeye.com
 api-docs.ca.fireeye.com
 api-docs.eu.fireeye.com
@@ -88,6 +90,7 @@ api-docs.ops01-govcloud.iam.apps.fireeye.com
 api-docs.ops01.iam.apps.fireeye.com
 api-docs.us.fireeye.com
 api-feiam-qa00.iam.apps.fireeye.com
+api-feiam-stg00-gc.iam.apps.fireeye.com
 api-files-csepoc.onecs.trellix.com
 api-files-csmock.onecs.trellix.com
 api-files-dev.onecs.trellix.com
@@ -161,6 +164,7 @@ apps.internal.fireeye.com
 apps.uat.community.fireeye.com
 apps.uat.connect.fireeye.com
 apps.uat.internal.fireeye.com
+apps.xdr.trellix.com
 arb.svpc.apps.fireeye.com
 arc-ai1-portal.trellix.com
 arc-ai1.trellix.com
@@ -168,6 +172,7 @@ arc.fireeye.com
 arc1-ai1.trellix.com
 archie.access.dxb.selabs.fireeye.com
 argo.sre.apps.fireeye.com
+argocd.apps.fireeye.com
 argocd.sre.apps.fireeye.com
 ars.fireeye.com
 artifactory-dev.trellix.com
@@ -443,6 +448,7 @@ confluence-stage.trellix.com
 confluence.trellix.com
 connect.fireeye.com
 console-feiam-qa00.iam.apps.fireeye.com
+console-feiam-stg00-gc.iam.apps.fireeye.com
 console-iam-int.fireeye.com
 console-iam-stg.fireeye.com
 console.ap.fireeye.com
@@ -840,6 +846,7 @@ femacserver1.fireeye.com
 femail3.fireeye.com
 femail4.fireeye.com
 fenet.fireeye.com
+fenet.trellix.com
 fenet1.eng.fireeye.com
 fenet1.fireeye.com
 fenet2.fireeye.com
@@ -914,6 +921,7 @@ gcpwestvpn1.trellix.com
 geary.fireeye.com
 gestiondepersonal.stg-login.trellix.com
 getclean.trellix.com
+ghe-devtest.eng.fireeye.com
 ghe.eng.fireeye.com
 giprod-cloud.fireeye.com
 git-us-east-1.cloud.apps.fireeye.com
@@ -999,12 +1007,14 @@ hexbgv542-hx-agent-1.hex01.helix.apps.fireeye.com
 hexbhc686-hx-webui-1.hex01.helix.apps.fireeye.com
 hexbjd265-hxdmz-ssh-1.hex01.helix.apps.fireeye.com
 hexbkh286-hx-webui-1.hex01.helix.apps.fireeye.com
+hexbkh287-hx-agent-1.hex01.apps.xdr.trellix.com
 hexbkh287-hx-webui-1.hex01.apps.xdr.trellix.com
 hexbkm845-hxdmz-ssh-1.hex01.helix.apps.fireeye.com
 hexbkq686-hx-agent-1.hex07.helix.apps.fireeye.com
 hexbng939-hxdmz-ssh.helix.apps.fireeye.com
 hexbnm545-hxdmz-ssh-1.helix.apps.fireeye.com
 hexbnw893-hxdmz-ssh-1.hex01.helix.apps.fireeye.com
+hexbph685-cms-ssh.hex01.helix.apps.fireeye.com
 hexbpz532-hxdmz-ssh-1.helix.apps.fireeye.com
 hexbrg295-hxdmz-ssh-1.hex01.helix.apps.fireeye.com
 hexbrh246-hxdmz-ssh-1.hex01.helix.apps.fireeye.com
@@ -1491,6 +1501,7 @@ iconnect.fireeye.com
 iconnect.glb.fireeye.com
 identity.fireeye.com
 idp-feiam-qa00.iam.apps.fireeye.com
+idp-feiam-stg00-gc.iam.apps.fireeye.com
 idp-iam-int.fireeye.com
 idp-iam-stg.fireeye.com
 idp.ap.fireeye.com
@@ -1706,6 +1717,10 @@ login.manage.trellix.com
 login.preprod.auth.ui.trellix.com
 login.staging.auth.ui.trellix.com
 login.trellix.com
+lvs-cloudprov-api-prod-1.fireeye.com
+lvs-cloudprov-api-prod-2.fireeye.com
+lvs-cloudprov-integ-helix-prod-1.fireeye.com
+lvs-cloudprov-integration-prod-1.fireeye.com
 lvsvpn1.trellix.com
 lvsvpn2.trellix.com
 lync-dr.fireeye.com
@@ -1757,6 +1772,7 @@ mdlogin.fireeye.com
 mdloginstage.fireeye.com
 mdm-interface.dev.edp.trellix.com
 mdm-interface.edp.trellix.com
+mdm-rt-interface.dev.edp.trellix.com
 mdstage.fireeye.com
 mdx-interface.dev.edp.trellix.com
 mdx-interface.edp.trellix.com
@@ -1860,6 +1876,7 @@ nl1-vpn.fireeye.com
 node1.delivery.apps.use1.prod.services.fireeye.com
 nonprod.sap.trellix.com
 notification-feiam-qa00.iam.apps.fireeye.com
+notification-feiam-stg00-gc.iam.apps.fireeye.com
 notification.ap.fireeye.com
 notification.ca.fireeye.com
 notification.eu.fireeye.com
@@ -1935,6 +1952,7 @@ owapp-usva.fireeye.com
 owapp.fireeye.com
 owava.fireeye.com
 p.lab.training.trellix.com
+p.staging.sjc.training.fireeye.com
 packages.xconsole.trellix.com
 pages.fireeye.com
 pages.trellix.com
@@ -2026,6 +2044,7 @@ proposals.fireeye.com
 protect.fireeye.com
 protect2.fireeye.com
 protect3-qa.fireeye.com
+protect3-res.fireeye.com
 protex-stage.corp.trellix.com
 protex.corp.trellix.com
 provision.trellix.com
@@ -2144,6 +2163,7 @@ scaledev-x15.dev01.helix.apps.fireeye.com
 scaleqa-espir-ssh.dev01.helix.apps.fireeye.com
 schedule.fireeye.com
 schema-feiam-qa00.iam.apps.fireeye.com
+schema-feiam-stg00-gc.iam.apps.fireeye.com
 schema.ap.fireeye.com
 schema.ca.fireeye.com
 schema.eu.fireeye.com
@@ -2891,6 +2911,8 @@ vision.fireeye.com
 viz.cis.apps.fireeye.com
 vlabs.fireeye.com
 vm.lab.training.trellix.com
+vm.sjc.training.fireeye.com
+vm.staging.sjc.training.fireeye.com
 vnc.a.lab.training.trellix.com
 vnc.a.sjc.training.fireeye.com
 vnc.staging.a.lab.training.trellix.com
@@ -2899,6 +2921,7 @@ vnext.xdrint.trellix.com
 vnext.xdrpreeks.trellix.com
 vochat.fireeye.com
 vochat.glb.fireeye.com
+volga.eng.fireeye.com
 voltron-jenkins.eng.fireeye.com
 voweb.fireeye.com
 voweb.glb.fireeye.com
