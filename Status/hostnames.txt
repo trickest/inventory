@@ -4,7 +4,6 @@ admin-link.status.im
 affiliate.status.im
 airflow.bi.status.im
 airflow.infra.status.im
-alerts.infra.status.im
 alerts.status.im
 ambassador.status.im
 analytics.status.im
@@ -19,14 +18,15 @@ boards.status.im
 book.status.im
 boot-01.ac-cn-hongkong-c.shards.staging.status.im
 boot-01.ac-cn-hongkong-c.shards.test.status.im
+boot-01.ac-cn-hongkong-c.status.prod.status.im
 boot-01.ac-cn-hongkong-c.status.staging.status.im
 boot-01.do-ams3.shards.staging.status.im
 boot-01.do-ams3.shards.test.status.im
+boot-01.do-ams3.status.staging.status.im
 boot-01.gc-us-central1-a.shards.staging.status.im
 boot-01.gc-us-central1-a.shards.test.status.im
 boot-01.gc-us-central1-a.status.staging.status.im
 br-blog.status.im
-canary.infra.status.im
 chat.status.im
 ci-geth.status.im
 ci-goerli.status.im
@@ -64,7 +64,9 @@ docs.status.im
 dokku.status.im
 draw.status.im
 elastic.infra.status.im
+email.spiff.status.im
 email.status.im
+email.test.status.im
 embark.status.im
 ens-claim.status.im
 ens-collect.status.im
@@ -183,6 +185,7 @@ retention.status.im
 scan.status.im
 search-es.infra.status.im
 search.status.im
+sentry.infra.status.im
 serenity-testnets.status.im
 simpledapp.status.im
 slack.status.im
@@ -192,6 +195,7 @@ status.im
 statusphere.status.im
 store-01.ac-cn-hongkong-c.shards.staging.status.im
 store-01.ac-cn-hongkong-c.shards.test.status.im
+store-01.ac-cn-hongkong-c.status.prod.status.im
 store-01.ac-cn-hongkong-c.status.staging.status.im
 store-01.do-ams3.shards.staging.status.im
 store-01.do-ams3.shards.test.status.im
@@ -201,6 +205,7 @@ store-01.gc-us-central1-a.shards.test.status.im
 store-01.gc-us-central1-a.status.staging.status.im
 store-02.ac-cn-hongkong-c.shards.staging.status.im
 store-02.ac-cn-hongkong-c.shards.test.status.im
+store-02.ac-cn-hongkong-c.status.prod.status.im
 store-02.ac-cn-hongkong-c.status.staging.status.im
 store-02.do-ams3.shards.staging.status.im
 store-02.do-ams3.shards.test.status.im
@@ -224,6 +229,5 @@ translate.status.im
 vault.infra.status.im
 vote.status.im
 wiki.status.im
-write.status.im
 www.blog.status.im
 www.status.im
