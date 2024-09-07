@@ -4,6 +4,7 @@ admin-link.status.im
 affiliate.status.im
 airflow.bi.status.im
 airflow.infra.status.im
+alerts.infra.status.im
 alerts.status.im
 ambassador.status.im
 analytics.status.im
@@ -22,15 +23,18 @@ boot-01.ac-cn-hongkong-c.status.prod.status.im
 boot-01.ac-cn-hongkong-c.status.staging.status.im
 boot-01.do-ams3.shards.staging.status.im
 boot-01.do-ams3.shards.test.status.im
+boot-01.do-ams3.status.prod.status.im
 boot-01.do-ams3.status.staging.status.im
 boot-01.gc-us-central1-a.shards.staging.status.im
 boot-01.gc-us-central1-a.shards.test.status.im
+boot-01.gc-us-central1-a.status.prod.status.im
 boot-01.gc-us-central1-a.status.staging.status.im
 br-blog.status.im
 chat.status.im
 ci-geth.status.im
 ci-goerli.status.im
 ci-ropsten.status.im
+ci.infra.status.im
 ci.status.im
 clicks.status.im
 cloud.status.im
@@ -48,7 +52,6 @@ cortex.infra.status.im
 cortex.status.im
 deps-lock-snitch-bot.status.im
 design.status.im
-dev-ambassador.status.im
 dev-contributors.status.im
 dev-docs.status.im
 dev-incubate.status.im
@@ -63,10 +66,7 @@ docs.infra.status.im
 docs.status.im
 dokku.status.im
 draw.status.im
-elastic.infra.status.im
-email.spiff.status.im
 email.status.im
-email.test.status.im
 embark.status.im
 ens-claim.status.im
 ens-collect.status.im
@@ -93,7 +93,6 @@ handbook.status.im
 harbor.status.im
 hardwallet.status.im
 hasura.bi.status.im
-hasura.infra.status.im
 hasura.test.bi.status.im
 help.status.im
 hive.status.im
@@ -147,6 +146,7 @@ openbounty.status.im
 our.status.im
 people-ops.status.im
 pgadmin.openbounty.status.im
+piwik.hardwallet.status.im
 poc-01.do-ams3.vault.hq.status.im
 poc-01.ih-eu-mda1.vault.hq.status.im
 podcasts.status.im
@@ -174,6 +174,7 @@ pr-289.openbounty.status.im
 pr-290.openbounty.status.im
 pr-293.openbounty.status.im
 prod.api.status.im
+prod.mod.spiff.status.im
 prometheus.infra.status.im
 proxy.infra.status.im
 r.status.im
@@ -199,9 +200,11 @@ store-01.ac-cn-hongkong-c.status.prod.status.im
 store-01.ac-cn-hongkong-c.status.staging.status.im
 store-01.do-ams3.shards.staging.status.im
 store-01.do-ams3.shards.test.status.im
+store-01.do-ams3.status.prod.status.im
 store-01.do-ams3.status.staging.status.im
 store-01.gc-us-central1-a.shards.staging.status.im
 store-01.gc-us-central1-a.shards.test.status.im
+store-01.gc-us-central1-a.status.prod.status.im
 store-01.gc-us-central1-a.status.staging.status.im
 store-02.ac-cn-hongkong-c.shards.staging.status.im
 store-02.ac-cn-hongkong-c.shards.test.status.im
@@ -209,9 +212,11 @@ store-02.ac-cn-hongkong-c.status.prod.status.im
 store-02.ac-cn-hongkong-c.status.staging.status.im
 store-02.do-ams3.shards.staging.status.im
 store-02.do-ams3.shards.test.status.im
+store-02.do-ams3.status.prod.status.im
 store-02.do-ams3.status.staging.status.im
 store-02.gc-us-central1-a.shards.staging.status.im
 store-02.gc-us-central1-a.shards.test.status.im
+store-02.gc-us-central1-a.status.prod.status.im
 store-02.gc-us-central1-a.status.staging.status.im
 studio.status.im
 subspace.status.im
@@ -228,6 +233,7 @@ token.status.im
 translate.status.im
 vault.infra.status.im
 vote.status.im
+wazuh.infra.status.im
 wiki.status.im
 www.blog.status.im
 www.status.im
