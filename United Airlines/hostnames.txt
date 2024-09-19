@@ -171,6 +171,7 @@ api.prd.aqc.aws.ual.com
 api.prd.aws.united.com
 api.prd.awscloud.ual.com
 api.prd.cug.aws.ual.com
+api.preprod.aqc.aws.ual.com
 api.preprod.aws.united.com
 api.preprod.awscloud.ual.com
 api.qa.aqc.aws.ual.com
@@ -181,6 +182,7 @@ api.stg.aws.united.com
 api.stg.awscloud.ual.com
 api.test.united.com
 api.united.com
+api.unitedvoices.eei.prd.ual.com
 api.unitedvoices.eei.stg.ual.com
 apiauth-stage.united.com
 apiauth.united.com
@@ -306,12 +308,15 @@ aws.oh.betagw.api.united.com
 aws.oh.dev.webauth.united.com
 aws.oh.devgw.api.united.com
 aws.oh.prdgw.api.united.com
+aws.oh.preprod.webauth.united.com
 aws.oh.preprodgw.api.united.com
 aws.oh.qa.webauth.united.com
 aws.oh.qagw.api.united.com
+aws.oh.stage.webauth.united.com
 aws.oh.stagegw.api.united.com
 aws.oh.webauth.united.com
 aws.prdgw.api.united.com
+aws.preprod.webauth.united.com
 aws.preprodgw.api.united.com
 aws.qa.api.united.com
 aws.qa.webauth.united.com
@@ -331,6 +336,7 @@ aws.svcgw.useast1.pcr.ual.com
 aws.svcgw.useast2.pcr.ual.com
 aws.webauth.united.com
 awssec.cfawsdev.ual.com
+aybcitrixcloudsso.united.com
 backup.cfawsdev.ual.com
 baggageclaimform-oqa.united.com
 baggageclaimform-qa.ual.com
@@ -427,6 +433,7 @@ cargoivr-sdp.auth.ual.com
 cargoivr-sndcdp1.auth.ual.com
 cargoivr-sndcdp2.auth.ual.com
 cargoops.ual.com
+cargoqa.salesforce.united.com
 cargostg.united.com
 cargouat.salesforce.united.com
 cars.united.com
@@ -600,6 +607,7 @@ confluence.ual.com
 confluencev3staging-intranetcontainer-corporate.cfawsdev.ual.com
 confluencewiki.ual.com
 connectctx.ual.com
+connections.united.com
 contactcenter.ual.com
 contactcenter.united.com
 contacttracing.united.com
@@ -843,6 +851,7 @@ dmshr-amstage.ual.com
 dmshr.ual.com
 dmz-esp-amstage.ual.com
 dmz-esp-new.ual.com
+docs.cfawsdev.ual.com
 docusign.ual.com
 download-na.cfawsdev.ual.com
 dp-mobile.ual.com
@@ -1028,7 +1037,9 @@ ftappstore-staging.united.com
 ftappstore.united.com
 gate-hazard-plan-scan.dev.uia.aws.ual.com
 gate-hazard-transaction.dev.uia.aws.ual.com
+gate-hazard-transaction.qa.uia.aws.ual.com
 gate-hazard.dev.uia.aws.ual.com
+gate-hazard.qa.uia.aws.ual.com
 gateinfo-api-dev.uia.ual.com
 gateinfo-api-prd.uia.ual.com
 gateinfo.dev.uia.aws.ual.com
@@ -1248,6 +1259,7 @@ iomk8s.dev.aws.ual.com
 iomwebapi.dev.aws.ual.com
 iot-1.data.dev.uia.aws.ual.com
 iot-qa.united.com
+iot.data.dev.uia.aws.ual.com
 iot.data.prd.uia.aws.ual.com
 iot.united.com
 ip86.cfawsdev.ual.com
@@ -1426,6 +1438,7 @@ mobiletravelapi.united.com
 mobility.groundstar-staff.ual.com
 mobility.iah.groundstar-staff.ual.com
 modern-agencies-01970.ual.com
+monitor.cfawsdev.ual.com
 monograms.vacations.united.com
 mpenroll.united.com
 mr.united.com
@@ -1454,6 +1467,8 @@ mx02.mail.united.com
 my.ual.com
 my.videos.united.com
 myaviate.united.com
+mycrew.dev.dwz.aws.ual.com
+mycrew.qa.dwz.aws.ual.com
 myflight-dev.ual.com
 myflight-qa.ual.com
 myflight-stage.ual.com
@@ -1554,6 +1569,7 @@ o239.ptr3094.u4b.united.com
 o4.ptr4428.united.com
 oamadm-qa.ual.com
 oamadm.ual.com
+oauth.cfawsdev.ual.com
 oce4hybpmrl.cfawsdev.ual.com
 oci.united.com
 ocpctp.poc.ual.com
@@ -1630,6 +1646,7 @@ owp.iotqa.ual.com
 owp.msg.ual.com
 owp.msgqa.ual.com
 owp.utilityservices.qa.united.com
+owplogs.ual.com
 owplogstash.ual.com
 owplogstashqa.ual.com
 oxy-oxygen-57f860be.cfawsdev.ual.com
@@ -1661,7 +1678,9 @@ partnerservices-test.united.com
 partnerservices.united.com
 partnerservices2.united.com
 partnerservices3.united.com
+passengerwebserviceswasdev.ual.com
 passengerwebserviceswasprod.ual.com
+passengerwebserviceswasqa.ual.com
 passplus.united.com
 patrick2yeartest.united.com
 patrickgeotrusttest.ual.com
@@ -1713,6 +1732,7 @@ pilothiring-qastage.united.com
 pilothiring.united.com
 pilothiringadmin.salesforce.united.com
 pilothiringadmin.united.com
+pilotprogram.united.com
 pilotrecords.ual.com
 pilotrecordsreportsrp.ual.com
 pinetdpweb.ual.com
@@ -1749,6 +1769,7 @@ ppradm.stage.ual.com
 prd.cud.aws.ual.com
 prd.cug.aws.ual.com
 prd.dqy.aws.ual.com
+prd.eei.aws.ual.com
 pre.unitedservicescsstraining.ual.com
 pre.unitedservicestraining.ual.com
 precomdpapiauth.ual.com
@@ -1859,6 +1880,31 @@ qualys.ual.com
 quarantine.ual.com
 r-test.cfawsdev.ual.com
 r2l6wz-location-dev.united.com
+radius-apac.ual.com
+radius-central.ual.com
+radius-chi.ual.com
+radius-csm.ual.com
+radius-del.ual.com
+radius-den.ual.com
+radius-east.ual.com
+radius-emea.ual.com
+radius-ewr.ual.com
+radius-gum.ual.com
+radius-hkg.ual.com
+radius-hnl.ual.com
+radius-iad.ual.com
+radius-iah.ual.com
+radius-lax.ual.com
+radius-mex.ual.com
+radius-mountain.ual.com
+radius-ndc.ual.com
+radius-nrt.ual.com
+radius-ord.ual.com
+radius-sfo.ual.com
+radius-south.ual.com
+radius-syd.ual.com
+radius-tul.ual.com
+radius-west.ual.com
 radius.ual.com
 radiusdev.ual.com
 ramesh-dev01.cfawsdev.ual.com
@@ -1877,6 +1923,8 @@ rchat.dev.dvu.aws.ual.com
 rdpww.cfawsdev.ual.com
 rdscbprod.global.ual.com
 rdweb.ual.com
+realtime.iah.dev.groundstar-staff.aws.ual.com
+realtime.west.dev.groundstar-staff.aws.ual.com
 records-oqa.ual.com
 records.ual.com
 recordstest.ual.com
@@ -1996,6 +2044,7 @@ services-oqa.ual.com
 services.dev.efh.aws.ual.com
 services.prd.efh.aws.ual.com
 services.qa.cvt.aws.ual.com
+services.stg.efh.aws.ual.com
 services.ual.com
 services.united.com
 servicestest.ual.com
@@ -2006,6 +2055,7 @@ sgdprd.ual.com
 sharepoint.ual.com
 sharepointsearch.ual.com
 shareptstg10.ual.com
+shop.cfawsdev.ual.com
 shop.united.com
 shoppingcart-ccu.drp.dev.aws.ual.com
 shortlinks.ual.com
@@ -2117,6 +2167,7 @@ stagetechops.ual.com
 stagetechops1.ual.com
 stagetechopsredirect.ual.com
 staging.mystatus.united.com
+stg.dcc.aws.ual.com
 stg.ebt.aws.ual.com
 stg.eei.aws.ual.com
 stgecomdpapiauth.ual.com
@@ -2188,6 +2239,7 @@ techservices-dev.ual.com
 techsuite.ual.com
 techviewmsec.ual.com
 temp.cfawsdev.ual.com
+terminalmaps-stg.ual.com
 test-simplycomputermerchants-backup.system.cfawsdev.ual.com
 test-simplycomputermerchants.system.cfawsdev.ual.com
 test.global.ual.com
@@ -2523,6 +2575,8 @@ ucbadm.ual.com
 uchatprodfe.ual.com
 ucomapi.united.com
 udcnsext.citrix.ual.com
+uflifoservice.dev.dzx.aws.ual.com
+ui.dev.cul.aws.ual.com
 uia-oqa.ual.com
 uia.dev.aws.ual.com
 uma-dev1.united.com
@@ -2578,6 +2632,7 @@ unitedtmp.intranet.ual.com
 unitedvoices-mff-dp.united.com
 unitedvoices-mffdev-dp.united.com
 unitedvoices-mffqa-dp.united.com
+unitedvoices.eei.prd.ual.com
 unitedvoices.eei.stg.ual.com
 university.ual.com
 updatedownloadstoragemx.united.com
@@ -2709,6 +2764,11 @@ vcld34rpbhfap01.ual.com
 vcld34rpbhfap02.ual.com
 vcld34rpccnap01.ual.com
 vcld34rpccnap02.ual.com
+vcld41062bd5d5.ual.com
+vcld4106c8a53e.ual.com
+vcld41076b0e44.ual.com
+vcld41091a3fab.ual.com
+vcld410c221dd0.ual.com
 vdi.ual.com
 vedotron.cfawsdev.ual.com
 venafi.ual.com
@@ -2741,6 +2801,7 @@ vndcdfxparoee02.ual.com
 vndcdfxparoee03.ual.com
 vndcdfxparoeecl.ual.com
 vndcptss01.global.ual.com
+volare-dashboard.dev.arl.aws.ual.com
 volare-odev.ual.com
 volare-oqa.ual.com
 vopcdfgprdg01.global.ual.com
@@ -2787,6 +2848,8 @@ webauth.dev.aws.united.com
 webauth.prd.aqc.aws.ual.com
 webauth.prd.aws.united.com
 webauth.prd.awscloud.ual.com
+webauth.preprod.aqc.aws.ual.com
+webauth.preprod.aws.united.com
 webauth.qa.aqc.aws.ual.com
 webauth.qa.aws.united.com
 webauth.qa.awscloud.ual.com
