@@ -13,9 +13,6 @@ acdp.service.ncsc.gov.uk
 admin-api-agreements-manager-stage.notprod.devops.ncsc.gov.uk
 admin-api-agreements-manager-test.notprod.devops.ncsc.gov.uk
 admin-api-agreements-manager.api.devops.ncsc.gov.uk
-admin-api-asset-manager-int.notprod.devops.ncsc.gov.uk
-admin-api-asset-manager-stage.notprod.devops.ncsc.gov.uk
-admin-api-asset-manager-test.notprod.devops.ncsc.gov.uk
 admin-api-asset-manager.api.devops.ncsc.gov.uk
 admin-api-notifications-int.notprod.devops.ncsc.gov.uk
 admin-api-notifications-stage.notprod.devops.ncsc.gov.uk
@@ -100,6 +97,7 @@ authoring.beta.ncsc.gov.uk
 authoring.cyberessentials.ncsc.gov.uk
 authoring.cyberfirst.ncsc.gov.uk
 authoring.ncsc.gov.uk
+autodiscover.devops.ncsc.gov.uk
 autodiscover.ncsc.gov.uk
 basiccheck.service.ncsc.gov.uk
 beta.ncsc.gov.uk
@@ -141,7 +139,9 @@ cf.www.signin.service.ncsc.gov.uk
 cfgc-challenges.cyberfirst.ncsc.gov.uk
 cfgc.cyberfirst.ncsc.gov.uk
 cfgc2022.cyberfirst.ncsc.gov.uk
+cfgcfinal2022june.2022.cyberfirst.ncsc.gov.uk
 cfgcfinal2022mock.cyberfirst.ncsc.gov.uk
+cfgcfinal2023gameday.cyberfirst.ncsc.gov.uk
 cfgcgameday2023.cyberfirst.ncsc.gov.uk
 challenges.central.girlscompetition.cyberfirst.ncsc.gov.uk
 challenges.cyberfirst.ncsc.gov.uk
@@ -176,6 +176,7 @@ crl.external.ncsc.gov.uk
 crm.external.ncsc.gov.uk
 cti.logcollection.service.ncsc.gov.uk
 cti.staging.logcollection.service.ncsc.gov.uk
+cvpn.external.ncsc.gov.uk
 cyberchef.challenges.girlscompetition.cyberfirst.ncsc.gov.uk
 cyberessentials.ncsc.gov.uk
 cyberfirst.ncsc.gov.uk
@@ -357,7 +358,6 @@ live.systemtest.preview.ncsc.gov.uk
 localauth.dev.earlywarning.service.ncsc.gov.uk
 login.protectivedns.service.ncsc.gov.uk
 london.girlscompetition.cyberfirst.ncsc.gov.uk
-lyncdiscover.devops.ncsc.gov.uk
 lyncdiscover.ncsc.gov.uk
 mail-list-api-int.incidentalerts.service.ncsc.gov.uk
 mail-list-api-staging.incidentalerts.service.ncsc.gov.uk
@@ -411,6 +411,7 @@ mitig.svc.www-preview.internal.webcheck.service.ncsc.gov.uk
 mitig.svc.www.internal.webcheck.service.ncsc.gov.uk
 msoid.devops.ncsc.gov.uk
 msoid.ncsc.gov.uk
+mta-sts.emailsecuritycheck.service.ncsc.gov.uk
 mta-sts.ncsc.gov.uk
 my-dev.prototype.service.ncsc.gov.uk
 my-int.prototype.service.ncsc.gov.uk
@@ -568,12 +569,15 @@ pr-1491.my-dev.prototype.service.ncsc.gov.uk
 pr-1520.my-dev.prototype.service.ncsc.gov.uk
 pr-1540.my-dev.prototype.service.ncsc.gov.uk
 pr-1551.my-dev.prototype.service.ncsc.gov.uk
+pr-1552.my-dev.prototype.service.ncsc.gov.uk
 pr-1560.my-dev.prototype.service.ncsc.gov.uk
 pr-1561.my-dev.prototype.service.ncsc.gov.uk
 pr-1590.my-dev.prototype.service.ncsc.gov.uk
 pr-1591.my-dev.prototype.service.ncsc.gov.uk
 pr-1600.my-dev.prototype.service.ncsc.gov.uk
 pr-1601.my-dev.prototype.service.ncsc.gov.uk
+pr-1616.my-dev.prototype.service.ncsc.gov.uk
+pr-1631.my-dev.prototype.service.ncsc.gov.uk
 pr-1650.my-dev.prototype.service.ncsc.gov.uk
 pr-1691.my-dev.prototype.service.ncsc.gov.uk
 pr-1696.my-dev.prototype.service.ncsc.gov.uk
@@ -611,11 +615,7 @@ pr-1801.my-dev.prototype.service.ncsc.gov.uk
 pr-1807.my-dev.prototype.service.ncsc.gov.uk
 pr-1808.my-dev.prototype.service.ncsc.gov.uk
 pr-1811.my-dev.prototype.service.ncsc.gov.uk
-pr-1842.my-dev.prototype.service.ncsc.gov.uk
-pr-1843.my-dev.prototype.service.ncsc.gov.uk
 pr-1857.my-dev.prototype.service.ncsc.gov.uk
-pr-1861.my-dev.prototype.service.ncsc.gov.uk
-pr-1862.my-dev.prototype.service.ncsc.gov.uk
 pr-1881.my-dev.prototype.service.ncsc.gov.uk
 pr-1884-1.my-dev.prototype.service.ncsc.gov.uk
 pr-1888.my-dev.prototype.service.ncsc.gov.uk
@@ -630,13 +630,9 @@ pr-1931.my-dev.prototype.service.ncsc.gov.uk
 pr-1933.my-dev.prototype.service.ncsc.gov.uk
 pr-1937.my-dev.prototype.service.ncsc.gov.uk
 pr-1939.my-dev.prototype.service.ncsc.gov.uk
-pr-1943.my-dev.prototype.service.ncsc.gov.uk
-pr-1944.my-dev.prototype.service.ncsc.gov.uk
 pr-1945.my-dev.prototype.service.ncsc.gov.uk
 pr-1946.my-dev.prototype.service.ncsc.gov.uk
-pr-1947.my-dev.prototype.service.ncsc.gov.uk
 pr-1948.my-dev.prototype.service.ncsc.gov.uk
-pr-1949.my-dev.prototype.service.ncsc.gov.uk
 pr-1952.my-dev.prototype.service.ncsc.gov.uk
 pr-1953.my-dev.prototype.service.ncsc.gov.uk
 pr-1954.my-dev.prototype.service.ncsc.gov.uk
@@ -657,6 +653,7 @@ pr-1976.my-dev.prototype.service.ncsc.gov.uk
 pr-1977.my-dev.prototype.service.ncsc.gov.uk
 pr-1981.my-dev.prototype.service.ncsc.gov.uk
 pr-1986.my-dev.prototype.service.ncsc.gov.uk
+pr-2039.my-dev.prototype.service.ncsc.gov.uk
 pr-2066.my-dev.prototype.service.ncsc.gov.uk
 pr-2069.my-dev.prototype.service.ncsc.gov.uk
 pr-2078.my-dev.prototype.service.ncsc.gov.uk
@@ -702,6 +699,7 @@ pr-2287.my-dev.prototype.service.ncsc.gov.uk
 pr-2294.my-dev.prototype.service.ncsc.gov.uk
 pr-2296.my-dev.prototype.service.ncsc.gov.uk
 pr-2297.my-dev.prototype.service.ncsc.gov.uk
+pr-2304.my-dev.prototype.service.ncsc.gov.uk
 pr-370.my-dev.prototype.service.ncsc.gov.uk
 pr-384.my-dev.prototype.service.ncsc.gov.uk
 pr-390.my-dev.prototype.service.ncsc.gov.uk
@@ -884,7 +882,6 @@ signinproxy-stage.notprod.devops.ncsc.gov.uk
 signinproxy-stage2.notprod.devops.ncsc.gov.uk
 signinproxy-test.notprod.devops.ncsc.gov.uk
 signinproxy.notprod.devops.ncsc.gov.uk
-sip.devops.ncsc.gov.uk
 slave-builder.devops.ncsc.gov.uk
 snippets.report.ncsc.gov.uk
 sns-client-int.threatintel.service.ncsc.gov.uk
