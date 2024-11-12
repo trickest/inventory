@@ -3,6 +3,7 @@ admin-ambassador.status.im
 affiliate.status.im
 airflow.bi.status.im
 airflow.infra.status.im
+alerts.infra.status.im
 alerts.status.im
 ambassador.status.im
 analytics.status.im
@@ -28,10 +29,12 @@ boot-01.gc-us-central1-a.shards.test.status.im
 boot-01.gc-us-central1-a.status.prod.status.im
 boot-01.gc-us-central1-a.status.staging.status.im
 br-blog.status.im
+canary.infra.status.im
 chat.status.im
 ci-geth.status.im
 ci-goerli.status.im
 ci-ropsten.status.im
+ci.infra.status.im
 ci.status.im
 clicks.status.im
 cloud.status.im
@@ -39,6 +42,7 @@ cn-blog.status.im
 cn.status.im
 collabora.status.im
 config.bi.status.im
+consul.infra.status.im
 consul.status.im
 contacts.status.im
 contribute.status.im
@@ -60,7 +64,6 @@ discuss.status.im
 docs.bi.status.im
 docs.infra.status.im
 docs.status.im
-dokku.status.im
 draw.status.im
 elastic.infra.status.im
 email.spiff.status.im
@@ -119,7 +122,6 @@ meet.status.im
 metrics.status.im
 mod.spiff.status.im
 model.spiff.status.im
-n8n.status.im
 nimbus-es.infra.status.im
 nimbus-libs.status.im
 nimbus-logs.infra.status.im
@@ -131,6 +133,7 @@ node-01.ac-cn-hongkong-c.waku.sandbox.status.im
 node-01.ac-cn-hongkong-c.waku.test.status.im
 node-01.ac-cn-hongkong-c.wakuv2.prod.status.im
 node-01.ac-cn-hongkong-c.wakuv2.test.status.im
+node-01.do-ams3.dokku.misc.status.im
 node-01.do-ams3.status.test.status.im
 node-01.do-ams3.waku.sandbox.status.im
 node-01.do-ams3.waku.test.status.im
@@ -233,7 +236,6 @@ token.status.im
 translate.status.im
 vault.infra.status.im
 vote.status.im
-wazuh.infra.status.im
 wiki.status.im
 www.blog.status.im
 www.status.im
