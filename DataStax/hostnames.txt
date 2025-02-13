@@ -1325,6 +1325,7 @@ api-status-db2-corp.security.datastax.com
 api-store-rc.security.datastax.com
 api-t.security.datastax.com
 api-test-mes.security.datastax.com
+api-test.astra-dev.datastax.com
 api-upgrade-video-ipv6-log-b2bsystem.security.datastax.com
 api-us-dc2-blurfproxy.security.datastax.com
 api-us01.security.datastax.com
@@ -1346,6 +1347,7 @@ api.docs.datastax.com
 api.gov-dev.cloud.datastax.com
 api.internal.dmc-dev-us-east-2.cloud-tools.datastax.com
 api.internal.dmc-us-east-1.infra.datastax.com
+api.langflow.astra.datastax.com
 api.marketplace.astra.datastax.com
 api.security.datastax.com
 api.staging.streaming.datastax.com
@@ -2444,6 +2446,7 @@ aws-taxportal.security.datastax.com
 aws-test2.security.datastax.com
 aws-us-east-1c.security.datastax.com
 aws-us-east-1f.security.datastax.com
+aws-us-east-2.langflow-dev.datastax.com
 aws-us-west-1c.security.datastax.com
 aws01.security.datastax.com
 aws21-sbs-afsouth1.security.datastax.com
@@ -2879,6 +2882,7 @@ bc2.security.datastax.com
 bc91.security.datastax.com
 bcast.security.datastax.com
 bcbldap2.security.datastax.com
+bcec4e11-0b40-4ff4-ae7f-c20a0214d0ac-us-east-1.db.astra-dev.datastax.com
 bcg28c.security.datastax.com
 bcg28h.security.datastax.com
 bcg28n.security.datastax.com
@@ -4804,6 +4808,7 @@ cloud-platform.tools-feat.cloud.datastax.com
 cloud-platform.tools-feat.paas.datastax.com
 cloud-portal.security.datastax.com
 cloud-provider-azure.security.datastax.com
+cloud-session-v1.ingress.us-east-2.dev.apps.paas.datastax.com
 cloud-session.dev.cloud.datastax.com
 cloud-session.gov-dev.cloud.datastax.com
 cloud-session.gov-prod.cloud.datastax.com
@@ -6927,8 +6932,10 @@ dockerv2.security.datastax.com
 docmaster.security.datastax.com
 docs-aws.security.datastax.com
 docs-beta.datastax.com
+docs-draft.datastax.com
 docs-postmanbackups-www-test.security.datastax.com
 docs-preview.datastax.com
+docs-review.datastax.com
 docs-stage.datastax.com
 docs-test.datastax.com
 docs.astra.datastax.com
@@ -8030,6 +8037,7 @@ eth-11-9-bas1-1-cld.security.datastax.com
 eth-15-10-bas1-2-cld.security.datastax.com
 eth-5-12-bas2-1-apg.security.datastax.com
 eth-8-9-bas1-2-cld.security.datastax.com
+eth-explorer.datastax.com
 ethanica.security.datastax.com
 etoile.security.datastax.com
 etpaix1.security.datastax.com
@@ -9282,6 +9290,7 @@ fw41.security.datastax.com
 fwai01.security.datastax.com
 fwaw3-1.security.datastax.com
 fwbw1-1.security.datastax.com
+fwd-ebae8c54-4ad7-4b8b-965b-ade27173dd4b-us-east-2.db.astra-dev.datastax.com
 fwd1.security.datastax.com
 fwdws-prd.security.datastax.com
 fwlg1-1.security.datastax.com
@@ -9722,6 +9731,7 @@ gosip0m.security.datastax.com
 goto.datastax.com
 gotshared.security.datastax.com
 gotslots.security.datastax.com
+gov-dev.apps.paas.datastax.com
 gov-dev.cloud.datastax.com
 government.security.datastax.com
 govexternal-veracode.security.datastax.com
@@ -9776,6 +9786,7 @@ grafana-external.quera-int-awsue1.quera.streaming.datastax.com
 grafana-external.quera-part-awsue1.quera.streaming.datastax.com
 grafana-external.quera-prod-awsue1.quera.streaming.datastax.com
 grafana-prod.metrics.infra.datastax.com
+grafana-test.metrics.infra.datastax.com
 grafana.aws-apsouth1.streaming.datastax.com
 grafana.aws-apsoutheast1.streaming.datastax.com
 grafana.aws-eucentral1.streaming.datastax.com
@@ -12565,6 +12576,7 @@ ingestors-test.security.datastax.com
 ingmarie.security.datastax.com
 ingress-prime1-beta.security.datastax.com
 ingress.us-east-1.dev.apps.paas.datastax.com
+ingress.us-east-2.test.apps.paas.datastax.com
 inhealthgroup.security.datastax.com
 inhyd1-sls.security.datastax.com
 init-kt-prod.security.datastax.com
@@ -12676,6 +12688,7 @@ internal-videobucketalpha-awslb.security.datastax.com
 internal-wallet.security.datastax.com
 internal-ws-feed.security.datastax.com
 internal-wwwmiembros.security.datastax.com
+internal.dmc-us-east-1.infra.datastax.com
 internal.security.datastax.com
 internalalphadebug.security.datastax.com
 internalapi-vip-svnusers.security.datastax.com
@@ -14082,6 +14095,7 @@ kafka-kd-prod-aws-euwest3.security.datastax.com
 kafka-kd-prod-aws-euwest3.streaming.datastax.com
 kafka-kd-prod-aws-useast1.streaming.datastax.com
 kafka-kd-prod-aws-uswest2.streaming.datastax.com
+kafka-kd-prod-azure-centralus.streaming.datastax.com
 kafka-kd-prod-azure-eastus.streaming.datastax.com
 kafka-kd-prod-azure-westus2.streaming.datastax.com
 kafka-kd-uat-aws-euwest2.streaming.datastax.com
@@ -14305,6 +14319,9 @@ kt-carry.security.datastax.com
 kt-prod.security.datastax.com
 kt2lcjhphxpackage.security.datastax.com
 kuantan2.security.datastax.com
+kube-dash.ingress.us-east-2.dev.apps.paas.datastax.com
+kube-dash.prod.cloud-tools.datastax.com
+kube-dash.test.cloud-tools.datastax.com
 kube-test.security.datastax.com
 kuching2.security.datastax.com
 kuins.security.datastax.com
@@ -17095,6 +17112,7 @@ opp.security.datastax.com
 oppv01.security.datastax.com
 oprs.security.datastax.com
 ops-ldap3-pe1-prd.security.datastax.com
+opscenter-test.datastax.com
 opscenter.datastax.com
 opsinsight1.security.datastax.com
 opsmireworks.security.datastax.com
@@ -18250,6 +18268,10 @@ portal-orig.security.datastax.com
 portal-qa-od-directvcommercial.security.datastax.com
 portal-qa1-cmst5-lm01.security.datastax.com
 portal-test.security.datastax.com
+portal.ingress.us-east-2.dev.apps.paas.datastax.com
+portal.ingress.us-east-2.feat.apps.paas.datastax.com
+portal.ingress.us-east-2.prod.apps.paas.datastax.com
+portal.ingress.us-east-2.test.apps.paas.datastax.com
 portalbackups-www-test.security.datastax.com
 portalbin.security.datastax.com
 portalconfig-redirect.security.datastax.com
@@ -19230,6 +19252,7 @@ pulsar-console.kd-prod-aws-euwest2.streaming.datastax.com
 pulsar-console.kd-prod-aws-euwest3.streaming.datastax.com
 pulsar-console.kd-prod-aws-useast1.streaming.datastax.com
 pulsar-console.kd-prod-aws-uswest2.streaming.datastax.com
+pulsar-console.kd-prod-azure-centralus.streaming.datastax.com
 pulsar-console.kd-prod-azure-eastus.streaming.datastax.com
 pulsar-console.kd-prod-azure-westus2.streaming.datastax.com
 pulsar-console.kd-uat-aws-euwest2.streaming.datastax.com
@@ -19243,6 +19266,7 @@ pulsar-console.pb-aws-euwest1.streaming.datastax.com
 pulsar-console.pb-dev-euwest1.streaming.datastax.com
 pulsar-console.pulsar-pf-gcp-euwest2.streaming.datastax.com
 pulsar-console.quera-int-awsue1.quera.streaming.datastax.com
+pulsar-console.quera-prod-awsue1.quera.streaming.datastax.com
 pulsar-ds-dev-aws-ue2.dev.streaming.datastax.com
 pulsar-ds-dev-aws-useast2.streaming.datastax.com
 pulsar-ds-prod-aws-useast2.streaming.datastax.com
@@ -19639,6 +19663,7 @@ r65.security.datastax.com
 r8eeddaskxnz1grm.security.datastax.com
 r8nz.security.datastax.com
 ra2.security.datastax.com
+rabbitmq-aws-ap-southeast-2.streaming.datastax.com
 rabbitmq-aws-apsouth1.streaming.datastax.com
 rabbitmq-aws-apsoutheast1.streaming.datastax.com
 rabbitmq-aws-eucentral1.streaming.datastax.com
@@ -19918,6 +19943,7 @@ refund-cprfap.security.datastax.com
 refund-prdws.security.datastax.com
 regentedu.security.datastax.com
 regenthelpdesk.security.datastax.com
+regionalmaintenance.astra.datastax.com
 registernew-uat.security.datastax.com
 registration-int.security.datastax.com
 registro-sykrayo.security.datastax.com
@@ -22717,7 +22743,9 @@ sunshieurstyle.security.datastax.com
 super-portal.security.datastax.com
 supercanal-tv-ar.security.datastax.com
 supercharging.security.datastax.com
+superset-dev.insights.datastax.com
 superset-next.security.datastax.com
+superset-test.insights.datastax.com
 supor.security.datastax.com
 supplier-qa.security.datastax.com
 suppliermergestgws.security.datastax.com
@@ -23516,6 +23544,7 @@ toolbox01.security.datastax.com
 toolkit.security.datastax.com
 tools-catalog.security.datastax.com
 tools-dev.security.datastax.com
+tools.paas.datastax.com
 toolsfe-ebill.security.datastax.com
 topaces-ecm.security.datastax.com
 topgolf.security.datastax.com
@@ -27927,6 +27956,7 @@ zzb.security.datastax.com
 9cb1.security.datastax.com
 9d35.security.datastax.com
 9e.security.datastax.com
+9fd1f53d-68ba-4b9e-b81b-523f1a65fb18-us-east-1.dashboard.astra-dev.datastax.com
 9fd1f53d-68ba-4b9e-b81b-523f1a65fb18-us-east-1.db.astra-dev.datastax.com
 9jzwokm2l.security.datastax.com
 9mistakes.security.datastax.com
