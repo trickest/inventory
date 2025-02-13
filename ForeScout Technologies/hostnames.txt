@@ -54,6 +54,7 @@ ca-sharepoint1.fsd.forescout.com
 cab.fsd.forescout.com
 cacn.dev.cloud.forescout.com
 cacn.dev.internal.cloud.forescout.com
+cacn.stg.cloud.forescout.com
 cc.production.forescoutcloud.net
 chart-museum.fsd.forescout.com
 classification.iris.production.forescoutcloud.net
@@ -66,6 +67,7 @@ community.forescout.com
 compatibility.forescout.com
 confluence.fsd.forescout.com
 connect.forescout.com
+connectors.app.cloud.forescout.com
 contextmgractive.fscalab.forescout.com
 core.forescoutcloud.net
 csotool.acceptance.forescoutcloud.net
@@ -81,6 +83,7 @@ dal2-c-artf-stg.fsd.forescout.com
 dal2-c-fsct1.fsd.forescout.com
 dal2-e-bbkt1.fsd.forescout.com
 dal2-e-bitbkt.fsd.forescout.com
+dal2-jira-stg.fsd.forescout.com
 dapi-ingest-db06.forescoutcloud.net
 dapi-ingest.iris.testing.forescoutcloud.net
 dapi-query-db06.forescoutcloud.net
@@ -134,6 +137,14 @@ ds-stage.forescout.com
 ds.forescout.com
 eaus.app.cloud.forescout.com
 eaus.app.internal.cloud.forescout.com
+eaus.dapi-ingest.demo.cloud.forescout.com
+eaus.dapi-ingest.dev.cloud.forescout.com
+eaus.dapi-ingest.prod.cloud.forescout.com
+eaus.dapi-ingest.stg.cloud.forescout.com
+eaus.dapi-query.demo.cloud.forescout.com
+eaus.dapi-query.dev.cloud.forescout.com
+eaus.dapi-query.prod.cloud.forescout.com
+eaus.dapi-query.stg.cloud.forescout.com
 eaus.demo.cloud.forescout.com
 eaus.demo.internal.cloud.forescout.com
 eaus.dev.cloud.forescout.com
@@ -148,6 +159,8 @@ eng.forescoutcloud.net
 enterpriseenrollment.forescout.com
 enterpriseregistration.forescout.com
 es-eaus.dev.internal.cloud.forescout.com
+es-eaus.stg.internal.cloud.forescout.com
+es-ukso.internal.cloud.forescout.com
 eyeextend.acceptance.forescoutcloud.net
 eyeextend.development.forescoutcloud.net
 eyeextend.development.forescoutcloud.net.development.forescoutcloud.net
@@ -228,6 +241,7 @@ license2.forescout.com
 login.app.cloud.forescout.com
 login.demo.cloud.forescout.com
 login.dev.cloud.forescout.com
+login.stg.cloud.forescout.com
 logstash-props.device-cloud-dev.fsd.forescout.com
 logstash-props.device-cloud-qa.fsd.forescout.com
 logstash-props.devicecloud.acceptance.forescoutcloud.net
@@ -356,8 +370,11 @@ tlv1-bbkt-stg.fsd.forescout.com
 tlv1-bitbucket.fsd.forescout.com
 tor152-192-grc.as.forescout.com
 trainingsurvey.forescout.com
+trust.forescout.com
 tsimms.staging.forescoutcloud.net
 tunnel21.forescoutcloud.net
+ukso.app.cloud.forescout.com
+ukso.app.internal.cloud.forescout.com
 unified.dev2.eng.forescoutcloud.net
 unified.test.eng.forescoutcloud.net
 updates.forescout.com
@@ -408,12 +425,21 @@ www.dal2-bbkt-stg.fsd.forescout.com
 www.dal2-bitbucket-mirror.fsd.forescout.com
 www.dal2-c-artf-stg.fsd.forescout.com
 www.dal2-c-fsct1.fsd.forescout.com
+www.dal2-jira-stg.fsd.forescout.com
 www.datapod-1-ingest.forescoutcloud.net
 www.datapod-1-query.forescoutcloud.net
 www.dc-submission.forescout.com
 www.docs.forescout.com
 www.eaus.app.cloud.forescout.com
 www.eaus.app.internal.cloud.forescout.com
+www.eaus.dapi-ingest.demo.cloud.forescout.com
+www.eaus.dapi-ingest.dev.cloud.forescout.com
+www.eaus.dapi-ingest.prod.cloud.forescout.com
+www.eaus.dapi-ingest.stg.cloud.forescout.com
+www.eaus.dapi-query.demo.cloud.forescout.com
+www.eaus.dapi-query.dev.cloud.forescout.com
+www.eaus.dapi-query.prod.cloud.forescout.com
+www.eaus.dapi-query.stg.cloud.forescout.com
 www.eaus.demo.internal.cloud.forescout.com
 www.eaus.dev.internal.cloud.forescout.com
 www.eaus.stg.cloud.forescout.com
@@ -422,6 +448,8 @@ www.ein1-arti-prd.fsd.forescout.com
 www.ein1-arti-stg.fsd.forescout.com
 www.ein1-c-fsct1.fsd.forescout.com
 www.es-eaus.dev.internal.cloud.forescout.com
+www.es-eaus.stg.internal.cloud.forescout.com
+www.es-ukso.internal.cloud.forescout.com
 www.forescout.com
 www.fs-bitbucket.fsd.forescout.com
 www.fs-sra.forescout.com
@@ -466,6 +494,8 @@ www.tic.forescout.com
 www.tlv-guest.forescout.com
 www.tlv1-bbkt-stg.fsd.forescout.com
 www.trainingsurvey.forescout.com
+www.ukso.app.cloud.forescout.com
+www.ukso.app.internal.cloud.forescout.com
 www.updates.forescout.com
 www.upload-stg.forescout.com
 www.upload-test.forescout.com
